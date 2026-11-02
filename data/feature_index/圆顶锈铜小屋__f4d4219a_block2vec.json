@@ -1,0 +1,13 @@
+{
+  "id": "圆顶锈铜小屋__f4d4219a",
+  "dim": 144,
+  "n_chunks": 16,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "圆顶锈铜小屋__f4d4219a_block2vec.npy"
+}

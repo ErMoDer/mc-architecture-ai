@@ -1,0 +1,288 @@
+{
+  "id": "lV7IDIaIVH-192k_20sand_20duper_20for_201_18_2_20bread_20bread_20bread_20bread_20bread",
+  "source_path": "data\\raw\\hack337\\schematics\\lV7IDIaIVH-192k%20sand%20duper%20for%201.18.2%20bread%20bread%20bread%20bread%20bread.litematic",
+  "created_at": "2026-10-18T22:26:30+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 15,
+      "y": 13,
+      "z": 15
+    },
+    "non_air": 759,
+    "density": 0.2595,
+    "unique_block_types": 25
+  },
+  "massing": {
+    "hollow_score": 0.6514,
+    "interior_air_frac": 0.6514,
+    "exterior_solid_frac": 0.0379,
+    "floor_guess": 3,
+    "y_peaks": [
+      1,
+      5,
+      10
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 4,
+      "glass": 92,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 71,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5633,
+      "symmetry_z": 0.5474,
+      "symmetry_y": 0.3517
+    },
+    "solid_ratio": 0.2595
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "sand",
+        "count": 144,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_stained_glass",
+        "count": 92,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_concrete",
+        "count": 71,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 59,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 59,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "activator_rail",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "target",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "note_block",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "composter",
+        "count": 8,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 71,
+      "wool": 0,
+      "glass": 92,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 144,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 10
+    },
+    "remap_targets": [
+      "sand",
+      "yellow_stained_glass",
+      "yellow_concrete",
+      "redstone_wire",
+      "observer",
+      "slime_block",
+      "obsidian",
+      "piston",
+      "sticky_piston",
+      "redstone_block",
+      "activator_rail",
+      "repeater"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "desert",
+    "style_id": 8,
+    "terrain_id": 5,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "industrial",
+      "desert",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.523,
+        "raw_score": 0.173,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.417,
+        "raw_score": 0.1455
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.177,
+        "raw_score": 0.0723
+      },
+      {
+        "style": "desert",
+        "confidence": 0.134,
+        "raw_score": 0.0568
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.111,
+        "raw_score": 0.0484
+      }
+    ]
+  },
+  "redstone": {
+    "total": 381,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "sticky_piston_pair",
+      "simple_io",
+      "observer_clock",
+      "target_block_line",
+      "flying_machine",
+      "torch_clock",
+      "edge_detector",
+      "note_block_line",
+      "hopper_clock",
+      "t_flip_flop",
+      "monostable",
+      "zero_tick_bud_freerun",
+      "torch_logic_lattice",
+      "torch_xor_gate",
+      "portal_frame_cue"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "粘性活塞对（换块/门）",
+      "杠杆/按钮 → 灯或门",
+      "观察者相邻时钟嫌疑",
+      "标靶方块线路",
+      "飞船/飞行器骨架",
+      "火把钟骨架",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "火把逻辑阵（AND/OR/NOR/XOR）嫌疑",
+      "火把 XOR/同或门嫌疑",
+      "传送门框/黑曜石阵嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 59,
+      "redstone_torch": 4,
+      "redstone_block": 30,
+      "repeater": 12,
+      "comparator": 8,
+      "lever": 1,
+      "piston": 48,
+      "sticky_piston": 43,
+      "observer": 59,
+      "hopper": 2,
+      "dropper": 1,
+      "note_block": 9,
+      "target": 12,
+      "redstone_lamp": 1,
+      "trapdoor": 4,
+      "activator_rail": 24,
+      "piston_head": 12,
+      "slime_block": 52
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\lV7IDIaIVH-192k_20sand_20duper_20for_201_18_2_20bread_20bread_20bread_20bread_20bread_skeleton.npz",
+    "occupancy_frac": 0.259857177734375,
+    "occupied": 8515
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "demoted_from_industrial:duper",
+  "previous_mapped_style": "industrial"
+}

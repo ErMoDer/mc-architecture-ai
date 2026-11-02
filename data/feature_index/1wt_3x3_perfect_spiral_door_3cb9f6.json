@@ -1,0 +1,208 @@
+{
+  "id": "1wt_3x3_perfect_spiral_door_3cb9f6",
+  "source_path": "data\\raw\\hack337\\schematics\\1wt_3x3_perfect_spiral_door_3cb9f6.litematic",
+  "created_at": "2026-10-18T22:24:54+08:00",
+  "overview": {
+    "schematic_name": "1wt 3x3 perfect spiral door",
+    "size": {
+      "x": 1,
+      "y": 10,
+      "z": 9
+    },
+    "non_air": 59,
+    "density": 0.6556,
+    "unique_block_types": 10
+  },
+  "massing": {
+    "hollow_score": 0.0,
+    "interior_air_frac": 0.34444444444444444,
+    "exterior_solid_frac": 0.6555555555555556,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      3,
+      7
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 8,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 1.0,
+      "symmetry_z": 0.8154,
+      "symmetry_y": 0.5946
+    },
+    "solid_ratio": 0.6556
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "quartz_block",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_wool",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "note_block",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "diamond_block",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 8,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "quartz_block",
+      "observer",
+      "sticky_piston",
+      "light_blue_wool",
+      "powered_rail",
+      "note_block",
+      "piston",
+      "lever",
+      "diamond_block",
+      "repeater"
+    ]
+  },
+  "style": {
+    "mapped_style": "rustic",
+    "mapped_terrain": "flat",
+    "style_id": 6,
+    "terrain_id": 0,
+    "guess_names": [
+      "fantasy",
+      "rustic",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.517,
+        "raw_score": 0.1667,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.181,
+        "raw_score": 0.0714
+      },
+      {
+        "style": "modern",
+        "confidence": 0.135,
+        "raw_score": 0.0556
+      }
+    ]
+  },
+  "redstone": {
+    "total": 35,
+    "pattern_ids": [
+      "piston_door",
+      "simple_io",
+      "observer_clock",
+      "edge_detector",
+      "note_block_line",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "杠杆/按钮 → 灯或门",
+      "观察者相邻时钟嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "repeater": 1,
+      "lever": 1,
+      "piston": 3,
+      "sticky_piston": 10,
+      "observer": 13,
+      "note_block": 3,
+      "powered_rail": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\1wt_3x3_perfect_spiral_door_3cb9f6_skeleton.npz",
+    "occupancy_frac": 0.654296875,
+    "occupied": 21440
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

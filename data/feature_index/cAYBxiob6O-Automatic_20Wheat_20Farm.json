@@ -1,0 +1,208 @@
+{
+  "id": "cAYBxiob6O-Automatic_20Wheat_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\cAYBxiob6O-Automatic%20Wheat%20Farm.litematic",
+  "created_at": "2026-10-18T22:25:51+08:00",
+  "overview": {
+    "schematic_name": "Automatic Wheat Farm",
+    "size": {
+      "x": 10,
+      "y": 3,
+      "z": 10
+    },
+    "non_air": 210,
+    "density": 0.7,
+    "unique_block_types": 10
+  },
+  "massing": {
+    "hollow_score": 0.125,
+    "interior_air_frac": 0.125,
+    "exterior_solid_frac": 0.5133,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 8,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 20,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8584,
+      "symmetry_z": 0.9091,
+      "symmetry_y": 0.4384
+    },
+    "solid_ratio": 0.7
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "farmland",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "wheat",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 20,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 8
+    },
+    "remap_targets": [
+      "farmland",
+      "wheat",
+      "dirt",
+      "oak_planks",
+      "redstone_wire",
+      "hopper",
+      "chest",
+      "dispenser",
+      "oak_stairs",
+      "repeater"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5792,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.631,
+        "raw_score": 0.4545
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.552,
+        "raw_score": 0.4167
+      },
+      {
+        "style": "western",
+        "confidence": 0.552,
+        "raw_score": 0.4167
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.163,
+        "raw_score": 0.1786
+      }
+    ]
+  },
+  "redstone": {
+    "total": 34,
+    "pattern_ids": [
+      "qc_piston_bank"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 17,
+      "repeater": 1,
+      "hopper": 8,
+      "dispenser": 8
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\cAYBxiob6O-Automatic_20Wheat_20Farm_skeleton.npz",
+    "occupancy_frac": 0.731903076171875,
+    "occupied": 23983
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

@@ -1,0 +1,231 @@
+{
+  "id": "454VViYbmB-Giant_Bookshelf",
+  "source_path": "data\\raw\\hack337\\schematics\\454VViYbmB-Giant_Bookshelf.litematic",
+  "created_at": "2026-10-18T22:25:08+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 18,
+      "y": 17,
+      "z": 18
+    },
+    "non_air": 1412,
+    "density": 0.2564,
+    "unique_block_types": 22
+  },
+  "massing": {
+    "hollow_score": 1.0,
+    "interior_air_frac": 1.0,
+    "exterior_solid_frac": 0.2564,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      16
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 416,
+      "planks": 292,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 144,
+      "concrete": 444,
+      "wool": 116,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 1.0,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.693
+    },
+    "solid_ratio": 0.2564
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_oak_wood",
+        "count": 352,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 192,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 132,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_terracotta",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "red_concrete",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_concrete",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_wool",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_terracotta",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_concrete_powder",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "red_wool",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "green_concrete_powder",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_concrete",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_wool",
+        "count": 20,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 708,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 144,
+      "concrete": 444,
+      "wool": 116,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stripped_oak_wood",
+      "oak_planks",
+      "black_concrete",
+      "spruce_planks",
+      "brown_terracotta",
+      "red_concrete",
+      "stripped_spruce_wood",
+      "light_blue_concrete",
+      "brown_wool",
+      "lime_terracotta",
+      "blue_concrete_powder",
+      "red_wool"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "western",
+      "japanese",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.678,
+        "raw_score": 0.3282,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.65,
+        "raw_score": 0.3191
+      },
+      {
+        "style": "western",
+        "confidence": 0.622,
+        "raw_score": 0.3095
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.573,
+        "raw_score": 0.2925
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.207,
+        "raw_score": 0.139
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\454VViYbmB-Giant_Bookshelf_skeleton.npz",
+    "occupancy_frac": 0.204376220703125,
+    "occupied": 6697
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

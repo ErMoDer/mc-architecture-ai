@@ -1,0 +1,236 @@
+{
+  "id": "wkKnnHhhEM-34x3x21_20Decorative_20Wall",
+  "source_path": "data\\raw\\hack337\\schematics\\wkKnnHhhEM-34x3x21%20Decorative%20Wall.litematic",
+  "created_at": "2026-10-18T22:27:17+08:00",
+  "overview": {
+    "schematic_name": "34x3x21 Decorative Wall",
+    "size": {
+      "x": 34,
+      "y": 21,
+      "z": 3
+    },
+    "non_air": 1414,
+    "density": 0.6601,
+    "unique_block_types": 14
+  },
+  "massing": {
+    "hollow_score": 0.2928,
+    "interior_air_frac": 0.2928,
+    "exterior_solid_frac": 0.4594,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      7,
+      14,
+      20
+    ],
+    "families": {
+      "stairs": 312,
+      "slabs": 16,
+      "walls": 10,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 1026,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 368
+    },
+    "symmetry": {
+      "symmetry_x": 0.9944,
+      "symmetry_z": 0.9915,
+      "symmetry_y": 0.8082
+    },
+    "solid_ratio": 0.6601
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "deepslate_bricks",
+        "count": 434,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_wart_block",
+        "count": 240,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate",
+        "count": 176,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 170,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_stairs",
+        "count": 152,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone_stairs",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_stairs",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_wall",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone_slab",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_slab",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 128,
+      "deepslate": 1026,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 240,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "deepslate_bricks",
+      "nether_wart_block",
+      "polished_deepslate",
+      "deepslate_tiles",
+      "polished_deepslate_stairs",
+      "blackstone_stairs",
+      "deepslate_brick_stairs",
+      "blackstone",
+      "torch",
+      "polished_deepslate_wall",
+      "blackstone_slab",
+      "polished_deepslate_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "european",
+    "mapped_terrain": "flat",
+    "style_id": 4,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "modern",
+      "european",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.467,
+        "raw_score": 0.1175,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "modern",
+        "confidence": 0.301,
+        "raw_score": 0.0818
+      },
+      {
+        "style": "european",
+        "confidence": 0.13,
+        "raw_score": 0.0394
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.073,
+        "raw_score": 0.023
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\wkKnnHhhEM-34x3x21_20Decorative_20Wall_skeleton.npz",
+    "occupancy_frac": 0.67138671875,
+    "occupied": 22000
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 9,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\wkKnnHhhEM-34x3x21_20Decorative_20Wall_block2vec.npy",
+    "vector_preview": [
+      -0.01677,
+      0.15487,
+      -0.02759,
+      -0.09653,
+      -0.00152,
+      0.06372,
+      0.04275,
+      0.08518
+    ],
+    "ok": true
+  }
+}

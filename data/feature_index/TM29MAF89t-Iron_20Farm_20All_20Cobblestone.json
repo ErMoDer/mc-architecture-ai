@@ -1,0 +1,230 @@
+{
+  "id": "TM29MAF89t-Iron_20Farm_20All_20Cobblestone",
+  "source_path": "data\\raw\\hack337\\schematics\\TM29MAF89t-Iron%20Farm%20All%20Cobblestone.litematic",
+  "created_at": "2026-10-18T22:27:12+08:00",
+  "overview": {
+    "schematic_name": "Iron Farm All Cobblestone",
+    "size": {
+      "x": 54,
+      "y": 43,
+      "z": 57
+    },
+    "non_air": 3837,
+    "density": 0.029,
+    "unique_block_types": 14
+  },
+  "massing": {
+    "hollow_score": 0.9673,
+    "interior_air_frac": 0.9673,
+    "exterior_solid_frac": 0.0,
+    "floor_guess": 3,
+    "y_peaks": [
+      16,
+      21,
+      30
+    ],
+    "families": {
+      "stairs": 152,
+      "slabs": 112,
+      "walls": 188,
+      "fences": 76,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 65,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 4
+    },
+    "symmetry": {
+      "symmetry_x": 0.7183,
+      "symmetry_z": 0.999,
+      "symmetry_y": 0.189
+    },
+    "solid_ratio": 0.029
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cobblestone",
+        "count": 1692,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 1436,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 188,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 152,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence_gate",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "white_bed",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "soul_sand",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "bubble_column",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 2144,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 65,
+      "nether": 4,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 18
+    },
+    "remap_targets": [
+      "cobblestone",
+      "water",
+      "cobblestone_wall",
+      "cobblestone_stairs",
+      "cobblestone_slab",
+      "oak_fence_gate",
+      "glass",
+      "white_bed",
+      "chest",
+      "hopper",
+      "oak_wall_sign",
+      "lava"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.766,
+        "raw_score": 0.416,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.65,
+        "raw_score": 0.3737
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.351,
+        "raw_score": 0.2451
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.22,
+        "raw_score": 0.1747
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.196,
+        "raw_score": 0.1602
+      }
+    ]
+  },
+  "redstone": {
+    "total": 94,
+    "pattern_ids": [
+      "hopper_line"
+    ],
+    "pattern_labels": [
+      "漏斗输送线"
+    ],
+    "inventory_nonzero": {
+      "hopper": 18,
+      "fence_gate": 76
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\TM29MAF89t-Iron_20Farm_20All_20Cobblestone_skeleton.npz",
+    "occupancy_frac": 0.045135498046875,
+    "occupied": 1479
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

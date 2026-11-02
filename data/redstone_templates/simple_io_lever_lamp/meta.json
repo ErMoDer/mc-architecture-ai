@@ -1,0 +1,15 @@
+{
+  "id": "simple_io_lever_lamp",
+  "matches": [
+    "simple_io",
+    "lamp_line",
+    "door_line"
+  ],
+  "label_zh": "杠杆→粉尘→红石灯",
+  "size": [
+    3,
+    1,
+    1
+  ],
+  "notes": "最简 IO 示意；门线可把灯换成铁门（本模板保留灯）。"
+}

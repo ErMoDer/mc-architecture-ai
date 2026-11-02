@@ -1,0 +1,230 @@
+{
+  "id": "667wWGx1C7-Small_20Oak_20Tree_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\667wWGx1C7-Small%20Oak%20Tree%20Farm.litematic",
+  "created_at": "2026-10-18T22:25:19+08:00",
+  "overview": {
+    "schematic_name": "Small Oak Tree Farm",
+    "size": {
+      "x": 29,
+      "y": 13,
+      "z": 29
+    },
+    "non_air": 1805,
+    "density": 0.1651,
+    "unique_block_types": 14
+  },
+  "massing": {
+    "hollow_score": 0.9115,
+    "interior_air_frac": 0.9115,
+    "exterior_solid_frac": 0.1002,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 48,
+      "slabs": 108,
+      "walls": 0,
+      "fences": 84,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 44,
+      "planks": 1,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 477,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.84,
+      "symmetry_z": 0.8465,
+      "symmetry_y": 0.0491
+    },
+    "solid_ratio": 0.1651
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt_path",
+        "count": 540,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 477,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 225,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "petrified_oak_slab",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence_gate",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "shroomlight",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_lamp",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "daylight_detector",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 45,
+      "stone": 113,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 477,
+      "metal": 0
+    },
+    "remap_targets": [
+      "dirt_path",
+      "oak_leaves",
+      "dirt",
+      "grass_block",
+      "petrified_oak_slab",
+      "oak_fence_gate",
+      "cobblestone",
+      "cobblestone_stairs",
+      "oak_log",
+      "shroomlight",
+      "redstone_lamp",
+      "daylight_detector"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "japanese",
+      "chinese",
+      "fantasy",
+      "rustic",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "japanese",
+        "confidence": 0.609,
+        "raw_score": 0.2588,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.466,
+        "raw_score": 0.214
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.389,
+        "raw_score": 0.1874
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.364,
+        "raw_score": 0.1783
+      },
+      {
+        "style": "european",
+        "confidence": 0.146,
+        "raw_score": 0.0864
+      }
+    ]
+  },
+  "redstone": {
+    "total": 140,
+    "pattern_ids": [
+      "daylight_detector_clock"
+    ],
+    "pattern_labels": [
+      "日光传感器钟/昼夜控制"
+    ],
+    "inventory_nonzero": {
+      "redstone_lamp": 28,
+      "fence_gate": 84,
+      "daylight_detector": 28
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\667wWGx1C7-Small_20Oak_20Tree_20Farm_skeleton.npz",
+    "occupancy_frac": 0.17559814453125,
+    "occupied": 5754
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

@@ -1,0 +1,207 @@
+{
+  "id": "27b010224f0a_CocaCola_20vending_20machine",
+  "source_path": "data\\raw\\hack337\\schematics\\27b010224f0a_CocaCola%20vending%20machine.litematic",
+  "created_at": "2026-10-18T22:24:57+08:00",
+  "overview": {
+    "schematic_name": "CocaCola vending machine",
+    "size": {
+      "x": 27,
+      "y": 43,
+      "z": 20
+    },
+    "non_air": 4507,
+    "density": 0.1941,
+    "unique_block_types": 10
+  },
+  "massing": {
+    "hollow_score": 0.9778,
+    "interior_air_frac": 0.9778,
+    "exterior_solid_frac": 0.1764,
+    "floor_guess": 14,
+    "y_peaks": [
+      0,
+      3,
+      6,
+      10,
+      13,
+      16,
+      19,
+      22,
+      25,
+      28,
+      31,
+      34,
+      37,
+      42
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 49,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 9,
+      "concrete": 4055,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 394
+    },
+    "symmetry": {
+      "symmetry_x": 0.7727,
+      "symmetry_z": 0.7483,
+      "symmetry_y": 0.7825
+    },
+    "solid_ratio": 0.1941
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "red_concrete",
+        "count": 2671,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 1114,
+        "frac": 0.0
+      },
+      {
+        "name": "red_nether_bricks",
+        "count": 394,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 241,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_planks",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_concrete",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_terracotta",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_concrete",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_concrete",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_concrete",
+        "count": 6,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 49,
+      "stone": 394,
+      "deepslate": 0,
+      "terracotta": 9,
+      "concrete": 4055,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "red_concrete",
+      "black_concrete",
+      "red_nether_bricks",
+      "white_concrete",
+      "mangrove_planks",
+      "light_gray_concrete",
+      "gray_terracotta",
+      "lime_concrete",
+      "orange_concrete",
+      "purple_concrete"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "industrial",
+      "scifi",
+      "european",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.7,
+        "raw_score": 0.3499,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.433,
+        "raw_score": 0.2516
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.405,
+        "raw_score": 0.2399
+      },
+      {
+        "style": "european",
+        "confidence": 0.05,
+        "raw_score": 0.039
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.05,
+        "raw_score": 0.0364
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\27b010224f0a_CocaCola_20vending_20machine_skeleton.npz",
+    "occupancy_frac": 0.20770263671875,
+    "occupied": 6806
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

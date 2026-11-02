@@ -1,0 +1,242 @@
+{
+  "id": "119b58666bee_super_20kelp_20farm",
+  "source_path": "data\\raw\\hack337\\schematics\\119b58666bee_super%20kelp%20farm.litematic",
+  "created_at": "2026-10-18T22:24:49+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 16,
+      "y": 5,
+      "z": 7
+    },
+    "non_air": 330,
+    "density": 0.5893,
+    "unique_block_types": 13
+  },
+  "massing": {
+    "hollow_score": 0.3571,
+    "interior_air_frac": 0.3571,
+    "exterior_solid_frac": 0.3482,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 23,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 38,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 97,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3095,
+      "symmetry_z": 0.9643,
+      "symmetry_y": 0.7054
+    },
+    "solid_ratio": 0.5893
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "blue_concrete",
+        "count": 97,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence_gate",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "kelp",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "kelp_plant",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 97,
+      "wool": 0,
+      "glass": 38,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "blue_concrete",
+      "redstone_wire",
+      "water",
+      "glass",
+      "oak_fence_gate",
+      "repeater",
+      "piston",
+      "observer",
+      "dispenser",
+      "kelp",
+      "kelp_plant",
+      "comparator"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "industrial",
+      "fantasy",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.708,
+        "raw_score": 0.3576,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.46,
+        "raw_score": 0.2667
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.29,
+        "raw_score": 0.1916
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.052,
+        "raw_score": 0.0469
+      },
+      {
+        "style": "european",
+        "confidence": 0.05,
+        "raw_score": 0.0402
+      }
+    ]
+  },
+  "redstone": {
+    "total": 138,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "observer_clock",
+      "pulse_limiter",
+      "edge_detector",
+      "zero_tick_bud_freerun",
+      "dual_edge_repeater"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "观察者相邻时钟嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "双沿/对向中继器线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 48,
+      "repeater": 18,
+      "comparator": 1,
+      "lever": 1,
+      "piston": 16,
+      "observer": 16,
+      "dispenser": 15,
+      "fence_gate": 23
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\119b58666bee_super_20kelp_20farm_skeleton.npz",
+    "occupancy_frac": 0.5953369140625,
+    "occupied": 19508
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "demoted_from_industrial:farm",
+  "previous_mapped_style": "industrial"
+}

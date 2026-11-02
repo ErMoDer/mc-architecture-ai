@@ -1,0 +1,273 @@
+{
+  "id": "44b204fdcc39_Melon_20Farms",
+  "source_path": "data\\raw\\hack337\\schematics\\44b204fdcc39_Melon%20Farms.litematic",
+  "created_at": "2026-10-18T22:25:08+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 11,
+      "y": 30,
+      "z": 23
+    },
+    "non_air": 2871,
+    "density": 0.3783,
+    "unique_block_types": 25
+  },
+  "massing": {
+    "hollow_score": 0.4926,
+    "interior_air_frac": 0.4926,
+    "exterior_solid_frac": 0.0245,
+    "floor_guess": 8,
+    "y_peaks": [
+      0,
+      5,
+      8,
+      11,
+      16,
+      19,
+      23,
+      26
+    ],
+    "families": {
+      "stairs": 812,
+      "slabs": 209,
+      "walls": 0,
+      "fences": 156,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 49,
+      "logs": 56,
+      "planks": 0,
+      "stone_bricks": 1555,
+      "deepslate": 0,
+      "terracotta": 253,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 430
+    },
+    "symmetry": {
+      "symmetry_x": 0.8252,
+      "symmetry_z": 0.9938,
+      "symmetry_y": 0.4529
+    },
+    "solid_ratio": 0.3783
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 808,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 684,
+        "frac": 0.0
+      },
+      {
+        "name": "red_terracotta",
+        "count": 253,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 164,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_brick_fence",
+        "count": 156,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_brick_slab",
+        "count": 146,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_brick_stairs",
+        "count": 128,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_lamp",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "melon_stem",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 30,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 56,
+      "stone": 1985,
+      "deepslate": 0,
+      "terracotta": 253,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 49,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 8
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "stone_brick_stairs",
+      "red_terracotta",
+      "redstone_wall_torch",
+      "nether_brick_fence",
+      "nether_brick_slab",
+      "nether_brick_stairs",
+      "farmland",
+      "dirt",
+      "piston",
+      "redstone_lamp",
+      "stone_brick_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.844,
+        "raw_score": 0.4944,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.744,
+        "raw_score": 0.4564
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.254,
+        "raw_score": 0.2205
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.177,
+        "raw_score": 0.1687
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.158,
+        "raw_score": 0.1546
+      }
+    ]
+  },
+  "redstone": {
+    "total": 325,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "hopper_line",
+      "simple_io",
+      "daylight_detector_clock",
+      "item_elevator",
+      "monostable",
+      "torch_logic_lattice",
+      "dual_edge_repeater",
+      "water_hopper_stream",
+      "falling_edge",
+      "torch_xor_gate"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "漏斗输送线",
+      "杠杆/按钮 → 灯或门",
+      "日光传感器钟/昼夜控制",
+      "物品升降机嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "火把逻辑阵（AND/OR/NOR/XOR）嫌疑",
+      "双沿/对向中继器线嫌疑",
+      "水流漏斗收集线嫌疑",
+      "下降沿/双火把脉冲嫌疑",
+      "火把 XOR/同或门嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 10,
+      "redstone_torch": 164,
+      "repeater": 8,
+      "lever": 2,
+      "piston": 64,
+      "sticky_piston": 2,
+      "hopper": 8,
+      "redstone_lamp": 64,
+      "daylight_detector": 1,
+      "piston_head": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\44b204fdcc39_Melon_20Farms_skeleton.npz",
+    "occupancy_frac": 0.36260986328125,
+    "occupied": 11882
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "斜式二层木屋__8a2d3b9d",
+  "dim": 144,
+  "n_chunks": 3,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "斜式二层木屋__8a2d3b9d_block2vec.npy"
+}

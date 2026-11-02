@@ -1,0 +1,258 @@
+{
+  "id": "b53739309bc6_ironfarm",
+  "source_path": "data\\raw\\hack337\\schematics\\b53739309bc6_ironfarm.litematic",
+  "created_at": "2026-10-18T22:25:44+08:00",
+  "overview": {
+    "schematic_name": "min järnfarm",
+    "size": {
+      "x": 19,
+      "y": 29,
+      "z": 19
+    },
+    "non_air": 1977,
+    "density": 0.1888,
+    "unique_block_types": 45
+  },
+  "massing": {
+    "hollow_score": 0.7723,
+    "interior_air_frac": 0.7723,
+    "exterior_solid_frac": 0.0191,
+    "floor_guess": 7,
+    "y_peaks": [
+      0,
+      5,
+      10,
+      13,
+      17,
+      21,
+      24
+    ],
+    "families": {
+      "stairs": 420,
+      "slabs": 173,
+      "walls": 2,
+      "fences": 18,
+      "doors": 2,
+      "trapdoors": 98,
+      "glass": 10,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 416,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 16,
+      "leaves": 19,
+      "lanterns": 12,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9574,
+      "symmetry_z": 0.979,
+      "symmetry_y": 0.2026
+    },
+    "solid_ratio": 0.1888
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "mud_bricks",
+        "count": 340,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_tuff",
+        "count": 196,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 185,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_stairs",
+        "count": 136,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_trapdoor",
+        "count": 98,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_mud",
+        "count": 92,
+        "frac": 0.0
+      },
+      {
+        "name": "mud_brick_stairs",
+        "count": 87,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 85,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_stairs",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_tuff_slab",
+        "count": 69,
+        "frac": 0.0
+      },
+      {
+        "name": "mud_brick_slab",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_button",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_bricks",
+        "count": 36,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 1056,
+      "deepslate": 416,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 16,
+      "glass": 10,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 19,
+      "metal": 17
+    },
+    "remap_targets": [
+      "mud_bricks",
+      "polished_tuff",
+      "bricks",
+      "deepslate_brick_stairs",
+      "deepslate_tile_stairs",
+      "water",
+      "jungle_trapdoor",
+      "packed_mud",
+      "mud_brick_stairs",
+      "deepslate_bricks",
+      "brick_stairs",
+      "polished_tuff_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "european",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.648,
+        "raw_score": 0.2978,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.642,
+        "raw_score": 0.296
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.313,
+        "raw_score": 0.177
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.204,
+        "raw_score": 0.1274
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.185,
+        "raw_score": 0.1178
+      }
+    ]
+  },
+  "redstone": {
+    "total": 201,
+    "pattern_ids": [
+      "hopper_line",
+      "simple_io",
+      "door_line",
+      "item_elevator"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线",
+      "物品升降机嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_block": 1,
+      "lever": 1,
+      "button": 64,
+      "pressure_plate": 1,
+      "hopper": 17,
+      "door": 2,
+      "trapdoor": 98,
+      "fence_gate": 12,
+      "powered_rail": 4,
+      "rail": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\b53739309bc6_ironfarm_skeleton.npz",
+    "occupancy_frac": 0.19464111328125,
+    "occupied": 6378
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

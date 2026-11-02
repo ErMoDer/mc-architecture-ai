@@ -1,0 +1,249 @@
+{
+  "id": "ZHtB5AmZl8-millennium_20falcon_20no_20interior_20by_20lego_20flame",
+  "source_path": "data\\raw\\hack337\\schematics\\ZHtB5AmZl8-millennium%20falcon%20no%20interior%20by%20lego%20flame.litematic",
+  "created_at": "2026-10-18T22:27:24+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 30,
+      "y": 12,
+      "z": 43
+    },
+    "non_air": 2110,
+    "density": 0.1363,
+    "unique_block_types": 46
+  },
+  "massing": {
+    "hollow_score": 0.8218,
+    "interior_air_frac": 0.8218,
+    "exterior_solid_frac": 0.0041,
+    "floor_guess": 2,
+    "y_peaks": [
+      4,
+      8
+    ],
+    "families": {
+      "stairs": 301,
+      "slabs": 788,
+      "walls": 10,
+      "fences": 0,
+      "doors": 4,
+      "trapdoors": 27,
+      "glass": 14,
+      "logs": 9,
+      "planks": 0,
+      "stone_bricks": 146,
+      "deepslate": 89,
+      "terracotta": 0,
+      "concrete": 60,
+      "wool": 270,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 1,
+      "nether": 47
+    },
+    "symmetry": {
+      "symmetry_x": 0.3204,
+      "symmetry_z": 0.0735,
+      "symmetry_y": 0.5853
+    },
+    "solid_ratio": 0.1363
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_slab",
+        "count": 610,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_wool",
+        "count": 213,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 194,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 154,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_stairs",
+        "count": 135,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 101,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite_slab",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_concrete",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_shulker_box",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "glow_lichen",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_carpet",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_slab",
+        "count": 33,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite_stairs",
+        "count": 27,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 9,
+      "stone": 1442,
+      "deepslate": 89,
+      "terracotta": 0,
+      "concrete": 60,
+      "wool": 270,
+      "glass": 14,
+      "nether": 22,
+      "copper": 1,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 31
+    },
+    "remap_targets": [
+      "stone_slab",
+      "light_gray_wool",
+      "andesite",
+      "stone",
+      "stone_stairs",
+      "stone_brick_stairs",
+      "polished_andesite_slab",
+      "light_gray_concrete",
+      "light_gray_shulker_box",
+      "glow_lichen",
+      "light_gray_carpet",
+      "smooth_stone"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.694,
+        "raw_score": 0.3442,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.618,
+        "raw_score": 0.3185
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.345,
+        "raw_score": 0.2116
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.196,
+        "raw_score": 0.1382
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.176,
+        "raw_score": 0.1267
+      }
+    ]
+  },
+  "redstone": {
+    "total": 150,
+    "pattern_ids": [
+      "door_line",
+      "simple_io",
+      "daylight_detector_clock",
+      "instant_wire",
+      "dual_edge_repeater"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "日光传感器钟/昼夜控制",
+      "瞬间线/同向中继器线嫌疑",
+      "双沿/对向中继器线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "repeater": 5,
+      "comparator": 2,
+      "lever": 30,
+      "button": 12,
+      "pressure_plate": 11,
+      "iron_door": 4,
+      "trapdoor": 27,
+      "daylight_detector": 1,
+      "shulker_box": 58
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\ZHtB5AmZl8-millennium_20falcon_20no_20interior_20by_20lego_20flame_skeleton.npz",
+    "occupancy_frac": 0.146881103515625,
+    "occupied": 4813
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

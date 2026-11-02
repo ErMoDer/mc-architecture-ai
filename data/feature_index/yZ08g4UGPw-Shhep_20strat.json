@@ -1,0 +1,172 @@
+{
+  "id": "yZ08g4UGPw-Shhep_20strat",
+  "source_path": "data\\raw\\hack337\\schematics\\yZ08g4UGPw-Shhep%20strat.litematic",
+  "created_at": "2026-10-18T22:27:23+08:00",
+  "overview": {
+    "schematic_name": "Shhep strat",
+    "size": {
+      "x": 6,
+      "y": 8,
+      "z": 5
+    },
+    "non_air": 91,
+    "density": 0.3792,
+    "unique_block_types": 6
+  },
+  "massing": {
+    "hollow_score": 0.3889,
+    "interior_air_frac": 0.3889,
+    "exterior_solid_frac": 0.1958,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      3,
+      6
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 3,
+      "concrete": 7,
+      "wool": 51,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5167,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.3788
+    },
+    "solid_ratio": 0.3792
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "white_wool",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "white_terracotta",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_concrete",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 3,
+      "concrete": 7,
+      "wool": 51,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "white_wool",
+      "grass_block",
+      "black_concrete",
+      "dirt",
+      "white_terracotta",
+      "pink_concrete"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "fantasy",
+      "modern",
+      "rustic",
+      "industrial",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.489,
+        "raw_score": 0.1393,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "modern",
+        "confidence": 0.288,
+        "raw_score": 0.0911
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.176,
+        "raw_score": 0.0597
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.084,
+        "raw_score": 0.0306
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.084,
+        "raw_score": 0.0306
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\yZ08g4UGPw-Shhep_20strat_skeleton.npz",
+    "occupancy_frac": 0.3709716796875,
+    "occupied": 12156
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "id": "JddVhccIEB-CampFire",
+  "source_path": "data\\raw\\hack337\\schematics\\JddVhccIEB-CampFire.litematic",
+  "created_at": "2026-10-18T22:26:23+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 26,
+      "y": 27,
+      "z": 27
+    },
+    "non_air": 2159,
+    "density": 0.1139,
+    "unique_block_types": 31
+  },
+  "massing": {
+    "hollow_score": 0.8738,
+    "interior_air_frac": 0.8738,
+    "exterior_solid_frac": 0.014,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      5,
+      10,
+      15,
+      24
+    ],
+    "families": {
+      "stairs": 302,
+      "slabs": 108,
+      "walls": 668,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 2,
+      "logs": 78,
+      "planks": 0,
+      "stone_bricks": 16,
+      "deepslate": 1042,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 14,
+      "copper": 318,
+      "nether": 162
+    },
+    "symmetry": {
+      "symmetry_x": 0.6947,
+      "symmetry_z": 0.3871,
+      "symmetry_y": 0.0736
+    },
+    "solid_ratio": 0.1139
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "deepslate_tile_wall",
+        "count": 528,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate",
+        "count": 318,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_stairs",
+        "count": 292,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_cut_copper",
+        "count": 208,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 193,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_basalt",
+        "count": 162,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_wall",
+        "count": 124,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_cut_copper_slab",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_deepslate",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_wood",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wood",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_wood",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 11,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 78,
+      "stone": 502,
+      "deepslate": 1042,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 2,
+      "nether": 162,
+      "copper": 318,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "deepslate_tile_wall",
+      "polished_deepslate",
+      "brick_stairs",
+      "waxed_cut_copper",
+      "bricks",
+      "polished_basalt",
+      "deepslate_brick_wall",
+      "waxed_cut_copper_slab",
+      "chiseled_deepslate",
+      "dark_oak_wood",
+      "spruce_wood",
+      "stone_brick_wall"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "european",
+      "fantasy",
+      "chinese",
+      "industrial"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.508,
+        "raw_score": 0.1577,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.319,
+        "raw_score": 0.1094
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.184,
+        "raw_score": 0.0691
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.177,
+        "raw_score": 0.067
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.162,
+        "raw_score": 0.062
+      }
+    ]
+  },
+  "redstone": {
+    "total": 19,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "shulker_box": 19
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\JddVhccIEB-CampFire_skeleton.npz",
+    "occupancy_frac": 0.12237548828125,
+    "occupied": 4010
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

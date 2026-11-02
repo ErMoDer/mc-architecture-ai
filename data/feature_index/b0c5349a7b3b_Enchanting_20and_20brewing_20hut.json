@@ -1,0 +1,232 @@
+{
+  "id": "b0c5349a7b3b_Enchanting_20and_20brewing_20hut",
+  "source_path": "data\\raw\\hack337\\schematics\\b0c5349a7b3b_Enchanting%20and%20brewing%20hut.litematic",
+  "created_at": "2026-10-18T22:25:42+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 18,
+      "y": 19,
+      "z": 19
+    },
+    "non_air": 775,
+    "density": 0.1193,
+    "unique_block_types": 21
+  },
+  "massing": {
+    "hollow_score": 0.8566,
+    "interior_air_frac": 0.8566,
+    "exterior_solid_frac": 0.0172,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "families": {
+      "stairs": 22,
+      "slabs": 72,
+      "walls": 0,
+      "fences": 0,
+      "doors": 2,
+      "trapdoors": 0,
+      "glass": 16,
+      "logs": 62,
+      "planks": 81,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 80,
+      "concrete": 0,
+      "wool": 387,
+      "leaves": 0,
+      "lanterns": 3,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4875,
+      "symmetry_z": 0.3889,
+      "symmetry_y": 0.0347
+    },
+    "solid_ratio": 0.1193
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "black_wool",
+        "count": 328,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 81,
+        "frac": 0.0
+      },
+      {
+        "name": "green_terracotta",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_wool",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_log",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_log",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_stained_glass_pane",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "bookshelf",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_wool",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_door",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 143,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 80,
+      "concrete": 0,
+      "wool": 387,
+      "glass": 16,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "black_wool",
+      "dark_oak_planks",
+      "green_terracotta",
+      "dark_oak_slab",
+      "purple_wool",
+      "stripped_dark_oak_log",
+      "dark_oak_log",
+      "dark_oak_stairs",
+      "purple_stained_glass_pane",
+      "chest",
+      "wall_torch",
+      "bookshelf"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "fantasy",
+      "western",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.541,
+        "raw_score": 0.1907,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.443,
+        "raw_score": 0.1641
+      },
+      {
+        "style": "western",
+        "confidence": 0.408,
+        "raw_score": 0.1543
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.377,
+        "raw_score": 0.1451
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.337,
+        "raw_score": 0.133
+      }
+    ]
+  },
+  "redstone": {
+    "total": 3,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 2,
+      "brewing_stand": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\b0c5349a7b3b_Enchanting_20and_20brewing_20hut_skeleton.npz",
+    "occupancy_frac": 0.11370849609375,
+    "occupied": 3726
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

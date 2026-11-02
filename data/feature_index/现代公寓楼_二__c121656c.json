@@ -1,0 +1,309 @@
+{
+  "id": "现代公寓楼_二__c121656c",
+  "source_path": "data\\raw\\mcblock\\现代公寓楼_二__c121656c.litematic",
+  "created_at": "2026-10-19T13:01:01+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 22,
+      "y": 20,
+      "z": 35
+    },
+    "non_air": 5877,
+    "density": 0.3816,
+    "unique_block_types": 50
+  },
+  "massing": {
+    "hollow_score": 0.5551,
+    "interior_air_frac": 0.5551,
+    "exterior_solid_frac": 0.0384,
+    "floor_guess": 4,
+    "y_peaks": [
+      1,
+      6,
+      11,
+      16
+    ],
+    "families": {
+      "stairs": 67,
+      "slabs": 423,
+      "walls": 6,
+      "fences": 6,
+      "doors": 62,
+      "trapdoors": 30,
+      "glass": 405,
+      "logs": 16,
+      "planks": 781,
+      "stone_bricks": 32,
+      "deepslate": 0,
+      "terracotta": 272,
+      "concrete": 0,
+      "wool": 201,
+      "leaves": 32,
+      "lanterns": 55,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3897,
+      "symmetry_z": 0.6706,
+      "symmetry_y": 0.5289
+    },
+    "solid_ratio": 0.3816
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "quartz_block",
+        "count": 3038,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 781,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_stained_glass_pane",
+        "count": 375,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite_slab",
+        "count": 349,
+        "frac": 0.0
+      },
+      {
+        "name": "terracotta",
+        "count": 272,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_quartz_block",
+        "count": 246,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_carpet",
+        "count": 102,
+        "frac": 0.0
+      },
+      {
+        "name": "daylight_detector",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_carpet",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_carpet",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_stairs",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_door",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 26,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 797,
+      "stone": 412,
+      "deepslate": 0,
+      "terracotta": 272,
+      "concrete": 0,
+      "wool": 201,
+      "glass": 405,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 32,
+      "metal": 36
+    },
+    "remap_targets": [
+      "quartz_block",
+      "birch_planks",
+      "light_gray_stained_glass_pane",
+      "polished_andesite_slab",
+      "terracotta",
+      "chiseled_quartz_block",
+      "blue_carpet",
+      "daylight_detector",
+      "lantern",
+      "spruce_slab",
+      "gray_carpet",
+      "yellow_carpet"
+    ]
+  },
+  "style": {
+    "mapped_style": "modern",
+    "mapped_terrain": "flat",
+    "style_id": 3,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "modern",
+      "chinese",
+      "japanese",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.744,
+        "raw_score": 0.3938,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "modern",
+        "confidence": 0.52,
+        "raw_score": 0.3102
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.431,
+        "raw_score": 0.2728
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.384,
+        "raw_score": 0.2513
+      },
+      {
+        "style": "western",
+        "confidence": 0.353,
+        "raw_score": 0.2368
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 224,
+    "pattern_ids": [
+      "door_line",
+      "simple_io",
+      "tripwire_trap",
+      "daylight_detector_clock"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱",
+      "日光传感器钟/昼夜控制"
+    ],
+    "inventory_nonzero": {
+      "button": 6,
+      "pressure_plate": 12,
+      "door": 50,
+      "iron_door": 12,
+      "trapdoor": 30,
+      "tripwire": 18,
+      "daylight_detector": 90,
+      "furnace": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\现代公寓楼_二__c121656c_skeleton.npz",
+    "occupancy_frac": 0.3956298828125,
+    "occupied": 12964
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 18,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\现代公寓楼_二__c121656c_block2vec.npy",
+    "vector_preview": [
+      -0.09022,
+      0.14862,
+      -0.04696,
+      0.01597,
+      0.02117,
+      0.01378,
+      -0.05071,
+      0.15576
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "乡村自建房__ba1eb672",
+        "score": 0.9343129046289148,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\乡村自建房__ba1eb672.litematic"
+      },
+      {
+        "id": "质朴居所__224ce38b",
+        "score": 0.8756545297400764,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\质朴居所__224ce38b.litematic"
+      },
+      {
+        "id": "铜顶中世纪房屋_三__c8ed44d4",
+        "score": 0.8751062357453702,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\铜顶中世纪房屋_三__c8ed44d4.litematic"
+      },
+      {
+        "id": "女巫小屋__5a2ed929",
+        "score": 0.8530276161394559,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\女巫小屋__5a2ed929.litematic"
+      },
+      {
+        "id": "温馨木屋__449de557",
+        "score": 0.8505030420957481,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\温馨木屋__449de557.litematic"
+      }
+    ]
+  }
+}

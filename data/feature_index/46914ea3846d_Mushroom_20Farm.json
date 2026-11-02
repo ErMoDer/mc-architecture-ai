@@ -1,0 +1,235 @@
+{
+  "id": "46914ea3846d_Mushroom_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\46914ea3846d_Mushroom%20Farm.litematic",
+  "created_at": "2026-10-18T22:25:09+08:00",
+  "overview": {
+    "schematic_name": "Mushroom Farm",
+    "size": {
+      "x": 20,
+      "y": 49,
+      "z": 20
+    },
+    "non_air": 1474,
+    "density": 0.0752,
+    "unique_block_types": 14
+  },
+  "massing": {
+    "hollow_score": 0.918,
+    "interior_air_frac": 0.918,
+    "exterior_solid_frac": 0.0115,
+    "floor_guess": 3,
+    "y_peaks": [
+      12,
+      16,
+      20
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 48,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 129,
+      "glass": 1,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 770,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8849,
+      "symmetry_z": 0.8995,
+      "symmetry_y": 0.0058
+    },
+    "solid_ratio": 0.0752
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 722,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 371,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_trapdoor",
+        "count": 128,
+        "frac": 0.0
+      },
+      {
+        "name": "mycelium",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "scaffolding",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_button",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 781,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 1,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 4
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "water",
+      "jungle_trapdoor",
+      "mycelium",
+      "scaffolding",
+      "stone_brick_slab",
+      "stone",
+      "chest",
+      "observer",
+      "hopper",
+      "piston",
+      "glass"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.6581,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.791,
+        "raw_score": 0.612
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.226,
+        "raw_score": 0.2486
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.146,
+        "raw_score": 0.1807
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.13,
+        "raw_score": 0.1656
+      }
+    ]
+  },
+  "redstone": {
+    "total": 146,
+    "pattern_ids": [
+      "observer_clock",
+      "edge_detector"
+    ],
+    "pattern_labels": [
+      "观察者相邻时钟嫌疑",
+      "边沿检测（观察者）嫌疑"
+    ],
+    "inventory_nonzero": {
+      "button": 1,
+      "piston": 4,
+      "observer": 8,
+      "hopper": 4,
+      "trapdoor": 129
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\46914ea3846d_Mushroom_20Farm_skeleton.npz",
+    "occupancy_frac": 0.09234619140625,
+    "occupied": 3026
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

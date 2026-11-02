@@ -1,0 +1,256 @@
+{
+  "id": "WiRx7TaOsX-Slime_20Shop",
+  "source_path": "data\\raw\\hack337\\schematics\\WiRx7TaOsX-Slime%20Shop.litematic",
+  "created_at": "2026-10-18T22:27:17+08:00",
+  "overview": {
+    "schematic_name": "Slime Shop",
+    "size": {
+      "x": 31,
+      "y": 26,
+      "z": 22
+    },
+    "non_air": 2760,
+    "density": 0.1557,
+    "unique_block_types": 35
+  },
+  "massing": {
+    "hollow_score": 0.8024,
+    "interior_air_frac": 0.8024,
+    "exterior_solid_frac": 0.0006,
+    "floor_guess": 4,
+    "y_peaks": [
+      2,
+      7,
+      10,
+      14
+    ],
+    "families": {
+      "stairs": 282,
+      "slabs": 338,
+      "walls": 42,
+      "fences": 4,
+      "doors": 0,
+      "trapdoors": 142,
+      "glass": 282,
+      "logs": 178,
+      "planks": 0,
+      "stone_bricks": 2,
+      "deepslate": 168,
+      "terracotta": 0,
+      "concrete": 268,
+      "wool": 178,
+      "leaves": 0,
+      "lanterns": 36,
+      "copper": 0,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.2449,
+      "symmetry_z": 0.8339,
+      "symmetry_y": 0.122
+    },
+    "solid_ratio": 0.1557
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "slime_block",
+        "count": 823,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 274,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_stained_glass",
+        "count": 264,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_concrete",
+        "count": 250,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_carpet",
+        "count": 178,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 156,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_stairs",
+        "count": 126,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_log",
+        "count": 119,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 59,
+        "frac": 0.0
+      },
+      {
+        "name": "dripstone_block",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate_wall",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 32,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 178,
+      "stone": 60,
+      "deepslate": 168,
+      "terracotta": 0,
+      "concrete": 268,
+      "wool": 178,
+      "glass": 282,
+      "nether": 2,
+      "copper": 0,
+      "prismarine": 32,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 30
+    },
+    "remap_targets": [
+      "slime_block",
+      "dark_oak_slab",
+      "lime_stained_glass",
+      "lime_concrete",
+      "lime_carpet",
+      "dark_oak_stairs",
+      "deepslate_brick_stairs",
+      "dark_oak_log",
+      "dark_oak_trapdoor",
+      "spruce_slab",
+      "spruce_log",
+      "dripstone_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "rustic",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.53,
+        "raw_score": 0.1804,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.343,
+        "raw_score": 0.1291
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.292,
+        "raw_score": 0.1137
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.291,
+        "raw_score": 0.1133
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.261,
+        "raw_score": 0.1037
+      }
+    ]
+  },
+  "redstone": {
+    "total": 969,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 142,
+      "fence_gate": 4,
+      "slime_block": 823
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\WiRx7TaOsX-Slime_20Shop_skeleton.npz",
+    "occupancy_frac": 0.14459228515625,
+    "occupied": 4738
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 14,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\WiRx7TaOsX-Slime_20Shop_block2vec.npy",
+    "vector_preview": [
+      -0.06566,
+      0.19629,
+      -0.15139,
+      0.02155,
+      -0.02593,
+      0.04117,
+      -0.07625,
+      0.03295
+    ],
+    "ok": true
+  }
+}

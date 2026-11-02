@@ -1,0 +1,270 @@
+{
+  "id": "4efaf0367854_Tweaked_20Bonemeal_20Farm_201_21_11",
+  "source_path": "data\\raw\\hack337\\schematics\\4efaf0367854_Tweaked%20Bonemeal%20Farm%201.21.11.litematic",
+  "created_at": "2026-10-18T22:25:12+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 16,
+      "y": 15,
+      "z": 18
+    },
+    "non_air": 939,
+    "density": 0.2174,
+    "unique_block_types": 24
+  },
+  "massing": {
+    "hollow_score": 0.7788,
+    "interior_air_frac": 0.7788,
+    "exterior_solid_frac": 0.0683,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      4,
+      10
+    ],
+    "families": {
+      "stairs": 36,
+      "slabs": 1,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 50,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6162,
+      "symmetry_z": 0.5835,
+      "symmetry_y": 0.1375
+    },
+    "solid_ratio": 0.2174
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 287,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 177,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 85,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 74,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_stairs",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "composter",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 7,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 288,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 50,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 3,
+      "metal": 29
+    },
+    "remap_targets": [
+      "grass_block",
+      "smooth_stone",
+      "redstone_wire",
+      "stone",
+      "white_stained_glass",
+      "piston",
+      "stone_stairs",
+      "lava",
+      "hopper",
+      "short_grass",
+      "oak_wall_sign",
+      "chest"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "industrial"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.703,
+        "raw_score": 0.3529,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.56,
+        "raw_score": 0.3027
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.352,
+        "raw_score": 0.2185
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.2,
+        "raw_score": 0.143
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.186,
+        "raw_score": 0.1351
+      }
+    ]
+  },
+  "redstone": {
+    "total": 194,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "item_elevator",
+      "pulse_extender",
+      "pulse_limiter",
+      "edge_detector",
+      "instant_wire",
+      "t_flip_flop",
+      "dropper_vator",
+      "zero_tick_bud_freerun",
+      "dual_edge_repeater",
+      "water_hopper_stream"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "物品升降机嫌疑",
+      "脉冲延长/单稳态嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "T 触发器嫌疑",
+      "投掷器电梯（dropper-vator）",
+      "零刻/BUD 自走嫌疑",
+      "双沿/对向中继器线嫌疑",
+      "水流漏斗收集线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 85,
+      "redstone_torch": 1,
+      "repeater": 16,
+      "lever": 1,
+      "piston": 49,
+      "observer": 6,
+      "hopper": 29,
+      "dropper": 2,
+      "dispenser": 1,
+      "furnace": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\4efaf0367854_Tweaked_20Bonemeal_20Farm_201_21_11_skeleton.npz",
+    "occupancy_frac": 0.2347412109375,
+    "occupied": 7692
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:bonemeal",
+  "previous_mapped_style": "chinese"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "海龟之家__1e5e5d8c",
+  "dim": 144,
+  "n_chunks": 26,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "海龟之家__1e5e5d8c_block2vec.npy"
+}

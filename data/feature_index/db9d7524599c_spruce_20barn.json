@@ -1,0 +1,186 @@
+{
+  "id": "db9d7524599c_spruce_20barn",
+  "source_path": "data\\raw\\hack337\\schematics\\db9d7524599c_spruce%20barn.litematic",
+  "created_at": "2026-10-18T22:25:59+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 16,
+      "y": 12,
+      "z": 23
+    },
+    "non_air": 826,
+    "density": 0.187,
+    "unique_block_types": 8
+  },
+  "massing": {
+    "hollow_score": 0.7741,
+    "interior_air_frac": 0.7741,
+    "exterior_solid_frac": 0.0367,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      3,
+      7
+    ],
+    "families": {
+      "stairs": 30,
+      "slabs": 245,
+      "walls": 0,
+      "fences": 0,
+      "doors": 4,
+      "trapdoors": 0,
+      "glass": 68,
+      "logs": 160,
+      "planks": 159,
+      "stone_bricks": 160,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9952,
+      "symmetry_z": 0.6892,
+      "symmetry_y": 0.1601
+    },
+    "solid_ratio": 0.187
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_slab",
+        "count": 245,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 82,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 77,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass_pane",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_door",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 319,
+      "stone": 160,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 68,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_slab",
+      "stone_bricks",
+      "stripped_spruce_log",
+      "oak_planks",
+      "spruce_planks",
+      "white_stained_glass_pane",
+      "spruce_stairs",
+      "spruce_door"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5367,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.612,
+        "raw_score": 0.4243
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.536,
+        "raw_score": 0.3889
+      },
+      {
+        "style": "western",
+        "confidence": 0.437,
+        "raw_score": 0.3402
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.358,
+        "raw_score": 0.2972
+      }
+    ]
+  },
+  "redstone": {
+    "total": 4,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\db9d7524599c_spruce_20barn_skeleton.npz",
+    "occupancy_frac": 0.18572998046875,
+    "occupied": 6086
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

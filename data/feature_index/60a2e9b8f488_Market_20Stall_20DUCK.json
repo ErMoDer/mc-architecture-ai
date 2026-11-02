@@ -1,0 +1,212 @@
+{
+  "id": "60a2e9b8f488_Market_20Stall_20DUCK",
+  "source_path": "data\\raw\\hack337\\schematics\\60a2e9b8f488_Market%20Stall%20DUCK.litematic",
+  "created_at": "2026-10-18T22:25:17+08:00",
+  "overview": {
+    "schematic_name": "Market Stall DUCK",
+    "size": {
+      "x": 8,
+      "y": 6,
+      "z": 6
+    },
+    "non_air": 145,
+    "density": 0.5035,
+    "unique_block_types": 13
+  },
+  "massing": {
+    "hollow_score": 0.4167,
+    "interior_air_frac": 0.4167,
+    "exterior_solid_frac": 0.309,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 12,
+      "slabs": 20,
+      "walls": 8,
+      "fences": 12,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 8,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 30,
+      "leaves": 0,
+      "lanterns": 2,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9863,
+      "symmetry_z": 0.8125,
+      "symmetry_y": 0.3063
+    },
+    "solid_ratio": 0.5035
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "red_wool",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite_wall",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wall_sign",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 8,
+      "stone": 24,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 30,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "red_wool",
+      "grass_block",
+      "spruce_slab",
+      "cobblestone",
+      "spruce_stairs",
+      "spruce_fence",
+      "dirt",
+      "oak_log",
+      "cobblestone_wall",
+      "barrel",
+      "andesite_wall",
+      "spruce_wall_sign"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "fantasy",
+      "european",
+      "medieval",
+      "rustic",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.56,
+        "raw_score": 0.2097,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.47,
+        "raw_score": 0.1843
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.452,
+        "raw_score": 0.1792
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.431,
+        "raw_score": 0.1728
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.365,
+        "raw_score": 0.1525
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\60a2e9b8f488_Market_20Stall_20DUCK_skeleton.npz",
+    "occupancy_frac": 0.513671875,
+    "occupied": 16832
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

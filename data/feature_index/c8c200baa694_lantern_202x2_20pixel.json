@@ -1,0 +1,206 @@
+{
+  "id": "c8c200baa694_lantern_202x2_20pixel",
+  "source_path": "data\\raw\\hack337\\schematics\\c8c200baa694_lantern%202x2%20pixel.litematic",
+  "created_at": "2026-10-18T22:25:51+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 12,
+      "y": 23,
+      "z": 12
+    },
+    "non_air": 842,
+    "density": 0.2542,
+    "unique_block_types": 11
+  },
+  "massing": {
+    "hollow_score": 0.8933,
+    "interior_air_frac": 0.8933,
+    "exterior_solid_frac": 0.1866,
+    "floor_guess": 7,
+    "y_peaks": [
+      0,
+      3,
+      6,
+      9,
+      13,
+      17,
+      20
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 4,
+      "logs": 0,
+      "planks": 72,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 330,
+      "concrete": 292,
+      "wool": 8,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9953,
+      "symmetry_z": 0.9953,
+      "symmetry_y": 0.1503
+    },
+    "solid_ratio": 0.2542
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cyan_terracotta",
+        "count": 234,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_concrete",
+        "count": 128,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_terracotta",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_concrete",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_concrete",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_mud",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "hay_block",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_wool",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 72,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 330,
+      "concrete": 292,
+      "wool": 8,
+      "glass": 4,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "cyan_terracotta",
+      "yellow_concrete",
+      "orange_terracotta",
+      "gray_concrete",
+      "brown_concrete",
+      "spruce_planks",
+      "packed_mud",
+      "glowstone",
+      "hay_block",
+      "gray_wool",
+      "glass"
+    ]
+  },
+  "style": {
+    "mapped_style": "western",
+    "mapped_terrain": "desert",
+    "style_id": 11,
+    "terrain_id": 5,
+    "guess_names": [
+      "modern",
+      "desert",
+      "western",
+      "scifi",
+      "industrial"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.513,
+        "raw_score": 0.163,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "desert",
+        "confidence": 0.444,
+        "raw_score": 0.1461
+      },
+      {
+        "style": "western",
+        "confidence": 0.411,
+        "raw_score": 0.1374
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.317,
+        "raw_score": 0.1118
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.311,
+        "raw_score": 0.1103
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\c8c200baa694_lantern_202x2_20pixel_skeleton.npz",
+    "occupancy_frac": 0.25018310546875,
+    "occupied": 8198
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

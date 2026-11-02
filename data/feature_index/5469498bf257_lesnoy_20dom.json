@@ -1,0 +1,233 @@
+{
+  "id": "5469498bf257_lesnoy_20dom",
+  "source_path": "data\\raw\\hack337\\schematics\\5469498bf257_lesnoy%20dom.litematic",
+  "created_at": "2026-10-18T22:25:14+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 15,
+      "y": 16,
+      "z": 33
+    },
+    "non_air": 2263,
+    "density": 0.2857,
+    "unique_block_types": 19
+  },
+  "massing": {
+    "hollow_score": 0.6817,
+    "interior_air_frac": 0.6817,
+    "exterior_solid_frac": 0.059,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      3,
+      7,
+      11,
+      14
+    ],
+    "families": {
+      "stairs": 355,
+      "slabs": 13,
+      "walls": 18,
+      "fences": 205,
+      "doors": 0,
+      "trapdoors": 96,
+      "glass": 12,
+      "logs": 512,
+      "planks": 525,
+      "stone_bricks": 206,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 45,
+      "lanterns": 200,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.379,
+      "symmetry_z": 0.986,
+      "symmetry_y": 0.1629
+    },
+    "solid_ratio": 0.2857
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 525,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 411,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 355,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 195,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 153,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 101,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "cracked_stone_bricks",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 47,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_leaves",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 10,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1037,
+      "stone": 286,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 12,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 45,
+      "metal": 3
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "spruce_log",
+      "spruce_stairs",
+      "spruce_fence",
+      "campfire",
+      "stripped_spruce_log",
+      "spruce_trapdoor",
+      "cracked_stone_bricks",
+      "stone_bricks",
+      "stone",
+      "lantern",
+      "spruce_leaves"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6362,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.696,
+        "raw_score": 0.5207
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.626,
+        "raw_score": 0.48
+      },
+      {
+        "style": "western",
+        "confidence": 0.541,
+        "raw_score": 0.4374
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.268,
+        "raw_score": 0.2732
+      }
+    ]
+  },
+  "redstone": {
+    "total": 106,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 96,
+      "fence_gate": 10
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\5469498bf257_lesnoy_20dom_skeleton.npz",
+    "occupancy_frac": 0.30120849609375,
+    "occupied": 9870
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

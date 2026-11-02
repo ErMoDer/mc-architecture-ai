@@ -1,0 +1,13 @@
+{
+  "id": "454196ddadaa_Purple_20Suburban_20House_20_28Suburban_20House_20_232",
+  "dim": 144,
+  "n_chunks": 8,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "454196ddadaa_Purple_20Suburban_20House_20_28Suburban_20House_20_232_block2vec.npy"
+}

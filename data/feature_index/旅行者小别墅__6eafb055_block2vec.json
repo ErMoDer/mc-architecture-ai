@@ -1,0 +1,13 @@
+{
+  "id": "旅行者小别墅__6eafb055",
+  "dim": 144,
+  "n_chunks": 16,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "旅行者小别墅__6eafb055_block2vec.npy"
+}

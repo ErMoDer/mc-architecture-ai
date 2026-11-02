@@ -1,0 +1,13 @@
+{
+  "id": "74229cea8f2a_Starter_20house_20with_20castle",
+  "dim": 144,
+  "n_chunks": 2,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "74229cea8f2a_Starter_20house_20with_20castle_block2vec.npy"
+}

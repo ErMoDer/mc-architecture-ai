@@ -1,0 +1,240 @@
+{
+  "id": "KoJfWhs0ZO-DSMP_20VI_20-_20Island_20Base",
+  "source_path": "data\\raw\\hack337\\schematics\\KoJfWhs0ZO-DSMP%20VI%20-%20Island%20Base.litematic",
+  "created_at": "2026-10-18T22:26:27+08:00",
+  "overview": {
+    "schematic_name": "DSMP VI - LadyCassi Base",
+    "size": {
+      "x": 35,
+      "y": 12,
+      "z": 36
+    },
+    "non_air": 2425,
+    "density": 0.1604,
+    "unique_block_types": 20
+  },
+  "massing": {
+    "hollow_score": 0.8611,
+    "interior_air_frac": 0.8611,
+    "exterior_solid_frac": 0.0573,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      8
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 2,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 2,
+      "planks": 8,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 27,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 9
+    },
+    "symmetry": {
+      "symmetry_x": 0.6194,
+      "symmetry_z": 0.5446,
+      "symmetry_y": 0.0426
+    },
+    "solid_ratio": 0.1604
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone",
+        "count": 959,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 415,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 284,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 187,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "coarse_dirt",
+        "count": 105,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 62,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "tall_grass",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_carpet",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_portal",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 8,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 10,
+      "stone": 1245,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 27,
+      "glass": 0,
+      "nether": 9,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 187,
+      "metal": 2
+    },
+    "remap_targets": [
+      "stone",
+      "grass_block",
+      "cobblestone",
+      "moss_block",
+      "dirt",
+      "coarse_dirt",
+      "torch",
+      "grass",
+      "chest",
+      "wall_torch",
+      "tall_grass",
+      "moss_carpet"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.711,
+        "raw_score": 0.3615,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.617,
+        "raw_score": 0.3286
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.383,
+        "raw_score": 0.2361
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.264,
+        "raw_score": 0.1802
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.256,
+        "raw_score": 0.1757
+      }
+    ]
+  },
+  "redstone": {
+    "total": 13,
+    "pattern_ids": [
+      "nether_portal_cue",
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "下界传送门",
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 1,
+      "pressure_plate": 1,
+      "iron_door": 2,
+      "nether_portal": 9
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\KoJfWhs0ZO-DSMP_20VI_20-_20Island_20Base_skeleton.npz",
+    "occupancy_frac": 0.177581787109375,
+    "occupied": 5819
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

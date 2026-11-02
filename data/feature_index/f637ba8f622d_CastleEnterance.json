@@ -1,0 +1,233 @@
+{
+  "id": "f637ba8f622d_CastleEnterance",
+  "source_path": "data\\raw\\hack337\\schematics\\f637ba8f622d_CastleEnterance.litematic",
+  "created_at": "2026-10-18T22:26:10+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 23,
+      "y": 24,
+      "z": 16
+    },
+    "non_air": 1963,
+    "density": 0.2223,
+    "unique_block_types": 25
+  },
+  "massing": {
+    "hollow_score": 0.7675,
+    "interior_air_frac": 0.7675,
+    "exterior_solid_frac": 0.052,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      10,
+      14,
+      17,
+      21
+    ],
+    "families": {
+      "stairs": 79,
+      "slabs": 110,
+      "walls": 0,
+      "fences": 30,
+      "doors": 4,
+      "trapdoors": 0,
+      "glass": 32,
+      "logs": 35,
+      "planks": 0,
+      "stone_bricks": 295,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 27,
+      "leaves": 0,
+      "lanterns": 36,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5469,
+      "symmetry_z": 0.138,
+      "symmetry_y": 0.4573
+    },
+    "solid_ratio": 0.2223
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone",
+        "count": 975,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 290,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite",
+        "count": 217,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_slab",
+        "count": 99,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_stairs",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 33,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass_pane",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "red_carpet",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 8,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 35,
+      "stone": 1671,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 27,
+      "glass": 32,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stone",
+      "stone_bricks",
+      "polished_andesite",
+      "stone_slab",
+      "stone_stairs",
+      "ladder",
+      "stripped_spruce_log",
+      "dirt",
+      "black_stained_glass_pane",
+      "lantern",
+      "grass_block",
+      "red_carpet"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.7912,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.535,
+        "raw_score": 0.499
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.187,
+        "raw_score": 0.2472
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.125,
+        "raw_score": 0.1848
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.111,
+        "raw_score": 0.1694
+      }
+    ]
+  },
+  "redstone": {
+    "total": 14,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 4,
+      "fence_gate": 10
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\f637ba8f622d_CastleEnterance_skeleton.npz",
+    "occupancy_frac": 0.24395751953125,
+    "occupied": 7994
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

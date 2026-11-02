@@ -1,0 +1,238 @@
+{
+  "id": "1e876e7d0551_nether_20portal_20tori_20gate",
+  "source_path": "data\\raw\\hack337\\schematics\\1e876e7d0551_nether%20portal%20tori%20gate.litematic",
+  "created_at": "2026-10-18T22:24:52+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 41,
+      "y": 28,
+      "z": 12
+    },
+    "non_air": 1512,
+    "density": 0.1098,
+    "unique_block_types": 20
+  },
+  "massing": {
+    "hollow_score": 0.86,
+    "interior_air_frac": 0.86,
+    "exterior_solid_frac": 0.0067,
+    "floor_guess": 7,
+    "y_peaks": [
+      0,
+      3,
+      6,
+      9,
+      13,
+      20,
+      23
+    ],
+    "families": {
+      "stairs": 50,
+      "slabs": 375,
+      "walls": 0,
+      "fences": 8,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 365,
+      "planks": 73,
+      "stone_bricks": 0,
+      "deepslate": 479,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 16,
+      "copper": 0,
+      "nether": 966
+    },
+    "symmetry": {
+      "symmetry_x": 0.9497,
+      "symmetry_z": 0.4291,
+      "symmetry_y": 0.1953
+    },
+    "solid_ratio": 0.1098
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_crimson_stem",
+        "count": 365,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 272,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_portal",
+        "count": 209,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_slab",
+        "count": 197,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_slab",
+        "count": 178,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_planks",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "basalt",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_stairs",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "soul_lantern",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_roots",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_fence",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_fungus",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_sprouts",
+        "count": 6,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 438,
+      "stone": 0,
+      "deepslate": 479,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 512,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stripped_crimson_stem",
+      "deepslate_tiles",
+      "nether_portal",
+      "deepslate_tile_slab",
+      "crimson_slab",
+      "crimson_planks",
+      "obsidian",
+      "basalt",
+      "crimson_stairs",
+      "soul_lantern",
+      "crimson_roots",
+      "deepslate_tile_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "nether",
+    "style_id": 5,
+    "terrain_id": 3,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.547,
+        "raw_score": 0.197,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.54,
+        "raw_score": 0.1951
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.48,
+        "raw_score": 0.1788
+      },
+      {
+        "style": "western",
+        "confidence": 0.48,
+        "raw_score": 0.1788
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.403,
+        "raw_score": 0.1566
+      }
+    ]
+  },
+  "redstone": {
+    "total": 209,
+    "pattern_ids": [
+      "nether_portal_cue"
+    ],
+    "pattern_labels": [
+      "下界传送门"
+    ],
+    "inventory_nonzero": {
+      "nether_portal": 209
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\1e876e7d0551_nether_20portal_20tori_20gate_skeleton.npz",
+    "occupancy_frac": 0.11334228515625,
+    "occupied": 3714
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "id": "圣诞屋__4bc183f9",
+  "source_path": "data\\raw\\mcblock\\圣诞屋__4bc183f9.litematic",
+  "created_at": "2026-10-19T13:01:18+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 41,
+      "y": 59,
+      "z": 38
+    },
+    "non_air": 8797,
+    "density": 0.0957,
+    "unique_block_types": 70
+  },
+  "massing": {
+    "hollow_score": 0.8969,
+    "interior_air_frac": 0.8969,
+    "exterior_solid_frac": 0.0059,
+    "floor_guess": 7,
+    "y_peaks": [
+      2,
+      11,
+      19,
+      23,
+      28,
+      34,
+      38
+    ],
+    "families": {
+      "stairs": 737,
+      "slabs": 160,
+      "walls": 140,
+      "fences": 104,
+      "doors": 2,
+      "trapdoors": 456,
+      "glass": 81,
+      "logs": 1077,
+      "planks": 799,
+      "stone_bricks": 905,
+      "deepslate": 115,
+      "terracotta": 63,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 11,
+      "lanterns": 68,
+      "copper": 13,
+      "nether": 680
+    },
+    "symmetry": {
+      "symmetry_x": 0.3528,
+      "symmetry_z": 0.3891,
+      "symmetry_y": 0.0699
+    },
+    "solid_ratio": 0.0957
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "mud_bricks",
+        "count": 1530,
+        "frac": 0.0
+      },
+      {
+        "name": "snow_block",
+        "count": 891,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 808,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 738,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 491,
+        "frac": 0.0
+      },
+      {
+        "name": "red_nether_bricks",
+        "count": 482,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 346,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_planks",
+        "count": 308,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 277,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz_stairs",
+        "count": 273,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wood",
+        "count": 270,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_mud",
+        "count": 218,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_mushroom_block",
+        "count": 157,
+        "frac": 0.0
+      },
+      {
+        "name": "honeycomb_block",
+        "count": 146,
+        "frac": 0.0
+      },
+      {
+        "name": "netherrack",
+        "count": 131,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_trapdoor",
+        "count": 129,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1930,
+      "stone": 3133,
+      "deepslate": 115,
+      "terracotta": 63,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 81,
+      "nether": 189,
+      "copper": 13,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 956,
+      "leaves": 11,
+      "metal": 148
+    },
+    "remap_targets": [
+      "mud_bricks",
+      "snow_block",
+      "stone_bricks",
+      "stripped_spruce_log",
+      "dark_oak_planks",
+      "red_nether_bricks",
+      "dark_oak_stairs",
+      "mangrove_planks",
+      "dark_oak_trapdoor",
+      "smooth_quartz_stairs",
+      "spruce_wood",
+      "packed_mud"
+    ]
+  },
+  "style": {
+    "mapped_style": "european",
+    "mapped_terrain": "flat",
+    "style_id": 4,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "european",
+      "chinese",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.647,
+        "raw_score": 0.2965,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.636,
+        "raw_score": 0.2933
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.568,
+        "raw_score": 0.2711
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.519,
+        "raw_score": 0.2545
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.502,
+        "raw_score": 0.2486
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 750,
+    "pattern_ids": [
+      "simple_io",
+      "note_block_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "音符盒线路/乐器阵"
+    ],
+    "inventory_nonzero": {
+      "button": 275,
+      "note_block": 8,
+      "door": 2,
+      "trapdoor": 456,
+      "fence_gate": 9
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\圣诞屋__4bc183f9_skeleton.npz",
+    "occupancy_frac": 0.126983642578125,
+    "occupied": 4161
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 47,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\圣诞屋__4bc183f9_block2vec.npy",
+    "vector_preview": [
+      -0.05271,
+      0.18829,
+      -0.11626,
+      0.00111,
+      0.07006,
+      0.00078,
+      -0.06643,
+      0.00988
+    ],
+    "ok": true
+  }
+}

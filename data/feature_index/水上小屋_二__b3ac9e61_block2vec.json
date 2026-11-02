@@ -1,0 +1,13 @@
+{
+  "id": "水上小屋_二__b3ac9e61",
+  "dim": 144,
+  "n_chunks": 8,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "水上小屋_二__b3ac9e61_block2vec.npy"
+}

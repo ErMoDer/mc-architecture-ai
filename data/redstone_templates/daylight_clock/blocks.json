@@ -1,0 +1,20 @@
+[
+  {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:daylight_detector"
+  },
+  {
+    "x": 1,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:redstone_wire"
+  },
+  {
+    "x": 2,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:redstone_lamp"
+  }
+]

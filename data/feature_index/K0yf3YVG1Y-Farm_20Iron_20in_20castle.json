@@ -1,0 +1,259 @@
+{
+  "id": "K0yf3YVG1Y-Farm_20Iron_20in_20castle",
+  "source_path": "data\\raw\\hack337\\schematics\\K0yf3YVG1Y-Farm%20Iron%20in%20castle.litematic",
+  "created_at": "2026-10-18T22:26:24+08:00",
+  "overview": {
+    "schematic_name": "Farm Iron in castle",
+    "size": {
+      "x": 21,
+      "y": 35,
+      "z": 18
+    },
+    "non_air": 2444,
+    "density": 0.1847,
+    "unique_block_types": 52
+  },
+  "massing": {
+    "hollow_score": 0.7824,
+    "interior_air_frac": 0.7824,
+    "exterior_solid_frac": 0.0197,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      3,
+      10,
+      18,
+      24
+    ],
+    "families": {
+      "stairs": 321,
+      "slabs": 125,
+      "walls": 155,
+      "fences": 40,
+      "doors": 4,
+      "trapdoors": 34,
+      "glass": 35,
+      "logs": 182,
+      "planks": 110,
+      "stone_bricks": 0,
+      "deepslate": 1355,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 6,
+      "leaves": 26,
+      "lanterns": 25,
+      "copper": 0,
+      "nether": 76
+    },
+    "symmetry": {
+      "symmetry_x": 0.2742,
+      "symmetry_z": 0.2776,
+      "symmetry_y": 0.1972
+    },
+    "solid_ratio": 0.1847
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "deepslate_bricks",
+        "count": 768,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 185,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_log",
+        "count": 182,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_stairs",
+        "count": 153,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_slab",
+        "count": 123,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_stairs",
+        "count": 114,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_planks",
+        "count": 110,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_wall",
+        "count": 97,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite",
+        "count": 87,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_pressure_plate",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_pressure_plate",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_fence",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_trapdoor",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 32,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 292,
+      "stone": 207,
+      "deepslate": 1355,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 6,
+      "glass": 35,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 26,
+      "metal": 46
+    },
+    "remap_targets": [
+      "deepslate_bricks",
+      "deepslate_tiles",
+      "cherry_log",
+      "cherry_stairs",
+      "deepslate_tile_slab",
+      "deepslate_brick_stairs",
+      "cherry_planks",
+      "deepslate_brick_wall",
+      "polished_andesite",
+      "polished_blackstone_pressure_plate",
+      "deepslate_tile_stairs",
+      "cobblestone_wall"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "chinese",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.669,
+        "raw_score": 0.3189,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.236,
+        "raw_score": 0.1505
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.17,
+        "raw_score": 0.116
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.163,
+        "raw_score": 0.1126
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.154,
+        "raw_score": 0.1074
+      }
+    ]
+  },
+  "redstone": {
+    "total": 205,
+    "pattern_ids": [
+      "hopper_line",
+      "item_elevator",
+      "monostable",
+      "torch_clock",
+      "pulse_extender"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "物品升降机嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "火把钟骨架",
+      "中继器链脉冲处理嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 2,
+      "redstone_torch": 1,
+      "repeater": 4,
+      "button": 3,
+      "pressure_plate": 118,
+      "piston": 1,
+      "hopper": 32,
+      "door": 4,
+      "trapdoor": 34,
+      "furnace": 4,
+      "chiseled_bookshelf": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\K0yf3YVG1Y-Farm_20Iron_20in_20castle_skeleton.npz",
+    "occupancy_frac": 0.19281005859375,
+    "occupied": 6318
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

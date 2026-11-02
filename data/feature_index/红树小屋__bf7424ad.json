@@ -1,0 +1,319 @@
+{
+  "id": "红树小屋__bf7424ad",
+  "source_path": "data\\raw\\mcblock\\红树小屋__bf7424ad.litematic",
+  "created_at": "2026-10-19T20:33:51+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 36,
+      "y": 50,
+      "z": 44
+    },
+    "non_air": 4847,
+    "density": 0.0612,
+    "unique_block_types": 130
+  },
+  "massing": {
+    "hollow_score": 0.9363,
+    "interior_air_frac": 0.9363,
+    "exterior_solid_frac": 0.006,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      6,
+      13,
+      18,
+      27,
+      32
+    ],
+    "families": {
+      "stairs": 207,
+      "slabs": 513,
+      "walls": 137,
+      "fences": 339,
+      "doors": 6,
+      "trapdoors": 605,
+      "glass": 0,
+      "logs": 464,
+      "planks": 542,
+      "stone_bricks": 392,
+      "deepslate": 111,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 46,
+      "leaves": 13,
+      "lanterns": 45,
+      "copper": 0,
+      "nether": 203
+    },
+    "symmetry": {
+      "symmetry_x": 0.2425,
+      "symmetry_z": 0.2293,
+      "symmetry_y": 0.1094
+    },
+    "solid_ratio": 0.0612
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 419,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 325,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 298,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 240,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 228,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 217,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 156,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 153,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_trapdoor",
+        "count": 132,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_slab",
+        "count": 124,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_planks",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_mangrove_wood",
+        "count": 115,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 113,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wall_sign",
+        "count": 93,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_trapdoor",
+        "count": 92,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1006,
+      "stone": 1406,
+      "deepslate": 111,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 46,
+      "glass": 0,
+      "nether": 129,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 15,
+      "metal": 9
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "spruce_trapdoor",
+      "spruce_slab",
+      "stone_bricks",
+      "stone",
+      "spruce_fence",
+      "calcite",
+      "oak_log",
+      "jungle_trapdoor",
+      "mangrove_slab",
+      "mangrove_planks",
+      "stripped_mangrove_wood"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "medieval",
+      "european",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.783,
+        "raw_score": 0.4334,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.518,
+        "raw_score": 0.3301
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.489,
+        "raw_score": 0.3176
+      },
+      {
+        "style": "european",
+        "confidence": 0.461,
+        "raw_score": 0.3051
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.457,
+        "raw_score": 0.3031
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 737,
+    "pattern_ids": [
+      "nether_portal_cue",
+      "simple_io",
+      "door_line",
+      "tripwire_trap",
+      "note_block_line"
+    ],
+    "pattern_labels": [
+      "下界传送门",
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线",
+      "绊线陷阱",
+      "音符盒线路/乐器阵"
+    ],
+    "inventory_nonzero": {
+      "lever": 16,
+      "pressure_plate": 2,
+      "note_block": 6,
+      "door": 6,
+      "trapdoor": 605,
+      "fence_gate": 43,
+      "tripwire": 2,
+      "brewing_stand": 4,
+      "furnace": 8,
+      "smoker": 8,
+      "blast_furnace": 8,
+      "lectern": 3,
+      "chiseled_bookshelf": 14,
+      "nether_portal": 12
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\红树小屋__bf7424ad_skeleton.npz",
+    "occupancy_frac": 0.0836181640625,
+    "occupied": 2740
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 39,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\红树小屋__bf7424ad_block2vec.npy",
+    "vector_preview": [
+      -0.0364,
+      0.24402,
+      -0.08153,
+      -0.00872,
+      0.05556,
+      0.01338,
+      -0.04409,
+      0.05346
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "法师居所__3d1599a3",
+        "score": 0.9411978632541574,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\法师居所__3d1599a3.litematic"
+      },
+      {
+        "id": "中世纪农庄__5b486513",
+        "score": 0.932406265272375,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\中世纪农庄__5b486513.litematic"
+      },
+      {
+        "id": "槲寄生庄园__c8c5964a",
+        "score": 0.9311757577254481,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\槲寄生庄园__c8c5964a.litematic"
+      },
+      {
+        "id": "圣诞屋__4bc183f9",
+        "score": 0.9311757577254481,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\圣诞屋__4bc183f9.litematic"
+      },
+      {
+        "id": "废弃树屋__ba5f7e8f",
+        "score": 0.926736975808217,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\废弃树屋__ba5f7e8f.litematic"
+      }
+    ]
+  }
+}

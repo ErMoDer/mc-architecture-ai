@@ -1,0 +1,179 @@
+{
+  "id": "RdLuYUgk7i-Lamp_20Campfire",
+  "source_path": "data\\raw\\hack337\\schematics\\RdLuYUgk7i-Lamp%20Campfire.litematic",
+  "created_at": "2026-10-18T22:26:41+08:00",
+  "overview": {
+    "schematic_name": "Lamp Campfire",
+    "size": {
+      "x": 3,
+      "y": 9,
+      "z": 3
+    },
+    "non_air": 27,
+    "density": 0.3333,
+    "unique_block_types": 7
+  },
+  "massing": {
+    "hollow_score": 0.1429,
+    "interior_air_frac": 0.1429,
+    "exterior_solid_frac": 0.2593,
+    "floor_guess": 2,
+    "y_peaks": [
+      1,
+      7
+    ],
+    "families": {
+      "stairs": 8,
+      "slabs": 1,
+      "walls": 0,
+      "fences": 8,
+      "doors": 0,
+      "trapdoors": 4,
+      "glass": 0,
+      "logs": 4,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 1,
+      "copper": 0,
+      "nether": 9
+    },
+    "symmetry": {
+      "symmetry_x": 1.0,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.3171
+    },
+    "solid_ratio": 0.3333
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_fence",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone_stairs",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_birch_log",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone_slab",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 4,
+      "stone": 9,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "oak_fence",
+      "blackstone_stairs",
+      "dark_oak_trapdoor",
+      "stripped_birch_log",
+      "glowstone",
+      "campfire",
+      "blackstone_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "chinese",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.691,
+        "raw_score": 0.3407,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.681,
+        "raw_score": 0.3376
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.634,
+        "raw_score": 0.3217
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.563,
+        "raw_score": 0.2967
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.558,
+        "raw_score": 0.2949
+      }
+    ]
+  },
+  "redstone": {
+    "total": 4,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\RdLuYUgk7i-Lamp_20Campfire_skeleton.npz",
+    "occupancy_frac": 0.35394287109375,
+    "occupied": 11598
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

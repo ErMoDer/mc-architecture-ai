@@ -1,0 +1,262 @@
+{
+  "id": "fwo71xoFqp-the_20gatehouse_20_20By_20Sir0Silver",
+  "source_path": "data\\raw\\hack337\\schematics\\fwo71xoFqp-the%20gatehouse%20%20By%20Sir0Silver.litematic",
+  "created_at": "2026-10-18T22:26:14+08:00",
+  "overview": {
+    "schematic_name": "the gatehouse",
+    "size": {
+      "x": 11,
+      "y": 47,
+      "z": 29
+    },
+    "non_air": 2429,
+    "density": 0.162,
+    "unique_block_types": 48
+  },
+  "massing": {
+    "hollow_score": 0.7817,
+    "interior_air_frac": 0.7817,
+    "exterior_solid_frac": 0.0028,
+    "floor_guess": 8,
+    "y_peaks": [
+      1,
+      4,
+      7,
+      10,
+      13,
+      17,
+      25,
+      32
+    ],
+    "families": {
+      "stairs": 263,
+      "slabs": 36,
+      "walls": 468,
+      "fences": 54,
+      "doors": 40,
+      "trapdoors": 121,
+      "glass": 40,
+      "logs": 118,
+      "planks": 24,
+      "stone_bricks": 157,
+      "deepslate": 815,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 99,
+      "copper": 288,
+      "nether": 500
+    },
+    "symmetry": {
+      "symmetry_x": 0.962,
+      "symmetry_z": 0.9471,
+      "symmetry_y": 0.1983
+    },
+    "solid_ratio": 0.162
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "deepslate_tile_wall",
+        "count": 289,
+        "frac": 0.0
+      },
+      {
+        "name": "furnace",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_trapdoor",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "oxidized_cut_copper",
+        "count": 118,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_basalt",
+        "count": 111,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_wall",
+        "count": 109,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_deepslate",
+        "count": 92,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 89,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 86,
+        "frac": 0.0
+      },
+      {
+        "name": "oxidized_copper",
+        "count": 86,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "cracked_stone_bricks",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "oxidized_cut_copper_stairs",
+        "count": 71,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_wall",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "amethyst_block",
+        "count": 69,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 142,
+      "stone": 313,
+      "deepslate": 815,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 40,
+      "nether": 338,
+      "copper": 288,
+      "prismarine": 89,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 80
+    },
+    "remap_targets": [
+      "deepslate_tile_wall",
+      "furnace",
+      "warped_trapdoor",
+      "oxidized_cut_copper",
+      "smooth_basalt",
+      "polished_deepslate_wall",
+      "chiseled_deepslate",
+      "sea_lantern",
+      "deepslate_tile_stairs",
+      "oxidized_copper",
+      "polished_deepslate",
+      "stone_bricks"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "european",
+      "chinese",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.48,
+        "raw_score": 0.1303,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.308,
+        "raw_score": 0.0909
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.226,
+        "raw_score": 0.07
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.206,
+        "raw_score": 0.0646
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.204,
+        "raw_score": 0.0641
+      }
+    ]
+  },
+  "redstone": {
+    "total": 373,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 40,
+      "trapdoor": 121,
+      "fence_gate": 32,
+      "furnace": 160,
+      "blast_furnace": 20
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\fwo71xoFqp-the_20gatehouse_20_20By_20Sir0Silver_skeleton.npz",
+    "occupancy_frac": 0.17572021484375,
+    "occupied": 5758
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 10,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\fwo71xoFqp-the_20gatehouse_20_20By_20Sir0Silver_block2vec.npy",
+    "vector_preview": [
+      -0.1151,
+      0.12793,
+      -0.10241,
+      0.03319,
+      0.00729,
+      -0.06156,
+      -0.05326,
+      0.08226
+    ],
+    "ok": true
+  }
+}

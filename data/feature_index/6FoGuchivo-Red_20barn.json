@@ -1,0 +1,232 @@
+{
+  "id": "6FoGuchivo-Red_20barn",
+  "source_path": "data\\raw\\hack337\\schematics\\6FoGuchivo-Red%20barn.litematic",
+  "created_at": "2026-10-18T22:25:23+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 33,
+      "y": 26,
+      "z": 35
+    },
+    "non_air": 3625,
+    "density": 0.1207,
+    "unique_block_types": 40
+  },
+  "massing": {
+    "hollow_score": 0.8994,
+    "interior_air_frac": 0.8994,
+    "exterior_solid_frac": 0.0385,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      6,
+      12
+    ],
+    "families": {
+      "stairs": 225,
+      "slabs": 355,
+      "walls": 20,
+      "fences": 45,
+      "doors": 4,
+      "trapdoors": 76,
+      "glass": 24,
+      "logs": 250,
+      "planks": 56,
+      "stone_bricks": 0,
+      "deepslate": 417,
+      "terracotta": 0,
+      "concrete": 754,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 26,
+      "copper": 0,
+      "nether": 12
+    },
+    "symmetry": {
+      "symmetry_x": 0.3317,
+      "symmetry_z": 0.4227,
+      "symmetry_y": 0.0955
+    },
+    "solid_ratio": 0.1207
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "red_concrete",
+        "count": 754,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 619,
+        "frac": 0.0
+      },
+      {
+        "name": "coarse_dirt",
+        "count": 262,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_log",
+        "count": 250,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 171,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 133,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 131,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 130,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 114,
+        "frac": 0.0
+      },
+      {
+        "name": "hay_block",
+        "count": 98,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_slab",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz_stairs",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_slab",
+        "count": 67,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz_slab",
+        "count": 64,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 306,
+      "stone": 0,
+      "deepslate": 417,
+      "terracotta": 0,
+      "concrete": 754,
+      "wool": 0,
+      "glass": 24,
+      "nether": 12,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 58
+    },
+    "remap_targets": [
+      "red_concrete",
+      "grass_block",
+      "coarse_dirt",
+      "stripped_dark_oak_log",
+      "deepslate_tiles",
+      "smooth_quartz",
+      "dirt_path",
+      "dark_oak_slab",
+      "deepslate_tile_stairs",
+      "hay_block",
+      "dirt",
+      "deepslate_tile_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "industrial",
+      "scifi",
+      "rustic",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.577,
+        "raw_score": 0.2265,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.311,
+        "raw_score": 0.1428
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.308,
+        "raw_score": 0.1419
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.263,
+        "raw_score": 0.1252
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.259,
+        "raw_score": 0.124
+      }
+    ]
+  },
+  "redstone": {
+    "total": 86,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 4,
+      "trapdoor": 76,
+      "fence_gate": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\6FoGuchivo-Red_20barn_skeleton.npz",
+    "occupancy_frac": 0.147430419921875,
+    "occupied": 4831
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

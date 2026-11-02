@@ -1,0 +1,270 @@
+{
+  "id": "16tRivPczc-600k_20string_20farm",
+  "source_path": "data\\raw\\hack337\\schematics\\16tRivPczc-600k%20string%20farm.litematic",
+  "created_at": "2026-10-18T22:24:50+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 8,
+      "y": 17,
+      "z": 10
+    },
+    "non_air": 442,
+    "density": 0.325,
+    "unique_block_types": 20
+  },
+  "massing": {
+    "hollow_score": 0.5694,
+    "interior_air_frac": 0.5694,
+    "exterior_solid_frac": 0.0971,
+    "floor_guess": 4,
+    "y_peaks": [
+      1,
+      7,
+      10,
+      14
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 27,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 106,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 4
+    },
+    "symmetry": {
+      "symmetry_x": 0.2775,
+      "symmetry_z": 0.3273,
+      "symmetry_y": 0.5674
+    },
+    "solid_ratio": 0.325
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 106,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "tripwire_hook",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "tripwire",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "honey_block",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "note_block",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "soul_sand",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 106,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 27,
+      "nether": 4,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "observer",
+      "dispenser",
+      "piston_head",
+      "glass",
+      "tripwire_hook",
+      "redstone_block",
+      "piston",
+      "tripwire",
+      "redstone_wire",
+      "slime_block",
+      "honey_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.5808,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.755,
+        "raw_score": 0.5158
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.225,
+        "raw_score": 0.2263
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.119,
+        "raw_score": 0.1407
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.106,
+        "raw_score": 0.129
+      }
+    ]
+  },
+  "redstone": {
+    "total": 294,
+    "pattern_ids": [
+      "observer_clock",
+      "piston_door",
+      "qc_piston_bank",
+      "simple_io",
+      "tripwire_trap",
+      "flying_machine",
+      "edge_detector",
+      "note_block_line",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "观察者环路时钟",
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱",
+      "飞船/飞行器骨架",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 23,
+      "redstone_block": 24,
+      "repeater": 2,
+      "lever": 1,
+      "piston": 24,
+      "sticky_piston": 9,
+      "observer": 56,
+      "dispenser": 48,
+      "note_block": 6,
+      "tripwire": 48,
+      "piston_head": 29,
+      "slime_block": 12,
+      "honey_block": 12
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\16tRivPczc-600k_20string_20farm_skeleton.npz",
+    "occupancy_frac": 0.3353271484375,
+    "occupied": 10988
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

@@ -1,0 +1,306 @@
+{
+  "id": "精灵小屋_Kuky__222d7749",
+  "source_path": "data\\raw\\mcblock\\精灵小屋_Kuky__222d7749.litematic",
+  "created_at": "2026-10-19T20:35:50+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 25,
+      "y": 31,
+      "z": 25
+    },
+    "non_air": 2057,
+    "density": 0.1062,
+    "unique_block_types": 76
+  },
+  "massing": {
+    "hollow_score": 0.8971,
+    "interior_air_frac": 0.8971,
+    "exterior_solid_frac": 0.0247,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      7,
+      12,
+      16
+    ],
+    "families": {
+      "stairs": 196,
+      "slabs": 226,
+      "walls": 2,
+      "fences": 16,
+      "doors": 2,
+      "trapdoors": 140,
+      "glass": 7,
+      "logs": 284,
+      "planks": 55,
+      "stone_bricks": 1,
+      "deepslate": 0,
+      "terracotta": 14,
+      "concrete": 0,
+      "wool": 57,
+      "leaves": 89,
+      "lanterns": 15,
+      "copper": 25,
+      "nether": 61
+    },
+    "symmetry": {
+      "symmetry_x": 0.431,
+      "symmetry_z": 0.4201,
+      "symmetry_y": 0.0386
+    },
+    "solid_ratio": 0.1062
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 407,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 234,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 151,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 141,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 125,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 104,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 86,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_prismarine_slab",
+        "count": 59,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_slab",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "tall_grass",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_log",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 23,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 339,
+      "stone": 133,
+      "deepslate": 0,
+      "terracotta": 14,
+      "concrete": 0,
+      "wool": 57,
+      "glass": 7,
+      "nether": 61,
+      "copper": 25,
+      "prismarine": 94,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 89,
+      "metal": 16
+    },
+    "remap_targets": [
+      "grass_block",
+      "oak_log",
+      "spruce_stairs",
+      "short_grass",
+      "spruce_trapdoor",
+      "smooth_quartz",
+      "oak_leaves",
+      "calcite",
+      "spruce_slab",
+      "dark_prismarine_slab",
+      "warped_slab",
+      "white_wool"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.774,
+        "raw_score": 0.4238,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.475,
+        "raw_score": 0.3067
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.438,
+        "raw_score": 0.29
+      },
+      {
+        "style": "western",
+        "confidence": 0.333,
+        "raw_score": 0.2396
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.212,
+        "raw_score": 0.1719
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 170,
+    "pattern_ids": [
+      "note_block_line"
+    ],
+    "pattern_labels": [
+      "音符盒线路/乐器阵"
+    ],
+    "inventory_nonzero": {
+      "lever": 1,
+      "button": 7,
+      "pressure_plate": 2,
+      "piston": 1,
+      "note_block": 8,
+      "door": 2,
+      "trapdoor": 140,
+      "fence_gate": 1,
+      "brewing_stand": 2,
+      "furnace": 2,
+      "smoker": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\精灵小屋_Kuky__222d7749_skeleton.npz",
+    "occupancy_frac": 0.125579833984375,
+    "occupied": 4115
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 16,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\精灵小屋_Kuky__222d7749_block2vec.npy",
+    "vector_preview": [
+      -0.0716,
+      0.17601,
+      -0.19718,
+      0.04719,
+      -0.03717,
+      -0.026,
+      -0.13826,
+      -0.0073
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "精灵小屋_Msvspk__fc4b5444",
+        "score": 0.9485169926866583,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\精灵小屋_Msvspk__fc4b5444.litematic"
+      },
+      {
+        "id": "海龟小屋__6af638c4",
+        "score": 0.9483671309368645,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\海龟小屋__6af638c4.litematic"
+      },
+      {
+        "id": "KxjsdNuMN2-House_20Cyan_20Roof",
+        "score": 0.9461686981192856,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\KxjsdNuMN2-House%20Cyan%20Roof.litematic"
+      },
+      {
+        "id": "樱花砂岩小屋__cd9e26b9",
+        "score": 0.9413647041626845,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\樱花砂岩小屋__cd9e26b9.litematic"
+      },
+      {
+        "id": "棱镜小屋__f87bb89c",
+        "score": 0.9367332865150105,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\棱镜小屋__f87bb89c.litematic"
+      }
+    ]
+  }
+}

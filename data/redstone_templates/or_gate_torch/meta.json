@@ -1,0 +1,14 @@
+{
+  "id": "or_gate_torch",
+  "matches": [
+    "or_gate",
+    "torch_or"
+  ],
+  "label_zh": "火把 OR 门（双杆杆→灯）",
+  "size": [
+    3,
+    1,
+    2
+  ],
+  "notes": "简化 OR：任一杆杆通电即亮灯（线或）。"
+}

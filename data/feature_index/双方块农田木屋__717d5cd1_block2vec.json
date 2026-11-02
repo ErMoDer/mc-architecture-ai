@@ -1,0 +1,13 @@
+{
+  "id": "双方块农田木屋__717d5cd1",
+  "dim": 144,
+  "n_chunks": 4,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "双方块农田木屋__717d5cd1_block2vec.npy"
+}

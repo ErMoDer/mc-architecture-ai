@@ -1,0 +1,140 @@
+{
+  "id": "87bfa5d01af8_copper_brunnen",
+  "source_path": "data\\raw\\hack337\\schematics\\87bfa5d01af8_copper_brunnen.litematic",
+  "created_at": "2026-10-18T22:25:31+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 7,
+      "y": 3,
+      "z": 7
+    },
+    "non_air": 67,
+    "density": 0.4558,
+    "unique_block_types": 4
+  },
+  "massing": {
+    "hollow_score": 0.64,
+    "interior_air_frac": 0.64,
+    "exterior_solid_frac": 0.3946,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 27,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 34,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 1.0,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.2072
+    },
+    "solid_ratio": 0.4558
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "water",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_oxidized_cut_copper_stairs",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_oxidized_copper",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 34,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "water",
+      "waxed_oxidized_cut_copper_stairs",
+      "waxed_oxidized_copper",
+      "torch"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.55,
+        "raw_score": 0.2,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.55,
+        "raw_score": 0.2
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\87bfa5d01af8_copper_brunnen_skeleton.npz",
+    "occupancy_frac": 0.4718017578125,
+    "occupied": 15460
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

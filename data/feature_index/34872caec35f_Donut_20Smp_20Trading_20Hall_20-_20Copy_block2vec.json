@@ -1,0 +1,13 @@
+{
+  "id": "34872caec35f_Donut_20Smp_20Trading_20Hall_20-_20Copy",
+  "dim": 144,
+  "n_chunks": 32,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "34872caec35f_Donut_20Smp_20Trading_20Hall_20-_20Copy_block2vec.npy"
+}

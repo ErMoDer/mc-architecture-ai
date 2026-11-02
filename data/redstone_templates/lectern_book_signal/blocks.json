@@ -1,0 +1,27 @@
+[
+  {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:lectern",
+    "props": {
+      "facing": "south",
+      "has_book": "true"
+    }
+  },
+  {
+    "x": 1,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:comparator",
+    "props": {
+      "facing": "west"
+    }
+  },
+  {
+    "x": 2,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:redstone_lamp"
+  }
+]

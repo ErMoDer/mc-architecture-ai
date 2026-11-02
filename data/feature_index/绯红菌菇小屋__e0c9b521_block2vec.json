@@ -1,0 +1,13 @@
+{
+  "id": "绯红菌菇小屋__e0c9b521",
+  "dim": 144,
+  "n_chunks": 39,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "绯红菌菇小屋__e0c9b521_block2vec.npy"
+}

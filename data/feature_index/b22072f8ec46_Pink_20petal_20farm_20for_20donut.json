@@ -1,0 +1,280 @@
+{
+  "id": "b22072f8ec46_Pink_20petal_20farm_20for_20donut",
+  "source_path": "data\\raw\\hack337\\schematics\\b22072f8ec46_Pink%20petal%20farm%20for%20donut.litematic",
+  "created_at": "2026-10-18T22:25:43+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 19,
+      "y": 22,
+      "z": 39
+    },
+    "non_air": 3076,
+    "density": 0.1887,
+    "unique_block_types": 35
+  },
+  "massing": {
+    "hollow_score": 0.7783,
+    "interior_air_frac": 0.7783,
+    "exterior_solid_frac": 0.0176,
+    "floor_guess": 5,
+    "y_peaks": [
+      7,
+      11,
+      14,
+      17,
+      20
+    ],
+    "families": {
+      "stairs": 112,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 6,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 380,
+      "logs": 138,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 1226,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 4
+    },
+    "symmetry": {
+      "symmetry_x": 0.2753,
+      "symmetry_z": 0.5288,
+      "symmetry_y": 0.2979
+    },
+    "solid_ratio": 0.1887
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "deepslate_bricks",
+        "count": 785,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate",
+        "count": 328,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 260,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_stained_glass",
+        "count": 238,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 196,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 166,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 116,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_stairs",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 111,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_lamp",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_log",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_log",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 53,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 138,
+      "stone": 196,
+      "deepslate": 1226,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 380,
+      "nether": 4,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 64,
+      "leaves": 0,
+      "metal": 260
+    },
+    "remap_targets": [
+      "deepslate_bricks",
+      "polished_deepslate",
+      "hopper",
+      "pink_stained_glass",
+      "smooth_stone",
+      "redstone_wire",
+      "chest",
+      "deepslate_brick_stairs",
+      "lever",
+      "redstone_lamp",
+      "glass",
+      "pale_oak_log"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "medieval",
+      "scifi",
+      "european",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.476,
+        "raw_score": 0.1257,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.39,
+        "raw_score": 0.1072
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.255,
+        "raw_score": 0.0752
+      },
+      {
+        "style": "european",
+        "confidence": 0.233,
+        "raw_score": 0.0697
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.214,
+        "raw_score": 0.0647
+      }
+    ]
+  },
+  "redstone": {
+    "total": 775,
+    "pattern_ids": [
+      "hopper_line",
+      "qc_piston_bank",
+      "simple_io",
+      "crafter_auto_line",
+      "hopper_clock",
+      "item_elevator",
+      "observer_clock",
+      "etho_hopper_clock",
+      "shulker_loader",
+      "pulse_limiter",
+      "edge_detector",
+      "instant_wire",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "dual_edge_repeater",
+      "water_hopper_stream"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "QC/BUD 活塞组",
+      "杠杆/按钮 → 灯或门",
+      "合成器自动线（1.21）",
+      "漏斗钟",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "多漏斗环钟嫌疑",
+      "潜影盒装卸线嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "双沿/对向中继器线嫌疑",
+      "水流漏斗收集线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 166,
+      "redstone_block": 1,
+      "repeater": 18,
+      "comparator": 4,
+      "lever": 111,
+      "pressure_plate": 4,
+      "sticky_piston": 1,
+      "observer": 35,
+      "hopper": 260,
+      "dropper": 1,
+      "dispenser": 53,
+      "redstone_lamp": 108,
+      "fence_gate": 6,
+      "crafter": 6,
+      "shulker_box": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\b22072f8ec46_Pink_20petal_20farm_20for_20donut_skeleton.npz",
+    "occupancy_frac": 0.19232177734375,
+    "occupied": 6302
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

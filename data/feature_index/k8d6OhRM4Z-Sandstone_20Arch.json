@@ -1,0 +1,236 @@
+{
+  "id": "k8d6OhRM4Z-Sandstone_20Arch",
+  "source_path": "data\\raw\\hack337\\schematics\\k8d6OhRM4Z-Sandstone%20Arch.litematic",
+  "created_at": "2026-10-18T22:26:25+08:00",
+  "overview": {
+    "schematic_name": "Sandstone Arch",
+    "size": {
+      "x": 51,
+      "y": 49,
+      "z": 26
+    },
+    "non_air": 19721,
+    "density": 0.3035,
+    "unique_block_types": 26
+  },
+  "massing": {
+    "hollow_score": 0.6891,
+    "interior_air_frac": 0.6891,
+    "exterior_solid_frac": 0.0391,
+    "floor_guess": 11,
+    "y_peaks": [
+      0,
+      5,
+      10,
+      22,
+      26,
+      31,
+      35,
+      38,
+      42,
+      45,
+      48
+    ],
+    "families": {
+      "stairs": 102,
+      "slabs": 519,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 49,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 25,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8473,
+      "symmetry_z": 0.589,
+      "symmetry_y": 0.3976
+    },
+    "solid_ratio": 0.3035
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cut_sandstone",
+        "count": 15680,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 1299,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_ore",
+        "count": 604,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone_slab",
+        "count": 503,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 485,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_quartz_block",
+        "count": 282,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 224,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 174,
+        "frac": 0.0
+      },
+      {
+        "name": "shroomlight",
+        "count": 110,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_stairs",
+        "count": 102,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "tall_grass",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_stained_glass_pane",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_stained_glass_pane",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "clay",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 16,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 17517,
+      "deepslate": 0,
+      "terracotta": 25,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 49,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 614
+    },
+    "remap_targets": [
+      "cut_sandstone",
+      "stone",
+      "iron_ore",
+      "sandstone_slab",
+      "glowstone",
+      "chiseled_quartz_block",
+      "grass_block",
+      "dirt",
+      "shroomlight",
+      "quartz_stairs",
+      "grass",
+      "tall_grass"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.763,
+        "raw_score": 0.4128,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.657,
+        "raw_score": 0.3742
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.345,
+        "raw_score": 0.241
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.222,
+        "raw_score": 0.1749
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.198,
+        "raw_score": 0.1604
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\k8d6OhRM4Z-Sandstone_20Arch_skeleton.npz",
+    "occupancy_frac": 0.3551025390625,
+    "occupied": 11636
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

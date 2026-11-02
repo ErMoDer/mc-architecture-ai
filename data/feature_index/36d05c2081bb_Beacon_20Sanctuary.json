@@ -1,0 +1,218 @@
+{
+  "id": "36d05c2081bb_Beacon_20Sanctuary",
+  "source_path": "data\\raw\\hack337\\schematics\\36d05c2081bb_Beacon%20Sanctuary.litematic",
+  "created_at": "2026-10-18T22:25:03+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 9,
+      "y": 10,
+      "z": 9
+    },
+    "non_air": 233,
+    "density": 0.2877,
+    "unique_block_types": 14
+  },
+  "massing": {
+    "hollow_score": 0.6556,
+    "interior_air_frac": 0.6556,
+    "exterior_solid_frac": 0.121,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      4,
+      8
+    ],
+    "families": {
+      "stairs": 64,
+      "slabs": 31,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 5,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 82,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.983,
+      "symmetry_z": 0.983,
+      "symmetry_y": 0.2328
+    },
+    "solid_ratio": 0.2877
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_stairs",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite_stairs",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_pillar",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_slab",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_stained_glass",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 132,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 5,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "grass_block",
+      "quartz_stairs",
+      "stone_brick_slab",
+      "andesite_stairs",
+      "quartz_pillar",
+      "stone_brick_stairs",
+      "andesite",
+      "dirt",
+      "polished_andesite",
+      "stone",
+      "quartz_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.5469,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.777,
+        "raw_score": 0.4998
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.27,
+        "raw_score": 0.247
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.168,
+        "raw_score": 0.1752
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.15,
+        "raw_score": 0.1606
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\36d05c2081bb_Beacon_20Sanctuary_skeleton.npz",
+    "occupancy_frac": 0.30718994140625,
+    "occupied": 10066
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

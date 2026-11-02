@@ -1,0 +1,13 @@
+{
+  "id": "ae8a25cf0288_Spruce_20_2B_20Deepslate_20Japan_20house",
+  "dim": 144,
+  "n_chunks": 3,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "ae8a25cf0288_Spruce_20_2B_20Deepslate_20Japan_20house_block2vec.npy"
+}

@@ -1,0 +1,53 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+data/raw/**
+data/processed/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+outputs/
+checkpoints/
+runs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+.DS_Store
+Thumbs.db
+
+# Hack337 dataset (LOCAL_ONLY, do not push)
+data/raw/hack337/
+data/processed/hack337/
+
+# User design schemes (local project data)
+schemes/
+
+outputs/cache/
+
+# Third-party reference clones (do not vendor)
+refs/
+
+# Local schematics & transfer temp
+schematics/
+_xfer/
+
+# Backup files
+*.bak_*
+*.bak
+
+# Root scratch files
+_*.txt
+_rare_hits.txt
+_style_refs_outdir.txt
+_names_utf8.txt
+ab.hex
+gs.hex
+md.hex
+

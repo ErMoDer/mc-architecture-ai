@@ -1,0 +1,274 @@
+{
+  "id": "fc24e07726f6_Prime_nono_27s_20Bamboo_20Smelter",
+  "source_path": "data\\raw\\hack337\\schematics\\fc24e07726f6_Prime_nono%27s%20Bamboo%20Smelter.litematic",
+  "created_at": "2026-10-18T22:26:11+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 42,
+      "y": 15,
+      "z": 16
+    },
+    "non_air": 2370,
+    "density": 0.2351,
+    "unique_block_types": 25
+  },
+  "massing": {
+    "hollow_score": 0.7391,
+    "interior_air_frac": 0.7391,
+    "exterior_solid_frac": 0.0467,
+    "floor_guess": 4,
+    "y_peaks": [
+      3,
+      6,
+      10,
+      13
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 295,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 5,
+      "glass": 815,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 20,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7124,
+      "symmetry_z": 0.1652,
+      "symmetry_y": 0.1182
+    },
+    "solid_ratio": 0.2351
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "glass",
+        "count": 815,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 313,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 295,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_sapling",
+        "count": 280,
+        "frac": 0.0
+      },
+      {
+        "name": "rail",
+        "count": 185,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 162,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 113,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 62,
+        "frac": 0.0
+      },
+      {
+        "name": "furnace",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "honey_block",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 5,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 280,
+      "stone": 320,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 815,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 20,
+      "metal": 113
+    },
+    "remap_targets": [
+      "glass",
+      "grass_block",
+      "cobblestone_slab",
+      "bamboo_sapling",
+      "rail",
+      "powered_rail",
+      "hopper",
+      "chest",
+      "furnace",
+      "cobblestone",
+      "oak_leaves",
+      "redstone_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "fantasy",
+      "scifi",
+      "modern",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.54,
+        "raw_score": 0.1896,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.529,
+        "raw_score": 0.1868
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.43,
+        "raw_score": 0.1599
+      },
+      {
+        "style": "modern",
+        "confidence": 0.425,
+        "raw_score": 0.1584
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.413,
+        "raw_score": 0.155
+      }
+    ]
+  },
+  "redstone": {
+    "total": 553,
+    "pattern_ids": [
+      "hopper_line",
+      "sticky_piston_pair",
+      "auto_smelt_brew_line",
+      "etho_hopper_clock",
+      "flying_machine",
+      "edge_detector",
+      "detector_rail_clock",
+      "hopper_clock",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "torch_logic_lattice"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "粘性活塞对（换块/门）",
+      "自动烧炼/酿造线",
+      "多漏斗环钟嫌疑",
+      "飞船/飞行器骨架",
+      "边沿检测（观察者）嫌疑",
+      "探测铁轨矿车钟嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "火把逻辑阵（AND/OR/NOR/XOR）嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 14,
+      "redstone_torch": 3,
+      "redstone_block": 19,
+      "comparator": 2,
+      "lever": 4,
+      "sticky_piston": 3,
+      "observer": 4,
+      "hopper": 113,
+      "trapdoor": 5,
+      "powered_rail": 162,
+      "detector_rail": 2,
+      "rail": 185,
+      "piston_head": 1,
+      "furnace": 30,
+      "honey_block": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\fc24e07726f6_Prime_nono_27s_20Bamboo_20Smelter_skeleton.npz",
+    "occupancy_frac": 0.23309326171875,
+    "occupied": 7638
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:smelter",
+  "previous_mapped_style": "chinese"
+}

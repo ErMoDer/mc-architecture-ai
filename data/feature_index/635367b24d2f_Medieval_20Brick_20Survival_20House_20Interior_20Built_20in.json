@@ -1,0 +1,260 @@
+{
+  "id": "635367b24d2f_Medieval_20Brick_20Survival_20House_20Interior_20Built_20in",
+  "source_path": "data\\raw\\hack337\\schematics\\635367b24d2f_Medieval%20Brick%20Survival%20House%20Interior%20Built%20in.litematic",
+  "created_at": "2026-10-18T22:25:18+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 37,
+      "y": 27,
+      "z": 27
+    },
+    "non_air": 6957,
+    "density": 0.2579,
+    "unique_block_types": 79
+  },
+  "massing": {
+    "hollow_score": 0.7298,
+    "interior_air_frac": 0.7298,
+    "exterior_solid_frac": 0.0388,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      7,
+      12,
+      17
+    ],
+    "families": {
+      "stairs": 520,
+      "slabs": 920,
+      "walls": 8,
+      "fences": 51,
+      "doors": 32,
+      "trapdoors": 26,
+      "glass": 163,
+      "logs": 378,
+      "planks": 1516,
+      "stone_bricks": 28,
+      "deepslate": 2,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 20,
+      "leaves": 90,
+      "lanterns": 65,
+      "copper": 365,
+      "nether": 61
+    },
+    "symmetry": {
+      "symmetry_x": 0.4593,
+      "symmetry_z": 0.7427,
+      "symmetry_y": 0.1296
+    },
+    "solid_ratio": 0.2579
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "bricks",
+        "count": 1422,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 1332,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 898,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 506,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 437,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 370,
+        "frac": 0.0
+      },
+      {
+        "name": "oxidized_copper_grate",
+        "count": 205,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 178,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 175,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 162,
+        "frac": 0.0
+      },
+      {
+        "name": "weathered_copper_grate",
+        "count": 148,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 106,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass_pane",
+        "count": 89,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 54,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1894,
+      "stone": 1712,
+      "deepslate": 2,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 20,
+      "glass": 163,
+      "nether": 40,
+      "copper": 365,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 90,
+      "metal": 26
+    },
+    "remap_targets": [
+      "bricks",
+      "spruce_planks",
+      "spruce_slab",
+      "spruce_stairs",
+      "grass_block",
+      "spruce_log",
+      "oxidized_copper_grate",
+      "cobblestone",
+      "dark_oak_planks",
+      "dirt",
+      "weathered_copper_grate",
+      "quartz_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "rustic",
+      "chinese",
+      "japanese",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.85,
+        "raw_score": 0.5039,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.746,
+        "raw_score": 0.4624
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.498,
+        "raw_score": 0.3555
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.441,
+        "raw_score": 0.3276
+      },
+      {
+        "style": "western",
+        "confidence": 0.308,
+        "raw_score": 0.2562
+      }
+    ]
+  },
+  "redstone": {
+    "total": 70,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "lever": 2,
+      "door": 32,
+      "trapdoor": 26,
+      "brewing_stand": 1,
+      "furnace": 3,
+      "smoker": 3,
+      "blast_furnace": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\635367b24d2f_Medieval_20Brick_20Survival_20House_20Interior_20Built_20in_skeleton.npz",
+    "occupancy_frac": 0.2679443359375,
+    "occupied": 8780
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 20,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\635367b24d2f_Medieval_20Brick_20Survival_20House_20Interior_20Built_20in_block2vec.npy",
+    "vector_preview": [
+      -0.10763,
+      0.21027,
+      -0.07489,
+      0.02839,
+      0.15628,
+      0.04972,
+      -0.02502,
+      0.08559
+    ],
+    "ok": true
+  }
+}

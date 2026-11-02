@@ -1,0 +1,257 @@
+{
+  "id": "Villager_Statue___No_Trade_7cf245",
+  "source_path": "data\\raw\\hack337\\schematics\\Villager_Statue___No_Trade_7cf245.litematic",
+  "created_at": "2026-10-18T22:27:14+08:00",
+  "overview": {
+    "schematic_name": "Villager Statue _ No Trade",
+    "size": {
+      "x": 12,
+      "y": 36,
+      "z": 14
+    },
+    "non_air": 1281,
+    "density": 0.2118,
+    "unique_block_types": 21
+  },
+  "massing": {
+    "hollow_score": 0.7537,
+    "interior_air_frac": 0.7537,
+    "exterior_solid_frac": 0.0456,
+    "floor_guess": 9,
+    "y_peaks": [
+      0,
+      5,
+      8,
+      11,
+      18,
+      25,
+      28,
+      31,
+      35
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 357,
+      "planks": 10,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 325,
+      "concrete": 330,
+      "wool": 259,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3058,
+      "symmetry_z": 0.9738,
+      "symmetry_y": 0.3541
+    },
+    "solid_ratio": 0.2118
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "brown_terracotta",
+        "count": 235,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_wool",
+        "count": 225,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_concrete",
+        "count": 223,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_jungle_wood",
+        "count": 113,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_wood",
+        "count": 106,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_birch_wood",
+        "count": 97,
+        "frac": 0.0
+      },
+      {
+        "name": "white_terracotta",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_concrete_powder",
+        "count": 87,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_wood",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_wool",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_wool",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_concrete",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_jungle_log",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_planks",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 367,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 325,
+      "concrete": 330,
+      "wool": 259,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "brown_terracotta",
+      "brown_wool",
+      "brown_concrete",
+      "stripped_jungle_wood",
+      "stripped_oak_wood",
+      "stripped_birch_wood",
+      "white_terracotta",
+      "brown_concrete_powder",
+      "stripped_dark_oak_wood",
+      "light_gray_wool",
+      "gray_wool",
+      "light_gray_concrete"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "western",
+      "rustic",
+      "chinese",
+      "japanese",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "western",
+        "confidence": 0.559,
+        "raw_score": 0.2094,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.52,
+        "raw_score": 0.1986
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.463,
+        "raw_score": 0.1823
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.413,
+        "raw_score": 0.1671
+      },
+      {
+        "style": "modern",
+        "confidence": 0.245,
+        "raw_score": 0.1114
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Villager_Statue___No_Trade_7cf245_skeleton.npz",
+    "occupancy_frac": 0.235382080078125,
+    "occupied": 7713
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 5,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\Villager_Statue___No_Trade_7cf245_block2vec.npy",
+    "vector_preview": [
+      -0.13258,
+      0.18557,
+      -0.03207,
+      -0.02625,
+      0.08046,
+      0.01235,
+      -0.02225,
+      0.22521
+    ],
+    "ok": true
+  }
+}

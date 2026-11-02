@@ -1,0 +1,303 @@
+{
+  "id": "水上小屋_二__b3ac9e61",
+  "source_path": "data\\raw\\mcblock\\水上小屋_二__b3ac9e61.litematic",
+  "created_at": "2026-10-19T20:36:38+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 22,
+      "y": 16,
+      "z": 22
+    },
+    "non_air": 1055,
+    "density": 0.1362,
+    "unique_block_types": 23
+  },
+  "massing": {
+    "hollow_score": 0.8191,
+    "interior_air_frac": 0.8191,
+    "exterior_solid_frac": 0.0054,
+    "floor_guess": 4,
+    "y_peaks": [
+      1,
+      4,
+      8,
+      13
+    ],
+    "families": {
+      "stairs": 32,
+      "slabs": 467,
+      "walls": 0,
+      "fences": 27,
+      "doors": 6,
+      "trapdoors": 37,
+      "glass": 26,
+      "logs": 223,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 21,
+      "lanterns": 9,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2211,
+      "symmetry_z": 0.3287,
+      "symmetry_y": 0.2071
+    },
+    "solid_ratio": 0.1362
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_slab",
+        "count": 467,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 223,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 140,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence_gate",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_button",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_stairs",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_door",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 6,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 223,
+      "stone": 18,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 26,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 21,
+      "metal": 0
+    },
+    "remap_targets": [
+      "oak_slab",
+      "spruce_log",
+      "quartz_block",
+      "oak_trapdoor",
+      "glass_pane",
+      "oak_fence_gate",
+      "oak_leaves",
+      "oak_wall_sign",
+      "stone_button",
+      "quartz_stairs",
+      "oak_stairs",
+      "lantern"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6371,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.69,
+        "raw_score": 0.5174
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.626,
+        "raw_score": 0.4803
+      },
+      {
+        "style": "western",
+        "confidence": 0.568,
+        "raw_score": 0.4517
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.218,
+        "raw_score": 0.2364
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 85,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 18,
+      "door": 6,
+      "trapdoor": 37,
+      "fence_gate": 21,
+      "furnace": 2,
+      "smoker": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\水上小屋_二__b3ac9e61_skeleton.npz",
+    "occupancy_frac": 0.14190673828125,
+    "occupied": 4650
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 8,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\水上小屋_二__b3ac9e61_block2vec.npy",
+    "vector_preview": [
+      -0.08974,
+      0.2048,
+      -0.0236,
+      -0.00867,
+      0.12378,
+      -0.04445,
+      -0.07205,
+      0.10722
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "0Iz9qxmZmO-Storage_20House",
+        "score": 0.9491418516781284,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\0Iz9qxmZmO-Storage%20House.litematic"
+      },
+      {
+        "id": "qWEutSCHDz-Cute_20Cherry_20Survival_20House",
+        "score": 0.9109201902225263,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\qWEutSCHDz-Cute%20Cherry%20Survival%20House.litematic"
+      },
+      {
+        "id": "HLGXQkIwIj-Castle-House",
+        "score": 0.9089502125181742,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\HLGXQkIwIj-Castle-House.litematic"
+      },
+      {
+        "id": "现代公寓楼_二__c121656c",
+        "score": 0.9007826282476746,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\现代公寓楼_二__c121656c.litematic"
+      },
+      {
+        "id": "夏日小屋__0ee0807f",
+        "score": 0.8991237577396798,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\夏日小屋__0ee0807f.litematic"
+      }
+    ]
+  }
+}

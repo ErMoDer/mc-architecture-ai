@@ -1,0 +1,259 @@
+{
+  "id": "KCEzicTKh0-HouseWithGrass",
+  "source_path": "data\\raw\\hack337\\schematics\\KCEzicTKh0-HouseWithGrass.litematic",
+  "created_at": "2026-10-18T22:26:26+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 45,
+      "y": 51,
+      "z": 30
+    },
+    "non_air": 2508,
+    "density": 0.0364,
+    "unique_block_types": 52
+  },
+  "massing": {
+    "hollow_score": 0.9586,
+    "interior_air_frac": 0.9586,
+    "exterior_solid_frac": 0.001,
+    "floor_guess": 6,
+    "y_peaks": [
+      1,
+      4,
+      8,
+      11,
+      16,
+      20
+    ],
+    "families": {
+      "stairs": 95,
+      "slabs": 9,
+      "walls": 5,
+      "fences": 200,
+      "doors": 0,
+      "trapdoors": 120,
+      "glass": 0,
+      "logs": 749,
+      "planks": 96,
+      "stone_bricks": 235,
+      "deepslate": 594,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 19,
+      "leaves": 20,
+      "lanterns": 1,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3868,
+      "symmetry_z": 0.1333,
+      "symmetry_y": 0.0148
+    },
+    "solid_ratio": 0.0364
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_wood",
+        "count": 286,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 247,
+        "frac": 0.0
+      },
+      {
+        "name": "cracked_deepslate_bricks",
+        "count": 205,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_wood",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 149,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 148,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 143,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 143,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "dead_brain_coral_block",
+        "count": 71,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 59,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "cracked_stone_bricks",
+        "count": 55,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 845,
+      "stone": 363,
+      "deepslate": 594,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 19,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 29,
+      "snow_ice": 0,
+      "leaves": 74,
+      "metal": 0
+    },
+    "remap_targets": [
+      "oak_wood",
+      "stripped_spruce_wood",
+      "cracked_deepslate_bricks",
+      "mangrove_wood",
+      "deepslate_tiles",
+      "spruce_fence_gate",
+      "stone_bricks",
+      "deepslate_bricks",
+      "spruce_stairs",
+      "dead_brain_coral_block",
+      "spruce_trapdoor",
+      "oak_trapdoor"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.785,
+        "raw_score": 0.4355,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.494,
+        "raw_score": 0.3208
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.442,
+        "raw_score": 0.2973
+      },
+      {
+        "style": "western",
+        "confidence": 0.357,
+        "raw_score": 0.2562
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.317,
+        "raw_score": 0.2357
+      }
+    ]
+  },
+  "redstone": {
+    "total": 271,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "lever": 2,
+      "button": 1,
+      "trapdoor": 120,
+      "fence_gate": 148
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\KCEzicTKh0-HouseWithGrass_skeleton.npz",
+    "occupancy_frac": 0.0491943359375,
+    "occupied": 1612
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 22,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\KCEzicTKh0-HouseWithGrass_block2vec.npy",
+    "vector_preview": [
+      -0.04016,
+      0.23196,
+      -0.07518,
+      -0.08875,
+      0.06951,
+      0.06418,
+      -0.01002,
+      0.15477
+    ],
+    "ok": true
+  }
+}

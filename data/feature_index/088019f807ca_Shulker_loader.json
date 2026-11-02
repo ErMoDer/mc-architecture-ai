@@ -1,0 +1,230 @@
+{
+  "id": "088019f807ca_Shulker_loader",
+  "source_path": "data\\raw\\hack337\\schematics\\088019f807ca_Shulker_loader.litematic",
+  "created_at": "2026-10-18T22:24:45+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 6,
+      "y": 6,
+      "z": 13
+    },
+    "non_air": 76,
+    "density": 0.1624,
+    "unique_block_types": 12
+  },
+  "massing": {
+    "hollow_score": 0.733,
+    "interior_air_frac": 0.733,
+    "exterior_solid_frac": 0.062,
+    "floor_guess": 1,
+    "y_peaks": [
+      3
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 28,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.1692,
+      "symmetry_z": 0.1603,
+      "symmetry_y": 0.3818
+    },
+    "solid_ratio": 0.1624
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "scaffolding",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 28,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 15
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "hopper",
+      "redstone_wire",
+      "scaffolding",
+      "chest",
+      "oak_wall_sign",
+      "repeater",
+      "comparator",
+      "redstone_wall_torch",
+      "sticky_piston",
+      "dispenser",
+      "piston_head"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "industrial",
+      "fantasy",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.5648,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.799,
+        "raw_score": 0.531
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.231,
+        "raw_score": 0.2264
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.148,
+        "raw_score": 0.1628
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.098,
+        "raw_score": 0.1184
+      }
+    ]
+  },
+  "redstone": {
+    "total": 38,
+    "pattern_ids": [
+      "hopper_line",
+      "etho_hopper_clock",
+      "qc_piston_bank",
+      "hopper_clock"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "多漏斗环钟嫌疑",
+      "QC/BUD 活塞组",
+      "漏斗+比较器时钟/测量嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 15,
+      "redstone_torch": 1,
+      "repeater": 2,
+      "comparator": 2,
+      "sticky_piston": 1,
+      "hopper": 15,
+      "dispenser": 1,
+      "piston_head": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\088019f807ca_Shulker_loader_skeleton.npz",
+    "occupancy_frac": 0.163116455078125,
+    "occupied": 5345
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:shulker",
+  "previous_mapped_style": "chinese"
+}

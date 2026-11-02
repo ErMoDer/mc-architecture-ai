@@ -1,0 +1,13 @@
+{
+  "id": "db9c0ac18416_Nice_20House_20_28With_20Deco_29",
+  "dim": 144,
+  "n_chunks": 8,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "db9c0ac18416_Nice_20House_20_28With_20Deco_29_block2vec.npy"
+}

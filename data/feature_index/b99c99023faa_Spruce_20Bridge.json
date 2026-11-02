@@ -1,0 +1,161 @@
+{
+  "id": "b99c99023faa_Spruce_20Bridge",
+  "source_path": "data\\raw\\hack337\\schematics\\b99c99023faa_Spruce%20Bridge.litematic",
+  "created_at": "2026-10-18T22:25:45+08:00",
+  "overview": {
+    "schematic_name": "Spruce Bridge",
+    "size": {
+      "x": 4,
+      "y": 7,
+      "z": 16
+    },
+    "non_air": 136,
+    "density": 0.3036,
+    "unique_block_types": 4
+  },
+  "massing": {
+    "hollow_score": 0.8,
+    "interior_air_frac": 0.8,
+    "exterior_solid_frac": 0.2411,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 32,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 24,
+      "glass": 0,
+      "logs": 72,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 1.0,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.2593
+    },
+    "solid_ratio": 0.3036
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_log",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 8,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 72,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_log",
+      "spruce_slab",
+      "spruce_trapdoor",
+      "torch"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7629,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.709,
+        "raw_score": 0.6364
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.65,
+        "raw_score": 0.5833
+      },
+      {
+        "style": "western",
+        "confidence": 0.65,
+        "raw_score": 0.5833
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.197,
+        "raw_score": 0.25
+      }
+    ]
+  },
+  "redstone": {
+    "total": 24,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 24
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\b99c99023faa_Spruce_20Bridge_skeleton.npz",
+    "occupancy_frac": 0.29296875,
+    "occupied": 9600
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "id": "Zmivb2NrEH-House_2031",
+  "source_path": "data\\raw\\hack337\\schematics\\Zmivb2NrEH-House%2031.litematic",
+  "created_at": "2026-10-18T22:27:24+08:00",
+  "overview": {
+    "schematic_name": "House 31",
+    "size": {
+      "x": 11,
+      "y": 9,
+      "z": 12
+    },
+    "non_air": 467,
+    "density": 0.3931,
+    "unique_block_types": 34
+  },
+  "massing": {
+    "hollow_score": 0.5365,
+    "interior_air_frac": 0.5365,
+    "exterior_solid_frac": 0.1473,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      5
+    ],
+    "families": {
+      "stairs": 106,
+      "slabs": 53,
+      "walls": 0,
+      "fences": 2,
+      "doors": 2,
+      "trapdoors": 7,
+      "glass": 0,
+      "logs": 131,
+      "planks": 37,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 16,
+      "leaves": 12,
+      "lanterns": 2,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5089,
+      "symmetry_z": 0.3497,
+      "symmetry_y": 0.2918
+    },
+    "solid_ratio": 0.3931
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dark_oak_log",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 33,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 6,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 168,
+      "stone": 41,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 16,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 12,
+      "metal": 1
+    },
+    "remap_targets": [
+      "dark_oak_log",
+      "dark_oak_stairs",
+      "spruce_stairs",
+      "spruce_slab",
+      "spruce_planks",
+      "stripped_spruce_wood",
+      "grass_block",
+      "dirt",
+      "polished_andesite",
+      "barrel",
+      "oak_leaves",
+      "white_wool"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6104,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.674,
+        "raw_score": 0.4897
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.596,
+        "raw_score": 0.4531
+      },
+      {
+        "style": "western",
+        "confidence": 0.514,
+        "raw_score": 0.4118
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.231,
+        "raw_score": 0.2391
+      }
+    ]
+  },
+  "redstone": {
+    "total": 13,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 2,
+      "pressure_plate": 1,
+      "door": 2,
+      "trapdoor": 7,
+      "fence_gate": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Zmivb2NrEH-House_2031_skeleton.npz",
+    "occupancy_frac": 0.42193603515625,
+    "occupied": 13826
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 2,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\Zmivb2NrEH-House_2031_block2vec.npy",
+    "vector_preview": [
+      -0.06062,
+      0.21978,
+      -0.13062,
+      0.04576,
+      -0.00842,
+      0.04789,
+      -0.07975,
+      0.01275
+    ],
+    "ok": true
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "id": "4ac6ae09d3c2_ManePear-New-Base-unstable-smp",
+  "source_path": "data\\raw\\hack337\\schematics\\4ac6ae09d3c2_ManePear-New-Base-unstable-smp.litematic",
+  "created_at": "2026-10-18T22:25:10+08:00",
+  "overview": {
+    "schematic_name": "ManePear New Base creds airtxet",
+    "size": {
+      "x": 44,
+      "y": 17,
+      "z": 22
+    },
+    "non_air": 2292,
+    "density": 0.1393,
+    "unique_block_types": 43
+  },
+  "massing": {
+    "hollow_score": 0.8363,
+    "interior_air_frac": 0.8363,
+    "exterior_solid_frac": 0.014,
+    "floor_guess": 2,
+    "y_peaks": [
+      2,
+      8
+    ],
+    "families": {
+      "stairs": 485,
+      "slabs": 129,
+      "walls": 0,
+      "fences": 3,
+      "doors": 2,
+      "trapdoors": 52,
+      "glass": 0,
+      "logs": 923,
+      "planks": 210,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 35,
+      "concrete": 0,
+      "wool": 52,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 47
+    },
+    "symmetry": {
+      "symmetry_x": 0.2635,
+      "symmetry_z": 0.3498,
+      "symmetry_y": 0.205
+    },
+    "solid_ratio": 0.1393
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_oak_log",
+        "count": 583,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_stairs",
+        "count": 324,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_birch_log",
+        "count": 323,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 204,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 115,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_red_sandstone_stairs",
+        "count": 93,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 62,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_red_sandstone_slab",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_carpet",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "carrots",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_trapdoor",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_terracotta",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "bookshelf",
+        "count": 30,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1133,
+      "stone": 283,
+      "deepslate": 0,
+      "terracotta": 35,
+      "concrete": 0,
+      "wool": 52,
+      "glass": 0,
+      "nether": 47,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 2
+    },
+    "remap_targets": [
+      "stripped_oak_log",
+      "acacia_stairs",
+      "stripped_birch_log",
+      "birch_planks",
+      "cobblestone",
+      "smooth_red_sandstone_stairs",
+      "oak_stairs",
+      "oak_slab",
+      "smooth_red_sandstone_slab",
+      "orange_carpet",
+      "farmland",
+      "carrots"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6177,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.683,
+        "raw_score": 0.4977
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.595,
+        "raw_score": 0.4562
+      },
+      {
+        "style": "western",
+        "confidence": 0.542,
+        "raw_score": 0.4296
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.221,
+        "raw_score": 0.2337
+      }
+    ]
+  },
+  "redstone": {
+    "total": 63,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 2,
+      "trapdoor": 52,
+      "brewing_stand": 3,
+      "furnace": 4,
+      "lectern": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\4ac6ae09d3c2_ManePear-New-Base-unstable-smp_skeleton.npz",
+    "occupancy_frac": 0.155364990234375,
+    "occupied": 5091
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

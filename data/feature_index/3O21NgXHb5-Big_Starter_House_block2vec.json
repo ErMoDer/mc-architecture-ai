@@ -1,0 +1,13 @@
+{
+  "id": "3O21NgXHb5-Big_Starter_House",
+  "dim": 144,
+  "n_chunks": 16,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "3O21NgXHb5-Big_Starter_House_block2vec.npy"
+}

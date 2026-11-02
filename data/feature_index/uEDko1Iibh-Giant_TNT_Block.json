@@ -1,0 +1,187 @@
+{
+  "id": "uEDko1Iibh-Giant_TNT_Block",
+  "source_path": "data\\raw\\hack337\\schematics\\uEDko1Iibh-Giant_TNT_Block.litematic",
+  "created_at": "2026-10-18T22:27:13+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 18,
+      "y": 18,
+      "z": 18
+    },
+    "non_air": 1992,
+    "density": 0.3416,
+    "unique_block_types": 8
+  },
+  "massing": {
+    "hollow_score": 0.9375,
+    "interior_air_frac": 0.9375,
+    "exterior_solid_frac": 0.2977,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      16
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 355,
+      "concrete": 1381,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 1.0,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.7722
+    },
+    "solid_ratio": 0.3416
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "red_concrete_powder",
+        "count": 355,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 330,
+        "frac": 0.0
+      },
+      {
+        "name": "red_terracotta",
+        "count": 322,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 296,
+        "frac": 0.0
+      },
+      {
+        "name": "red_concrete",
+        "count": 294,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 256,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_concrete",
+        "count": 106,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_terracotta",
+        "count": 33,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 256,
+      "deepslate": 0,
+      "terracotta": 355,
+      "concrete": 1381,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "red_concrete_powder",
+      "black_concrete",
+      "red_terracotta",
+      "white_concrete",
+      "red_concrete",
+      "cobblestone",
+      "light_gray_concrete",
+      "cyan_terracotta"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "desert",
+    "style_id": 8,
+    "terrain_id": 5,
+    "guess_names": [
+      "modern",
+      "industrial",
+      "scifi",
+      "desert",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.62,
+        "raw_score": 0.2696,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.414,
+        "raw_score": 0.202
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.367,
+        "raw_score": 0.1849
+      },
+      {
+        "style": "desert",
+        "confidence": 0.084,
+        "raw_score": 0.0557
+      },
+      {
+        "style": "european",
+        "confidence": 0.083,
+        "raw_score": 0.0551
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\uEDko1Iibh-Giant_TNT_Block_skeleton.npz",
+    "occupancy_frac": 0.307037353515625,
+    "occupied": 10061
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

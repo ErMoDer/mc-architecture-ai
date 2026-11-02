@@ -1,0 +1,44 @@
+[
+  {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:lever",
+    "props": {
+      "face": "floor",
+      "facing": "east"
+    }
+  },
+  {
+    "x": 1,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:repeater",
+    "props": {
+      "facing": "east",
+      "delay": "2"
+    }
+  },
+  {
+    "x": 2,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:repeater",
+    "props": {
+      "facing": "east",
+      "delay": "4"
+    }
+  },
+  {
+    "x": 3,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:redstone_wire"
+  },
+  {
+    "x": 4,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:redstone_lamp"
+  }
+]

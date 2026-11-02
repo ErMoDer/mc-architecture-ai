@@ -1,0 +1,13 @@
+{
+  "id": "66576e6295a1_Jxt_20SMP_20Medieval_20House",
+  "dim": 144,
+  "n_chunks": 9,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "66576e6295a1_Jxt_20SMP_20Medieval_20House_block2vec.npy"
+}

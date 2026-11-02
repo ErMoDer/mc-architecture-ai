@@ -1,0 +1,232 @@
+{
+  "id": "01c8a6a05a3a_brockavator_debug",
+  "source_path": "data\\raw\\hack337\\schematics\\01c8a6a05a3a_brockavator_debug.litematic",
+  "created_at": "2026-10-18T22:24:44+08:00",
+  "overview": {
+    "schematic_name": "brockavator_debug",
+    "size": {
+      "x": 12,
+      "y": 8,
+      "z": 9
+    },
+    "non_air": 154,
+    "density": 0.1782,
+    "unique_block_types": 12
+  },
+  "massing": {
+    "hollow_score": 0.7976,
+    "interior_air_frac": 0.7976,
+    "exterior_solid_frac": 0.0799,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      6
+    ],
+    "families": {
+      "stairs": 4,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 5,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 5,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 43,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8554,
+      "symmetry_z": 0.2222,
+      "symmetry_y": 0.2833
+    },
+    "solid_ratio": 0.1782
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "light_blue_wool",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "note_block",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "command_block",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_fence",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_stairs",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 9,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 43,
+      "glass": 5,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "light_blue_wool",
+      "piston",
+      "redstone_block",
+      "slime_block",
+      "sticky_piston",
+      "note_block",
+      "oak_wall_sign",
+      "command_block",
+      "observer",
+      "bamboo_fence",
+      "glass",
+      "bamboo_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "fantasy",
+      "rustic",
+      "chinese",
+      "japanese",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.53,
+        "raw_score": 0.1798,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.437,
+        "raw_score": 0.1554
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.252,
+        "raw_score": 0.1005
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.226,
+        "raw_score": 0.0921
+      },
+      {
+        "style": "western",
+        "confidence": 0.226,
+        "raw_score": 0.0921
+      }
+    ]
+  },
+  "redstone": {
+    "total": 81,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "observer_clock",
+      "flying_machine",
+      "edge_detector",
+      "note_block_line",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "观察者相邻时钟嫌疑",
+      "飞船/飞行器骨架",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_block": 17,
+      "piston": 24,
+      "sticky_piston": 11,
+      "observer": 8,
+      "note_block": 9,
+      "slime_block": 12
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\01c8a6a05a3a_brockavator_debug_skeleton.npz",
+    "occupancy_frac": 0.176513671875,
+    "occupied": 5784
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "nERQ538qlS-BdoubleO100_20Rent-A-Pack",
+  "source_path": "data\\raw\\hack337\\schematics\\nERQ538qlS-BdoubleO100%20Rent-A-Pack.litematic",
+  "created_at": "2026-10-18T22:26:34+08:00",
+  "overview": {
+    "schematic_name": "BdoubleO100 Rent-A-Pack",
+    "size": {
+      "x": 27,
+      "y": 24,
+      "z": 21
+    },
+    "non_air": 3431,
+    "density": 0.2521,
+    "unique_block_types": 89
+  },
+  "massing": {
+    "hollow_score": 0.7463,
+    "interior_air_frac": 0.7463,
+    "exterior_solid_frac": 0.0573,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      6,
+      11,
+      15
+    ],
+    "families": {
+      "stairs": 33,
+      "slabs": 378,
+      "walls": 35,
+      "fences": 68,
+      "doors": 6,
+      "trapdoors": 70,
+      "glass": 0,
+      "logs": 128,
+      "planks": 97,
+      "stone_bricks": 78,
+      "deepslate": 86,
+      "terracotta": 164,
+      "concrete": 0,
+      "wool": 11,
+      "leaves": 29,
+      "lanterns": 20,
+      "copper": 26,
+      "nether": 5
+    },
+    "symmetry": {
+      "symmetry_x": 0.4225,
+      "symmetry_z": 0.5165,
+      "symmetry_y": 0.1335
+    },
+    "solid_ratio": 0.2521
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 1222,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 324,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_slab",
+        "count": 212,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff",
+        "count": 183,
+        "frac": 0.0
+      },
+      {
+        "name": "terracotta",
+        "count": 143,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 127,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 93,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_cobblestone",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 59,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_log",
+        "count": 59,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_acacia_log",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 36,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 225,
+      "stone": 598,
+      "deepslate": 86,
+      "terracotta": 164,
+      "concrete": 0,
+      "wool": 11,
+      "glass": 0,
+      "nether": 0,
+      "copper": 26,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 12,
+      "snow_ice": 0,
+      "leaves": 67,
+      "metal": 23
+    },
+    "remap_targets": [
+      "dirt",
+      "grass_block",
+      "acacia_slab",
+      "tuff",
+      "terracotta",
+      "cobblestone",
+      "dark_oak_planks",
+      "dark_oak_slab",
+      "mossy_cobblestone",
+      "dirt_path",
+      "stripped_dark_oak_log",
+      "stone"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "european",
+      "chinese",
+      "japanese",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.609,
+        "raw_score": 0.2586,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.6,
+        "raw_score": 0.256
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.479,
+        "raw_score": 0.2179
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.438,
+        "raw_score": 0.2043
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.421,
+        "raw_score": 0.1984
+      }
+    ]
+  },
+  "redstone": {
+    "total": 111,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 2,
+      "button": 4,
+      "door": 6,
+      "trapdoor": 70,
+      "fence_gate": 29
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\nERQ538qlS-BdoubleO100_20Rent-A-Pack_skeleton.npz",
+    "occupancy_frac": 0.2669677734375,
+    "occupied": 8748
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

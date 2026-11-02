@@ -1,0 +1,26 @@
+[
+  {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:tripwire_hook",
+    "props": {
+      "facing": "east"
+    }
+  },
+  {
+    "x": 1,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:tripwire"
+  },
+  {
+    "x": 2,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:tripwire_hook",
+    "props": {
+      "facing": "west"
+    }
+  }
+]

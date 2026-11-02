@@ -1,0 +1,13 @@
+{
+  "id": "从林木砂岩西洋风建筑__4ff7900b",
+  "dim": 144,
+  "n_chunks": 4,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "从林木砂岩西洋风建筑__4ff7900b_block2vec.npy"
+}

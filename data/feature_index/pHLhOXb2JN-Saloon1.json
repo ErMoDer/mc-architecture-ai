@@ -1,0 +1,239 @@
+{
+  "id": "pHLhOXb2JN-Saloon1",
+  "source_path": "data\\raw\\hack337\\schematics\\pHLhOXb2JN-Saloon1.litematic",
+  "created_at": "2026-10-18T22:26:37+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 16,
+      "y": 12,
+      "z": 16
+    },
+    "non_air": 1159,
+    "density": 0.3773,
+    "unique_block_types": 16
+  },
+  "massing": {
+    "hollow_score": 0.6551,
+    "interior_air_frac": 0.6551,
+    "exterior_solid_frac": 0.1572,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      4,
+      8
+    ],
+    "families": {
+      "stairs": 123,
+      "slabs": 119,
+      "walls": 0,
+      "fences": 33,
+      "doors": 12,
+      "trapdoors": 100,
+      "glass": 28,
+      "logs": 7,
+      "planks": 459,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 257,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 11,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4186,
+      "symmetry_z": 0.4689,
+      "symmetry_y": 0.32
+    },
+    "solid_ratio": 0.3773
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "red_terracotta",
+        "count": 257,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_planks",
+        "count": 234,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 225,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 123,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 119,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_door",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "chain",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "tripwire_hook",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 466,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 257,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 28,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 4
+    },
+    "remap_targets": [
+      "red_terracotta",
+      "mangrove_planks",
+      "spruce_planks",
+      "spruce_stairs",
+      "spruce_slab",
+      "spruce_trapdoor",
+      "spruce_fence",
+      "glass_pane",
+      "spruce_door",
+      "lantern",
+      "stripped_spruce_log",
+      "chain"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "western",
+      "chinese",
+      "japanese",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5168,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "western",
+        "confidence": 0.618,
+        "raw_score": 0.4168
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.565,
+        "raw_score": 0.3928
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.495,
+        "raw_score": 0.36
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.159,
+        "raw_score": 0.1605
+      }
+    ]
+  },
+  "redstone": {
+    "total": 116,
+    "pattern_ids": [
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "door": 12,
+      "trapdoor": 100,
+      "fence_gate": 2,
+      "tripwire": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\pHLhOXb2JN-Saloon1_skeleton.npz",
+    "occupancy_frac": 0.38037109375,
+    "occupied": 12464
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "western",
+  "long_fill2_retag": "long_fill2 hack337 chinese->western"
+}

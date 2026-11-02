@@ -1,0 +1,253 @@
+{
+  "id": "砖块小屋__deec214d",
+  "source_path": "data\\raw\\mcblock\\砖块小屋__deec214d.litematic",
+  "created_at": "2026-10-19T13:01:09+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 14,
+      "y": 11,
+      "z": 14
+    },
+    "non_air": 649,
+    "density": 0.301,
+    "unique_block_types": 16
+  },
+  "massing": {
+    "hollow_score": 0.6381,
+    "interior_air_frac": 0.6381,
+    "exterior_solid_frac": 0.0835,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      6
+    ],
+    "families": {
+      "stairs": 56,
+      "slabs": 165,
+      "walls": 0,
+      "fences": 2,
+      "doors": 4,
+      "trapdoors": 0,
+      "glass": 126,
+      "logs": 1,
+      "planks": 23,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 5,
+      "lanterns": 3,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6684,
+      "symmetry_z": 0.6641,
+      "symmetry_y": 0.2409
+    },
+    "solid_ratio": 0.301
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "smooth_stone_slab",
+        "count": 157,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 126,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone",
+        "count": 118,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_stairs",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_leaves",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_door",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 24,
+      "stone": 421,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 126,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 5,
+      "metal": 0
+    },
+    "remap_targets": [
+      "smooth_stone_slab",
+      "glass",
+      "sandstone",
+      "bricks",
+      "brick_stairs",
+      "dirt",
+      "spruce_planks",
+      "spruce_slab",
+      "birch_leaves",
+      "spruce_stairs",
+      "oak_door",
+      "glowstone"
+    ]
+  },
+  "style": {
+    "mapped_style": "modern",
+    "mapped_terrain": "flat",
+    "style_id": 3,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.7,
+        "raw_score": 0.3504,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.539,
+        "raw_score": 0.2935
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.383,
+        "raw_score": 0.231
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.235,
+        "raw_score": 0.161
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.211,
+        "raw_score": 0.1483
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 4,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\砖块小屋__deec214d_skeleton.npz",
+    "occupancy_frac": 0.31842041015625,
+    "occupied": 10434
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 2,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\砖块小屋__deec214d_block2vec.npy",
+    "vector_preview": [
+      -0.09411,
+      0.19753,
+      -0.01636,
+      0.01234,
+      0.17921,
+      0.055,
+      0.0356,
+      0.03212
+    ],
+    "ok": true
+  }
+}

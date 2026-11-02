@@ -1,0 +1,232 @@
+{
+  "id": "9dcde1623776_Greek",
+  "source_path": "data\\raw\\hack337\\schematics\\9dcde1623776_Greek.litematic",
+  "created_at": "2026-10-18T22:25:36+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 61,
+      "y": 34,
+      "z": 47
+    },
+    "non_air": 13098,
+    "density": 0.1344,
+    "unique_block_types": 25
+  },
+  "massing": {
+    "hollow_score": 0.8796,
+    "interior_air_frac": 0.8796,
+    "exterior_solid_frac": 0.0294,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      3,
+      19,
+      22
+    ],
+    "families": {
+      "stairs": 227,
+      "slabs": 1585,
+      "walls": 1526,
+      "fences": 20,
+      "doors": 0,
+      "trapdoors": 113,
+      "glass": 13,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 1537,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 12,
+      "copper": 0,
+      "nether": 1178
+    },
+    "symmetry": {
+      "symmetry_x": 0.7754,
+      "symmetry_z": 0.4188,
+      "symmetry_y": 0.0625
+    },
+    "solid_ratio": 0.1344
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "quartz_block",
+        "count": 3894,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 1514,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 1353,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_slab",
+        "count": 1178,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 1150,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 744,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 718,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 672,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite_slab",
+        "count": 402,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_tuff",
+        "count": 386,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_bricks",
+        "count": 288,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_wall_sign",
+        "count": 189,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite_stairs",
+        "count": 152,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_trapdoor",
+        "count": 113,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_cobblestone_wall",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 75,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 4803,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 13,
+      "nether": 1178,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 5
+    },
+    "remap_targets": [
+      "quartz_block",
+      "dirt",
+      "grass_block",
+      "warped_slab",
+      "calcite",
+      "stone_bricks",
+      "stone_brick_wall",
+      "cobblestone_wall",
+      "polished_andesite_slab",
+      "polished_tuff",
+      "tuff_bricks",
+      "pale_oak_wall_sign"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.764,
+        "raw_score": 0.4141,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.67,
+        "raw_score": 0.3801
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.267,
+        "raw_score": 0.2005
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.174,
+        "raw_score": 0.1456
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.156,
+        "raw_score": 0.1334
+      }
+    ]
+  },
+  "redstone": {
+    "total": 123,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "pressure_plate": 10,
+      "trapdoor": 113
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\9dcde1623776_Greek_skeleton.npz",
+    "occupancy_frac": 0.173797607421875,
+    "occupied": 5695
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

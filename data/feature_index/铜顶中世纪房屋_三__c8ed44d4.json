@@ -1,0 +1,301 @@
+{
+  "id": "铜顶中世纪房屋_三__c8ed44d4",
+  "source_path": "data\\raw\\mcblock\\铜顶中世纪房屋_三__c8ed44d4.litematic",
+  "created_at": "2026-10-19T13:00:58+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 25,
+      "y": 44,
+      "z": 38
+    },
+    "non_air": 6787,
+    "density": 0.1624,
+    "unique_block_types": 43
+  },
+  "massing": {
+    "hollow_score": 0.8367,
+    "interior_air_frac": 0.8367,
+    "exterior_solid_frac": 0.0265,
+    "floor_guess": 12,
+    "y_peaks": [
+      0,
+      4,
+      7,
+      12,
+      15,
+      18,
+      21,
+      26,
+      29,
+      33,
+      36,
+      39
+    ],
+    "families": {
+      "stairs": 473,
+      "slabs": 793,
+      "walls": 77,
+      "fences": 6,
+      "doors": 0,
+      "trapdoors": 344,
+      "glass": 0,
+      "logs": 996,
+      "planks": 945,
+      "stone_bricks": 380,
+      "deepslate": 0,
+      "terracotta": 326,
+      "concrete": 427,
+      "wool": 148,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 196
+    },
+    "symmetry": {
+      "symmetry_x": 0.9997,
+      "symmetry_z": 0.981,
+      "symmetry_y": 0.0681
+    },
+    "solid_ratio": 0.1624
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dark_oak_planks",
+        "count": 599,
+        "frac": 0.0
+      },
+      {
+        "name": "red_concrete_powder",
+        "count": 427,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite",
+        "count": 339,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 330,
+        "frac": 0.0
+      },
+      {
+        "name": "red_terracotta",
+        "count": 326,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 263,
+        "frac": 0.0
+      },
+      {
+        "name": "granite",
+        "count": 252,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 250,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_planks",
+        "count": 244,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite_stairs",
+        "count": 229,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 223,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 218,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_acacia_wood",
+        "count": 204,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_slab",
+        "count": 198,
+        "frac": 0.0
+      },
+      {
+        "name": "red_nether_bricks",
+        "count": 196,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 190,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1941,
+      "stone": 2616,
+      "deepslate": 0,
+      "terracotta": 326,
+      "concrete": 427,
+      "wool": 148,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "dark_oak_planks",
+      "red_concrete_powder",
+      "polished_andesite",
+      "andesite",
+      "red_terracotta",
+      "bricks",
+      "granite",
+      "stone_bricks",
+      "jungle_planks",
+      "andesite_stairs",
+      "stripped_spruce_wood",
+      "dark_oak_trapdoor"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "chinese",
+      "rustic",
+      "japanese",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.85,
+        "raw_score": 0.5361,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.388,
+        "raw_score": 0.3135
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.362,
+        "raw_score": 0.299
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.342,
+        "raw_score": 0.2873
+      },
+      {
+        "style": "european",
+        "confidence": 0.325,
+        "raw_score": 0.2775
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 350,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 344,
+      "fence_gate": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\铜顶中世纪房屋_三__c8ed44d4_skeleton.npz",
+    "occupancy_frac": 0.197418212890625,
+    "occupied": 6469
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 36,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\铜顶中世纪房屋_三__c8ed44d4_block2vec.npy",
+    "vector_preview": [
+      -0.02332,
+      0.20817,
+      -0.06832,
+      -0.02241,
+      0.05056,
+      0.07645,
+      -0.02625,
+      0.09429
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "德国汉堡_四号楼__08ba5eb2",
+        "score": 0.8591751815566433,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\德国汉堡_四号楼__08ba5eb2.litematic"
+      },
+      {
+        "id": "荷兰农舍__a793d010",
+        "score": 0.8408708461788097,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\荷兰农舍__a793d010.litematic"
+      },
+      {
+        "id": "温馨木屋__449de557",
+        "score": 0.8150615466603117,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\温馨木屋__449de557.litematic"
+      },
+      {
+        "id": "中世纪庄园__a050a53d",
+        "score": 0.7995669723059398,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\中世纪庄园__a050a53d.litematic"
+      },
+      {
+        "id": "女巫小屋__5a2ed929",
+        "score": 0.7891964509486166,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\女巫小屋__5a2ed929.litematic"
+      }
+    ]
+  }
+}

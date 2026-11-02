@@ -1,0 +1,37 @@
+[
+  {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:iron_door",
+    "props": {
+      "facing": "south",
+      "half": "lower",
+      "hinge": "left",
+      "open": "false"
+    }
+  },
+  {
+    "x": 0,
+    "y": 1,
+    "z": 0,
+    "block": "minecraft:iron_door",
+    "props": {
+      "facing": "south",
+      "half": "upper",
+      "hinge": "left",
+      "open": "false"
+    }
+  },
+  {
+    "x": 1,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:stone_button",
+    "props": {
+      "face": "wall",
+      "facing": "east",
+      "powered": "false"
+    }
+  }
+]

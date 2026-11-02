@@ -1,0 +1,236 @@
+{
+  "id": "hO9Lge4yiq-Crop_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\hO9Lge4yiq-Crop%20Farm.litematic",
+  "created_at": "2026-10-18T22:26:20+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 22,
+      "y": 6,
+      "z": 29
+    },
+    "non_air": 1972,
+    "density": 0.5152,
+    "unique_block_types": 15
+  },
+  "massing": {
+    "hollow_score": 0.5042,
+    "interior_air_frac": 0.5042,
+    "exterior_solid_frac": 0.2354,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 12,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 18,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9183,
+      "symmetry_z": 0.3946,
+      "symmetry_y": 0.178
+    },
+    "solid_ratio": 0.5152
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 494,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 450,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 372,
+        "frac": 0.0
+      },
+      {
+        "name": "carrots",
+        "count": 195,
+        "frac": 0.0
+      },
+      {
+        "name": "potatoes",
+        "count": 177,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 92,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 81,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 92,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 18
+    },
+    "remap_targets": [
+      "dirt",
+      "grass_block",
+      "farmland",
+      "carrots",
+      "potatoes",
+      "smooth_stone",
+      "redstone_wire",
+      "chest",
+      "hopper",
+      "spruce_trapdoor",
+      "torch",
+      "oak_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "industrial",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.708,
+        "raw_score": 0.3584,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.613,
+        "raw_score": 0.3253
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.326,
+        "raw_score": 0.2091
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.26,
+        "raw_score": 0.177
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.213,
+        "raw_score": 0.1521
+      }
+    ]
+  },
+  "redstone": {
+    "total": 127,
+    "pattern_ids": [
+      "instant_wire"
+    ],
+    "pattern_labels": [
+      "瞬间线/同向中继器线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 81,
+      "repeater": 9,
+      "lever": 1,
+      "hopper": 18,
+      "trapdoor": 18
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\hO9Lge4yiq-Crop_20Farm_skeleton.npz",
+    "occupancy_frac": 0.521484375,
+    "occupied": 17088
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

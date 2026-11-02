@@ -1,0 +1,297 @@
+{
+  "id": "水下居所__2b184664",
+  "source_path": "data\\raw\\mcblock\\水下居所__2b184664.litematic",
+  "created_at": "2026-10-19T20:37:37+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 23,
+      "y": 37,
+      "z": 23
+    },
+    "non_air": 2372,
+    "density": 0.1212,
+    "unique_block_types": 63
+  },
+  "massing": {
+    "hollow_score": 0.8548,
+    "interior_air_frac": 0.8548,
+    "exterior_solid_frac": 0.0067,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      3,
+      8,
+      13,
+      17,
+      23
+    ],
+    "families": {
+      "stairs": 38,
+      "slabs": 343,
+      "walls": 12,
+      "fences": 4,
+      "doors": 2,
+      "trapdoors": 148,
+      "glass": 433,
+      "logs": 125,
+      "planks": 127,
+      "stone_bricks": 72,
+      "deepslate": 9,
+      "terracotta": 36,
+      "concrete": 0,
+      "wool": 1,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 569
+    },
+    "symmetry": {
+      "symmetry_x": 0.3181,
+      "symmetry_z": 0.3233,
+      "symmetry_y": 0.0491
+    },
+    "solid_ratio": 0.1212
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "smooth_quartz_slab",
+        "count": 283,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 219,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_prismarine",
+        "count": 202,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 199,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_trapdoor",
+        "count": 148,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_stained_glass",
+        "count": 134,
+        "frac": 0.0
+      },
+      {
+        "name": "glow_lichen",
+        "count": 131,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_planks",
+        "count": 127,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_warped_hyphae",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 106,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 74,
+        "frac": 0.0
+      },
+      {
+        "name": "cracked_polished_blackstone_bricks",
+        "count": 59,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_stained_glass_pane",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_slab",
+        "count": 34,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 252,
+      "stone": 177,
+      "deepslate": 9,
+      "terracotta": 36,
+      "concrete": 0,
+      "wool": 1,
+      "glass": 433,
+      "nether": 208,
+      "copper": 0,
+      "prismarine": 202,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 106,
+      "metal": 10
+    },
+    "remap_targets": [
+      "smooth_quartz_slab",
+      "glass",
+      "dark_prismarine",
+      "smooth_quartz",
+      "warped_trapdoor",
+      "light_blue_stained_glass",
+      "glow_lichen",
+      "warped_planks",
+      "stripped_warped_hyphae",
+      "moss_block",
+      "quartz_block",
+      "cracked_polished_blackstone_bricks"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "japanese",
+      "rustic",
+      "fantasy",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.498,
+        "raw_score": 0.1477,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.471,
+        "raw_score": 0.1416
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.47,
+        "raw_score": 0.1412
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.454,
+        "raw_score": 0.1376
+      },
+      {
+        "style": "european",
+        "confidence": 0.43,
+        "raw_score": 0.1319
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 155,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 2,
+      "trapdoor": 148,
+      "fence_gate": 4,
+      "lectern": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\水下居所__2b184664_skeleton.npz",
+    "occupancy_frac": 0.136322021484375,
+    "occupied": 4467
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 20,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\水下居所__2b184664_block2vec.npy",
+    "vector_preview": [
+      -0.00607,
+      0.15733,
+      -0.15115,
+      -0.02489,
+      0.06393,
+      -0.02032,
+      -0.13834,
+      0.06306
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "精灵蕨__dfb4a417",
+        "score": 0.9175835801027191,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\精灵蕨__dfb4a417.litematic"
+      },
+      {
+        "id": "女巫小屋__5a2ed929",
+        "score": 0.9160033024127415,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\女巫小屋__5a2ed929.litematic"
+      },
+      {
+        "id": "绯红菌菇小屋__e0c9b521",
+        "score": 0.9124028697156656,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\绯红菌菇小屋__e0c9b521.litematic"
+      },
+      {
+        "id": "海滨小筑__8e86858e",
+        "score": 0.8997680531617323,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\海滨小筑__8e86858e.litematic"
+      },
+      {
+        "id": "樱花尖塔小屋__b0c933a1",
+        "score": 0.8989054313693866,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\樱花尖塔小屋__b0c933a1.litematic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "id": "cuy0NNJmgv-Medieval_20Tent",
+  "source_path": "data\\raw\\hack337\\schematics\\cuy0NNJmgv-Medieval%20Tent.litematic",
+  "created_at": "2026-10-18T22:25:55+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 11,
+      "y": 6,
+      "z": 7
+    },
+    "non_air": 248,
+    "density": 0.5368,
+    "unique_block_types": 22
+  },
+  "massing": {
+    "hollow_score": 0.3611,
+    "interior_air_frac": 0.3611,
+    "exterior_solid_frac": 0.2879,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 17,
+      "slabs": 8,
+      "walls": 0,
+      "fences": 11,
+      "doors": 0,
+      "trapdoors": 17,
+      "glass": 0,
+      "logs": 12,
+      "planks": 9,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 20,
+      "leaves": 4,
+      "lanterns": 2,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8036,
+      "symmetry_z": 0.93,
+      "symmetry_y": 0.2589
+    },
+    "solid_ratio": 0.5368
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 47,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "snow_block",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "white_carpet",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "sweet_berry_bush",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "snow",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_leaves",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 21,
+      "stone": 4,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 20,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 12,
+      "leaves": 4,
+      "metal": 0
+    },
+    "remap_targets": [
+      "dirt",
+      "grass_block",
+      "spruce_stairs",
+      "spruce_trapdoor",
+      "white_wool",
+      "stripped_spruce_log",
+      "spruce_fence",
+      "spruce_planks",
+      "spruce_slab",
+      "snow_block",
+      "white_carpet",
+      "sweet_berry_bush"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "rustic",
+      "chinese",
+      "japanese",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.702,
+        "raw_score": 0.352,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.459,
+        "raw_score": 0.2635
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.409,
+        "raw_score": 0.2429
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.375,
+        "raw_score": 0.2281
+      },
+      {
+        "style": "western",
+        "confidence": 0.314,
+        "raw_score": 0.2008
+      }
+    ]
+  },
+  "redstone": {
+    "total": 23,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "lever": 4,
+      "trapdoor": 17,
+      "furnace": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\cuy0NNJmgv-Medieval_20Tent_skeleton.npz",
+    "occupancy_frac": 0.5477294921875,
+    "occupied": 17948
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

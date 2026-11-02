@@ -1,0 +1,15 @@
+{
+  "id": "daylight_sensor_lamp_stub",
+  "matches": [
+    "daylight_lamp",
+    "outdoor_auto_lamp",
+    "daylight_sensor_lamp"
+  ],
+  "label_zh": "日光传感器夜灯桩（反相日光→粉尘→灯）",
+  "size": [
+    3,
+    1,
+    1
+  ],
+  "notes": "教学桩：夜间点灯；与 daylight_clock（正常日光）区分。"
+}

@@ -1,0 +1,249 @@
+{
+  "id": "s1cDGXy64h-End_20Base",
+  "source_path": "data\\raw\\hack337\\schematics\\s1cDGXy64h-End%20Base.litematic",
+  "created_at": "2026-10-18T22:26:42+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 37,
+      "y": 30,
+      "z": 31
+    },
+    "non_air": 4861,
+    "density": 0.1413,
+    "unique_block_types": 68
+  },
+  "massing": {
+    "hollow_score": 0.8691,
+    "interior_air_frac": 0.8691,
+    "exterior_solid_frac": 0.0332,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      8,
+      12
+    ],
+    "families": {
+      "stairs": 151,
+      "slabs": 78,
+      "walls": 126,
+      "fences": 56,
+      "doors": 0,
+      "trapdoors": 67,
+      "glass": 45,
+      "logs": 168,
+      "planks": 0,
+      "stone_bricks": 122,
+      "deepslate": 1117,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 142,
+      "leaves": 0,
+      "lanterns": 6,
+      "copper": 0,
+      "nether": 139
+    },
+    "symmetry": {
+      "symmetry_x": 0.8922,
+      "symmetry_z": 0.6774,
+      "symmetry_y": 0.0178
+    },
+    "solid_ratio": 0.1413
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "end_stone",
+        "count": 1392,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 1075,
+        "frac": 0.0
+      },
+      {
+        "name": "purpur_block",
+        "count": 428,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_bricks",
+        "count": 338,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_pale_oak_log",
+        "count": 128,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_wool",
+        "count": 124,
+        "frac": 0.0
+      },
+      {
+        "name": "end_stone_brick_wall",
+        "count": 122,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone",
+        "count": 98,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "purpur_pillar",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "crying_obsidian",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "coal_block",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_bars",
+        "count": 59,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "amethyst_block",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "lectern",
+        "count": 51,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 168,
+      "stone": 1992,
+      "deepslate": 1117,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 142,
+      "glass": 45,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 2,
+      "leaves": 0,
+      "metal": 85
+    },
+    "remap_targets": [
+      "end_stone",
+      "deepslate_bricks",
+      "purpur_block",
+      "tuff_bricks",
+      "stripped_pale_oak_log",
+      "purple_wool",
+      "end_stone_brick_wall",
+      "polished_blackstone",
+      "dark_oak_stairs",
+      "purpur_pillar",
+      "crying_obsidian",
+      "coal_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "european",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.629,
+        "raw_score": 0.2789,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.583,
+        "raw_score": 0.2647
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.295,
+        "raw_score": 0.1608
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.228,
+        "raw_score": 0.1321
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.205,
+        "raw_score": 0.1211
+      }
+    ]
+  },
+  "redstone": {
+    "total": 169,
+    "pattern_ids": [
+      "target_block_line",
+      "hopper_clock",
+      "shulker_loader"
+    ],
+    "pattern_labels": [
+      "标靶方块线路",
+      "漏斗+比较器时钟/测量嫌疑",
+      "潜影盒装卸线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 3,
+      "redstone_block": 4,
+      "repeater": 1,
+      "comparator": 1,
+      "hopper": 3,
+      "dropper": 1,
+      "target": 1,
+      "trapdoor": 67,
+      "furnace": 1,
+      "lectern": 51,
+      "shulker_box": 1,
+      "honey_block": 35
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\s1cDGXy64h-End_20Base_skeleton.npz",
+    "occupancy_frac": 0.1678466796875,
+    "occupied": 5500
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

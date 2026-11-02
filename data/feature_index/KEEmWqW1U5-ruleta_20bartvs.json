@@ -1,0 +1,258 @@
+{
+  "id": "KEEmWqW1U5-ruleta_20bartvs",
+  "source_path": "data\\raw\\hack337\\schematics\\KEEmWqW1U5-ruleta%20bartvs.litematic",
+  "created_at": "2026-10-18T22:26:26+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 11,
+      "y": 9,
+      "z": 12
+    },
+    "non_air": 371,
+    "density": 0.3123,
+    "unique_block_types": 15
+  },
+  "massing": {
+    "hollow_score": 0.5238,
+    "interior_air_frac": 0.5238,
+    "exterior_solid_frac": 0.0598,
+    "floor_guess": 2,
+    "y_peaks": [
+      2,
+      6
+    ],
+    "families": {
+      "stairs": 24,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 21,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7625,
+      "symmetry_z": 0.4436,
+      "symmetry_y": 0.3466
+    },
+    "solid_ratio": 0.3123
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "iron_block",
+        "count": 144,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_lamp",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "dropper",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_button",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 21,
+      "stone": 1,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 169
+    },
+    "remap_targets": [
+      "iron_block",
+      "redstone_wall_torch",
+      "redstone_wire",
+      "comparator",
+      "hopper",
+      "redstone_lamp",
+      "oak_stairs",
+      "oak_planks",
+      "redstone_torch",
+      "oak_wall_sign",
+      "dirt",
+      "repeater"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "scifi",
+      "modern",
+      "rustic",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.705,
+        "raw_score": 0.3546,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.39,
+        "raw_score": 0.236
+      },
+      {
+        "style": "modern",
+        "confidence": 0.207,
+        "raw_score": 0.1475
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.085,
+        "raw_score": 0.0714
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.084,
+        "raw_score": 0.0709
+      }
+    ]
+  },
+  "redstone": {
+    "total": 168,
+    "pattern_ids": [
+      "hopper_line",
+      "simple_io",
+      "t_flip_flop",
+      "etho_hopper_clock",
+      "qc_piston_bank",
+      "hopper_clock",
+      "rs_latch",
+      "edge_detector",
+      "torch_logic_lattice",
+      "torch_burn_clock",
+      "falling_edge",
+      "torch_xor_gate"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "杠杆/按钮 → 灯或门",
+      "投掷器-漏斗 T 触发器嫌疑",
+      "多漏斗环钟嫌疑",
+      "QC/BUD 活塞组",
+      "漏斗+比较器时钟/测量嫌疑",
+      "RS 锁存（火把）嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "火把逻辑阵（AND/OR/NOR/XOR）嫌疑",
+      "多火把粉尘烧灭钟嫌疑",
+      "下降沿/双火把脉冲嫌疑",
+      "火把 XOR/同或门嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 30,
+      "redstone_torch": 57,
+      "repeater": 2,
+      "comparator": 27,
+      "button": 1,
+      "observer": 1,
+      "hopper": 25,
+      "dropper": 1,
+      "redstone_lamp": 24
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\KEEmWqW1U5-ruleta_20bartvs_skeleton.npz",
+    "occupancy_frac": 0.309600830078125,
+    "occupied": 10145
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

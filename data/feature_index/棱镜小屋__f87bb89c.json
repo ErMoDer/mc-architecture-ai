@@ -1,0 +1,268 @@
+{
+  "id": "棱镜小屋__f87bb89c",
+  "source_path": "data\\raw\\mcblock\\棱镜小屋__f87bb89c.litematic",
+  "created_at": "2026-10-19T13:01:09+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 30,
+      "y": 32,
+      "z": 31
+    },
+    "non_air": 2857,
+    "density": 0.096,
+    "unique_block_types": 77
+  },
+  "massing": {
+    "hollow_score": 0.887,
+    "interior_air_frac": 0.887,
+    "exterior_solid_frac": 0.0035,
+    "floor_guess": 4,
+    "y_peaks": [
+      1,
+      7,
+      13,
+      21
+    ],
+    "families": {
+      "stairs": 145,
+      "slabs": 89,
+      "walls": 96,
+      "fences": 130,
+      "doors": 4,
+      "trapdoors": 104,
+      "glass": 0,
+      "logs": 514,
+      "planks": 456,
+      "stone_bricks": 72,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 127,
+      "leaves": 56,
+      "lanterns": 28,
+      "copper": 0,
+      "nether": 270
+    },
+    "symmetry": {
+      "symmetry_x": 0.3338,
+      "symmetry_z": 0.2852,
+      "symmetry_y": 0.0797
+    },
+    "solid_ratio": 0.096
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_birch_log",
+        "count": 416,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 261,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 157,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_wart_block",
+        "count": 156,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_bricks",
+        "count": 135,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_wool",
+        "count": 127,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 89,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 85,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_mud",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_slab",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_mushroom_block",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_stairs",
+        "count": 67,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_warped_hyphae",
+        "count": 65,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 970,
+      "stone": 557,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 127,
+      "glass": 0,
+      "nether": 205,
+      "copper": 0,
+      "prismarine": 271,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 64,
+      "metal": 28
+    },
+    "remap_targets": [
+      "stripped_birch_log",
+      "spruce_planks",
+      "stone",
+      "warped_wart_block",
+      "prismarine_bricks",
+      "cyan_wool",
+      "dirt",
+      "birch_planks",
+      "packed_mud",
+      "dark_oak_planks",
+      "spruce_fence",
+      "smooth_stone"
+    ]
+  },
+  "style": {
+    "mapped_style": "modern",
+    "mapped_terrain": "flat",
+    "style_id": 3,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.795,
+        "raw_score": 0.4446,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.502,
+        "raw_score": 0.3286
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.446,
+        "raw_score": 0.3036
+      },
+      {
+        "style": "western",
+        "confidence": 0.346,
+        "raw_score": 0.2547
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.254,
+        "raw_score": 0.2041
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 188,
+    "pattern_ids": [
+      "door_line",
+      "simple_io"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门"
+    ],
+    "inventory_nonzero": {
+      "pressure_plate": 1,
+      "door": 4,
+      "trapdoor": 104,
+      "fence_gate": 48,
+      "furnace": 10,
+      "smoker": 10,
+      "blast_furnace": 6,
+      "lectern": 5
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\棱镜小屋__f87bb89c_skeleton.npz",
+    "occupancy_frac": 0.09210205078125,
+    "occupied": 3018
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 14,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\棱镜小屋__f87bb89c_block2vec.npy",
+    "vector_preview": [
+      -0.05608,
+      0.19451,
+      -0.1148,
+      0.03497,
+      0.03407,
+      -0.0594,
+      -0.1337,
+      0.03151
+    ],
+    "ok": true
+  }
+}

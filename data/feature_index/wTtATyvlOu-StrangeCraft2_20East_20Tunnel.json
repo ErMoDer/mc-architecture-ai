@@ -1,0 +1,226 @@
+{
+  "id": "wTtATyvlOu-StrangeCraft2_20East_20Tunnel",
+  "source_path": "data\\raw\\hack337\\schematics\\wTtATyvlOu-StrangeCraft2%20East%20Tunnel.litematic",
+  "created_at": "2026-10-18T22:27:18+08:00",
+  "overview": {
+    "schematic_name": "StrangeCraft2 East Tunnel",
+    "size": {
+      "x": 35,
+      "y": 11,
+      "z": 11
+    },
+    "non_air": 1496,
+    "density": 0.3532,
+    "unique_block_types": 15
+  },
+  "massing": {
+    "hollow_score": 0.6027,
+    "interior_air_frac": 0.6027,
+    "exterior_solid_frac": 0.1025,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      3,
+      9
+    ],
+    "families": {
+      "stairs": 298,
+      "slabs": 289,
+      "walls": 287,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 100,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 976,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 148
+    },
+    "symmetry": {
+      "symmetry_x": 1.0,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.4553
+    },
+    "solid_ratio": 0.3532
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_brick_stairs",
+        "count": 298,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 289,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 252,
+        "frac": 0.0
+      },
+      {
+        "name": "soul_soil",
+        "count": 140,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 137,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 124,
+        "frac": 0.0
+      },
+      {
+        "name": "red_stained_glass_pane",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_ice",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_wall",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "weeping_vines_plant",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_nylium",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "weeping_vines",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 3,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 1135,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 100,
+      "nether": 148,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 35,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stone_brick_stairs",
+      "stone_brick_slab",
+      "stone_brick_wall",
+      "soul_soil",
+      "stone_bricks",
+      "bricks",
+      "red_stained_glass_pane",
+      "blue_ice",
+      "powered_rail",
+      "brick_wall",
+      "glowstone",
+      "weeping_vines_plant"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.836,
+        "raw_score": 0.486,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.716,
+        "raw_score": 0.4405
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.245,
+        "raw_score": 0.2119
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.148,
+        "raw_score": 0.1455
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.133,
+        "raw_score": 0.1334
+      }
+    ]
+  },
+  "redstone": {
+    "total": 38,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "redstone_torch": 3,
+      "powered_rail": 35
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\wTtATyvlOu-StrangeCraft2_20East_20Tunnel_skeleton.npz",
+    "occupancy_frac": 0.3563232421875,
+    "occupied": 11676
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

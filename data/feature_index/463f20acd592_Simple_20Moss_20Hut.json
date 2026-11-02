@@ -1,0 +1,238 @@
+{
+  "id": "463f20acd592_Simple_20Moss_20Hut",
+  "source_path": "data\\raw\\hack337\\schematics\\463f20acd592_Simple%20Moss%20Hut.litematic",
+  "created_at": "2026-10-18T22:25:09+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 14,
+      "y": 18,
+      "z": 17
+    },
+    "non_air": 848,
+    "density": 0.1979,
+    "unique_block_types": 62
+  },
+  "massing": {
+    "hollow_score": 0.791,
+    "interior_air_frac": 0.791,
+    "exterior_solid_frac": 0.0574,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      6
+    ],
+    "families": {
+      "stairs": 75,
+      "slabs": 15,
+      "walls": 15,
+      "fences": 4,
+      "doors": 2,
+      "trapdoors": 52,
+      "glass": 8,
+      "logs": 38,
+      "planks": 55,
+      "stone_bricks": 0,
+      "deepslate": 40,
+      "terracotta": 0,
+      "concrete": 43,
+      "wool": 17,
+      "leaves": 61,
+      "lanterns": 5,
+      "copper": 4,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5279,
+      "symmetry_z": 0.5102,
+      "symmetry_y": 0.1143
+    },
+    "solid_ratio": 0.1979
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "moss_block",
+        "count": 101,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 71,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "azalea_leaves",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "green_concrete_powder",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "flowering_azalea_leaves",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 17,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 93,
+      "stone": 133,
+      "deepslate": 40,
+      "terracotta": 0,
+      "concrete": 43,
+      "wool": 17,
+      "glass": 8,
+      "nether": 0,
+      "copper": 3,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 164,
+      "metal": 8
+    },
+    "remap_targets": [
+      "moss_block",
+      "grass_block",
+      "dark_oak_stairs",
+      "andesite",
+      "azalea_leaves",
+      "tuff",
+      "spruce_log",
+      "green_concrete_powder",
+      "spruce_trapdoor",
+      "dark_oak_planks",
+      "spruce_planks",
+      "dark_oak_trapdoor"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "japanese",
+      "chinese",
+      "rustic",
+      "fantasy",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "japanese",
+        "confidence": 0.581,
+        "raw_score": 0.2307,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.552,
+        "raw_score": 0.2224
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.487,
+        "raw_score": 0.2032
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.392,
+        "raw_score": 0.1729
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.328,
+        "raw_score": 0.1509
+      }
+    ]
+  },
+  "redstone": {
+    "total": 56,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "pressure_plate": 1,
+      "door": 2,
+      "trapdoor": 52,
+      "fence_gate": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\463f20acd592_Simple_20Moss_20Hut_skeleton.npz",
+    "occupancy_frac": 0.20513916015625,
+    "occupied": 6722
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "qc_piston_row",
+  "matches": [
+    "qc_piston_bank",
+    "zero_tick_bud_freerun"
+  ],
+  "label_zh": "QC 侧置活塞排（粉尘在上邻）",
+  "size": [
+    2,
+    2,
+    4
+  ],
+  "notes": "活塞本体旁上方邻格走粉尘 = Java QC 粗示意；需强充电源，BUD 时序不保证。"
+}

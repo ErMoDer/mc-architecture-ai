@@ -1,0 +1,237 @@
+{
+  "id": "a0a3ea1c6879_AsianCastle2",
+  "source_path": "data\\raw\\hack337\\schematics\\a0a3ea1c6879_AsianCastle2.litematic",
+  "created_at": "2026-10-18T22:25:37+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 29,
+      "y": 40,
+      "z": 31
+    },
+    "non_air": 5220,
+    "density": 0.1452,
+    "unique_block_types": 35
+  },
+  "massing": {
+    "hollow_score": 0.8279,
+    "interior_air_frac": 0.8279,
+    "exterior_solid_frac": 0.0027,
+    "floor_guess": 7,
+    "y_peaks": [
+      1,
+      4,
+      11,
+      16,
+      20,
+      25,
+      29
+    ],
+    "families": {
+      "stairs": 411,
+      "slabs": 1751,
+      "walls": 326,
+      "fences": 209,
+      "doors": 2,
+      "trapdoors": 216,
+      "glass": 0,
+      "logs": 336,
+      "planks": 0,
+      "stone_bricks": 1414,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 545,
+      "wool": 0,
+      "leaves": 2,
+      "lanterns": 70,
+      "copper": 0,
+      "nether": 1443
+    },
+    "symmetry": {
+      "symmetry_x": 0.9981,
+      "symmetry_z": 0.3416,
+      "symmetry_y": 0.1291
+    },
+    "solid_ratio": 0.1452
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "white_concrete",
+        "count": 545,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 448,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_bricks",
+        "count": 439,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_slab",
+        "count": 372,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 361,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone",
+        "count": 348,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_log",
+        "count": 328,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_brick_slab",
+        "count": 280,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_brick_wall",
+        "count": 240,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_brick_slab",
+        "count": 214,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_trapdoor",
+        "count": 207,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 188,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence",
+        "count": 182,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 174,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_brick_stairs",
+        "count": 156,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff",
+        "count": 86,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 543,
+      "stone": 3112,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 545,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 2,
+      "metal": 52
+    },
+    "remap_targets": [
+      "white_concrete",
+      "dark_oak_slab",
+      "polished_blackstone_bricks",
+      "polished_blackstone_slab",
+      "stone_brick_slab",
+      "polished_blackstone",
+      "dark_oak_log",
+      "polished_blackstone_brick_slab",
+      "tuff_brick_wall",
+      "tuff_brick_slab",
+      "bamboo_trapdoor",
+      "stone_bricks"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.6418,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.417,
+        "raw_score": 0.3713
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.189,
+        "raw_score": 0.2149
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.188,
+        "raw_score": 0.2143
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.167,
+        "raw_score": 0.1965
+      }
+    ]
+  },
+  "redstone": {
+    "total": 297,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 52,
+      "door": 2,
+      "trapdoor": 216,
+      "fence_gate": 27
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\a0a3ea1c6879_AsianCastle2_skeleton.npz",
+    "occupancy_frac": 0.15289306640625,
+    "occupied": 5010
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

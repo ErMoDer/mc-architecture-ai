@@ -1,0 +1,13 @@
+{
+  "id": "沼林魔法屋__42f248ad",
+  "dim": 144,
+  "n_chunks": 17,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "沼林魔法屋__42f248ad_block2vec.npy"
+}

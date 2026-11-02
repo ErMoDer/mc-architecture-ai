@@ -1,0 +1,13 @@
+{
+  "id": "中世纪小木屋第一弹__3d23b7d1",
+  "dim": 144,
+  "n_chunks": 8,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "中世纪小木屋第一弹__3d23b7d1_block2vec.npy"
+}

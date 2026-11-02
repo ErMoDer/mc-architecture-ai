@@ -1,0 +1,13 @@
+{
+  "id": "沁玫雅舍__3837f7d4",
+  "dim": 144,
+  "n_chunks": 40,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "沁玫雅舍__3837f7d4_block2vec.npy"
+}

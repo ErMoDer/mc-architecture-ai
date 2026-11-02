@@ -1,0 +1,13 @@
+{
+  "id": "向日葵小屋__c4c631fb",
+  "dim": 144,
+  "n_chunks": 33,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "向日葵小屋__c4c631fb_block2vec.npy"
+}

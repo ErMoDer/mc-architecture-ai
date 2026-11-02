@@ -1,0 +1,236 @@
+{
+  "id": "2vYzhNlIZD-Angel_20Statue",
+  "source_path": "data\\raw\\hack337\\schematics\\2vYzhNlIZD-Angel%20Statue.litematic",
+  "created_at": "2026-10-18T22:25:00+08:00",
+  "overview": {
+    "schematic_name": "Angel Statue",
+    "size": {
+      "x": 21,
+      "y": 37,
+      "z": 18
+    },
+    "non_air": 1597,
+    "density": 0.1142,
+    "unique_block_types": 17
+  },
+  "massing": {
+    "hollow_score": 0.8923,
+    "interior_air_frac": 0.8923,
+    "exterior_solid_frac": 0.0322,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      5,
+      17,
+      21,
+      25,
+      28
+    ],
+    "families": {
+      "stairs": 67,
+      "slabs": 88,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 257,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 38,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8613,
+      "symmetry_z": 0.2191,
+      "symmetry_y": 0.1002
+    },
+    "solid_ratio": 0.1142
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cobblestone",
+        "count": 325,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 234,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 180,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 170,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 161,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 130,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "podzol",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "cracked_stone_bricks",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "white_tulip",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "rose_bush",
+        "count": 11,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 1117,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 38,
+      "metal": 0
+    },
+    "remap_targets": [
+      "cobblestone",
+      "stone",
+      "stone_bricks",
+      "andesite",
+      "dirt_path",
+      "dirt",
+      "grass_block",
+      "smooth_stone_slab",
+      "stone_brick_stairs",
+      "oak_leaves",
+      "polished_andesite",
+      "podzol"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.5776,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.787,
+        "raw_score": 0.5347
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.256,
+        "raw_score": 0.2473
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.167,
+        "raw_score": 0.1818
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.152,
+        "raw_score": 0.1694
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\2vYzhNlIZD-Angel_20Statue_skeleton.npz",
+    "occupancy_frac": 0.124725341796875,
+    "occupied": 4087
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:statue",
+  "previous_mapped_style": "chinese"
+}

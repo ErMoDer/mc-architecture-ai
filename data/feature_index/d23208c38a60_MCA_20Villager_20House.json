@@ -1,0 +1,250 @@
+{
+  "id": "d23208c38a60_MCA_20Villager_20House",
+  "source_path": "data\\raw\\hack337\\schematics\\d23208c38a60_MCA%20Villager%20House.litematic",
+  "created_at": "2026-10-18T22:25:56+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 12,
+      "y": 18,
+      "z": 14
+    },
+    "non_air": 1149,
+    "density": 0.38,
+    "unique_block_types": 15
+  },
+  "massing": {
+    "hollow_score": 0.5609,
+    "interior_air_frac": 0.5609,
+    "exterior_solid_frac": 0.1012,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      5,
+      8,
+      12
+    ],
+    "families": {
+      "stairs": 167,
+      "slabs": 14,
+      "walls": 4,
+      "fences": 0,
+      "doors": 8,
+      "trapdoors": 4,
+      "glass": 48,
+      "logs": 167,
+      "planks": 211,
+      "stone_bricks": 0,
+      "deepslate": 168,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 1,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5485,
+      "symmetry_z": 0.6922,
+      "symmetry_y": 0.1944
+    },
+    "solid_ratio": 0.38
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 272,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_planks",
+        "count": 211,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_log",
+        "count": 167,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_stairs",
+        "count": 89,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_stairs",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass_pane",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_slab",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_door",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "furniture:cherry_shutter",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_wall",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_trapdoor",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 378,
+      "stone": 96,
+      "deepslate": 168,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 48,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "dirt",
+      "cherry_planks",
+      "cherry_log",
+      "polished_diorite",
+      "cherry_stairs",
+      "grass_block",
+      "deepslate_brick_stairs",
+      "deepslate_bricks",
+      "white_stained_glass_pane",
+      "deepslate_brick_slab",
+      "cherry_door",
+      "furniture:cherry_shutter"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.842,
+        "raw_score": 0.492,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.55,
+        "raw_score": 0.3739
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.483,
+        "raw_score": 0.3428
+      },
+      {
+        "style": "western",
+        "confidence": 0.435,
+        "raw_score": 0.3196
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.228,
+        "raw_score": 0.2029
+      }
+    ]
+  },
+  "redstone": {
+    "total": 12,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 8,
+      "trapdoor": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\d23208c38a60_MCA_20Villager_20House_skeleton.npz",
+    "occupancy_frac": 0.393646240234375,
+    "occupied": 12899
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 3,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\d23208c38a60_MCA_20Villager_20House_block2vec.npy",
+    "vector_preview": [
+      -0.07181,
+      0.13345,
+      -0.07618,
+      -0.01424,
+      -0.01894,
+      0.02373,
+      0.12276,
+      0.10938
+    ],
+    "ok": true
+  }
+}

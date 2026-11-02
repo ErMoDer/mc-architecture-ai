@@ -1,0 +1,197 @@
+{
+  "id": "NdGCdKAxnq-Minecraft_201_17_2B_20Gallow",
+  "source_path": "data\\raw\\hack337\\schematics\\NdGCdKAxnq-Minecraft%201.17%2B%20Gallow.litematic",
+  "created_at": "2026-10-18T22:26:34+08:00",
+  "overview": {
+    "schematic_name": "Minecraft 1.17+ Gallow",
+    "size": {
+      "x": 5,
+      "y": 8,
+      "z": 7
+    },
+    "non_air": 64,
+    "density": 0.2286,
+    "unique_block_types": 10
+  },
+  "massing": {
+    "hollow_score": 0.6667,
+    "interior_air_frac": 0.6667,
+    "exterior_solid_frac": 0.1214,
+    "floor_guess": 2,
+    "y_peaks": [
+      1,
+      6
+    ],
+    "families": {
+      "stairs": 3,
+      "slabs": 9,
+      "walls": 2,
+      "fences": 6,
+      "doors": 0,
+      "trapdoors": 18,
+      "glass": 0,
+      "logs": 8,
+      "planks": 2,
+      "stone_bricks": 0,
+      "deepslate": 2,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6,
+      "symmetry_z": 0.9394,
+      "symmetry_y": 0.2308
+    },
+    "solid_ratio": 0.2286
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_trapdoor",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wall_sign",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate_wall",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "pointed_dripstone",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 10,
+      "stone": 1,
+      "deepslate": 2,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_trapdoor",
+      "spruce_wall_sign",
+      "stripped_oak_log",
+      "spruce_slab",
+      "spruce_fence",
+      "spruce_stairs",
+      "cobbled_deepslate_wall",
+      "oak_slab",
+      "spruce_planks",
+      "pointed_dripstone"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6255,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.684,
+        "raw_score": 0.5035
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.599,
+        "raw_score": 0.4615
+      },
+      {
+        "style": "western",
+        "confidence": 0.573,
+        "raw_score": 0.4487
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.198,
+        "raw_score": 0.2179
+      }
+    ]
+  },
+  "redstone": {
+    "total": 18,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 18
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\NdGCdKAxnq-Minecraft_201_17_2B_20Gallow_skeleton.npz",
+    "occupancy_frac": 0.22705078125,
+    "occupied": 7440
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "id": "KARAG7FvG5-1_19_2B_20Fish_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\KARAG7FvG5-1.19%2B%20Fish%20Farm.litematic",
+  "created_at": "2026-10-18T22:26:25+08:00",
+  "overview": {
+    "schematic_name": "1.19+ Fish Farm",
+    "size": {
+      "x": 23,
+      "y": 18,
+      "z": 16
+    },
+    "non_air": 791,
+    "density": 0.1194,
+    "unique_block_types": 28
+  },
+  "massing": {
+    "hollow_score": 0.8476,
+    "interior_air_frac": 0.8476,
+    "exterior_solid_frac": 0.0112,
+    "floor_guess": 3,
+    "y_peaks": [
+      3,
+      8,
+      15
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 1,
+      "walls": 0,
+      "fences": 2,
+      "doors": 0,
+      "trapdoors": 3,
+      "glass": 61,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 21,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 3
+    },
+    "symmetry": {
+      "symmetry_x": 0.315,
+      "symmetry_z": 0.3475,
+      "symmetry_y": 0.0762
+    },
+    "solid_ratio": 0.1194
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "barrier",
+        "count": 237,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 152,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 105,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 67,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "magenta_wool",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "furnace",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "composter",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "brewing_stand",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "bubble_column",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_trapdoor",
+        "count": 3,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 109,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 21,
+      "glass": 61,
+      "nether": 1,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 156
+    },
+    "remap_targets": [
+      "barrier",
+      "hopper",
+      "stone",
+      "redstone_wire",
+      "glass",
+      "water",
+      "chest",
+      "magenta_wool",
+      "comparator",
+      "furnace",
+      "composter",
+      "brewing_stand"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "scifi",
+      "european",
+      "modern",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.571,
+        "raw_score": 0.2211,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.388,
+        "raw_score": 0.1663
+      },
+      {
+        "style": "european",
+        "confidence": 0.367,
+        "raw_score": 0.1593
+      },
+      {
+        "style": "modern",
+        "confidence": 0.273,
+        "raw_score": 0.1268
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.26,
+        "raw_score": 0.1218
+      }
+    ]
+  },
+  "redstone": {
+    "total": 265,
+    "pattern_ids": [
+      "hopper_line",
+      "sculk_sensor_line",
+      "auto_smelt_brew_line",
+      "qc_piston_bank",
+      "item_elevator",
+      "etho_hopper_clock",
+      "target_block_line",
+      "hopper_clock",
+      "monostable",
+      "torch_clock",
+      "sculk_sensor_clockish"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "幽匿感测线",
+      "自动烧炼/酿造线",
+      "QC/BUD 活塞组",
+      "物品升降机嫌疑",
+      "多漏斗环钟嫌疑",
+      "标靶方块线路",
+      "漏斗+比较器时钟/测量嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "火把钟骨架",
+      "幽匿感测器触发环嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 67,
+      "redstone_torch": 1,
+      "repeater": 4,
+      "comparator": 10,
+      "lever": 4,
+      "pressure_plate": 1,
+      "sticky_piston": 2,
+      "hopper": 152,
+      "target": 2,
+      "trapdoor": 3,
+      "powered_rail": 1,
+      "sculk_sensor": 1,
+      "brewing_stand": 8,
+      "furnace": 9
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\KARAG7FvG5-1_19_2B_20Fish_20Farm_skeleton.npz",
+    "occupancy_frac": 0.12017822265625,
+    "occupied": 3938
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "demoted_from_industrial:farm",
+  "previous_mapped_style": "industrial"
+}

@@ -1,0 +1,278 @@
+{
+  "id": "质朴的农舍__85e9276a",
+  "source_path": "data\\raw\\mcblock\\质朴的农舍__85e9276a.litematic",
+  "created_at": "2026-10-19T13:01:16+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 59,
+      "y": 37,
+      "z": 40
+    },
+    "non_air": 11977,
+    "density": 0.1372,
+    "unique_block_types": 147
+  },
+  "massing": {
+    "hollow_score": 0.8771,
+    "interior_air_frac": 0.8771,
+    "exterior_solid_frac": 0.0305,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      4,
+      8,
+      13,
+      18
+    ],
+    "families": {
+      "stairs": 547,
+      "slabs": 1652,
+      "walls": 20,
+      "fences": 124,
+      "doors": 18,
+      "trapdoors": 43,
+      "glass": 103,
+      "logs": 1665,
+      "planks": 479,
+      "stone_bricks": 1,
+      "deepslate": 0,
+      "terracotta": 635,
+      "concrete": 0,
+      "wool": 102,
+      "leaves": 1103,
+      "lanterns": 32,
+      "copper": 0,
+      "nether": 9
+    },
+    "symmetry": {
+      "symmetry_x": 0.4065,
+      "symmetry_z": 0.3745,
+      "symmetry_y": 0.069
+    },
+    "solid_ratio": 0.1372
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 2653,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 1243,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wood",
+        "count": 972,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 914,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 685,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_terracotta",
+        "count": 635,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 594,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 518,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_leaves",
+        "count": 402,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 368,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 258,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 242,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 237,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 175,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 134,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 112,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 2160,
+      "stone": 781,
+      "deepslate": 0,
+      "terracotta": 635,
+      "concrete": 0,
+      "wool": 102,
+      "glass": 103,
+      "nether": 3,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 8,
+      "snow_ice": 0,
+      "leaves": 1214,
+      "metal": 16
+    },
+    "remap_targets": [
+      "dirt",
+      "grass_block",
+      "oak_wood",
+      "oak_slab",
+      "oak_leaves",
+      "cyan_terracotta",
+      "oak_log",
+      "spruce_slab",
+      "spruce_leaves",
+      "cobblestone",
+      "spruce_stairs",
+      "spruce_planks"
+    ]
+  },
+  "style": {
+    "mapped_style": "european",
+    "mapped_terrain": "flat",
+    "style_id": 4,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.805,
+        "raw_score": 0.4547,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.529,
+        "raw_score": 0.3459
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.51,
+        "raw_score": 0.3372
+      },
+      {
+        "style": "western",
+        "confidence": 0.372,
+        "raw_score": 0.272
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.231,
+        "raw_score": 0.1935
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 149,
+    "pattern_ids": [
+      "door_line",
+      "simple_io",
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "redstone_block": 5,
+      "lever": 2,
+      "pressure_plate": 4,
+      "note_block": 1,
+      "redstone_lamp": 8,
+      "door": 18,
+      "trapdoor": 43,
+      "fence_gate": 24,
+      "tripwire": 3,
+      "rail": 10,
+      "brewing_stand": 4,
+      "furnace": 11,
+      "chiseled_bookshelf": 14,
+      "shulker_box": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\质朴的农舍__85e9276a_skeleton.npz",
+    "occupancy_frac": 0.18524169921875,
+    "occupied": 6070
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 45,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\质朴的农舍__85e9276a_block2vec.npy",
+    "vector_preview": [
+      -0.08526,
+      0.21967,
+      -0.12421,
+      -0.04992,
+      0.06992,
+      0.0385,
+      -0.01748,
+      0.12657
+    ],
+    "ok": true
+  },
+  "mapped_style": "rustic"
+}

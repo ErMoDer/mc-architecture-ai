@@ -1,0 +1,307 @@
+{
+  "id": "废弃树屋__ba5f7e8f",
+  "source_path": "data\\raw\\mcblock\\废弃树屋__ba5f7e8f.litematic",
+  "created_at": "2026-10-19T13:00:59+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 29,
+      "y": 34,
+      "z": 38
+    },
+    "non_air": 4929,
+    "density": 0.1316,
+    "unique_block_types": 95
+  },
+  "massing": {
+    "hollow_score": 0.8526,
+    "interior_air_frac": 0.8526,
+    "exterior_solid_frac": 0.0092,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      10,
+      16,
+      21,
+      24,
+      30
+    ],
+    "families": {
+      "stairs": 257,
+      "slabs": 162,
+      "walls": 39,
+      "fences": 425,
+      "doors": 12,
+      "trapdoors": 137,
+      "glass": 29,
+      "logs": 871,
+      "planks": 74,
+      "stone_bricks": 9,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 28,
+      "leaves": 1524,
+      "lanterns": 27,
+      "copper": 4,
+      "nether": 3
+    },
+    "symmetry": {
+      "symmetry_x": 0.2707,
+      "symmetry_z": 0.3445,
+      "symmetry_y": 0.1803
+    },
+    "solid_ratio": 0.1316
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "azalea_leaves",
+        "count": 888,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 496,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 482,
+        "frac": 0.0
+      },
+      {
+        "name": "flowering_azalea_leaves",
+        "count": 428,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 425,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 245,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wood",
+        "count": 188,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_jungle_wood",
+        "count": 154,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 149,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_leaves",
+        "count": 109,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_slab",
+        "count": 107,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_stairs",
+        "count": 102,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_leaves",
+        "count": 99,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 77,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_cobblestone",
+        "count": 76,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 945,
+      "stone": 1159,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 28,
+      "glass": 29,
+      "nether": 0,
+      "copper": 4,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 1526,
+      "metal": 41
+    },
+    "remap_targets": [
+      "azalea_leaves",
+      "stone",
+      "stripped_spruce_wood",
+      "flowering_azalea_leaves",
+      "spruce_fence",
+      "calcite",
+      "oak_wood",
+      "stripped_jungle_wood",
+      "diorite",
+      "mangrove_leaves",
+      "jungle_slab",
+      "jungle_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "japanese",
+      "chinese",
+      "rustic",
+      "fantasy",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "japanese",
+        "confidence": 0.652,
+        "raw_score": 0.3017,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.621,
+        "raw_score": 0.2919
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.543,
+        "raw_score": 0.2661
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.394,
+        "raw_score": 0.2116
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.311,
+        "raw_score": 0.1777
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 178,
+    "pattern_ids": [
+      "door_line",
+      "simple_io"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门"
+    ],
+    "inventory_nonzero": {
+      "button": 19,
+      "pressure_plate": 1,
+      "hopper": 1,
+      "door": 12,
+      "trapdoor": 137,
+      "furnace": 2,
+      "blast_furnace": 1,
+      "chiseled_bookshelf": 5
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\废弃树屋__ba5f7e8f_skeleton.npz",
+    "occupancy_frac": 0.138763427734375,
+    "occupied": 4547
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 30,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\废弃树屋__ba5f7e8f_block2vec.npy",
+    "vector_preview": [
+      -0.0641,
+      0.23851,
+      -0.1323,
+      -0.02186,
+      0.06242,
+      0.05386,
+      -0.01513,
+      0.08304
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "铜顶中世纪房屋_三__c8ed44d4",
+        "score": 0.9168677188292754,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\铜顶中世纪房屋_三__c8ed44d4.litematic"
+      },
+      {
+        "id": "女巫小屋__5a2ed929",
+        "score": 0.8458423049833759,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\女巫小屋__5a2ed929.litematic"
+      },
+      {
+        "id": "温馨木屋__449de557",
+        "score": 0.840691712917073,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\温馨木屋__449de557.litematic"
+      },
+      {
+        "id": "德国汉堡_四号楼__08ba5eb2",
+        "score": 0.8382308245564597,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\德国汉堡_四号楼__08ba5eb2.litematic"
+      },
+      {
+        "id": "布吉舞曲之家__552edeea",
+        "score": 0.8109905011139493,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\布吉舞曲之家__552edeea.litematic"
+      }
+    ]
+  }
+}

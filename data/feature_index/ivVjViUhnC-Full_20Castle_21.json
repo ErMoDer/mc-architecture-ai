@@ -1,0 +1,249 @@
+{
+  "id": "ivVjViUhnC-Full_20Castle_21",
+  "source_path": "data\\raw\\hack337\\schematics\\ivVjViUhnC-Full%20Castle%21.litematic",
+  "created_at": "2026-10-18T22:26:22+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 41,
+      "y": 24,
+      "z": 41
+    },
+    "non_air": 5683,
+    "density": 0.1409,
+    "unique_block_types": 65
+  },
+  "massing": {
+    "hollow_score": 0.8332,
+    "interior_air_frac": 0.8332,
+    "exterior_solid_frac": 0.0025,
+    "floor_guess": 3,
+    "y_peaks": [
+      3,
+      7,
+      14
+    ],
+    "families": {
+      "stairs": 74,
+      "slabs": 76,
+      "walls": 40,
+      "fences": 72,
+      "doors": 16,
+      "trapdoors": 62,
+      "glass": 0,
+      "logs": 147,
+      "planks": 115,
+      "stone_bricks": 1668,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 39,
+      "leaves": 0,
+      "lanterns": 6,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5793,
+      "symmetry_z": 0.6136,
+      "symmetry_y": 0.0652
+    },
+    "solid_ratio": 0.1409
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 1642,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_cobblestone",
+        "count": 1561,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 1547,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 95,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_bed",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 22,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 262,
+      "stone": 4873,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 39,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 6,
+      "metal": 14
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "mossy_cobblestone",
+      "cobblestone",
+      "spruce_log",
+      "spruce_planks",
+      "spruce_trapdoor",
+      "spruce_stairs",
+      "spruce_slab",
+      "cobblestone_wall",
+      "cobblestone_slab",
+      "farmland",
+      "spruce_fence_gate"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.8652,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.566,
+        "raw_score": 0.5762
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.172,
+        "raw_score": 0.2486
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.13,
+        "raw_score": 0.2029
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.115,
+        "raw_score": 0.1861
+      }
+    ]
+  },
+  "redstone": {
+    "total": 136,
+    "pattern_ids": [
+      "door_line",
+      "simple_io",
+      "tripwire_trap",
+      "target_block_line"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱",
+      "标靶方块线路"
+    ],
+    "inventory_nonzero": {
+      "lever": 1,
+      "button": 10,
+      "target": 6,
+      "door": 12,
+      "iron_door": 4,
+      "trapdoor": 62,
+      "fence_gate": 30,
+      "tripwire": 2,
+      "rail": 3,
+      "lectern": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\ivVjViUhnC-Full_20Castle_21_skeleton.npz",
+    "occupancy_frac": 0.162750244140625,
+    "occupied": 5333
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

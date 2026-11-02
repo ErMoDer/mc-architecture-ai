@@ -1,0 +1,244 @@
+{
+  "id": "nrfU0XWVaT-ArmaXP_20v2_2_20MINI",
+  "source_path": "data\\raw\\hack337\\schematics\\nrfU0XWVaT-ArmaXP%20v2.2%20MINI.litematic",
+  "created_at": "2026-10-18T22:26:35+08:00",
+  "overview": {
+    "schematic_name": "ArmaXP v2.2 MINI",
+    "size": {
+      "x": 7,
+      "y": 12,
+      "z": 7
+    },
+    "non_air": 177,
+    "density": 0.301,
+    "unique_block_types": 18
+  },
+  "massing": {
+    "hollow_score": 0.508,
+    "interior_air_frac": 0.508,
+    "exterior_solid_frac": 0.0918,
+    "floor_guess": 1,
+    "y_peaks": [
+      5
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 4,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 4,
+      "glass": 98,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 6,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 4,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3828,
+      "symmetry_z": 0.346,
+      "symmetry_y": 0.3209
+    },
+    "solid_ratio": 0.301
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "glass",
+        "count": 98,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "crying_obsidian",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "black_glazed_terracotta",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_button",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 1,
+      "deepslate": 0,
+      "terracotta": 6,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 98,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 9
+    },
+    "remap_targets": [
+      "glass",
+      "water",
+      "crying_obsidian",
+      "hopper",
+      "redstone_wire",
+      "black_glazed_terracotta",
+      "chest",
+      "slime_block",
+      "oak_trapdoor",
+      "campfire",
+      "dispenser",
+      "oak_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european",
+      "industrial"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.602,
+        "raw_score": 0.2519,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.596,
+        "raw_score": 0.2503
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.286,
+        "raw_score": 0.1455
+      },
+      {
+        "style": "european",
+        "confidence": 0.239,
+        "raw_score": 0.1266
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.05,
+        "raw_score": 0.0327
+      }
+    ]
+  },
+  "redstone": {
+    "total": 33,
+    "pattern_ids": [
+      "hopper_line",
+      "qc_piston_bank",
+      "flying_machine"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "QC/BUD 活塞组",
+      "飞船/飞行器骨架"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 7,
+      "redstone_block": 1,
+      "button": 1,
+      "sticky_piston": 1,
+      "hopper": 9,
+      "dispenser": 4,
+      "trapdoor": 4,
+      "powered_rail": 1,
+      "slime_block": 5
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\nrfU0XWVaT-ArmaXP_20v2_2_20MINI_skeleton.npz",
+    "occupancy_frac": 0.289154052734375,
+    "occupied": 9475
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

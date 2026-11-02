@@ -1,0 +1,15 @@
+{
+  "id": "note_block_alert",
+  "matches": [
+    "note_block_alert",
+    "doorbell",
+    "note_alert"
+  ],
+  "label_zh": "音符盒提示桩（按钮→粉尘→音符盒）",
+  "size": [
+    3,
+    1,
+    1
+  ],
+  "notes": "教学桩：门铃/提示音；非完整音乐机。"
+}

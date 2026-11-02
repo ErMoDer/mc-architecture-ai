@@ -1,0 +1,256 @@
+{
+  "id": "酒桶小木屋__81963b20",
+  "source_path": "data\\raw\\mcblock\\酒桶小木屋__81963b20.litematic",
+  "created_at": "2026-10-19T13:01:07+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 15,
+      "y": 8,
+      "z": 11
+    },
+    "non_air": 454,
+    "density": 0.3439,
+    "unique_block_types": 20
+  },
+  "massing": {
+    "hollow_score": 0.5698,
+    "interior_air_frac": 0.5698,
+    "exterior_solid_frac": 0.1152,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 94,
+      "slabs": 51,
+      "walls": 0,
+      "fences": 34,
+      "doors": 6,
+      "trapdoors": 49,
+      "glass": 0,
+      "logs": 0,
+      "planks": 153,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 11,
+      "lanterns": 34,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5108,
+      "symmetry_z": 0.3778,
+      "symmetry_y": 0.3314
+    },
+    "solid_ratio": 0.3439
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_planks",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "vine",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_door",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "potted_flowering_azalea_bush",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 153,
+      "stone": 5,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 13,
+      "metal": 0
+    },
+    "remap_targets": [
+      "oak_planks",
+      "oak_slab",
+      "oak_stairs",
+      "spruce_trapdoor",
+      "spruce_stairs",
+      "spruce_planks",
+      "campfire",
+      "spruce_fence_gate",
+      "spruce_fence",
+      "oak_leaves",
+      "barrel",
+      "vine"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.9602,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.521,
+        "raw_score": 0.5885
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.483,
+        "raw_score": 0.5458
+      },
+      {
+        "style": "western",
+        "confidence": 0.462,
+        "raw_score": 0.5219
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.151,
+        "raw_score": 0.2437
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 76,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 6,
+      "trapdoor": 49,
+      "fence_gate": 21
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\酒桶小木屋__81963b20_skeleton.npz",
+    "occupancy_frac": 0.337646484375,
+    "occupied": 11064
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 1,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\酒桶小木屋__81963b20_block2vec.npy",
+    "vector_preview": [
+      -0.12534,
+      0.15633,
+      -0.07036,
+      0.01437,
+      0.23163,
+      0.04692,
+      0.01403,
+      0.02656
+    ],
+    "ok": true
+  },
+  "mapped_style": "rustic"
+}

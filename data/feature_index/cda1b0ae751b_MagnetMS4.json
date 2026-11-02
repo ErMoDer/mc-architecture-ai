@@ -1,0 +1,216 @@
+{
+  "id": "cda1b0ae751b_MagnetMS4",
+  "source_path": "data\\raw\\hack337\\schematics\\cda1b0ae751b_MagnetMS4.litematic",
+  "created_at": "2026-10-18T22:25:52+08:00",
+  "overview": {
+    "schematic_name": "Магнит",
+    "size": {
+      "x": 18,
+      "y": 27,
+      "z": 18
+    },
+    "non_air": 3779,
+    "density": 0.432,
+    "unique_block_types": 13
+  },
+  "massing": {
+    "hollow_score": 0.4494,
+    "interior_air_frac": 0.4494,
+    "exterior_solid_frac": 0.0291,
+    "floor_guess": 4,
+    "y_peaks": [
+      1,
+      6,
+      9,
+      14
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 8,
+      "glass": 368,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 58,
+      "concrete": 383,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9984,
+      "symmetry_z": 0.9984,
+      "symmetry_y": 0.2182
+    },
+    "solid_ratio": 0.432
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "iron_block",
+        "count": 2184,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 589,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_stained_glass",
+        "count": 368,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_concrete",
+        "count": 353,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 132,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "red_terracotta",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_terracotta",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_concrete_powder",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "red_concrete_powder",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_trapdoor",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "red_concrete",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_concrete",
+        "count": 6,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 778,
+      "deepslate": 0,
+      "terracotta": 58,
+      "concrete": 383,
+      "wool": 0,
+      "glass": 368,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 2192
+    },
+    "remap_targets": [
+      "iron_block",
+      "stone",
+      "gray_stained_glass",
+      "gray_concrete",
+      "andesite",
+      "smooth_stone",
+      "red_terracotta",
+      "blue_terracotta",
+      "blue_concrete_powder",
+      "red_concrete_powder",
+      "iron_trapdoor",
+      "red_concrete"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "scifi",
+      "modern",
+      "european",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.636,
+        "raw_score": 0.2865,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.404,
+        "raw_score": 0.2077
+      },
+      {
+        "style": "modern",
+        "confidence": 0.292,
+        "raw_score": 0.1631
+      },
+      {
+        "style": "european",
+        "confidence": 0.161,
+        "raw_score": 0.1021
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.12,
+        "raw_score": 0.0801
+      }
+    ]
+  },
+  "redstone": {
+    "total": 8,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 8
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\cda1b0ae751b_MagnetMS4_skeleton.npz",
+    "occupancy_frac": 0.436981201171875,
+    "occupied": 14319
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

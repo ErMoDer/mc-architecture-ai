@@ -1,0 +1,13 @@
+{
+  "id": "c9E3GhSTzL-Small_20survival_20house",
+  "dim": 144,
+  "n_chunks": 12,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "c9E3GhSTzL-Small_20survival_20house_block2vec.npy"
+}

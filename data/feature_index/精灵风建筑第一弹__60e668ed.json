@@ -1,0 +1,249 @@
+{
+  "id": "精灵风建筑第一弹__60e668ed",
+  "source_path": "data\\raw\\mcblock\\精灵风建筑第一弹__60e668ed.litematic",
+  "created_at": "2026-10-19T16:09:45+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 15,
+      "y": 19,
+      "z": 24
+    },
+    "non_air": 793,
+    "density": 0.1159,
+    "unique_block_types": 15
+  },
+  "massing": {
+    "hollow_score": 0.8634,
+    "interior_air_frac": 0.8634,
+    "exterior_solid_frac": 0.0189,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 93,
+      "slabs": 156,
+      "walls": 1,
+      "fences": 0,
+      "doors": 2,
+      "trapdoors": 0,
+      "glass": 16,
+      "logs": 0,
+      "planks": 185,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 193,
+      "wool": 0,
+      "leaves": 49,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2352,
+      "symmetry_z": 0.1871,
+      "symmetry_y": 0.0587
+    },
+    "solid_ratio": 0.1159
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 185,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_slab",
+        "count": 156,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_concrete",
+        "count": 117,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_stairs",
+        "count": 89,
+        "frac": 0.0
+      },
+      {
+        "name": "green_concrete",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "cobweb",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_door",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 185,
+      "stone": 20,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 193,
+      "wool": 0,
+      "glass": 16,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 49,
+      "metal": 1
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "quartz_slab",
+      "yellow_concrete",
+      "quartz_stairs",
+      "green_concrete",
+      "quartz_block",
+      "oak_leaves",
+      "white_stained_glass",
+      "cobblestone",
+      "cobweb",
+      "wall_torch",
+      "cobblestone_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "rustic",
+      "japanese",
+      "western",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.631,
+        "raw_score": 0.2808,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.62,
+        "raw_score": 0.2776
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.584,
+        "raw_score": 0.2662
+      },
+      {
+        "style": "western",
+        "confidence": 0.483,
+        "raw_score": 0.2326
+      },
+      {
+        "style": "modern",
+        "confidence": 0.319,
+        "raw_score": 0.1717
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 3,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "hopper": 1,
+      "door": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\精灵风建筑第一弹__60e668ed_skeleton.npz",
+    "occupancy_frac": 0.11419677734375,
+    "occupied": 3742
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 6,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\精灵风建筑第一弹__60e668ed_block2vec.npy",
+    "vector_preview": [
+      -0.06946,
+      0.20748,
+      -0.01167,
+      -0.05668,
+      0.07646,
+      -0.02434,
+      -0.02788,
+      0.17619
+    ],
+    "ok": true
+  }
+}

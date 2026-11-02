@@ -1,0 +1,247 @@
+{
+  "id": "4e18bb59a363_Melon_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\4e18bb59a363_Melon%20Farm.litematic",
+  "created_at": "2026-10-18T22:25:12+08:00",
+  "overview": {
+    "schematic_name": "Melon Farm",
+    "size": {
+      "x": 12,
+      "y": 6,
+      "z": 14
+    },
+    "non_air": 923,
+    "density": 0.9157,
+    "unique_block_types": 22
+  },
+  "massing": {
+    "hollow_score": 0.1104,
+    "interior_air_frac": 0.1104,
+    "exterior_solid_frac": 0.4921,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      5
+    ],
+    "families": {
+      "stairs": 3,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 27,
+      "logs": 67,
+      "planks": 0,
+      "stone_bricks": 156,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 1,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8313,
+      "symmetry_z": 0.8497,
+      "symmetry_y": 0.8497
+    },
+    "solid_ratio": 0.9157
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone",
+        "count": 240,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 154,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 87,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 81,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "melon_stem",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "gravel",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "green_stained_glass",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "rail",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 67,
+      "stone": 396,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 27,
+      "nether": 0,
+      "copper": 1,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "stone",
+      "stone_bricks",
+      "dirt",
+      "redstone_wire",
+      "powered_rail",
+      "piston",
+      "farmland",
+      "melon_stem",
+      "observer",
+      "gravel",
+      "spruce_log",
+      "green_stained_glass"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.5477,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.797,
+        "raw_score": 0.5139
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.265,
+        "raw_score": 0.2444
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.248,
+        "raw_score": 0.233
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.22,
+        "raw_score": 0.2136
+      }
+    ]
+  },
+  "redstone": {
+    "total": 257,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "edge_detector"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "边沿检测（观察者）嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 81,
+      "redstone_block": 9,
+      "lever": 1,
+      "piston": 41,
+      "observer": 40,
+      "hopper": 1,
+      "powered_rail": 65,
+      "rail": 19
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\4e18bb59a363_Melon_20Farm_skeleton.npz",
+    "occupancy_frac": 0.915924072265625,
+    "occupied": 30013
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

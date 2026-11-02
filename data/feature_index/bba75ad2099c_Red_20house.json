@@ -1,0 +1,262 @@
+{
+  "id": "bba75ad2099c_Red_20house",
+  "source_path": "data\\raw\\hack337\\schematics\\bba75ad2099c_Red%20house.litematic",
+  "created_at": "2026-10-18T22:25:46+08:00",
+  "overview": {
+    "schematic_name": "Red house",
+    "size": {
+      "x": 16,
+      "y": 18,
+      "z": 26
+    },
+    "non_air": 1910,
+    "density": 0.2551,
+    "unique_block_types": 55
+  },
+  "massing": {
+    "hollow_score": 0.6659,
+    "interior_air_frac": 0.6659,
+    "exterior_solid_frac": 0.0152,
+    "floor_guess": 3,
+    "y_peaks": [
+      1,
+      5,
+      11
+    ],
+    "families": {
+      "stairs": 353,
+      "slabs": 70,
+      "walls": 24,
+      "fences": 48,
+      "doors": 4,
+      "trapdoors": 247,
+      "glass": 0,
+      "logs": 209,
+      "planks": 47,
+      "stone_bricks": 83,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 33,
+      "leaves": 123,
+      "lanterns": 15,
+      "copper": 0,
+      "nether": 84
+    },
+    "symmetry": {
+      "symmetry_x": 0.3182,
+      "symmetry_z": 0.4602,
+      "symmetry_y": 0.3594
+    },
+    "solid_ratio": 0.2551
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "bamboo_mosaic",
+        "count": 266,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 205,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 176,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_stairs",
+        "count": 174,
+        "frac": 0.0
+      },
+      {
+        "name": "mud_bricks",
+        "count": 103,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 103,
+        "frac": 0.0
+      },
+      {
+        "name": "azalea_leaves",
+        "count": 99,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 87,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_planks",
+        "count": 47,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_bricks",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence_gate",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_trapdoor",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_button",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_slab",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_brick_stairs",
+        "count": 29,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 522,
+      "stone": 422,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 33,
+      "glass": 0,
+      "nether": 5,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 128,
+      "metal": 7
+    },
+    "remap_targets": [
+      "bamboo_mosaic",
+      "stripped_spruce_log",
+      "spruce_trapdoor",
+      "mangrove_stairs",
+      "mud_bricks",
+      "diorite",
+      "azalea_leaves",
+      "spruce_stairs",
+      "calcite",
+      "mangrove_planks",
+      "polished_blackstone_bricks",
+      "dark_oak_fence_gate"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.843,
+        "raw_score": 0.4929,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.578,
+        "raw_score": 0.3869
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.528,
+        "raw_score": 0.3642
+      },
+      {
+        "style": "western",
+        "confidence": 0.344,
+        "raw_score": 0.2726
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.336,
+        "raw_score": 0.268
+      }
+    ]
+  },
+  "redstone": {
+    "total": 349,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 58,
+      "door": 4,
+      "trapdoor": 247,
+      "fence_gate": 40
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\bba75ad2099c_Red_20house_skeleton.npz",
+    "occupancy_frac": 0.2647705078125,
+    "occupied": 8676
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 6,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\bba75ad2099c_Red_20house_block2vec.npy",
+    "vector_preview": [
+      -0.00935,
+      0.2344,
+      -0.11501,
+      -0.06612,
+      0.12113,
+      0.05687,
+      -0.02976,
+      0.04973
+    ],
+    "ok": true
+  }
+}

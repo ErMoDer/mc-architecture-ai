@@ -1,0 +1,248 @@
+{
+  "id": "388c4f4d25c2_solballoon",
+  "source_path": "data\\raw\\hack337\\schematics\\388c4f4d25c2_solballoon.litematic",
+  "created_at": "2026-10-18T22:25:04+08:00",
+  "overview": {
+    "schematic_name": "schematelizer",
+    "size": {
+      "x": 64,
+      "y": 64,
+      "z": 48
+    },
+    "non_air": 9015,
+    "density": 0.0459,
+    "unique_block_types": 54
+  },
+  "massing": {
+    "hollow_score": 0.949,
+    "interior_air_frac": 0.949,
+    "exterior_solid_frac": 0.0,
+    "floor_guess": 10,
+    "y_peaks": [
+      3,
+      6,
+      10,
+      13,
+      18,
+      28,
+      36,
+      40,
+      44,
+      48
+    ],
+    "families": {
+      "stairs": 159,
+      "slabs": 374,
+      "walls": 228,
+      "fences": 94,
+      "doors": 2,
+      "trapdoors": 148,
+      "glass": 0,
+      "logs": 59,
+      "planks": 185,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 4567,
+      "concrete": 0,
+      "wool": 1,
+      "leaves": 375,
+      "lanterns": 25,
+      "copper": 0,
+      "nether": 6
+    },
+    "symmetry": {
+      "symmetry_x": 0.1552,
+      "symmetry_z": 0.2651,
+      "symmetry_y": 0.1032
+    },
+    "solid_ratio": 0.0459
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cobblestone",
+        "count": 2221,
+        "frac": 0.0
+      },
+      {
+        "name": "white_terracotta",
+        "count": 1230,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_terracotta",
+        "count": 849,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_terracotta",
+        "count": 811,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_terracotta",
+        "count": 676,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 375,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_terracotta",
+        "count": 336,
+        "frac": 0.0
+      },
+      {
+        "name": "red_terracotta",
+        "count": 299,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 283,
+        "frac": 0.0
+      },
+      {
+        "name": "cave_vines",
+        "count": 261,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 228,
+        "frac": 0.0
+      },
+      {
+        "name": "green_terracotta",
+        "count": 216,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_terracotta",
+        "count": 150,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 85,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 81,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 264,
+      "stone": 2734,
+      "deepslate": 0,
+      "terracotta": 4567,
+      "concrete": 0,
+      "wool": 1,
+      "glass": 0,
+      "nether": 6,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 1,
+      "snow_ice": 0,
+      "leaves": 375,
+      "metal": 27
+    },
+    "remap_targets": [
+      "cobblestone",
+      "white_terracotta",
+      "orange_terracotta",
+      "light_gray_terracotta",
+      "yellow_terracotta",
+      "oak_leaves",
+      "brown_terracotta",
+      "red_terracotta",
+      "cobblestone_slab",
+      "cave_vines",
+      "cobblestone_wall",
+      "green_terracotta"
+    ]
+  },
+  "style": {
+    "mapped_style": "western",
+    "mapped_terrain": "desert",
+    "style_id": 11,
+    "terrain_id": 5,
+    "guess_names": [
+      "desert",
+      "european",
+      "medieval",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "desert",
+        "confidence": 0.529,
+        "raw_score": 0.179,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.425,
+        "raw_score": 0.1517
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.386,
+        "raw_score": 0.1407
+      },
+      {
+        "style": "western",
+        "confidence": 0.298,
+        "raw_score": 0.1148
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.257,
+        "raw_score": 0.1018
+      }
+    ]
+  },
+  "redstone": {
+    "total": 165,
+    "pattern_ids": [
+      "nether_portal_cue",
+      "item_elevator"
+    ],
+    "pattern_labels": [
+      "下界传送门",
+      "物品升降机嫌疑"
+    ],
+    "inventory_nonzero": {
+      "hopper": 6,
+      "door": 2,
+      "trapdoor": 148,
+      "furnace": 1,
+      "chiseled_bookshelf": 2,
+      "nether_portal": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\388c4f4d25c2_solballoon_skeleton.npz",
+    "occupancy_frac": 0.09222412109375,
+    "occupied": 3022
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

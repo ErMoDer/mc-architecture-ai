@@ -1,0 +1,234 @@
+{
+  "id": "b9ea1cd5f40c_Spawn_Nether",
+  "source_path": "data\\raw\\hack337\\schematics\\b9ea1cd5f40c_Spawn_Nether.litematic",
+  "created_at": "2026-10-18T22:25:45+08:00",
+  "overview": {
+    "schematic_name": "Spawn_Nether",
+    "size": {
+      "x": 44,
+      "y": 23,
+      "z": 44
+    },
+    "non_air": 8354,
+    "density": 0.1876,
+    "unique_block_types": 57
+  },
+  "massing": {
+    "hollow_score": 0.8202,
+    "interior_air_frac": 0.8202,
+    "exterior_solid_frac": 0.038,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      5,
+      21
+    ],
+    "families": {
+      "stairs": 90,
+      "slabs": 20,
+      "walls": 4,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 5119,
+      "logs": 63,
+      "planks": 0,
+      "stone_bricks": 433,
+      "deepslate": 0,
+      "terracotta": 121,
+      "concrete": 303,
+      "wool": 49,
+      "leaves": 254,
+      "lanterns": 212,
+      "copper": 0,
+      "nether": 851
+    },
+    "symmetry": {
+      "symmetry_x": 0.7977,
+      "symmetry_z": 0.8,
+      "symmetry_y": 0.2082
+    },
+    "solid_ratio": 0.1876
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "black_stained_glass",
+        "count": 4927,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_bricks",
+        "count": 333,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 303,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone",
+        "count": 274,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 212,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 192,
+        "frac": 0.0
+      },
+      {
+        "name": "crafting_table",
+        "count": 184,
+        "frac": 0.0
+      },
+      {
+        "name": "dripstone_block",
+        "count": 149,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_leaves",
+        "count": 142,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_leaves",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "amethyst_block",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 86,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_brick_stairs",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_basalt",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "red_sand",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_moss_block",
+        "count": 77,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 82,
+      "stone": 1076,
+      "deepslate": 0,
+      "terracotta": 121,
+      "concrete": 303,
+      "wool": 49,
+      "glass": 5119,
+      "nether": 144,
+      "copper": 0,
+      "prismarine": 212,
+      "sandstone": 78,
+      "sand": 77,
+      "snow_ice": 0,
+      "leaves": 345,
+      "metal": 4
+    },
+    "remap_targets": [
+      "black_stained_glass",
+      "polished_blackstone_bricks",
+      "black_concrete",
+      "blackstone",
+      "sea_lantern",
+      "white_stained_glass",
+      "crafting_table",
+      "dripstone_block",
+      "jungle_leaves",
+      "pale_oak_leaves",
+      "amethyst_block",
+      "stone"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "nether",
+    "style_id": 10,
+    "terrain_id": 3,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "european",
+      "fantasy",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.553,
+        "raw_score": 0.2028,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.506,
+        "raw_score": 0.1901
+      },
+      {
+        "style": "european",
+        "confidence": 0.452,
+        "raw_score": 0.1747
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.398,
+        "raw_score": 0.1588
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.153,
+        "raw_score": 0.0734
+      }
+    ]
+  },
+  "redstone": {
+    "total": 64,
+    "pattern_ids": [
+      "nether_portal_cue"
+    ],
+    "pattern_labels": [
+      "下界传送门"
+    ],
+    "inventory_nonzero": {
+      "nether_portal": 64
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\b9ea1cd5f40c_Spawn_Nether_skeleton.npz",
+    "occupancy_frac": 0.259033203125,
+    "occupied": 8488
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

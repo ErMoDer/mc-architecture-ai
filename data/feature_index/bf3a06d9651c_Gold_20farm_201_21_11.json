@@ -1,0 +1,266 @@
+{
+  "id": "bf3a06d9651c_Gold_20farm_201_21_11",
+  "source_path": "data\\raw\\hack337\\schematics\\bf3a06d9651c_Gold%20farm%201.21.11.litematic",
+  "created_at": "2026-10-18T22:25:48+08:00",
+  "overview": {
+    "schematic_name": "Gold farm 1.21.11",
+    "size": {
+      "x": 38,
+      "y": 34,
+      "z": 30
+    },
+    "non_air": 707,
+    "density": 0.0182,
+    "unique_block_types": 24
+  },
+  "massing": {
+    "hollow_score": 0.9782,
+    "interior_air_frac": 0.9782,
+    "exterior_solid_frac": 0.0001,
+    "floor_guess": 6,
+    "y_peaks": [
+      2,
+      9,
+      14,
+      19,
+      22,
+      27
+    ],
+    "families": {
+      "stairs": 2,
+      "slabs": 16,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 318,
+      "logs": 0,
+      "planks": 40,
+      "stone_bricks": 0,
+      "deepslate": 11,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 2,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 14
+    },
+    "symmetry": {
+      "symmetry_x": 0.1116,
+      "symmetry_z": 0.1151,
+      "symmetry_y": 0.0382
+    },
+    "solid_ratio": 0.0182
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "glass",
+        "count": 318,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_button",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_portal",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_slab",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "shroomlight",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 5,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 40,
+      "stone": 5,
+      "deepslate": 11,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 2,
+      "glass": 318,
+      "nether": 14,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 1,
+      "snow_ice": 16,
+      "leaves": 0,
+      "metal": 44
+    },
+    "remap_targets": [
+      "glass",
+      "obsidian",
+      "redstone_wire",
+      "hopper",
+      "spruce_planks",
+      "repeater",
+      "chest",
+      "spruce_button",
+      "packed_ice",
+      "nether_portal",
+      "deepslate_brick_slab",
+      "comparator"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.565,
+        "raw_score": 0.2151,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.561,
+        "raw_score": 0.214
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.328,
+        "raw_score": 0.1432
+      },
+      {
+        "style": "european",
+        "confidence": 0.257,
+        "raw_score": 0.1182
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.112,
+        "raw_score": 0.0589
+      }
+    ]
+  },
+  "redstone": {
+    "total": 203,
+    "pattern_ids": [
+      "hopper_line",
+      "nether_portal_cue",
+      "crafter_auto_line",
+      "item_elevator",
+      "etho_hopper_clock",
+      "flying_machine",
+      "pulse_extender",
+      "pulse_limiter",
+      "instant_wire",
+      "hopper_clock",
+      "dual_edge_repeater"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "下界传送门",
+      "合成器自动线（1.21）",
+      "物品升降机嫌疑",
+      "多漏斗环钟嫌疑",
+      "飞船/飞行器骨架",
+      "脉冲延长/单稳态嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "双沿/对向中继器线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 55,
+      "redstone_torch": 6,
+      "repeater": 38,
+      "comparator": 10,
+      "button": 19,
+      "sticky_piston": 5,
+      "hopper": 44,
+      "crafter": 4,
+      "nether_portal": 12,
+      "slime_block": 10
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\bf3a06d9651c_Gold_20farm_201_21_11_skeleton.npz",
+    "occupancy_frac": 0.021148681640625,
+    "occupied": 693
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

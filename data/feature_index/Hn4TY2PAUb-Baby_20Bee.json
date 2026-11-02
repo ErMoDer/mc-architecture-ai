@@ -1,0 +1,217 @@
+{
+  "id": "Hn4TY2PAUb-Baby_20Bee",
+  "source_path": "data\\raw\\hack337\\schematics\\Hn4TY2PAUb-Baby%20Bee.litematic",
+  "created_at": "2026-10-18T22:26:19+08:00",
+  "overview": {
+    "schematic_name": "Biggie Flower ",
+    "size": {
+      "x": 8,
+      "y": 7,
+      "z": 9
+    },
+    "non_air": 66,
+    "density": 0.131,
+    "unique_block_types": 13
+  },
+  "massing": {
+    "hollow_score": 0.7143,
+    "interior_air_frac": 0.7143,
+    "exterior_solid_frac": 0.0119,
+    "floor_guess": 1,
+    "y_peaks": [
+      4
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 3,
+      "walls": 4,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 20,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 7,
+      "deepslate": 0,
+      "terracotta": 6,
+      "concrete": 8,
+      "wool": 22,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 7
+    },
+    "symmetry": {
+      "symmetry_x": 0.4348,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.2222
+    },
+    "solid_ratio": 0.131
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "yellow_wool",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_wool",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass_pane",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_concrete",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_brick_wall",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_terracotta",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_concrete",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_brick_slab",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_terracotta",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "black_wall_banner",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "tripwire",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_carpet",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 7,
+      "deepslate": 0,
+      "terracotta": 6,
+      "concrete": 8,
+      "wool": 22,
+      "glass": 20,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "yellow_wool",
+      "white_stained_glass",
+      "brown_wool",
+      "white_stained_glass_pane",
+      "yellow_concrete",
+      "polished_blackstone_brick_wall",
+      "brown_terracotta",
+      "brown_concrete",
+      "polished_blackstone_brick_slab",
+      "yellow_terracotta",
+      "black_wall_banner",
+      "tripwire"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "fantasy",
+      "european",
+      "scifi",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.507,
+        "raw_score": 0.157,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.433,
+        "raw_score": 0.1389
+      },
+      {
+        "style": "european",
+        "confidence": 0.355,
+        "raw_score": 0.1189
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.354,
+        "raw_score": 0.1185
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.183,
+        "raw_score": 0.0685
+      }
+    ]
+  },
+  "redstone": {
+    "total": 1,
+    "pattern_ids": [
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "tripwire": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Hn4TY2PAUb-Baby_20Bee_skeleton.npz",
+    "occupancy_frac": 0.135009765625,
+    "occupied": 4424
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "id": "56454d01fc45_Votje_20Plays_20Flower_20farm",
+  "source_path": "data\\raw\\hack337\\schematics\\56454d01fc45_Votje%20Plays%20Flower%20farm.litematic",
+  "created_at": "2026-10-18T22:25:14+08:00",
+  "overview": {
+    "schematic_name": "Votje Plays Flower farm",
+    "size": {
+      "x": 26,
+      "y": 19,
+      "z": 24
+    },
+    "non_air": 2598,
+    "density": 0.2191,
+    "unique_block_types": 93
+  },
+  "massing": {
+    "hollow_score": 0.787,
+    "interior_air_frac": 0.787,
+    "exterior_solid_frac": 0.0579,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      7,
+      12,
+      17
+    ],
+    "families": {
+      "stairs": 286,
+      "slabs": 254,
+      "walls": 16,
+      "fences": 42,
+      "doors": 16,
+      "trapdoors": 111,
+      "glass": 13,
+      "logs": 368,
+      "planks": 180,
+      "stone_bricks": 287,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 35,
+      "lanterns": 18,
+      "copper": 57,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.2472,
+      "symmetry_z": 0.2767,
+      "symmetry_y": 0.2075
+    },
+    "solid_ratio": 0.2191
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_log",
+        "count": 214,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 209,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_bricks",
+        "count": 185,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_slab",
+        "count": 178,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 168,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_stairs",
+        "count": 155,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 89,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 77,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_stone_bricks",
+        "count": 59,
+        "frac": 0.0
+      },
+      {
+        "name": "cracked_stone_bricks",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "leaf_litter",
+        "count": 37,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 548,
+      "stone": 628,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 13,
+      "nether": 0,
+      "copper": 57,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 35,
+      "metal": 30
+    },
+    "remap_targets": [
+      "oak_log",
+      "grass_block",
+      "tuff_bricks",
+      "mangrove_slab",
+      "oak_planks",
+      "stone_bricks",
+      "mangrove_stairs",
+      "dirt",
+      "spruce_trapdoor",
+      "spruce_log",
+      "stone",
+      "stripped_oak_log"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "medieval",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.811,
+        "raw_score": 0.461,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.55,
+        "raw_score": 0.358
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.488,
+        "raw_score": 0.3303
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.479,
+        "raw_score": 0.3265
+      },
+      {
+        "style": "european",
+        "confidence": 0.455,
+        "raw_score": 0.3151
+      }
+    ]
+  },
+  "redstone": {
+    "total": 244,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "simple_io",
+      "item_elevator",
+      "copper_bulb_latch",
+      "edge_detector",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "杠杆/按钮 → 灯或门",
+      "物品升降机嫌疑",
+      "铜灯泡锁存/切换",
+      "边沿检测（观察者）嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 8,
+      "lever": 8,
+      "piston": 1,
+      "sticky_piston": 5,
+      "observer": 10,
+      "hopper": 25,
+      "dispenser": 7,
+      "note_block": 1,
+      "door": 16,
+      "trapdoor": 111,
+      "fence_gate": 12,
+      "piston_head": 3,
+      "copper_bulb": 37
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\56454d01fc45_Votje_20Plays_20Flower_20farm_skeleton.npz",
+    "occupancy_frac": 0.23089599609375,
+    "occupied": 7566
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

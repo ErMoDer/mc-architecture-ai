@@ -1,0 +1,270 @@
+{
+  "id": "ba902773231d_Bamboo_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\ba902773231d_Bamboo%20Farm.litematic",
+  "created_at": "2026-10-18T22:25:46+08:00",
+  "overview": {
+    "schematic_name": "Bamboo Farm",
+    "size": {
+      "x": 25,
+      "y": 25,
+      "z": 51
+    },
+    "non_air": 5424,
+    "density": 0.1702,
+    "unique_block_types": 26
+  },
+  "massing": {
+    "hollow_score": 0.8124,
+    "interior_air_frac": 0.8124,
+    "exterior_solid_frac": 0.0176,
+    "floor_guess": 4,
+    "y_peaks": [
+      10,
+      15,
+      20,
+      23
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 1,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 2,
+      "glass": 1126,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4826,
+      "symmetry_z": 0.6259,
+      "symmetry_y": 0.154
+    },
+    "solid_ratio": 0.1702
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone",
+        "count": 1211,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 1126,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo",
+        "count": 914,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 817,
+        "frac": 0.0
+      },
+      {
+        "name": "rail",
+        "count": 741,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 142,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 133,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 114,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 62,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "furnace",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 10,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 914,
+      "stone": 1354,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 1126,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 62
+    },
+    "remap_targets": [
+      "stone",
+      "glass",
+      "bamboo",
+      "dirt",
+      "rail",
+      "smooth_stone",
+      "powered_rail",
+      "redstone_torch",
+      "hopper",
+      "redstone_wire",
+      "water",
+      "furnace"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "chinese",
+      "rustic",
+      "japanese",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.602,
+        "raw_score": 0.2522,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.56,
+        "raw_score": 0.2395
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.516,
+        "raw_score": 0.226
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.496,
+        "raw_score": 0.2196
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.492,
+        "raw_score": 0.2184
+      }
+    ]
+  },
+  "redstone": {
+    "total": 1160,
+    "pattern_ids": [
+      "hopper_clock",
+      "sticky_piston_pair",
+      "crafter_auto_line",
+      "item_elevator",
+      "etho_hopper_clock",
+      "flying_machine",
+      "edge_detector",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "漏斗钟",
+      "粘性活塞对（换块/门）",
+      "合成器自动线（1.21）",
+      "物品升降机嫌疑",
+      "多漏斗环钟嫌疑",
+      "飞船/飞行器骨架",
+      "边沿检测（观察者）嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 44,
+      "redstone_torch": 115,
+      "redstone_block": 1,
+      "repeater": 2,
+      "comparator": 10,
+      "sticky_piston": 4,
+      "observer": 4,
+      "hopper": 62,
+      "trapdoor": 2,
+      "powered_rail": 133,
+      "rail": 741,
+      "piston_head": 1,
+      "crafter": 4,
+      "furnace": 20,
+      "slime_block": 17
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\ba902773231d_Bamboo_20Farm_skeleton.npz",
+    "occupancy_frac": 0.176727294921875,
+    "occupied": 5791
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

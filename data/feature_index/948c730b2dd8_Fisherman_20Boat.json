@@ -1,0 +1,234 @@
+{
+  "id": "948c730b2dd8_Fisherman_20Boat",
+  "source_path": "data\\raw\\hack337\\schematics\\948c730b2dd8_Fisherman%20Boat.litematic",
+  "created_at": "2026-10-18T22:25:33+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 25,
+      "y": 27,
+      "z": 11
+    },
+    "non_air": 1496,
+    "density": 0.2015,
+    "unique_block_types": 48
+  },
+  "massing": {
+    "hollow_score": 0.7946,
+    "interior_air_frac": 0.7946,
+    "exterior_solid_frac": 0.0583,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      4,
+      8,
+      11
+    ],
+    "families": {
+      "stairs": 22,
+      "slabs": 82,
+      "walls": 34,
+      "fences": 0,
+      "doors": 4,
+      "trapdoors": 33,
+      "glass": 10,
+      "logs": 13,
+      "planks": 122,
+      "stone_bricks": 0,
+      "deepslate": 94,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 6,
+      "copper": 184,
+      "nether": 50
+    },
+    "symmetry": {
+      "symmetry_x": 0.5495,
+      "symmetry_z": 0.9736,
+      "symmetry_y": 0.0222
+    },
+    "solid_ratio": 0.2015
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "water",
+        "count": 711,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate",
+        "count": 91,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_oxidized_copper",
+        "count": 71,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_oxidized_cut_copper_slab",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_bars",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_basalt",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_weathered_copper",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_wall_sign",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "mud_bricks",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_red_sandstone",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_wall",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_trapdoor",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_planks",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_brick_wall",
+        "count": 15,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 135,
+      "stone": 104,
+      "deepslate": 94,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 10,
+      "nether": 50,
+      "copper": 184,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 63
+    },
+    "remap_targets": [
+      "water",
+      "oak_planks",
+      "deepslate",
+      "waxed_oxidized_copper",
+      "waxed_oxidized_cut_copper_slab",
+      "iron_bars",
+      "smooth_basalt",
+      "waxed_weathered_copper",
+      "jungle_wall_sign",
+      "mud_bricks",
+      "smooth_red_sandstone",
+      "tuff_wall"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "rustic",
+      "japanese",
+      "medieval",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.514,
+        "raw_score": 0.1638,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.493,
+        "raw_score": 0.1588
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.458,
+        "raw_score": 0.1501
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.368,
+        "raw_score": 0.1264
+      },
+      {
+        "style": "western",
+        "confidence": 0.355,
+        "raw_score": 0.123
+      }
+    ]
+  },
+  "redstone": {
+    "total": 44,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "comparator": 1,
+      "lever": 6,
+      "door": 4,
+      "trapdoor": 33
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\948c730b2dd8_Fisherman_20Boat_skeleton.npz",
+    "occupancy_frac": 0.222320556640625,
+    "occupied": 7285
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "hopper_line_transfer",
+  "matches": [
+    "hopper_line",
+    "item_pipe",
+    "hopper_transfer"
+  ],
+  "label_zh": "漏斗传输桩（箱→漏斗→漏斗→箱）",
+  "size": [
+    4,
+    2,
+    1
+  ],
+  "notes": "教学桩：纯物品水平传输；非完整分拣/农场。"
+}

@@ -1,0 +1,262 @@
+{
+  "id": "樱花日式小屋__f119db49",
+  "source_path": "data\\raw\\mcblock\\樱花日式小屋__f119db49.litematic",
+  "created_at": "2026-10-19T13:01:16+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 38,
+      "y": 51,
+      "z": 53
+    },
+    "non_air": 10924,
+    "density": 0.1064,
+    "unique_block_types": 99
+  },
+  "massing": {
+    "hollow_score": 0.8894,
+    "interior_air_frac": 0.8894,
+    "exterior_solid_frac": 0.0095,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      13,
+      20,
+      23
+    ],
+    "families": {
+      "stairs": 964,
+      "slabs": 810,
+      "walls": 3,
+      "fences": 552,
+      "doors": 8,
+      "trapdoors": 506,
+      "glass": 231,
+      "logs": 951,
+      "planks": 582,
+      "stone_bricks": 1537,
+      "deepslate": 946,
+      "terracotta": 210,
+      "concrete": 195,
+      "wool": 437,
+      "leaves": 958,
+      "lanterns": 322,
+      "copper": 0,
+      "nether": 263
+    },
+    "symmetry": {
+      "symmetry_x": 0.4669,
+      "symmetry_z": 0.2802,
+      "symmetry_y": 0.0461
+    },
+    "solid_ratio": 0.1064
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cherry_leaves",
+        "count": 875,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 835,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 803,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 799,
+        "frac": 0.0
+      },
+      {
+        "name": "cracked_stone_bricks",
+        "count": 685,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_cherry_log",
+        "count": 541,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_trapdoor",
+        "count": 424,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_stairs",
+        "count": 416,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 352,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_slab",
+        "count": 335,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_slab",
+        "count": 288,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_candle",
+        "count": 286,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_petals",
+        "count": 238,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence",
+        "count": 218,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_stairs",
+        "count": 216,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_glazed_terracotta",
+        "count": 210,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1547,
+      "stone": 2600,
+      "deepslate": 946,
+      "terracotta": 210,
+      "concrete": 195,
+      "wool": 437,
+      "glass": 231,
+      "nether": 171,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 1073,
+      "metal": 19
+    },
+    "remap_targets": [
+      "cherry_leaves",
+      "stone_bricks",
+      "dirt",
+      "cobblestone",
+      "cracked_stone_bricks",
+      "stripped_cherry_log",
+      "cherry_trapdoor",
+      "cherry_stairs",
+      "birch_planks",
+      "deepslate_brick_slab",
+      "deepslate_tile_slab",
+      "pink_candle"
+    ]
+  },
+  "style": {
+    "mapped_style": "japanese",
+    "mapped_terrain": "flat",
+    "style_id": 7,
+    "terrain_id": 0,
+    "guess_names": [
+      "japanese",
+      "medieval",
+      "european",
+      "chinese",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "japanese",
+        "confidence": 0.816,
+        "raw_score": 0.4659,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.307,
+        "raw_score": 0.2416
+      },
+      {
+        "style": "european",
+        "confidence": 0.287,
+        "raw_score": 0.2305
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.273,
+        "raw_score": 0.2224
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.25,
+        "raw_score": 0.2087
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 696,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "pressure_plate": 1,
+      "door": 8,
+      "trapdoor": 506,
+      "fence_gate": 173,
+      "brewing_stand": 1,
+      "furnace": 2,
+      "smoker": 2,
+      "chiseled_bookshelf": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\樱花日式小屋__f119db49_skeleton.npz",
+    "occupancy_frac": 0.144805908203125,
+    "occupied": 4745
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 55,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\樱花日式小屋__f119db49_block2vec.npy",
+    "vector_preview": [
+      -0.05923,
+      0.19765,
+      -0.12821,
+      -0.05286,
+      0.06515,
+      -0.00303,
+      -0.1061,
+      0.09976
+    ],
+    "ok": true
+  }
+}

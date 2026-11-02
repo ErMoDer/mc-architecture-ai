@@ -1,0 +1,15 @@
+{
+  "id": "dropper_dispenser_pulse",
+  "matches": [
+    "dropper_pulse",
+    "dispenser_pulse",
+    "item_spit"
+  ],
+  "label_zh": "投掷器脉冲桩（按钮→粉尘→投掷器）",
+  "size": [
+    3,
+    1,
+    1
+  ],
+  "notes": "教学桩：单次脉冲投掷；可换发射器。"
+}

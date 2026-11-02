@@ -1,0 +1,194 @@
+{
+  "id": "W9UJGpTyDw-StarterTree",
+  "source_path": "data\\raw\\hack337\\schematics\\W9UJGpTyDw-StarterTree.litematic",
+  "created_at": "2026-10-18T22:27:16+08:00",
+  "overview": {
+    "schematic_name": "StarterTree",
+    "size": {
+      "x": 14,
+      "y": 32,
+      "z": 15
+    },
+    "non_air": 1189,
+    "density": 0.1769,
+    "unique_block_types": 9
+  },
+  "massing": {
+    "hollow_score": 0.8169,
+    "interior_air_frac": 0.8169,
+    "exterior_solid_frac": 0.0494,
+    "floor_guess": 7,
+    "y_peaks": [
+      0,
+      12,
+      17,
+      20,
+      23,
+      26,
+      29
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 135,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 478,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.298,
+      "symmetry_z": 0.3722,
+      "symmetry_y": 0.2233
+    },
+    "solid_ratio": 0.1769
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "vine",
+        "count": 409,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_leaves",
+        "count": 395,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_log",
+        "count": 135,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 92,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 83,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "fern",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 5,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 148,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 478,
+      "metal": 0
+    },
+    "remap_targets": [
+      "vine",
+      "jungle_leaves",
+      "jungle_log",
+      "grass_block",
+      "oak_leaves",
+      "grass",
+      "fern",
+      "bamboo",
+      "dirt"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "japanese",
+      "chinese",
+      "rustic",
+      "fantasy",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "japanese",
+        "confidence": 0.679,
+        "raw_score": 0.3288,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.562,
+        "raw_score": 0.2893
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.485,
+        "raw_score": 0.2611
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.304,
+        "raw_score": 0.1864
+      },
+      {
+        "style": "western",
+        "confidence": 0.205,
+        "raw_score": 0.1379
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\W9UJGpTyDw-StarterTree_skeleton.npz",
+    "occupancy_frac": 0.17822265625,
+    "occupied": 5840
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

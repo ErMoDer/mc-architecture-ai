@@ -1,0 +1,200 @@
+{
+  "id": "bb6bf2d6e543_Deepslate_20Dragon",
+  "source_path": "data\\raw\\hack337\\schematics\\bb6bf2d6e543_Deepslate%20Dragon.litematic",
+  "created_at": "2026-10-18T22:25:46+08:00",
+  "overview": {
+    "schematic_name": "Deepslate Dragon",
+    "size": {
+      "x": 12,
+      "y": 25,
+      "z": 18
+    },
+    "non_air": 1163,
+    "density": 0.2154,
+    "unique_block_types": 10
+  },
+  "massing": {
+    "hollow_score": 0.7739,
+    "interior_air_frac": 0.7739,
+    "exterior_solid_frac": 0.0613,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      3,
+      9,
+      16
+    ],
+    "families": {
+      "stairs": 175,
+      "slabs": 19,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 372,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 194
+    },
+    "symmetry": {
+      "symmetry_x": 0.6904,
+      "symmetry_z": 0.1831,
+      "symmetry_y": 0.1092
+    },
+    "solid_ratio": 0.2154
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 302,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 238,
+        "frac": 0.0
+      },
+      {
+        "name": "netherrack",
+        "count": 194,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate",
+        "count": 178,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate_stairs",
+        "count": 175,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate_slab",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "coal_ore",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 238,
+      "deepslate": 372,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 194,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "dirt",
+      "stone",
+      "netherrack",
+      "cobbled_deepslate",
+      "cobbled_deepslate_stairs",
+      "lava",
+      "cobbled_deepslate_slab",
+      "coal_ore",
+      "redstone_wall_torch",
+      "redstone_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "fantasy",
+      "european",
+      "chinese",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.517,
+        "raw_score": 0.1665,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.466,
+        "raw_score": 0.154
+      },
+      {
+        "style": "european",
+        "confidence": 0.363,
+        "raw_score": 0.1269
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.131,
+        "raw_score": 0.0538
+      },
+      {
+        "style": "modern",
+        "confidence": 0.124,
+        "raw_score": 0.0514
+      }
+    ]
+  },
+  "redstone": {
+    "total": 2,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "redstone_torch": 1,
+      "redstone_block": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\bb6bf2d6e543_Deepslate_20Dragon_skeleton.npz",
+    "occupancy_frac": 0.230072021484375,
+    "occupied": 7539
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

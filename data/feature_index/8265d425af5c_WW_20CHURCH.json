@@ -1,0 +1,233 @@
+{
+  "id": "8265d425af5c_WW_20CHURCH",
+  "source_path": "data\\raw\\hack337\\schematics\\8265d425af5c_WW%20CHURCH.litematic",
+  "created_at": "2026-10-18T22:25:30+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 21,
+      "y": 19,
+      "z": 14
+    },
+    "non_air": 1288,
+    "density": 0.2306,
+    "unique_block_types": 21
+  },
+  "massing": {
+    "hollow_score": 0.7456,
+    "interior_air_frac": 0.7456,
+    "exterior_solid_frac": 0.0541,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      7,
+      10
+    ],
+    "families": {
+      "stairs": 347,
+      "slabs": 4,
+      "walls": 4,
+      "fences": 20,
+      "doors": 4,
+      "trapdoors": 14,
+      "glass": 44,
+      "logs": 31,
+      "planks": 518,
+      "stone_bricks": 4,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 4,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6577,
+      "symmetry_z": 0.9907,
+      "symmetry_y": 0.0751
+    },
+    "solid_ratio": 0.2306
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_stairs",
+        "count": 312,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 238,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 162,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 158,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 136,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass_pane",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_birch_log",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_stairs",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_door",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 549,
+      "stone": 4,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 44,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "spruce_stairs",
+      "birch_planks",
+      "spruce_planks",
+      "grass_block",
+      "dirt",
+      "oak_planks",
+      "black_stained_glass_pane",
+      "stripped_birch_log",
+      "birch_stairs",
+      "spruce_trapdoor",
+      "dark_oak_stairs",
+      "spruce_fence"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7111,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.7,
+        "raw_score": 0.5854
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.641,
+        "raw_score": 0.5366
+      },
+      {
+        "style": "western",
+        "confidence": 0.64,
+        "raw_score": 0.5355
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.203,
+        "raw_score": 0.2435
+      }
+    ]
+  },
+  "redstone": {
+    "total": 27,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 4,
+      "trapdoor": 14,
+      "fence_gate": 8,
+      "lectern": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\8265d425af5c_WW_20CHURCH_skeleton.npz",
+    "occupancy_frac": 0.24365234375,
+    "occupied": 7984
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

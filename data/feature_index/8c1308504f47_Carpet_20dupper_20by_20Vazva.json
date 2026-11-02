@@ -1,0 +1,230 @@
+{
+  "id": "8c1308504f47_Carpet_20dupper_20by_20Vazva",
+  "source_path": "data\\raw\\hack337\\schematics\\8c1308504f47_Carpet%20dupper%20by%20Vazva.litematic",
+  "created_at": "2026-10-18T22:25:31+08:00",
+  "overview": {
+    "schematic_name": "granja2",
+    "size": {
+      "x": 16,
+      "y": 7,
+      "z": 9
+    },
+    "non_air": 315,
+    "density": 0.3125,
+    "unique_block_types": 22
+  },
+  "massing": {
+    "hollow_score": 0.5939,
+    "interior_air_frac": 0.5939,
+    "exterior_solid_frac": 0.1151,
+    "floor_guess": 1,
+    "y_peaks": [
+      2
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 198,
+      "wool": 16,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2209,
+      "symmetry_z": 0.9565,
+      "symmetry_y": 0.7355
+    },
+    "solid_ratio": 0.3125
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "yellow_concrete",
+        "count": 198,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "green_carpet",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_carpet",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_carpet",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_carpet",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_carpet",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "white_carpet",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_carpet",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "magenta_carpet",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_carpet",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_carpet",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 198,
+      "wool": 16,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "yellow_concrete",
+      "redstone_wire",
+      "slime_block",
+      "sticky_piston",
+      "repeater",
+      "lever",
+      "green_carpet",
+      "cyan_carpet",
+      "light_blue_carpet",
+      "gray_carpet",
+      "light_gray_carpet",
+      "white_carpet"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "industrial",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.714,
+        "raw_score": 0.364,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.405,
+        "raw_score": 0.2467
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.405,
+        "raw_score": 0.2467
+      }
+    ]
+  },
+  "redstone": {
+    "total": 101,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "flying_machine",
+      "pulse_limiter",
+      "instant_wire"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "飞船/飞行器骨架",
+      "中继器锁定限幅器嫌疑",
+      "瞬间线/同向中继器线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 43,
+      "repeater": 7,
+      "lever": 2,
+      "sticky_piston": 17,
+      "slime_block": 32
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\8c1308504f47_Carpet_20dupper_20by_20Vazva_skeleton.npz",
+    "occupancy_frac": 0.296875,
+    "occupied": 9728
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

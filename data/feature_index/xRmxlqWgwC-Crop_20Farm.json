@@ -1,0 +1,231 @@
+{
+  "id": "xRmxlqWgwC-Crop_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\xRmxlqWgwC-Crop%20Farm.litematic",
+  "created_at": "2026-10-18T22:27:20+08:00",
+  "overview": {
+    "schematic_name": "Crop Farm",
+    "size": {
+      "x": 24,
+      "y": 6,
+      "z": 24
+    },
+    "non_air": 2218,
+    "density": 0.6418,
+    "unique_block_types": 23
+  },
+  "massing": {
+    "hollow_score": 0.2185,
+    "interior_air_frac": 0.2185,
+    "exterior_solid_frac": 0.204,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 18,
+      "slabs": 68,
+      "walls": 2,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 2,
+      "leaves": 0,
+      "lanterns": 29,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6107,
+      "symmetry_z": 0.7716,
+      "symmetry_y": 0.4356
+    },
+    "solid_ratio": 0.6418
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 1033,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 346,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 313,
+        "frac": 0.0
+      },
+      {
+        "name": "potatoes",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "beetroots",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "wheat",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "carrots",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_slab",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_stairs",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_bars",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "jack_o_lantern",
+        "count": 5,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 441,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 2,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 15,
+      "metal": 16
+    },
+    "remap_targets": [
+      "dirt",
+      "stone",
+      "farmland",
+      "potatoes",
+      "beetroots",
+      "wheat",
+      "carrots",
+      "stone_slab",
+      "grass_block",
+      "lantern",
+      "stone_stairs",
+      "iron_bars"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.749,
+        "raw_score": 0.3987,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.646,
+        "raw_score": 0.3618
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.352,
+        "raw_score": 0.2386
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.23,
+        "raw_score": 0.1749
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.21,
+        "raw_score": 0.163
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\xRmxlqWgwC-Crop_20Farm_skeleton.npz",
+    "occupancy_frac": 0.647430419921875,
+    "occupied": 21215
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

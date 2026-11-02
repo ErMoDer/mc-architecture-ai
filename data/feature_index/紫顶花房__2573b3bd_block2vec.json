@@ -1,0 +1,13 @@
+{
+  "id": "紫顶花房__2573b3bd",
+  "dim": 144,
+  "n_chunks": 38,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "紫顶花房__2573b3bd_block2vec.npy"
+}

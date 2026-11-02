@@ -1,0 +1,212 @@
+{
+  "id": "JMm9eXswLn-Store",
+  "source_path": "data\\raw\\hack337\\schematics\\JMm9eXswLn-Store.litematic",
+  "created_at": "2026-10-18T22:26:23+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 12,
+      "y": 12,
+      "z": 8
+    },
+    "non_air": 488,
+    "density": 0.4236,
+    "unique_block_types": 12
+  },
+  "massing": {
+    "hollow_score": 0.6267,
+    "interior_air_frac": 0.6267,
+    "exterior_solid_frac": 0.2292,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      3,
+      6
+    ],
+    "families": {
+      "stairs": 118,
+      "slabs": 38,
+      "walls": 0,
+      "fences": 8,
+      "doors": 6,
+      "trapdoors": 29,
+      "glass": 4,
+      "logs": 28,
+      "planks": 253,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6053,
+      "symmetry_z": 0.9289,
+      "symmetry_y": 0.1731
+    },
+    "solid_ratio": 0.4236
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_planks",
+        "count": 141,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 117,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_button",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_door",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_door",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 281,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 4,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "oak_planks",
+      "spruce_stairs",
+      "spruce_planks",
+      "spruce_slab",
+      "spruce_trapdoor",
+      "oak_log",
+      "spruce_fence",
+      "glass_pane",
+      "spruce_button",
+      "spruce_door",
+      "oak_door",
+      "oak_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7538,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.707,
+        "raw_score": 0.6274
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.649,
+        "raw_score": 0.5751
+      },
+      {
+        "style": "western",
+        "confidence": 0.649,
+        "raw_score": 0.5751
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.198,
+        "raw_score": 0.2488
+      }
+    ]
+  },
+  "redstone": {
+    "total": 39,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 4,
+      "door": 6,
+      "trapdoor": 29
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\JMm9eXswLn-Store_skeleton.npz",
+    "occupancy_frac": 0.4466552734375,
+    "occupied": 14636
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

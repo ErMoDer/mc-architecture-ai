@@ -1,0 +1,238 @@
+{
+  "id": "EVH6Ry9Ego-ferrari-formula1-racing-car",
+  "source_path": "data\\raw\\hack337\\schematics\\EVH6Ry9Ego-ferrari-formula1-racing-car.litematic",
+  "created_at": "2026-10-18T22:26:09+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 12,
+      "y": 4,
+      "z": 7
+    },
+    "non_air": 116,
+    "density": 0.3452,
+    "unique_block_types": 22
+  },
+  "massing": {
+    "hollow_score": 0.36,
+    "interior_air_frac": 0.36,
+    "exterior_solid_frac": 0.1548,
+    "floor_guess": 1,
+    "y_peaks": [
+      1
+    ],
+    "families": {
+      "stairs": 18,
+      "slabs": 4,
+      "walls": 0,
+      "fences": 3,
+      "doors": 0,
+      "trapdoors": 1,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 42,
+      "wool": 24,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 20
+    },
+    "symmetry": {
+      "symmetry_x": 0.5065,
+      "symmetry_z": 0.9661,
+      "symmetry_y": 0.3034
+    },
+    "solid_ratio": 0.3452
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "black_concrete",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "red_carpet",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "red_nether_brick_stairs",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "red_concrete",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_brick_stairs",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_button",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_wall_banner",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "black_wool",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "red_wall_banner",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "red_nether_brick_slab",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence_gate",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "anvil",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_pillar",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wall_banner",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_trapdoor",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 21,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 42,
+      "wool": 24,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 2
+    },
+    "remap_targets": [
+      "black_concrete",
+      "red_carpet",
+      "red_nether_brick_stairs",
+      "red_concrete",
+      "nether_brick_stairs",
+      "birch_button",
+      "gray_wall_banner",
+      "black_wool",
+      "red_wall_banner",
+      "red_nether_brick_slab",
+      "dark_oak_fence_gate",
+      "anvil"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "industrial",
+      "scifi",
+      "fantasy",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.552,
+        "raw_score": 0.2022,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.425,
+        "raw_score": 0.1663
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.314,
+        "raw_score": 0.1318
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.233,
+        "raw_score": 0.1039
+      },
+      {
+        "style": "european",
+        "confidence": 0.226,
+        "raw_score": 0.1011
+      }
+    ]
+  },
+  "redstone": {
+    "total": 12,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 5,
+      "pressure_plate": 1,
+      "observer": 2,
+      "trapdoor": 1,
+      "fence_gate": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\EVH6Ry9Ego-ferrari-formula1-racing-car_skeleton.npz",
+    "occupancy_frac": 0.3369140625,
+    "occupied": 11040
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

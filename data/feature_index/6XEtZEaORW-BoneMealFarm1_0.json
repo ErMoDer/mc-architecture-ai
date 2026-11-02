@@ -1,0 +1,292 @@
+{
+  "id": "6XEtZEaORW-BoneMealFarm1_0",
+  "source_path": "data\\raw\\hack337\\schematics\\6XEtZEaORW-BoneMealFarm1.0.litematic",
+  "created_at": "2026-10-18T22:25:24+08:00",
+  "overview": {
+    "schematic_name": "BoneMealFarm1.0",
+    "size": {
+      "x": 19,
+      "y": 10,
+      "z": 31
+    },
+    "non_air": 3481,
+    "density": 0.591,
+    "unique_block_types": 33
+  },
+  "massing": {
+    "hollow_score": 0.4168,
+    "interior_air_frac": 0.4168,
+    "exterior_solid_frac": 0.2005,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      6
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 14,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 28,
+      "glass": 329,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 1375,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 1,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8403,
+      "symmetry_z": 0.9784,
+      "symmetry_y": 0.4116
+    },
+    "solid_ratio": 0.591
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 1375,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 832,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 329,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 139,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "target",
+        "count": 62,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 28,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 2221,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 1,
+      "glass": 329,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 28,
+      "leaves": 88,
+      "metal": 39
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "stone",
+      "glass",
+      "redstone_wire",
+      "sticky_piston",
+      "moss_block",
+      "observer",
+      "target",
+      "redstone_torch",
+      "piston_head",
+      "lava",
+      "quartz_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.594,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.77,
+        "raw_score": 0.5378
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.226,
+        "raw_score": 0.2309
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.132,
+        "raw_score": 0.1551
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.121,
+        "raw_score": 0.1449
+      }
+    ]
+  },
+  "redstone": {
+    "total": 658,
+    "pattern_ids": [
+      "hopper_line",
+      "piston_door",
+      "qc_piston_bank",
+      "item_elevator",
+      "observer_clock",
+      "sticky_piston_pair",
+      "etho_hopper_clock",
+      "target_block_line",
+      "pulse_extender",
+      "pulse_limiter",
+      "edge_detector",
+      "instant_wire",
+      "hopper_clock",
+      "t_flip_flop",
+      "monostable",
+      "zero_tick_bud_freerun",
+      "torch_logic_lattice",
+      "dual_edge_repeater",
+      "water_hopper_stream",
+      "falling_edge",
+      "torch_xor_gate"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "粘性活塞对（换块/门）",
+      "多漏斗环钟嫌疑",
+      "标靶方块线路",
+      "脉冲延长/单稳态嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "火把逻辑阵（AND/OR/NOR/XOR）嫌疑",
+      "双沿/对向中继器线嫌疑",
+      "水流漏斗收集线嫌疑",
+      "下降沿/双火把脉冲嫌疑",
+      "火把 XOR/同或门嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 139,
+      "redstone_torch": 88,
+      "repeater": 34,
+      "comparator": 5,
+      "lever": 1,
+      "piston": 4,
+      "sticky_piston": 121,
+      "observer": 66,
+      "hopper": 39,
+      "dropper": 1,
+      "dispenser": 4,
+      "target": 62,
+      "trapdoor": 28,
+      "powered_rail": 10,
+      "piston_head": 56
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\6XEtZEaORW-BoneMealFarm1_0_skeleton.npz",
+    "occupancy_frac": 0.61981201171875,
+    "occupied": 20310
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:bonemeal",
+  "previous_mapped_style": "chinese"
+}

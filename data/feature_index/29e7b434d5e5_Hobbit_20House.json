@@ -1,0 +1,268 @@
+{
+  "id": "29e7b434d5e5_Hobbit_20House",
+  "source_path": "data\\raw\\hack337\\schematics\\29e7b434d5e5_Hobbit%20House.litematic",
+  "created_at": "2026-10-18T22:24:58+08:00",
+  "overview": {
+    "schematic_name": "Hobbit House",
+    "size": {
+      "x": 30,
+      "y": 19,
+      "z": 31
+    },
+    "non_air": 10795,
+    "density": 0.6109,
+    "unique_block_types": 77
+  },
+  "massing": {
+    "hollow_score": 0.3669,
+    "interior_air_frac": 0.3669,
+    "exterior_solid_frac": 0.1164,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      3,
+      11
+    ],
+    "families": {
+      "stairs": 78,
+      "slabs": 38,
+      "walls": 3,
+      "fences": 57,
+      "doors": 14,
+      "trapdoors": 38,
+      "glass": 62,
+      "logs": 71,
+      "planks": 491,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 354,
+      "lanterns": 8,
+      "copper": 53,
+      "nether": 7
+    },
+    "symmetry": {
+      "symmetry_x": 0.7616,
+      "symmetry_z": 0.6989,
+      "symmetry_y": 0.3167
+    },
+    "solid_ratio": 0.6109
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone",
+        "count": 4828,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 1724,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 968,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 792,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 491,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 327,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 285,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 201,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_leaves",
+        "count": 69,
+        "frac": 0.0
+      },
+      {
+        "name": "podzol",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 62,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "copper_ore",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "sand",
+        "count": 50,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 580,
+      "stone": 5911,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 62,
+      "nether": 7,
+      "copper": 53,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 50,
+      "snow_ice": 0,
+      "leaves": 354,
+      "metal": 5
+    },
+    "remap_targets": [
+      "stone",
+      "dirt",
+      "diorite",
+      "grass_block",
+      "oak_planks",
+      "grass",
+      "oak_leaves",
+      "water",
+      "oak_stairs",
+      "dirt_path",
+      "birch_leaves",
+      "podzol"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.724,
+        "raw_score": 0.3738,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.643,
+        "raw_score": 0.3457
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.381,
+        "raw_score": 0.241
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.324,
+        "raw_score": 0.2148
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.296,
+        "raw_score": 0.2011
+      }
+    ]
+  },
+  "redstone": {
+    "total": 68,
+    "pattern_ids": [
+      "door_line",
+      "nether_portal_cue",
+      "simple_io"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "下界传送门",
+      "杠杆/按钮 → 灯或门"
+    ],
+    "inventory_nonzero": {
+      "button": 4,
+      "door": 10,
+      "iron_door": 4,
+      "trapdoor": 38,
+      "fence_gate": 4,
+      "brewing_stand": 1,
+      "furnace": 1,
+      "nether_portal": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\29e7b434d5e5_Hobbit_20House_skeleton.npz",
+    "occupancy_frac": 0.612579345703125,
+    "occupied": 20073
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 12,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\29e7b434d5e5_Hobbit_20House_block2vec.npy",
+    "vector_preview": [
+      -0.01085,
+      0.25314,
+      -0.12361,
+      -0.01747,
+      0.09068,
+      0.09154,
+      0.02882,
+      0.0294
+    ],
+    "ok": true
+  }
+}

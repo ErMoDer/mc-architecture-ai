@@ -1,0 +1,291 @@
+{
+  "id": "大别墅__67b76e4a",
+  "source_path": "data\\raw\\mcblock\\大别墅__67b76e4a.litematic",
+  "created_at": "2026-10-19T13:01:13+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 47,
+      "y": 25,
+      "z": 37
+    },
+    "non_air": 7469,
+    "density": 0.1718,
+    "unique_block_types": 61
+  },
+  "massing": {
+    "hollow_score": 0.8281,
+    "interior_air_frac": 0.8281,
+    "exterior_solid_frac": 0.0285,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      4,
+      8,
+      11,
+      18
+    ],
+    "families": {
+      "stairs": 1547,
+      "slabs": 301,
+      "walls": 0,
+      "fences": 113,
+      "doors": 27,
+      "trapdoors": 12,
+      "glass": 339,
+      "logs": 321,
+      "planks": 1798,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 704,
+      "leaves": 12,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 4
+    },
+    "symmetry": {
+      "symmetry_x": 0.284,
+      "symmetry_z": 0.2056,
+      "symmetry_y": 0.091
+    },
+    "solid_ratio": 0.1718
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_planks",
+        "count": 1798,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 1445,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 1238,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 452,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 352,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 323,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 276,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 240,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 102,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_wool",
+        "count": 102,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 101,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "green_wool",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "snow",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 69,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 59,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 2119,
+      "stone": 1551,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 704,
+      "glass": 339,
+      "nether": 4,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 75,
+      "leaves": 12,
+      "metal": 13
+    },
+    "remap_targets": [
+      "oak_planks",
+      "oak_stairs",
+      "cobblestone",
+      "white_wool",
+      "grass_block",
+      "glass",
+      "oak_log",
+      "oak_slab",
+      "cobblestone_stairs",
+      "brown_wool",
+      "oak_fence",
+      "wall_torch"
+    ]
+  },
+  "style": {
+    "mapped_style": "european",
+    "mapped_terrain": "flat",
+    "style_id": 4,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.81,
+        "raw_score": 0.4596,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.508,
+        "raw_score": 0.3389
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.447,
+        "raw_score": 0.3109
+      },
+      {
+        "style": "western",
+        "confidence": 0.339,
+        "raw_score": 0.2566
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.285,
+        "raw_score": 0.227
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 247,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "door_line",
+      "simple_io",
+      "pulse_extender",
+      "pulse_limiter",
+      "instant_wire",
+      "note_block_line",
+      "dual_edge_repeater",
+      "falling_edge"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "脉冲延长/单稳态嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "音符盒线路/乐器阵",
+      "双沿/对向中继器线嫌疑",
+      "下降沿/双火把脉冲嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 69,
+      "redstone_torch": 8,
+      "repeater": 27,
+      "lever": 3,
+      "button": 17,
+      "pressure_plate": 25,
+      "piston": 32,
+      "dispenser": 1,
+      "note_block": 4,
+      "door": 19,
+      "iron_door": 8,
+      "trapdoor": 12,
+      "fence_gate": 12,
+      "furnace": 10
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\大别墅__67b76e4a_skeleton.npz",
+    "occupancy_frac": 0.20989990234375,
+    "occupied": 6878
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 32,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\大别墅__67b76e4a_block2vec.npy",
+    "vector_preview": [
+      -0.06638,
+      0.15363,
+      -0.07956,
+      0.06515,
+      -0.10559,
+      0.05507,
+      -0.04861,
+      0.08705
+    ],
+    "ok": true
+  }
+}

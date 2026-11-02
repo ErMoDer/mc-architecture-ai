@@ -1,0 +1,278 @@
+{
+  "id": "莱顿公寓_格林__5882faee",
+  "source_path": "data\\raw\\mcblock\\莱顿公寓_格林__5882faee.litematic",
+  "created_at": "2026-10-19T13:01:03+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 28,
+      "y": 22,
+      "z": 25
+    },
+    "non_air": 6379,
+    "density": 0.4142,
+    "unique_block_types": 99
+  },
+  "massing": {
+    "hollow_score": 0.5482,
+    "interior_air_frac": 0.5482,
+    "exterior_solid_frac": 0.0634,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      3,
+      7,
+      11,
+      16
+    ],
+    "families": {
+      "stairs": 192,
+      "slabs": 453,
+      "walls": 0,
+      "fences": 7,
+      "doors": 66,
+      "trapdoors": 147,
+      "glass": 150,
+      "logs": 3,
+      "planks": 1137,
+      "stone_bricks": 219,
+      "deepslate": 0,
+      "terracotta": 293,
+      "concrete": 14,
+      "wool": 203,
+      "leaves": 0,
+      "lanterns": 39,
+      "copper": 0,
+      "nether": 7
+    },
+    "symmetry": {
+      "symmetry_x": 0.6327,
+      "symmetry_z": 0.5706,
+      "symmetry_y": 0.2786
+    },
+    "solid_ratio": 0.4142
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_planks",
+        "count": 973,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 846,
+        "frac": 0.0
+      },
+      {
+        "name": "red_sandstone",
+        "count": 542,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 467,
+        "frac": 0.0
+      },
+      {
+        "name": "black_terracotta",
+        "count": 293,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 287,
+        "frac": 0.0
+      },
+      {
+        "name": "cut_red_sandstone",
+        "count": 273,
+        "frac": 0.0
+      },
+      {
+        "name": "end_stone_bricks",
+        "count": 184,
+        "frac": 0.0
+      },
+      {
+        "name": "end_stone",
+        "count": 168,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_planks",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "gravel",
+        "count": 159,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_slab",
+        "count": 127,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 114,
+        "frac": 0.0
+      },
+      {
+        "name": "bookshelf",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_stairs",
+        "count": 96,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1140,
+      "stone": 3193,
+      "deepslate": 0,
+      "terracotta": 293,
+      "concrete": 14,
+      "wool": 203,
+      "glass": 150,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 18,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 2,
+      "leaves": 0,
+      "metal": 49
+    },
+    "remap_targets": [
+      "oak_planks",
+      "bricks",
+      "red_sandstone",
+      "cobblestone",
+      "black_terracotta",
+      "smooth_stone_slab",
+      "cut_red_sandstone",
+      "end_stone_bricks",
+      "end_stone",
+      "jungle_planks",
+      "gravel",
+      "quartz_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "modern",
+    "mapped_terrain": "flat",
+    "style_id": 3,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "chinese",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.678,
+        "raw_score": 0.3281,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.642,
+        "raw_score": 0.3161
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.478,
+        "raw_score": 0.258
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.426,
+        "raw_score": 0.2378
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.423,
+        "raw_score": 0.2365
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 363,
+    "pattern_ids": [
+      "door_line",
+      "simple_io",
+      "tripwire_trap",
+      "detector_rail_clock"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱",
+      "探测铁轨矿车钟嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_block": 1,
+      "lever": 6,
+      "button": 10,
+      "pressure_plate": 4,
+      "dispenser": 12,
+      "door": 50,
+      "iron_door": 16,
+      "trapdoor": 147,
+      "tripwire": 28,
+      "detector_rail": 6,
+      "rail": 48,
+      "furnace": 6,
+      "shulker_box": 29
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\莱顿公寓_格林__5882faee_skeleton.npz",
+    "occupancy_frac": 0.431427001953125,
+    "occupied": 14137
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 12,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\莱顿公寓_格林__5882faee_block2vec.npy",
+    "vector_preview": [
+      -0.07724,
+      0.11096,
+      -0.11561,
+      -0.0118,
+      0.12021,
+      -0.01057,
+      -0.01714,
+      0.02352
+    ],
+    "ok": true
+  }
+}

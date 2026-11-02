@@ -1,0 +1,266 @@
+{
+  "id": "绯红宅邸__297a6baf",
+  "source_path": "data\\raw\\mcblock\\绯红宅邸__297a6baf.litematic",
+  "created_at": "2026-10-19T13:01:17+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 44,
+      "y": 28,
+      "z": 56
+    },
+    "non_air": 9064,
+    "density": 0.1314,
+    "unique_block_types": 91
+  },
+  "massing": {
+    "hollow_score": 0.8755,
+    "interior_air_frac": 0.8755,
+    "exterior_solid_frac": 0.0249,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      7,
+      11,
+      19
+    ],
+    "families": {
+      "stairs": 345,
+      "slabs": 163,
+      "walls": 3,
+      "fences": 52,
+      "doors": 4,
+      "trapdoors": 303,
+      "glass": 121,
+      "logs": 474,
+      "planks": 428,
+      "stone_bricks": 0,
+      "deepslate": 3,
+      "terracotta": 160,
+      "concrete": 0,
+      "wool": 185,
+      "leaves": 111,
+      "lanterns": 20,
+      "copper": 0,
+      "nether": 630
+    },
+    "symmetry": {
+      "symmetry_x": 0.4083,
+      "symmetry_z": 0.4383,
+      "symmetry_y": 0.06
+    },
+    "solid_ratio": 0.1314
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 5088,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 399,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_quartz_block",
+        "count": 295,
+        "frac": 0.0
+      },
+      {
+        "name": "tall_grass",
+        "count": 224,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 171,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_stairs",
+        "count": 166,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_stairs",
+        "count": 156,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 154,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 141,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_wool",
+        "count": 137,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_trapdoor",
+        "count": 136,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_crimson_hyphae",
+        "count": 135,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_trapdoor",
+        "count": 133,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_slab",
+        "count": 122,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 119,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_cherry_wood",
+        "count": 119,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 951,
+      "stone": 269,
+      "deepslate": 3,
+      "terracotta": 160,
+      "concrete": 0,
+      "wool": 185,
+      "glass": 121,
+      "nether": 355,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 141,
+      "metal": 7
+    },
+    "remap_targets": [
+      "grass_block",
+      "short_grass",
+      "chiseled_quartz_block",
+      "tall_grass",
+      "calcite",
+      "birch_stairs",
+      "crimson_stairs",
+      "oak_planks",
+      "birch_planks",
+      "yellow_wool",
+      "crimson_trapdoor",
+      "stripped_crimson_hyphae"
+    ]
+  },
+  "style": {
+    "mapped_style": "european",
+    "mapped_terrain": "flat",
+    "style_id": 4,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.782,
+        "raw_score": 0.4317,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.474,
+        "raw_score": 0.3101
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.429,
+        "raw_score": 0.2896
+      },
+      {
+        "style": "western",
+        "confidence": 0.378,
+        "raw_score": 0.2652
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.21,
+        "raw_score": 0.1731
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 400,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "redstone_torch": 2,
+      "button": 5,
+      "piston": 2,
+      "door": 4,
+      "trapdoor": 303,
+      "fence_gate": 45,
+      "piston_head": 2,
+      "brewing_stand": 2,
+      "furnace": 4,
+      "smoker": 2,
+      "lectern": 13,
+      "chiseled_bookshelf": 16
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\绯红宅邸__297a6baf_skeleton.npz",
+    "occupancy_frac": 0.16461181640625,
+    "occupied": 5394
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 25,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\绯红宅邸__297a6baf_block2vec.npy",
+    "vector_preview": [
+      -0.08221,
+      0.11015,
+      -0.08544,
+      -0.06212,
+      0.11213,
+      0.04083,
+      -0.03838,
+      0.11297
+    ],
+    "ok": true
+  }
+}

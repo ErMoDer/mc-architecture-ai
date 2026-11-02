@@ -1,0 +1,316 @@
+{
+  "id": "白色现代别墅__1b8435fe",
+  "source_path": "data\\raw\\mcblock\\白色现代别墅__1b8435fe.litematic",
+  "created_at": "2026-10-20T13:45:19+08:00",
+  "overview": {
+    "schematic_name": "UnpaleHouse",
+    "size": {
+      "x": 45,
+      "y": 40,
+      "z": 54
+    },
+    "non_air": 8942,
+    "density": 0.092,
+    "unique_block_types": 175
+  },
+  "massing": {
+    "hollow_score": 0.9256,
+    "interior_air_frac": 0.9256,
+    "exterior_solid_frac": 0.027,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      8
+    ],
+    "families": {
+      "stairs": 217,
+      "slabs": 211,
+      "walls": 21,
+      "fences": 78,
+      "doors": 20,
+      "trapdoors": 293,
+      "glass": 51,
+      "logs": 847,
+      "planks": 1030,
+      "stone_bricks": 175,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 20,
+      "wool": 142,
+      "leaves": 155,
+      "lanterns": 38,
+      "copper": 0,
+      "nether": 18
+    },
+    "symmetry": {
+      "symmetry_x": 0.6198,
+      "symmetry_z": 0.5296,
+      "symmetry_y": 0.0035
+    },
+    "solid_ratio": 0.092
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 1489,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_planks",
+        "count": 836,
+        "frac": 0.0
+      },
+      {
+        "name": "coarse_dirt",
+        "count": 415,
+        "frac": 0.0
+      },
+      {
+        "name": "sunflower",
+        "count": 408,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 396,
+        "frac": 0.0
+      },
+      {
+        "name": "poppy",
+        "count": 385,
+        "frac": 0.0
+      },
+      {
+        "name": "dandelion",
+        "count": 368,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_pale_oak_log",
+        "count": 366,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 206,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 202,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_tulip",
+        "count": 178,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 173,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_slab",
+        "count": 163,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 152,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_stairs",
+        "count": 130,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_tulip",
+        "count": 129,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1918,
+      "stone": 695,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 20,
+      "wool": 142,
+      "glass": 51,
+      "nether": 14,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 3,
+      "leaves": 380,
+      "metal": 28
+    },
+    "remap_targets": [
+      "grass_block",
+      "pale_oak_planks",
+      "coarse_dirt",
+      "sunflower",
+      "dirt",
+      "poppy",
+      "dandelion",
+      "stripped_pale_oak_log",
+      "moss_block",
+      "cobblestone",
+      "pink_tulip",
+      "stone_bricks"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5496,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.623,
+        "raw_score": 0.4356
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.565,
+        "raw_score": 0.409
+      },
+      {
+        "style": "western",
+        "confidence": 0.435,
+        "raw_score": 0.3442
+      },
+      {
+        "style": "modern",
+        "confidence": 0.29,
+        "raw_score": 0.2606
+      }
+    ]
+  },
+  "redstone": {
+    "total": 414,
+    "pattern_ids": [
+      "door_line",
+      "hopper_line",
+      "simple_io",
+      "auto_smelt_brew_line",
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "漏斗输送线",
+      "杠杆/按钮 → 灯或门",
+      "自动烧炼/酿造线",
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "lever": 2,
+      "button": 20,
+      "pressure_plate": 3,
+      "hopper": 12,
+      "door": 18,
+      "iron_door": 2,
+      "trapdoor": 293,
+      "fence_gate": 44,
+      "tripwire": 9,
+      "brewing_stand": 2,
+      "furnace": 6,
+      "blast_furnace": 2,
+      "chiseled_bookshelf": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\白色现代别墅__1b8435fe_skeleton.npz",
+    "occupancy_frac": 0.12030029296875,
+    "occupied": 3942
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 27,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\白色现代别墅__1b8435fe_block2vec.npy",
+    "vector_preview": [
+      -0.09217,
+      0.22391,
+      -0.16627,
+      -0.00216,
+      0.03854,
+      0.02346,
+      -0.06264,
+      0.10221
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "2049b254c2e8_Twins_20Towers_20Small",
+        "score": 0.9147826300267639,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\2049b254c2e8_Twins%20Towers%20Small.litematic"
+      },
+      {
+        "id": "洛维小屋__501c36e2",
+        "score": 0.9138933952734243,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\洛维小屋__501c36e2.litematic"
+      },
+      {
+        "id": "精灵小屋_Msvspk__fc4b5444",
+        "score": 0.9070116333955384,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\精灵小屋_Msvspk__fc4b5444.litematic"
+      },
+      {
+        "id": "郊区小别墅__4eb8e9ff",
+        "score": 0.8996717849459247,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\郊区小别墅__4eb8e9ff.litematic"
+      },
+      {
+        "id": "苔痕土坯屋__86435ac5",
+        "score": 0.8991429341680094,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\苔痕土坯屋__86435ac5.litematic"
+      }
+    ]
+  },
+  "mapped_style": "european",
+  "residential_loft_topup": true,
+  "long_fill_tag": "long_fill_european"
+}

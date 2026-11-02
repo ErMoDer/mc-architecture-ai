@@ -1,0 +1,229 @@
+{
+  "id": "RKKC9G66dh-Enchanting_20Room",
+  "source_path": "data\\raw\\hack337\\schematics\\RKKC9G66dh-Enchanting%20Room.litematic",
+  "created_at": "2026-10-18T22:26:41+08:00",
+  "overview": {
+    "schematic_name": "Enchanting Room",
+    "size": {
+      "x": 11,
+      "y": 8,
+      "z": 10
+    },
+    "non_air": 190,
+    "density": 0.2159,
+    "unique_block_types": 18
+  },
+  "massing": {
+    "hollow_score": 0.7245,
+    "interior_air_frac": 0.7245,
+    "exterior_solid_frac": 0.0807,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 30,
+      "slabs": 32,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 35,
+      "planks": 60,
+      "stone_bricks": 10,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 2,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4074,
+      "symmetry_z": 0.2418,
+      "symmetry_y": 0.1446
+    },
+    "solid_ratio": 0.2159
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dark_oak_planks",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "bookshelf",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_bookshelf",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_stone_bricks",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "easymagic:minecraft/enchanting_table",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 95,
+      "stone": 10,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "dark_oak_planks",
+      "spruce_log",
+      "spruce_planks",
+      "dark_oak_stairs",
+      "bookshelf",
+      "spruce_slab",
+      "dark_oak_slab",
+      "stone_brick_stairs",
+      "chiseled_bookshelf",
+      "stripped_spruce_log",
+      "spruce_stairs",
+      "chest"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7096,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.704,
+        "raw_score": 0.5875
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.645,
+        "raw_score": 0.5385
+      },
+      {
+        "style": "western",
+        "confidence": 0.626,
+        "raw_score": 0.5228
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.214,
+        "raw_score": 0.2523
+      }
+    ]
+  },
+  "redstone": {
+    "total": 6,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "chiseled_bookshelf": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\RKKC9G66dh-Enchanting_20Room_skeleton.npz",
+    "occupancy_frac": 0.2203369140625,
+    "occupied": 7220
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

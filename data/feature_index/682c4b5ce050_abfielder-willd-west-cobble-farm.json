@@ -1,0 +1,269 @@
+{
+  "id": "682c4b5ce050_abfielder-willd-west-cobble-farm",
+  "source_path": "data\\raw\\hack337\\schematics\\682c4b5ce050_abfielder-willd-west-cobble-farm.litematic",
+  "created_at": "2026-10-18T22:25:20+08:00",
+  "overview": {
+    "schematic_name": "abfielder-willd-west-cobble-farm",
+    "size": {
+      "x": 15,
+      "y": 26,
+      "z": 19
+    },
+    "non_air": 1577,
+    "density": 0.2128,
+    "unique_block_types": 46
+  },
+  "massing": {
+    "hollow_score": 0.7304,
+    "interior_air_frac": 0.7304,
+    "exterior_solid_frac": 0.0198,
+    "floor_guess": 4,
+    "y_peaks": [
+      3,
+      8,
+      13,
+      17
+    ],
+    "families": {
+      "stairs": 120,
+      "slabs": 246,
+      "walls": 0,
+      "fences": 122,
+      "doors": 4,
+      "trapdoors": 17,
+      "glass": 0,
+      "logs": 175,
+      "planks": 483,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 103,
+      "lanterns": 22,
+      "copper": 0,
+      "nether": 4
+    },
+    "symmetry": {
+      "symmetry_x": 0.8252,
+      "symmetry_z": 0.2206,
+      "symmetry_y": 0.3131
+    },
+    "solid_ratio": 0.2128
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 312,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 171,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 124,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 118,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_log",
+        "count": 109,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 109,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 104,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 103,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 16,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 658,
+      "stone": 127,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 3,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 2,
+      "leaves": 103,
+      "metal": 4
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "oak_planks",
+      "dark_oak_slab",
+      "dark_oak_fence",
+      "dark_oak_stairs",
+      "stripped_dark_oak_log",
+      "cobblestone",
+      "spruce_slab",
+      "oak_leaves",
+      "water",
+      "stripped_spruce_log",
+      "lava"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6282,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.695,
+        "raw_score": 0.5134
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.635,
+        "raw_score": 0.4802
+      },
+      {
+        "style": "western",
+        "confidence": 0.53,
+        "raw_score": 0.4279
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.223,
+        "raw_score": 0.2379
+      }
+    ]
+  },
+  "redstone": {
+    "total": 78,
+    "pattern_ids": [
+      "door_line",
+      "simple_io",
+      "observer_clock",
+      "qc_piston_bank",
+      "edge_detector",
+      "note_block_line",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "观察者相邻时钟嫌疑",
+      "QC/BUD 活塞组",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 9,
+      "redstone_torch": 5,
+      "redstone_block": 1,
+      "repeater": 6,
+      "lever": 1,
+      "button": 12,
+      "piston": 1,
+      "sticky_piston": 3,
+      "observer": 9,
+      "hopper": 3,
+      "note_block": 2,
+      "door": 4,
+      "trapdoor": 17,
+      "fence_gate": 1,
+      "powered_rail": 3,
+      "piston_head": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\682c4b5ce050_abfielder-willd-west-cobble-farm_skeleton.npz",
+    "occupancy_frac": 0.22564697265625,
+    "occupied": 7394
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

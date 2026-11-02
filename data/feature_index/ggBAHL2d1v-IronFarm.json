@@ -1,0 +1,216 @@
+{
+  "id": "ggBAHL2d1v-IronFarm",
+  "source_path": "data\\raw\\hack337\\schematics\\ggBAHL2d1v-IronFarm.litematic",
+  "created_at": "2026-10-18T22:26:15+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 27,
+      "y": 32,
+      "z": 26
+    },
+    "non_air": 1493,
+    "density": 0.0665,
+    "unique_block_types": 12
+  },
+  "massing": {
+    "hollow_score": 0.933,
+    "interior_air_frac": 0.933,
+    "exterior_solid_frac": 0.0128,
+    "floor_guess": 9,
+    "y_peaks": [
+      2,
+      5,
+      8,
+      11,
+      14,
+      17,
+      20,
+      25,
+      31
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 16,
+      "walls": 0,
+      "fences": 8,
+      "doors": 0,
+      "trapdoors": 16,
+      "glass": 1294,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9841,
+      "symmetry_z": 0.1354,
+      "symmetry_y": 0.3824
+    },
+    "solid_ratio": 0.0665
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "glass",
+        "count": 1294,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "white_bed",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wall_sign",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence_gate",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 1294,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 9
+    },
+    "remap_targets": [
+      "glass",
+      "water",
+      "ladder",
+      "white_bed",
+      "spruce_slab",
+      "spruce_trapdoor",
+      "hopper",
+      "spruce_wall_sign",
+      "lava",
+      "oak_fence_gate",
+      "wall_torch",
+      "chest"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.627,
+        "raw_score": 0.277,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.594,
+        "raw_score": 0.2667
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.308,
+        "raw_score": 0.1655
+      },
+      {
+        "style": "european",
+        "confidence": 0.252,
+        "raw_score": 0.1419
+      }
+    ]
+  },
+  "redstone": {
+    "total": 33,
+    "pattern_ids": [
+      "hopper_line"
+    ],
+    "pattern_labels": [
+      "漏斗输送线"
+    ],
+    "inventory_nonzero": {
+      "hopper": 9,
+      "trapdoor": 16,
+      "fence_gate": 8
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\ggBAHL2d1v-IronFarm_skeleton.npz",
+    "occupancy_frac": 0.063720703125,
+    "occupied": 2088
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

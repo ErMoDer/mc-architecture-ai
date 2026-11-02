@@ -1,0 +1,309 @@
+{
+  "id": "樱花木海晶石小屋__8be5f3aa",
+  "source_path": "data\\raw\\mcblock\\樱花木海晶石小屋__8be5f3aa.litematic",
+  "created_at": "2026-10-19T20:34:09+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 24,
+      "y": 38,
+      "z": 40
+    },
+    "non_air": 4522,
+    "density": 0.124,
+    "unique_block_types": 80
+  },
+  "massing": {
+    "hollow_score": 0.8679,
+    "interior_air_frac": 0.8679,
+    "exterior_solid_frac": 0.015,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      5,
+      12,
+      16,
+      22
+    ],
+    "families": {
+      "stairs": 511,
+      "slabs": 487,
+      "walls": 35,
+      "fences": 181,
+      "doors": 6,
+      "trapdoors": 377,
+      "glass": 85,
+      "logs": 543,
+      "planks": 445,
+      "stone_bricks": 54,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 76,
+      "wool": 56,
+      "leaves": 48,
+      "lanterns": 127,
+      "copper": 185,
+      "nether": 230
+    },
+    "symmetry": {
+      "symmetry_x": 0.2043,
+      "symmetry_z": 0.4461,
+      "symmetry_y": 0.0153
+    },
+    "solid_ratio": 0.124
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_cherry_log",
+        "count": 536,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 339,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_bookshelf",
+        "count": 236,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_stairs",
+        "count": 202,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_trapdoor",
+        "count": 191,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 185,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 159,
+        "frac": 0.0
+      },
+      {
+        "name": "snow_block",
+        "count": 153,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_bricks",
+        "count": 122,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_oxidized_cut_copper",
+        "count": 116,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 109,
+        "frac": 0.0
+      },
+      {
+        "name": "red_mushroom_block",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "loom",
+        "count": 98,
+        "frac": 0.0
+      },
+      {
+        "name": "lectern",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine",
+        "count": 88,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 988,
+      "stone": 438,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 76,
+      "wool": 56,
+      "glass": 85,
+      "nether": 158,
+      "copper": 185,
+      "prismarine": 183,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 153,
+      "leaves": 48,
+      "metal": 8
+    },
+    "remap_targets": [
+      "stripped_cherry_log",
+      "spruce_planks",
+      "chiseled_bookshelf",
+      "cherry_stairs",
+      "cherry_trapdoor",
+      "dark_oak_slab",
+      "dark_oak_stairs",
+      "snow_block",
+      "prismarine_bricks",
+      "waxed_oxidized_cut_copper",
+      "dark_oak_trapdoor",
+      "campfire"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.768,
+        "raw_score": 0.418,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.47,
+        "raw_score": 0.3016
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.418,
+        "raw_score": 0.2781
+      },
+      {
+        "style": "western",
+        "confidence": 0.343,
+        "raw_score": 0.2424
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.209,
+        "raw_score": 0.1683
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 865,
+    "pattern_ids": [
+      "door_line",
+      "simple_io",
+      "daylight_detector_clock"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "日光传感器钟/昼夜控制"
+    ],
+    "inventory_nonzero": {
+      "button": 41,
+      "pressure_plate": 1,
+      "redstone_lamp": 15,
+      "door": 6,
+      "trapdoor": 377,
+      "fence_gate": 81,
+      "daylight_detector": 12,
+      "lectern": 96,
+      "chiseled_bookshelf": 236
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\樱花木海晶石小屋__8be5f3aa_skeleton.npz",
+    "occupancy_frac": 0.1383056640625,
+    "occupied": 4532
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 22,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\樱花木海晶石小屋__8be5f3aa_block2vec.npy",
+    "vector_preview": [
+      -0.07914,
+      0.2215,
+      -0.13594,
+      0.04025,
+      -0.03768,
+      0.01284,
+      -0.05974,
+      0.10315
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "意式别墅__92d47c04",
+        "score": 0.9288047705597811,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\意式别墅__92d47c04.litematic"
+      },
+      {
+        "id": "红蘑菇蜜脾小屋__e9b0ee25",
+        "score": 0.9070612205350541,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\红蘑菇蜜脾小屋__e9b0ee25.litematic"
+      },
+      {
+        "id": "红木深板岩小屋__e4eb1671",
+        "score": 0.8757881724492631,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\红木深板岩小屋__e4eb1671.litematic"
+      },
+      {
+        "id": "维多利亚式住宅_彩绘__66577bca",
+        "score": 0.8748715501426253,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\维多利亚式住宅_彩绘__66577bca.litematic"
+      },
+      {
+        "id": "mcEpeZcNYS-cool_20house",
+        "score": 0.8720253532130624,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\mcEpeZcNYS-cool%20house.litematic"
+      }
+    ]
+  }
+}

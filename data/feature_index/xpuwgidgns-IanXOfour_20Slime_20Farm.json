@@ -1,0 +1,228 @@
+{
+  "id": "xpuwgidgns-IanXOfour_20Slime_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\xpuwgidgns-IanXOfour%20Slime%20Farm.litematic",
+  "created_at": "2026-10-18T22:27:20+08:00",
+  "overview": {
+    "schematic_name": "IanXOfour Slime Farm",
+    "size": {
+      "x": 32,
+      "y": 7,
+      "z": 32
+    },
+    "non_air": 1277,
+    "density": 0.1782,
+    "unique_block_types": 14
+  },
+  "massing": {
+    "hollow_score": 0.9502,
+    "interior_air_frac": 0.9502,
+    "exterior_solid_frac": 0.1469,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 16,
+      "walls": 0,
+      "fences": 80,
+      "doors": 0,
+      "trapdoors": 8,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 16,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 48
+    },
+    "symmetry": {
+      "symmetry_x": 0.9984,
+      "symmetry_z": 0.9984,
+      "symmetry_y": 0.0686
+    },
+    "solid_ratio": 0.1782
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 968,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_portal",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "snow",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "turtle_egg",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 52,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 48,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 20,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "grass_block",
+      "oak_fence",
+      "nether_portal",
+      "obsidian",
+      "dirt",
+      "stone",
+      "snow",
+      "stone_brick_slab",
+      "water",
+      "polished_andesite",
+      "spruce_trapdoor",
+      "turtle_egg"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.563,
+        "raw_score": 0.2129,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.499,
+        "raw_score": 0.195
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.476,
+        "raw_score": 0.1883
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.159,
+        "raw_score": 0.0788
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.143,
+        "raw_score": 0.0722
+      }
+    ]
+  },
+  "redstone": {
+    "total": 56,
+    "pattern_ids": [
+      "nether_portal_cue"
+    ],
+    "pattern_labels": [
+      "下界传送门"
+    ],
+    "inventory_nonzero": {
+      "trapdoor": 8,
+      "nether_portal": 48
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\xpuwgidgns-IanXOfour_20Slime_20Farm_skeleton.npz",
+    "occupancy_frac": 0.192413330078125,
+    "occupied": 6305
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

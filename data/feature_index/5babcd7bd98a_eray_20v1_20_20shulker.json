@@ -1,0 +1,232 @@
+{
+  "id": "5babcd7bd98a_eray_20v1_20_20shulker",
+  "source_path": "data\\raw\\hack337\\schematics\\5babcd7bd98a_eray%20v1%20%20shulker.litematic",
+  "created_at": "2026-10-18T22:25:15+08:00",
+  "overview": {
+    "schematic_name": "eray v1 ",
+    "size": {
+      "x": 10,
+      "y": 5,
+      "z": 5
+    },
+    "non_air": 70,
+    "density": 0.28,
+    "unique_block_types": 14
+  },
+  "massing": {
+    "hollow_score": 0.75,
+    "interior_air_frac": 0.75,
+    "exterior_solid_frac": 0.208,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7949,
+      "symmetry_z": 0.9444,
+      "symmetry_y": 0.1475
+    },
+    "solid_ratio": 0.28
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "dropper",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "shulker_box",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "diamond_block",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 5
+    },
+    "remap_targets": [
+      "grass_block",
+      "hopper",
+      "chest",
+      "observer",
+      "dirt",
+      "redstone_wire",
+      "dropper",
+      "dispenser",
+      "sticky_piston",
+      "shulker_box",
+      "comparator",
+      "quartz_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "scifi",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.75,
+        "raw_score": 0.4,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.411,
+        "raw_score": 0.2667
+      },
+      {
+        "style": "modern",
+        "confidence": 0.215,
+        "raw_score": 0.1667
+      }
+    ]
+  },
+  "redstone": {
+    "total": 16,
+    "pattern_ids": [
+      "observer_clock",
+      "shulker_loader",
+      "qc_piston_bank",
+      "etho_hopper_clock",
+      "edge_detector",
+      "hopper_clock",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "观察者相邻时钟嫌疑",
+      "潜影盒装卸线嫌疑",
+      "QC/BUD 活塞组",
+      "Etho 漏斗钟变体嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 2,
+      "redstone_block": 1,
+      "comparator": 1,
+      "sticky_piston": 1,
+      "observer": 3,
+      "hopper": 5,
+      "dropper": 1,
+      "dispenser": 1,
+      "shulker_box": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\5babcd7bd98a_eray_20v1_20_20shulker_skeleton.npz",
+    "occupancy_frac": 0.30419921875,
+    "occupied": 9968
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

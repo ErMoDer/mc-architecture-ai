@@ -1,0 +1,207 @@
+{
+  "id": "4e4741da06df_Big_20Enderman_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\4e4741da06df_Big%20Enderman%20Farm.litematic",
+  "created_at": "2026-10-18T22:25:12+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 31,
+      "y": 50,
+      "z": 31
+    },
+    "non_air": 1704,
+    "density": 0.0355,
+    "unique_block_types": 10
+  },
+  "massing": {
+    "hollow_score": 0.9834,
+    "interior_air_frac": 0.9834,
+    "exterior_solid_frac": 0.0215,
+    "floor_guess": 2,
+    "y_peaks": [
+      6,
+      49
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 11,
+      "walls": 0,
+      "fences": 30,
+      "doors": 0,
+      "trapdoors": 8,
+      "glass": 78,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 1409,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 121,
+      "leaves": 11,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8522,
+      "symmetry_z": 0.9441,
+      "symmetry_y": 0.0597
+    },
+    "solid_ratio": 0.0355
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 1398,
+        "frac": 0.0
+      },
+      {
+        "name": "white_carpet",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 6,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 1409,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 121,
+      "glass": 78,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 11,
+      "metal": 19
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "white_carpet",
+      "glass",
+      "oak_fence",
+      "chest",
+      "hopper",
+      "stone_brick_slab",
+      "oak_leaves",
+      "dark_oak_trapdoor",
+      "ladder"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.6168,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.784,
+        "raw_score": 0.5692
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.225,
+        "raw_score": 0.2364
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.13,
+        "raw_score": 0.1576
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.116,
+        "raw_score": 0.145
+      }
+    ]
+  },
+  "redstone": {
+    "total": 27,
+    "pattern_ids": [
+      "hopper_line"
+    ],
+    "pattern_labels": [
+      "漏斗输送线"
+    ],
+    "inventory_nonzero": {
+      "hopper": 19,
+      "trapdoor": 8
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\4e4741da06df_Big_20Enderman_20Farm_skeleton.npz",
+    "occupancy_frac": 0.051727294921875,
+    "occupied": 1695
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

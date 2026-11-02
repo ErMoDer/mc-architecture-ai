@@ -1,0 +1,234 @@
+{
+  "id": "9ce48a3ebcb3_SmallCastle",
+  "source_path": "data\\raw\\hack337\\schematics\\9ce48a3ebcb3_SmallCastle.litematic",
+  "created_at": "2026-10-18T22:25:35+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 27,
+      "y": 38,
+      "z": 23
+    },
+    "non_air": 1331,
+    "density": 0.0564,
+    "unique_block_types": 54
+  },
+  "massing": {
+    "hollow_score": 0.9424,
+    "interior_air_frac": 0.9424,
+    "exterior_solid_frac": 0.0103,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      4,
+      12,
+      16
+    ],
+    "families": {
+      "stairs": 140,
+      "slabs": 25,
+      "walls": 62,
+      "fences": 44,
+      "doors": 4,
+      "trapdoors": 45,
+      "glass": 8,
+      "logs": 51,
+      "planks": 45,
+      "stone_bricks": 563,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 46,
+      "wool": 20,
+      "leaves": 47,
+      "lanterns": 6,
+      "copper": 0,
+      "nether": 91
+    },
+    "symmetry": {
+      "symmetry_x": 0.1696,
+      "symmetry_z": 0.2217,
+      "symmetry_y": 0.0099
+    },
+    "solid_ratio": 0.0564
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 401,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 119,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_bricks",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 47,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_button",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_wood",
+        "count": 33,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 33,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_stairs",
+        "count": 20,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 96,
+      "stone": 786,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 46,
+      "wool": 20,
+      "glass": 8,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 47,
+      "metal": 8
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "stone",
+      "short_grass",
+      "polished_blackstone_bricks",
+      "oak_leaves",
+      "white_concrete",
+      "spruce_trapdoor",
+      "stone_button",
+      "oak_planks",
+      "stone_brick_wall",
+      "stripped_oak_wood",
+      "spruce_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.7323,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.499,
+        "raw_score": 0.4541
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.183,
+        "raw_score": 0.2305
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.161,
+        "raw_score": 0.2102
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.147,
+        "raw_score": 0.1966
+      }
+    ]
+  },
+  "redstone": {
+    "total": 97,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 42,
+      "door": 4,
+      "trapdoor": 45,
+      "fence_gate": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\9ce48a3ebcb3_SmallCastle_skeleton.npz",
+    "occupancy_frac": 0.065826416015625,
+    "occupied": 2157
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

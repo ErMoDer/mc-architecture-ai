@@ -1,0 +1,245 @@
+{
+  "id": "c3d632de16b9_ghotic_20church_20small_20white_20black",
+  "source_path": "data\\raw\\hack337\\schematics\\c3d632de16b9_ghotic%20church%20small%20white%20black.litematic",
+  "created_at": "2026-10-18T22:25:50+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 25,
+      "y": 59,
+      "z": 15
+    },
+    "non_air": 2802,
+    "density": 0.1266,
+    "unique_block_types": 92
+  },
+  "massing": {
+    "hollow_score": 0.8614,
+    "interior_air_frac": 0.8614,
+    "exterior_solid_frac": 0.0199,
+    "floor_guess": 7,
+    "y_peaks": [
+      0,
+      4,
+      7,
+      10,
+      14,
+      18,
+      28
+    ],
+    "families": {
+      "stairs": 178,
+      "slabs": 45,
+      "walls": 93,
+      "fences": 5,
+      "doors": 8,
+      "trapdoors": 25,
+      "glass": 1,
+      "logs": 32,
+      "planks": 0,
+      "stone_bricks": 36,
+      "deepslate": 86,
+      "terracotta": 0,
+      "concrete": 12,
+      "wool": 28,
+      "leaves": 3,
+      "lanterns": 8,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3566,
+      "symmetry_z": 0.8002,
+      "symmetry_y": 0.02
+    },
+    "solid_ratio": 0.1266
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "pale_moss_block",
+        "count": 382,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 286,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 285,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff",
+        "count": 216,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_tuff",
+        "count": 129,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite",
+        "count": 110,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 105,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "bone_block",
+        "count": 81,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite",
+        "count": 74,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_bars",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite_wall",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 44,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 32,
+      "stone": 1456,
+      "deepslate": 86,
+      "terracotta": 0,
+      "concrete": 12,
+      "wool": 28,
+      "glass": 1,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 401,
+      "metal": 60
+    },
+    "remap_targets": [
+      "pale_moss_block",
+      "calcite",
+      "dirt",
+      "tuff",
+      "polished_tuff",
+      "polished_andesite",
+      "diorite",
+      "stone",
+      "andesite",
+      "smooth_quartz",
+      "bone_block",
+      "polished_diorite"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "japanese",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.671,
+        "raw_score": 0.3212,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.603,
+        "raw_score": 0.2986
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.375,
+        "raw_score": 0.2137
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.284,
+        "raw_score": 0.1742
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.28,
+        "raw_score": 0.1724
+      }
+    ]
+  },
+  "redstone": {
+    "total": 49,
+    "pattern_ids": [
+      "door_line",
+      "simple_io"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门"
+    ],
+    "inventory_nonzero": {
+      "lever": 1,
+      "button": 7,
+      "door": 4,
+      "iron_door": 4,
+      "trapdoor": 25,
+      "brewing_stand": 8
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\c3d632de16b9_ghotic_20church_20small_20white_20black_skeleton.npz",
+    "occupancy_frac": 0.1597900390625,
+    "occupied": 5236
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "e7OSsSUabU-Unnamed",
+  "source_path": "data\\raw\\hack337\\schematics\\e7OSsSUabU-Unnamed.litematic",
+  "created_at": "2026-10-18T22:26:05+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 47,
+      "y": 8,
+      "z": 9
+    },
+    "non_air": 1527,
+    "density": 0.4512,
+    "unique_block_types": 12
+  },
+  "massing": {
+    "hollow_score": 0.454,
+    "interior_air_frac": 0.454,
+    "exterior_solid_frac": 0.1463,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 40,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8179,
+      "symmetry_z": 0.6184,
+      "symmetry_y": 0.3198
+    },
+    "solid_ratio": 0.4512
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 288,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 240,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 240,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_bricks",
+        "count": 210,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 200,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_stairs",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "dandelion",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 210,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 240
+    },
+    "remap_targets": [
+      "grass_block",
+      "hopper",
+      "quartz_block",
+      "quartz_bricks",
+      "chest",
+      "redstone_wire",
+      "grass",
+      "quartz_stairs",
+      "repeater",
+      "redstone_wall_torch",
+      "comparator",
+      "dandelion"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "european",
+      "medieval",
+      "scifi",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.626,
+        "raw_score": 0.2756,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.399,
+        "raw_score": 0.2
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.35,
+        "raw_score": 0.1815
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.254,
+        "raw_score": 0.1422
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.198,
+        "raw_score": 0.1167
+      }
+    ]
+  },
+  "redstone": {
+    "total": 480,
+    "pattern_ids": [
+      "etho_hopper_clock",
+      "pulse_limiter",
+      "instant_wire",
+      "hopper_clock"
+    ],
+    "pattern_labels": [
+      "Etho 漏斗钟变体嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "漏斗+比较器时钟/测量嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 120,
+      "redstone_torch": 40,
+      "repeater": 40,
+      "comparator": 40,
+      "hopper": 240
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\e7OSsSUabU-Unnamed_skeleton.npz",
+    "occupancy_frac": 0.451416015625,
+    "occupied": 14792
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

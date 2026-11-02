@@ -1,0 +1,311 @@
+{
+  "id": "鸡舍_二__6b7d9b9d",
+  "source_path": "data\\raw\\mcblock\\鸡舍_二__6b7d9b9d.litematic",
+  "created_at": "2026-10-18T18:15:23+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 17,
+      "y": 13,
+      "z": 14
+    },
+    "non_air": 1274,
+    "density": 0.4118,
+    "unique_block_types": 26
+  },
+  "massing": {
+    "hollow_score": 0.5182,
+    "interior_air_frac": 0.5182,
+    "exterior_solid_frac": 0.1034,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      3,
+      8
+    ],
+    "families": {
+      "stairs": 66,
+      "slabs": 369,
+      "walls": 0,
+      "fences": 101,
+      "doors": 0,
+      "trapdoors": 43,
+      "glass": 0,
+      "logs": 204,
+      "planks": 4,
+      "stone_bricks": 78,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 11,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.534,
+      "symmetry_z": 0.841,
+      "symmetry_y": 0.31
+    },
+    "solid_ratio": 0.4118
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_slab",
+        "count": 369,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 204,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 167,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 98,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "hay_block",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "coarse_dirt",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "podzol",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_carpet",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 7,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 208,
+      "stone": 92,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 11,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 12
+    },
+    "remap_targets": [
+      "spruce_slab",
+      "spruce_log",
+      "dirt",
+      "spruce_fence",
+      "stone_bricks",
+      "spruce_stairs",
+      "grass_block",
+      "hay_block",
+      "oak_trapdoor",
+      "coarse_dirt",
+      "grass",
+      "podzol"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5771,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.649,
+        "raw_score": 0.4616
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.567,
+        "raw_score": 0.4231
+      },
+      {
+        "style": "western",
+        "confidence": 0.472,
+        "raw_score": 0.3756
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.303,
+        "raw_score": 0.2786
+      }
+    ]
+  },
+  "redstone": {
+    "total": 80,
+    "pattern_ids": [
+      "hopper_line",
+      "piston_door",
+      "qc_piston_bank",
+      "hopper_clock",
+      "sticky_piston_pair",
+      "etho_hopper_clock"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "漏斗钟",
+      "粘性活塞对（换块/门）",
+      "多漏斗环钟嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 11,
+      "redstone_block": 1,
+      "comparator": 2,
+      "piston": 6,
+      "sticky_piston": 2,
+      "hopper": 12,
+      "trapdoor": 43,
+      "fence_gate": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\鸡舍_二__6b7d9b9d_skeleton.npz",
+    "occupancy_frac": 0.419677734375,
+    "occupied": 13752
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 4,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\鸡舍_二__6b7d9b9d_block2vec.npy",
+    "vector_preview": [
+      -0.06245,
+      0.22371,
+      -0.07116,
+      0.07685,
+      0.12056,
+      0.01915,
+      -0.02437,
+      0.09431
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "81f0318d48be_Zombie_20Farm",
+        "score": 0.7437075794065791,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\81f0318d48be_Zombie%20Farm.litematic"
+      },
+      {
+        "id": "vOvcr8CIBZ-Granja_20Simple_20de_20Ca_C3_B1a",
+        "score": 0.6883888283764705,
+        "mapped_style": "scifi",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\vOvcr8CIBZ-Granja%20Simple%20de%20Ca%C3%B1a.litematic"
+      },
+      {
+        "id": "温馨木屋__449de557",
+        "score": 0.6669876163765625,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\温馨木屋__449de557.litematic"
+      },
+      {
+        "id": "17fba0f5acd3_Small_20Town_20Shop",
+        "score": 0.6054113869507982,
+        "mapped_style": "industrial",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\17fba0f5acd3_Small%20Town%20Shop.litematic"
+      },
+      {
+        "id": "yVSMKrkV54-courthouse",
+        "score": 0.5744209657502163,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\yVSMKrkV54-courthouse.litematic"
+      }
+    ]
+  }
+}

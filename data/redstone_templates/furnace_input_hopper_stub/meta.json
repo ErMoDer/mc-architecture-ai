@@ -1,0 +1,15 @@
+{
+  "id": "furnace_input_hopper_stub",
+  "matches": [
+    "furnace_input",
+    "smelter_feed",
+    "hopper_furnace_in"
+  ],
+  "label_zh": "熔炉进料漏斗桩（箱→漏斗→熔炉）",
+  "size": [
+    3,
+    2,
+    1
+  ],
+  "notes": "教学桩：箱侧漏斗喂熔炉顶口；非完整自动熔炉机。"
+}

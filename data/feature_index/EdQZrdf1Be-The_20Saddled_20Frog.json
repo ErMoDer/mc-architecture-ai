@@ -1,0 +1,243 @@
+{
+  "id": "EdQZrdf1Be-The_20Saddled_20Frog",
+  "source_path": "data\\raw\\hack337\\schematics\\EdQZrdf1Be-The%20Saddled%20Frog.litematic",
+  "created_at": "2026-10-18T22:26:08+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 42,
+      "y": 48,
+      "z": 22
+    },
+    "non_air": 5231,
+    "density": 0.1179,
+    "unique_block_types": 43
+  },
+  "massing": {
+    "hollow_score": 0.8667,
+    "interior_air_frac": 0.8667,
+    "exterior_solid_frac": 0.0074,
+    "floor_guess": 8,
+    "y_peaks": [
+      0,
+      7,
+      13,
+      21,
+      25,
+      30,
+      37,
+      43
+    ],
+    "families": {
+      "stairs": 491,
+      "slabs": 279,
+      "walls": 4,
+      "fences": 45,
+      "doors": 0,
+      "trapdoors": 430,
+      "glass": 18,
+      "logs": 452,
+      "planks": 353,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 2539,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 6,
+      "copper": 0,
+      "nether": 420
+    },
+    "symmetry": {
+      "symmetry_x": 0.1048,
+      "symmetry_z": 0.2449,
+      "symmetry_y": 0.1073
+    },
+    "solid_ratio": 0.1179
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "orange_terracotta",
+        "count": 2374,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_birch_wood",
+        "count": 370,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_stairs",
+        "count": 339,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 272,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_trapdoor",
+        "count": 244,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 184,
+        "frac": 0.0
+      },
+      {
+        "name": "black_terracotta",
+        "count": 162,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_stairs",
+        "count": 125,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_slab",
+        "count": 123,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_planks",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_slab",
+        "count": 110,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_trapdoor",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 93,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_trapdoor",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 81,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_wood",
+        "count": 77,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 805,
+      "stone": 40,
+      "deepslate": 0,
+      "terracotta": 2539,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 18,
+      "nether": 260,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 34
+    },
+    "remap_targets": [
+      "orange_terracotta",
+      "stripped_birch_wood",
+      "acacia_stairs",
+      "grass_block",
+      "acacia_trapdoor",
+      "birch_planks",
+      "black_terracotta",
+      "birch_stairs",
+      "acacia_slab",
+      "warped_planks",
+      "warped_slab",
+      "birch_trapdoor"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "desert",
+    "style_id": 5,
+    "terrain_id": 5,
+    "guess_names": [
+      "western",
+      "desert",
+      "rustic",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "western",
+        "confidence": 0.592,
+        "raw_score": 0.2415,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "desert",
+        "confidence": 0.502,
+        "raw_score": 0.2147
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.288,
+        "raw_score": 0.1416
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.285,
+        "raw_score": 0.1406
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.255,
+        "raw_score": 0.1289
+      }
+    ]
+  },
+  "redstone": {
+    "total": 503,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 62,
+      "trapdoor": 430,
+      "fence_gate": 11
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\EdQZrdf1Be-The_20Saddled_20Frog_skeleton.npz",
+    "occupancy_frac": 0.14776611328125,
+    "occupied": 4842
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

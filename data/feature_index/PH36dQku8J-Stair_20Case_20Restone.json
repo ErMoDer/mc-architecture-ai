@@ -1,0 +1,250 @@
+{
+  "id": "PH36dQku8J-Stair_20Case_20Restone",
+  "source_path": "data\\raw\\hack337\\schematics\\PH36dQku8J-Stair%20Case%20Restone.litematic",
+  "created_at": "2026-10-18T22:26:37+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 19,
+      "y": 11,
+      "z": 15
+    },
+    "non_air": 357,
+    "density": 0.1139,
+    "unique_block_types": 15
+  },
+  "massing": {
+    "hollow_score": 0.8562,
+    "interior_air_frac": 0.8562,
+    "exterior_solid_frac": 0.0226,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      3,
+      7,
+      10
+    ],
+    "families": {
+      "stairs": 3,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 253,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.0868,
+      "symmetry_z": 0.4195,
+      "symmetry_y": 0.231
+    },
+    "solid_ratio": 0.1139
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "white_wool",
+        "count": 215,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_wool",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_wool",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 253,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "white_wool",
+      "redstone_wire",
+      "light_gray_wool",
+      "repeater",
+      "sticky_piston",
+      "observer",
+      "redstone_wall_torch",
+      "redstone_block",
+      "oak_stairs",
+      "lime_wool",
+      "oak_wall_sign",
+      "redstone_torch"
+    ]
+  },
+  "style": {
+    "mapped_style": "rustic",
+    "mapped_terrain": "flat",
+    "style_id": 6,
+    "terrain_id": 0,
+    "guess_names": [
+      "fantasy",
+      "rustic",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.516,
+        "raw_score": 0.166,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.18,
+        "raw_score": 0.0711
+      },
+      {
+        "style": "modern",
+        "confidence": 0.137,
+        "raw_score": 0.056
+      }
+    ]
+  },
+  "redstone": {
+    "total": 99,
+    "pattern_ids": [
+      "piston_door",
+      "sticky_piston_pair",
+      "observer_clock",
+      "multi_piston_extender",
+      "qc_piston_bank",
+      "pulse_extender",
+      "edge_detector",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "torch_logic_lattice",
+      "torch_burn_clock",
+      "falling_edge",
+      "torch_xor_gate"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "粘性活塞对（换块/门）",
+      "观察者相邻时钟嫌疑",
+      "多活塞推杆/延长器嫌疑",
+      "QC/BUD 活塞组",
+      "脉冲延长/单稳态嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "火把逻辑阵（AND/OR/NOR/XOR）嫌疑",
+      "多火把粉尘烧灭钟嫌疑",
+      "下降沿/双火把脉冲嫌疑",
+      "火把 XOR/同或门嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 49,
+      "redstone_torch": 7,
+      "redstone_block": 3,
+      "repeater": 13,
+      "lever": 1,
+      "sticky_piston": 12,
+      "observer": 12,
+      "hopper": 1,
+      "piston_head": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\PH36dQku8J-Stair_20Case_20Restone_skeleton.npz",
+    "occupancy_frac": 0.11175537109375,
+    "occupied": 3662
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

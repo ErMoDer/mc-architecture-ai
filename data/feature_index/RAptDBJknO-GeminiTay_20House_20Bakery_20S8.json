@@ -1,0 +1,255 @@
+{
+  "id": "RAptDBJknO-GeminiTay_20House_20Bakery_20S8",
+  "source_path": "data\\raw\\hack337\\schematics\\RAptDBJknO-GeminiTay%20House%20Bakery%20S8.litematic",
+  "created_at": "2026-10-18T22:26:40+08:00",
+  "overview": {
+    "schematic_name": "GeminiTay House Bakery S8",
+    "size": {
+      "x": 19,
+      "y": 16,
+      "z": 16
+    },
+    "non_air": 1225,
+    "density": 0.2519,
+    "unique_block_types": 50
+  },
+  "massing": {
+    "hollow_score": 0.7446,
+    "interior_air_frac": 0.7446,
+    "exterior_solid_frac": 0.0769,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      3,
+      8,
+      12
+    ],
+    "families": {
+      "stairs": 46,
+      "slabs": 86,
+      "walls": 2,
+      "fences": 15,
+      "doors": 0,
+      "trapdoors": 22,
+      "glass": 0,
+      "logs": 69,
+      "planks": 220,
+      "stone_bricks": 41,
+      "deepslate": 32,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 18,
+      "leaves": 25,
+      "lanterns": 1,
+      "copper": 0,
+      "nether": 13
+    },
+    "symmetry": {
+      "symmetry_x": 0.769,
+      "symmetry_z": 0.2734,
+      "symmetry_y": 0.1656
+    },
+    "solid_ratio": 0.2519
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 220,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 135,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 132,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 82,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "azalea_leaves",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_carpet",
+        "count": 18,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 289,
+      "stone": 109,
+      "deepslate": 32,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 18,
+      "glass": 0,
+      "nether": 13,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 162,
+      "metal": 0
+    },
+    "remap_targets": [
+      "grass_block",
+      "birch_planks",
+      "moss_block",
+      "dirt",
+      "dark_oak_planks",
+      "cobblestone",
+      "dark_oak_slab",
+      "stripped_oak_log",
+      "stone_bricks",
+      "cobbled_deepslate",
+      "dark_oak_stairs",
+      "azalea_leaves"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.832,
+        "raw_score": 0.4824,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.562,
+        "raw_score": 0.3743
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.54,
+        "raw_score": 0.3648
+      },
+      {
+        "style": "western",
+        "confidence": 0.348,
+        "raw_score": 0.2706
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.24,
+        "raw_score": 0.2079
+      }
+    ]
+  },
+  "redstone": {
+    "total": 29,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 22,
+      "fence_gate": 7
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\RAptDBJknO-GeminiTay_20House_20Bakery_20S8_skeleton.npz",
+    "occupancy_frac": 0.249755859375,
+    "occupied": 8184
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 4,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\RAptDBJknO-GeminiTay_20House_20Bakery_20S8_block2vec.npy",
+    "vector_preview": [
+      -0.03457,
+      0.1979,
+      -0.10523,
+      -0.08012,
+      0.08971,
+      0.05265,
+      -0.03162,
+      0.1199
+    ],
+    "ok": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "小院农舍__34fdedc9",
+  "dim": 144,
+  "n_chunks": 2,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "小院农舍__34fdedc9_block2vec.npy"
+}

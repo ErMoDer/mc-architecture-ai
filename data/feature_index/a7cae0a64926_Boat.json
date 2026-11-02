@@ -1,0 +1,235 @@
+{
+  "id": "a7cae0a64926_Boat",
+  "source_path": "data\\raw\\hack337\\schematics\\a7cae0a64926_Boat.litematic",
+  "created_at": "2026-10-18T22:25:38+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 23,
+      "y": 11,
+      "z": 9
+    },
+    "non_air": 235,
+    "density": 0.1032,
+    "unique_block_types": 23
+  },
+  "massing": {
+    "hollow_score": 0.8707,
+    "interior_air_frac": 0.8707,
+    "exterior_solid_frac": 0.0281,
+    "floor_guess": 2,
+    "y_peaks": [
+      1,
+      8
+    ],
+    "families": {
+      "stairs": 46,
+      "slabs": 12,
+      "walls": 0,
+      "fences": 15,
+      "doors": 0,
+      "trapdoors": 10,
+      "glass": 15,
+      "logs": 24,
+      "planks": 23,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 12,
+      "wool": 6,
+      "leaves": 0,
+      "lanterns": 3,
+      "copper": 3,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3988,
+      "symmetry_z": 0.88,
+      "symmetry_y": 0.1298
+    },
+    "solid_ratio": 0.1032
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_stairs",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_shelf",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass_pane",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wall_sign",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_wood",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "cobweb",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "smoker",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "note_block",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 47,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 12,
+      "wool": 6,
+      "glass": 15,
+      "nether": 0,
+      "copper": 3,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "spruce_stairs",
+      "spruce_planks",
+      "spruce_shelf",
+      "white_stained_glass_pane",
+      "spruce_fence",
+      "spruce_wall_sign",
+      "spruce_slab",
+      "white_concrete",
+      "birch_wood",
+      "cobweb",
+      "barrel",
+      "spruce_trapdoor"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.715,
+        "raw_score": 0.3648,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.689,
+        "raw_score": 0.3561
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.605,
+        "raw_score": 0.3264
+      },
+      {
+        "style": "western",
+        "confidence": 0.605,
+        "raw_score": 0.3264
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.265,
+        "raw_score": 0.1815
+      }
+    ]
+  },
+  "redstone": {
+    "total": 18,
+    "pattern_ids": [
+      "note_block_line"
+    ],
+    "pattern_labels": [
+      "音符盒线路/乐器阵"
+    ],
+    "inventory_nonzero": {
+      "note_block": 4,
+      "trapdoor": 10,
+      "smoker": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\a7cae0a64926_Boat_skeleton.npz",
+    "occupancy_frac": 0.10455322265625,
+    "occupied": 3426
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

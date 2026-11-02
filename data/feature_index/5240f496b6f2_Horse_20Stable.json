@@ -1,0 +1,219 @@
+{
+  "id": "5240f496b6f2_Horse_20Stable",
+  "source_path": "data\\raw\\hack337\\schematics\\5240f496b6f2_Horse%20Stable.litematic",
+  "created_at": "2026-10-18T22:25:13+08:00",
+  "overview": {
+    "schematic_name": "Horse Stable",
+    "size": {
+      "x": 11,
+      "y": 9,
+      "z": 11
+    },
+    "non_air": 383,
+    "density": 0.3517,
+    "unique_block_types": 14
+  },
+  "massing": {
+    "hollow_score": 0.6596,
+    "interior_air_frac": 0.6596,
+    "exterior_solid_frac": 0.1745,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 149,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 24,
+      "glass": 0,
+      "logs": 45,
+      "planks": 18,
+      "stone_bricks": 12,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 4,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3827,
+      "symmetry_z": 0.9007,
+      "symmetry_y": 0.2375
+    },
+    "solid_ratio": 0.3517
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 109,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 99,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_slab",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "cave_vines_plant",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "cave_vines",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 3,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 63,
+      "stone": 50,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "grass_block",
+      "spruce_slab",
+      "spruce_log",
+      "dark_oak_trapdoor",
+      "stone_slab",
+      "spruce_planks",
+      "cobblestone_slab",
+      "stone_brick_slab",
+      "dirt",
+      "cave_vines_plant",
+      "lantern",
+      "cave_vines"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5416,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.631,
+        "raw_score": 0.4352
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.552,
+        "raw_score": 0.399
+      },
+      {
+        "style": "western",
+        "confidence": 0.405,
+        "raw_score": 0.3252
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.376,
+        "raw_score": 0.3092
+      }
+    ]
+  },
+  "redstone": {
+    "total": 24,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 24
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\5240f496b6f2_Horse_20Stable_skeleton.npz",
+    "occupancy_frac": 0.369842529296875,
+    "occupied": 12119
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

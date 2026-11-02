@@ -1,0 +1,13 @@
+{
+  "id": "d23208c38a60_MCA_20Villager_20House",
+  "dim": 144,
+  "n_chunks": 3,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "d23208c38a60_MCA_20Villager_20House_block2vec.npy"
+}

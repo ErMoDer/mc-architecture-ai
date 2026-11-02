@@ -1,0 +1,243 @@
+{
+  "id": "2efa6c0605b1_MITAKA_20v1_20hopper_20farm",
+  "source_path": "data\\raw\\hack337\\schematics\\2efa6c0605b1_MITAKA%20v1%20hopper%20farm.litematic",
+  "created_at": "2026-10-18T22:24:59+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 11,
+      "y": 9,
+      "z": 33
+    },
+    "non_air": 818,
+    "density": 0.2504,
+    "unique_block_types": 13
+  },
+  "massing": {
+    "hollow_score": 0.6523,
+    "interior_air_frac": 0.6523,
+    "exterior_solid_frac": 0.0425,
+    "floor_guess": 2,
+    "y_peaks": [
+      1,
+      5
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 191,
+      "logs": 0,
+      "planks": 152,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3236,
+      "symmetry_z": 0.7349,
+      "symmetry_y": 0.2282
+    },
+    "solid_ratio": 0.2504
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "tinted_glass",
+        "count": 191,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 152,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 77,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "crafter",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 152,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 191,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 48,
+      "leaves": 0,
+      "metal": 120
+    },
+    "remap_targets": [
+      "tinted_glass",
+      "oak_planks",
+      "water",
+      "hopper",
+      "redstone_wire",
+      "packed_ice",
+      "chest",
+      "oak_wall_sign",
+      "observer",
+      "repeater",
+      "crafter",
+      "lever"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.541,
+        "raw_score": 0.1912,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.534,
+        "raw_score": 0.1893
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.475,
+        "raw_score": 0.1735
+      },
+      {
+        "style": "western",
+        "confidence": 0.475,
+        "raw_score": 0.1735
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.435,
+        "raw_score": 0.1623
+      }
+    ]
+  },
+  "redstone": {
+    "total": 240,
+    "pattern_ids": [
+      "crafter_auto_line",
+      "etho_hopper_clock",
+      "pulse_limiter",
+      "edge_detector",
+      "instant_wire",
+      "hopper_clock",
+      "dual_edge_repeater",
+      "water_hopper_stream"
+    ],
+    "pattern_labels": [
+      "合成器自动线（1.21）",
+      "多漏斗环钟嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "双沿/对向中继器线嫌疑",
+      "水流漏斗收集线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 77,
+      "repeater": 11,
+      "comparator": 1,
+      "lever": 1,
+      "observer": 20,
+      "hopper": 120,
+      "crafter": 10
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\2efa6c0605b1_MITAKA_20v1_20hopper_20farm_skeleton.npz",
+    "occupancy_frac": 0.268890380859375,
+    "occupied": 8811
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

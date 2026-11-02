@@ -1,0 +1,237 @@
+{
+  "id": "elY6UftDON-AarizBlade_20Castle",
+  "source_path": "data\\raw\\hack337\\schematics\\elY6UftDON-AarizBlade%20Castle.litematic",
+  "created_at": "2026-10-18T22:26:08+08:00",
+  "overview": {
+    "schematic_name": "AarizBlade Castle",
+    "size": {
+      "x": 14,
+      "y": 15,
+      "z": 60
+    },
+    "non_air": 1806,
+    "density": 0.1433,
+    "unique_block_types": 37
+  },
+  "massing": {
+    "hollow_score": 0.841,
+    "interior_air_frac": 0.841,
+    "exterior_solid_frac": 0.0291,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 203,
+      "slabs": 19,
+      "walls": 323,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 10,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 446,
+      "deepslate": 1161,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 4,
+      "leaves": 0,
+      "lanterns": 29,
+      "copper": 0,
+      "nether": 55
+    },
+    "symmetry": {
+      "symmetry_x": 0.3418,
+      "symmetry_z": 0.3765,
+      "symmetry_y": 0.0264
+    },
+    "solid_ratio": 0.1433
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "deepslate_bricks",
+        "count": 786,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 275,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_wall",
+        "count": 215,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_stairs",
+        "count": 129,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_polished_blackstone",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_slab",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "bookshelf",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "blast_furnace",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "furnace",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_portal",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 10,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 475,
+      "deepslate": 1161,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 4,
+      "glass": 0,
+      "nether": 22,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 3
+    },
+    "remap_targets": [
+      "deepslate_bricks",
+      "stone_bricks",
+      "deepslate_brick_wall",
+      "deepslate_brick_stairs",
+      "stone_brick_wall",
+      "stone_brick_stairs",
+      "lantern",
+      "chiseled_polished_blackstone",
+      "polished_deepslate_slab",
+      "obsidian",
+      "bookshelf",
+      "blast_furnace"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "modern",
+      "fantasy",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.779,
+        "raw_score": 0.4289,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.337,
+        "raw_score": 0.2435
+      },
+      {
+        "style": "modern",
+        "confidence": 0.078,
+        "raw_score": 0.0779
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.071,
+        "raw_score": 0.0717
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.05,
+        "raw_score": 0.0519
+      }
+    ]
+  },
+  "redstone": {
+    "total": 51,
+    "pattern_ids": [
+      "nether_portal_cue"
+    ],
+    "pattern_labels": [
+      "下界传送门"
+    ],
+    "inventory_nonzero": {
+      "trapdoor": 10,
+      "brewing_stand": 3,
+      "furnace": 12,
+      "blast_furnace": 14,
+      "nether_portal": 12
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\elY6UftDON-AarizBlade_20Castle_skeleton.npz",
+    "occupancy_frac": 0.177581787109375,
+    "occupied": 5819
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

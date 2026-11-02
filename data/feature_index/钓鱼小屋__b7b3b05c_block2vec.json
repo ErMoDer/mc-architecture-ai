@@ -1,0 +1,13 @@
+{
+  "id": "钓鱼小屋__b7b3b05c",
+  "dim": 144,
+  "n_chunks": 22,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "钓鱼小屋__b7b3b05c_block2vec.npy"
+}

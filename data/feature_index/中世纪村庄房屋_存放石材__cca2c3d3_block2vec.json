@@ -1,0 +1,13 @@
+{
+  "id": "中世纪村庄房屋_存放石材__cca2c3d3",
+  "dim": 144,
+  "n_chunks": 16,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "中世纪村庄房屋_存放石材__cca2c3d3_block2vec.npy"
+}

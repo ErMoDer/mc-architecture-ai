@@ -1,0 +1,13 @@
+{
+  "id": "28ef80bfe0aa_house1_me",
+  "dim": 144,
+  "n_chunks": 21,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "28ef80bfe0aa_house1_me_block2vec.npy"
+}

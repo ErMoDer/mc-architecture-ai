@@ -1,0 +1,298 @@
+{
+  "id": "豪宅_一__f2af3a1c",
+  "source_path": "data\\raw\\mcblock\\豪宅_一__f2af3a1c.litematic",
+  "created_at": "2026-10-19T13:01:00+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 25,
+      "y": 16,
+      "z": 37
+    },
+    "non_air": 3390,
+    "density": 0.2291,
+    "unique_block_types": 27
+  },
+  "massing": {
+    "hollow_score": 0.807,
+    "interior_air_frac": 0.807,
+    "exterior_solid_frac": 0.0821,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      6,
+      9,
+      12
+    ],
+    "families": {
+      "stairs": 40,
+      "slabs": 944,
+      "walls": 0,
+      "fences": 25,
+      "doors": 8,
+      "trapdoors": 6,
+      "glass": 154,
+      "logs": 0,
+      "planks": 992,
+      "stone_bricks": 27,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 836,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5205,
+      "symmetry_z": 0.3609,
+      "symmetry_y": 0.0748
+    },
+    "solid_ratio": 0.2291
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "smooth_stone_slab",
+        "count": 914,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 836,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 511,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 481,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 146,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass_pane",
+        "count": 122,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass_pane",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_slab",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "infested_stone_bricks",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 17,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 992,
+      "stone": 1029,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 836,
+      "wool": 0,
+      "glass": 154,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "smooth_stone_slab",
+      "white_concrete",
+      "oak_planks",
+      "spruce_planks",
+      "grass_block",
+      "white_stained_glass_pane",
+      "dirt",
+      "stone",
+      "water",
+      "polished_diorite",
+      "black_stained_glass_pane",
+      "quartz_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "modern",
+    "mapped_terrain": "flat",
+    "style_id": 3,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "rustic",
+      "japanese",
+      "medieval",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.622,
+        "raw_score": 0.2718,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.586,
+        "raw_score": 0.2606
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.549,
+        "raw_score": 0.2491
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.429,
+        "raw_score": 0.2086
+      },
+      {
+        "style": "european",
+        "confidence": 0.414,
+        "raw_score": 0.2034
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 18,
+    "pattern_ids": [
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "door": 8,
+      "trapdoor": 6,
+      "tripwire": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\豪宅_一__f2af3a1c_skeleton.npz",
+    "occupancy_frac": 0.2294921875,
+    "occupied": 7520
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 12,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\豪宅_一__f2af3a1c_block2vec.npy",
+    "vector_preview": [
+      0.101,
+      0.18407,
+      -0.02865,
+      -0.05004,
+      0.06029,
+      0.08612,
+      0.08239,
+      0.02976
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "林中地精小屋__2d6afe9f",
+        "score": 0.7032077971591618,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\林中地精小屋__2d6afe9f.litematic"
+      },
+      {
+        "id": "大型农舍__8d326368",
+        "score": 0.6195801483938792,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\大型农舍__8d326368.litematic"
+      },
+      {
+        "id": "17fba0f5acd3_Small_20Town_20Shop",
+        "score": 0.5589643078752927,
+        "mapped_style": "industrial",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\17fba0f5acd3_Small%20Town%20Shop.litematic"
+      },
+      {
+        "id": "废弃树屋__ba5f7e8f",
+        "score": 0.5530134856392785,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\废弃树屋__ba5f7e8f.litematic"
+      },
+      {
+        "id": "白屋顶小屋__79aff55c",
+        "score": 0.5387214413369684,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\白屋顶小屋__79aff55c.litematic"
+      }
+    ]
+  }
+}

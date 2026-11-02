@@ -1,0 +1,13 @@
+{
+  "id": "现代别墅_二__02a327ce",
+  "dim": 144,
+  "n_chunks": 18,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "现代别墅_二__02a327ce_block2vec.npy"
+}

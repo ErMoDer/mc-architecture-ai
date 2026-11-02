@@ -1,0 +1,35 @@
+# 路线 A：体素建筑生成（MVP）
+# 目标：无条件 VAE 重建/随机采样 → 再加文本条件
+
+seed: 42
+device: auto  # auto | cuda | cpu
+
+data:
+  processed_dir: data/processed
+  palette_path: data/palette.json
+  size: 32          # 边长：先 32 跑通，再升 64
+  max_blocks: 512   # 调色板上限（含 air）
+
+model:
+  name: voxel_vae
+  latent_dim: 128
+  base_channels: 32
+  num_classes: null  # 由 palette 长度自动填
+  conditional: false  # true 或 CLI --conditional：风格/地形条件
+  cond_emb_dim: 32
+
+train:
+  batch_size: 8
+  epochs: 30
+  lr: 1.0e-3
+  weight_decay: 1.0e-5
+  beta: 0.01          # KL 权重，太大易塌缩
+  num_workers: 0      # Windows 建议 0
+  save_every: 5
+  log_every: 10
+
+sample:
+  num_samples: 8
+  temperature: 1.0
+  checkpoint: checkpoints/last.pt
+  out_dir: outputs/samples

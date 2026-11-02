@@ -1,0 +1,173 @@
+{
+  "id": "mR0Xxqz5Q1-StartBase",
+  "source_path": "data\\raw\\hack337\\schematics\\mR0Xxqz5Q1-StartBase.litematic",
+  "created_at": "2026-10-18T22:26:32+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 13,
+      "y": 6,
+      "z": 11
+    },
+    "non_air": 159,
+    "density": 0.1853,
+    "unique_block_types": 6
+  },
+  "massing": {
+    "hollow_score": 0.6591,
+    "interior_air_frac": 0.6591,
+    "exterior_solid_frac": 0.028,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 18,
+      "slabs": 45,
+      "walls": 0,
+      "fences": 0,
+      "doors": 2,
+      "trapdoors": 0,
+      "glass": 32,
+      "logs": 42,
+      "planks": 20,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 1.0,
+      "symmetry_z": 0.3648,
+      "symmetry_y": 0.4324
+    },
+    "solid_ratio": 0.1853
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cobblestone_slab",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_door",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 62,
+      "stone": 63,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 32,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "cobblestone_slab",
+      "spruce_log",
+      "glass",
+      "spruce_planks",
+      "cobblestone_stairs",
+      "dark_oak_door"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "european",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.781,
+        "raw_score": 0.4312,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.507,
+        "raw_score": 0.3243
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.446,
+        "raw_score": 0.2972
+      },
+      {
+        "style": "european",
+        "confidence": 0.363,
+        "raw_score": 0.2575
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.336,
+        "raw_score": 0.2438
+      }
+    ]
+  },
+  "redstone": {
+    "total": 2,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\mR0Xxqz5Q1-StartBase_skeleton.npz",
+    "occupancy_frac": 0.182464599609375,
+    "occupied": 5979
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

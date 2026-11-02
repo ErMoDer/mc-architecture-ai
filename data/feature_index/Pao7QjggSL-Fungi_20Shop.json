@@ -1,0 +1,251 @@
+{
+  "id": "Pao7QjggSL-Fungi_20Shop",
+  "source_path": "data\\raw\\hack337\\schematics\\Pao7QjggSL-Fungi%20Shop.litematic",
+  "created_at": "2026-10-18T22:26:37+08:00",
+  "overview": {
+    "schematic_name": "Fungi Shop",
+    "size": {
+      "x": 12,
+      "y": 7,
+      "z": 11
+    },
+    "non_air": 160,
+    "density": 0.1732,
+    "unique_block_types": 18
+  },
+  "massing": {
+    "hollow_score": 0.6733,
+    "interior_air_frac": 0.6733,
+    "exterior_solid_frac": 0.0141,
+    "floor_guess": 1,
+    "y_peaks": [
+      1
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 1,
+      "walls": 0,
+      "fences": 4,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 2,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 9,
+      "copper": 0,
+      "nether": 14
+    },
+    "symmetry": {
+      "symmetry_x": 0.2121,
+      "symmetry_z": 0.4097,
+      "symmetry_y": 0.4815
+    },
+    "solid_ratio": 0.1732
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "red_mushroom_block",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "vine",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_mushroom_block",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "soul_sand",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "jack_o_lantern",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_wart",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "wither_skeleton_skull",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "wither_skeleton_wall_skull",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone_slab",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "water_cauldron",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 3,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 14,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "red_mushroom_block",
+      "vine",
+      "brown_mushroom_block",
+      "dirt_path",
+      "soul_sand",
+      "jack_o_lantern",
+      "nether_wart",
+      "spruce_fence",
+      "dirt",
+      "wither_skeleton_skull",
+      "lantern",
+      "stone_bricks"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "fantasy",
+      "european",
+      "medieval",
+      "industrial",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.472,
+        "raw_score": 0.1217,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.328,
+        "raw_score": 0.0905
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.297,
+        "raw_score": 0.0833
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.144,
+        "raw_score": 0.0444
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.095,
+        "raw_score": 0.0303
+      }
+    ]
+  },
+  "redstone": {
+    "total": 2,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "redstone_wire": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Pao7QjggSL-Fungi_20Shop_skeleton.npz",
+    "occupancy_frac": 0.17669677734375,
+    "occupied": 5790
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 1,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\Pao7QjggSL-Fungi_20Shop_block2vec.npy",
+    "vector_preview": [
+      0.00477,
+      0.09346,
+      0.03907,
+      0.06886,
+      0.16384,
+      0.02898,
+      0.00578,
+      -0.0261
+    ],
+    "ok": true
+  }
+}

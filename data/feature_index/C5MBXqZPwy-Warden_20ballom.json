@@ -1,0 +1,233 @@
+{
+  "id": "C5MBXqZPwy-Warden_20ballom",
+  "source_path": "data\\raw\\hack337\\schematics\\C5MBXqZPwy-Warden%20ballom.litematic",
+  "created_at": "2026-10-18T22:25:51+08:00",
+  "overview": {
+    "schematic_name": "Warden ballon",
+    "size": {
+      "x": 18,
+      "y": 31,
+      "z": 12
+    },
+    "non_air": 567,
+    "density": 0.0847,
+    "unique_block_types": 23
+  },
+  "massing": {
+    "hollow_score": 0.8795,
+    "interior_air_frac": 0.8795,
+    "exterior_solid_frac": 0.0012,
+    "floor_guess": 5,
+    "y_peaks": [
+      6,
+      12,
+      16,
+      22,
+      27
+    ],
+    "families": {
+      "stairs": 42,
+      "slabs": 30,
+      "walls": 11,
+      "fences": 42,
+      "doors": 0,
+      "trapdoors": 44,
+      "glass": 22,
+      "logs": 83,
+      "planks": 92,
+      "stone_bricks": 31,
+      "deepslate": 45,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 4,
+      "copper": 0,
+      "nether": 349
+    },
+    "symmetry": {
+      "symmetry_x": 0.835,
+      "symmetry_z": 0.6387,
+      "symmetry_y": 0.0883
+    },
+    "solid_ratio": 0.0847
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "warped_planks",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_warped_stem",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "chain",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_trapdoor",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_bricks",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_slab",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_stained_glass",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_stairs",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_warped_hyphae",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence_gate",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_wall",
+        "count": 11,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 175,
+      "stone": 99,
+      "deepslate": 45,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 22,
+      "nether": 87,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 49
+    },
+    "remap_targets": [
+      "warped_planks",
+      "stripped_warped_stem",
+      "blackstone",
+      "chain",
+      "warped_trapdoor",
+      "deepslate_tiles",
+      "polished_blackstone_bricks",
+      "spruce_stairs",
+      "warped_slab",
+      "cyan_stained_glass",
+      "dark_oak_fence",
+      "warped_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.735,
+        "raw_score": 0.3855,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.437,
+        "raw_score": 0.2712
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.386,
+        "raw_score": 0.2486
+      },
+      {
+        "style": "western",
+        "confidence": 0.313,
+        "raw_score": 0.214
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.254,
+        "raw_score": 0.1836
+      }
+    ]
+  },
+  "redstone": {
+    "total": 56,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 44,
+      "fence_gate": 12
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\C5MBXqZPwy-Warden_20ballom_skeleton.npz",
+    "occupancy_frac": 0.08831787109375,
+    "occupied": 2894
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

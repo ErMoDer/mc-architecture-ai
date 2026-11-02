@@ -1,0 +1,229 @@
+{
+  "id": "EzcnurqN0c-Storage_20Room",
+  "source_path": "data\\raw\\hack337\\schematics\\EzcnurqN0c-Storage%20Room.litematic",
+  "created_at": "2026-10-18T22:26:09+08:00",
+  "overview": {
+    "schematic_name": "Storage Room",
+    "size": {
+      "x": 17,
+      "y": 8,
+      "z": 15
+    },
+    "non_air": 749,
+    "density": 0.3672,
+    "unique_block_types": 16
+  },
+  "massing": {
+    "hollow_score": 0.4778,
+    "interior_air_frac": 0.4778,
+    "exterior_solid_frac": 0.0676,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 186,
+      "slabs": 60,
+      "walls": 0,
+      "fences": 8,
+      "doors": 0,
+      "trapdoors": 97,
+      "glass": 0,
+      "logs": 74,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 17,
+      "lanterns": 3,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9659,
+      "symmetry_z": 0.9947,
+      "symmetry_y": 0.2401
+    },
+    "solid_ratio": 0.3672
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "chest",
+        "count": 144,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 104,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 104,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 89,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 82,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 74,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wall_sign",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "ender_chest",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 74,
+      "stone": 149,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 17,
+      "metal": 0
+    },
+    "remap_targets": [
+      "chest",
+      "cobblestone",
+      "spruce_stairs",
+      "spruce_trapdoor",
+      "dark_oak_stairs",
+      "stripped_spruce_log",
+      "dark_oak_slab",
+      "andesite",
+      "oak_leaves",
+      "dark_oak_fence",
+      "dark_oak_trapdoor",
+      "spruce_wall_sign"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "european",
+      "medieval",
+      "japanese",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.672,
+        "raw_score": 0.322,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.636,
+        "raw_score": 0.3101
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.635,
+        "raw_score": 0.31
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.609,
+        "raw_score": 0.301
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.597,
+        "raw_score": 0.297
+      }
+    ]
+  },
+  "redstone": {
+    "total": 97,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 97
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\EzcnurqN0c-Storage_20Room_skeleton.npz",
+    "occupancy_frac": 0.364990234375,
+    "occupied": 11960
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

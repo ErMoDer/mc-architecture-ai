@@ -1,0 +1,237 @@
+{
+  "id": "cKEexzg5em-Casettona",
+  "source_path": "data\\raw\\hack337\\schematics\\cKEexzg5em-Casettona.litematic",
+  "created_at": "2026-10-18T22:25:54+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 33,
+      "y": 22,
+      "z": 17
+    },
+    "non_air": 2526,
+    "density": 0.2047,
+    "unique_block_types": 23
+  },
+  "massing": {
+    "hollow_score": 0.7887,
+    "interior_air_frac": 0.7887,
+    "exterior_solid_frac": 0.0455,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      4,
+      9,
+      14
+    ],
+    "families": {
+      "stairs": 250,
+      "slabs": 38,
+      "walls": 0,
+      "fences": 74,
+      "doors": 0,
+      "trapdoors": 140,
+      "glass": 0,
+      "logs": 212,
+      "planks": 805,
+      "stone_bricks": 420,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 23,
+      "copper": 0,
+      "nether": 9
+    },
+    "symmetry": {
+      "symmetry_x": 0.9312,
+      "symmetry_z": 0.4104,
+      "symmetry_y": 0.1084
+    },
+    "solid_ratio": 0.2047
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 665,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 366,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 277,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 173,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 140,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 140,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 135,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 115,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence_gate",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "wheat",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "carrots",
+        "count": 24,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1017,
+      "stone": 420,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 9,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "grass_block",
+      "stone_bricks",
+      "oak_log",
+      "spruce_trapdoor",
+      "oak_planks",
+      "spruce_stairs",
+      "stone_brick_stairs",
+      "farmland",
+      "dirt",
+      "oak_fence_gate",
+      "wheat"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6136,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.693,
+        "raw_score": 0.5004
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.604,
+        "raw_score": 0.4587
+      },
+      {
+        "style": "western",
+        "confidence": 0.508,
+        "raw_score": 0.4103
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.363,
+        "raw_score": 0.3284
+      }
+    ]
+  },
+  "redstone": {
+    "total": 201,
+    "pattern_ids": [
+      "nether_portal_cue"
+    ],
+    "pattern_labels": [
+      "下界传送门"
+    ],
+    "inventory_nonzero": {
+      "trapdoor": 140,
+      "fence_gate": 52,
+      "nether_portal": 9
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\cKEexzg5em-Casettona_skeleton.npz",
+    "occupancy_frac": 0.21929931640625,
+    "occupied": 7186
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

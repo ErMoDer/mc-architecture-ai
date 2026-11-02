@@ -1,0 +1,257 @@
+{
+  "id": "冶炼小屋__7356ab69",
+  "source_path": "data\\raw\\mcblock\\冶炼小屋__7356ab69.litematic",
+  "created_at": "2026-10-19T13:01:10+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 14,
+      "y": 20,
+      "z": 17
+    },
+    "non_air": 1549,
+    "density": 0.3254,
+    "unique_block_types": 39
+  },
+  "massing": {
+    "hollow_score": 0.6219,
+    "interior_air_frac": 0.6219,
+    "exterior_solid_frac": 0.0681,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      3,
+      8,
+      11
+    ],
+    "families": {
+      "stairs": 168,
+      "slabs": 219,
+      "walls": 0,
+      "fences": 39,
+      "doors": 4,
+      "trapdoors": 36,
+      "glass": 61,
+      "logs": 190,
+      "planks": 179,
+      "stone_bricks": 391,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 43,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 9
+    },
+    "symmetry": {
+      "symmetry_x": 0.4276,
+      "symmetry_z": 0.4443,
+      "symmetry_y": 0.2102
+    },
+    "solid_ratio": 0.3254
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_log",
+        "count": 188,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 179,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 145,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 134,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 81,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "petrified_oak_slab",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "vine",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_slab",
+        "count": 24,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 369,
+      "stone": 672,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 43,
+      "wool": 0,
+      "glass": 61,
+      "nether": 9,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "spruce_log",
+      "oak_planks",
+      "stone_bricks",
+      "stone_brick_stairs",
+      "dirt",
+      "stone_brick_slab",
+      "bricks",
+      "cobblestone",
+      "glass_pane",
+      "smooth_stone_slab",
+      "white_concrete",
+      "oak_fence"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "chinese",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.736,
+        "raw_score": 0.386,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.714,
+        "raw_score": 0.3784
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.528,
+        "raw_score": 0.3091
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.477,
+        "raw_score": 0.2885
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.465,
+        "raw_score": 0.2833
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 56,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 4,
+      "trapdoor": 36,
+      "furnace": 16
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\冶炼小屋__7356ab69_skeleton.npz",
+    "occupancy_frac": 0.3404541015625,
+    "occupied": 11156
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 6,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\冶炼小屋__7356ab69_block2vec.npy",
+    "vector_preview": [
+      -0.00344,
+      0.17859,
+      0.05369,
+      0.0648,
+      -0.01446,
+      0.07099,
+      0.03481,
+      0.0389
+    ],
+    "ok": true
+  }
+}

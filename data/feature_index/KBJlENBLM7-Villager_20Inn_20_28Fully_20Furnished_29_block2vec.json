@@ -1,0 +1,13 @@
+{
+  "id": "KBJlENBLM7-Villager_20Inn_20_28Fully_20Furnished_29",
+  "dim": 144,
+  "n_chunks": 18,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "KBJlENBLM7-Villager_20Inn_20_28Fully_20Furnished_29_block2vec.npy"
+}

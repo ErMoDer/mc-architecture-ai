@@ -1,0 +1,262 @@
+{
+  "id": "db9c0ac18416_Nice_20House_20_28With_20Deco_29",
+  "source_path": "data\\raw\\hack337\\schematics\\db9c0ac18416_Nice%20House%20%28With%20Deco%29.litematic",
+  "created_at": "2026-10-18T22:25:59+08:00",
+  "overview": {
+    "schematic_name": "Nice House (With Deco)",
+    "size": {
+      "x": 17,
+      "y": 10,
+      "z": 17
+    },
+    "non_air": 1255,
+    "density": 0.4343,
+    "unique_block_types": 48
+  },
+  "massing": {
+    "hollow_score": 0.5389,
+    "interior_air_frac": 0.5389,
+    "exterior_solid_frac": 0.1471,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      6,
+      9
+    ],
+    "families": {
+      "stairs": 161,
+      "slabs": 29,
+      "walls": 0,
+      "fences": 3,
+      "doors": 4,
+      "trapdoors": 49,
+      "glass": 94,
+      "logs": 83,
+      "planks": 252,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 21,
+      "leaves": 26,
+      "lanterns": 20,
+      "copper": 2,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5987,
+      "symmetry_z": 0.6914,
+      "symmetry_y": 0.3822
+    },
+    "solid_ratio": 0.4343
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_planks",
+        "count": 252,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 167,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 148,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 86,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "dandelion",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "poppy",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "cornflower",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_button",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_leaves",
+        "count": 16,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 335,
+      "stone": 234,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 21,
+      "glass": 94,
+      "nether": 0,
+      "copper": 2,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 29,
+      "metal": 14
+    },
+    "remap_targets": [
+      "oak_planks",
+      "grass_block",
+      "cobblestone_stairs",
+      "glass_pane",
+      "cobblestone",
+      "oak_log",
+      "dirt",
+      "spruce_trapdoor",
+      "dark_oak_slab",
+      "dandelion",
+      "poppy",
+      "cornflower"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "snow",
+    "style_id": 5,
+    "terrain_id": 4,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.819,
+        "raw_score": 0.469,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.54,
+        "raw_score": 0.358
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.482,
+        "raw_score": 0.3315
+      },
+      {
+        "style": "western",
+        "confidence": 0.353,
+        "raw_score": 0.2681
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.281,
+        "raw_score": 0.2281
+      }
+    ]
+  },
+  "redstone": {
+    "total": 72,
+    "pattern_ids": [
+      "door_line",
+      "simple_io"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门"
+    ],
+    "inventory_nonzero": {
+      "button": 17,
+      "pressure_plate": 2,
+      "door": 4,
+      "trapdoor": 49
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\db9c0ac18416_Nice_20House_20_28With_20Deco_29_skeleton.npz",
+    "occupancy_frac": 0.463226318359375,
+    "occupied": 15179
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 8,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\db9c0ac18416_Nice_20House_20_28With_20Deco_29_block2vec.npy",
+    "vector_preview": [
+      -0.09103,
+      0.15178,
+      -0.0801,
+      0.02706,
+      0.07254,
+      0.01569,
+      -0.09578,
+      -0.03324
+    ],
+    "ok": true
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "id": "zZmnh6Zb0V-Tall_20Flower_20Farm_20_28easy_29",
+  "source_path": "data\\raw\\hack337\\schematics\\zZmnh6Zb0V-Tall%20Flower%20Farm%20%28easy%29.litematic",
+  "created_at": "2026-10-18T22:27:25+08:00",
+  "overview": {
+    "schematic_name": "Tall Flower Farm (easy)",
+    "size": {
+      "x": 6,
+      "y": 5,
+      "z": 9
+    },
+    "non_air": 81,
+    "density": 0.3,
+    "unique_block_types": 16
+  },
+  "massing": {
+    "hollow_score": 0.4167,
+    "interior_air_frac": 0.4167,
+    "exterior_solid_frac": 0.1185,
+    "floor_guess": 1,
+    "y_peaks": [
+      1
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 6,
+      "glass": 20,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 16,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3279,
+      "symmetry_z": 0.296,
+      "symmetry_y": 0.5882
+    },
+    "solid_ratio": 0.3
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "glass",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "rose_bush",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "peony",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "sunflower",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "lilac",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 16,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 20,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 4
+    },
+    "remap_targets": [
+      "glass",
+      "stone_bricks",
+      "redstone_wire",
+      "spruce_trapdoor",
+      "hopper",
+      "grass_block",
+      "dispenser",
+      "repeater",
+      "observer",
+      "chest",
+      "rose_bush",
+      "peony"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "scifi",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.702,
+        "raw_score": 0.3517,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.454,
+        "raw_score": 0.2614
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.278,
+        "raw_score": 0.1833
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.232,
+        "raw_score": 0.16
+      },
+      {
+        "style": "modern",
+        "confidence": 0.224,
+        "raw_score": 0.1556
+      }
+    ]
+  },
+  "redstone": {
+    "total": 31,
+    "pattern_ids": [
+      "hopper_line",
+      "pulse_limiter",
+      "instant_wire",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "edge_detector"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "中继器锁定限幅器嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "边沿检测（观察者）嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 9,
+      "repeater": 4,
+      "lever": 1,
+      "sticky_piston": 1,
+      "observer": 2,
+      "hopper": 4,
+      "dispenser": 4,
+      "trapdoor": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\zZmnh6Zb0V-Tall_20Flower_20Farm_20_28easy_29_skeleton.npz",
+    "occupancy_frac": 0.298583984375,
+    "occupied": 9784
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "id": "d8213286c73c_simple_20elevator_20v2_20by_20julek7034",
+  "source_path": "data\\raw\\hack337\\schematics\\d8213286c73c_simple%20elevator%20v2%20by%20julek7034.litematic",
+  "created_at": "2026-10-18T22:25:58+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 15,
+      "y": 18,
+      "z": 12
+    },
+    "non_air": 409,
+    "density": 0.1262,
+    "unique_block_types": 26
+  },
+  "massing": {
+    "hollow_score": 0.8187,
+    "interior_air_frac": 0.8187,
+    "exterior_solid_frac": 0.0099,
+    "floor_guess": 4,
+    "y_peaks": [
+      4,
+      9,
+      13,
+      16
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 1,
+      "glass": 0,
+      "logs": 3,
+      "planks": 40,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 11,
+      "nether": 7
+    },
+    "symmetry": {
+      "symmetry_x": 0.2508,
+      "symmetry_z": 0.1753,
+      "symmetry_y": 0.3454
+    },
+    "solid_ratio": 0.1262
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "obsidian",
+        "count": 114,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_block",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "note_block",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_button",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "exposed_copper_bulb",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "copper_bulb",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_wood",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "emerald_block",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 44,
+      "stone": 8,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 1,
+      "copper": 11,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 1,
+      "leaves": 0,
+      "metal": 23
+    },
+    "remap_targets": [
+      "obsidian",
+      "observer",
+      "quartz_block",
+      "redstone_wire",
+      "birch_planks",
+      "iron_block",
+      "repeater",
+      "comparator",
+      "sticky_piston",
+      "note_block",
+      "slime_block",
+      "polished_blackstone_button"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.804,
+        "raw_score": 0.4544,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.504,
+        "raw_score": 0.3347
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.443,
+        "raw_score": 0.3068
+      },
+      {
+        "style": "western",
+        "confidence": 0.412,
+        "raw_score": 0.2917
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.162,
+        "raw_score": 0.1477
+      }
+    ]
+  },
+  "redstone": {
+    "total": 165,
+    "pattern_ids": [
+      "piston_door",
+      "simple_io",
+      "observer_clock",
+      "sticky_piston_pair",
+      "copper_bulb_latch",
+      "flying_machine",
+      "qc_piston_bank",
+      "edge_detector",
+      "instant_wire",
+      "note_block_line",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "pulse_extender",
+      "dual_edge_repeater",
+      "portal_frame_cue"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "杠杆/按钮 → 灯或门",
+      "观察者相邻时钟嫌疑",
+      "粘性活塞对（换块/门）",
+      "铜灯泡锁存/切换",
+      "飞船/飞行器骨架",
+      "QC/BUD 活塞组",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "音符盒线路/乐器阵",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "中继器链脉冲处理嫌疑",
+      "双沿/对向中继器线嫌疑",
+      "传送门框/黑曜石阵嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 41,
+      "repeater": 14,
+      "comparator": 11,
+      "button": 6,
+      "sticky_piston": 10,
+      "observer": 55,
+      "note_block": 8,
+      "trapdoor": 1,
+      "copper_bulb": 11,
+      "slime_block": 8
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\d8213286c73c_simple_20elevator_20v2_20by_20julek7034_skeleton.npz",
+    "occupancy_frac": 0.12335205078125,
+    "occupied": 4042
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "id": "d2a22e06888b_Medieval_20Tower",
+  "source_path": "data\\raw\\hack337\\schematics\\d2a22e06888b_Medieval%20Tower.litematic",
+  "created_at": "2026-10-18T22:25:56+08:00",
+  "overview": {
+    "schematic_name": "Medieval Tower",
+    "size": {
+      "x": 11,
+      "y": 37,
+      "z": 11
+    },
+    "non_air": 1177,
+    "density": 0.2629,
+    "unique_block_types": 46
+  },
+  "massing": {
+    "hollow_score": 0.6159,
+    "interior_air_frac": 0.6159,
+    "exterior_solid_frac": 0.0197,
+    "floor_guess": 8,
+    "y_peaks": [
+      0,
+      6,
+      11,
+      14,
+      17,
+      21,
+      26,
+      33
+    ],
+    "families": {
+      "stairs": 252,
+      "slabs": 90,
+      "walls": 24,
+      "fences": 54,
+      "doors": 2,
+      "trapdoors": 60,
+      "glass": 30,
+      "logs": 347,
+      "planks": 32,
+      "stone_bricks": 104,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 9,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9882,
+      "symmetry_z": 0.8817,
+      "symmetry_y": 0.1383
+    },
+    "solid_ratio": 0.2629
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_spruce_log",
+        "count": 122,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 118,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 104,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 99,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 47,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "podzol",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 26,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 379,
+      "stone": 199,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 30,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 3,
+      "leaves": 0,
+      "metal": 14
+    },
+    "remap_targets": [
+      "stripped_spruce_log",
+      "spruce_stairs",
+      "stripped_oak_log",
+      "oak_log",
+      "spruce_slab",
+      "stone_brick_stairs",
+      "spruce_trapdoor",
+      "cobblestone",
+      "chest",
+      "oak_stairs",
+      "podzol",
+      "spruce_planks"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "medieval",
+      "chinese",
+      "japanese",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5553,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.823,
+        "raw_score": 0.5374
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.634,
+        "raw_score": 0.4438
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.554,
+        "raw_score": 0.4068
+      },
+      {
+        "style": "western",
+        "confidence": 0.448,
+        "raw_score": 0.3537
+      }
+    ]
+  },
+  "redstone": {
+    "total": 86,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 8,
+      "door": 2,
+      "trapdoor": 60,
+      "furnace": 8,
+      "smoker": 4,
+      "blast_furnace": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\d2a22e06888b_Medieval_20Tower_skeleton.npz",
+    "occupancy_frac": 0.299835205078125,
+    "occupied": 9825
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 5,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\d2a22e06888b_Medieval_20Tower_block2vec.npy",
+    "vector_preview": [
+      -0.08204,
+      0.26252,
+      -0.05735,
+      0.00731,
+      0.11373,
+      0.02552,
+      -0.0456,
+      0.06992
+    ],
+    "ok": true
+  }
+}

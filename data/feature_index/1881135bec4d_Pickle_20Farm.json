@@ -1,0 +1,251 @@
+{
+  "id": "1881135bec4d_Pickle_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\1881135bec4d_Pickle%20Farm.litematic",
+  "created_at": "2026-10-18T22:24:51+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 7,
+      "y": 11,
+      "z": 7
+    },
+    "non_air": 174,
+    "density": 0.3228,
+    "unique_block_types": 17
+  },
+  "massing": {
+    "hollow_score": 0.3822,
+    "interior_air_frac": 0.3822,
+    "exterior_solid_frac": 0.0649,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      3,
+      6
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 29,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 1,
+      "glass": 32,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 43,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9773,
+      "symmetry_z": 0.8125,
+      "symmetry_y": 0.3865
+    },
+    "solid_ratio": 0.3228
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "light_blue_stained_glass",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_slab",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "tube_coral_block",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_trapdoor",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_pickle",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 43,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 32,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 11
+    },
+    "remap_targets": [
+      "light_blue_stained_glass",
+      "deepslate_brick_slab",
+      "chest",
+      "deepslate_bricks",
+      "redstone_wire",
+      "tube_coral_block",
+      "water",
+      "piston",
+      "hopper",
+      "powered_rail",
+      "repeater",
+      "iron_trapdoor"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "medieval",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.53,
+        "raw_score": 0.1802,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.358,
+        "raw_score": 0.1333
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.142,
+        "raw_score": 0.062
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.125,
+        "raw_score": 0.0556
+      },
+      {
+        "style": "european",
+        "confidence": 0.119,
+        "raw_score": 0.0532
+      }
+    ]
+  },
+  "redstone": {
+    "total": 52,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "pulse_limiter",
+      "hopper_clock",
+      "edge_detector"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "中继器锁定限幅器嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "边沿检测（观察者）嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 14,
+      "repeater": 3,
+      "comparator": 1,
+      "lever": 1,
+      "piston": 12,
+      "observer": 1,
+      "hopper": 10,
+      "dispenser": 1,
+      "trapdoor": 1,
+      "powered_rail": 8
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\1881135bec4d_Pickle_20Farm_skeleton.npz",
+    "occupancy_frac": 0.330596923828125,
+    "occupied": 10833
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

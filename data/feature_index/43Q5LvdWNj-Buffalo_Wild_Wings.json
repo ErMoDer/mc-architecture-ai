@@ -1,0 +1,245 @@
+{
+  "id": "43Q5LvdWNj-Buffalo_Wild_Wings",
+  "source_path": "data\\raw\\hack337\\schematics\\43Q5LvdWNj-Buffalo_Wild_Wings.litematic",
+  "created_at": "2026-10-18T22:25:07+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 40,
+      "y": 17,
+      "z": 40
+    },
+    "non_air": 7048,
+    "density": 0.2591,
+    "unique_block_types": 65
+  },
+  "massing": {
+    "hollow_score": 0.7708,
+    "interior_air_frac": 0.7708,
+    "exterior_solid_frac": 0.0766,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      7,
+      15
+    ],
+    "families": {
+      "stairs": 101,
+      "slabs": 828,
+      "walls": 43,
+      "fences": 43,
+      "doors": 12,
+      "trapdoors": 29,
+      "glass": 206,
+      "logs": 18,
+      "planks": 728,
+      "stone_bricks": 25,
+      "deepslate": 0,
+      "terracotta": 307,
+      "concrete": 3166,
+      "wool": 355,
+      "leaves": 26,
+      "lanterns": 180,
+      "copper": 0,
+      "nether": 29
+    },
+    "symmetry": {
+      "symmetry_x": 0.3246,
+      "symmetry_z": 0.4059,
+      "symmetry_y": 0.1838
+    },
+    "solid_ratio": 0.2591
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "white_concrete",
+        "count": 2051,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 728,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 630,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 605,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 489,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_concrete",
+        "count": 377,
+        "frac": 0.0
+      },
+      {
+        "name": "terracotta",
+        "count": 307,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 223,
+        "frac": 0.0
+      },
+      {
+        "name": "pearlescent_froglight",
+        "count": 210,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass_pane",
+        "count": 198,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 165,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_carpet",
+        "count": 155,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 132,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_concrete",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_wool",
+        "count": 104,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 82,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 746,
+      "stone": 1199,
+      "deepslate": 0,
+      "terracotta": 307,
+      "concrete": 3166,
+      "wool": 355,
+      "glass": 206,
+      "nether": 1,
+      "copper": 0,
+      "prismarine": 165,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 26,
+      "metal": 9
+    },
+    "remap_targets": [
+      "white_concrete",
+      "birch_planks",
+      "black_concrete",
+      "smooth_stone_slab",
+      "smooth_stone",
+      "yellow_concrete",
+      "terracotta",
+      "dark_oak_slab",
+      "pearlescent_froglight",
+      "black_stained_glass_pane",
+      "sea_lantern",
+      "gray_carpet"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "industrial",
+      "scifi",
+      "chinese",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.562,
+        "raw_score": 0.2119,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.395,
+        "raw_score": 0.1631
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.341,
+        "raw_score": 0.1459
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.246,
+        "raw_score": 0.1129
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.239,
+        "raw_score": 0.11
+      }
+    ]
+  },
+  "redstone": {
+    "total": 82,
+    "pattern_ids": [
+      "door_line",
+      "simple_io"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门"
+    ],
+    "inventory_nonzero": {
+      "lever": 4,
+      "button": 3,
+      "pressure_plate": 12,
+      "door": 12,
+      "trapdoor": 29,
+      "rail": 16,
+      "brewing_stand": 1,
+      "furnace": 1,
+      "blast_furnace": 2,
+      "lectern": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\43Q5LvdWNj-Buffalo_Wild_Wings_skeleton.npz",
+    "occupancy_frac": 0.278533935546875,
+    "occupied": 9127
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

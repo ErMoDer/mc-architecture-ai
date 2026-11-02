@@ -1,0 +1,216 @@
+{
+  "id": "3Y8esvgAA5-Cart_201",
+  "source_path": "data\\raw\\hack337\\schematics\\3Y8esvgAA5-Cart%201.litematic",
+  "created_at": "2026-10-18T22:25:06+08:00",
+  "overview": {
+    "schematic_name": "Cart 1",
+    "size": {
+      "x": 4,
+      "y": 4,
+      "z": 5
+    },
+    "non_air": 52,
+    "density": 0.65,
+    "unique_block_types": 12
+  },
+  "massing": {
+    "hollow_score": 0.0,
+    "interior_air_frac": 0.0,
+    "exterior_solid_frac": 0.5,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 2,
+      "walls": 0,
+      "fences": 6,
+      "doors": 0,
+      "trapdoors": 4,
+      "glass": 0,
+      "logs": 9,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 1,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7931,
+      "symmetry_z": 0.6,
+      "symmetry_y": 0.4054
+    },
+    "solid_ratio": 0.65
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "podzol",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wall_sign",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_button",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 9,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "grass_block",
+      "stripped_spruce_log",
+      "podzol",
+      "spruce_wall_sign",
+      "spruce_fence_gate",
+      "grass",
+      "spruce_fence",
+      "oak_trapdoor",
+      "spruce_slab",
+      "spruce_trapdoor",
+      "spruce_button",
+      "campfire"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7629,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.709,
+        "raw_score": 0.6364
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.65,
+        "raw_score": 0.5833
+      },
+      {
+        "style": "western",
+        "confidence": 0.65,
+        "raw_score": 0.5833
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.197,
+        "raw_score": 0.25
+      }
+    ]
+  },
+  "redstone": {
+    "total": 10,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 2,
+      "trapdoor": 4,
+      "fence_gate": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\3Y8esvgAA5-Cart_201_skeleton.npz",
+    "occupancy_frac": 0.64453125,
+    "occupied": 21120
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

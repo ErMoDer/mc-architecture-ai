@@ -1,0 +1,234 @@
+{
+  "id": "b63dca3f263a_Survival_20Base",
+  "source_path": "data\\raw\\hack337\\schematics\\b63dca3f263a_Survival%20Base.litematic",
+  "created_at": "2026-10-18T22:25:44+08:00",
+  "overview": {
+    "schematic_name": "Survival Base",
+    "size": {
+      "x": 30,
+      "y": 17,
+      "z": 34
+    },
+    "non_air": 3911,
+    "density": 0.2255,
+    "unique_block_types": 67
+  },
+  "massing": {
+    "hollow_score": 0.8152,
+    "interior_air_frac": 0.8152,
+    "exterior_solid_frac": 0.0823,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      5,
+      10
+    ],
+    "families": {
+      "stairs": 241,
+      "slabs": 273,
+      "walls": 31,
+      "fences": 365,
+      "doors": 4,
+      "trapdoors": 50,
+      "glass": 19,
+      "logs": 524,
+      "planks": 427,
+      "stone_bricks": 185,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 16,
+      "leaves": 119,
+      "lanterns": 156,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.308,
+      "symmetry_z": 0.5054,
+      "symmetry_y": 0.1003
+    },
+    "solid_ratio": 0.2255
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 581,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 317,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 298,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 252,
+        "frac": 0.0
+      },
+      {
+        "name": "sugar_cane",
+        "count": 212,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 211,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 207,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 140,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 123,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 117,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_slab",
+        "count": 113,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 107,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 99,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 91,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 86,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 84,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 951,
+      "stone": 251,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 16,
+      "glass": 19,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 119,
+      "metal": 0
+    },
+    "remap_targets": [
+      "grass_block",
+      "birch_planks",
+      "stripped_spruce_log",
+      "oak_fence",
+      "sugar_cane",
+      "stripped_oak_log",
+      "dirt_path",
+      "oak_stairs",
+      "campfire",
+      "farmland",
+      "birch_slab",
+      "oak_planks"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6107,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.687,
+        "raw_score": 0.4959
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.614,
+        "raw_score": 0.4619
+      },
+      {
+        "style": "western",
+        "confidence": 0.509,
+        "raw_score": 0.4091
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.244,
+        "raw_score": 0.2492
+      }
+    ]
+  },
+  "redstone": {
+    "total": 97,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 4,
+      "trapdoor": 50,
+      "fence_gate": 29,
+      "brewing_stand": 2,
+      "furnace": 12
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\b63dca3f263a_Survival_20Base_skeleton.npz",
+    "occupancy_frac": 0.244720458984375,
+    "occupied": 8019
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

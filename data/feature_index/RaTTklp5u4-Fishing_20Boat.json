@@ -1,0 +1,230 @@
+{
+  "id": "RaTTklp5u4-Fishing_20Boat",
+  "source_path": "data\\raw\\hack337\\schematics\\RaTTklp5u4-Fishing%20Boat.litematic",
+  "created_at": "2026-10-18T22:26:40+08:00",
+  "overview": {
+    "schematic_name": "Fishing Boat",
+    "size": {
+      "x": 16,
+      "y": 17,
+      "z": 7
+    },
+    "non_air": 383,
+    "density": 0.2012,
+    "unique_block_types": 23
+  },
+  "massing": {
+    "hollow_score": 0.8133,
+    "interior_air_frac": 0.8133,
+    "exterior_solid_frac": 0.0982,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 36,
+      "slabs": 29,
+      "walls": 2,
+      "fences": 11,
+      "doors": 0,
+      "trapdoors": 7,
+      "glass": 0,
+      "logs": 14,
+      "planks": 76,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6509,
+      "symmetry_z": 0.6229,
+      "symmetry_y": 0.0227
+    },
+    "solid_ratio": 0.2012
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "water",
+        "count": 192,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "cobweb",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "player_head",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 90,
+      "stone": 2,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 2
+    },
+    "remap_targets": [
+      "water",
+      "spruce_planks",
+      "dark_oak_planks",
+      "dark_oak_stairs",
+      "dark_oak_slab",
+      "oak_planks",
+      "spruce_stairs",
+      "stripped_spruce_wood",
+      "spruce_fence",
+      "spruce_slab",
+      "spruce_trapdoor",
+      "barrel"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7385,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.706,
+        "raw_score": 0.6132
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.647,
+        "raw_score": 0.5621
+      },
+      {
+        "style": "western",
+        "confidence": 0.643,
+        "raw_score": 0.5585
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.197,
+        "raw_score": 0.2447
+      }
+    ]
+  },
+  "redstone": {
+    "total": 8,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 7,
+      "fence_gate": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\RaTTklp5u4-Fishing_20Boat_skeleton.npz",
+    "occupancy_frac": 0.2120361328125,
+    "occupied": 6948
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

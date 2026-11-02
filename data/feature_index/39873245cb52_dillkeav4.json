@@ -1,0 +1,227 @@
+{
+  "id": "39873245cb52_dillkeav4",
+  "source_path": "data\\raw\\hack337\\schematics\\39873245cb52_dillkeav4.litematic",
+  "created_at": "2026-10-18T22:25:04+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 6,
+      "y": 6,
+      "z": 20
+    },
+    "non_air": 249,
+    "density": 0.3458,
+    "unique_block_types": 13
+  },
+  "massing": {
+    "hollow_score": 0.4965,
+    "interior_air_frac": 0.4965,
+    "exterior_solid_frac": 0.1444,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 1,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 89,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4734,
+      "symmetry_z": 0.66,
+      "symmetry_y": 0.3387
+    },
+    "solid_ratio": 0.3458
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "glass",
+        "count": 89,
+        "frac": 0.0
+      },
+      {
+        "name": "crafter",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence_gate",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_sign",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 89,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 30
+    },
+    "remap_targets": [
+      "glass",
+      "crafter",
+      "chest",
+      "observer",
+      "hopper",
+      "redstone_wire",
+      "water",
+      "grass_block",
+      "dirt",
+      "lever",
+      "oak_wall_sign",
+      "oak_fence_gate"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "scifi",
+      "modern",
+      "fantasy",
+      "european",
+      "industrial"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "scifi",
+        "confidence": 0.617,
+        "raw_score": 0.2667,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "modern",
+        "confidence": 0.562,
+        "raw_score": 0.2498
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.222,
+        "raw_score": 0.1246
+      },
+      {
+        "style": "european",
+        "confidence": 0.183,
+        "raw_score": 0.1068
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.17,
+        "raw_score": 0.1008
+      }
+    ]
+  },
+  "redstone": {
+    "total": 107,
+    "pattern_ids": [
+      "observer_clock",
+      "crafter_auto_line",
+      "water_hopper_stream"
+    ],
+    "pattern_labels": [
+      "观察者互看/相邻时钟",
+      "合成器自动线（1.21）",
+      "水流漏斗收集线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 15,
+      "lever": 1,
+      "observer": 30,
+      "hopper": 30,
+      "fence_gate": 1,
+      "crafter": 30
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\39873245cb52_dillkeav4_skeleton.npz",
+    "occupancy_frac": 0.36126708984375,
+    "occupied": 11838
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

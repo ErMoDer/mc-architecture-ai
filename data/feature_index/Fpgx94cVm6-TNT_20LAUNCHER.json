@@ -1,0 +1,201 @@
+{
+  "id": "Fpgx94cVm6-TNT_20LAUNCHER",
+  "source_path": "data\\raw\\hack337\\schematics\\Fpgx94cVm6-TNT%20LAUNCHER.litematic",
+  "created_at": "2026-10-18T22:26:13+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 15,
+      "y": 7,
+      "z": 14
+    },
+    "non_air": 332,
+    "density": 0.2259,
+    "unique_block_types": 9
+  },
+  "massing": {
+    "hollow_score": 0.6744,
+    "interior_air_frac": 0.6744,
+    "exterior_solid_frac": 0.0531,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 1,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 166,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8192,
+      "symmetry_z": 0.469,
+      "symmetry_y": 0.3333
+    },
+    "solid_ratio": 0.2259
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 166,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 103,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_button",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_sign",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 168,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "redstone_wire",
+      "repeater",
+      "dispenser",
+      "water",
+      "oak_fence",
+      "stone_button",
+      "stone",
+      "oak_sign"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.7126,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.793,
+        "raw_score": 0.665
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.211,
+        "raw_score": 0.25
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.136,
+        "raw_score": 0.1818
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.121,
+        "raw_score": 0.1667
+      }
+    ]
+  },
+  "redstone": {
+    "total": 155,
+    "pattern_ids": [
+      "pulse_limiter",
+      "instant_wire",
+      "dual_edge_repeater"
+    ],
+    "pattern_labels": [
+      "中继器锁定限幅器嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "双沿/对向中继器线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 103,
+      "repeater": 27,
+      "button": 1,
+      "dispenser": 24
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Fpgx94cVm6-TNT_20LAUNCHER_skeleton.npz",
+    "occupancy_frac": 0.234649658203125,
+    "occupied": 7689
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

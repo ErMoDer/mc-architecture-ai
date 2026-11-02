@@ -1,0 +1,167 @@
+{
+  "id": "HXPkgOp6Wr-Loot_20Cart",
+  "source_path": "data\\raw\\hack337\\schematics\\HXPkgOp6Wr-Loot%20Cart.litematic",
+  "created_at": "2026-10-18T22:26:20+08:00",
+  "overview": {
+    "schematic_name": "Loot Cart",
+    "size": {
+      "x": 6,
+      "y": 3,
+      "z": 4
+    },
+    "non_air": 31,
+    "density": 0.4306,
+    "unique_block_types": 9
+  },
+  "massing": {
+    "hollow_score": 0.0,
+    "interior_air_frac": 0.0,
+    "exterior_solid_frac": 0.3194,
+    "floor_guess": 1,
+    "y_peaks": [
+      1
+    ],
+    "families": {
+      "stairs": 2,
+      "slabs": 6,
+      "walls": 0,
+      "fences": 4,
+      "doors": 0,
+      "trapdoors": 8,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 1,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4762,
+      "symmetry_z": 0.9375,
+      "symmetry_y": 0.4091
+    },
+    "solid_ratio": 0.4306
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_slab",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wall_sign",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence_gate",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_slab",
+      "spruce_wall_sign",
+      "oak_trapdoor",
+      "oak_fence_gate",
+      "spruce_trapdoor",
+      "spruce_stairs",
+      "chest",
+      "barrel",
+      "campfire"
+    ]
+  },
+  "style": {
+    "mapped_style": "unknown",
+    "mapped_terrain": "flat",
+    "style_id": 0,
+    "terrain_id": 0,
+    "guess_names": [
+      "unknown"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "unknown",
+        "confidence": 0.2,
+        "raw_score": 0.0,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      }
+    ]
+  },
+  "redstone": {
+    "total": 12,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 8,
+      "fence_gate": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\HXPkgOp6Wr-Loot_20Cart_skeleton.npz",
+    "occupancy_frac": 0.4365234375,
+    "occupied": 14304
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "id": "欧式公寓楼__51065c23",
+  "source_path": "data\\raw\\mcblock\\欧式公寓楼__51065c23.litematic",
+  "created_at": "2026-10-20T13:59:30+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 39,
+      "y": 46,
+      "z": 33
+    },
+    "non_air": 13465,
+    "density": 0.2274,
+    "unique_block_types": 34
+  },
+  "massing": {
+    "hollow_score": 0.8031,
+    "interior_air_frac": 0.8031,
+    "exterior_solid_frac": 0.0596,
+    "floor_guess": 11,
+    "y_peaks": [
+      1,
+      6,
+      11,
+      14,
+      19,
+      22,
+      28,
+      31,
+      37,
+      40,
+      44
+    ],
+    "families": {
+      "stairs": 369,
+      "slabs": 1361,
+      "walls": 356,
+      "fences": 344,
+      "doors": 2,
+      "trapdoors": 625,
+      "glass": 0,
+      "logs": 3907,
+      "planks": 4955,
+      "stone_bricks": 0,
+      "deepslate": 1010,
+      "terracotta": 0,
+      "concrete": 96,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5184,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.3427
+    },
+    "solid_ratio": 0.2274
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "pale_oak_planks",
+        "count": 4056,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_pale_oak_log",
+        "count": 3907,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_slab",
+        "count": 926,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 899,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_sandstone",
+        "count": 735,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_trapdoor",
+        "count": 456,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz_slab",
+        "count": 328,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite_wall",
+        "count": 314,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz_stairs",
+        "count": 276,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_fence",
+        "count": 204,
+        "frac": 0.0
+      },
+      {
+        "name": "ochre_froglight",
+        "count": 139,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 138,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_fence_gate",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 107,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 96,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 8862,
+      "stone": 1463,
+      "deepslate": 1010,
+      "terracotta": 0,
+      "concrete": 96,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 90,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 220
+    },
+    "remap_targets": [
+      "pale_oak_planks",
+      "stripped_pale_oak_log",
+      "deepslate_tile_slab",
+      "birch_planks",
+      "smooth_sandstone",
+      "pale_oak_trapdoor",
+      "smooth_quartz_slab",
+      "diorite_wall",
+      "smooth_quartz_stairs",
+      "pale_oak_fence",
+      "ochre_froglight",
+      "calcite"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.623,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.686,
+        "raw_score": 0.503
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.6,
+        "raw_score": 0.4611
+      },
+      {
+        "style": "western",
+        "confidence": 0.559,
+        "raw_score": 0.4403
+      },
+      {
+        "style": "european",
+        "confidence": 0.502,
+        "raw_score": 0.4112
+      }
+    ]
+  },
+  "redstone": {
+    "total": 747,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 2,
+      "trapdoor": 625,
+      "fence_gate": 120
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\欧式公寓楼__51065c23_skeleton.npz",
+    "occupancy_frac": 0.2806396484375,
+    "occupied": 9196
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "european",
+  "mapped_terrain": "flat",
+  "long_fill2_retag": "long_fill2 mcblock topup retry"
+}

@@ -1,0 +1,275 @@
+{
+  "id": "樱花度假小山庄_全内饰__83ccad52",
+  "source_path": "data\\raw\\mcblock\\樱花度假小山庄_全内饰__83ccad52.litematic",
+  "created_at": "2026-10-19T16:09:47+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 15,
+      "y": 17,
+      "z": 21
+    },
+    "non_air": 1528,
+    "density": 0.2853,
+    "unique_block_types": 81
+  },
+  "massing": {
+    "hollow_score": 0.6669,
+    "interior_air_frac": 0.6669,
+    "exterior_solid_frac": 0.0549,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      5
+    ],
+    "families": {
+      "stairs": 197,
+      "slabs": 187,
+      "walls": 14,
+      "fences": 24,
+      "doors": 4,
+      "trapdoors": 87,
+      "glass": 23,
+      "logs": 294,
+      "planks": 304,
+      "stone_bricks": 7,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 15,
+      "leaves": 101,
+      "lanterns": 42,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8083,
+      "symmetry_z": 0.5473,
+      "symmetry_y": 0.1186
+    },
+    "solid_ratio": 0.2853
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cherry_planks",
+        "count": 282,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 156,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 126,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_stairs",
+        "count": 74,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_slab",
+        "count": 71,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_slab",
+        "count": 69,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_leaves",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_stairs",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_slab",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_planks",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 21,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 598,
+      "stone": 77,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 15,
+      "glass": 23,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 101,
+      "metal": 12
+    },
+    "remap_targets": [
+      "cherry_planks",
+      "stripped_oak_log",
+      "stripped_spruce_log",
+      "cherry_stairs",
+      "birch_slab",
+      "cherry_slab",
+      "cherry_leaves",
+      "spruce_trapdoor",
+      "birch_stairs",
+      "spruce_stairs",
+      "cobblestone",
+      "brick_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6175,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.688,
+        "raw_score": 0.4999
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.621,
+        "raw_score": 0.4684
+      },
+      {
+        "style": "western",
+        "confidence": 0.528,
+        "raw_score": 0.4223
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.219,
+        "raw_score": 0.2323
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 156,
+    "pattern_ids": [
+      "door_line",
+      "simple_io",
+      "tripwire_trap",
+      "daylight_detector_clock"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱",
+      "日光传感器钟/昼夜控制"
+    ],
+    "inventory_nonzero": {
+      "lever": 6,
+      "button": 12,
+      "pressure_plate": 3,
+      "redstone_lamp": 4,
+      "door": 4,
+      "trapdoor": 87,
+      "fence_gate": 19,
+      "tripwire": 1,
+      "daylight_detector": 2,
+      "brewing_stand": 1,
+      "furnace": 2,
+      "lectern": 12,
+      "chiseled_bookshelf": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\樱花度假小山庄_全内饰__83ccad52_skeleton.npz",
+    "occupancy_frac": 0.28778076171875,
+    "occupied": 9430
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 6,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\樱花度假小山庄_全内饰__83ccad52_block2vec.npy",
+    "vector_preview": [
+      -0.04455,
+      0.11892,
+      -0.18205,
+      0.00202,
+      0.02724,
+      -0.05813,
+      -0.0624,
+      0.01798
+    ],
+    "ok": true
+  }
+}

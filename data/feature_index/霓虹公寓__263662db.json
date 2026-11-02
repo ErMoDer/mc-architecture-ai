@@ -1,0 +1,350 @@
+{
+  "id": "霓虹公寓__263662db",
+  "source_path": "data\\raw\\mcblock\\霓虹公寓__263662db.litematic",
+  "created_at": "2026-10-20T13:46:10+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 47,
+      "y": 49,
+      "z": 42
+    },
+    "non_air": 9171,
+    "density": 0.0948,
+    "unique_block_types": 210
+  },
+  "massing": {
+    "hollow_score": 0.9081,
+    "interior_air_frac": 0.9081,
+    "exterior_solid_frac": 0.0145,
+    "floor_guess": 9,
+    "y_peaks": [
+      0,
+      5,
+      8,
+      12,
+      16,
+      20,
+      26,
+      29,
+      35
+    ],
+    "families": {
+      "stairs": 271,
+      "slabs": 688,
+      "walls": 192,
+      "fences": 141,
+      "doors": 30,
+      "trapdoors": 477,
+      "glass": 246,
+      "logs": 291,
+      "planks": 101,
+      "stone_bricks": 26,
+      "deepslate": 1219,
+      "terracotta": 414,
+      "concrete": 141,
+      "wool": 214,
+      "leaves": 62,
+      "lanterns": 12,
+      "copper": 13,
+      "nether": 890
+    },
+    "symmetry": {
+      "symmetry_x": 0.3263,
+      "symmetry_z": 0.3946,
+      "symmetry_y": 0.1306
+    },
+    "solid_ratio": 0.0948
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "polished_deepslate",
+        "count": 378,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_wall_sign",
+        "count": 347,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 317,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_cobblestone",
+        "count": 310,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 295,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 295,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 269,
+        "frac": 0.0
+      },
+      {
+        "name": "composter",
+        "count": 235,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 233,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone",
+        "count": 209,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_terracotta",
+        "count": 204,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_slab",
+        "count": 203,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 197,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 184,
+        "frac": 0.0
+      },
+      {
+        "name": "chain",
+        "count": 180,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_slab",
+        "count": 180,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 413,
+      "stone": 2356,
+      "deepslate": 1219,
+      "terracotta": 414,
+      "concrete": 141,
+      "wool": 214,
+      "glass": 246,
+      "nether": 349,
+      "copper": 13,
+      "prismarine": 33,
+      "sandstone": 0,
+      "sand": 18,
+      "snow_ice": 3,
+      "leaves": 84,
+      "metal": 455
+    },
+    "remap_targets": [
+      "polished_deepslate",
+      "mangrove_wall_sign",
+      "obsidian",
+      "mossy_cobblestone",
+      "powered_rail",
+      "spruce_trapdoor",
+      "andesite",
+      "composter",
+      "stone",
+      "blackstone",
+      "cyan_terracotta",
+      "deepslate_brick_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "european",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.543,
+        "raw_score": 0.1932,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.518,
+        "raw_score": 0.1866
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.327,
+        "raw_score": 0.1314
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.288,
+        "raw_score": 0.1186
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.261,
+        "raw_score": 0.1099
+      }
+    ]
+  },
+  "redstone": {
+    "total": 1287,
+    "pattern_ids": [
+      "door_line",
+      "simple_io",
+      "auto_smelt_brew_line",
+      "daylight_detector_clock",
+      "tripwire_trap",
+      "observer_clock",
+      "target_block_line",
+      "qc_piston_bank",
+      "pulse_limiter",
+      "hopper_clock",
+      "edge_detector",
+      "shulker_loader",
+      "portal_frame_cue"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "自动烧炼/酿造线",
+      "日光传感器钟/昼夜控制",
+      "绊线陷阱",
+      "观察者相邻时钟嫌疑",
+      "标靶方块线路",
+      "QC/BUD 活塞组",
+      "中继器锁定限幅器嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "潜影盒装卸线嫌疑",
+      "传送门框/黑曜石阵嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_torch": 10,
+      "repeater": 3,
+      "comparator": 14,
+      "lever": 57,
+      "button": 1,
+      "observer": 15,
+      "hopper": 24,
+      "dispenser": 8,
+      "target": 2,
+      "redstone_lamp": 81,
+      "door": 26,
+      "iron_door": 4,
+      "trapdoor": 477,
+      "fence_gate": 19,
+      "tripwire": 20,
+      "daylight_detector": 8,
+      "powered_rail": 295,
+      "rail": 28,
+      "brewing_stand": 1,
+      "furnace": 31,
+      "smoker": 12,
+      "lectern": 52,
+      "chiseled_bookshelf": 97,
+      "shulker_box": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\霓虹公寓__263662db_skeleton.npz",
+    "occupancy_frac": 0.12994384765625,
+    "occupied": 4258
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 46,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\霓虹公寓__263662db_block2vec.npy",
+    "vector_preview": [
+      -0.03338,
+      0.17272,
+      -0.13039,
+      -0.02361,
+      0.02141,
+      -0.06243,
+      -0.08498,
+      0.02549
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "蔚蓝居所__52f2963f",
+        "score": 0.9629565068872767,
+        "mapped_style": "industrial",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\蔚蓝居所__52f2963f.litematic"
+      },
+      {
+        "id": "夜影孢子__8125b1ff",
+        "score": 0.9403604686923303,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\夜影孢子__8125b1ff.litematic"
+      },
+      {
+        "id": "翠竹小筑__ca1015b1",
+        "score": 0.9307425041253512,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\翠竹小筑__ca1015b1.litematic"
+      },
+      {
+        "id": "温馨木屋__449de557",
+        "score": 0.9282674791375979,
+        "mapped_style": "rustic",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\温馨木屋__449de557.litematic"
+      },
+      {
+        "id": "蜘蛛屋__7c95fe83",
+        "score": 0.9274819160825307,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\蜘蛛屋__7c95fe83.litematic"
+      }
+    ]
+  },
+  "mapped_style": "modern",
+  "residential_loft_topup": true,
+  "long_fill_tag": "long_fill_modern"
+}

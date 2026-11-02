@@ -1,0 +1,214 @@
+{
+  "id": "kgoyHp5MeU-rendog_20wall",
+  "source_path": "data\\raw\\hack337\\schematics\\kgoyHp5MeU-rendog%20wall.litematic",
+  "created_at": "2026-10-18T22:26:26+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 27,
+      "y": 7,
+      "z": 5
+    },
+    "non_air": 315,
+    "density": 0.3333,
+    "unique_block_types": 13
+  },
+  "massing": {
+    "hollow_score": 0.4053,
+    "interior_air_frac": 0.4053,
+    "exterior_solid_frac": 0.0974,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 16,
+      "slabs": 26,
+      "walls": 16,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 4,
+      "glass": 16,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 81,
+      "concrete": 12,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4685,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.5594
+    },
+    "solid_ratio": 0.3333
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "black_terracotta",
+        "count": 81,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_quartz_block",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_slab",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "red_sandstone_wall",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "end_rod",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_stained_glass",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_concrete",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_stairs",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "red_sandstone_stairs",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "cut_red_sandstone_slab",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_trapdoor",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 32,
+      "deepslate": 0,
+      "terracotta": 81,
+      "concrete": 12,
+      "wool": 0,
+      "glass": 16,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 4
+    },
+    "remap_targets": [
+      "black_terracotta",
+      "quartz_block",
+      "chiseled_quartz_block",
+      "smooth_quartz",
+      "quartz_slab",
+      "red_sandstone_wall",
+      "end_rod",
+      "light_blue_stained_glass",
+      "light_blue_concrete",
+      "quartz_stairs",
+      "red_sandstone_stairs",
+      "cut_red_sandstone_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "western",
+    "mapped_terrain": "desert",
+    "style_id": 11,
+    "terrain_id": 5,
+    "guess_names": [
+      "desert",
+      "european",
+      "western",
+      "medieval",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "desert",
+        "confidence": 0.525,
+        "raw_score": 0.1746,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.291,
+        "raw_score": 0.1103
+      },
+      {
+        "style": "western",
+        "confidence": 0.236,
+        "raw_score": 0.0931
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.214,
+        "raw_score": 0.0858
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.178,
+        "raw_score": 0.0736
+      }
+    ]
+  },
+  "redstone": {
+    "total": 4,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\kgoyHp5MeU-rendog_20wall_skeleton.npz",
+    "occupancy_frac": 0.335113525390625,
+    "occupied": 10981
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

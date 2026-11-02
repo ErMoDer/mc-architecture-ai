@@ -1,0 +1,231 @@
+{
+  "id": "cb2eed270148_Ruined_20Wall",
+  "source_path": "data\\raw\\hack337\\schematics\\cb2eed270148_Ruined%20Wall.litematic",
+  "created_at": "2026-10-18T22:25:52+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 7,
+      "y": 17,
+      "z": 12
+    },
+    "non_air": 441,
+    "density": 0.3088,
+    "unique_block_types": 21
+  },
+  "massing": {
+    "hollow_score": 0.5893,
+    "interior_air_frac": 0.5893,
+    "exterior_solid_frac": 0.0931,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      5,
+      8,
+      12
+    ],
+    "families": {
+      "stairs": 87,
+      "slabs": 45,
+      "walls": 0,
+      "fences": 6,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 5,
+      "planks": 42,
+      "stone_bricks": 70,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 4,
+      "leaves": 74,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.26,
+      "symmetry_z": 0.8686,
+      "symmetry_y": 0.3653
+    },
+    "solid_ratio": 0.3088
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_stairs",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_shelf",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_leaves",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "vine",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "azalea_leaves",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_stone_bricks",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_stone_brick_stairs",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_cobblestone",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "infested_cobblestone",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_cobblestone_stairs",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 6,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 47,
+      "stone": 102,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 4,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 92,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_stairs",
+      "spruce_slab",
+      "spruce_shelf",
+      "spruce_planks",
+      "mangrove_leaves",
+      "vine",
+      "azalea_leaves",
+      "stone_bricks",
+      "mossy_stone_bricks",
+      "moss_block",
+      "mossy_stone_brick_stairs",
+      "mossy_cobblestone"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "japanese",
+      "chinese",
+      "european",
+      "medieval",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "japanese",
+        "confidence": 0.625,
+        "raw_score": 0.2752,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.596,
+        "raw_score": 0.266
+      },
+      {
+        "style": "european",
+        "confidence": 0.595,
+        "raw_score": 0.2659
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.586,
+        "raw_score": 0.2629
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.507,
+        "raw_score": 0.2376
+      }
+    ]
+  },
+  "redstone": {
+    "total": 6,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "fence_gate": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\cb2eed270148_Ruined_20Wall_skeleton.npz",
+    "occupancy_frac": 0.301025390625,
+    "occupied": 9864
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

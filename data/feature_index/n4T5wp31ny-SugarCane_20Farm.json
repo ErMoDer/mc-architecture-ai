@@ -1,0 +1,262 @@
+{
+  "id": "n4T5wp31ny-SugarCane_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\n4T5wp31ny-SugarCane%20Farm.litematic",
+  "created_at": "2026-10-18T22:26:33+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 11,
+      "y": 41,
+      "z": 32
+    },
+    "non_air": 8061,
+    "density": 0.5586,
+    "unique_block_types": 25
+  },
+  "massing": {
+    "hollow_score": 0.4372,
+    "interior_air_frac": 0.4372,
+    "exterior_solid_frac": 0.1479,
+    "floor_guess": 10,
+    "y_peaks": [
+      0,
+      5,
+      10,
+      16,
+      19,
+      22,
+      25,
+      28,
+      34,
+      39
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 1385,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 63,
+      "concrete": 3022,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 10,
+      "copper": 1,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3265,
+      "symmetry_z": 0.9738,
+      "symmetry_y": 0.6676
+    },
+    "solid_ratio": 0.5586
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "red_concrete",
+        "count": 1402,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 1050,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 785,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 774,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 540,
+        "frac": 0.0
+      },
+      {
+        "name": "sugar_cane",
+        "count": 521,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 421,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 360,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 348,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass",
+        "count": 335,
+        "frac": 0.0
+      },
+      {
+        "name": "rail",
+        "count": 312,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_concrete",
+        "count": 212,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 192,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 180,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_concrete",
+        "count": 147,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_concrete",
+        "count": 128,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 192,
+      "deepslate": 0,
+      "terracotta": 63,
+      "concrete": 3022,
+      "wool": 0,
+      "glass": 1385,
+      "nether": 0,
+      "copper": 1,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 108
+    },
+    "remap_targets": [
+      "red_concrete",
+      "glass",
+      "white_concrete",
+      "dirt",
+      "water",
+      "sugar_cane",
+      "grass_block",
+      "piston",
+      "black_concrete",
+      "black_stained_glass",
+      "rail",
+      "blue_concrete"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "industrial",
+      "european",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.681,
+        "raw_score": 0.3307,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.46,
+        "raw_score": 0.2524
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.296,
+        "raw_score": 0.1834
+      },
+      {
+        "style": "european",
+        "confidence": 0.073,
+        "raw_score": 0.0587
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.072,
+        "raw_score": 0.0584
+      }
+    ]
+  },
+  "redstone": {
+    "total": 1114,
+    "pattern_ids": [
+      "hopper_line",
+      "piston_door",
+      "qc_piston_bank",
+      "item_elevator",
+      "edge_detector",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "物品升降机嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 180,
+      "redstone_block": 48,
+      "piston": 360,
+      "observer": 58,
+      "hopper": 108,
+      "powered_rail": 48,
+      "rail": 312
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\n4T5wp31ny-SugarCane_20Farm_skeleton.npz",
+    "occupancy_frac": 0.63275146484375,
+    "occupied": 20734
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "demoted_from_industrial:farm",
+  "previous_mapped_style": "industrial"
+}

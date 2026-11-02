@@ -1,0 +1,220 @@
+{
+  "id": "CNE53zwNrZ-A-wing",
+  "source_path": "data\\raw\\hack337\\schematics\\CNE53zwNrZ-A-wing.litematic",
+  "created_at": "2026-10-18T22:25:54+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 10,
+      "y": 4,
+      "z": 9
+    },
+    "non_air": 122,
+    "density": 0.3389,
+    "unique_block_types": 14
+  },
+  "massing": {
+    "hollow_score": 0.3839,
+    "interior_air_frac": 0.3839,
+    "exterior_solid_frac": 0.1472,
+    "floor_guess": 1,
+    "y_peaks": [
+      2
+    ],
+    "families": {
+      "stairs": 78,
+      "slabs": 7,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 1,
+      "glass": 2,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 12,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3407,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.5443
+    },
+    "solid_ratio": 0.3389
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "smooth_quartz_stairs",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_stairs",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_block",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "end_rod",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_slab",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "chain",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "grindstone",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_wall_sign",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "red_shulker_box",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_trapdoor",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "rail",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "black_shulker_box",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 12,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 2,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 14
+    },
+    "remap_targets": [
+      "smooth_quartz_stairs",
+      "mangrove_stairs",
+      "stone_brick_stairs",
+      "iron_block",
+      "end_rod",
+      "mangrove_slab",
+      "chain",
+      "grindstone",
+      "mangrove_wall_sign",
+      "black_stained_glass",
+      "red_shulker_box",
+      "birch_trapdoor"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "european",
+      "medieval",
+      "scifi",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.607,
+        "raw_score": 0.2571,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.513,
+        "raw_score": 0.2282
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.428,
+        "raw_score": 0.2
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.298,
+        "raw_score": 0.1524
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.217,
+        "raw_score": 0.119
+      }
+    ]
+  },
+  "redstone": {
+    "total": 5,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 1,
+      "rail": 1,
+      "shulker_box": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\CNE53zwNrZ-A-wing_skeleton.npz",
+    "occupancy_frac": 0.32421875,
+    "occupied": 10624
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

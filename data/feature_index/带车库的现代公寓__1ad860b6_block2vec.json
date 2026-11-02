@@ -1,0 +1,13 @@
+{
+  "id": "带车库的现代公寓__1ad860b6",
+  "dim": 144,
+  "n_chunks": 2,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "带车库的现代公寓__1ad860b6_block2vec.npy"
+}

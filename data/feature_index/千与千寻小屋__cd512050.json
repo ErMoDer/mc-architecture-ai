@@ -1,0 +1,258 @@
+{
+  "id": "千与千寻小屋__cd512050",
+  "source_path": "data\\raw\\mcblock\\千与千寻小屋__cd512050.litematic",
+  "created_at": "2026-10-19T13:01:09+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 14,
+      "y": 13,
+      "z": 22
+    },
+    "non_air": 861,
+    "density": 0.215,
+    "unique_block_types": 53
+  },
+  "massing": {
+    "hollow_score": 0.7701,
+    "interior_air_frac": 0.7701,
+    "exterior_solid_frac": 0.0634,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      5,
+      9
+    ],
+    "families": {
+      "stairs": 30,
+      "slabs": 102,
+      "walls": 1,
+      "fences": 63,
+      "doors": 4,
+      "trapdoors": 78,
+      "glass": 0,
+      "logs": 21,
+      "planks": 15,
+      "stone_bricks": 0,
+      "deepslate": 31,
+      "terracotta": 0,
+      "concrete": 73,
+      "wool": 4,
+      "leaves": 35,
+      "lanterns": 11,
+      "copper": 0,
+      "nether": 7
+    },
+    "symmetry": {
+      "symmetry_x": 0.5212,
+      "symmetry_z": 0.337,
+      "symmetry_y": 0.238
+    },
+    "solid_ratio": 0.215
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "coarse_dirt",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 83,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 74,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete_powder",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_slab",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_trapdoor",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_leaves",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_slab",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_petals",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_mangrove_wood",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_mosaic_slab",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_trapdoor",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 15,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 138,
+      "stone": 52,
+      "deepslate": 31,
+      "terracotta": 0,
+      "concrete": 73,
+      "wool": 4,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 118,
+      "metal": 11
+    },
+    "remap_targets": [
+      "coarse_dirt",
+      "moss_block",
+      "smooth_quartz",
+      "white_concrete_powder",
+      "bamboo_slab",
+      "dark_oak_fence",
+      "bamboo_trapdoor",
+      "cherry_leaves",
+      "andesite",
+      "deepslate_tile_slab",
+      "pink_petals",
+      "stripped_mangrove_wood"
+    ]
+  },
+  "style": {
+    "mapped_style": "japanese",
+    "mapped_terrain": "flat",
+    "style_id": 7,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "japanese",
+      "rustic",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.628,
+        "raw_score": 0.278,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.628,
+        "raw_score": 0.2779
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.587,
+        "raw_score": 0.2653
+      },
+      {
+        "style": "western",
+        "confidence": 0.365,
+        "raw_score": 0.1885
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.291,
+        "raw_score": 0.1589
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 102,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 8,
+      "door": 4,
+      "trapdoor": 78,
+      "fence_gate": 11,
+      "furnace": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\千与千寻小屋__cd512050_skeleton.npz",
+    "occupancy_frac": 0.22137451171875,
+    "occupied": 7254
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 4,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\千与千寻小屋__cd512050_block2vec.npy",
+    "vector_preview": [
+      -0.06338,
+      0.20772,
+      -0.05418,
+      -0.08831,
+      0.155,
+      0.02323,
+      -0.03615,
+      0.11327
+    ],
+    "ok": true
+  }
+}

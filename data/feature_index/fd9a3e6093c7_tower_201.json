@@ -1,0 +1,259 @@
+{
+  "id": "fd9a3e6093c7_tower_201",
+  "source_path": "data\\raw\\hack337\\schematics\\fd9a3e6093c7_tower%201.litematic",
+  "created_at": "2026-10-18T22:26:11+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 19,
+      "y": 47,
+      "z": 17
+    },
+    "non_air": 1664,
+    "density": 0.1096,
+    "unique_block_types": 17
+  },
+  "massing": {
+    "hollow_score": 0.8837,
+    "interior_air_frac": 0.8837,
+    "exterior_solid_frac": 0.0217,
+    "floor_guess": 8,
+    "y_peaks": [
+      0,
+      6,
+      11,
+      16,
+      21,
+      26,
+      32,
+      37
+    ],
+    "families": {
+      "stairs": 50,
+      "slabs": 12,
+      "walls": 11,
+      "fences": 21,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 37,
+      "planks": 0,
+      "stone_bricks": 929,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 3,
+      "lanterns": 7,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2164,
+      "symmetry_z": 0.8856,
+      "symmetry_y": 0.1255
+    },
+    "solid_ratio": 0.1096
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 880,
+        "frac": 0.0
+      },
+      {
+        "name": "amethyst_block",
+        "count": 294,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 249,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 74,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "black_candle",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "flowering_azalea_leaves",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 37,
+      "stone": 929,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 3,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "amethyst_block",
+      "grass_block",
+      "dirt",
+      "stripped_spruce_log",
+      "stone_brick_stairs",
+      "ladder",
+      "spruce_fence_gate",
+      "spruce_stairs",
+      "stone_brick_wall",
+      "spruce_slab",
+      "black_candle"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.6644,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.796,
+        "raw_score": 0.6225
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.225,
+        "raw_score": 0.2497
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.165,
+        "raw_score": 0.1992
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.147,
+        "raw_score": 0.1828
+      }
+    ]
+  },
+  "redstone": {
+    "total": 18,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "fence_gate": 17,
+      "lectern": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\fd9a3e6093c7_tower_201_skeleton.npz",
+    "occupancy_frac": 0.128082275390625,
+    "occupied": 4197
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 24,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\fd9a3e6093c7_tower_201_block2vec.npy",
+    "vector_preview": [
+      -0.02559,
+      0.13,
+      -0.05281,
+      0.09411,
+      0.00703,
+      -0.02512,
+      -0.021,
+      0.06498
+    ],
+    "ok": true
+  }
+}

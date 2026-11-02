@@ -1,0 +1,13 @@
+{
+  "id": "赛博朋克公寓楼__7936053d",
+  "dim": 144,
+  "n_chunks": 30,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "赛博朋克公寓楼__7936053d_block2vec.npy"
+}

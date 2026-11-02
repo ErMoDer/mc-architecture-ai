@@ -1,0 +1,249 @@
+{
+  "id": "6RnKBQ1BvV-RedstoneShop",
+  "source_path": "data\\raw\\hack337\\schematics\\6RnKBQ1BvV-RedstoneShop.litematic",
+  "created_at": "2026-10-18T22:25:24+08:00",
+  "overview": {
+    "schematic_name": "RedstoneShop",
+    "size": {
+      "x": 19,
+      "y": 48,
+      "z": 21
+    },
+    "non_air": 4441,
+    "density": 0.2319,
+    "unique_block_types": 61
+  },
+  "massing": {
+    "hollow_score": 0.7221,
+    "interior_air_frac": 0.7221,
+    "exterior_solid_frac": 0.0163,
+    "floor_guess": 12,
+    "y_peaks": [
+      0,
+      4,
+      8,
+      11,
+      15,
+      20,
+      24,
+      27,
+      31,
+      36,
+      39,
+      45
+    ],
+    "families": {
+      "stairs": 499,
+      "slabs": 496,
+      "walls": 16,
+      "fences": 104,
+      "doors": 2,
+      "trapdoors": 150,
+      "glass": 124,
+      "logs": 836,
+      "planks": 925,
+      "stone_bricks": 76,
+      "deepslate": 8,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 10,
+      "leaves": 200,
+      "lanterns": 3,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8942,
+      "symmetry_z": 0.8878,
+      "symmetry_y": 0.3805
+    },
+    "solid_ratio": 0.2319
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 925,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_birch_wood",
+        "count": 544,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 483,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 457,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 285,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 256,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_leaves",
+        "count": 190,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 159,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 150,
+        "frac": 0.0
+      },
+      {
+        "name": "vine",
+        "count": 130,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 106,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 86,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 81,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 42,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1761,
+      "stone": 476,
+      "deepslate": 8,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 10,
+      "glass": 124,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 3,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 213,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "stripped_birch_wood",
+      "spruce_slab",
+      "spruce_stairs",
+      "stripped_spruce_wood",
+      "stone",
+      "jungle_leaves",
+      "grass_block",
+      "spruce_trapdoor",
+      "vine",
+      "glass_pane",
+      "calcite"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5945,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.67,
+        "raw_score": 0.4801
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.599,
+        "raw_score": 0.4469
+      },
+      {
+        "style": "western",
+        "confidence": 0.497,
+        "raw_score": 0.3959
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.235,
+        "raw_score": 0.2378
+      }
+    ]
+  },
+  "redstone": {
+    "total": 195,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 34,
+      "door": 2,
+      "trapdoor": 150,
+      "fence_gate": 8,
+      "lectern": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\6RnKBQ1BvV-RedstoneShop_skeleton.npz",
+    "occupancy_frac": 0.261993408203125,
+    "occupied": 8585
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

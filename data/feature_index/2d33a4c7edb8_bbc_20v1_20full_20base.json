@@ -1,0 +1,272 @@
+{
+  "id": "2d33a4c7edb8_bbc_20v1_20full_20base",
+  "source_path": "data\\raw\\hack337\\schematics\\2d33a4c7edb8_bbc%20v1%20full%20base.litematic",
+  "created_at": "2026-10-18T22:24:59+08:00",
+  "overview": {
+    "schematic_name": "bbc v1 full base",
+    "size": {
+      "x": 16,
+      "y": 13,
+      "z": 7
+    },
+    "non_air": 642,
+    "density": 0.4409,
+    "unique_block_types": 28
+  },
+  "massing": {
+    "hollow_score": 0.5584,
+    "interior_air_frac": 0.5584,
+    "exterior_solid_frac": 0.2074,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      3,
+      7,
+      12
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 137,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 186,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 14,
+      "copper": 1,
+      "nether": 3
+    },
+    "symmetry": {
+      "symmetry_x": 0.4725,
+      "symmetry_z": 0.8034,
+      "symmetry_y": 0.3762
+    },
+    "solid_ratio": 0.4409
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "white_concrete",
+        "count": 162,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 137,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 105,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_concrete",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "crafter",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "bubble_column",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_bars",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "glow_lichen",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 186,
+      "wool": 0,
+      "glass": 137,
+      "nether": 3,
+      "copper": 1,
+      "prismarine": 14,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 27,
+      "leaves": 0,
+      "metal": 43
+    },
+    "remap_targets": [
+      "white_concrete",
+      "glass",
+      "grass_block",
+      "hopper",
+      "packed_ice",
+      "water",
+      "light_gray_concrete",
+      "observer",
+      "crafter",
+      "bubble_column",
+      "redstone_wire",
+      "sea_lantern"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "industrial",
+      "fantasy",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.636,
+        "raw_score": 0.286,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.489,
+        "raw_score": 0.238
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.292,
+        "raw_score": 0.163
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.079,
+        "raw_score": 0.0556
+      },
+      {
+        "style": "european",
+        "confidence": 0.066,
+        "raw_score": 0.0476
+      }
+    ]
+  },
+  "redstone": {
+    "total": 93,
+    "pattern_ids": [
+      "observer_clock",
+      "simple_io",
+      "crafter_auto_line",
+      "etho_hopper_clock",
+      "copper_bulb_latch",
+      "shulker_loader",
+      "qc_piston_bank",
+      "edge_detector",
+      "note_block_line",
+      "hopper_clock",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "water_hopper_stream"
+    ],
+    "pattern_labels": [
+      "观察者互看/相邻时钟",
+      "杠杆/按钮 → 灯或门",
+      "合成器自动线（1.21）",
+      "多漏斗环钟嫌疑",
+      "铜灯泡锁存/切换",
+      "潜影盒装卸线嫌疑",
+      "QC/BUD 活塞组",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "水流漏斗收集线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 14,
+      "redstone_block": 1,
+      "comparator": 2,
+      "lever": 1,
+      "sticky_piston": 1,
+      "observer": 19,
+      "hopper": 31,
+      "dropper": 2,
+      "dispenser": 1,
+      "note_block": 2,
+      "redstone_lamp": 1,
+      "copper_bulb": 1,
+      "crafter": 16,
+      "shulker_box": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\2d33a4c7edb8_bbc_20v1_20full_20base_skeleton.npz",
+    "occupancy_frac": 0.448486328125,
+    "occupied": 14696
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

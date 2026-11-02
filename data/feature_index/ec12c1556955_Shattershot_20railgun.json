@@ -1,0 +1,238 @@
+{
+  "id": "ec12c1556955_Shattershot_20railgun",
+  "source_path": "data\\raw\\hack337\\schematics\\ec12c1556955_Shattershot%20railgun.litematic",
+  "created_at": "2026-10-18T22:26:07+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 19,
+      "y": 46,
+      "z": 18
+    },
+    "non_air": 226,
+    "density": 0.0144,
+    "unique_block_types": 13
+  },
+  "massing": {
+    "hollow_score": 0.9811,
+    "interior_air_frac": 0.9811,
+    "exterior_solid_frac": 0.0,
+    "floor_guess": 7,
+    "y_peaks": [
+      4,
+      7,
+      11,
+      14,
+      17,
+      20,
+      23
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 20,
+      "walls": 45,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 2,
+      "glass": 13,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 45,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.0918,
+      "symmetry_z": 0.0,
+      "symmetry_y": 0.066
+    },
+    "solid_ratio": 0.0144
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "mossy_stone_brick_wall",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_brick_slab",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "bubble_column",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "soul_sand",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "magma_block",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 65,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 13,
+      "nether": 2,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "mossy_stone_brick_wall",
+      "obsidian",
+      "dispenser",
+      "redstone_wire",
+      "prismarine_brick_slab",
+      "observer",
+      "glass",
+      "bubble_column",
+      "oak_trapdoor",
+      "sticky_piston",
+      "soul_sand",
+      "magma_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.823,
+        "raw_score": 0.4735,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.671,
+        "raw_score": 0.4152
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.282,
+        "raw_score": 0.2302
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.155,
+        "raw_score": 0.1477
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.139,
+        "raw_score": 0.1354
+      }
+    ]
+  },
+  "redstone": {
+    "total": 95,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "observer_clock",
+      "edge_detector",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "portal_frame_cue"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "观察者相邻时钟嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "传送门框/黑曜石阵嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 30,
+      "lever": 1,
+      "sticky_piston": 2,
+      "observer": 20,
+      "dispenser": 40,
+      "trapdoor": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\ec12c1556955_Shattershot_20railgun_skeleton.npz",
+    "occupancy_frac": 0.015899658203125,
+    "occupied": 521
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

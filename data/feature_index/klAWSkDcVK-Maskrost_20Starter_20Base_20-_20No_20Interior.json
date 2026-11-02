@@ -1,0 +1,240 @@
+{
+  "id": "klAWSkDcVK-Maskrost_20Starter_20Base_20-_20No_20Interior",
+  "source_path": "data\\raw\\hack337\\schematics\\klAWSkDcVK-Maskrost%20Starter%20Base%20-%20No%20Interior.litematic",
+  "created_at": "2026-10-18T22:26:27+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 23,
+      "y": 16,
+      "z": 19
+    },
+    "non_air": 2008,
+    "density": 0.2872,
+    "unique_block_types": 36
+  },
+  "massing": {
+    "hollow_score": 0.7115,
+    "interior_air_frac": 0.7115,
+    "exterior_solid_frac": 0.0809,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      4,
+      8,
+      13
+    ],
+    "families": {
+      "stairs": 360,
+      "slabs": 77,
+      "walls": 1,
+      "fences": 124,
+      "doors": 8,
+      "trapdoors": 131,
+      "glass": 18,
+      "logs": 136,
+      "planks": 467,
+      "stone_bricks": 37,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 44,
+      "leaves": 18,
+      "lanterns": 21,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8846,
+      "symmetry_z": 0.3086,
+      "symmetry_y": 0.1743
+    },
+    "solid_ratio": 0.2872
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 235,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 172,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 170,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 158,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 137,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_stairs",
+        "count": 130,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "wheat",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_stairs",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 48,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 603,
+      "stone": 217,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 44,
+      "glass": 18,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 18,
+      "metal": 0
+    },
+    "remap_targets": [
+      "grass_block",
+      "birch_planks",
+      "spruce_stairs",
+      "oak_planks",
+      "spruce_planks",
+      "birch_stairs",
+      "spruce_trapdoor",
+      "oak_log",
+      "farmland",
+      "wheat",
+      "spruce_fence_gate",
+      "spruce_fence"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5915,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.66,
+        "raw_score": 0.4738
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.579,
+        "raw_score": 0.436
+      },
+      {
+        "style": "western",
+        "confidence": 0.489,
+        "raw_score": 0.3908
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.253,
+        "raw_score": 0.2498
+      }
+    ]
+  },
+  "redstone": {
+    "total": 224,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 22,
+      "door": 8,
+      "trapdoor": 131,
+      "fence_gate": 63
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\klAWSkDcVK-Maskrost_20Starter_20Base_20-_20No_20Interior_skeleton.npz",
+    "occupancy_frac": 0.2816162109375,
+    "occupied": 9228
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

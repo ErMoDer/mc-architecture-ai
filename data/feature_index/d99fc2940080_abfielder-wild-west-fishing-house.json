@@ -1,0 +1,279 @@
+{
+  "id": "d99fc2940080_abfielder-wild-west-fishing-house",
+  "source_path": "data\\raw\\hack337\\schematics\\d99fc2940080_abfielder-wild-west-fishing-house.litematic",
+  "created_at": "2026-10-18T22:25:58+08:00",
+  "overview": {
+    "schematic_name": "abfielder-wild-west-fishing-house",
+    "size": {
+      "x": 35,
+      "y": 20,
+      "z": 25
+    },
+    "non_air": 3252,
+    "density": 0.1858,
+    "unique_block_types": 39
+  },
+  "massing": {
+    "hollow_score": 0.7638,
+    "interior_air_frac": 0.7638,
+    "exterior_solid_frac": 0.0014,
+    "floor_guess": 4,
+    "y_peaks": [
+      3,
+      7,
+      10,
+      15
+    ],
+    "families": {
+      "stairs": 491,
+      "slabs": 241,
+      "walls": 0,
+      "fences": 140,
+      "doors": 4,
+      "trapdoors": 218,
+      "glass": 79,
+      "logs": 437,
+      "planks": 1162,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 45,
+      "leaves": 0,
+      "lanterns": 42,
+      "copper": 0,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.843,
+      "symmetry_z": 0.93,
+      "symmetry_y": 0.0876
+    },
+    "solid_ratio": 0.1858
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 1053,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 427,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 343,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 218,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 140,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 132,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 115,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 109,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 101,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_button",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "red_carpet",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 42,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1599,
+      "stone": 5,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 45,
+      "glass": 79,
+      "nether": 1,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 18,
+      "leaves": 0,
+      "metal": 39
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "spruce_stairs",
+      "stripped_spruce_log",
+      "spruce_trapdoor",
+      "dark_oak_slab",
+      "spruce_fence",
+      "water",
+      "dark_oak_planks",
+      "spruce_slab",
+      "spruce_log",
+      "white_stained_glass",
+      "oak_button"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6977,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.695,
+        "raw_score": 0.5702
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.637,
+        "raw_score": 0.5227
+      },
+      {
+        "style": "western",
+        "confidence": 0.636,
+        "raw_score": 0.5223
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.198,
+        "raw_score": 0.2361
+      }
+    ]
+  },
+  "redstone": {
+    "total": 355,
+    "pattern_ids": [
+      "hopper_line",
+      "item_elevator",
+      "etho_hopper_clock",
+      "edge_detector",
+      "hopper_clock",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "物品升降机嫌疑",
+      "多漏斗环钟嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "comparator": 2,
+      "button": 72,
+      "pressure_plate": 6,
+      "sticky_piston": 2,
+      "observer": 4,
+      "hopper": 39,
+      "dispenser": 2,
+      "door": 4,
+      "trapdoor": 218,
+      "fence_gate": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\d99fc2940080_abfielder-wild-west-fishing-house_skeleton.npz",
+    "occupancy_frac": 0.192626953125,
+    "occupied": 6312
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 18,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\d99fc2940080_abfielder-wild-west-fishing-house_block2vec.npy",
+    "vector_preview": [
+      -0.10019,
+      0.18173,
+      -0.10179,
+      0.0221,
+      0.16219,
+      0.01595,
+      -0.05006,
+      0.05743
+    ],
+    "ok": true
+  }
+}

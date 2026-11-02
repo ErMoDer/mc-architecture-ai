@@ -1,0 +1,228 @@
+{
+  "id": "a6eb519d416d_Chest_20Room",
+  "source_path": "data\\raw\\hack337\\schematics\\a6eb519d416d_Chest%20Room.litematic",
+  "created_at": "2026-10-18T22:25:38+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 20,
+      "y": 11,
+      "z": 25
+    },
+    "non_air": 2257,
+    "density": 0.4104,
+    "unique_block_types": 18
+  },
+  "massing": {
+    "hollow_score": 0.6616,
+    "interior_air_frac": 0.6616,
+    "exterior_solid_frac": 0.1811,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      5,
+      10
+    ],
+    "families": {
+      "stairs": 80,
+      "slabs": 46,
+      "walls": 0,
+      "fences": 52,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 9,
+      "planks": 2,
+      "stone_bricks": 510,
+      "deepslate": 924,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 15,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6133,
+      "symmetry_z": 0.9291,
+      "symmetry_y": 0.4987
+    },
+    "solid_ratio": 0.4104
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "deepslate_bricks",
+        "count": 807,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 509,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 414,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 292,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_stairs",
+        "count": 74,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_slab",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "chain",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 11,
+      "stone": 802,
+      "deepslate": 924,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 7,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 2
+    },
+    "remap_targets": [
+      "deepslate_bricks",
+      "stone_bricks",
+      "chest",
+      "stone",
+      "deepslate_brick_stairs",
+      "spruce_fence",
+      "deepslate_brick_slab",
+      "grass_block",
+      "spruce_log",
+      "lantern",
+      "sea_lantern",
+      "spruce_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "european",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.675,
+        "raw_score": 0.3253,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.561,
+        "raw_score": 0.2867
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.167,
+        "raw_score": 0.1164
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.118,
+        "raw_score": 0.0875
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.106,
+        "raw_score": 0.0802
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\a6eb519d416d_Chest_20Room_skeleton.npz",
+    "occupancy_frac": 0.394683837890625,
+    "occupied": 12933
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

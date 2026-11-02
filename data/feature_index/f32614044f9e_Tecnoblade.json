@@ -1,0 +1,246 @@
+{
+  "id": "f32614044f9e_Tecnoblade",
+  "source_path": "data\\raw\\hack337\\schematics\\f32614044f9e_Tecnoblade.litematic",
+  "created_at": "2026-10-18T22:26:09+08:00",
+  "overview": {
+    "schematic_name": "Tecnoblade",
+    "size": {
+      "x": 29,
+      "y": 32,
+      "z": 17
+    },
+    "non_air": 2025,
+    "density": 0.1284,
+    "unique_block_types": 45
+  },
+  "massing": {
+    "hollow_score": 0.8472,
+    "interior_air_frac": 0.8472,
+    "exterior_solid_frac": 0.0106,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      3,
+      8,
+      18,
+      24,
+      29
+    ],
+    "families": {
+      "stairs": 3,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 2,
+      "trapdoors": 1,
+      "glass": 0,
+      "logs": 2,
+      "planks": 2,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 216,
+      "concrete": 619,
+      "wool": 533,
+      "leaves": 0,
+      "lanterns": 7,
+      "copper": 0,
+      "nether": 2
+    },
+    "symmetry": {
+      "symmetry_x": 0.0633,
+      "symmetry_z": 0.4558,
+      "symmetry_y": 0.2997
+    },
+    "solid_ratio": 0.1284
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone",
+        "count": 459,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_wool",
+        "count": 279,
+        "frac": 0.0
+      },
+      {
+        "name": "red_wool",
+        "count": 188,
+        "frac": 0.0
+      },
+      {
+        "name": "red_terracotta",
+        "count": 139,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_concrete_powder",
+        "count": 134,
+        "frac": 0.0
+      },
+      {
+        "name": "red_concrete",
+        "count": 130,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 102,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_concrete",
+        "count": 74,
+        "frac": 0.0
+      },
+      {
+        "name": "gold_block",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_terracotta",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_concrete_powder",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_concrete",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_wool",
+        "count": 24,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 4,
+      "stone": 464,
+      "deepslate": 0,
+      "terracotta": 216,
+      "concrete": 619,
+      "wool": 533,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 11,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 6,
+      "leaves": 0,
+      "metal": 68
+    },
+    "remap_targets": [
+      "stone",
+      "pink_wool",
+      "red_wool",
+      "red_terracotta",
+      "gray_concrete_powder",
+      "red_concrete",
+      "black_concrete",
+      "pink_concrete",
+      "gold_block",
+      "white_concrete",
+      "cyan_terracotta",
+      "white_wool"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "industrial",
+      "fantasy",
+      "european",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.497,
+        "raw_score": 0.1466,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.435,
+        "raw_score": 0.1323
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.334,
+        "raw_score": 0.1071
+      },
+      {
+        "style": "european",
+        "confidence": 0.321,
+        "raw_score": 0.1038
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.29,
+        "raw_score": 0.0954
+      }
+    ]
+  },
+  "redstone": {
+    "total": 45,
+    "pattern_ids": [
+      "simple_io",
+      "door_line",
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线",
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "redstone_block": 10,
+      "button": 2,
+      "redstone_lamp": 9,
+      "iron_door": 2,
+      "trapdoor": 1,
+      "tripwire": 21
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\f32614044f9e_Tecnoblade_skeleton.npz",
+    "occupancy_frac": 0.134002685546875,
+    "occupied": 4391
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

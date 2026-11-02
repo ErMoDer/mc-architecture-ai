@@ -1,0 +1,312 @@
+{
+  "id": "绯红小屋__1c17fbaa",
+  "source_path": "data\\raw\\mcblock\\绯红小屋__1c17fbaa.litematic",
+  "created_at": "2026-10-19T20:37:04+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 38,
+      "y": 31,
+      "z": 44
+    },
+    "non_air": 3494,
+    "density": 0.0674,
+    "unique_block_types": 110
+  },
+  "massing": {
+    "hollow_score": 0.9231,
+    "interior_air_frac": 0.9231,
+    "exterior_solid_frac": 0.0024,
+    "floor_guess": 4,
+    "y_peaks": [
+      1,
+      6,
+      12,
+      17
+    ],
+    "families": {
+      "stairs": 239,
+      "slabs": 164,
+      "walls": 31,
+      "fences": 126,
+      "doors": 8,
+      "trapdoors": 111,
+      "glass": 30,
+      "logs": 1244,
+      "planks": 300,
+      "stone_bricks": 12,
+      "deepslate": 0,
+      "terracotta": 67,
+      "concrete": 0,
+      "wool": 21,
+      "leaves": 22,
+      "lanterns": 51,
+      "copper": 0,
+      "nether": 790
+    },
+    "symmetry": {
+      "symmetry_x": 0.2069,
+      "symmetry_z": 0.0974,
+      "symmetry_y": 0.1326
+    },
+    "solid_ratio": 0.0674
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_spruce_log",
+        "count": 487,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 296,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_wood",
+        "count": 273,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_roots",
+        "count": 229,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 177,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_crimson_hyphae",
+        "count": 155,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_log",
+        "count": 145,
+        "frac": 0.0
+      },
+      {
+        "name": "netherrack",
+        "count": 133,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_wart_block",
+        "count": 125,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_mangrove_wood",
+        "count": 116,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence",
+        "count": 114,
+        "frac": 0.0
+      },
+      {
+        "name": "red_nether_bricks",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "soul_soil",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "red_nether_brick_slab",
+        "count": 68,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1544,
+      "stone": 252,
+      "deepslate": 0,
+      "terracotta": 67,
+      "concrete": 0,
+      "wool": 21,
+      "glass": 30,
+      "nether": 384,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 61,
+      "metal": 10
+    },
+    "remap_targets": [
+      "stripped_spruce_log",
+      "dark_oak_planks",
+      "dark_oak_wood",
+      "mangrove_roots",
+      "dark_oak_stairs",
+      "stripped_crimson_hyphae",
+      "stripped_dark_oak_log",
+      "netherrack",
+      "nether_wart_block",
+      "stripped_mangrove_wood",
+      "dark_oak_fence",
+      "red_nether_bricks"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5585,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.62,
+        "raw_score": 0.4388
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.546,
+        "raw_score": 0.4044
+      },
+      {
+        "style": "western",
+        "confidence": 0.506,
+        "raw_score": 0.3849
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.193,
+        "raw_score": 0.1974
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 163,
+    "pattern_ids": [
+      "door_line",
+      "simple_io",
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "lever": 1,
+      "pressure_plate": 2,
+      "hopper": 2,
+      "door": 8,
+      "trapdoor": 111,
+      "fence_gate": 5,
+      "tripwire": 8,
+      "brewing_stand": 3,
+      "furnace": 6,
+      "smoker": 6,
+      "blast_furnace": 3,
+      "lectern": 1,
+      "chiseled_bookshelf": 7
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\绯红小屋__1c17fbaa_skeleton.npz",
+    "occupancy_frac": 0.07867431640625,
+    "occupied": 2578
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 22,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\绯红小屋__1c17fbaa_block2vec.npy",
+    "vector_preview": [
+      -0.05346,
+      0.1911,
+      -0.13461,
+      -0.00722,
+      0.07756,
+      0.028,
+      -0.08129,
+      0.0462
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "精灵蕨__dfb4a417",
+        "score": 0.9389830738575403,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\精灵蕨__dfb4a417.litematic"
+      },
+      {
+        "id": "冒险者居所__7126c7b1",
+        "score": 0.9354069536588226,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\冒险者居所__7126c7b1.litematic"
+      },
+      {
+        "id": "海滨小筑__8e86858e",
+        "score": 0.930903620321091,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\海滨小筑__8e86858e.litematic"
+      },
+      {
+        "id": "地冠真菌__07815707",
+        "score": 0.9295552837830334,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\地冠真菌__07815707.litematic"
+      },
+      {
+        "id": "蛋壳农舍__5738c04f",
+        "score": 0.9279693031719678,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\蛋壳农舍__5738c04f.litematic"
+      }
+    ]
+  }
+}

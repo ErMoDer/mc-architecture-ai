@@ -1,0 +1,265 @@
+{
+  "id": "73717a851605_mid-end_20game_20house",
+  "source_path": "data\\raw\\hack337\\schematics\\73717a851605_mid-end%20game%20house.litematic",
+  "created_at": "2026-10-18T22:25:25+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 29,
+      "y": 20,
+      "z": 44
+    },
+    "non_air": 4073,
+    "density": 0.1596,
+    "unique_block_types": 45
+  },
+  "massing": {
+    "hollow_score": 0.8675,
+    "interior_air_frac": 0.8675,
+    "exterior_solid_frac": 0.0536,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      5,
+      12,
+      15
+    ],
+    "families": {
+      "stairs": 463,
+      "slabs": 449,
+      "walls": 54,
+      "fences": 14,
+      "doors": 4,
+      "trapdoors": 70,
+      "glass": 46,
+      "logs": 64,
+      "planks": 733,
+      "stone_bricks": 0,
+      "deepslate": 256,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 92,
+      "leaves": 0,
+      "lanterns": 4,
+      "copper": 27,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2738,
+      "symmetry_z": 0.5898,
+      "symmetry_y": 0.1023
+    },
+    "solid_ratio": 0.1596
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dark_oak_planks",
+        "count": 730,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 721,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 559,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_tuff_stairs",
+        "count": 387,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate",
+        "count": 256,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_tuff_slab",
+        "count": 240,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 209,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 128,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 128,
+        "frac": 0.0
+      },
+      {
+        "name": "red_carpet",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 74,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_tuff",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_log",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite_wall",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 49,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 797,
+      "stone": 1339,
+      "deepslate": 256,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 92,
+      "glass": 46,
+      "nether": 0,
+      "copper": 27,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "dark_oak_planks",
+      "grass_block",
+      "diorite",
+      "polished_tuff_stairs",
+      "polished_deepslate",
+      "polished_tuff_slab",
+      "dark_oak_slab",
+      "dirt",
+      "glowstone",
+      "red_carpet",
+      "dark_oak_stairs",
+      "dark_oak_trapdoor"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "medieval",
+      "rustic",
+      "european",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.643,
+        "raw_score": 0.2934,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.613,
+        "raw_score": 0.2839
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.594,
+        "raw_score": 0.2776
+      },
+      {
+        "style": "european",
+        "confidence": 0.575,
+        "raw_score": 0.2714
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.567,
+        "raw_score": 0.269
+      }
+    ]
+  },
+  "redstone": {
+    "total": 85,
+    "pattern_ids": [
+      "door_line",
+      "simple_io"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门"
+    ],
+    "inventory_nonzero": {
+      "pressure_plate": 2,
+      "hopper": 1,
+      "door": 4,
+      "trapdoor": 70,
+      "smoker": 4,
+      "blast_furnace": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\73717a851605_mid-end_20game_20house_skeleton.npz",
+    "occupancy_frac": 0.1824951171875,
+    "occupied": 5980
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 15,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\73717a851605_mid-end_20game_20house_block2vec.npy",
+    "vector_preview": [
+      0.06732,
+      0.21607,
+      -0.12708,
+      -0.04995,
+      -0.01164,
+      0.08684,
+      -0.04454,
+      0.01785
+    ],
+    "ok": true
+  }
+}

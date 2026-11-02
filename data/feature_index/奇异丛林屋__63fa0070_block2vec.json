@@ -1,0 +1,13 @@
+{
+  "id": "奇异丛林屋__63fa0070",
+  "dim": 144,
+  "n_chunks": 36,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "奇异丛林屋__63fa0070_block2vec.npy"
+}

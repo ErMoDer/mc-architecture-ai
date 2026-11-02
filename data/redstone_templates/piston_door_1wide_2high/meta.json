@@ -1,0 +1,14 @@
+{
+  "id": "piston_door_1wide_2high",
+  "matches": [
+    "piston_door_narrow",
+    "flush_door_1wide"
+  ],
+  "label_zh": "单列双高活塞门（教学）",
+  "size": [
+    1,
+    2,
+    3
+  ],
+  "notes": "1宽×2高粘性活塞门示意；实装需补门板与藏线。"
+}

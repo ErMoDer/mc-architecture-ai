@@ -1,0 +1,203 @@
+{
+  "id": "兽人小屋1__7771ba0f",
+  "source_path": "data\\raw\\mcblock\\兽人小屋1__7771ba0f.litematic",
+  "created_at": "2026-10-19T16:09:43+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 17,
+      "y": 13,
+      "z": 7
+    },
+    "non_air": 211,
+    "density": 0.1364,
+    "unique_block_types": 7
+  },
+  "massing": {
+    "hollow_score": 0.8364,
+    "interior_air_frac": 0.8364,
+    "exterior_solid_frac": 0.0491,
+    "floor_guess": 4,
+    "y_peaks": [
+      2,
+      5,
+      8,
+      11
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 15,
+      "walls": 0,
+      "fences": 25,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 44,
+      "planks": 40,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 83,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3439,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.1105
+    },
+    "solid_ratio": 0.1364
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "orange_wool",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 84,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 83,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "orange_wool",
+      "oak_log",
+      "oak_planks",
+      "oak_fence",
+      "oak_slab",
+      "white_wool",
+      "wall_torch"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.829,
+        "raw_score": 0.4789,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.448,
+        "raw_score": 0.3201
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.394,
+        "raw_score": 0.2934
+      },
+      {
+        "style": "western",
+        "confidence": 0.394,
+        "raw_score": 0.2934
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.243,
+        "raw_score": 0.2086
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\兽人小屋1__7771ba0f_skeleton.npz",
+    "occupancy_frac": 0.14404296875,
+    "occupied": 4720
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 4,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\兽人小屋1__7771ba0f_block2vec.npy",
+    "vector_preview": [
+      -0.02324,
+      0.14579,
+      -0.09445,
+      0.09348,
+      -0.04898,
+      0.07642,
+      -0.06482,
+      0.02812
+    ],
+    "ok": true
+  }
+}

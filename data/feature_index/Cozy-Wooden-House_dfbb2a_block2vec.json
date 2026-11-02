@@ -1,0 +1,13 @@
+{
+  "id": "Cozy-Wooden-House_dfbb2a",
+  "dim": 144,
+  "n_chunks": 12,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "Cozy-Wooden-House_dfbb2a_block2vec.npy"
+}

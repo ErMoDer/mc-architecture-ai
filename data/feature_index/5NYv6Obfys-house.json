@@ -1,0 +1,263 @@
+{
+  "id": "5NYv6Obfys-house",
+  "source_path": "data\\raw\\hack337\\schematics\\5NYv6Obfys-house.litematic",
+  "created_at": "2026-10-18T22:25:17+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 46,
+      "y": 28,
+      "z": 24
+    },
+    "non_air": 4568,
+    "density": 0.1478,
+    "unique_block_types": 47
+  },
+  "massing": {
+    "hollow_score": 0.856,
+    "interior_air_frac": 0.856,
+    "exterior_solid_frac": 0.0305,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      8,
+      11,
+      17
+    ],
+    "families": {
+      "stairs": 753,
+      "slabs": 55,
+      "walls": 84,
+      "fences": 249,
+      "doors": 2,
+      "trapdoors": 201,
+      "glass": 116,
+      "logs": 580,
+      "planks": 804,
+      "stone_bricks": 252,
+      "deepslate": 918,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 39,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5267,
+      "symmetry_z": 0.364,
+      "symmetry_y": 0.0389
+    },
+    "solid_ratio": 0.1478
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "snow",
+        "count": 792,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 488,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 465,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_log",
+        "count": 394,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 346,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 339,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 225,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 180,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 167,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 138,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 116,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 103,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_wall",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_stone_bricks",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 61,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1384,
+      "stone": 410,
+      "deepslate": 918,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 116,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 792,
+      "leaves": 4,
+      "metal": 0
+    },
+    "remap_targets": [
+      "snow",
+      "deepslate_tile_stairs",
+      "spruce_planks",
+      "stripped_dark_oak_log",
+      "deepslate_tiles",
+      "oak_planks",
+      "spruce_stairs",
+      "stone_bricks",
+      "spruce_fence",
+      "stripped_spruce_log",
+      "glass_pane",
+      "spruce_trapdoor"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.732,
+        "raw_score": 0.3818,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.424,
+        "raw_score": 0.2638
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.375,
+        "raw_score": 0.2419
+      },
+      {
+        "style": "western",
+        "confidence": 0.334,
+        "raw_score": 0.2228
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.239,
+        "raw_score": 0.1743
+      }
+    ]
+  },
+  "redstone": {
+    "total": 323,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 42,
+      "door": 2,
+      "trapdoor": 201,
+      "fence_gate": 78
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\5NYv6Obfys-house_skeleton.npz",
+    "occupancy_frac": 0.187744140625,
+    "occupied": 6152
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 20,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\5NYv6Obfys-house_block2vec.npy",
+    "vector_preview": [
+      -0.06283,
+      0.14853,
+      -0.0462,
+      0.03674,
+      0.14116,
+      0.05648,
+      0.06585,
+      0.00827
+    ],
+    "ok": true
+  }
+}

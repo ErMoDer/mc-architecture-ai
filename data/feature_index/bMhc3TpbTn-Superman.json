@@ -1,0 +1,146 @@
+{
+  "id": "bMhc3TpbTn-Superman",
+  "source_path": "data\\raw\\hack337\\schematics\\bMhc3TpbTn-Superman.litematic",
+  "created_at": "2026-10-18T22:25:48+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 23,
+      "y": 19,
+      "z": 1
+    },
+    "non_air": 249,
+    "density": 0.5698,
+    "unique_block_types": 4
+  },
+  "massing": {
+    "hollow_score": 0.0,
+    "interior_air_frac": 0.4302059496567506,
+    "exterior_solid_frac": 0.5697940503432495,
+    "floor_guess": 1,
+    "y_peaks": [
+      11
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 2,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 247,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9841,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.5323
+    },
+    "solid_ratio": 0.5698
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "red_concrete",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_concrete",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 2,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 247,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "red_concrete",
+      "black_concrete",
+      "yellow_concrete",
+      "stone_bricks"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "industrial",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.736,
+        "raw_score": 0.3858,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.424,
+        "raw_score": 0.2656
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.421,
+        "raw_score": 0.2645
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\bMhc3TpbTn-Superman_skeleton.npz",
+    "occupancy_frac": 0.564453125,
+    "occupied": 18496
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

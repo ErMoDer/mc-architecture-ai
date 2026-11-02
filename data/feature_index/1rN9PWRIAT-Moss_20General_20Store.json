@@ -1,0 +1,233 @@
+{
+  "id": "1rN9PWRIAT-Moss_20General_20Store",
+  "source_path": "data\\raw\\hack337\\schematics\\1rN9PWRIAT-Moss%20General%20Store.litematic",
+  "created_at": "2026-10-18T22:24:54+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 19,
+      "y": 18,
+      "z": 15
+    },
+    "non_air": 1698,
+    "density": 0.331,
+    "unique_block_types": 62
+  },
+  "massing": {
+    "hollow_score": 0.6191,
+    "interior_air_frac": 0.6191,
+    "exterior_solid_frac": 0.0684,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      6,
+      12
+    ],
+    "families": {
+      "stairs": 148,
+      "slabs": 104,
+      "walls": 3,
+      "fences": 20,
+      "doors": 4,
+      "trapdoors": 79,
+      "glass": 4,
+      "logs": 159,
+      "planks": 141,
+      "stone_bricks": 0,
+      "deepslate": 13,
+      "terracotta": 0,
+      "concrete": 48,
+      "wool": 31,
+      "leaves": 26,
+      "lanterns": 5,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5311,
+      "symmetry_z": 0.5422,
+      "symmetry_y": 0.2287
+    },
+    "solid_ratio": 0.331
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 325,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 230,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 173,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_wood",
+        "count": 159,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 124,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 110,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 98,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "green_concrete_powder",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "mud_bricks",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete_powder",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "blast_furnace",
+        "count": 16,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 300,
+      "stone": 117,
+      "deepslate": 13,
+      "terracotta": 0,
+      "concrete": 48,
+      "wool": 31,
+      "glass": 4,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 260,
+      "metal": 4
+    },
+    "remap_targets": [
+      "dirt",
+      "moss_block",
+      "grass_block",
+      "stripped_dark_oak_wood",
+      "dark_oak_stairs",
+      "spruce_planks",
+      "dark_oak_slab",
+      "dark_oak_trapdoor",
+      "dark_oak_planks",
+      "green_concrete_powder",
+      "mud_bricks",
+      "tuff"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "japanese",
+      "chinese",
+      "rustic",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "japanese",
+        "confidence": 0.684,
+        "raw_score": 0.334,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.684,
+        "raw_score": 0.3339
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.643,
+        "raw_score": 0.3204
+      },
+      {
+        "style": "western",
+        "confidence": 0.388,
+        "raw_score": 0.2252
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.324,
+        "raw_score": 0.1974
+      }
+    ]
+  },
+  "redstone": {
+    "total": 101,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 2,
+      "door": 4,
+      "trapdoor": 79,
+      "blast_furnace": 16
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\1rN9PWRIAT-Moss_20General_20Store_skeleton.npz",
+    "occupancy_frac": 0.3419189453125,
+    "occupied": 11204
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

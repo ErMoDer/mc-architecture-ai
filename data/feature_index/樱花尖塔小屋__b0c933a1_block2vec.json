@@ -1,0 +1,13 @@
+{
+  "id": "樱花尖塔小屋__b0c933a1",
+  "dim": 144,
+  "n_chunks": 44,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "樱花尖塔小屋__b0c933a1_block2vec.npy"
+}

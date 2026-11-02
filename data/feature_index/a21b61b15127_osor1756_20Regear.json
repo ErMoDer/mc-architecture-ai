@@ -1,0 +1,254 @@
+{
+  "id": "a21b61b15127_osor1756_20Regear",
+  "source_path": "data\\raw\\hack337\\schematics\\a21b61b15127_osor1756%20Regear.litematic",
+  "created_at": "2026-10-18T22:25:37+08:00",
+  "overview": {
+    "schematic_name": "osor1756 Regear",
+    "size": {
+      "x": 17,
+      "y": 14,
+      "z": 16
+    },
+    "non_air": 685,
+    "density": 0.1799,
+    "unique_block_types": 23
+  },
+  "massing": {
+    "hollow_score": 0.7282,
+    "interior_air_frac": 0.7282,
+    "exterior_solid_frac": 0.0,
+    "floor_guess": 3,
+    "y_peaks": [
+      3,
+      6,
+      9
+    ],
+    "families": {
+      "stairs": 8,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 1,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 8,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 150,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 1,
+      "copper": 0,
+      "nether": 24
+    },
+    "symmetry": {
+      "symmetry_x": 0.9378,
+      "symmetry_z": 0.5498,
+      "symmetry_y": 0.3327
+    },
+    "solid_ratio": 0.1799
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "smooth_stone",
+        "count": 228,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_block",
+        "count": 154,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete_powder",
+        "count": 150,
+        "frac": 0.0
+      },
+      {
+        "name": "bone_block",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_basalt",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "note_block",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wall_banner",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "black_bed",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "glow_lichen",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 237,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 150,
+      "wool": 0,
+      "glass": 0,
+      "nether": 24,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 165
+    },
+    "remap_targets": [
+      "smooth_stone",
+      "iron_block",
+      "white_concrete_powder",
+      "bone_block",
+      "polished_basalt",
+      "observer",
+      "obsidian",
+      "hopper",
+      "oak_wall_sign",
+      "barrel",
+      "stone_brick_stairs",
+      "note_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "european",
+      "medieval",
+      "modern",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.589,
+        "raw_score": 0.2389,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.424,
+        "raw_score": 0.1882
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.375,
+        "raw_score": 0.1716
+      },
+      {
+        "style": "modern",
+        "confidence": 0.311,
+        "raw_score": 0.149
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.303,
+        "raw_score": 0.1458
+      }
+    ]
+  },
+  "redstone": {
+    "total": 48,
+    "pattern_ids": [
+      "observer_clock",
+      "flying_machine",
+      "edge_detector",
+      "note_block_line",
+      "lamp_line",
+      "t_flip_flop",
+      "portal_frame_cue"
+    ],
+    "pattern_labels": [
+      "观察者相邻时钟嫌疑",
+      "飞船/飞行器骨架",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "中继器灯线路嫌疑",
+      "T 触发器嫌疑",
+      "传送门框/黑曜石阵嫌疑"
+    ],
+    "inventory_nonzero": {
+      "repeater": 2,
+      "button": 1,
+      "sticky_piston": 1,
+      "observer": 16,
+      "hopper": 10,
+      "dispenser": 8,
+      "note_block": 8,
+      "trapdoor": 1,
+      "slime_block": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\a21b61b15127_osor1756_20Regear_skeleton.npz",
+    "occupancy_frac": 0.18426513671875,
+    "occupied": 6038
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

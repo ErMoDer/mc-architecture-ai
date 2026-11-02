@@ -1,0 +1,227 @@
+{
+  "id": "a7050c6507d6_120k_20DonutSmp_20Gambling_20Base",
+  "source_path": "data\\raw\\hack337\\schematics\\a7050c6507d6_120k%20DonutSmp%20Gambling%20Base.litematic",
+  "created_at": "2026-10-18T22:25:38+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 31,
+      "y": 11,
+      "z": 15
+    },
+    "non_air": 2202,
+    "density": 0.4305,
+    "unique_block_types": 14
+  },
+  "massing": {
+    "hollow_score": 0.8585,
+    "interior_air_frac": 0.8585,
+    "exterior_solid_frac": 0.3367,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      6,
+      10
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 13,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 287,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 11,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 300
+    },
+    "symmetry": {
+      "symmetry_x": 0.8829,
+      "symmetry_z": 0.9435,
+      "symmetry_y": 0.6644
+    },
+    "solid_ratio": 0.4305
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "end_stone",
+        "count": 1816,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_planks",
+        "count": 287,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_slab",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "light_weighted_pressure_plate",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_lamp",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "end_rod",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "red_concrete",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "gold_block",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 287,
+      "stone": 1816,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 11,
+      "wool": 0,
+      "glass": 0,
+      "nether": 13,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 12,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "end_stone",
+      "warped_planks",
+      "warped_slab",
+      "packed_ice",
+      "light_weighted_pressure_plate",
+      "redstone_lamp",
+      "dispenser",
+      "chest",
+      "oak_wall_sign",
+      "lever",
+      "black_concrete",
+      "end_rod"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.733,
+        "raw_score": 0.3828,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.667,
+        "raw_score": 0.3598
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.382,
+        "raw_score": 0.2457
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.369,
+        "raw_score": 0.2396
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.327,
+        "raw_score": 0.2197
+      }
+    ]
+  },
+  "redstone": {
+    "total": 41,
+    "pattern_ids": [
+      "simple_io"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门"
+    ],
+    "inventory_nonzero": {
+      "lever": 8,
+      "pressure_plate": 12,
+      "dispenser": 9,
+      "redstone_lamp": 12
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\a7050c6507d6_120k_20DonutSmp_20Gambling_20Base_skeleton.npz",
+    "occupancy_frac": 0.444183349609375,
+    "occupied": 14555
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

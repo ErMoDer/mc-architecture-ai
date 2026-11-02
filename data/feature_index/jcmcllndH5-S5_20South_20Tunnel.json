@@ -1,0 +1,234 @@
+{
+  "id": "jcmcllndH5-S5_20South_20Tunnel",
+  "source_path": "data\\raw\\hack337\\schematics\\jcmcllndH5-S5%20South%20Tunnel.litematic",
+  "created_at": "2026-10-18T22:26:23+08:00",
+  "overview": {
+    "schematic_name": "S5 South Tunnel",
+    "size": {
+      "x": 15,
+      "y": 26,
+      "z": 53
+    },
+    "non_air": 4900,
+    "density": 0.2371,
+    "unique_block_types": 24
+  },
+  "massing": {
+    "hollow_score": 0.7602,
+    "interior_air_frac": 0.7602,
+    "exterior_solid_frac": 0.0524,
+    "floor_guess": 6,
+    "y_peaks": [
+      2,
+      6,
+      11,
+      14,
+      17,
+      22
+    ],
+    "families": {
+      "stairs": 814,
+      "slabs": 869,
+      "walls": 400,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 226,
+      "logs": 0,
+      "planks": 528,
+      "stone_bricks": 921,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 192,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 21,
+      "copper": 0,
+      "nether": 390
+    },
+    "symmetry": {
+      "symmetry_x": 1.0,
+      "symmetry_z": 0.7597,
+      "symmetry_y": 0.1475
+    },
+    "solid_ratio": 0.2371
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 711,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 528,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 488,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite_slab",
+        "count": 446,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite_wall",
+        "count": 400,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 352,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite_stairs",
+        "count": 328,
+        "frac": 0.0
+      },
+      {
+        "name": "soul_soil",
+        "count": 318,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite_slab",
+        "count": 214,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_stained_glass_pane",
+        "count": 202,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 192,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 164,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_basalt",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 53,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 528,
+      "stone": 3017,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 192,
+      "wool": 0,
+      "glass": 226,
+      "nether": 390,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 53,
+      "leaves": 0,
+      "metal": 18
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "spruce_planks",
+      "smooth_stone",
+      "polished_andesite_slab",
+      "andesite_wall",
+      "spruce_stairs",
+      "polished_andesite_stairs",
+      "soul_soil",
+      "polished_diorite_slab",
+      "gray_stained_glass_pane",
+      "black_concrete",
+      "stone_brick_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.727,
+        "raw_score": 0.377,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.651,
+        "raw_score": 0.3504
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.31,
+        "raw_score": 0.2088
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.292,
+        "raw_score": 0.1999
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.259,
+        "raw_score": 0.1833
+      }
+    ]
+  },
+  "redstone": {
+    "total": 58,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "redstone_torch": 5,
+      "powered_rail": 53
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\jcmcllndH5-S5_20South_20Tunnel_skeleton.npz",
+    "occupancy_frac": 0.25506591796875,
+    "occupied": 8358
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

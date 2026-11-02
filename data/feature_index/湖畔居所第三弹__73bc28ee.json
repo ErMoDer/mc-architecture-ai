@@ -1,0 +1,259 @@
+{
+  "id": "湖畔居所第三弹__73bc28ee",
+  "source_path": "data\\raw\\mcblock\\湖畔居所第三弹__73bc28ee.litematic",
+  "created_at": "2026-10-19T20:35:59+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 24,
+      "y": 12,
+      "z": 12
+    },
+    "non_air": 1006,
+    "density": 0.2911,
+    "unique_block_types": 10
+  },
+  "massing": {
+    "hollow_score": 0.7118,
+    "interior_air_frac": 0.7118,
+    "exterior_solid_frac": 0.1076,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      5,
+      9
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 109,
+      "walls": 0,
+      "fences": 184,
+      "doors": 20,
+      "trapdoors": 0,
+      "glass": 32,
+      "logs": 72,
+      "planks": 387,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 176,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.996,
+      "symmetry_z": 0.9648,
+      "symmetry_y": 0.275
+    },
+    "solid_ratio": 0.2911
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_planks",
+        "count": 387,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 184,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 118,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 109,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_wool",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_door",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 12,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 459,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 176,
+      "glass": 32,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "oak_planks",
+      "oak_fence",
+      "white_wool",
+      "oak_slab",
+      "oak_log",
+      "brown_wool",
+      "glass_pane",
+      "oak_door",
+      "wall_torch",
+      "ladder"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5812,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.594,
+        "raw_score": 0.4379
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.519,
+        "raw_score": 0.4014
+      },
+      {
+        "style": "western",
+        "confidence": 0.519,
+        "raw_score": 0.4014
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.221,
+        "raw_score": 0.224
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 20,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 20
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\湖畔居所第三弹__73bc28ee_skeleton.npz",
+    "occupancy_frac": 0.30499267578125,
+    "occupied": 9994
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 4,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\湖畔居所第三弹__73bc28ee_block2vec.npy",
+    "vector_preview": [
+      -0.09555,
+      0.12372,
+      -0.11482,
+      0.06517,
+      -0.10407,
+      0.02532,
+      -0.0961,
+      0.04512
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "湖畔居所第二弹__65413d8a",
+        "score": 0.9924470771765818,
+        "mapped_style": "rustic",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\湖畔居所第二弹__65413d8a.litematic"
+      },
+      {
+        "id": "双连石顶小屋__31260f00",
+        "score": 0.9836111910458454,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\双连石顶小屋__31260f00.litematic"
+      },
+      {
+        "id": "小房屋第六弹__66188364",
+        "score": 0.9812021000141162,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\小房屋第六弹__66188364.litematic"
+      },
+      {
+        "id": "农场小镇_房屋第二弹__e2426795",
+        "score": 0.9692015550291855,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\农场小镇_房屋第二弹__e2426795.litematic"
+      },
+      {
+        "id": "农舍__a90296b2",
+        "score": 0.9645579045902894,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\农舍__a90296b2.litematic"
+      }
+    ]
+  }
+}

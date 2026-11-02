@@ -1,0 +1,271 @@
+{
+  "id": "6d43ef4b7b2b_Beatifull_20Cozy_20Cottage_20by_20MaximV12",
+  "source_path": "data\\raw\\hack337\\schematics\\6d43ef4b7b2b_Beatifull%20Cozy%20Cottage%20by%20MaximV12.litematic",
+  "created_at": "2026-10-18T22:25:22+08:00",
+  "overview": {
+    "schematic_name": "Beautiful Cozy Cottage by MaximV12",
+    "size": {
+      "x": 23,
+      "y": 15,
+      "z": 25
+    },
+    "non_air": 2517,
+    "density": 0.2918,
+    "unique_block_types": 84
+  },
+  "massing": {
+    "hollow_score": 0.6933,
+    "interior_air_frac": 0.6933,
+    "exterior_solid_frac": 0.0685,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 512,
+      "slabs": 122,
+      "walls": 7,
+      "fences": 1,
+      "doors": 18,
+      "trapdoors": 57,
+      "glass": 30,
+      "logs": 117,
+      "planks": 175,
+      "stone_bricks": 16,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 59,
+      "leaves": 52,
+      "lanterns": 36,
+      "copper": 0,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.5399,
+      "symmetry_z": 0.7293,
+      "symmetry_y": 0.1493
+    },
+    "solid_ratio": 0.2918
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_stairs",
+        "count": 334,
+        "frac": 0.0
+      },
+      {
+        "name": "mud_bricks",
+        "count": 300,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 294,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_mud",
+        "count": 236,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 175,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 157,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 130,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 117,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 102,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_mushroom_block",
+        "count": 87,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_carpet",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_stained_glass_pane",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "azalea_leaves",
+        "count": 28,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 292,
+      "stone": 445,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 59,
+      "glass": 30,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 54,
+      "metal": 6
+    },
+    "remap_targets": [
+      "spruce_stairs",
+      "mud_bricks",
+      "grass_block",
+      "packed_mud",
+      "spruce_planks",
+      "dark_oak_stairs",
+      "dirt",
+      "stripped_spruce_log",
+      "spruce_slab",
+      "brown_mushroom_block",
+      "spruce_trapdoor",
+      "cobblestone"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "medieval",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5471,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.378,
+        "raw_score": 0.3121
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.341,
+        "raw_score": 0.2912
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.31,
+        "raw_score": 0.2723
+      },
+      {
+        "style": "european",
+        "confidence": 0.308,
+        "raw_score": 0.271
+      }
+    ]
+  },
+  "redstone": {
+    "total": 105,
+    "pattern_ids": [
+      "door_line",
+      "simple_io",
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 2,
+      "button": 14,
+      "pressure_plate": 5,
+      "door": 18,
+      "trapdoor": 57,
+      "tripwire": 3,
+      "furnace": 1,
+      "smoker": 1,
+      "blast_furnace": 1,
+      "chiseled_bookshelf": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\6d43ef4b7b2b_Beatifull_20Cozy_20Cottage_20by_20MaximV12_skeleton.npz",
+    "occupancy_frac": 0.3116455078125,
+    "occupied": 10212
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 8,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\6d43ef4b7b2b_Beatifull_20Cozy_20Cottage_20by_20MaximV12_block2vec.npy",
+    "vector_preview": [
+      -0.07233,
+      0.14911,
+      -0.11313,
+      0.01584,
+      0.09606,
+      -0.01806,
+      -0.09913,
+      -0.01361
+    ],
+    "ok": true
+  },
+  "mapped_style": "rustic",
+  "long_fill2_retag": "long_fill2 hack337 chinese->rustic"
+}

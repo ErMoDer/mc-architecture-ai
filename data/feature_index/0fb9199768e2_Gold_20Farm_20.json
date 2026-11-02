@@ -1,0 +1,252 @@
+{
+  "id": "0fb9199768e2_Gold_20Farm_20",
+  "source_path": "data\\raw\\hack337\\schematics\\0fb9199768e2_Gold%20Farm%20.litematic",
+  "created_at": "2026-10-18T22:24:47+08:00",
+  "overview": {
+    "schematic_name": "Gold Farm ",
+    "size": {
+      "x": 7,
+      "y": 20,
+      "z": 24
+    },
+    "non_air": 879,
+    "density": 0.2616,
+    "unique_block_types": 19
+  },
+  "massing": {
+    "hollow_score": 0.6116,
+    "interior_air_frac": 0.6116,
+    "exterior_solid_frac": 0.0327,
+    "floor_guess": 6,
+    "y_peaks": [
+      1,
+      6,
+      10,
+      13,
+      16,
+      19
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 34,
+      "walls": 79,
+      "fences": 0,
+      "doors": 12,
+      "trapdoors": 4,
+      "glass": 0,
+      "logs": 33,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 411,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 2,
+      "copper": 0,
+      "nether": 247
+    },
+    "symmetry": {
+      "symmetry_x": 0.8447,
+      "symmetry_z": 0.6904,
+      "symmetry_y": 0.2074
+    },
+    "solid_ratio": 0.2616
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "deepslate_bricks",
+        "count": 298,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_portal",
+        "count": 247,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_wall",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_slab",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 33,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_door",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_sign",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wall_sign",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 33,
+      "stone": 0,
+      "deepslate": 411,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 247,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "deepslate_bricks",
+      "nether_portal",
+      "deepslate_brick_wall",
+      "obsidian",
+      "water",
+      "deepslate_brick_slab",
+      "spruce_log",
+      "observer",
+      "oak_door",
+      "ladder",
+      "spruce_sign",
+      "lava"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "fantasy",
+      "medieval",
+      "modern",
+      "rustic",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.442,
+        "raw_score": 0.0919,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.356,
+        "raw_score": 0.0767
+      },
+      {
+        "style": "modern",
+        "confidence": 0.299,
+        "raw_score": 0.0661
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.127,
+        "raw_score": 0.0307
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.126,
+        "raw_score": 0.0304
+      }
+    ]
+  },
+  "redstone": {
+    "total": 282,
+    "pattern_ids": [
+      "observer_clock",
+      "nether_portal_cue",
+      "edge_detector"
+    ],
+    "pattern_labels": [
+      "观察者互看/相邻时钟",
+      "下界传送门",
+      "边沿检测（观察者）嫌疑"
+    ],
+    "inventory_nonzero": {
+      "repeater": 4,
+      "lever": 2,
+      "observer": 12,
+      "dispenser": 1,
+      "door": 12,
+      "trapdoor": 4,
+      "nether_portal": 247
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\0fb9199768e2_Gold_20Farm_20_skeleton.npz",
+    "occupancy_frac": 0.27874755859375,
+    "occupied": 9134
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

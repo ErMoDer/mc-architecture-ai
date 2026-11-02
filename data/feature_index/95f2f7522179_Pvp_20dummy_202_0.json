@@ -1,0 +1,247 @@
+{
+  "id": "95f2f7522179_Pvp_20dummy_202_0",
+  "source_path": "data\\raw\\hack337\\schematics\\95f2f7522179_Pvp%20dummy%202.0.litematic",
+  "created_at": "2026-10-18T22:25:33+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 28,
+      "y": 6,
+      "z": 23
+    },
+    "non_air": 2119,
+    "density": 0.5484,
+    "unique_block_types": 19
+  },
+  "massing": {
+    "hollow_score": 0.5389,
+    "interior_air_frac": 0.5389,
+    "exterior_solid_frac": 0.2878,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      5
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 169,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 13,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8252,
+      "symmetry_z": 0.4634,
+      "symmetry_y": 0.3505
+    },
+    "solid_ratio": 0.5484
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 889,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 570,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 351,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 169,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "command_block",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "repeating_command_block",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_lamp",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "note_block",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_button",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 13,
+      "wool": 0,
+      "glass": 169,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "dirt",
+      "obsidian",
+      "grass_block",
+      "white_stained_glass",
+      "repeater",
+      "command_block",
+      "white_concrete",
+      "redstone_wire",
+      "oak_wall_sign",
+      "repeating_command_block",
+      "redstone_lamp",
+      "redstone_wall_torch"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.636,
+        "raw_score": 0.2857,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.576,
+        "raw_score": 0.2667
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.273,
+        "raw_score": 0.1548
+      },
+      {
+        "style": "european",
+        "confidence": 0.224,
+        "raw_score": 0.1327
+      }
+    ]
+  },
+  "redstone": {
+    "total": 73,
+    "pattern_ids": [
+      "simple_io",
+      "pulse_extender",
+      "instant_wire",
+      "note_block_line",
+      "edge_detector",
+      "dual_edge_repeater",
+      "portal_frame_cue"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "脉冲延长/单稳态嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "音符盒线路/乐器阵",
+      "边沿检测（观察者）嫌疑",
+      "双沿/对向中继器线嫌疑",
+      "传送门框/黑曜石阵嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 10,
+      "redstone_torch": 4,
+      "redstone_block": 1,
+      "repeater": 43,
+      "lever": 2,
+      "button": 2,
+      "observer": 3,
+      "note_block": 3,
+      "redstone_lamp": 5
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\95f2f7522179_Pvp_20dummy_202_0_skeleton.npz",
+    "occupancy_frac": 0.563934326171875,
+    "occupied": 18479
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

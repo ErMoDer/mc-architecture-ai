@@ -1,0 +1,320 @@
+{
+  "id": "竹匠小屋__5a89963a",
+  "source_path": "data\\raw\\mcblock\\竹匠小屋__5a89963a.litematic",
+  "created_at": "2026-10-20T13:25:13+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 41,
+      "y": 47,
+      "z": 60
+    },
+    "non_air": 15256,
+    "density": 0.1319,
+    "unique_block_types": 192
+  },
+  "massing": {
+    "hollow_score": 0.8755,
+    "interior_air_frac": 0.8755,
+    "exterior_solid_frac": 0.0223,
+    "floor_guess": 9,
+    "y_peaks": [
+      0,
+      3,
+      6,
+      10,
+      14,
+      17,
+      21,
+      24,
+      35
+    ],
+    "families": {
+      "stairs": 496,
+      "slabs": 285,
+      "walls": 27,
+      "fences": 474,
+      "doors": 2,
+      "trapdoors": 1148,
+      "glass": 77,
+      "logs": 2394,
+      "planks": 1403,
+      "stone_bricks": 68,
+      "deepslate": 21,
+      "terracotta": 0,
+      "concrete": 338,
+      "wool": 139,
+      "leaves": 566,
+      "lanterns": 201,
+      "copper": 411,
+      "nether": 284
+    },
+    "symmetry": {
+      "symmetry_x": 0.2842,
+      "symmetry_z": 0.2841,
+      "symmetry_y": 0.1592
+    },
+    "solid_ratio": 0.1319
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "light",
+        "count": 1152,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 825,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 728,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wood",
+        "count": 711,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 708,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 635,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 615,
+        "frac": 0.0
+      },
+      {
+        "name": "coarse_dirt",
+        "count": 602,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_leaves",
+        "count": 544,
+        "frac": 0.0
+      },
+      {
+        "name": "bone_block",
+        "count": 500,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 405,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 395,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone",
+        "count": 353,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 343,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_planks",
+        "count": 337,
+        "frac": 0.0
+      },
+      {
+        "name": "green_concrete_powder",
+        "count": 308,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 4277,
+      "stone": 946,
+      "deepslate": 21,
+      "terracotta": 0,
+      "concrete": 338,
+      "wool": 139,
+      "glass": 77,
+      "nether": 133,
+      "copper": 411,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 1,
+      "snow_ice": 6,
+      "leaves": 1274,
+      "metal": 173
+    },
+    "remap_targets": [
+      "light",
+      "short_grass",
+      "spruce_trapdoor",
+      "oak_wood",
+      "moss_block",
+      "spruce_planks",
+      "grass_block",
+      "coarse_dirt",
+      "birch_leaves",
+      "bone_block",
+      "spruce_stairs",
+      "stripped_spruce_wood"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5146,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.585,
+        "raw_score": 0.4009
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.541,
+        "raw_score": 0.3811
+      },
+      {
+        "style": "western",
+        "confidence": 0.417,
+        "raw_score": 0.32
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.213,
+        "raw_score": 0.1993
+      }
+    ]
+  },
+  "redstone": {
+    "total": 1543,
+    "pattern_ids": [
+      "simple_io",
+      "tripwire_trap",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "redstone_block": 2,
+      "button": 103,
+      "pressure_plate": 8,
+      "iron_door": 2,
+      "trapdoor": 1148,
+      "fence_gate": 209,
+      "tripwire": 37,
+      "powered_rail": 2,
+      "rail": 2,
+      "brewing_stand": 1,
+      "furnace": 1,
+      "smoker": 1,
+      "blast_furnace": 2,
+      "lectern": 18,
+      "chiseled_bookshelf": 7
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\竹匠小屋__5a89963a_skeleton.npz",
+    "occupancy_frac": 0.191650390625,
+    "occupied": 6280
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 55,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\竹匠小屋__5a89963a_block2vec.npy",
+    "vector_preview": [
+      -0.05667,
+      0.20811,
+      -0.10629,
+      -0.01446,
+      0.05539,
+      -0.00761,
+      -0.08734,
+      0.09778
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "樱花日式小屋__f119db49",
+        "score": 0.9596236844653041,
+        "mapped_style": "japanese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\樱花日式小屋__f119db49.litematic"
+      },
+      {
+        "id": "苔痕土坯屋__86435ac5",
+        "score": 0.956586057538644,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\苔痕土坯屋__86435ac5.litematic"
+      },
+      {
+        "id": "地冠真菌__07815707",
+        "score": 0.9492074865262414,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\地冠真菌__07815707.litematic"
+      },
+      {
+        "id": "女巫小屋__5a2ed929",
+        "score": 0.9432762363283718,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\女巫小屋__5a2ed929.litematic"
+      },
+      {
+        "id": "蛋壳农舍__5738c04f",
+        "score": 0.9303901062077365,
+        "mapped_style": "rustic",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\蛋壳农舍__5738c04f.litematic"
+      }
+    ]
+  },
+  "mapped_style": "industrial",
+  "residential_loft_topup": true
+}

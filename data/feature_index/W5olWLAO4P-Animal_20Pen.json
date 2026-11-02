@@ -1,0 +1,214 @@
+{
+  "id": "W5olWLAO4P-Animal_20Pen",
+  "source_path": "data\\raw\\hack337\\schematics\\W5olWLAO4P-Animal%20Pen.litematic",
+  "created_at": "2026-10-18T22:27:16+08:00",
+  "overview": {
+    "schematic_name": "Animal Pen",
+    "size": {
+      "x": 13,
+      "y": 5,
+      "z": 13
+    },
+    "non_air": 280,
+    "density": 0.3314,
+    "unique_block_types": 12
+  },
+  "massing": {
+    "hollow_score": 0.9917,
+    "interior_air_frac": 0.9917,
+    "exterior_solid_frac": 0.3278,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 24,
+      "fences": 36,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 24,
+      "planks": 0,
+      "stone_bricks": 24,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 3,
+      "leaves": 0,
+      "lanterns": 4,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9788,
+      "symmetry_z": 0.9788,
+      "symmetry_y": 0.1765
+    },
+    "solid_ratio": 0.3314
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 133,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_lamp",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "daylight_detector",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "jack_o_lantern",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_carpet",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "sand",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 24,
+      "stone": 24,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 3,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 1,
+      "snow_ice": 0,
+      "leaves": 20,
+      "metal": 0
+    },
+    "remap_targets": [
+      "grass_block",
+      "spruce_log",
+      "stone_brick_wall",
+      "spruce_fence",
+      "moss_block",
+      "spruce_fence_gate",
+      "redstone_lamp",
+      "daylight_detector",
+      "dirt",
+      "jack_o_lantern",
+      "moss_carpet",
+      "sand"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "japanese",
+      "rustic",
+      "medieval",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.673,
+        "raw_score": 0.3232,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.662,
+        "raw_score": 0.3194
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.617,
+        "raw_score": 0.3046
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.495,
+        "raw_score": 0.2617
+      },
+      {
+        "style": "european",
+        "confidence": 0.464,
+        "raw_score": 0.2501
+      }
+    ]
+  },
+  "redstone": {
+    "total": 36,
+    "pattern_ids": [
+      "daylight_detector_clock"
+    ],
+    "pattern_labels": [
+      "日光传感器钟/昼夜控制"
+    ],
+    "inventory_nonzero": {
+      "redstone_lamp": 12,
+      "fence_gate": 12,
+      "daylight_detector": 12
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\W5olWLAO4P-Animal_20Pen_skeleton.npz",
+    "occupancy_frac": 0.350250244140625,
+    "occupied": 11477
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

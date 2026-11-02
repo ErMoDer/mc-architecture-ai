@@ -1,0 +1,239 @@
+{
+  "id": "nkBx6UD4iV-Rocket_20Shop",
+  "source_path": "data\\raw\\hack337\\schematics\\nkBx6UD4iV-Rocket%20Shop.litematic",
+  "created_at": "2026-10-18T22:26:35+08:00",
+  "overview": {
+    "schematic_name": "Rocket Shop",
+    "size": {
+      "x": 26,
+      "y": 31,
+      "z": 22
+    },
+    "non_air": 1850,
+    "density": 0.1043,
+    "unique_block_types": 50
+  },
+  "massing": {
+    "hollow_score": 0.9058,
+    "interior_air_frac": 0.9058,
+    "exterior_solid_frac": 0.0304,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      6,
+      9
+    ],
+    "families": {
+      "stairs": 127,
+      "slabs": 3,
+      "walls": 30,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 329,
+      "logs": 6,
+      "planks": 0,
+      "stone_bricks": 227,
+      "deepslate": 196,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 276,
+      "leaves": 41,
+      "lanterns": 12,
+      "copper": 60,
+      "nether": 7
+    },
+    "symmetry": {
+      "symmetry_x": 0.2706,
+      "symmetry_z": 0.5277,
+      "symmetry_y": 0.0544
+    },
+    "solid_ratio": 0.1043
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 221,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 186,
+        "frac": 0.0
+      },
+      {
+        "name": "red_wool",
+        "count": 123,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite",
+        "count": 114,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_stairs",
+        "count": 109,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "blast_furnace",
+        "count": 104,
+        "frac": 0.0
+      },
+      {
+        "name": "grindstone",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "tinted_glass",
+        "count": 62,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_stained_glass",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_stained_glass_pane",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "red_stained_glass_pane",
+        "count": 39,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 6,
+      "stone": 366,
+      "deepslate": 196,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 276,
+      "glass": 329,
+      "nether": 0,
+      "copper": 60,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 41,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "grass_block",
+      "red_wool",
+      "polished_andesite",
+      "polished_deepslate_stairs",
+      "white_wool",
+      "blast_furnace",
+      "grindstone",
+      "tinted_glass",
+      "polished_deepslate",
+      "dirt",
+      "black_stained_glass"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "modern",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.56,
+        "raw_score": 0.21,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.447,
+        "raw_score": 0.1778
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.381,
+        "raw_score": 0.1575
+      },
+      {
+        "style": "modern",
+        "confidence": 0.217,
+        "raw_score": 0.1009
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.16,
+        "raw_score": 0.0783
+      }
+    ]
+  },
+  "redstone": {
+    "total": 153,
+    "pattern_ids": [
+      "simple_io"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门"
+    ],
+    "inventory_nonzero": {
+      "redstone_block": 6,
+      "lever": 10,
+      "button": 7,
+      "redstone_lamp": 24,
+      "blast_furnace": 104,
+      "lectern": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\nkBx6UD4iV-Rocket_20Shop_skeleton.npz",
+    "occupancy_frac": 0.130340576171875,
+    "occupied": 4271
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

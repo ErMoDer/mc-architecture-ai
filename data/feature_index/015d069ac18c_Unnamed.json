@@ -1,0 +1,226 @@
+{
+  "id": "015d069ac18c_Unnamed",
+  "source_path": "data\\raw\\hack337\\schematics\\015d069ac18c_Unnamed.litematic",
+  "created_at": "2026-10-18T22:24:44+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 16,
+      "y": 16,
+      "z": 14
+    },
+    "non_air": 615,
+    "density": 0.1716,
+    "unique_block_types": 15
+  },
+  "massing": {
+    "hollow_score": 0.8848,
+    "interior_air_frac": 0.8848,
+    "exterior_solid_frac": 0.096,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      8,
+      12
+    ],
+    "families": {
+      "stairs": 110,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 4,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 115,
+      "planks": 189,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 14,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4403,
+      "symmetry_z": 0.4269,
+      "symmetry_y": 0.0459
+    },
+    "solid_ratio": 0.1716
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cherry_planks",
+        "count": 189,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_cherry_log",
+        "count": 115,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_stairs",
+        "count": 110,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 77,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_petals",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_leaves",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_door",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "tall_grass",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "white_bed",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "furnace",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "crafting_table",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 304,
+      "stone": 3,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 14,
+      "metal": 0
+    },
+    "remap_targets": [
+      "cherry_planks",
+      "stripped_cherry_log",
+      "cherry_stairs",
+      "grass_block",
+      "dirt",
+      "pink_petals",
+      "cherry_leaves",
+      "short_grass",
+      "cherry_door",
+      "stone",
+      "tall_grass",
+      "white_bed"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7364,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.707,
+        "raw_score": 0.6123
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.652,
+        "raw_score": 0.5649
+      },
+      {
+        "style": "western",
+        "confidence": 0.638,
+        "raw_score": 0.5524
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.2,
+        "raw_score": 0.2464
+      }
+    ]
+  },
+  "redstone": {
+    "total": 5,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 4,
+      "furnace": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\015d069ac18c_Unnamed_skeleton.npz",
+    "occupancy_frac": 0.1744384765625,
+    "occupied": 5716
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

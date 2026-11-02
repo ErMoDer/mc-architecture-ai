@@ -1,0 +1,13 @@
+{
+  "id": "深色橡木三色西洋风建筑__2935eb74",
+  "dim": 144,
+  "n_chunks": 16,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "深色橡木三色西洋风建筑__2935eb74_block2vec.npy"
+}

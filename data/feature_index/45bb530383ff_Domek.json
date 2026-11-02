@@ -1,0 +1,236 @@
+{
+  "id": "45bb530383ff_Domek",
+  "source_path": "data\\raw\\hack337\\schematics\\45bb530383ff_Domek.litematic",
+  "created_at": "2026-10-18T22:25:08+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 38,
+      "y": 14,
+      "z": 29
+    },
+    "non_air": 2855,
+    "density": 0.1851,
+    "unique_block_types": 48
+  },
+  "massing": {
+    "hollow_score": 0.8501,
+    "interior_air_frac": 0.8501,
+    "exterior_solid_frac": 0.0718,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      5,
+      10
+    ],
+    "families": {
+      "stairs": 135,
+      "slabs": 122,
+      "walls": 0,
+      "fences": 38,
+      "doors": 2,
+      "trapdoors": 221,
+      "glass": 38,
+      "logs": 144,
+      "planks": 608,
+      "stone_bricks": 280,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 41,
+      "leaves": 0,
+      "lanterns": 64,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5042,
+      "symmetry_z": 0.4289,
+      "symmetry_y": 0.1587
+    },
+    "solid_ratio": 0.1851
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 852,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 608,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 280,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 221,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 135,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 131,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 116,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 33,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "coarse_dirt",
+        "count": 17,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 752,
+      "stone": 356,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 41,
+      "glass": 38,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 5
+    },
+    "remap_targets": [
+      "grass_block",
+      "spruce_planks",
+      "stone_bricks",
+      "spruce_trapdoor",
+      "spruce_stairs",
+      "stripped_spruce_log",
+      "spruce_slab",
+      "stone",
+      "campfire",
+      "chest",
+      "glass_pane",
+      "short_grass"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5707,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.644,
+        "raw_score": 0.4558
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.562,
+        "raw_score": 0.4178
+      },
+      {
+        "style": "western",
+        "confidence": 0.463,
+        "raw_score": 0.368
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.345,
+        "raw_score": 0.3023
+      }
+    ]
+  },
+  "redstone": {
+    "total": 284,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 3,
+      "door": 2,
+      "trapdoor": 221,
+      "fence_gate": 18,
+      "furnace": 15,
+      "smoker": 13,
+      "blast_furnace": 12
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\45bb530383ff_Domek_skeleton.npz",
+    "occupancy_frac": 0.21234130859375,
+    "occupied": 6958
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

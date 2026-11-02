@@ -1,0 +1,27 @@
+[
+  {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:stone_button",
+    "props": {
+      "face": "floor",
+      "facing": "east"
+    }
+  },
+  {
+    "x": 1,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:redstone_wire"
+  },
+  {
+    "x": 2,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:dropper",
+    "props": {
+      "facing": "east"
+    }
+  }
+]

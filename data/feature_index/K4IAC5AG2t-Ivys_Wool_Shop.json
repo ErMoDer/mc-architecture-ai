@@ -1,0 +1,256 @@
+{
+  "id": "K4IAC5AG2t-Ivys_Wool_Shop",
+  "source_path": "data\\raw\\hack337\\schematics\\K4IAC5AG2t-Ivys_Wool_Shop.litematic",
+  "created_at": "2026-10-18T22:26:24+08:00",
+  "overview": {
+    "schematic_name": "Ivy's Wool Shop",
+    "size": {
+      "x": 19,
+      "y": 12,
+      "z": 24
+    },
+    "non_air": 1544,
+    "density": 0.2822,
+    "unique_block_types": 68
+  },
+  "massing": {
+    "hollow_score": 0.7222,
+    "interior_air_frac": 0.7222,
+    "exterior_solid_frac": 0.0923,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      5,
+      10
+    ],
+    "families": {
+      "stairs": 238,
+      "slabs": 61,
+      "walls": 0,
+      "fences": 54,
+      "doors": 4,
+      "trapdoors": 18,
+      "glass": 30,
+      "logs": 52,
+      "planks": 382,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 91,
+      "concrete": 0,
+      "wool": 22,
+      "leaves": 11,
+      "lanterns": 39,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8738,
+      "symmetry_z": 0.3986,
+      "symmetry_y": 0.2931
+    },
+    "solid_ratio": 0.2822
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 273,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 246,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 136,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_granite_stairs",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_granite",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 106,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "white_terracotta",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "terracotta",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_granite_slab",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_stained_glass_pane",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 17,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 434,
+      "stone": 275,
+      "deepslate": 0,
+      "terracotta": 91,
+      "concrete": 0,
+      "wool": 22,
+      "glass": 30,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 17,
+      "metal": 0
+    },
+    "remap_targets": [
+      "grass_block",
+      "birch_planks",
+      "oak_planks",
+      "polished_granite_stairs",
+      "polished_granite",
+      "oak_stairs",
+      "dirt",
+      "stripped_oak_log",
+      "oak_fence",
+      "white_terracotta",
+      "terracotta",
+      "polished_granite_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.841,
+        "raw_score": 0.4909,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.563,
+        "raw_score": 0.3789
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.497,
+        "raw_score": 0.349
+      },
+      {
+        "style": "western",
+        "confidence": 0.414,
+        "raw_score": 0.3088
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.278,
+        "raw_score": 0.234
+      }
+    ]
+  },
+  "redstone": {
+    "total": 28,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 2,
+      "door": 4,
+      "trapdoor": 18,
+      "fence_gate": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\K4IAC5AG2t-Ivys_Wool_Shop_skeleton.npz",
+    "occupancy_frac": 0.28472900390625,
+    "occupied": 9330
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 8,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\K4IAC5AG2t-Ivys_Wool_Shop_block2vec.npy",
+    "vector_preview": [
+      -0.06952,
+      0.21726,
+      -0.12162,
+      -0.00681,
+      0.13749,
+      0.07365,
+      -0.04695,
+      0.05098
+    ],
+    "ok": true
+  }
+}

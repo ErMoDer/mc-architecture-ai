@@ -1,0 +1,256 @@
+{
+  "id": "带车库的现代公寓__1ad860b6",
+  "source_path": "data\\raw\\mcblock\\带车库的现代公寓__1ad860b6.litematic",
+  "created_at": "2026-10-19T13:01:11+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 12,
+      "y": 12,
+      "z": 12
+    },
+    "non_air": 760,
+    "density": 0.4398,
+    "unique_block_types": 23
+  },
+  "massing": {
+    "hollow_score": 0.474,
+    "interior_air_frac": 0.474,
+    "exterior_solid_frac": 0.1354,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      4,
+      7,
+      10
+    ],
+    "families": {
+      "stairs": 21,
+      "slabs": 96,
+      "walls": 13,
+      "fences": 0,
+      "doors": 12,
+      "trapdoors": 3,
+      "glass": 80,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 100,
+      "terracotta": 62,
+      "concrete": 312,
+      "wool": 9,
+      "leaves": 5,
+      "lanterns": 1,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5833,
+      "symmetry_z": 0.4672,
+      "symmetry_y": 0.4961
+    },
+    "solid_ratio": 0.4398
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "white_concrete",
+        "count": 203,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz_slab",
+        "count": 81,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_concrete",
+        "count": 69,
+        "frac": 0.0
+      },
+      {
+        "name": "terracotta",
+        "count": 62,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite",
+        "count": 59,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass_pane",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_concrete_powder",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_stairs",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_stained_glass_pane",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_stained_glass_pane",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_slab",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_wall",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_door",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_carpet",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_bars",
+        "count": 7,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 59,
+      "deepslate": 100,
+      "terracotta": 62,
+      "concrete": 312,
+      "wool": 9,
+      "glass": 80,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 7,
+      "metal": 7
+    },
+    "remap_targets": [
+      "white_concrete",
+      "smooth_quartz_slab",
+      "deepslate_tiles",
+      "light_gray_concrete",
+      "terracotta",
+      "polished_diorite",
+      "black_stained_glass_pane",
+      "light_gray_concrete_powder",
+      "quartz_stairs",
+      "light_blue_stained_glass_pane",
+      "light_gray_stained_glass_pane",
+      "deepslate_tile_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "modern",
+    "mapped_terrain": "flat",
+    "style_id": 3,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "industrial",
+      "european",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.846,
+        "raw_score": 0.4958,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.175,
+        "raw_score": 0.1673
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.148,
+        "raw_score": 0.1476
+      },
+      {
+        "style": "european",
+        "confidence": 0.05,
+        "raw_score": 0.0577
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.05,
+        "raw_score": 0.0535
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 15,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 12,
+      "trapdoor": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\带车库的现代公寓__1ad860b6_skeleton.npz",
+    "occupancy_frac": 0.47564697265625,
+    "occupied": 15586
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 2,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\带车库的现代公寓__1ad860b6_block2vec.npy",
+    "vector_preview": [
+      -0.01019,
+      0.16944,
+      -0.07179,
+      -0.0838,
+      0.10471,
+      0.01874,
+      0.01249,
+      0.11797
+    ],
+    "ok": true
+  }
+}

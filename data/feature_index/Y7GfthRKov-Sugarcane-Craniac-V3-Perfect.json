@@ -1,0 +1,219 @@
+{
+  "id": "Y7GfthRKov-Sugarcane-Craniac-V3-Perfect",
+  "source_path": "data\\raw\\hack337\\schematics\\Y7GfthRKov-Sugarcane-Craniac-V3-Perfect.litematic",
+  "created_at": "2026-10-18T22:27:21+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 21,
+      "y": 21,
+      "z": 7
+    },
+    "non_air": 1063,
+    "density": 0.3443,
+    "unique_block_types": 11
+  },
+  "massing": {
+    "hollow_score": 0.5745,
+    "interior_air_frac": 0.5745,
+    "exterior_solid_frac": 0.0956,
+    "floor_guess": 3,
+    "y_peaks": [
+      8,
+      13,
+      18
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 48,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 187,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9522,
+      "symmetry_z": 0.9558,
+      "symmetry_y": 0.2025
+    },
+    "solid_ratio": 0.3443
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 336,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 187,
+        "frac": 0.0
+      },
+      {
+        "name": "sugar_cane",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 187,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 14
+    },
+    "remap_targets": [
+      "dirt",
+      "glass",
+      "sugar_cane",
+      "piston",
+      "redstone_wire",
+      "observer",
+      "water",
+      "oak_fence",
+      "chest",
+      "hopper",
+      "grass_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european",
+      "industrial"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.62,
+        "raw_score": 0.27,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.609,
+        "raw_score": 0.2667
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.29,
+        "raw_score": 0.1551
+      },
+      {
+        "style": "european",
+        "confidence": 0.238,
+        "raw_score": 0.1329
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.05,
+        "raw_score": 0.0279
+      }
+    ]
+  },
+  "redstone": {
+    "total": 302,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "observer_clock",
+      "edge_detector",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "观察者相邻时钟嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 96,
+      "piston": 96,
+      "observer": 96,
+      "hopper": 14
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Y7GfthRKov-Sugarcane-Craniac-V3-Perfect_skeleton.npz",
+    "occupancy_frac": 0.34478759765625,
+    "occupied": 11298
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

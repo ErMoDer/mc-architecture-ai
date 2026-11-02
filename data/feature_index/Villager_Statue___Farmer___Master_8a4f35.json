@@ -1,0 +1,235 @@
+{
+  "id": "Villager_Statue___Farmer___Master_8a4f35",
+  "source_path": "data\\raw\\hack337\\schematics\\Villager_Statue___Farmer___Master_8a4f35.litematic",
+  "created_at": "2026-10-18T22:27:14+08:00",
+  "overview": {
+    "schematic_name": "Villager Statue _ Farmer _ Master",
+    "size": {
+      "x": 18,
+      "y": 39,
+      "z": 16
+    },
+    "non_air": 1568,
+    "density": 0.1396,
+    "unique_block_types": 28
+  },
+  "massing": {
+    "hollow_score": 0.8249,
+    "interior_air_frac": 0.8249,
+    "exterior_solid_frac": 0.0104,
+    "floor_guess": 10,
+    "y_peaks": [
+      0,
+      5,
+      8,
+      11,
+      18,
+      25,
+      28,
+      31,
+      34,
+      38
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 333,
+      "planks": 10,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 433,
+      "concrete": 400,
+      "wool": 378,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7461,
+      "symmetry_z": 0.9478,
+      "symmetry_y": 0.3154
+    },
+    "solid_ratio": 0.1396
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "brown_terracotta",
+        "count": 243,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_wool",
+        "count": 230,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_concrete",
+        "count": 222,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_terracotta",
+        "count": 119,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_wool",
+        "count": 114,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_jungle_wood",
+        "count": 98,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_birch_wood",
+        "count": 87,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_wood",
+        "count": 86,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_concrete",
+        "count": 85,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_concrete_powder",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "white_terracotta",
+        "count": 71,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_wood",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_wool",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_wool",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_concrete",
+        "count": 12,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 343,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 433,
+      "concrete": 400,
+      "wool": 378,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 4,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "brown_terracotta",
+      "brown_wool",
+      "brown_concrete",
+      "yellow_terracotta",
+      "yellow_wool",
+      "stripped_jungle_wood",
+      "stripped_birch_wood",
+      "stripped_oak_wood",
+      "yellow_concrete",
+      "brown_concrete_powder",
+      "white_terracotta",
+      "stripped_dark_oak_wood"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "western",
+      "rustic",
+      "chinese",
+      "japanese",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "western",
+        "confidence": 0.525,
+        "raw_score": 0.1747,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.463,
+        "raw_score": 0.1589
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.393,
+        "raw_score": 0.1401
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.352,
+        "raw_score": 0.1284
+      },
+      {
+        "style": "modern",
+        "confidence": 0.3,
+        "raw_score": 0.1133
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Villager_Statue___Farmer___Master_8a4f35_skeleton.npz",
+    "occupancy_frac": 0.146484375,
+    "occupied": 4800
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

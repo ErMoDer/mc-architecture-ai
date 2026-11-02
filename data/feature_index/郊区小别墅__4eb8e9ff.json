@@ -1,0 +1,258 @@
+{
+  "id": "郊区小别墅__4eb8e9ff",
+  "source_path": "data\\raw\\mcblock\\郊区小别墅__4eb8e9ff.litematic",
+  "created_at": "2026-10-19T13:01:01+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 33,
+      "y": 18,
+      "z": 32
+    },
+    "non_air": 6152,
+    "density": 0.3237,
+    "unique_block_types": 118
+  },
+  "massing": {
+    "hollow_score": 0.6899,
+    "interior_air_frac": 0.6899,
+    "exterior_solid_frac": 0.0809,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      8,
+      13
+    ],
+    "families": {
+      "stairs": 270,
+      "slabs": 347,
+      "walls": 0,
+      "fences": 49,
+      "doors": 32,
+      "trapdoors": 18,
+      "glass": 88,
+      "logs": 64,
+      "planks": 1179,
+      "stone_bricks": 0,
+      "deepslate": 593,
+      "terracotta": 122,
+      "concrete": 133,
+      "wool": 126,
+      "leaves": 166,
+      "lanterns": 14,
+      "copper": 0,
+      "nether": 19
+    },
+    "symmetry": {
+      "symmetry_x": 0.5528,
+      "symmetry_z": 0.6467,
+      "symmetry_y": 0.1384
+    },
+    "solid_ratio": 0.3237
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 2191,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 627,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 552,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 418,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_slab",
+        "count": 185,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 179,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 166,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_leaves",
+        "count": 157,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_concrete",
+        "count": 132,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_terracotta",
+        "count": 122,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_bars",
+        "count": 118,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 105,
+        "frac": 0.0
+      },
+      {
+        "name": "large_fern",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_stained_glass_pane",
+        "count": 67,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_deepslate",
+        "count": 63,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1244,
+      "stone": 208,
+      "deepslate": 593,
+      "terracotta": 122,
+      "concrete": 133,
+      "wool": 126,
+      "glass": 88,
+      "nether": 14,
+      "copper": 0,
+      "prismarine": 4,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 6,
+      "leaves": 167,
+      "metal": 152
+    },
+    "remap_targets": [
+      "dirt",
+      "oak_planks",
+      "spruce_planks",
+      "grass_block",
+      "deepslate_tile_slab",
+      "deepslate_tiles",
+      "deepslate_tile_stairs",
+      "birch_leaves",
+      "gray_concrete",
+      "cyan_terracotta",
+      "iron_bars",
+      "smooth_stone_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "modern",
+    "mapped_terrain": "flat",
+    "style_id": 3,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.772,
+        "raw_score": 0.4218,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.464,
+        "raw_score": 0.301
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.42,
+        "raw_score": 0.2807
+      },
+      {
+        "style": "western",
+        "confidence": 0.378,
+        "raw_score": 0.2611
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.177,
+        "raw_score": 0.1493
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 104,
+    "pattern_ids": [
+      "simple_io",
+      "door_line",
+      "tripwire_trap",
+      "detector_rail_clock",
+      "hopper_clock"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线",
+      "绊线陷阱",
+      "探测铁轨矿车钟嫌疑",
+      "漏斗+比较器时钟/测量嫌疑"
+    ],
+    "inventory_nonzero": {
+      "comparator": 1,
+      "lever": 7,
+      "button": 3,
+      "pressure_plate": 2,
+      "observer": 1,
+      "hopper": 2,
+      "dropper": 1,
+      "dispenser": 2,
+      "door": 24,
+      "iron_door": 8,
+      "trapdoor": 18,
+      "tripwire": 26,
+      "powered_rail": 2,
+      "detector_rail": 2,
+      "furnace": 3,
+      "smoker": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\郊区小别墅__4eb8e9ff_skeleton.npz",
+    "occupancy_frac": 0.340423583984375,
+    "occupied": 11155
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

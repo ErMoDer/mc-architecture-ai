@@ -1,0 +1,13 @@
+{
+  "id": "e2993e318ff7_simple_20spruce_20house",
+  "dim": 144,
+  "n_chunks": 2,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "e2993e318ff7_simple_20spruce_20house_block2vec.npy"
+}

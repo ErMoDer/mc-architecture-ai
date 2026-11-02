@@ -1,0 +1,269 @@
+{
+  "id": "b5a192df4788_Mossy_20Stash",
+  "source_path": "data\\raw\\hack337\\schematics\\b5a192df4788_Mossy%20Stash.litematic",
+  "created_at": "2026-10-18T22:25:44+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 43,
+      "y": 20,
+      "z": 37
+    },
+    "non_air": 4285,
+    "density": 0.1347,
+    "unique_block_types": 51
+  },
+  "massing": {
+    "hollow_score": 0.8407,
+    "interior_air_frac": 0.8407,
+    "exterior_solid_frac": 0.0053,
+    "floor_guess": 4,
+    "y_peaks": [
+      2,
+      7,
+      13,
+      18
+    ],
+    "families": {
+      "stairs": 386,
+      "slabs": 424,
+      "walls": 0,
+      "fences": 46,
+      "doors": 0,
+      "trapdoors": 281,
+      "glass": 130,
+      "logs": 721,
+      "planks": 86,
+      "stone_bricks": 13,
+      "deepslate": 4,
+      "terracotta": 0,
+      "concrete": 19,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 26,
+      "copper": 1,
+      "nether": 159
+    },
+    "symmetry": {
+      "symmetry_x": 0.781,
+      "symmetry_z": 0.1293,
+      "symmetry_y": 0.1682
+    },
+    "solid_ratio": 0.1347
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cobblestone",
+        "count": 750,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_jungle_log",
+        "count": 721,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_cobblestone",
+        "count": 436,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 391,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_slab",
+        "count": 383,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_stairs",
+        "count": 342,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_trapdoor",
+        "count": 281,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_stained_glass",
+        "count": 115,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 114,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_planks",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "verdant_froglight",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone_slab",
+        "count": 40,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 807,
+      "stone": 1759,
+      "deepslate": 4,
+      "terracotta": 0,
+      "concrete": 19,
+      "wool": 0,
+      "glass": 130,
+      "nether": 2,
+      "copper": 1,
+      "prismarine": 22,
+      "sandstone": 0,
+      "sand": 1,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 75
+    },
+    "remap_targets": [
+      "cobblestone",
+      "stripped_jungle_log",
+      "mossy_cobblestone",
+      "stone",
+      "jungle_slab",
+      "jungle_stairs",
+      "jungle_trapdoor",
+      "orange_stained_glass",
+      "chest",
+      "jungle_planks",
+      "verdant_froglight",
+      "blackstone"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "chinese",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.666,
+        "raw_score": 0.3164,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.64,
+        "raw_score": 0.3079
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.603,
+        "raw_score": 0.2955
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.538,
+        "raw_score": 0.2731
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.532,
+        "raw_score": 0.2709
+      }
+    ]
+  },
+  "redstone": {
+    "total": 470,
+    "pattern_ids": [
+      "hopper_line",
+      "qc_piston_bank",
+      "observer_clock",
+      "lamp_line",
+      "pulse_extender",
+      "edge_detector",
+      "instant_wire",
+      "note_block_line",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "copper_bulb_latch",
+      "shulker_loader"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "QC/BUD 活塞组",
+      "观察者相邻时钟嫌疑",
+      "红石灯/灯泡线路",
+      "脉冲延长/单稳态嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "音符盒线路/乐器阵",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "铜灯泡锁存/切换",
+      "潜影盒装卸线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 16,
+      "repeater": 14,
+      "sticky_piston": 1,
+      "observer": 53,
+      "hopper": 55,
+      "dropper": 3,
+      "dispenser": 5,
+      "note_block": 3,
+      "redstone_lamp": 1,
+      "trapdoor": 281,
+      "fence_gate": 30,
+      "copper_bulb": 1,
+      "shulker_box": 7
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\b5a192df4788_Mossy_20Stash_skeleton.npz",
+    "occupancy_frac": 0.147186279296875,
+    "occupied": 4823
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

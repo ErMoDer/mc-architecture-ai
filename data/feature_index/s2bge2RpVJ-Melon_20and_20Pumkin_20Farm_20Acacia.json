@@ -1,0 +1,269 @@
+{
+  "id": "s2bge2RpVJ-Melon_20and_20Pumkin_20Farm_20Acacia",
+  "source_path": "data\\raw\\hack337\\schematics\\s2bge2RpVJ-Melon%20and%20Pumkin%20Farm%20Acacia.litematic",
+  "created_at": "2026-10-18T22:26:42+08:00",
+  "overview": {
+    "schematic_name": "Melon and Pumkin Farm Acacia",
+    "size": {
+      "x": 53,
+      "y": 21,
+      "z": 25
+    },
+    "non_air": 11360,
+    "density": 0.4083,
+    "unique_block_types": 55
+  },
+  "massing": {
+    "hollow_score": 0.5872,
+    "interior_air_frac": 0.5872,
+    "exterior_solid_frac": 0.0776,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      3,
+      8,
+      14
+    ],
+    "families": {
+      "stairs": 424,
+      "slabs": 213,
+      "walls": 0,
+      "fences": 32,
+      "doors": 2,
+      "trapdoors": 9,
+      "glass": 1086,
+      "logs": 504,
+      "planks": 339,
+      "stone_bricks": 380,
+      "deepslate": 0,
+      "terracotta": 1,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 51,
+      "copper": 0,
+      "nether": 2
+    },
+    "symmetry": {
+      "symmetry_x": 0.9995,
+      "symmetry_z": 0.9512,
+      "symmetry_y": 0.1201
+    },
+    "solid_ratio": 0.4083
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 5900,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 1076,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 1028,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 474,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 380,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_planks",
+        "count": 253,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_log",
+        "count": 206,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_stairs",
+        "count": 184,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 164,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 156,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_acacia_log",
+        "count": 138,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_stairs",
+        "count": 113,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 843,
+      "stone": 810,
+      "deepslate": 0,
+      "terracotta": 1,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 1086,
+      "nether": 2,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 2,
+      "leaves": 0,
+      "metal": 54
+    },
+    "remap_targets": [
+      "dirt",
+      "glass",
+      "grass_block",
+      "powered_rail",
+      "stone_bricks",
+      "acacia_planks",
+      "mangrove_log",
+      "acacia_stairs",
+      "observer",
+      "farmland",
+      "piston",
+      "cobblestone"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "chinese",
+      "rustic",
+      "japanese",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.608,
+        "raw_score": 0.2582,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.562,
+        "raw_score": 0.2444
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.532,
+        "raw_score": 0.235
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.498,
+        "raw_score": 0.224
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.468,
+        "raw_score": 0.2142
+      }
+    ]
+  },
+  "redstone": {
+    "total": 947,
+    "pattern_ids": [
+      "hopper_line",
+      "simple_io",
+      "door_line",
+      "item_elevator",
+      "etho_hopper_clock",
+      "edge_detector",
+      "hopper_clock",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线",
+      "物品升降机嫌疑",
+      "多漏斗环钟嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_torch": 38,
+      "repeater": 2,
+      "comparator": 4,
+      "button": 1,
+      "pressure_plate": 1,
+      "piston": 160,
+      "sticky_piston": 2,
+      "observer": 164,
+      "hopper": 52,
+      "dropper": 2,
+      "iron_door": 2,
+      "trapdoor": 9,
+      "powered_rail": 474,
+      "rail": 36
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\s2bge2RpVJ-Melon_20and_20Pumkin_20Farm_20Acacia_skeleton.npz",
+    "occupancy_frac": 0.44500732421875,
+    "occupied": 14582
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

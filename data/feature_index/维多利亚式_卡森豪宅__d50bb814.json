@@ -1,0 +1,253 @@
+{
+  "id": "维多利亚式_卡森豪宅__d50bb814",
+  "source_path": "data\\raw\\mcblock\\维多利亚式_卡森豪宅__d50bb814.litematic",
+  "created_at": "2026-10-20T13:59:34+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 41,
+      "y": 50,
+      "z": 48
+    },
+    "non_air": 14915,
+    "density": 0.1516,
+    "unique_block_types": 71
+  },
+  "massing": {
+    "hollow_score": 0.8302,
+    "interior_air_frac": 0.8302,
+    "exterior_solid_frac": 0.0029,
+    "floor_guess": 5,
+    "y_peaks": [
+      1,
+      7,
+      12,
+      18,
+      24
+    ],
+    "families": {
+      "stairs": 1963,
+      "slabs": 1543,
+      "walls": 315,
+      "fences": 395,
+      "doors": 58,
+      "trapdoors": 54,
+      "glass": 430,
+      "logs": 32,
+      "planks": 3119,
+      "stone_bricks": 2082,
+      "deepslate": 0,
+      "terracotta": 488,
+      "concrete": 2407,
+      "wool": 327,
+      "leaves": 0,
+      "lanterns": 84,
+      "copper": 0,
+      "nether": 9
+    },
+    "symmetry": {
+      "symmetry_x": 0.3306,
+      "symmetry_z": 0.4269,
+      "symmetry_y": 0.0493
+    },
+    "solid_ratio": 0.1516
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dark_oak_planks",
+        "count": 3117,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_concrete",
+        "count": 2407,
+        "frac": 0.0
+      },
+      {
+        "name": "cut_sandstone",
+        "count": 2100,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 1289,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone_slab",
+        "count": 1236,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone_stairs",
+        "count": 1167,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 599,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_terracotta",
+        "count": 326,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 315,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_fence",
+        "count": 276,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 194,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 169,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_terracotta",
+        "count": 162,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass_pane",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_fence_gate",
+        "count": 92,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 3151,
+      "stone": 6921,
+      "deepslate": 0,
+      "terracotta": 488,
+      "concrete": 2407,
+      "wool": 327,
+      "glass": 430,
+      "nether": 9,
+      "copper": 0,
+      "prismarine": 129,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 24
+    },
+    "remap_targets": [
+      "dark_oak_planks",
+      "light_gray_concrete",
+      "cut_sandstone",
+      "stone_bricks",
+      "sandstone_slab",
+      "sandstone_stairs",
+      "stone_brick_stairs",
+      "lime_terracotta",
+      "cobblestone_wall",
+      "birch_fence",
+      "stone_brick_slab",
+      "glass_pane"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "chinese",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.645,
+        "raw_score": 0.2952,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.622,
+        "raw_score": 0.2877
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.466,
+        "raw_score": 0.235
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.422,
+        "raw_score": 0.2188
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.413,
+        "raw_score": 0.2154
+      }
+    ]
+  },
+  "redstone": {
+    "total": 284,
+    "pattern_ids": [
+      "simple_io",
+      "door_line",
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线",
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "redstone_block": 6,
+      "lever": 5,
+      "button": 49,
+      "pressure_plate": 7,
+      "note_block": 2,
+      "redstone_lamp": 6,
+      "door": 58,
+      "trapdoor": 54,
+      "fence_gate": 92,
+      "tripwire": 3,
+      "furnace": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\维多利亚式_卡森豪宅__d50bb814_skeleton.npz",
+    "occupancy_frac": 0.19842529296875,
+    "occupied": 6502
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "european",
+  "mapped_terrain": "flat",
+  "long_fill2_retag": "long_fill2 mcblock topup retry"
+}

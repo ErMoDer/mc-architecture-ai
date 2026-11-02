@@ -1,0 +1,223 @@
+{
+  "id": "湖畔居所第四弹__54beea2f",
+  "source_path": "data\\raw\\mcblock\\湖畔居所第四弹__54beea2f.litematic",
+  "created_at": "2026-10-20T13:59:57+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 19,
+      "y": 12,
+      "z": 19
+    },
+    "non_air": 1041,
+    "density": 0.2403,
+    "unique_block_types": 14
+  },
+  "massing": {
+    "hollow_score": 0.7813,
+    "interior_air_frac": 0.7813,
+    "exterior_solid_frac": 0.0944,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      4,
+      8
+    ],
+    "families": {
+      "stairs": 13,
+      "slabs": 103,
+      "walls": 0,
+      "fences": 277,
+      "doors": 12,
+      "trapdoors": 0,
+      "glass": 9,
+      "logs": 76,
+      "planks": 401,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 104,
+      "leaves": 0,
+      "lanterns": 2,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5584,
+      "symmetry_z": 0.5422,
+      "symmetry_y": 0.1938
+    },
+    "solid_ratio": 0.2403
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_fence",
+        "count": 277,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 233,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 168,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 103,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_wool",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_stairs",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_door",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "jack_o_lantern",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 477,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 104,
+      "glass": 9,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "oak_fence",
+      "oak_planks",
+      "birch_planks",
+      "oak_slab",
+      "white_wool",
+      "oak_log",
+      "ladder",
+      "orange_wool",
+      "wall_torch",
+      "birch_stairs",
+      "oak_door",
+      "glass_pane"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6523,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.67,
+        "raw_score": 0.5145
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.594,
+        "raw_score": 0.4716
+      },
+      {
+        "style": "western",
+        "confidence": 0.594,
+        "raw_score": 0.4716
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.21,
+        "raw_score": 0.234
+      }
+    ]
+  },
+  "redstone": {
+    "total": 12,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 12
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\湖畔居所第四弹__54beea2f_skeleton.npz",
+    "occupancy_frac": 0.237335205078125,
+    "occupied": 7777
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "rustic",
+  "mapped_terrain": "flat",
+  "long_fill2_retag": "long_fill2 mcblock topup retry"
+}

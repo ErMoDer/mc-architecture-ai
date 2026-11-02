@@ -1,0 +1,229 @@
+{
+  "id": "hf8TtpJAmX-sword_20beacon",
+  "source_path": "data\\raw\\hack337\\schematics\\hf8TtpJAmX-sword%20beacon.litematic",
+  "created_at": "2026-10-18T22:26:18+08:00",
+  "overview": {
+    "schematic_name": "sword beacon",
+    "size": {
+      "x": 11,
+      "y": 13,
+      "z": 12
+    },
+    "non_air": 440,
+    "density": 0.2564,
+    "unique_block_types": 16
+  },
+  "massing": {
+    "hollow_score": 0.7768,
+    "interior_air_frac": 0.7768,
+    "exterior_solid_frac": 0.1276,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      8
+    ],
+    "families": {
+      "stairs": 8,
+      "slabs": 7,
+      "walls": 13,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 16,
+      "glass": 7,
+      "logs": 19,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 21,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 70
+    },
+    "symmetry": {
+      "symmetry_x": 0.991,
+      "symmetry_z": 0.8723,
+      "symmetry_y": 0.0464
+    },
+    "solid_ratio": 0.2564
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 249,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 83,
+        "frac": 0.0
+      },
+      {
+        "name": "netherrack",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_hyphae",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_trapdoor",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_wall",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_block",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_stained_glass_pane",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_stairs",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_slab",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_stairs",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_slab",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "beacon",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_stained_glass",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_wart_block",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 19,
+      "stone": 0,
+      "deepslate": 21,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 7,
+      "nether": 51,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 9
+    },
+    "remap_targets": [
+      "dirt",
+      "grass_block",
+      "netherrack",
+      "crimson_hyphae",
+      "crimson_trapdoor",
+      "deepslate_tile_wall",
+      "iron_block",
+      "purple_stained_glass_pane",
+      "crimson_stairs",
+      "crimson_slab",
+      "deepslate_tiles",
+      "polished_deepslate_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "fantasy",
+      "rustic",
+      "chinese",
+      "japanese",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.485,
+        "raw_score": 0.1353,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.392,
+        "raw_score": 0.1142
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.387,
+        "raw_score": 0.113
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.347,
+        "raw_score": 0.1036
+      },
+      {
+        "style": "western",
+        "confidence": 0.347,
+        "raw_score": 0.1036
+      }
+    ]
+  },
+  "redstone": {
+    "total": 16,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 16
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\hf8TtpJAmX-sword_20beacon_skeleton.npz",
+    "occupancy_frac": 0.275543212890625,
+    "occupied": 9029
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

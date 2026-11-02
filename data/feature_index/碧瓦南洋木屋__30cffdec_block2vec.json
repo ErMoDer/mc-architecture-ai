@@ -1,0 +1,13 @@
+{
+  "id": "碧瓦南洋木屋__30cffdec",
+  "dim": 144,
+  "n_chunks": 33,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "碧瓦南洋木屋__30cffdec_block2vec.npy"
+}

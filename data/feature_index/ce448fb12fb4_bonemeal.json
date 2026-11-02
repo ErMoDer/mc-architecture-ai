@@ -1,0 +1,294 @@
+{
+  "id": "ce448fb12fb4_bonemeal",
+  "source_path": "data\\raw\\hack337\\schematics\\ce448fb12fb4_bonemeal.litematic",
+  "created_at": "2026-10-18T22:25:52+08:00",
+  "overview": {
+    "schematic_name": "schematelizer",
+    "size": {
+      "x": 32,
+      "y": 16,
+      "z": 32
+    },
+    "non_air": 1797,
+    "density": 0.1097,
+    "unique_block_types": 31
+  },
+  "massing": {
+    "hollow_score": 0.8626,
+    "interior_air_frac": 0.8626,
+    "exterior_solid_frac": 0.004,
+    "floor_guess": 1,
+    "y_peaks": [
+      5
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 30,
+      "glass": 408,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 203,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.1338,
+      "symmetry_z": 0.5819,
+      "symmetry_y": 0.0257
+    },
+    "solid_ratio": 0.1097
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "white_stained_glass",
+        "count": 408,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 218,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 203,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 155,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 92,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "target",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "composter",
+        "count": 30,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 218,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 203,
+      "wool": 0,
+      "glass": 408,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 32,
+      "leaves": 66,
+      "metal": 78
+    },
+    "remap_targets": [
+      "white_stained_glass",
+      "stone",
+      "white_concrete",
+      "redstone_wire",
+      "sticky_piston",
+      "hopper",
+      "observer",
+      "moss_block",
+      "target",
+      "redstone_torch",
+      "piston_head",
+      "lava"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "european",
+      "fantasy",
+      "industrial"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.554,
+        "raw_score": 0.2043,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.477,
+        "raw_score": 0.1828
+      },
+      {
+        "style": "european",
+        "confidence": 0.37,
+        "raw_score": 0.151
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.314,
+        "raw_score": 0.1328
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.258,
+        "raw_score": 0.1138
+      }
+    ]
+  },
+  "redstone": {
+    "total": 711,
+    "pattern_ids": [
+      "hopper_line",
+      "piston_door",
+      "qc_piston_bank",
+      "simple_io",
+      "item_elevator",
+      "observer_clock",
+      "t_flip_flop",
+      "etho_hopper_clock",
+      "target_block_line",
+      "pulse_extender",
+      "pulse_limiter",
+      "edge_detector",
+      "instant_wire",
+      "hopper_clock",
+      "dropper_vator",
+      "monostable",
+      "zero_tick_bud_freerun",
+      "torch_logic_lattice",
+      "dual_edge_repeater",
+      "water_hopper_stream",
+      "falling_edge",
+      "torch_xor_gate"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "杠杆/按钮 → 灯或门",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "投掷器-漏斗 T 触发器嫌疑",
+      "多漏斗环钟嫌疑",
+      "标靶方块线路",
+      "脉冲延长/单稳态嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "投掷器电梯（dropper-vator）",
+      "火把-中继器单稳态嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "火把逻辑阵（AND/OR/NOR/XOR）嫌疑",
+      "双沿/对向中继器线嫌疑",
+      "水流漏斗收集线嫌疑",
+      "下降沿/双火把脉冲嫌疑",
+      "火把 XOR/同或门嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 155,
+      "redstone_torch": 87,
+      "repeater": 24,
+      "comparator": 6,
+      "lever": 1,
+      "piston": 32,
+      "sticky_piston": 92,
+      "observer": 70,
+      "hopper": 78,
+      "dropper": 4,
+      "dispenser": 4,
+      "target": 61,
+      "redstone_lamp": 1,
+      "trapdoor": 30,
+      "activator_rail": 10,
+      "piston_head": 56
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\ce448fb12fb4_bonemeal_skeleton.npz",
+    "occupancy_frac": 0.10968017578125,
+    "occupied": 3594
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "demoted_from_industrial:bonemeal",
+  "previous_mapped_style": "industrial"
+}

@@ -1,0 +1,200 @@
+{
+  "id": "G28LwJZ8BW-Netherwart_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\G28LwJZ8BW-Netherwart%20Farm.litematic",
+  "created_at": "2026-10-18T22:26:15+08:00",
+  "overview": {
+    "schematic_name": "Netherwart Farm",
+    "size": {
+      "x": 11,
+      "y": 6,
+      "z": 11
+    },
+    "non_air": 456,
+    "density": 0.6281,
+    "unique_block_types": 10
+  },
+  "massing": {
+    "hollow_score": 0.25,
+    "interior_air_frac": 0.25,
+    "exterior_solid_frac": 0.2934,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 36,
+      "slabs": 60,
+      "walls": 0,
+      "fences": 20,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 5,
+      "copper": 0,
+      "nether": 448
+    },
+    "symmetry": {
+      "symmetry_x": 1.0,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.2562
+    },
+    "solid_ratio": 0.6281
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "soul_sand",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_wart",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_brick_slab",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_brick_stairs",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_brick_fence",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_bricks",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_nether_bricks",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "scaffolding",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "jack_o_lantern",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 128,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 320,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "soul_sand",
+      "nether_wart",
+      "nether_brick_slab",
+      "nether_brick_stairs",
+      "nether_brick_fence",
+      "nether_bricks",
+      "chiseled_nether_bricks",
+      "lantern",
+      "scaffolding",
+      "jack_o_lantern"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "nether",
+    "style_id": 5,
+    "terrain_id": 3,
+    "guess_names": [
+      "fantasy",
+      "european",
+      "medieval",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.501,
+        "raw_score": 0.1514,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.382,
+        "raw_score": 0.1224
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.338,
+        "raw_score": 0.1111
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.138,
+        "raw_score": 0.0519
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.125,
+        "raw_score": 0.0476
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\G28LwJZ8BW-Netherwart_20Farm_skeleton.npz",
+    "occupancy_frac": 0.6539306640625,
+    "occupied": 21428
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

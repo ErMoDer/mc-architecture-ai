@@ -1,0 +1,273 @@
+{
+  "id": "bNKF4HTd4P-lava_20farm_20by_20opqnda_",
+  "source_path": "data\\raw\\hack337\\schematics\\bNKF4HTd4P-lava%20farm%20by%20opqnda_.litematic",
+  "created_at": "2026-10-18T22:25:48+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 6,
+      "y": 20,
+      "z": 17
+    },
+    "non_air": 183,
+    "density": 0.0897,
+    "unique_block_types": 22
+  },
+  "massing": {
+    "hollow_score": 0.9194,
+    "interior_air_frac": 0.9194,
+    "exterior_solid_frac": 0.0471,
+    "floor_guess": 5,
+    "y_peaks": [
+      4,
+      8,
+      11,
+      14,
+      18
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 2,
+      "walls": 0,
+      "fences": 0,
+      "doors": 2,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 55,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.0958,
+      "symmetry_z": 0.0828,
+      "symmetry_y": 0.1091
+    },
+    "solid_ratio": 0.0897
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dark_oak_planks",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_door",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "pointed_dripstone",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 55,
+      "stone": 6,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "dark_oak_planks",
+      "observer",
+      "redstone_wire",
+      "piston",
+      "powered_rail",
+      "repeater",
+      "slime_block",
+      "sticky_piston",
+      "chest",
+      "stone",
+      "oak_wall_sign",
+      "comparator"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7041,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.703,
+        "raw_score": 0.5821
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.644,
+        "raw_score": 0.5336
+      },
+      {
+        "style": "western",
+        "confidence": 0.625,
+        "raw_score": 0.5175
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.208,
+        "raw_score": 0.246
+      }
+    ]
+  },
+  "redstone": {
+    "total": 112,
+    "pattern_ids": [
+      "piston_door",
+      "door_line",
+      "observer_clock",
+      "target_block_line",
+      "flying_machine",
+      "qc_piston_bank",
+      "edge_detector",
+      "t_flip_flop",
+      "monostable",
+      "torch_clock",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "门/活板/栅栏门控制线",
+      "观察者相邻时钟嫌疑",
+      "标靶方块线路",
+      "飞船/飞行器骨架",
+      "QC/BUD 活塞组",
+      "边沿检测（观察者）嫌疑",
+      "T 触发器嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "火把钟骨架",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 23,
+      "redstone_torch": 1,
+      "redstone_block": 1,
+      "repeater": 6,
+      "comparator": 2,
+      "piston": 14,
+      "sticky_piston": 4,
+      "observer": 40,
+      "target": 1,
+      "door": 2,
+      "powered_rail": 11,
+      "piston_head": 1,
+      "slime_block": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\bNKF4HTd4P-lava_20farm_20by_20opqnda__skeleton.npz",
+    "occupancy_frac": 0.085906982421875,
+    "occupied": 2815
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

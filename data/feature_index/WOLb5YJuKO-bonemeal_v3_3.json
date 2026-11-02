@@ -1,0 +1,305 @@
+{
+  "id": "WOLb5YJuKO-bonemeal_v3_3",
+  "source_path": "data\\raw\\hack337\\schematics\\WOLb5YJuKO-bonemeal_v3.3.litematic",
+  "created_at": "2026-10-18T22:27:18+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 15,
+      "y": 54,
+      "z": 14
+    },
+    "non_air": 5481,
+    "density": 0.4833,
+    "unique_block_types": 33
+  },
+  "massing": {
+    "hollow_score": 0.4758,
+    "interior_air_frac": 0.4758,
+    "exterior_solid_frac": 0.1084,
+    "floor_guess": 13,
+    "y_peaks": [
+      3,
+      6,
+      10,
+      14,
+      18,
+      22,
+      26,
+      30,
+      34,
+      38,
+      42,
+      46,
+      50
+    ],
+    "families": {
+      "stairs": 100,
+      "slabs": 104,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 77,
+      "glass": 479,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 11,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.7542,
+      "symmetry_z": 0.4188,
+      "symmetry_y": 0.5727
+    },
+    "solid_ratio": 0.4833
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "tuff_bricks",
+        "count": 2515,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 495,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_stained_glass",
+        "count": 479,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 451,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 198,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 198,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 188,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 187,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 118,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_brick_slab",
+        "count": 104,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_brick_stairs",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 89,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 77,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "bubble_column",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 44,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 3170,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 479,
+      "nether": 1,
+      "copper": 11,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 11,
+      "leaves": 11,
+      "metal": 118
+    },
+    "remap_targets": [
+      "tuff_bricks",
+      "redstone_wire",
+      "light_gray_stained_glass",
+      "stone",
+      "piston",
+      "obsidian",
+      "water",
+      "lava",
+      "hopper",
+      "tuff_brick_slab",
+      "tuff_brick_stairs",
+      "oak_wall_sign"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.725,
+        "raw_score": 0.3754,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.583,
+        "raw_score": 0.3243
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.355,
+        "raw_score": 0.23
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.204,
+        "raw_score": 0.1522
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.182,
+        "raw_score": 0.1397
+      }
+    ]
+  },
+  "redstone": {
+    "total": 1060,
+    "pattern_ids": [
+      "hopper_line",
+      "piston_door",
+      "qc_piston_bank",
+      "hopper_clock",
+      "sticky_piston_pair",
+      "simple_io",
+      "item_elevator",
+      "observer_clock",
+      "etho_hopper_clock",
+      "dropper_vator",
+      "target_block_line",
+      "copper_bulb_latch",
+      "pulse_extender",
+      "edge_detector",
+      "instant_wire",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "dual_edge_repeater",
+      "water_hopper_stream",
+      "falling_edge",
+      "portal_frame_cue"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "漏斗钟",
+      "粘性活塞对（换块/门）",
+      "杠杆/按钮 → 灯或门",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "多漏斗环钟嫌疑",
+      "投掷器电梯（dropper-vator）",
+      "标靶方块线路",
+      "铜灯泡锁存/切换",
+      "脉冲延长/单稳态嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "双沿/对向中继器线嫌疑",
+      "水流漏斗收集线嫌疑",
+      "下降沿/双火把脉冲嫌疑",
+      "传送门框/黑曜石阵嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 495,
+      "redstone_torch": 5,
+      "redstone_block": 1,
+      "repeater": 44,
+      "comparator": 15,
+      "lever": 1,
+      "piston": 198,
+      "sticky_piston": 3,
+      "observer": 56,
+      "hopper": 118,
+      "dropper": 12,
+      "dispenser": 11,
+      "target": 11,
+      "redstone_lamp": 1,
+      "trapdoor": 77,
+      "piston_head": 1,
+      "copper_bulb": 11
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\WOLb5YJuKO-bonemeal_v3_3_skeleton.npz",
+    "occupancy_frac": 0.5634765625,
+    "occupied": 18464
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:bonemeal",
+  "previous_mapped_style": "chinese"
+}

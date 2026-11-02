@@ -1,0 +1,13 @@
+{
+  "id": "樱花女巫小屋__b512c956",
+  "dim": 144,
+  "n_chunks": 13,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "樱花女巫小屋__b512c956_block2vec.npy"
+}

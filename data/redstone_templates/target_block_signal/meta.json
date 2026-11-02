@@ -1,0 +1,15 @@
+{
+  "id": "target_block_signal",
+  "matches": [
+    "target_block",
+    "target_signal",
+    "archery_signal"
+  ],
+  "label_zh": "标靶信号桩（标靶→粉尘→灯）",
+  "size": [
+    3,
+    1,
+    1
+  ],
+  "notes": "教学桩：箭/弹射物击中标靶出信号；可作家门铃变体。"
+}

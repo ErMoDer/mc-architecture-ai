@@ -1,0 +1,230 @@
+{
+  "id": "731625b7e51b_CreeperFarm",
+  "source_path": "data\\raw\\hack337\\schematics\\731625b7e51b_CreeperFarm.litematic",
+  "created_at": "2026-10-18T22:25:25+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 24,
+      "y": 44,
+      "z": 25
+    },
+    "non_air": 2802,
+    "density": 0.1061,
+    "unique_block_types": 13
+  },
+  "massing": {
+    "hollow_score": 0.8688,
+    "interior_air_frac": 0.8688,
+    "exterior_solid_frac": 0.0005,
+    "floor_guess": 6,
+    "y_peaks": [
+      21,
+      26,
+      29,
+      32,
+      37,
+      40
+    ],
+    "families": {
+      "stairs": 12,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 48,
+      "doors": 0,
+      "trapdoors": 599,
+      "glass": 6,
+      "logs": 0,
+      "planks": 1927,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 80,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5286,
+      "symmetry_z": 0.4091,
+      "symmetry_y": 0.0378
+    },
+    "solid_ratio": 0.1061
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_planks",
+        "count": 1927,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 599,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_carpet",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_button",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence_gate",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "snow",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1927,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 80,
+      "glass": 6,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 5,
+      "leaves": 0,
+      "metal": 9
+    },
+    "remap_targets": [
+      "oak_planks",
+      "oak_trapdoor",
+      "water",
+      "pink_carpet",
+      "oak_fence",
+      "oak_button",
+      "torch",
+      "oak_stairs",
+      "hopper",
+      "oak_fence_gate",
+      "glass",
+      "snow"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.734,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.701,
+        "raw_score": 0.605
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.642,
+        "raw_score": 0.5546
+      },
+      {
+        "style": "western",
+        "confidence": 0.642,
+        "raw_score": 0.5546
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.198,
+        "raw_score": 0.2447
+      }
+    ]
+  },
+  "redstone": {
+    "total": 636,
+    "pattern_ids": [
+      "hopper_line"
+    ],
+    "pattern_labels": [
+      "漏斗输送线"
+    ],
+    "inventory_nonzero": {
+      "button": 20,
+      "hopper": 9,
+      "trapdoor": 599,
+      "fence_gate": 8
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\731625b7e51b_CreeperFarm_skeleton.npz",
+    "occupancy_frac": 0.11553955078125,
+    "occupied": 3786
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

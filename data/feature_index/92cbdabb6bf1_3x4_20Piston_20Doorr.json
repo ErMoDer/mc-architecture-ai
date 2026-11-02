@@ -1,0 +1,242 @@
+{
+  "id": "92cbdabb6bf1_3x4_20Piston_20Doorr",
+  "source_path": "data\\raw\\hack337\\schematics\\92cbdabb6bf1_3x4%20Piston%20Doorr.litematic",
+  "created_at": "2026-10-18T22:25:33+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 3,
+      "y": 11,
+      "z": 9
+    },
+    "non_air": 163,
+    "density": 0.5488,
+    "unique_block_types": 11
+  },
+  "massing": {
+    "hollow_score": 0.4127,
+    "interior_air_frac": 0.4127,
+    "exterior_solid_frac": 0.4242,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      3,
+      9
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 1,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 4,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2784,
+      "symmetry_z": 0.9064,
+      "symmetry_y": 0.7622
+    },
+    "solid_ratio": 0.5488
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cobblestone",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_block",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite_slab",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 40,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 4,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 28
+    },
+    "remap_targets": [
+      "cobblestone",
+      "observer",
+      "iron_block",
+      "redstone_wire",
+      "sticky_piston",
+      "repeater",
+      "piston_head",
+      "redstone_torch",
+      "sea_lantern",
+      "lever",
+      "polished_diorite_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "industrial",
+      "medieval",
+      "fantasy",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.588,
+        "raw_score": 0.2381,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.559,
+        "raw_score": 0.2296
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.514,
+        "raw_score": 0.216
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.285,
+        "raw_score": 0.1389
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.198,
+        "raw_score": 0.1037
+      }
+    ]
+  },
+  "redstone": {
+    "total": 91,
+    "pattern_ids": [
+      "observer_clock",
+      "piston_door",
+      "qc_piston_bank",
+      "pulse_extender",
+      "pulse_limiter",
+      "edge_detector",
+      "t_flip_flop",
+      "monostable",
+      "torch_clock",
+      "zero_tick_bud_freerun",
+      "torch_logic_lattice",
+      "instant_wire",
+      "dual_edge_repeater",
+      "falling_edge",
+      "torch_xor_gate"
+    ],
+    "pattern_labels": [
+      "观察者环路时钟",
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "脉冲延长/单稳态嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "T 触发器嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "火把钟骨架",
+      "零刻/BUD 自走嫌疑",
+      "火把逻辑阵（AND/OR/NOR/XOR）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "双沿/对向中继器线嫌疑",
+      "下降沿/双火把脉冲嫌疑",
+      "火把 XOR/同或门嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 18,
+      "redstone_torch": 4,
+      "repeater": 11,
+      "lever": 1,
+      "sticky_piston": 16,
+      "observer": 30,
+      "piston_head": 11
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\92cbdabb6bf1_3x4_20Piston_20Doorr_skeleton.npz",
+    "occupancy_frac": 0.53265380859375,
+    "occupied": 17454
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "id": "精灵小屋__d848e922",
+  "source_path": "data\\raw\\mcblock\\精灵小屋__d848e922.litematic",
+  "created_at": "2026-10-19T20:34:47+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 37,
+      "y": 37,
+      "z": 40
+    },
+    "non_air": 5478,
+    "density": 0.1,
+    "unique_block_types": 118
+  },
+  "massing": {
+    "hollow_score": 0.8878,
+    "interior_air_frac": 0.8878,
+    "exterior_solid_frac": 0.0046,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      3,
+      11,
+      18,
+      21
+    ],
+    "families": {
+      "stairs": 447,
+      "slabs": 229,
+      "walls": 87,
+      "fences": 91,
+      "doors": 8,
+      "trapdoors": 408,
+      "glass": 70,
+      "logs": 1171,
+      "planks": 254,
+      "stone_bricks": 0,
+      "deepslate": 488,
+      "terracotta": 480,
+      "concrete": 0,
+      "wool": 13,
+      "leaves": 20,
+      "lanterns": 48,
+      "copper": 0,
+      "nether": 184
+    },
+    "symmetry": {
+      "symmetry_x": 0.3083,
+      "symmetry_z": 0.3184,
+      "symmetry_y": 0.086
+    },
+    "solid_ratio": 0.1
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_spruce_wood",
+        "count": 496,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate",
+        "count": 366,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 364,
+        "frac": 0.0
+      },
+      {
+        "name": "white_terracotta",
+        "count": 362,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_wood",
+        "count": 228,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_cherry_wood",
+        "count": 222,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 157,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 144,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_planks",
+        "count": 141,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_crimson_hyphae",
+        "count": 115,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 106,
+        "frac": 0.0
+      },
+      {
+        "name": "bone_block",
+        "count": 106,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff",
+        "count": 103,
+        "frac": 0.0
+      },
+      {
+        "name": "mushroom_stem",
+        "count": 92,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 92,
+        "frac": 0.0
+      },
+      {
+        "name": "purpur_block",
+        "count": 92,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1669,
+      "stone": 329,
+      "deepslate": 488,
+      "terracotta": 480,
+      "concrete": 0,
+      "wool": 13,
+      "glass": 70,
+      "nether": 67,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 384,
+      "metal": 42
+    },
+    "remap_targets": [
+      "stripped_spruce_wood",
+      "deepslate",
+      "moss_block",
+      "white_terracotta",
+      "stripped_dark_oak_wood",
+      "stripped_cherry_wood",
+      "dark_oak_stairs",
+      "spruce_trapdoor",
+      "cherry_planks",
+      "stripped_crimson_hyphae",
+      "dark_oak_trapdoor",
+      "bone_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.802,
+        "raw_score": 0.4519,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.511,
+        "raw_score": 0.3365
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.469,
+        "raw_score": 0.3175
+      },
+      {
+        "style": "western",
+        "confidence": 0.426,
+        "raw_score": 0.2975
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.185,
+        "raw_score": 0.163
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 491,
+    "pattern_ids": [
+      "door_line",
+      "simple_io"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门"
+    ],
+    "inventory_nonzero": {
+      "button": 8,
+      "pressure_plate": 2,
+      "hopper": 6,
+      "door": 8,
+      "trapdoor": 408,
+      "fence_gate": 48,
+      "brewing_stand": 8,
+      "furnace": 1,
+      "smoker": 1,
+      "blast_furnace": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\精灵小屋__d848e922_skeleton.npz",
+    "occupancy_frac": 0.11865234375,
+    "occupied": 3888
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 39,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\精灵小屋__d848e922_block2vec.npy",
+    "vector_preview": [
+      -0.14479,
+      0.13991,
+      -0.15086,
+      -0.00471,
+      0.01181,
+      -0.00496,
+      -0.08826,
+      0.03511
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "粉色幻想小屋__26cab3e4",
+        "score": 0.9254014230024553,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\粉色幻想小屋__26cab3e4.litematic"
+      },
+      {
+        "id": "幽匿菇__d35f7e79",
+        "score": 0.9127094600038619,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\幽匿菇__d35f7e79.litematic"
+      },
+      {
+        "id": "木质小窝__eac5aff5",
+        "score": 0.9016448606252593,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\木质小窝__eac5aff5.litematic"
+      },
+      {
+        "id": "闪长岩蓝冰冰原小屋__ac2a978c",
+        "score": 0.8900472328537047,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\闪长岩蓝冰冰原小屋__ac2a978c.litematic"
+      },
+      {
+        "id": "红木深板岩小屋__e4eb1671",
+        "score": 0.889453324554064,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\红木深板岩小屋__e4eb1671.litematic"
+      }
+    ]
+  }
+}

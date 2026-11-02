@@ -1,0 +1,267 @@
+{
+  "id": "Q22UCRuZE3-Bee_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\Q22UCRuZE3-Bee%20Farm.litematic",
+  "created_at": "2026-10-18T22:26:38+08:00",
+  "overview": {
+    "schematic_name": "Bee Farm",
+    "size": {
+      "x": 20,
+      "y": 11,
+      "z": 18
+    },
+    "non_air": 3413,
+    "density": 0.8619,
+    "unique_block_types": 44
+  },
+  "massing": {
+    "hollow_score": 0.1632,
+    "interior_air_frac": 0.1632,
+    "exterior_solid_frac": 0.3141,
+    "floor_guess": 3,
+    "y_peaks": [
+      3,
+      7,
+      10
+    ],
+    "families": {
+      "stairs": 27,
+      "slabs": 4,
+      "walls": 1,
+      "fences": 0,
+      "doors": 4,
+      "trapdoors": 5,
+      "glass": 16,
+      "logs": 9,
+      "planks": 0,
+      "stone_bricks": 371,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 15,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7869,
+      "symmetry_z": 0.7629,
+      "symmetry_y": 0.8183
+    },
+    "solid_ratio": 0.8619
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone",
+        "count": 1450,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 583,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 346,
+        "frac": 0.0
+      },
+      {
+        "name": "granite",
+        "count": 304,
+        "frac": 0.0
+      },
+      {
+        "name": "sand",
+        "count": 200,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone",
+        "count": 109,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "gravel",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "coal_ore",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 11,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 9,
+      "stone": 2367,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 16,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 200,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 6
+    },
+    "remap_targets": [
+      "stone",
+      "dirt",
+      "stone_bricks",
+      "granite",
+      "sand",
+      "sandstone",
+      "andesite",
+      "diorite",
+      "gravel",
+      "coal_ore",
+      "redstone_wire",
+      "stone_brick_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.6264,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.791,
+        "raw_score": 0.5831
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.213,
+        "raw_score": 0.2297
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.139,
+        "raw_score": 0.1679
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.124,
+        "raw_score": 0.1539
+      }
+    ]
+  },
+  "redstone": {
+    "total": 94,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "observer_clock",
+      "pulse_limiter",
+      "edge_detector",
+      "door_line",
+      "hopper_clock",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "观察者相邻时钟嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "门/活板/栅栏门控制线",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "BUD 阵列自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 25,
+      "redstone_torch": 5,
+      "redstone_block": 1,
+      "repeater": 5,
+      "comparator": 5,
+      "lever": 2,
+      "observer": 10,
+      "hopper": 6,
+      "dropper": 5,
+      "dispenser": 5,
+      "door": 4,
+      "trapdoor": 5,
+      "powered_rail": 13,
+      "rail": 1,
+      "honey_block": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Q22UCRuZE3-Bee_20Farm_skeleton.npz",
+    "occupancy_frac": 0.8699951171875,
+    "occupied": 28508
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

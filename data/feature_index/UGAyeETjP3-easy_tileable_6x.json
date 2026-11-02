@@ -1,0 +1,276 @@
+{
+  "id": "UGAyeETjP3-easy_tileable_6x",
+  "source_path": "data\\raw\\hack337\\schematics\\UGAyeETjP3-easy_tileable_6x.litematic",
+  "created_at": "2026-10-18T22:27:13+08:00",
+  "overview": {
+    "schematic_name": "easy_tileable_6x",
+    "size": {
+      "x": 3,
+      "y": 7,
+      "z": 8
+    },
+    "non_air": 107,
+    "density": 0.6369,
+    "unique_block_types": 17
+  },
+  "massing": {
+    "hollow_score": 0.0,
+    "interior_air_frac": 0.0,
+    "exterior_solid_frac": 0.4583,
+    "floor_guess": 1,
+    "y_peaks": [
+      3
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 8,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 19,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9815,
+      "symmetry_z": 0.7258,
+      "symmetry_y": 0.6212
+    },
+    "solid_ratio": 0.6369
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "hopper",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "note_block",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "dropper",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "composter",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "white_shulker_box",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 19,
+      "wool": 0,
+      "glass": 8,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 3,
+      "leaves": 0,
+      "metal": 19
+    },
+    "remap_targets": [
+      "hopper",
+      "white_concrete",
+      "redstone_wire",
+      "observer",
+      "note_block",
+      "white_stained_glass",
+      "dropper",
+      "comparator",
+      "composter",
+      "redstone_wall_torch",
+      "packed_ice",
+      "repeater"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "industrial",
+      "scifi",
+      "fantasy",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.611,
+        "raw_score": 0.2608,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.603,
+        "raw_score": 0.2585
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.576,
+        "raw_score": 0.2503
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.05,
+        "raw_score": 0.0272
+      },
+      {
+        "style": "european",
+        "confidence": 0.05,
+        "raw_score": 0.0233
+      }
+    ]
+  },
+  "redstone": {
+    "total": 72,
+    "pattern_ids": [
+      "hopper_line",
+      "item_elevator",
+      "observer_clock",
+      "lamp_line",
+      "etho_hopper_clock",
+      "shulker_loader",
+      "qc_piston_bank",
+      "edge_detector",
+      "note_block_line",
+      "hopper_clock",
+      "t_flip_flop",
+      "monostable",
+      "torch_clock",
+      "zero_tick_bud_freerun",
+      "torch_logic_lattice",
+      "falling_edge",
+      "torch_xor_gate"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "红石灯/灯泡线路",
+      "多漏斗环钟嫌疑",
+      "潜影盒装卸线嫌疑",
+      "QC/BUD 活塞组",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "火把钟骨架",
+      "零刻/BUD 自走嫌疑",
+      "火把逻辑阵（AND/OR/NOR/XOR）嫌疑",
+      "下降沿/双火把脉冲嫌疑",
+      "火把 XOR/同或门嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 13,
+      "redstone_torch": 4,
+      "redstone_block": 1,
+      "repeater": 2,
+      "comparator": 5,
+      "piston": 1,
+      "sticky_piston": 1,
+      "observer": 11,
+      "hopper": 19,
+      "dropper": 5,
+      "dispenser": 1,
+      "note_block": 8,
+      "shulker_box": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\UGAyeETjP3-easy_tileable_6x_skeleton.npz",
+    "occupancy_frac": 0.637451171875,
+    "occupied": 20888
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

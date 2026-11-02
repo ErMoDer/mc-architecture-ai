@@ -1,0 +1,13 @@
+{
+  "id": "丛林小屋第一弹__7592ced7",
+  "dim": 144,
+  "n_chunks": 3,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "丛林小屋第一弹__7592ced7_block2vec.npy"
+}

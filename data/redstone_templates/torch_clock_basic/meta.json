@@ -1,0 +1,14 @@
+{
+  "id": "torch_clock_basic",
+  "matches": [
+    "torch_clock",
+    "torch_burn_clock"
+  ],
+  "label_zh": "火把钟粗骨架",
+  "size": [
+    2,
+    2,
+    1
+  ],
+  "notes": "易烧毁；仅作原理示意，建议游戏内加中继器档位。"
+}

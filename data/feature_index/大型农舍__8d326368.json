@@ -1,0 +1,305 @@
+{
+  "id": "大型农舍__8d326368",
+  "source_path": "data\\raw\\mcblock\\大型农舍__8d326368.litematic",
+  "created_at": "2026-10-19T13:00:58+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 27,
+      "y": 20,
+      "z": 29
+    },
+    "non_air": 4220,
+    "density": 0.2695,
+    "unique_block_types": 40
+  },
+  "massing": {
+    "hollow_score": 0.719,
+    "interior_air_frac": 0.719,
+    "exterior_solid_frac": 0.0515,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      5,
+      9,
+      14
+    ],
+    "families": {
+      "stairs": 59,
+      "slabs": 342,
+      "walls": 24,
+      "fences": 275,
+      "doors": 14,
+      "trapdoors": 12,
+      "glass": 23,
+      "logs": 367,
+      "planks": 1454,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 27,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7851,
+      "symmetry_z": 0.4107,
+      "symmetry_y": 0.135
+    },
+    "solid_ratio": 0.2695
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_planks",
+        "count": 906,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 630,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 548,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 375,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 367,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 355,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 272,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 265,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "sand",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_button",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 29,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1821,
+      "stone": 724,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 27,
+      "glass": 23,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 50,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 4
+    },
+    "remap_targets": [
+      "oak_planks",
+      "cobblestone",
+      "dark_oak_planks",
+      "grass_block",
+      "oak_log",
+      "dirt",
+      "oak_fence",
+      "dark_oak_slab",
+      "wall_torch",
+      "sand",
+      "cobblestone_slab",
+      "oak_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6017,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.678,
+        "raw_score": 0.4871
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.591,
+        "raw_score": 0.4466
+      },
+      {
+        "style": "western",
+        "confidence": 0.501,
+        "raw_score": 0.401
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.262,
+        "raw_score": 0.259
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 80,
+    "pattern_ids": [
+      "door_line",
+      "simple_io"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门"
+    ],
+    "inventory_nonzero": {
+      "button": 37,
+      "pressure_plate": 11,
+      "door": 12,
+      "iron_door": 2,
+      "trapdoor": 12,
+      "fence_gate": 3,
+      "furnace": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\大型农舍__8d326368_skeleton.npz",
+    "occupancy_frac": 0.279205322265625,
+    "occupied": 9149
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 12,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\大型农舍__8d326368_block2vec.npy",
+    "vector_preview": [
+      -0.03892,
+      0.21963,
+      -0.04976,
+      0.0582,
+      0.00137,
+      0.04922,
+      -0.0298,
+      0.05756
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "布吉舞曲之家__552edeea",
+        "score": 0.7864862205932032,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\布吉舞曲之家__552edeea.litematic"
+      },
+      {
+        "id": "意式别墅__92d47c04",
+        "score": 0.7616759483986428,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\意式别墅__92d47c04.litematic"
+      },
+      {
+        "id": "德国汉堡_四号楼__08ba5eb2",
+        "score": 0.7393718572157549,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\德国汉堡_四号楼__08ba5eb2.litematic"
+      },
+      {
+        "id": "81f0318d48be_Zombie_20Farm",
+        "score": 0.7339599578191274,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\81f0318d48be_Zombie%20Farm.litematic"
+      },
+      {
+        "id": "林中地精小屋__2d6afe9f",
+        "score": 0.7289521727048558,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\林中地精小屋__2d6afe9f.litematic"
+      }
+    ]
+  },
+  "mapped_style": "rustic"
+}

@@ -1,0 +1,203 @@
+{
+  "id": "KgozfU4JSG-Bridge_20du",
+  "source_path": "data\\raw\\hack337\\schematics\\KgozfU4JSG-Bridge%20du.litematic",
+  "created_at": "2026-10-18T22:26:26+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 40,
+      "y": 17,
+      "z": 10
+    },
+    "non_air": 1317,
+    "density": 0.1937,
+    "unique_block_types": 11
+  },
+  "massing": {
+    "hollow_score": 0.8184,
+    "interior_air_frac": 0.8184,
+    "exterior_solid_frac": 0.0719,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 16,
+      "slabs": 112,
+      "walls": 0,
+      "fences": 340,
+      "doors": 0,
+      "trapdoors": 136,
+      "glass": 2,
+      "logs": 108,
+      "planks": 24,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 192,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9985,
+      "symmetry_z": 0.9985,
+      "symmetry_y": 0.1412
+    },
+    "solid_ratio": 0.1937
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "water",
+        "count": 364,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 192,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 184,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 156,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 136,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 132,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 2,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "water",
+      "campfire",
+      "oak_fence",
+      "spruce_fence",
+      "spruce_trapdoor",
+      "oak_slab",
+      "oak_log",
+      "oak_planks",
+      "grass_block",
+      "oak_stairs",
+      "glass"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7533,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.707,
+        "raw_score": 0.6269
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.648,
+        "raw_score": 0.5746
+      },
+      {
+        "style": "western",
+        "confidence": 0.648,
+        "raw_score": 0.5746
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.198,
+        "raw_score": 0.2488
+      }
+    ]
+  },
+  "redstone": {
+    "total": 136,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 136
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\KgozfU4JSG-Bridge_20du_skeleton.npz",
+    "occupancy_frac": 0.202056884765625,
+    "occupied": 6621
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

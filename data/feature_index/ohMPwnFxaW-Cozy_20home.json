@@ -1,0 +1,259 @@
+{
+  "id": "ohMPwnFxaW-Cozy_20home",
+  "source_path": "data\\raw\\hack337\\schematics\\ohMPwnFxaW-Cozy%20home.litematic",
+  "created_at": "2026-10-18T22:26:36+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 16,
+      "y": 17,
+      "z": 14
+    },
+    "non_air": 1539,
+    "density": 0.4041,
+    "unique_block_types": 20
+  },
+  "massing": {
+    "hollow_score": 0.5667,
+    "interior_air_frac": 0.5667,
+    "exterior_solid_frac": 0.1174,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      3,
+      7,
+      11,
+      16
+    ],
+    "families": {
+      "stairs": 196,
+      "slabs": 5,
+      "walls": 0,
+      "fences": 3,
+      "doors": 2,
+      "trapdoors": 1,
+      "glass": 50,
+      "logs": 149,
+      "planks": 517,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 6,
+      "leaves": 0,
+      "lanterns": 11,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5866,
+      "symmetry_z": 0.6602,
+      "symmetry_y": 0.2656
+    },
+    "solid_ratio": 0.4041
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 517,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 444,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 196,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 149,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "bookshelf",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_carpet",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_door",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "enchanting_table",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "blast_furnace",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 666,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 6,
+      "glass": 50,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "dirt",
+      "spruce_stairs",
+      "spruce_log",
+      "grass_block",
+      "glass_pane",
+      "bookshelf",
+      "lantern",
+      "chest",
+      "glowstone",
+      "moss_carpet",
+      "spruce_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7136,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.699,
+        "raw_score": 0.587
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.641,
+        "raw_score": 0.5381
+      },
+      {
+        "style": "western",
+        "confidence": 0.641,
+        "raw_score": 0.5381
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.203,
+        "raw_score": 0.2435
+      }
+    ]
+  },
+  "redstone": {
+    "total": 8,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 2,
+      "trapdoor": 1,
+      "fence_gate": 3,
+      "smoker": 1,
+      "blast_furnace": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\ohMPwnFxaW-Cozy_20home_skeleton.npz",
+    "occupancy_frac": 0.4112548828125,
+    "occupied": 13476
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 3,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\ohMPwnFxaW-Cozy_20home_block2vec.npy",
+    "vector_preview": [
+      -0.09913,
+      0.1762,
+      -0.09143,
+      0.02191,
+      0.15106,
+      -0.01304,
+      -0.04319,
+      -0.0042
+    ],
+    "ok": true
+  }
+}

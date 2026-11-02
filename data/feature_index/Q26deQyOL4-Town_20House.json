@@ -1,0 +1,272 @@
+{
+  "id": "Q26deQyOL4-Town_20House",
+  "source_path": "data\\raw\\hack337\\schematics\\Q26deQyOL4-Town%20House.litematic",
+  "created_at": "2026-10-18T22:26:38+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 19,
+      "y": 42,
+      "z": 23
+    },
+    "non_air": 7281,
+    "density": 0.3967,
+    "unique_block_types": 85
+  },
+  "massing": {
+    "hollow_score": 0.556,
+    "interior_air_frac": 0.556,
+    "exterior_solid_frac": 0.0512,
+    "floor_guess": 9,
+    "y_peaks": [
+      0,
+      7,
+      11,
+      14,
+      19,
+      24,
+      29,
+      32,
+      36
+    ],
+    "families": {
+      "stairs": 572,
+      "slabs": 525,
+      "walls": 305,
+      "fences": 2,
+      "doors": 38,
+      "trapdoors": 176,
+      "glass": 392,
+      "logs": 16,
+      "planks": 834,
+      "stone_bricks": 777,
+      "deepslate": 60,
+      "terracotta": 2038,
+      "concrete": 0,
+      "wool": 166,
+      "leaves": 0,
+      "lanterns": 27,
+      "copper": 0,
+      "nether": 12
+    },
+    "symmetry": {
+      "symmetry_x": 0.5239,
+      "symmetry_z": 0.7811,
+      "symmetry_y": 0.3808
+    },
+    "solid_ratio": 0.3967
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cyan_terracotta",
+        "count": 1157,
+        "frac": 0.0
+      },
+      {
+        "name": "terracotta",
+        "count": 881,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 831,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 525,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 430,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 364,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 275,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_stained_glass_pane",
+        "count": 251,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_stairs",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 158,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_bars",
+        "count": 148,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite_wall",
+        "count": 143,
+        "frac": 0.0
+      },
+      {
+        "name": "granite",
+        "count": 125,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass_pane",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 97,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 92,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 850,
+      "stone": 2088,
+      "deepslate": 60,
+      "terracotta": 2038,
+      "concrete": 0,
+      "wool": 166,
+      "glass": 392,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 15,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 12,
+      "leaves": 2,
+      "metal": 174
+    },
+    "remap_targets": [
+      "cyan_terracotta",
+      "terracotta",
+      "spruce_planks",
+      "stone_bricks",
+      "spruce_slab",
+      "andesite",
+      "grass_block",
+      "light_gray_stained_glass_pane",
+      "brick_stairs",
+      "dark_oak_trapdoor",
+      "iron_bars",
+      "andesite_wall"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "chinese",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.572,
+        "raw_score": 0.2223,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.529,
+        "raw_score": 0.2101
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.364,
+        "raw_score": 0.1589
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.331,
+        "raw_score": 0.1478
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.325,
+        "raw_score": 0.1457
+      }
+    ]
+  },
+  "redstone": {
+    "total": 302,
+    "pattern_ids": [
+      "simple_io",
+      "door_line",
+      "daylight_detector_clock"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线",
+      "日光传感器钟/昼夜控制"
+    ],
+    "inventory_nonzero": {
+      "button": 35,
+      "door": 38,
+      "trapdoor": 176,
+      "daylight_detector": 25,
+      "rail": 12,
+      "furnace": 16
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Q26deQyOL4-Town_20House_skeleton.npz",
+    "occupancy_frac": 0.396392822265625,
+    "occupied": 12989
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 24,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\Q26deQyOL4-Town_20House_block2vec.npy",
+    "vector_preview": [
+      -0.05844,
+      0.12371,
+      -0.19244,
+      0.02164,
+      0.03584,
+      0.05809,
+      0.02774,
+      0.02531
+    ],
+    "ok": true
+  }
+}

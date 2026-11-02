@@ -1,0 +1,13 @@
+{
+  "id": "红宝石帽小屋__79497dc3",
+  "dim": 144,
+  "n_chunks": 18,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "红宝石帽小屋__79497dc3_block2vec.npy"
+}

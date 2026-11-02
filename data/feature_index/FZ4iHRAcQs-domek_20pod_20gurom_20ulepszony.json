@@ -1,0 +1,230 @@
+{
+  "id": "FZ4iHRAcQs-domek_20pod_20gurom_20ulepszony",
+  "source_path": "data\\raw\\hack337\\schematics\\FZ4iHRAcQs-domek%20pod%20gurom%20ulepszony.litematic",
+  "created_at": "2026-10-18T22:26:14+08:00",
+  "overview": {
+    "schematic_name": "domek pod gurom",
+    "size": {
+      "x": 54,
+      "y": 15,
+      "z": 49
+    },
+    "non_air": 5230,
+    "density": 0.1318,
+    "unique_block_types": 30
+  },
+  "massing": {
+    "hollow_score": 0.9186,
+    "interior_air_frac": 0.9186,
+    "exterior_solid_frac": 0.0666,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      5,
+      9
+    ],
+    "families": {
+      "stairs": 133,
+      "slabs": 265,
+      "walls": 0,
+      "fences": 29,
+      "doors": 0,
+      "trapdoors": 112,
+      "glass": 0,
+      "logs": 236,
+      "planks": 777,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 25,
+      "leaves": 115,
+      "lanterns": 7,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4512,
+      "symmetry_z": 0.4286,
+      "symmetry_y": 0.0522
+    },
+    "solid_ratio": 0.1318
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 2153,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 777,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 364,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 265,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 252,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 221,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 186,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 141,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 133,
+        "frac": 0.0
+      },
+      {
+        "name": "flowering_azalea_leaves",
+        "count": 115,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "coarse_dirt",
+        "count": 99,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 95,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "tall_grass",
+        "count": 44,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1013,
+      "stone": 473,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 25,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 301,
+      "metal": 0
+    },
+    "remap_targets": [
+      "grass_block",
+      "spruce_planks",
+      "dirt",
+      "spruce_slab",
+      "stone",
+      "cobblestone",
+      "moss_block",
+      "stripped_spruce_log",
+      "spruce_stairs",
+      "flowering_azalea_leaves",
+      "spruce_trapdoor",
+      "coarse_dirt"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5414,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.627,
+        "raw_score": 0.4334
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.578,
+        "raw_score": 0.4111
+      },
+      {
+        "style": "western",
+        "confidence": 0.407,
+        "raw_score": 0.3261
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.254,
+        "raw_score": 0.235
+      }
+    ]
+  },
+  "redstone": {
+    "total": 112,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 112
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\FZ4iHRAcQs-domek_20pod_20gurom_20ulepszony_skeleton.npz",
+    "occupancy_frac": 0.18475341796875,
+    "occupied": 6054
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

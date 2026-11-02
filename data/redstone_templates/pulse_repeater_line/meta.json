@@ -1,0 +1,16 @@
+{
+  "id": "pulse_repeater_line",
+  "matches": [
+    "pulse_extender",
+    "pulse_limiter",
+    "monostable",
+    "instant_wire"
+  ],
+  "label_zh": "中继器链（延迟/脉冲处理示意）",
+  "size": [
+    5,
+    1,
+    1
+  ],
+  "notes": "不同 delay 档串联；锁定限幅需侧向中继器，此处从简。"
+}

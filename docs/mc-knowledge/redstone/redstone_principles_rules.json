@@ -1,0 +1,377 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-19",
+  "disclaimer": "启发式原理规则，供分析报告与模板匹配注释使用；不是原版红石引擎。禁止据此发明 BUD/瞬时线/更新抑制电路。",
+  "kb_docs": [
+    "docs/mc-knowledge/redstone/basics.md",
+    "docs/mc-knowledge/redstone/powering-charging.md",
+    "docs/mc-knowledge/redstone/block-updates.md",
+    "docs/mc-knowledge/redstone/tile-ticks.md",
+    "docs/mc-knowledge/redstone/signals-timing.md",
+    "docs/mc-knowledge/redstone/circuits-common.md",
+    "docs/mc-knowledge/redstone/qc-bud.md",
+    "docs/mc-knowledge/redstone/ai-constraints.md",
+    "docs/mc-knowledge/redstone/version-diffs.md"
+  ],
+  "rules": [
+    {
+      "id": "strong_weak_charge",
+      "title": "强弱充能 / 供电 vs 激活",
+      "tags": [
+        "powering",
+        "charging",
+        "activation"
+      ],
+      "vocabulary": [
+        "强充能",
+        "弱充能",
+        "hard_power",
+        "soft_power",
+        "激活",
+        "充能",
+        "脉冲",
+        "电平"
+      ],
+      "pattern_ids": [
+        "signal_bus",
+        "simple_input_output",
+        "comparator_logic",
+        "lamp_line",
+        "door_line",
+        "simple_io"
+      ],
+      "template_matches": [
+        "simple_io",
+        "lamp_line",
+        "door_line"
+      ],
+      "cites": [
+        "docs/mc-knowledge/redstone/powering-charging.md",
+        "docs/mc-knowledge/redstone/basics.md"
+      ],
+      "note_zh": "报告用 soft/hard_power 语义；强度 0～15 多半只影响传导与比较器，不改变活塞「能不能推」。要穿过方块续航 → 中继器顶方块（强充）。",
+      "ai_may": [
+        "标注 power_style=pulse|level",
+        "模板匹配时提示 hard_power_block"
+      ],
+      "ai_must_not": [
+        "声称体素已正确强充",
+        "随机洒粉尘当强充"
+      ]
+    },
+    {
+      "id": "nc_pp_block_update",
+      "title": "方块更新 NC/PP 与 BUD 前提",
+      "tags": [
+        "block_update",
+        "NC",
+        "PP",
+        "BUD",
+        "QC",
+        "observer"
+      ],
+      "vocabulary": [
+        "方块更新",
+        "NC",
+        "PP",
+        "BUD",
+        "更新顺序",
+        "观察者"
+      ],
+      "pattern_ids": [
+        "qc_bud",
+        "qc_piston_bank",
+        "zero_tick_bud_freerun",
+        "observer_clock",
+        "edge_detector",
+        "piston_door",
+        "sticky_piston_pair"
+      ],
+      "template_matches": [
+        "qc_piston_bank",
+        "piston_door",
+        "sticky_piston_pair",
+        "edge_detector"
+      ],
+      "cites": [
+        "docs/mc-knowledge/redstone/block-updates.md",
+        "docs/mc-knowledge/redstone/qc-bud.md"
+      ],
+      "note_zh": "QC 条件满足但缺更新时会 BUD 住；观察者把更新变成脉冲更可预期。分析只做线索，不仿真完整更新链。",
+      "ai_may": [
+        "标记 may_bud / prefer_observer_over_bud",
+        "update_sensitive 模板勿乱旋转"
+      ],
+      "ai_must_not": [
+        "发明 BUD/更新抑制",
+        "宣称完整 NC/PP 调度"
+      ]
+    },
+    {
+      "id": "tile_vs_redstone_tick",
+      "title": "计划刻 vs 红石 tick",
+      "tags": [
+        "tile_tick",
+        "scheduled_tick",
+        "rt",
+        "gt"
+      ],
+      "vocabulary": [
+        "计划刻",
+        "tile tick",
+        "scheduled",
+        "红石 tick",
+        "rt",
+        "gt",
+        "延迟"
+      ],
+      "pattern_ids": [
+        "hopper_clock",
+        "hopper_clock_or_line",
+        "repeater_ring_clock",
+        "daylight_detector_clock",
+        "pulse_extender",
+        "monostable"
+      ],
+      "template_matches": [
+        "hopper_clock",
+        "daylight_detector_clock",
+        "pulse_extender"
+      ],
+      "cites": [
+        "docs/mc-knowledge/redstone/tile-ticks.md",
+        "docs/mc-knowledge/redstone/basics.md"
+      ],
+      "note_zh": "口语「1 tick」默认 rt（2 gt）。水流/生长走计划刻，勿与中继器档位混谈。简化仿真只累加 rt。",
+      "ai_may": [
+        "报告区分 delay_rt 与 scheduled_gt",
+        "农场模板标随机生长"
+      ],
+      "ai_must_not": [
+        "宣称计划刻队列 bit 级一致",
+        "用计划刻竞态发明电路"
+      ]
+    },
+    {
+      "id": "signals_timing_templates",
+      "title": "瞬时线 / 活塞延伸：仅模板",
+      "tags": [
+        "instant_wire",
+        "piston_extender",
+        "timing"
+      ],
+      "vocabulary": [
+        "瞬时线",
+        "instant wire",
+        "活塞延伸",
+        "短脉冲",
+        "推限",
+        "12"
+      ],
+      "pattern_ids": [
+        "instant_wire",
+        "pulse_extender",
+        "pulse_limiter",
+        "monostable",
+        "piston_door",
+        "sticky_piston_pair",
+        "zero_tick_bud_freerun"
+      ],
+      "template_matches": [
+        "instant_wire",
+        "pulse_extender",
+        "piston_door",
+        "sticky_piston_pair"
+      ],
+      "cites": [
+        "docs/mc-knowledge/redstone/signals-timing.md",
+        "docs/mc-knowledge/redstone/circuits-common.md",
+        "docs/mc-knowledge/redstone/ai-constraints.md"
+      ],
+      "note_zh": "瞬时线与多活塞延伸属高阶模板；生成器只匹配/粘贴，不现场发明。短脉冲粘性「推不拉」可做 T 触发也可卡门。",
+      "ai_may": [
+        "匹配 template:instant_wire_* / extender_*",
+        "预留机腔深度"
+      ],
+      "ai_must_not": [
+        "VAE 发明瞬时线/飞行器",
+        "未重测就镜像旋转多活塞模板"
+      ]
+    },
+    {
+      "id": "clock_and_logic_patterns",
+      "title": "时钟与逻辑门骨架",
+      "tags": [
+        "clock",
+        "logic",
+        "comparator"
+      ],
+      "vocabulary": [
+        "时钟",
+        "中继器环",
+        "漏斗钟",
+        "比较器",
+        "锁存",
+        "NOT",
+        "OR",
+        "AND"
+      ],
+      "pattern_ids": [
+        "observer_clock",
+        "repeater_ring_clock",
+        "hopper_clock",
+        "torch_burn_clock",
+        "rs_latch_like",
+        "comparator_logic",
+        "torch_logic_lattice",
+        "t_flip_flop"
+      ],
+      "template_matches": [
+        "hopper_clock",
+        "rs_latch",
+        "torch_clock",
+        "observer_edge"
+      ],
+      "cites": [
+        "docs/mc-knowledge/redstone/circuits-common.md",
+        "docs/mc-knowledge/redstone/signals-timing.md"
+      ],
+      "note_zh": "时钟/脉冲/RS/T 以 D9+模板库为准；逻辑门一行表见 circuits-common。比较器不做「加满到 15」。",
+      "ai_may": [
+        "按模式 id 贴最小骨架模板"
+      ],
+      "ai_must_not": [
+        "在客厅随机生成时钟",
+        "让模型现场发明 XOR 真值电路"
+      ]
+    },
+    {
+      "id": "ai_template_only",
+      "title": "AI：模板匹配，非引擎",
+      "tags": [
+        "ai_constraints",
+        "template"
+      ],
+      "vocabulary": [
+        "模板",
+        "min_version",
+        "edition=java",
+        "机房",
+        "禁止随机红石"
+      ],
+      "pattern_ids": [
+        "decor_inputs",
+        "simple_input_output",
+        "misc"
+      ],
+      "template_matches": [
+        "*"
+      ],
+      "cites": [
+        "docs/mc-knowledge/redstone/ai-constraints.md",
+        "docs/mc-knowledge/redstone/version-diffs.md"
+      ],
+      "note_zh": "住宅主网格禁止随机红石；机械只粘贴带 min_version 的 Java 模板。companion 目标 26.3。",
+      "ai_may": [
+        "redstone_room 空洞",
+        "弱红石装饰"
+      ],
+      "ai_must_not": [
+        "生成 QC 隐藏门",
+        "省略 facing"
+      ]
+    },
+    {
+      "id": "observer_face_pulse",
+      "title": "Observer face detect / rear pulse",
+      "note_zh": "Observer watches front updates; rear 1rt hard pulse. Not QC. Coarse sim only.",
+      "tags": [
+        "observer",
+        "pulse",
+        "block_update"
+      ],
+      "vocabulary": [
+        "observer",
+        "face",
+        "rear",
+        "pulse"
+      ],
+      "cites": [
+        "docs/mc-knowledge/redstone/qc-bud.md",
+        "docs/mc-knowledge/redstone/block-updates.md",
+        "docs/mc-knowledge/redstone/signals-timing.md"
+      ],
+      "ai_may": [
+        "label observer face/rear",
+        "match observer clock templates"
+      ],
+      "ai_must_not": [
+        "VAE invent observer-QC",
+        "treat observer as quasi-connectivity"
+      ],
+      "triggered_by": [
+        "observer",
+        "observer_clock",
+        "*"
+      ]
+    }
+  ],
+  "pattern_cite_extras": {
+    "qc_bud": [
+      "docs/mc-knowledge/redstone/block-updates.md",
+      "docs/mc-knowledge/redstone/powering-charging.md"
+    ],
+    "qc_piston_bank": [
+      "docs/mc-knowledge/redstone/block-updates.md",
+      "docs/mc-knowledge/redstone/qc-bud.md"
+    ],
+    "zero_tick_bud_freerun": [
+      "docs/mc-knowledge/redstone/block-updates.md",
+      "docs/mc-knowledge/redstone/signals-timing.md"
+    ],
+    "instant_wire": [
+      "docs/mc-knowledge/redstone/signals-timing.md",
+      "docs/mc-knowledge/redstone/ai-constraints.md"
+    ],
+    "pulse_extender": [
+      "docs/mc-knowledge/redstone/signals-timing.md",
+      "docs/mc-knowledge/redstone/circuits-common.md"
+    ],
+    "pulse_limiter": [
+      "docs/mc-knowledge/redstone/signals-timing.md",
+      "docs/mc-knowledge/redstone/circuits-common.md"
+    ],
+    "monostable": [
+      "docs/mc-knowledge/redstone/signals-timing.md"
+    ],
+    "piston_door": [
+      "docs/mc-knowledge/redstone/signals-timing.md",
+      "docs/mc-knowledge/redstone/block-updates.md"
+    ],
+    "sticky_piston_pair": [
+      "docs/mc-knowledge/redstone/signals-timing.md"
+    ],
+    "signal_bus": [
+      "docs/mc-knowledge/redstone/powering-charging.md"
+    ],
+    "comparator_logic": [
+      "docs/mc-knowledge/redstone/powering-charging.md"
+    ],
+    "hopper_clock": [
+      "docs/mc-knowledge/redstone/tile-ticks.md"
+    ],
+    "repeater_ring_clock": [
+      "docs/mc-knowledge/redstone/tile-ticks.md"
+    ],
+    "observer_clock": [
+      "docs/mc-knowledge/redstone/block-updates.md"
+    ],
+    "edge_detector": [
+      "docs/mc-knowledge/redstone/block-updates.md",
+      "docs/mc-knowledge/redstone/signals-timing.md"
+    ],
+    "decor_inputs": [
+      "docs/mc-knowledge/redstone/ai-constraints.md"
+    ]
+  }
+}

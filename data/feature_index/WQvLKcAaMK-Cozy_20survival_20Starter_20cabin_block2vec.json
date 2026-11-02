@@ -1,0 +1,13 @@
+{
+  "id": "WQvLKcAaMK-Cozy_20survival_20Starter_20cabin",
+  "dim": 144,
+  "n_chunks": 8,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "WQvLKcAaMK-Cozy_20survival_20Starter_20cabin_block2vec.npy"
+}

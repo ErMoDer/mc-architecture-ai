@@ -1,0 +1,237 @@
+{
+  "id": "ASndxpqQQV-marcopolo-g7-paradiso-bus",
+  "source_path": "data\\raw\\hack337\\schematics\\ASndxpqQQV-marcopolo-g7-paradiso-bus.litematic",
+  "created_at": "2026-10-18T22:25:42+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 19,
+      "y": 6,
+      "z": 6
+    },
+    "non_air": 439,
+    "density": 0.6418,
+    "unique_block_types": 25
+  },
+  "massing": {
+    "hollow_score": 0.0037,
+    "interior_air_frac": 0.0037,
+    "exterior_solid_frac": 0.2456,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 18,
+      "slabs": 76,
+      "walls": 0,
+      "fences": 2,
+      "doors": 0,
+      "trapdoors": 8,
+      "glass": 14,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 12,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 108,
+      "wool": 28,
+      "leaves": 0,
+      "lanterns": 4,
+      "copper": 0,
+      "nether": 42
+    },
+    "symmetry": {
+      "symmetry_x": 0.8292,
+      "symmetry_z": 0.9955,
+      "symmetry_y": 0.8602
+    },
+    "solid_ratio": 0.6418
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "black_concrete",
+        "count": 98,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "snow",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_brick_slab",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_slab",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "black_carpet",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wall_banner",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_concrete",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "black_wall_banner",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "black_wool",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_trapdoor",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_button",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 8,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 64,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 108,
+      "wool": 28,
+      "glass": 14,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 4,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 54,
+      "leaves": 0,
+      "metal": 16
+    },
+    "remap_targets": [
+      "black_concrete",
+      "quartz_block",
+      "snow",
+      "nether_brick_slab",
+      "quartz_slab",
+      "black_carpet",
+      "white_wall_banner",
+      "stone_brick_stairs",
+      "gray_concrete",
+      "black_stained_glass",
+      "black_wall_banner",
+      "black_wool"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "industrial",
+      "scifi",
+      "european",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.524,
+        "raw_score": 0.174,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.438,
+        "raw_score": 0.1519
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.351,
+        "raw_score": 0.1278
+      },
+      {
+        "style": "european",
+        "confidence": 0.301,
+        "raw_score": 0.1132
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.25,
+        "raw_score": 0.0971
+      }
+    ]
+  },
+  "redstone": {
+    "total": 34,
+    "pattern_ids": [
+      "observer_clock"
+    ],
+    "pattern_labels": [
+      "观察者相邻时钟嫌疑"
+    ],
+    "inventory_nonzero": {
+      "button": 8,
+      "observer": 8,
+      "hopper": 8,
+      "trapdoor": 8,
+      "fence_gate": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\ASndxpqQQV-marcopolo-g7-paradiso-bus_skeleton.npz",
+    "occupancy_frac": 0.642242431640625,
+    "occupied": 21045
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

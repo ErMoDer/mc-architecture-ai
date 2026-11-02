@@ -1,0 +1,15 @@
+{
+  "id": "water_stream_item_tiny",
+  "matches": [
+    "water_stream",
+    "item_waterway",
+    "water_item_move"
+  ],
+  "label_zh": "水流运物小桩（源→水→漏斗）",
+  "size": [
+    4,
+    1,
+    1
+  ],
+  "notes": "教学桩：极小水流运物入漏斗；需在源处放水桶/冰。"
+}

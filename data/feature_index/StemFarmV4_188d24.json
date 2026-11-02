@@ -1,0 +1,310 @@
+{
+  "id": "StemFarmV4_188d24",
+  "source_path": "data\\raw\\hack337\\schematics\\StemFarmV4_188d24.litematic",
+  "created_at": "2026-10-18T22:26:44+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 20,
+      "y": 58,
+      "z": 20
+    },
+    "non_air": 1344,
+    "density": 0.0579,
+    "unique_block_types": 61
+  },
+  "massing": {
+    "hollow_score": 0.942,
+    "interior_air_frac": 0.942,
+    "exterior_solid_frac": 0.0125,
+    "floor_guess": 6,
+    "y_peaks": [
+      7,
+      15,
+      22,
+      41,
+      48,
+      55
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 137,
+      "walls": 137,
+      "fences": 18,
+      "doors": 2,
+      "trapdoors": 10,
+      "glass": 28,
+      "logs": 19,
+      "planks": 0,
+      "stone_bricks": 134,
+      "deepslate": 0,
+      "terracotta": 24,
+      "concrete": 170,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 84
+    },
+    "symmetry": {
+      "symmetry_x": 0.2812,
+      "symmetry_z": 0.0549,
+      "symmetry_y": 0.1062
+    },
+    "solid_ratio": 0.0579
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "hopper",
+        "count": 201,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 135,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 134,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 107,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 99,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "scaffolding",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_wart_block",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "magenta_concrete",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_glazed_terracotta",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "magenta_stained_glass",
+        "count": 23,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 19,
+      "stone": 258,
+      "deepslate": 0,
+      "terracotta": 24,
+      "concrete": 170,
+      "wool": 0,
+      "glass": 28,
+      "nether": 57,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 206
+    },
+    "remap_targets": [
+      "hopper",
+      "redstone_wire",
+      "stone_brick_wall",
+      "smooth_stone_slab",
+      "white_concrete",
+      "water",
+      "sticky_piston",
+      "slime_block",
+      "scaffolding",
+      "warped_wart_block",
+      "repeater",
+      "magenta_concrete"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "european",
+      "medieval",
+      "modern",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.563,
+        "raw_score": 0.2128,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.531,
+        "raw_score": 0.2041
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.469,
+        "raw_score": 0.186
+      },
+      {
+        "style": "modern",
+        "confidence": 0.328,
+        "raw_score": 0.142
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.327,
+        "raw_score": 0.1414
+      }
+    ]
+  },
+  "redstone": {
+    "total": 588,
+    "pattern_ids": [
+      "hopper_line",
+      "piston_door",
+      "qc_piston_bank",
+      "door_line",
+      "simple_io",
+      "auto_smelt_brew_line",
+      "item_elevator",
+      "observer_clock",
+      "t_flip_flop",
+      "etho_hopper_clock",
+      "dropper_vator",
+      "target_block_line",
+      "flying_machine",
+      "pulse_extender",
+      "edge_detector",
+      "instant_wire",
+      "note_block_line",
+      "detector_rail_clock",
+      "hopper_clock",
+      "zero_tick_bud_freerun",
+      "dual_edge_repeater",
+      "water_hopper_stream",
+      "falling_edge"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "自动烧炼/酿造线",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "投掷器-漏斗 T 触发器嫌疑",
+      "多漏斗环钟嫌疑",
+      "投掷器电梯（dropper-vator）",
+      "标靶方块线路",
+      "飞船/飞行器骨架",
+      "脉冲延长/单稳态嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "音符盒线路/乐器阵",
+      "探测铁轨矿车钟嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "双沿/对向中继器线嫌疑",
+      "水流漏斗收集线嫌疑",
+      "下降沿/双火把脉冲嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 135,
+      "redstone_torch": 3,
+      "redstone_block": 1,
+      "repeater": 37,
+      "comparator": 3,
+      "lever": 4,
+      "button": 1,
+      "piston": 12,
+      "sticky_piston": 45,
+      "observer": 25,
+      "hopper": 201,
+      "dropper": 8,
+      "dispenser": 10,
+      "note_block": 1,
+      "target": 6,
+      "door": 2,
+      "trapdoor": 10,
+      "fence_gate": 18,
+      "powered_rail": 8,
+      "detector_rail": 3,
+      "activator_rail": 2,
+      "piston_head": 1,
+      "brewing_stand": 5,
+      "slime_block": 42,
+      "honey_block": 5
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\StemFarmV4_188d24_skeleton.npz",
+    "occupancy_frac": 0.067779541015625,
+    "occupied": 2221
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "demoted_from_industrial:farm",
+  "previous_mapped_style": "industrial"
+}

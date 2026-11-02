@@ -1,0 +1,236 @@
+{
+  "id": "OpPghFzO45-ExtraLargeAviary",
+  "source_path": "data\\raw\\hack337\\schematics\\OpPghFzO45-ExtraLargeAviary.litematic",
+  "created_at": "2026-10-18T22:26:36+08:00",
+  "overview": {
+    "schematic_name": "AviaryLarge",
+    "size": {
+      "x": 48,
+      "y": 18,
+      "z": 29
+    },
+    "non_air": 6799,
+    "density": 0.2714,
+    "unique_block_types": 108
+  },
+  "massing": {
+    "hollow_score": 0.7311,
+    "interior_air_frac": 0.7311,
+    "exterior_solid_frac": 0.0581,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      7,
+      15
+    ],
+    "families": {
+      "stairs": 421,
+      "slabs": 533,
+      "walls": 2,
+      "fences": 32,
+      "doors": 18,
+      "trapdoors": 343,
+      "glass": 1370,
+      "logs": 639,
+      "planks": 526,
+      "stone_bricks": 12,
+      "deepslate": 2,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 501,
+      "lanterns": 41,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.532,
+      "symmetry_z": 0.4803,
+      "symmetry_y": 0.167
+    },
+    "solid_ratio": 0.2714
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 903,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 697,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 518,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 502,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 429,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 421,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 302,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 298,
+        "frac": 0.0
+      },
+      {
+        "name": "vine",
+        "count": 265,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 258,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass_pane",
+        "count": 240,
+        "frac": 0.0
+      },
+      {
+        "name": "azalea_leaves",
+        "count": 203,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass",
+        "count": 172,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 142,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 110,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 108,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1174,
+      "stone": 178,
+      "deepslate": 2,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 1370,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 8,
+      "snow_ice": 5,
+      "leaves": 514,
+      "metal": 9
+    },
+    "remap_targets": [
+      "grass_block",
+      "glass",
+      "spruce_planks",
+      "spruce_slab",
+      "stripped_spruce_log",
+      "spruce_stairs",
+      "dirt",
+      "oak_leaves",
+      "vine",
+      "spruce_trapdoor",
+      "black_stained_glass_pane",
+      "azalea_leaves"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.732,
+        "raw_score": 0.3818,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.433,
+        "raw_score": 0.2678
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.412,
+        "raw_score": 0.2586
+      },
+      {
+        "style": "western",
+        "confidence": 0.308,
+        "raw_score": 0.2101
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.288,
+        "raw_score": 0.2
+      }
+    ]
+  },
+  "redstone": {
+    "total": 367,
+    "pattern_ids": [
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "door": 18,
+      "trapdoor": 343,
+      "tripwire": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\OpPghFzO45-ExtraLargeAviary_skeleton.npz",
+    "occupancy_frac": 0.307464599609375,
+    "occupied": 10075
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

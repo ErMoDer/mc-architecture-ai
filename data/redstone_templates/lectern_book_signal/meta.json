@@ -1,0 +1,15 @@
+{
+  "id": "lectern_book_signal",
+  "matches": [
+    "lectern_signal",
+    "book_signal",
+    "lectern_comparator"
+  ],
+  "label_zh": "讲台书信号桩（讲台→比较器→灯）",
+  "size": [
+    3,
+    1,
+    1
+  ],
+  "notes": "教学桩：翻书页改变比较器强度；需放入成书面。"
+}

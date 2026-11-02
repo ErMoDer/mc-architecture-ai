@@ -1,0 +1,247 @@
+{
+  "id": "FZ8QnwIWq4-Midinights2022s_20Creeper_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\FZ8QnwIWq4-Midinights2022s%20Creeper%20Farm.litematic",
+  "created_at": "2026-10-18T22:26:14+08:00",
+  "overview": {
+    "schematic_name": "Midinights2022's Creeper Farm",
+    "size": {
+      "x": 17,
+      "y": 45,
+      "z": 17
+    },
+    "non_air": 3213,
+    "density": 0.2471,
+    "unique_block_types": 20
+  },
+  "massing": {
+    "hollow_score": 0.7409,
+    "interior_air_frac": 0.7409,
+    "exterior_solid_frac": 0.0543,
+    "floor_guess": 8,
+    "y_peaks": [
+      0,
+      22,
+      27,
+      30,
+      33,
+      36,
+      39,
+      43
+    ],
+    "families": {
+      "stairs": 12,
+      "slabs": 9,
+      "walls": 8,
+      "fences": 48,
+      "doors": 0,
+      "trapdoors": 598,
+      "glass": 1021,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 80,
+      "leaves": 0,
+      "lanterns": 10,
+      "copper": 1101,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9938,
+      "symmetry_z": 0.9585,
+      "symmetry_y": 0.0442
+    },
+    "solid_ratio": 0.2471
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "tinted_glass",
+        "count": 1021,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_weathered_copper",
+        "count": 696,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_trapdoor",
+        "count": 598,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_cut_copper",
+        "count": 320,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_bricks",
+        "count": 189,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_carpet",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_oxidized_cut_copper",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_fence",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_button",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_oxidized_cut_copper_stairs",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_cut_copper_slab",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_wall",
+        "count": 8,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 666,
+      "stone": 239,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 80,
+      "glass": 1021,
+      "nether": 0,
+      "copper": 1101,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 5,
+      "leaves": 0,
+      "metal": 9
+    },
+    "remap_targets": [
+      "tinted_glass",
+      "waxed_weathered_copper",
+      "bamboo_trapdoor",
+      "waxed_cut_copper",
+      "tuff_bricks",
+      "water",
+      "yellow_carpet",
+      "waxed_oxidized_cut_copper",
+      "bricks",
+      "bamboo_fence",
+      "bamboo_button",
+      "waxed_oxidized_cut_copper_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "scifi",
+      "rustic",
+      "chinese",
+      "japanese",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "scifi",
+        "confidence": 0.509,
+        "raw_score": 0.1586,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.473,
+        "raw_score": 0.15
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.472,
+        "raw_score": 0.1497
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.422,
+        "raw_score": 0.1372
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.399,
+        "raw_score": 0.1313
+      }
+    ]
+  },
+  "redstone": {
+    "total": 635,
+    "pattern_ids": [
+      "hopper_line"
+    ],
+    "pattern_labels": [
+      "漏斗输送线"
+    ],
+    "inventory_nonzero": {
+      "button": 20,
+      "hopper": 9,
+      "trapdoor": 598,
+      "fence_gate": 8
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\FZ8QnwIWq4-Midinights2022s_20Creeper_20Farm_skeleton.npz",
+    "occupancy_frac": 0.295501708984375,
+    "occupied": 9683
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

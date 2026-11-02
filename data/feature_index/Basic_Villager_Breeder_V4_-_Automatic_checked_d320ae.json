@@ -1,0 +1,259 @@
+{
+  "id": "Basic_Villager_Breeder_V4_-_Automatic_checked_d320ae",
+  "source_path": "data\\raw\\hack337\\schematics\\Basic_Villager_Breeder_V4_-_Automatic_checked_d320ae.litematic",
+  "created_at": "2026-10-18T22:25:46+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 11,
+      "y": 26,
+      "z": 17
+    },
+    "non_air": 680,
+    "density": 0.1399,
+    "unique_block_types": 33
+  },
+  "massing": {
+    "hollow_score": 0.8194,
+    "interior_air_frac": 0.8194,
+    "exterior_solid_frac": 0.0195,
+    "floor_guess": 4,
+    "y_peaks": [
+      5,
+      9,
+      17,
+      20
+    ],
+    "families": {
+      "stairs": 2,
+      "slabs": 107,
+      "walls": 2,
+      "fences": 2,
+      "doors": 0,
+      "trapdoors": 7,
+      "glass": 355,
+      "logs": 0,
+      "planks": 8,
+      "stone_bricks": 2,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 1,
+      "lanterns": 0,
+      "copper": 3,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.7639,
+      "symmetry_z": 0.2818,
+      "symmetry_y": 0.1724
+    },
+    "solid_ratio": 0.1399
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "glass",
+        "count": 311,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 107,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "tinted_glass",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "white_bed",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "target",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 8,
+      "stone": 3,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 355,
+      "nether": 1,
+      "copper": 3,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 1,
+      "metal": 4
+    },
+    "remap_targets": [
+      "glass",
+      "spruce_slab",
+      "dirt",
+      "tinted_glass",
+      "redstone_wire",
+      "water",
+      "white_bed",
+      "glowstone",
+      "spruce_planks",
+      "comparator",
+      "spruce_trapdoor",
+      "observer"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.615,
+        "raw_score": 0.2647,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.589,
+        "raw_score": 0.2569
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.322,
+        "raw_score": 0.1656
+      },
+      {
+        "style": "european",
+        "confidence": 0.266,
+        "raw_score": 0.1429
+      }
+    ]
+  },
+  "redstone": {
+    "total": 76,
+    "pattern_ids": [
+      "simple_io",
+      "tripwire_trap",
+      "target_block_line",
+      "copper_bulb_latch",
+      "qc_piston_bank",
+      "hopper_clock",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "edge_detector"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱",
+      "标靶方块线路",
+      "铜灯泡锁存/切换",
+      "QC/BUD 活塞组",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "边沿检测（观察者）嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 26,
+      "redstone_torch": 3,
+      "comparator": 7,
+      "button": 1,
+      "sticky_piston": 2,
+      "observer": 5,
+      "hopper": 3,
+      "dropper": 4,
+      "dispenser": 1,
+      "target": 5,
+      "trapdoor": 7,
+      "fence_gate": 2,
+      "tripwire": 3,
+      "powered_rail": 4,
+      "copper_bulb": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Basic_Villager_Breeder_V4_-_Automatic_checked_d320ae_skeleton.npz",
+    "occupancy_frac": 0.143035888671875,
+    "occupied": 4687
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

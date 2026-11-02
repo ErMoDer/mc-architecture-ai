@@ -1,0 +1,263 @@
+{
+  "id": "YrVwVuJTQY-Bone_20Zone",
+  "source_path": "data\\raw\\hack337\\schematics\\YrVwVuJTQY-Bone%20Zone.litematic",
+  "created_at": "2026-10-18T22:27:22+08:00",
+  "overview": {
+    "schematic_name": "Bone Zone",
+    "size": {
+      "x": 25,
+      "y": 24,
+      "z": 25
+    },
+    "non_air": 5733,
+    "density": 0.3822,
+    "unique_block_types": 68
+  },
+  "massing": {
+    "hollow_score": 0.6322,
+    "interior_air_frac": 0.6322,
+    "exterior_solid_frac": 0.0969,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      4,
+      7,
+      15
+    ],
+    "families": {
+      "stairs": 346,
+      "slabs": 128,
+      "walls": 54,
+      "fences": 16,
+      "doors": 0,
+      "trapdoors": 32,
+      "glass": 2,
+      "logs": 4,
+      "planks": 3,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 120,
+      "wool": 140,
+      "leaves": 0,
+      "lanterns": 6,
+      "copper": 0,
+      "nether": 8
+    },
+    "symmetry": {
+      "symmetry_x": 0.7975,
+      "symmetry_z": 0.8393,
+      "symmetry_y": 0.0568
+    },
+    "solid_ratio": 0.3822
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone",
+        "count": 2582,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 689,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 307,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_sandstone_stairs",
+        "count": 247,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 200,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 183,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 145,
+        "frac": 0.0
+      },
+      {
+        "name": "coal_ore",
+        "count": 91,
+        "frac": 0.0
+      },
+      {
+        "name": "granite",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_sandstone",
+        "count": 74,
+        "frac": 0.0
+      },
+      {
+        "name": "mycelium",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "red_sandstone",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone_wall",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 52,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 7,
+      "stone": 3885,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 120,
+      "wool": 140,
+      "glass": 2,
+      "nether": 8,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 35,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 23
+    },
+    "remap_targets": [
+      "stone",
+      "dirt",
+      "andesite",
+      "smooth_sandstone_stairs",
+      "diorite",
+      "grass_block",
+      "redstone_wire",
+      "coal_ore",
+      "granite",
+      "smooth_sandstone",
+      "mycelium",
+      "red_sandstone"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.745,
+        "raw_score": 0.3949,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.643,
+        "raw_score": 0.3584
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.351,
+        "raw_score": 0.2362
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.221,
+        "raw_score": 0.1684
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.197,
+        "raw_score": 0.1544
+      }
+    ]
+  },
+  "redstone": {
+    "total": 312,
+    "pattern_ids": [
+      "simple_io",
+      "tripwire_trap",
+      "qc_piston_bank",
+      "pulse_limiter",
+      "edge_detector",
+      "instant_wire",
+      "lectern_signal",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "dual_edge_repeater"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱",
+      "QC/BUD 活塞组",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "讲台翻页红石",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "双沿/对向中继器线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 145,
+      "repeater": 53,
+      "button": 3,
+      "sticky_piston": 2,
+      "observer": 2,
+      "dispenser": 20,
+      "redstone_lamp": 20,
+      "trapdoor": 32,
+      "fence_gate": 6,
+      "tripwire": 28,
+      "lectern": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\YrVwVuJTQY-Bone_20Zone_skeleton.npz",
+    "occupancy_frac": 0.3948974609375,
+    "occupied": 12940
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

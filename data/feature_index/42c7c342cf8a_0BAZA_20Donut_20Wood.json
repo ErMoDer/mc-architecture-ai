@@ -1,0 +1,282 @@
+{
+  "id": "42c7c342cf8a_0BAZA_20Donut_20Wood",
+  "source_path": "data\\raw\\hack337\\schematics\\42c7c342cf8a_0BAZA%20Donut%20Wood.litematic",
+  "created_at": "2026-10-18T22:25:07+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 39,
+      "y": 18,
+      "z": 34
+    },
+    "non_air": 4302,
+    "density": 0.1802,
+    "unique_block_types": 59
+  },
+  "massing": {
+    "hollow_score": 0.7925,
+    "interior_air_frac": 0.7925,
+    "exterior_solid_frac": 0.0156,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      5,
+      9,
+      13
+    ],
+    "families": {
+      "stairs": 401,
+      "slabs": 26,
+      "walls": 0,
+      "fences": 12,
+      "doors": 0,
+      "trapdoors": 69,
+      "glass": 514,
+      "logs": 742,
+      "planks": 982,
+      "stone_bricks": 228,
+      "deepslate": 2,
+      "terracotta": 0,
+      "concrete": 54,
+      "wool": 13,
+      "leaves": 0,
+      "lanterns": 24,
+      "copper": 0,
+      "nether": 366
+    },
+    "symmetry": {
+      "symmetry_x": 0.3414,
+      "symmetry_z": 0.1838,
+      "symmetry_y": 0.269
+    },
+    "solid_ratio": 0.1802
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_planks",
+        "count": 982,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_stained_glass",
+        "count": 472,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 366,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 351,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 296,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_bricks",
+        "count": 172,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone",
+        "count": 150,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 143,
+        "frac": 0.0
+      },
+      {
+        "name": "ochre_froglight",
+        "count": 135,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 128,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 97,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_concrete",
+        "count": 48,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1724,
+      "stone": 504,
+      "deepslate": 2,
+      "terracotta": 0,
+      "concrete": 54,
+      "wool": 13,
+      "glass": 514,
+      "nether": 8,
+      "copper": 0,
+      "prismarine": 24,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 100,
+      "leaves": 0,
+      "metal": 150
+    },
+    "remap_targets": [
+      "oak_planks",
+      "light_gray_stained_glass",
+      "oak_stairs",
+      "oak_log",
+      "stripped_oak_log",
+      "polished_blackstone_bricks",
+      "blackstone",
+      "hopper",
+      "ochre_froglight",
+      "chest",
+      "packed_ice",
+      "water"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5019,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.562,
+        "raw_score": 0.3843
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.493,
+        "raw_score": 0.3523
+      },
+      {
+        "style": "western",
+        "confidence": 0.437,
+        "raw_score": 0.3251
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.232,
+        "raw_score": 0.2085
+      }
+    ]
+  },
+  "redstone": {
+    "total": 432,
+    "pattern_ids": [
+      "hopper_line",
+      "piston_door",
+      "qc_piston_bank",
+      "simple_io",
+      "item_elevator",
+      "observer_clock",
+      "etho_hopper_clock",
+      "flying_machine",
+      "shulker_loader",
+      "pulse_limiter",
+      "edge_detector",
+      "note_block_line",
+      "hopper_clock",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "water_hopper_stream",
+      "portal_frame_cue"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "杠杆/按钮 → 灯或门",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "多漏斗环钟嫌疑",
+      "飞船/飞行器骨架",
+      "潜影盒装卸线嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "水流漏斗收集线嫌疑",
+      "传送门框/黑曜石阵嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 38,
+      "redstone_block": 6,
+      "repeater": 8,
+      "comparator": 7,
+      "lever": 6,
+      "button": 43,
+      "pressure_plate": 14,
+      "sticky_piston": 9,
+      "observer": 36,
+      "hopper": 143,
+      "dropper": 7,
+      "dispenser": 26,
+      "note_block": 12,
+      "trapdoor": 69,
+      "shulker_box": 6,
+      "slime_block": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\42c7c342cf8a_0BAZA_20Donut_20Wood_skeleton.npz",
+    "occupancy_frac": 0.19537353515625,
+    "occupied": 6402
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

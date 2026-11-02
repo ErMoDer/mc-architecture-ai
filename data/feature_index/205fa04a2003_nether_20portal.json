@@ -1,0 +1,238 @@
+{
+  "id": "205fa04a2003_nether_20portal",
+  "source_path": "data\\raw\\hack337\\schematics\\205fa04a2003_nether%20portal.litematic",
+  "created_at": "2026-10-18T22:24:55+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 28,
+      "y": 27,
+      "z": 14
+    },
+    "non_air": 1732,
+    "density": 0.1636,
+    "unique_block_types": 32
+  },
+  "massing": {
+    "hollow_score": 0.8285,
+    "interior_air_frac": 0.8285,
+    "exterior_solid_frac": 0.0372,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      4,
+      7,
+      12,
+      16
+    ],
+    "families": {
+      "stairs": 252,
+      "slabs": 61,
+      "walls": 154,
+      "fences": 0,
+      "doors": 4,
+      "trapdoors": 2,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 405,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 3,
+      "leaves": 190,
+      "lanterns": 12,
+      "copper": 0,
+      "nether": 29
+    },
+    "symmetry": {
+      "symmetry_x": 0.5861,
+      "symmetry_z": 0.545,
+      "symmetry_y": 0.1999
+    },
+    "solid_ratio": 0.1636
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 305,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 191,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 190,
+        "frac": 0.0
+      },
+      {
+        "name": "vine",
+        "count": 165,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 154,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 116,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 86,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_stone_bricks",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "cracked_stone_bricks",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_bars",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz_stairs",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_portal",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_cobblestone",
+        "count": 20,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 782,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 3,
+      "glass": 0,
+      "nether": 25,
+      "copper": 0,
+      "prismarine": 8,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 204,
+      "metal": 46
+    },
+    "remap_targets": [
+      "grass_block",
+      "stone_bricks",
+      "oak_leaves",
+      "vine",
+      "cobblestone_wall",
+      "cobblestone_stairs",
+      "dirt",
+      "stone_brick_stairs",
+      "mossy_stone_bricks",
+      "cobblestone_slab",
+      "cracked_stone_bricks",
+      "ladder"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "nether",
+    "style_id": 5,
+    "terrain_id": 3,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "japanese",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.768,
+        "raw_score": 0.4179,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.68,
+        "raw_score": 0.3859
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.291,
+        "raw_score": 0.2154
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.211,
+        "raw_score": 0.1698
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.208,
+        "raw_score": 0.1679
+      }
+    ]
+  },
+  "redstone": {
+    "total": 31,
+    "pattern_ids": [
+      "nether_portal_cue"
+    ],
+    "pattern_labels": [
+      "下界传送门"
+    ],
+    "inventory_nonzero": {
+      "door": 4,
+      "trapdoor": 2,
+      "nether_portal": 25
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\205fa04a2003_nether_20portal_skeleton.npz",
+    "occupancy_frac": 0.18023681640625,
+    "occupied": 5906
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

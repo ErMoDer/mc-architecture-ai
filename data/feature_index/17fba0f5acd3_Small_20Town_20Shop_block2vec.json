@@ -1,0 +1,13 @@
+{
+  "id": "17fba0f5acd3_Small_20Town_20Shop",
+  "dim": 144,
+  "n_chunks": 8,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "17fba0f5acd3_Small_20Town_20Shop_block2vec.npy"
+}

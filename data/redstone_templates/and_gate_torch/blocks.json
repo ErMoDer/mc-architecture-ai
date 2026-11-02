@@ -1,0 +1,69 @@
+[
+  {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:lever",
+    "props": {
+      "face": "floor",
+      "facing": "north",
+      "powered": "false"
+    }
+  },
+  {
+    "x": 2,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:lever",
+    "props": {
+      "face": "floor",
+      "facing": "north",
+      "powered": "false"
+    }
+  },
+  {
+    "x": 0,
+    "y": 0,
+    "z": 1,
+    "block": "minecraft:redstone_torch",
+    "props": {
+      "lit": "true"
+    }
+  },
+  {
+    "x": 2,
+    "y": 0,
+    "z": 1,
+    "block": "minecraft:redstone_torch",
+    "props": {
+      "lit": "true"
+    }
+  },
+  {
+    "x": 1,
+    "y": 0,
+    "z": 1,
+    "block": "minecraft:redstone_wire"
+  },
+  {
+    "x": 1,
+    "y": 1,
+    "z": 1,
+    "block": "minecraft:redstone_torch",
+    "props": {
+      "lit": "false"
+    }
+  },
+  {
+    "x": 1,
+    "y": 1,
+    "z": 0,
+    "block": "minecraft:redstone_lamp"
+  },
+  {
+    "x": 1,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:oak_planks"
+  }
+]

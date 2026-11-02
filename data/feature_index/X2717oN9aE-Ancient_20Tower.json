@@ -1,0 +1,252 @@
+{
+  "id": "X2717oN9aE-Ancient_20Tower",
+  "source_path": "data\\raw\\hack337\\schematics\\X2717oN9aE-Ancient%20Tower.litematic",
+  "created_at": "2026-10-18T22:27:19+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 27,
+      "y": 50,
+      "z": 27
+    },
+    "non_air": 4900,
+    "density": 0.1344,
+    "unique_block_types": 22
+  },
+  "massing": {
+    "hollow_score": 0.8755,
+    "interior_air_frac": 0.8755,
+    "exterior_solid_frac": 0.032,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      9,
+      21,
+      24
+    ],
+    "families": {
+      "stairs": 268,
+      "slabs": 286,
+      "walls": 488,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 1,
+      "planks": 0,
+      "stone_bricks": 1704,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 96,
+      "lanterns": 13,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8571,
+      "symmetry_z": 0.8934,
+      "symmetry_y": 0.026
+    },
+    "solid_ratio": 0.1344
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 2029,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 685,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 605,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 488,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 286,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 268,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 182,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_stone_bricks",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "fern",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "chain",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "vine",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "dandelion",
+        "count": 7,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1,
+      "stone": 1714,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 96,
+      "metal": 20
+    },
+    "remap_targets": [
+      "dirt",
+      "grass_block",
+      "stone_bricks",
+      "stone_brick_wall",
+      "stone_brick_slab",
+      "stone_brick_stairs",
+      "short_grass",
+      "oak_leaves",
+      "glowstone",
+      "chiseled_stone_bricks",
+      "fern",
+      "chain"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.5717,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.788,
+        "raw_score": 0.5299
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.252,
+        "raw_score": 0.2429
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.167,
+        "raw_score": 0.1801
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.154,
+        "raw_score": 0.1694
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\X2717oN9aE-Ancient_20Tower_skeleton.npz",
+    "occupancy_frac": 0.150299072265625,
+    "occupied": 4925
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 20,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\X2717oN9aE-Ancient_20Tower_block2vec.npy",
+    "vector_preview": [
+      -0.06756,
+      0.1821,
+      -0.11509,
+      0.05581,
+      -0.04806,
+      0.12248,
+      0.09967,
+      0.0882
+    ],
+    "ok": true
+  }
+}

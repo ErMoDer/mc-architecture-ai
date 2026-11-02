@@ -1,0 +1,228 @@
+{
+  "id": "a71a41fed7af_Strike_20SMP_20Spawn",
+  "source_path": "data\\raw\\hack337\\schematics\\a71a41fed7af_Strike%20SMP%20Spawn.litematic",
+  "created_at": "2026-10-18T22:25:38+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 11,
+      "y": 11,
+      "z": 11
+    },
+    "non_air": 258,
+    "density": 0.1938,
+    "unique_block_types": 18
+  },
+  "massing": {
+    "hollow_score": 0.8134,
+    "interior_air_frac": 0.8134,
+    "exterior_solid_frac": 0.0917,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      3,
+      9
+    ],
+    "families": {
+      "stairs": 56,
+      "slabs": 36,
+      "walls": 20,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 3,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 4,
+      "terracotta": 0,
+      "concrete": 40,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 8,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9923,
+      "symmetry_z": 0.9923,
+      "symmetry_y": 0.0617
+    },
+    "solid_ratio": 0.1938
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite_stairs",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "red_concrete",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite_slab",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite_wall",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "ender_chest",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "smithing_table",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "anvil",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_wall_sign",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_brick_stairs",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_stairs",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "magenta_stained_glass",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "end_rod",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 128,
+      "deepslate": 4,
+      "terracotta": 0,
+      "concrete": 40,
+      "wool": 0,
+      "glass": 3,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 8,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 4
+    },
+    "remap_targets": [
+      "grass_block",
+      "polished_andesite_stairs",
+      "red_concrete",
+      "polished_andesite_slab",
+      "andesite_wall",
+      "polished_andesite",
+      "sea_lantern",
+      "andesite",
+      "ender_chest",
+      "smithing_table",
+      "anvil",
+      "birch_wall_sign"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "industrial",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.646,
+        "raw_score": 0.2956,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.562,
+        "raw_score": 0.2686
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.308,
+        "raw_score": 0.1738
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.269,
+        "raw_score": 0.1569
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.2,
+        "raw_score": 0.1245
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\a71a41fed7af_Strike_20SMP_20Spawn_skeleton.npz",
+    "occupancy_frac": 0.2061767578125,
+    "occupied": 6756
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

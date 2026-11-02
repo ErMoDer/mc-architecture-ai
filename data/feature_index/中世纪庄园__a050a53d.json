@@ -1,0 +1,297 @@
+{
+  "id": "中世纪庄园__a050a53d",
+  "source_path": "data\\raw\\mcblock\\中世纪庄园__a050a53d.litematic",
+  "created_at": "2026-10-19T13:00:58+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 42,
+      "y": 35,
+      "z": 31
+    },
+    "non_air": 7600,
+    "density": 0.1668,
+    "unique_block_types": 83
+  },
+  "massing": {
+    "hollow_score": 0.8386,
+    "interior_air_frac": 0.8386,
+    "exterior_solid_frac": 0.0312,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      5,
+      10,
+      16,
+      25
+    ],
+    "families": {
+      "stairs": 1267,
+      "slabs": 234,
+      "walls": 96,
+      "fences": 101,
+      "doors": 20,
+      "trapdoors": 418,
+      "glass": 63,
+      "logs": 678,
+      "planks": 525,
+      "stone_bricks": 441,
+      "deepslate": 3527,
+      "terracotta": 16,
+      "concrete": 1,
+      "wool": 71,
+      "leaves": 25,
+      "lanterns": 144,
+      "copper": 24,
+      "nether": 29
+    },
+    "symmetry": {
+      "symmetry_x": 0.3023,
+      "symmetry_z": 0.3504,
+      "symmetry_y": 0.0864
+    },
+    "solid_ratio": 0.1668
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "deepslate_tiles",
+        "count": 1275,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 571,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 524,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_stairs",
+        "count": 447,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 434,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 408,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 350,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 345,
+        "frac": 0.0
+      },
+      {
+        "name": "cracked_deepslate_bricks",
+        "count": 213,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate",
+        "count": 194,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 188,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 176,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 168,
+        "frac": 0.0
+      },
+      {
+        "name": "mud",
+        "count": 153,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_stairs",
+        "count": 151,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_slab",
+        "count": 151,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1203,
+      "stone": 543,
+      "deepslate": 3527,
+      "terracotta": 16,
+      "concrete": 1,
+      "wool": 71,
+      "glass": 63,
+      "nether": 18,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 37,
+      "metal": 0
+    },
+    "remap_targets": [
+      "deepslate_tiles",
+      "grass_block",
+      "spruce_planks",
+      "deepslate_brick_stairs",
+      "deepslate_tile_stairs",
+      "deepslate_bricks",
+      "oak_log",
+      "spruce_trapdoor",
+      "cracked_deepslate_bricks",
+      "polished_deepslate",
+      "spruce_stairs",
+      "stripped_spruce_wood"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "chinese",
+      "rustic",
+      "japanese",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.775,
+        "raw_score": 0.4248,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.19,
+        "raw_score": 0.159
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.188,
+        "raw_score": 0.1572
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.171,
+        "raw_score": 0.1463
+      },
+      {
+        "style": "western",
+        "confidence": 0.145,
+        "raw_score": 0.1286
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 486,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 10,
+      "door": 20,
+      "trapdoor": 418,
+      "fence_gate": 36,
+      "furnace": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\中世纪庄园__a050a53d_skeleton.npz",
+    "occupancy_frac": 0.18463134765625,
+    "occupied": 6050
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 26,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\中世纪庄园__a050a53d_block2vec.npy",
+    "vector_preview": [
+      -0.11361,
+      0.21034,
+      -0.06639,
+      -0.04401,
+      0.1637,
+      0.03189,
+      -0.03317,
+      0.10727
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "温馨木屋__449de557",
+        "score": 0.8639912415902616,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\温馨木屋__449de557.litematic"
+      },
+      {
+        "id": "精灵风建筑第三弹__70742cb8",
+        "score": 0.8321451974118843,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\精灵风建筑第三弹__70742cb8.litematic"
+      },
+      {
+        "id": "女巫小屋__5a2ed929",
+        "score": 0.8139341993937423,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\女巫小屋__5a2ed929.litematic"
+      },
+      {
+        "id": "樱花别墅投影",
+        "score": 0.8045554950210286,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\user_try\\樱花别墅投影.litematic"
+      },
+      {
+        "id": "粉顶童话小屋__98b1acba",
+        "score": 0.7677936598877704,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\粉顶童话小屋__98b1acba.litematic"
+      }
+    ]
+  }
+}

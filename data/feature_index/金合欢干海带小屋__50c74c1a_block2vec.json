@@ -1,0 +1,13 @@
+{
+  "id": "金合欢干海带小屋__50c74c1a",
+  "dim": 144,
+  "n_chunks": 12,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "金合欢干海带小屋__50c74c1a_block2vec.npy"
+}

@@ -1,0 +1,236 @@
+{
+  "id": "F8tpFDwkcG-GeminiTay_20Deer_20Statue",
+  "source_path": "data\\raw\\hack337\\schematics\\F8tpFDwkcG-GeminiTay%20Deer%20Statue.litematic",
+  "created_at": "2026-10-18T22:26:10+08:00",
+  "overview": {
+    "schematic_name": "GeminiTay Deer Statue",
+    "size": {
+      "x": 45,
+      "y": 35,
+      "z": 17
+    },
+    "non_air": 2457,
+    "density": 0.0918,
+    "unique_block_types": 57
+  },
+  "massing": {
+    "hollow_score": 0.9191,
+    "interior_air_frac": 0.9191,
+    "exterior_solid_frac": 0.0275,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      14,
+      17
+    ],
+    "families": {
+      "stairs": 6,
+      "slabs": 186,
+      "walls": 0,
+      "fences": 49,
+      "doors": 0,
+      "trapdoors": 20,
+      "glass": 1,
+      "logs": 56,
+      "planks": 984,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 2,
+      "concrete": 0,
+      "wool": 7,
+      "leaves": 111,
+      "lanterns": 3,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3003,
+      "symmetry_z": 0.2,
+      "symmetry_y": 0.0893
+    },
+    "solid_ratio": 0.0918
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 851,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 374,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 282,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 104,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 101,
+        "frac": 0.0
+      },
+      {
+        "name": "potatoes",
+        "count": 93,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 82,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_fence",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wood",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_slab",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "carrots",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_leaves",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 20,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1040,
+      "stone": 16,
+      "deepslate": 0,
+      "terracotta": 2,
+      "concrete": 0,
+      "wool": 7,
+      "glass": 1,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 31,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 112,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "grass_block",
+      "dirt",
+      "farmland",
+      "oak_planks",
+      "potatoes",
+      "oak_leaves",
+      "dark_oak_slab",
+      "spruce_slab",
+      "birch_fence",
+      "oak_wood",
+      "prismarine_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6885,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.7,
+        "raw_score": 0.5667
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.651,
+        "raw_score": 0.5272
+      },
+      {
+        "style": "western",
+        "confidence": 0.62,
+        "raw_score": 0.5021
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.2,
+        "raw_score": 0.2349
+      }
+    ]
+  },
+  "redstone": {
+    "total": 22,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 20,
+      "shulker_box": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\F8tpFDwkcG-GeminiTay_20Deer_20Statue_skeleton.npz",
+    "occupancy_frac": 0.111236572265625,
+    "occupied": 3645
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:statue",
+  "previous_mapped_style": "chinese"
+}

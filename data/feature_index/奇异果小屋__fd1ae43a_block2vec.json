@@ -1,0 +1,13 @@
+{
+  "id": "奇异果小屋__fd1ae43a",
+  "dim": 144,
+  "n_chunks": 16,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "奇异果小屋__fd1ae43a_block2vec.npy"
+}

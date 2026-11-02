@@ -1,0 +1,224 @@
+{
+  "id": "5wCrOvsKW7-Full_20Gear_20Set",
+  "source_path": "data\\raw\\hack337\\schematics\\5wCrOvsKW7-Full%20Gear%20Set.litematic",
+  "created_at": "2026-10-18T22:25:17+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 42,
+      "y": 5,
+      "z": 5
+    },
+    "non_air": 406,
+    "density": 0.3867,
+    "unique_block_types": 15
+  },
+  "massing": {
+    "hollow_score": 0.4583,
+    "interior_air_frac": 0.4583,
+    "exterior_solid_frac": 0.201,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 118,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9709,
+      "symmetry_z": 0.6742,
+      "symmetry_y": 0.3203
+    },
+    "solid_ratio": 0.3867
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 171,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 117,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "black_shulker_box",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "white_shulker_box",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_shulker_box",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "red_shulker_box",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_shulker_box",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_shulker_box",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_shulker_box",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_shulker_box",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_shulker_box",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_shulker_box",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 118,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "grass_block",
+      "oak_log",
+      "dirt",
+      "oak_wall_sign",
+      "black_shulker_box",
+      "white_shulker_box",
+      "orange_shulker_box",
+      "red_shulker_box",
+      "yellow_shulker_box",
+      "light_blue_shulker_box",
+      "lime_shulker_box",
+      "brown_shulker_box"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7629,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.709,
+        "raw_score": 0.6364
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.65,
+        "raw_score": 0.5833
+      },
+      {
+        "style": "western",
+        "confidence": 0.65,
+        "raw_score": 0.5833
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.197,
+        "raw_score": 0.25
+      }
+    ]
+  },
+  "redstone": {
+    "total": 39,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "shulker_box": 39
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\5wCrOvsKW7-Full_20Gear_20Set_skeleton.npz",
+    "occupancy_frac": 0.40753173828125,
+    "occupied": 13354
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

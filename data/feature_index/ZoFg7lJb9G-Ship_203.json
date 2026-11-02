@@ -1,0 +1,230 @@
+{
+  "id": "ZoFg7lJb9G-Ship_203",
+  "source_path": "data\\raw\\hack337\\schematics\\ZoFg7lJb9G-Ship%203.litematic",
+  "created_at": "2026-10-18T22:27:24+08:00",
+  "overview": {
+    "schematic_name": "Ship 3",
+    "size": {
+      "x": 12,
+      "y": 26,
+      "z": 35
+    },
+    "non_air": 2096,
+    "density": 0.1919,
+    "unique_block_types": 24
+  },
+  "massing": {
+    "hollow_score": 0.8133,
+    "interior_air_frac": 0.8133,
+    "exterior_solid_frac": 0.0565,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      5,
+      11
+    ],
+    "families": {
+      "stairs": 233,
+      "slabs": 168,
+      "walls": 1,
+      "fences": 2,
+      "doors": 0,
+      "trapdoors": 24,
+      "glass": 0,
+      "logs": 147,
+      "planks": 403,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 36,
+      "leaves": 0,
+      "lanterns": 4,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6944,
+      "symmetry_z": 0.6061,
+      "symmetry_y": 0.018
+    },
+    "solid_ratio": 0.1919
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "water",
+        "count": 1048,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 365,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 143,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_wood",
+        "count": 142,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 95,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "green_wool",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_wall_banner",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_wool",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 550,
+      "stone": 1,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 36,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "water",
+      "dark_oak_planks",
+      "spruce_stairs",
+      "stripped_dark_oak_wood",
+      "dark_oak_slab",
+      "dark_oak_stairs",
+      "spruce_slab",
+      "spruce_planks",
+      "green_wool",
+      "dark_oak_trapdoor",
+      "brown_wall_banner",
+      "light_gray_wool"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.727,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.698,
+        "raw_score": 0.5966
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.639,
+        "raw_score": 0.5468
+      },
+      {
+        "style": "western",
+        "confidence": 0.639,
+        "raw_score": 0.5466
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.2,
+        "raw_score": 0.2449
+      }
+    ]
+  },
+  "redstone": {
+    "total": 24,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 24
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\ZoFg7lJb9G-Ship_203_skeleton.npz",
+    "occupancy_frac": 0.20263671875,
+    "occupied": 6640
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "id": "Wzemq8peMJ-Resin_20v1_3",
+  "source_path": "data\\raw\\hack337\\schematics\\Wzemq8peMJ-Resin%20v1.3.litematic",
+  "created_at": "2026-10-18T22:27:19+08:00",
+  "overview": {
+    "schematic_name": "Resin v1.3",
+    "size": {
+      "x": 17,
+      "y": 16,
+      "z": 19
+    },
+    "non_air": 1084,
+    "density": 0.2098,
+    "unique_block_types": 28
+  },
+  "massing": {
+    "hollow_score": 0.7471,
+    "interior_air_frac": 0.7471,
+    "exterior_solid_frac": 0.035,
+    "floor_guess": 3,
+    "y_peaks": [
+      2,
+      6,
+      12
+    ],
+    "families": {
+      "stairs": 15,
+      "slabs": 188,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 5,
+      "glass": 360,
+      "logs": 36,
+      "planks": 21,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 161,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2998,
+      "symmetry_z": 0.9817,
+      "symmetry_y": 0.1847
+    },
+    "solid_ratio": 0.2098
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "glass",
+        "count": 360,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_slab",
+        "count": 188,
+        "frac": 0.0
+      },
+      {
+        "name": "black_glazed_terracotta",
+        "count": 161,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_log",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "pearlescent_froglight",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_planks",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "creaking_heart",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "target",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_stairs",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "honey_block",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 9,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 57,
+      "stone": 2,
+      "deepslate": 0,
+      "terracotta": 161,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 360,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 16
+    },
+    "remap_targets": [
+      "glass",
+      "pale_oak_slab",
+      "black_glazed_terracotta",
+      "redstone_wire",
+      "slime_block",
+      "pale_oak_log",
+      "pearlescent_froglight",
+      "pale_oak_planks",
+      "creaking_heart",
+      "observer",
+      "dispenser",
+      "target"
+    ]
+  },
+  "style": {
+    "mapped_style": "western",
+    "mapped_terrain": "flat",
+    "style_id": 11,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.522,
+        "raw_score": 0.1723,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.506,
+        "raw_score": 0.1682
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.346,
+        "raw_score": 0.1254
+      },
+      {
+        "style": "european",
+        "confidence": 0.266,
+        "raw_score": 0.1014
+      },
+      {
+        "style": "western",
+        "confidence": 0.264,
+        "raw_score": 0.1008
+      }
+    ]
+  },
+  "redstone": {
+    "total": 240,
+    "pattern_ids": [
+      "hopper_clock",
+      "qc_piston_bank",
+      "sticky_piston_pair",
+      "observer_clock",
+      "etho_hopper_clock",
+      "target_block_line",
+      "flying_machine",
+      "torch_clock",
+      "edge_detector",
+      "t_flip_flop",
+      "monostable",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "漏斗钟",
+      "QC/BUD 活塞组",
+      "粘性活塞对（换块/门）",
+      "观察者相邻时钟嫌疑",
+      "多漏斗环钟嫌疑",
+      "标靶方块线路",
+      "飞船/飞行器骨架",
+      "火把钟骨架",
+      "边沿检测（观察者）嫌疑",
+      "T 触发器嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 84,
+      "redstone_torch": 2,
+      "redstone_block": 3,
+      "repeater": 7,
+      "comparator": 3,
+      "button": 2,
+      "pressure_plate": 1,
+      "piston": 2,
+      "sticky_piston": 12,
+      "observer": 17,
+      "hopper": 9,
+      "dispenser": 15,
+      "target": 15,
+      "trapdoor": 5,
+      "powered_rail": 7,
+      "piston_head": 7,
+      "slime_block": 37,
+      "honey_block": 12
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Wzemq8peMJ-Resin_20v1_3_skeleton.npz",
+    "occupancy_frac": 0.20623779296875,
+    "occupied": 6758
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

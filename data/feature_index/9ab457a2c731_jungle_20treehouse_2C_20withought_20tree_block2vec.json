@@ -1,0 +1,13 @@
+{
+  "id": "9ab457a2c731_jungle_20treehouse_2C_20withought_20tree",
+  "dim": 144,
+  "n_chunks": 2,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "9ab457a2c731_jungle_20treehouse_2C_20withought_20tree_block2vec.npy"
+}

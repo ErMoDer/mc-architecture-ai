@@ -1,0 +1,251 @@
+{
+  "id": "DecoratedMobFarm_11a41c",
+  "source_path": "data\\raw\\hack337\\schematics\\DecoratedMobFarm_11a41c.litematic",
+  "created_at": "2026-10-18T22:26:00+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 38,
+      "y": 53,
+      "z": 37
+    },
+    "non_air": 8843,
+    "density": 0.1187,
+    "unique_block_types": 63
+  },
+  "massing": {
+    "hollow_score": 0.8659,
+    "interior_air_frac": 0.8659,
+    "exterior_solid_frac": 0.0031,
+    "floor_guess": 6,
+    "y_peaks": [
+      2,
+      35,
+      38,
+      41,
+      44,
+      47
+    ],
+    "families": {
+      "stairs": 332,
+      "slabs": 488,
+      "walls": 113,
+      "fences": 153,
+      "doors": 20,
+      "trapdoors": 799,
+      "glass": 820,
+      "logs": 950,
+      "planks": 73,
+      "stone_bricks": 58,
+      "deepslate": 454,
+      "terracotta": 0,
+      "concrete": 837,
+      "wool": 144,
+      "leaves": 46,
+      "lanterns": 57,
+      "copper": 0,
+      "nether": 11
+    },
+    "symmetry": {
+      "symmetry_x": 0.8731,
+      "symmetry_z": 0.6994,
+      "symmetry_y": 0.1193
+    },
+    "solid_ratio": 0.1187
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cobblestone",
+        "count": 1808,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 871,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 837,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 793,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 552,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 491,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 389,
+        "frac": 0.0
+      },
+      {
+        "name": "tinted_glass",
+        "count": 268,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 237,
+        "frac": 0.0
+      },
+      {
+        "name": "enchanted-vertical-slabs:vertical_cobblestone_slab",
+        "count": 224,
+        "frac": 0.0
+      },
+      {
+        "name": "bubble_column",
+        "count": 184,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 157,
+        "frac": 0.0
+      },
+      {
+        "name": "white_carpet",
+        "count": 144,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 141,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 136,
+        "frac": 0.0
+      },
+      {
+        "name": "enchanted-vertical-slabs:vertical_spruce_slab",
+        "count": 128,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1023,
+      "stone": 2355,
+      "deepslate": 454,
+      "terracotta": 0,
+      "concrete": 837,
+      "wool": 144,
+      "glass": 820,
+      "nether": 4,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 46,
+      "metal": 125
+    },
+    "remap_targets": [
+      "cobblestone",
+      "grass_block",
+      "black_concrete",
+      "spruce_trapdoor",
+      "glass",
+      "stripped_spruce_log",
+      "oak_log",
+      "tinted_glass",
+      "spruce_stairs",
+      "enchanted-vertical-slabs:vertical_cobblestone_slab",
+      "bubble_column",
+      "dirt_path"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "chinese",
+      "fantasy",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.572,
+        "raw_score": 0.2222,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.524,
+        "raw_score": 0.2085
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.453,
+        "raw_score": 0.1872
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.412,
+        "raw_score": 0.1744
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.411,
+        "raw_score": 0.1741
+      }
+    ]
+  },
+  "redstone": {
+    "total": 921,
+    "pattern_ids": [
+      "door_line",
+      "simple_io",
+      "item_elevator"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "物品升降机嫌疑"
+    ],
+    "inventory_nonzero": {
+      "button": 64,
+      "pressure_plate": 8,
+      "hopper": 26,
+      "door": 20,
+      "trapdoor": 799,
+      "fence_gate": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\DecoratedMobFarm_11a41c_skeleton.npz",
+    "occupancy_frac": 0.14556884765625,
+    "occupied": 4770
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

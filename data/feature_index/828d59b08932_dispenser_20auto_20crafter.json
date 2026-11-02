@@ -1,0 +1,263 @@
+{
+  "id": "828d59b08932_dispenser_20auto_20crafter",
+  "source_path": "data\\raw\\hack337\\schematics\\828d59b08932_dispenser%20auto%20crafter.litematic",
+  "created_at": "2026-10-18T22:25:30+08:00",
+  "overview": {
+    "schematic_name": "dispenser auto crafter",
+    "size": {
+      "x": 10,
+      "y": 8,
+      "z": 11
+    },
+    "non_air": 218,
+    "density": 0.2477,
+    "unique_block_types": 15
+  },
+  "massing": {
+    "hollow_score": 0.6644,
+    "interior_air_frac": 0.6644,
+    "exterior_solid_frac": 0.083,
+    "floor_guess": 1,
+    "y_peaks": [
+      2
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 4,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2179,
+      "symmetry_z": 0.2786,
+      "symmetry_y": 0.2749
+    },
+    "solid_ratio": 0.2477
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "crafter",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "dropper",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 94,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 4,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 9
+    },
+    "remap_targets": [
+      "stone",
+      "redstone_wire",
+      "chest",
+      "redstone_wall_torch",
+      "hopper",
+      "repeater",
+      "comparator",
+      "glass",
+      "sticky_piston",
+      "crafter",
+      "lever",
+      "observer"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "industrial"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.732,
+        "raw_score": 0.3818,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.619,
+        "raw_score": 0.3416
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.341,
+        "raw_score": 0.2259
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.213,
+        "raw_score": 0.1597
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.198,
+        "raw_score": 0.1508
+      }
+    ]
+  },
+  "redstone": {
+    "total": 106,
+    "pattern_ids": [
+      "observer_clock",
+      "crafter_auto_line",
+      "qc_piston_bank",
+      "etho_hopper_clock",
+      "pulse_extender",
+      "hopper_clock",
+      "t_flip_flop",
+      "monostable",
+      "edge_detector",
+      "torch_logic_lattice",
+      "instant_wire",
+      "zero_tick_bud_freerun",
+      "falling_edge",
+      "torch_xor_gate"
+    ],
+    "pattern_labels": [
+      "观察者互看/相邻时钟",
+      "合成器自动线（1.21）",
+      "QC/BUD 活塞组",
+      "Etho 漏斗钟变体嫌疑",
+      "脉冲延长/单稳态嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "火把逻辑阵（AND/OR/NOR/XOR）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "BUD 阵列自走嫌疑",
+      "下降沿/双火把脉冲嫌疑",
+      "火把 XOR/同或门嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 53,
+      "redstone_torch": 15,
+      "repeater": 9,
+      "comparator": 7,
+      "lever": 2,
+      "sticky_piston": 3,
+      "observer": 2,
+      "hopper": 9,
+      "dropper": 2,
+      "piston_head": 1,
+      "crafter": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\828d59b08932_dispenser_20auto_20crafter_skeleton.npz",
+    "occupancy_frac": 0.2501220703125,
+    "occupied": 8196
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

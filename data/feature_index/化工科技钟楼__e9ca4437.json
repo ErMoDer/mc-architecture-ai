@@ -1,0 +1,317 @@
+{
+  "id": "化工科技钟楼__e9ca4437",
+  "source_path": "data\\raw\\mcblock\\化工科技钟楼__e9ca4437.litematic",
+  "created_at": "2026-10-20T13:25:08+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 17,
+      "y": 66,
+      "z": 36
+    },
+    "non_air": 5915,
+    "density": 0.1464,
+    "unique_block_types": 82
+  },
+  "massing": {
+    "hollow_score": 0.8293,
+    "interior_air_frac": 0.8293,
+    "exterior_solid_frac": 0.0085,
+    "floor_guess": 14,
+    "y_peaks": [
+      0,
+      6,
+      10,
+      14,
+      17,
+      23,
+      27,
+      33,
+      36,
+      42,
+      45,
+      48,
+      55,
+      58
+    ],
+    "families": {
+      "stairs": 773,
+      "slabs": 150,
+      "walls": 14,
+      "fences": 22,
+      "doors": 16,
+      "trapdoors": 675,
+      "glass": 199,
+      "logs": 952,
+      "planks": 242,
+      "stone_bricks": 16,
+      "deepslate": 72,
+      "terracotta": 71,
+      "concrete": 516,
+      "wool": 101,
+      "leaves": 139,
+      "lanterns": 6,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3796,
+      "symmetry_z": 0.1901,
+      "symmetry_y": 0.1842
+    },
+    "solid_ratio": 0.1464
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "smooth_sandstone",
+        "count": 350,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 316,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_wood",
+        "count": 256,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_wood",
+        "count": 252,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite",
+        "count": 229,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 226,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_birch_wood",
+        "count": 214,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 202,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 186,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 168,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 148,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_concrete",
+        "count": 137,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_concrete",
+        "count": 128,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 125,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_stained_glass",
+        "count": 124,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite_stairs",
+        "count": 120,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1194,
+      "stone": 1895,
+      "deepslate": 72,
+      "terracotta": 71,
+      "concrete": 516,
+      "wool": 101,
+      "glass": 199,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 91,
+      "snow_ice": 0,
+      "leaves": 139,
+      "metal": 39
+    },
+    "remap_targets": [
+      "smooth_sandstone",
+      "spruce_trapdoor",
+      "stripped_oak_wood",
+      "dark_oak_wood",
+      "polished_diorite",
+      "diorite",
+      "stripped_birch_wood",
+      "oak_planks",
+      "stone",
+      "dark_oak_stairs",
+      "andesite",
+      "lime_concrete"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "rustic",
+      "japanese",
+      "european",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.612,
+        "raw_score": 0.2617,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.563,
+        "raw_score": 0.2468
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.549,
+        "raw_score": 0.2425
+      },
+      {
+        "style": "european",
+        "confidence": 0.527,
+        "raw_score": 0.2354
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.526,
+        "raw_score": 0.2351
+      }
+    ]
+  },
+  "redstone": {
+    "total": 917,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "redstone_block": 4,
+      "button": 4,
+      "redstone_lamp": 6,
+      "door": 16,
+      "trapdoor": 675,
+      "fence_gate": 19,
+      "lectern": 82,
+      "slime_block": 25,
+      "honey_block": 86
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\化工科技钟楼__e9ca4437_skeleton.npz",
+    "occupancy_frac": 0.18682861328125,
+    "occupied": 6122
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 46,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\化工科技钟楼__e9ca4437_block2vec.npy",
+    "vector_preview": [
+      -0.01375,
+      0.22118,
+      -0.09649,
+      -0.08049,
+      0.08781,
+      0.03516,
+      -0.00258,
+      0.08074
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "夜影孢子__8125b1ff",
+        "score": 0.8769167589542314,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\夜影孢子__8125b1ff.litematic"
+      },
+      {
+        "id": "骨居__aa1c29c1",
+        "score": 0.876532530207696,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\骨居__aa1c29c1.litematic"
+      },
+      {
+        "id": "班德尔城居所__b166d522",
+        "score": 0.8706654273597485,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\班德尔城居所__b166d522.litematic"
+      },
+      {
+        "id": "日式住宅_二__a706b38a",
+        "score": 0.8678266675813787,
+        "mapped_style": "japanese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\日式住宅_二__a706b38a.litematic"
+      },
+      {
+        "id": "法师居所__3d1599a3",
+        "score": 0.8660456048644459,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\法师居所__3d1599a3.litematic"
+      }
+    ]
+  },
+  "mapped_style": "industrial",
+  "residential_loft_topup": true
+}

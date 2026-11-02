@@ -1,0 +1,13 @@
+{
+  "id": "水畔渔屋__8aa1f244",
+  "dim": 144,
+  "n_chunks": 47,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "水畔渔屋__8aa1f244_block2vec.npy"
+}

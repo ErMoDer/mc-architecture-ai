@@ -1,0 +1,231 @@
+{
+  "id": "fbWsuhsHvg-Mega_20Tree_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\fbWsuhsHvg-Mega%20Tree%20Farm.litematic",
+  "created_at": "2026-10-18T22:26:11+08:00",
+  "overview": {
+    "schematic_name": "Mega Tree Farm",
+    "size": {
+      "x": 33,
+      "y": 6,
+      "z": 24
+    },
+    "non_air": 3270,
+    "density": 0.6881,
+    "unique_block_types": 22
+  },
+  "massing": {
+    "hollow_score": 0.154,
+    "interior_air_frac": 0.154,
+    "exterior_solid_frac": 0.2024,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 24,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 274,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9818,
+      "symmetry_z": 0.9951,
+      "symmetry_y": 0.5266
+    },
+    "solid_ratio": 0.6881
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 1995,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 681,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 234,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_planks",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_planks",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_sapling",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_sapling",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_sapling",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_sapling",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_slab",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_slab",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_sapling",
+        "count": 5,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 274,
+      "stone": 681,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "dirt",
+      "cobblestone",
+      "dirt_path",
+      "cherry_planks",
+      "birch_planks",
+      "acacia_planks",
+      "oak_planks",
+      "spruce_planks",
+      "dark_oak_planks",
+      "dark_oak_sapling",
+      "spruce_sapling",
+      "oak_sapling"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "chinese",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.697,
+        "raw_score": 0.3466,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.68,
+        "raw_score": 0.3411
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.597,
+        "raw_score": 0.3122
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.526,
+        "raw_score": 0.2863
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.525,
+        "raw_score": 0.2862
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\fbWsuhsHvg-Mega_20Tree_20Farm_skeleton.npz",
+    "occupancy_frac": 0.70751953125,
+    "occupied": 23184
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

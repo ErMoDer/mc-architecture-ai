@@ -1,0 +1,239 @@
+{
+  "id": "BObf9KdUO7-ACTUAL_20PORTAL",
+  "source_path": "data\\raw\\hack337\\schematics\\BObf9KdUO7-ACTUAL%20PORTAL.litematic",
+  "created_at": "2026-10-18T22:25:49+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 26,
+      "y": 23,
+      "z": 44
+    },
+    "non_air": 3310,
+    "density": 0.1258,
+    "unique_block_types": 18
+  },
+  "massing": {
+    "hollow_score": 0.8604,
+    "interior_air_frac": 0.8604,
+    "exterior_solid_frac": 0.0135,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      5,
+      8,
+      13,
+      20
+    ],
+    "families": {
+      "stairs": 59,
+      "slabs": 351,
+      "walls": 1,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 1693,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 162,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 2675
+    },
+    "symmetry": {
+      "symmetry_x": 0.5606,
+      "symmetry_z": 0.5128,
+      "symmetry_y": 0.5066
+    },
+    "solid_ratio": 0.1258
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "polished_blackstone_bricks",
+        "count": 1482,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_portal",
+        "count": 342,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_basalt",
+        "count": 314,
+        "frac": 0.0
+      },
+      {
+        "name": "vine",
+        "count": 306,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone_slab",
+        "count": 199,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 162,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_brick_slab",
+        "count": 152,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone",
+        "count": 126,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_brick_stairs",
+        "count": 59,
+        "frac": 0.0
+      },
+      {
+        "name": "amethyst_cluster",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "cave_vines_plant",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "cave_vines",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "budding_amethyst",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "tripwire",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "small_amethyst_bud",
+        "count": 3,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 2019,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 656,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 162,
+      "metal": 0
+    },
+    "remap_targets": [
+      "polished_blackstone_bricks",
+      "nether_portal",
+      "smooth_basalt",
+      "vine",
+      "blackstone_slab",
+      "oak_leaves",
+      "polished_blackstone_brick_slab",
+      "blackstone",
+      "obsidian",
+      "polished_blackstone_brick_stairs",
+      "amethyst_cluster",
+      "cave_vines_plant"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.753,
+        "raw_score": 0.4029,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.666,
+        "raw_score": 0.3719
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.41,
+        "raw_score": 0.2674
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.17,
+        "raw_score": 0.1398
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.159,
+        "raw_score": 0.1329
+      }
+    ]
+  },
+  "redstone": {
+    "total": 347,
+    "pattern_ids": [
+      "nether_portal_cue",
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "下界传送门",
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "tripwire": 5,
+      "nether_portal": 342
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\BObf9KdUO7-ACTUAL_20PORTAL_skeleton.npz",
+    "occupancy_frac": 0.15692138671875,
+    "occupied": 5142
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

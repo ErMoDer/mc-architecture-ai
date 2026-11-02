@@ -1,0 +1,214 @@
+{
+  "id": "127f6102fbf2_tripwire-duper",
+  "source_path": "data\\raw\\hack337\\schematics\\127f6102fbf2_tripwire-duper.litematic",
+  "created_at": "2026-10-18T22:24:50+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 1,
+      "y": 6,
+      "z": 5
+    },
+    "non_air": 23,
+    "density": 0.7667,
+    "unique_block_types": 10
+  },
+  "massing": {
+    "hollow_score": 0.0,
+    "interior_air_frac": 0.23333333333333334,
+    "exterior_solid_frac": 0.7666666666666667,
+    "floor_guess": 1,
+    "y_peaks": [
+      2
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 1,
+      "doors": 2,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 1.0,
+      "symmetry_z": 0.7037,
+      "symmetry_y": 0.6429
+    },
+    "solid_ratio": 0.7667
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "smooth_stone",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "tripwire_hook",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_door",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "rail",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "tripwire",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 7,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "smooth_stone",
+      "redstone_wire",
+      "chest",
+      "tripwire_hook",
+      "oak_door",
+      "hopper",
+      "oak_fence",
+      "rail",
+      "tripwire",
+      "lever"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "industrial",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.725,
+        "raw_score": 0.375,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.626,
+        "raw_score": 0.3403
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.332,
+        "raw_score": 0.2188
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.23,
+        "raw_score": 0.1667
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.216,
+        "raw_score": 0.1591
+      }
+    ]
+  },
+  "redstone": {
+    "total": 13,
+    "pattern_ids": [
+      "simple_io",
+      "door_line",
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线",
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 5,
+      "lever": 1,
+      "hopper": 1,
+      "door": 2,
+      "tripwire": 3,
+      "rail": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\127f6102fbf2_tripwire-duper_skeleton.npz",
+    "occupancy_frac": 0.7626953125,
+    "occupied": 24992
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:duper",
+  "previous_mapped_style": "chinese"
+}

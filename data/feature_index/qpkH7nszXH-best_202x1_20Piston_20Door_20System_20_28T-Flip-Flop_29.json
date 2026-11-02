@@ -1,0 +1,215 @@
+{
+  "id": "qpkH7nszXH-best_202x1_20Piston_20Door_20System_20_28T-Flip-Flop_29",
+  "source_path": "data\\raw\\hack337\\schematics\\qpkH7nszXH-best%202x1%20Piston%20Door%20System%20%28T-Flip-Flop%29.litematic",
+  "created_at": "2026-10-18T22:26:39+08:00",
+  "overview": {
+    "schematic_name": "best 2x1 Piston Door System (T-Flip-Flop)",
+    "size": {
+      "x": 11,
+      "y": 9,
+      "z": 13
+    },
+    "non_air": 934,
+    "density": 0.7257,
+    "unique_block_types": 10
+  },
+  "massing": {
+    "hollow_score": 0.1934,
+    "interior_air_frac": 0.1934,
+    "exterior_solid_frac": 0.2914,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 1,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8513,
+      "symmetry_z": 0.8869,
+      "symmetry_y": 0.4582
+    },
+    "solid_ratio": 0.7257
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "sandstone",
+        "count": 819,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone_slab",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_button",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 871,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "sandstone",
+      "stone",
+      "redstone_wire",
+      "sticky_piston",
+      "repeater",
+      "piston_head",
+      "redstone_block",
+      "redstone_torch",
+      "sandstone_slab",
+      "stone_button"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.779,
+        "raw_score": 0.4286,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.67,
+        "raw_score": 0.3889
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.35,
+        "raw_score": 0.25
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.226,
+        "raw_score": 0.1818
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.201,
+        "raw_score": 0.1667
+      }
+    ]
+  },
+  "redstone": {
+    "total": 64,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "instant_wire",
+      "monostable",
+      "torch_clock"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "瞬间线/同向中继器线嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "火把钟骨架"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 35,
+      "redstone_torch": 2,
+      "redstone_block": 2,
+      "repeater": 8,
+      "button": 1,
+      "sticky_piston": 10,
+      "piston_head": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\qpkH7nszXH-best_202x1_20Piston_20Door_20System_20_28T-Flip-Flop_29_skeleton.npz",
+    "occupancy_frac": 0.743804931640625,
+    "occupied": 24373
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

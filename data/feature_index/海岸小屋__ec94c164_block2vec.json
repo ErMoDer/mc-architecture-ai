@@ -1,0 +1,13 @@
+{
+  "id": "海岸小屋__ec94c164",
+  "dim": 144,
+  "n_chunks": 20,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "海岸小屋__ec94c164_block2vec.npy"
+}

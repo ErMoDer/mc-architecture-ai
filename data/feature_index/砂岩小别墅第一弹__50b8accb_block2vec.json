@@ -1,0 +1,13 @@
+{
+  "id": "砂岩小别墅第一弹__50b8accb",
+  "dim": 144,
+  "n_chunks": 2,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "砂岩小别墅第一弹__50b8accb_block2vec.npy"
+}

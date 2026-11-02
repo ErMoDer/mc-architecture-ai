@@ -1,0 +1,13 @@
+{
+  "id": "薰衣草小屋__318e46d4",
+  "dim": 144,
+  "n_chunks": 31,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "薰衣草小屋__318e46d4_block2vec.npy"
+}

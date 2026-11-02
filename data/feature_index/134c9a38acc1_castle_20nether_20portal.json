@@ -1,0 +1,240 @@
+{
+  "id": "134c9a38acc1_castle_20nether_20portal",
+  "source_path": "data\\raw\\hack337\\schematics\\134c9a38acc1_castle%20nether%20portal.litematic",
+  "created_at": "2026-10-18T22:24:50+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 25,
+      "y": 28,
+      "z": 48
+    },
+    "non_air": 2866,
+    "density": 0.0853,
+    "unique_block_types": 28
+  },
+  "massing": {
+    "hollow_score": 0.9383,
+    "interior_air_frac": 0.9383,
+    "exterior_solid_frac": 0.0348,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      3,
+      18
+    ],
+    "families": {
+      "stairs": 380,
+      "slabs": 49,
+      "walls": 74,
+      "fences": 0,
+      "doors": 8,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 1221,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 5,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 91
+    },
+    "symmetry": {
+      "symmetry_x": 0.8949,
+      "symmetry_z": 0.6711,
+      "symmetry_y": 0.1083
+    },
+    "solid_ratio": 0.0853
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 868,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 819,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 338,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 267,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_portal",
+        "count": 91,
+        "frac": 0.0
+      },
+      {
+        "name": "gravel",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 74,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "tall_grass",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "dandelion",
+        "count": 8,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 1435,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 5,
+      "glass": 0,
+      "nether": 91,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "grass_block",
+      "stone_brick_stairs",
+      "short_grass",
+      "nether_portal",
+      "gravel",
+      "cobblestone_wall",
+      "cobblestone",
+      "dirt",
+      "obsidian",
+      "cobblestone_stairs",
+      "smooth_stone_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "nether",
+    "style_id": 5,
+    "terrain_id": 3,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.8423,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.555,
+        "raw_score": 0.5498
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.163,
+        "raw_score": 0.2347
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.105,
+        "raw_score": 0.1703
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.094,
+        "raw_score": 0.1561
+      }
+    ]
+  },
+  "redstone": {
+    "total": 112,
+    "pattern_ids": [
+      "nether_portal_cue",
+      "trapped_chest_line"
+    ],
+    "pattern_labels": [
+      "下界传送门",
+      "陷阱箱线路"
+    ],
+    "inventory_nonzero": {
+      "door": 8,
+      "brewing_stand": 2,
+      "furnace": 5,
+      "trapped_chest": 6,
+      "nether_portal": 91
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\134c9a38acc1_castle_20nether_20portal_skeleton.npz",
+    "occupancy_frac": 0.11474609375,
+    "occupied": 3760
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

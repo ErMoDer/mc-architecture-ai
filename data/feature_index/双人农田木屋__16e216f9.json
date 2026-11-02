@@ -1,0 +1,259 @@
+{
+  "id": "双人农田木屋__16e216f9",
+  "source_path": "data\\raw\\mcblock\\双人农田木屋__16e216f9.litematic",
+  "created_at": "2026-10-19T13:01:06+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 23,
+      "y": 12,
+      "z": 23
+    },
+    "non_air": 1218,
+    "density": 0.1919,
+    "unique_block_types": 31
+  },
+  "massing": {
+    "hollow_score": 0.8438,
+    "interior_air_frac": 0.8438,
+    "exterior_solid_frac": 0.0833,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      4,
+      8
+    ],
+    "families": {
+      "stairs": 27,
+      "slabs": 186,
+      "walls": 0,
+      "fences": 100,
+      "doors": 0,
+      "trapdoors": 20,
+      "glass": 0,
+      "logs": 61,
+      "planks": 85,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 24,
+      "leaves": 51,
+      "lanterns": 11,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4089,
+      "symmetry_z": 0.6218,
+      "symmetry_y": 0.0545
+    },
+    "solid_ratio": 0.1919
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 287,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 186,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 98,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 85,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "potatoes",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "wheat",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_carpet",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 9,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 146,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 24,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 51,
+      "metal": 4
+    },
+    "remap_targets": [
+      "grass_block",
+      "spruce_slab",
+      "spruce_fence",
+      "spruce_planks",
+      "farmland",
+      "dirt_path",
+      "dirt",
+      "oak_log",
+      "oak_leaves",
+      "potatoes",
+      "wheat",
+      "spruce_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.8271,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.442,
+        "raw_score": 0.4541
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.413,
+        "raw_score": 0.4352
+      },
+      {
+        "style": "western",
+        "confidence": 0.333,
+        "raw_score": 0.3785
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.149,
+        "raw_score": 0.2178
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 35,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 20,
+      "fence_gate": 2,
+      "furnace": 5,
+      "smoker": 4,
+      "blast_furnace": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\双人农田木屋__16e216f9_skeleton.npz",
+    "occupancy_frac": 0.206817626953125,
+    "occupied": 6777
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 8,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\双人农田木屋__16e216f9_block2vec.npy",
+    "vector_preview": [
+      -0.11101,
+      0.1957,
+      -0.09728,
+      0.0021,
+      0.09919,
+      -0.03803,
+      -0.10722,
+      0.04408
+    ],
+    "ok": true
+  },
+  "mapped_style": "rustic"
+}

@@ -1,0 +1,233 @@
+{
+  "id": "CNjM37ksc9-Large_20Spruce_20Tree_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\CNjM37ksc9-Large%20Spruce%20Tree%20Farm.litematic",
+  "created_at": "2026-10-18T22:25:54+08:00",
+  "overview": {
+    "schematic_name": "Large Spruce Tree Farm",
+    "size": {
+      "x": 32,
+      "y": 28,
+      "z": 32
+    },
+    "non_air": 5115,
+    "density": 0.1784,
+    "unique_block_types": 14
+  },
+  "massing": {
+    "hollow_score": 0.8366,
+    "interior_air_frac": 0.8366,
+    "exterior_solid_frac": 0.045,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      5,
+      11,
+      15,
+      19
+    ],
+    "families": {
+      "stairs": 48,
+      "slabs": 144,
+      "walls": 0,
+      "fences": 96,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 681,
+      "planks": 1,
+      "stone_bricks": 104,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 2865,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7797,
+      "symmetry_z": 0.5018,
+      "symmetry_y": 0.1751
+    },
+    "solid_ratio": 0.1784
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_leaves",
+        "count": 2865,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 681,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 624,
+        "frac": 0.0
+      },
+      {
+        "name": "podzol",
+        "count": 288,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 172,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 144,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "shroomlight",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_lamp",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "daylight_detector",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 682,
+      "stone": 104,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 2865,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_leaves",
+      "spruce_log",
+      "dirt_path",
+      "podzol",
+      "dirt",
+      "spruce_slab",
+      "spruce_fence_gate",
+      "stone_bricks",
+      "grass_block",
+      "stone_brick_stairs",
+      "shroomlight",
+      "redstone_lamp"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "japanese",
+      "chinese",
+      "rustic",
+      "fantasy",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "japanese",
+        "confidence": 0.66,
+        "raw_score": 0.3099,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.531,
+        "raw_score": 0.2667
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.447,
+        "raw_score": 0.2363
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.318,
+        "raw_score": 0.1846
+      },
+      {
+        "style": "western",
+        "confidence": 0.161,
+        "raw_score": 0.109
+      }
+    ]
+  },
+  "redstone": {
+    "total": 152,
+    "pattern_ids": [
+      "daylight_detector_clock"
+    ],
+    "pattern_labels": [
+      "日光传感器钟/昼夜控制"
+    ],
+    "inventory_nonzero": {
+      "redstone_lamp": 28,
+      "fence_gate": 96,
+      "daylight_detector": 28
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\CNjM37ksc9-Large_20Spruce_20Tree_20Farm_skeleton.npz",
+    "occupancy_frac": 0.19976806640625,
+    "occupied": 6546
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

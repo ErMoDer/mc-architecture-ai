@@ -1,0 +1,264 @@
+{
+  "id": "深色橡木现代生存基地__10c4bc41",
+  "source_path": "data\\raw\\mcblock\\深色橡木现代生存基地__10c4bc41.litematic",
+  "created_at": "2026-10-19T13:01:06+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 20,
+      "y": 22,
+      "z": 22
+    },
+    "non_air": 2762,
+    "density": 0.2853,
+    "unique_block_types": 50
+  },
+  "massing": {
+    "hollow_score": 0.696,
+    "interior_air_frac": 0.696,
+    "exterior_solid_frac": 0.0592,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      7,
+      10,
+      13,
+      21
+    ],
+    "families": {
+      "stairs": 49,
+      "slabs": 16,
+      "walls": 0,
+      "fences": 30,
+      "doors": 16,
+      "trapdoors": 204,
+      "glass": 478,
+      "logs": 516,
+      "planks": 180,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 437,
+      "concrete": 0,
+      "wool": 52,
+      "leaves": 46,
+      "lanterns": 35,
+      "copper": 0,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.4393,
+      "symmetry_z": 0.4446,
+      "symmetry_y": 0.3427
+    },
+    "solid_ratio": 0.2853
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_dark_oak_wood",
+        "count": 516,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 440,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_terracotta",
+        "count": 437,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 406,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 204,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 180,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "carrots",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "black_carpet",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "bookshelf",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 24,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 696,
+      "stone": 440,
+      "deepslate": 0,
+      "terracotta": 437,
+      "concrete": 0,
+      "wool": 52,
+      "glass": 478,
+      "nether": 1,
+      "copper": 0,
+      "prismarine": 30,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 70,
+      "metal": 14
+    },
+    "remap_targets": [
+      "stripped_dark_oak_wood",
+      "stone",
+      "gray_terracotta",
+      "glass_pane",
+      "spruce_trapdoor",
+      "spruce_planks",
+      "glass",
+      "farmland",
+      "carrots",
+      "oak_leaves",
+      "black_carpet",
+      "spruce_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "modern",
+    "mapped_terrain": "flat",
+    "style_id": 3,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "chinese",
+      "rustic",
+      "japanese",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.662,
+        "raw_score": 0.3122,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.458,
+        "raw_score": 0.2415
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.444,
+        "raw_score": 0.2362
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.412,
+        "raw_score": 0.224
+      },
+      {
+        "style": "western",
+        "confidence": 0.391,
+        "raw_score": 0.2159
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 245,
+    "pattern_ids": [
+      "trapped_chest_line"
+    ],
+    "pattern_labels": [
+      "陷阱箱线路"
+    ],
+    "inventory_nonzero": {
+      "door": 16,
+      "trapdoor": 204,
+      "brewing_stand": 2,
+      "trapped_chest": 20,
+      "lectern": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\深色橡木现代生存基地__10c4bc41_skeleton.npz",
+    "occupancy_frac": 0.307647705078125,
+    "occupied": 10081
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 12,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\深色橡木现代生存基地__10c4bc41_block2vec.npy",
+    "vector_preview": [
+      -0.00323,
+      0.16443,
+      -0.10665,
+      -0.01142,
+      0.04137,
+      0.01998,
+      -0.06913,
+      0.04168
+    ],
+    "ok": true
+  }
+}

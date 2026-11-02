@@ -1,0 +1,229 @@
+{
+  "id": "a919fec4de6d_Sugar_Cane_20farm_20IVOnion",
+  "source_path": "data\\raw\\hack337\\schematics\\a919fec4de6d_Sugar_Cane%20farm%20IVOnion.litematic",
+  "created_at": "2026-10-18T22:25:39+08:00",
+  "overview": {
+    "schematic_name": "Sugar_Cane farm IVOnion",
+    "size": {
+      "x": 4,
+      "y": 16,
+      "z": 14
+    },
+    "non_air": 648,
+    "density": 0.7232,
+    "unique_block_types": 11
+  },
+  "massing": {
+    "hollow_score": 0.2321,
+    "interior_air_frac": 0.2321,
+    "exterior_solid_frac": 0.4353,
+    "floor_guess": 4,
+    "y_peaks": [
+      1,
+      6,
+      11,
+      14
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 100,
+      "logs": 183,
+      "planks": 0,
+      "stone_bricks": 142,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6364,
+      "symmetry_z": 0.6963,
+      "symmetry_y": 0.8151
+    },
+    "solid_ratio": 0.7232
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_spruce_log",
+        "count": 183,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 142,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "mud",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "sugar_cane",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 183,
+      "stone": 142,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 100,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 41
+    },
+    "remap_targets": [
+      "stripped_spruce_log",
+      "stone_bricks",
+      "glass",
+      "hopper",
+      "water",
+      "mud",
+      "sugar_cane",
+      "piston",
+      "redstone_wire",
+      "observer",
+      "chest"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "european",
+      "chinese",
+      "medieval",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.766,
+        "raw_score": 0.416,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.498,
+        "raw_score": 0.3128
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.481,
+        "raw_score": 0.3053
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.466,
+        "raw_score": 0.2986
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.424,
+        "raw_score": 0.2799
+      }
+    ]
+  },
+  "redstone": {
+    "total": 131,
+    "pattern_ids": [
+      "hopper_line",
+      "piston_door",
+      "qc_piston_bank",
+      "item_elevator",
+      "observer_clock",
+      "edge_detector",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 30,
+      "piston": 30,
+      "observer": 30,
+      "hopper": 41
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\a919fec4de6d_Sugar_Cane_20farm_20IVOnion_skeleton.npz",
+    "occupancy_frac": 0.7353515625,
+    "occupied": 24096
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

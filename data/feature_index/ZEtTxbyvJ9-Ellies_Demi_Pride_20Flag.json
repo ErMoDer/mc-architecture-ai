@@ -1,0 +1,232 @@
+{
+  "id": "ZEtTxbyvJ9-Ellies_Demi_Pride_20Flag",
+  "source_path": "data\\raw\\hack337\\schematics\\ZEtTxbyvJ9-Ellies_Demi_Pride%20Flag.litematic",
+  "created_at": "2026-10-18T22:27:24+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 41,
+      "y": 55,
+      "z": 15
+    },
+    "non_air": 1431,
+    "density": 0.0423,
+    "unique_block_types": 20
+  },
+  "massing": {
+    "hollow_score": 0.9697,
+    "interior_air_frac": 0.9697,
+    "exterior_solid_frac": 0.0182,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 48,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 48,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 15,
+      "wool": 362,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 63
+    },
+    "symmetry": {
+      "symmetry_x": 0.3462,
+      "symmetry_z": 0.5462,
+      "symmetry_y": 0.0849
+    },
+    "solid_ratio": 0.0423
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 419,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_block",
+        "count": 192,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 162,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 124,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_wool",
+        "count": 123,
+        "frac": 0.0
+      },
+      {
+        "name": "black_wool",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "gold_block",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_wool",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "sculk",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_brick_stairs",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "sculk_vein",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "glow_lichen",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_concrete_powder",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 14,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 63,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 15,
+      "wool": 362,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 162,
+      "metal": 256
+    },
+    "remap_targets": [
+      "grass_block",
+      "iron_block",
+      "moss_block",
+      "white_wool",
+      "light_gray_wool",
+      "black_wool",
+      "gold_block",
+      "purple_wool",
+      "sculk",
+      "polished_blackstone_brick_stairs",
+      "dirt",
+      "sculk_vein"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "fantasy",
+      "scifi",
+      "modern",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.484,
+        "raw_score": 0.1338,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.422,
+        "raw_score": 0.1201
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.273,
+        "raw_score": 0.0842
+      },
+      {
+        "style": "modern",
+        "confidence": 0.257,
+        "raw_score": 0.08
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.211,
+        "raw_score": 0.0676
+      }
+    ]
+  },
+  "redstone": {
+    "total": 2,
+    "pattern_ids": [
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "tripwire": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\ZEtTxbyvJ9-Ellies_Demi_Pride_20Flag_skeleton.npz",
+    "occupancy_frac": 0.06524658203125,
+    "occupied": 2138
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

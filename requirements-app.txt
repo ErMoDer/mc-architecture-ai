@@ -1,0 +1,6 @@
+﻿# Desktop viewer / GUI app deps (install into the project .venv)
+# pip install -r requirements-app.txt
+matplotlib>=3.8.0
+customtkinter>=5.2.0
+# Optional niceties used by some export/companion flows if present:
+# pillow>=10.0.0

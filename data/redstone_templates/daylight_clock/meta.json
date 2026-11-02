@@ -1,0 +1,13 @@
+{
+  "id": "daylight_clock",
+  "matches": [
+    "daylight_detector_clock"
+  ],
+  "label_zh": "日光传感器→粉尘→灯",
+  "size": [
+    3,
+    1,
+    1
+  ],
+  "notes": "昼夜控制示意；反相需额外火把（未放入）。"
+}

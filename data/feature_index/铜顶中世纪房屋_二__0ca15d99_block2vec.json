@@ -1,0 +1,13 @@
+{
+  "id": "铜顶中世纪房屋_二__0ca15d99",
+  "dim": 144,
+  "n_chunks": 22,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "铜顶中世纪房屋_二__0ca15d99_block2vec.npy"
+}

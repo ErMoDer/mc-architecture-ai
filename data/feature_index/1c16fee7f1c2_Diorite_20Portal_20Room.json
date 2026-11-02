@@ -1,0 +1,201 @@
+{
+  "id": "1c16fee7f1c2_Diorite_20Portal_20Room",
+  "source_path": "data\\raw\\hack337\\schematics\\1c16fee7f1c2_Diorite%20Portal%20Room.litematic",
+  "created_at": "2026-10-18T22:24:52+08:00",
+  "overview": {
+    "schematic_name": "Diorite Portal Room",
+    "size": {
+      "x": 16,
+      "y": 7,
+      "z": 11
+    },
+    "non_air": 800,
+    "density": 0.6494,
+    "unique_block_types": 10
+  },
+  "massing": {
+    "hollow_score": 0.4984,
+    "interior_air_frac": 0.4984,
+    "exterior_solid_frac": 0.3929,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      6
+    ],
+    "families": {
+      "stairs": 54,
+      "slabs": 77,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 50,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 520
+    },
+    "symmetry": {
+      "symmetry_x": 0.7978,
+      "symmetry_z": 0.8583,
+      "symmetry_y": 0.435
+    },
+    "solid_ratio": 0.6494
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "netherrack",
+        "count": 507,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite_slab",
+        "count": 77,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite_stairs",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_log",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "shroomlight",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_portal",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "soul_soil",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 50,
+      "stone": 212,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 517,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "netherrack",
+      "polished_diorite",
+      "polished_diorite_slab",
+      "polished_diorite_stairs",
+      "dark_oak_log",
+      "obsidian",
+      "shroomlight",
+      "nether_portal",
+      "blackstone",
+      "soul_soil"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "fantasy",
+      "european",
+      "medieval",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.514,
+        "raw_score": 0.1641,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.365,
+        "raw_score": 0.1258
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.344,
+        "raw_score": 0.1201
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.242,
+        "raw_score": 0.0903
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.218,
+        "raw_score": 0.0828
+      }
+    ]
+  },
+  "redstone": {
+    "total": 9,
+    "pattern_ids": [
+      "nether_portal_cue"
+    ],
+    "pattern_labels": [
+      "下界传送门"
+    ],
+    "inventory_nonzero": {
+      "nether_portal": 9
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\1c16fee7f1c2_Diorite_20Portal_20Room_skeleton.npz",
+    "occupancy_frac": 0.64385986328125,
+    "occupied": 21098
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": "aN0vnvfv4c-Sugar_20Cane_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\aN0vnvfv4c-Sugar%20Cane%20Farm.litematic",
+  "created_at": "2026-10-18T22:25:40+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 25,
+      "y": 7,
+      "z": 43
+    },
+    "non_air": 5955,
+    "density": 0.7914,
+    "unique_block_types": 29
+  },
+  "massing": {
+    "hollow_score": 0.2539,
+    "interior_air_frac": 0.2539,
+    "exterior_solid_frac": 0.3239,
+    "floor_guess": 2,
+    "y_peaks": [
+      1,
+      6
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 126,
+      "walls": 0,
+      "fences": 3,
+      "doors": 0,
+      "trapdoors": 1,
+      "glass": 1326,
+      "logs": 0,
+      "planks": 1,
+      "stone_bricks": 410,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 15,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7314,
+      "symmetry_z": 0.8451,
+      "symmetry_y": 0.6913
+    },
+    "solid_ratio": 0.7914
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "sugar_cane",
+        "count": 1358,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 1326,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 1046,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 707,
+        "frac": 0.0
+      },
+      {
+        "name": "rail",
+        "count": 600,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 284,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 200,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 143,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 126,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "coal_ore",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "copper_ore",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1,
+      "stone": 1524,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 1326,
+      "nether": 0,
+      "copper": 15,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 22
+    },
+    "remap_targets": [
+      "sugar_cane",
+      "glass",
+      "stone",
+      "grass_block",
+      "rail",
+      "stone_bricks",
+      "powered_rail",
+      "dirt",
+      "stone_brick_slab",
+      "diorite",
+      "hopper",
+      "slime_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "modern",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.704,
+        "raw_score": 0.354,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.462,
+        "raw_score": 0.2658
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.329,
+        "raw_score": 0.2085
+      },
+      {
+        "style": "modern",
+        "confidence": 0.174,
+        "raw_score": 0.1288
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.169,
+        "raw_score": 0.1255
+      }
+    ]
+  },
+  "redstone": {
+    "total": 857,
+    "pattern_ids": [
+      "hopper_line",
+      "hopper_clock",
+      "sticky_piston_pair",
+      "etho_hopper_clock",
+      "flying_machine",
+      "edge_detector",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "漏斗钟",
+      "粘性活塞对（换块/门）",
+      "多漏斗环钟嫌疑",
+      "飞船/飞行器骨架",
+      "边沿检测（观察者）嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 2,
+      "redstone_torch": 1,
+      "redstone_block": 1,
+      "repeater": 1,
+      "comparator": 2,
+      "lever": 1,
+      "sticky_piston": 4,
+      "observer": 3,
+      "hopper": 22,
+      "trapdoor": 1,
+      "powered_rail": 200,
+      "rail": 600,
+      "piston_head": 1,
+      "slime_block": 18
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\aN0vnvfv4c-Sugar_20Cane_20Farm_skeleton.npz",
+    "occupancy_frac": 0.836334228515625,
+    "occupied": 27405
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

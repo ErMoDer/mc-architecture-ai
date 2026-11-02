@@ -1,0 +1,234 @@
+{
+  "id": "9794837ceb25_Brick_20Church",
+  "source_path": "data\\raw\\hack337\\schematics\\9794837ceb25_Brick%20Church.litematic",
+  "created_at": "2026-10-18T22:25:33+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 14,
+      "y": 27,
+      "z": 22
+    },
+    "non_air": 1289,
+    "density": 0.155,
+    "unique_block_types": 28
+  },
+  "massing": {
+    "hollow_score": 0.8365,
+    "interior_air_frac": 0.8365,
+    "exterior_solid_frac": 0.037,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      5,
+      15,
+      19
+    ],
+    "families": {
+      "stairs": 135,
+      "slabs": 63,
+      "walls": 150,
+      "fences": 17,
+      "doors": 2,
+      "trapdoors": 64,
+      "glass": 0,
+      "logs": 150,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 179,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 77,
+      "lanterns": 21,
+      "copper": 43,
+      "nether": 23
+    },
+    "symmetry": {
+      "symmetry_x": 0.5111,
+      "symmetry_z": 0.3554,
+      "symmetry_y": 0.118
+    },
+    "solid_ratio": 0.155
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 260,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_wall",
+        "count": 130,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 116,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 110,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_slab",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 62,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_granite",
+        "count": 59,
+        "frac": 0.0
+      },
+      {
+        "name": "granite",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "oxidized_copper_trapdoor",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_bricks",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 21,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 150,
+      "stone": 419,
+      "deepslate": 179,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 7,
+      "copper": 43,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 97,
+      "metal": 0
+    },
+    "remap_targets": [
+      "grass_block",
+      "brick_wall",
+      "deepslate_tile_stairs",
+      "stripped_spruce_log",
+      "bricks",
+      "oak_leaves",
+      "deepslate_tile_slab",
+      "dirt",
+      "polished_granite",
+      "granite",
+      "oxidized_copper_trapdoor",
+      "stripped_oak_log"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "european",
+      "chinese",
+      "japanese",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.592,
+        "raw_score": 0.2415,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.534,
+        "raw_score": 0.2246
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.492,
+        "raw_score": 0.2115
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.464,
+        "raw_score": 0.2029
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.425,
+        "raw_score": 0.1901
+      }
+    ]
+  },
+  "redstone": {
+    "total": 89,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 16,
+      "door": 2,
+      "trapdoor": 64,
+      "fence_gate": 7
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\9794837ceb25_Brick_20Church_skeleton.npz",
+    "occupancy_frac": 0.1810302734375,
+    "occupied": 5932
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

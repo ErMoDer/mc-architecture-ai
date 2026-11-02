@@ -1,0 +1,235 @@
+{
+  "id": "The_Estuary_Edge",
+  "source_path": "data\\raw\\hack337\\schematics\\The Estuary Edge.litematic",
+  "created_at": "2026-10-18T22:27:12+08:00",
+  "overview": {
+    "schematic_name": "The Estuary Edge",
+    "size": {
+      "x": 32,
+      "y": 11,
+      "z": 22
+    },
+    "non_air": 2148,
+    "density": 0.2774,
+    "unique_block_types": 59
+  },
+  "massing": {
+    "hollow_score": 0.7517,
+    "interior_air_frac": 0.7517,
+    "exterior_solid_frac": 0.1042,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      4,
+      8
+    ],
+    "families": {
+      "stairs": 453,
+      "slabs": 138,
+      "walls": 21,
+      "fences": 21,
+      "doors": 10,
+      "trapdoors": 46,
+      "glass": 98,
+      "logs": 83,
+      "planks": 597,
+      "stone_bricks": 6,
+      "deepslate": 466,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 47,
+      "leaves": 4,
+      "lanterns": 40,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3026,
+      "symmetry_z": 0.5084,
+      "symmetry_y": 0.1706
+    },
+    "solid_ratio": 0.2774
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 397,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 373,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 264,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 224,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 157,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass_pane",
+        "count": 98,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 93,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_wood",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_slab",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_log",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "black_carpet",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_wall",
+        "count": 21,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 680,
+      "stone": 7,
+      "deepslate": 466,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 47,
+      "glass": 98,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 8,
+      "metal": 2
+    },
+    "remap_targets": [
+      "deepslate_tile_stairs",
+      "spruce_planks",
+      "grass_block",
+      "dark_oak_planks",
+      "dirt",
+      "black_stained_glass_pane",
+      "spruce_slab",
+      "dirt_path",
+      "dark_oak_wood",
+      "spruce_trapdoor",
+      "spruce_stairs",
+      "deepslate_tile_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.808,
+        "raw_score": 0.4584,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.496,
+        "raw_score": 0.3329
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.437,
+        "raw_score": 0.3057
+      },
+      {
+        "style": "western",
+        "confidence": 0.432,
+        "raw_score": 0.3033
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.175,
+        "raw_score": 0.158
+      }
+    ]
+  },
+  "redstone": {
+    "total": 67,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "pressure_plate": 3,
+      "door": 10,
+      "trapdoor": 46,
+      "brewing_stand": 1,
+      "furnace": 2,
+      "chiseled_bookshelf": 5
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\The_Estuary_Edge_skeleton.npz",
+    "occupancy_frac": 0.284576416015625,
+    "occupied": 9325
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

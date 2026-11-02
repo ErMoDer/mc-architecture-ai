@@ -1,0 +1,13 @@
+{
+  "id": "苔痕土坯屋__86435ac5",
+  "dim": 144,
+  "n_chunks": 32,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "苔痕土坯屋__86435ac5_block2vec.npy"
+}

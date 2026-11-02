@@ -1,0 +1,261 @@
+{
+  "id": "zTiRqi9gFC-12gt_20Sand_20Duper_20V4",
+  "source_path": "data\\raw\\hack337\\schematics\\zTiRqi9gFC-12gt%20Sand%20Duper%20V4.litematic",
+  "created_at": "2026-10-18T22:27:24+08:00",
+  "overview": {
+    "schematic_name": "12gt Sand Duper V4",
+    "size": {
+      "x": 9,
+      "y": 6,
+      "z": 9
+    },
+    "non_air": 200,
+    "density": 0.4115,
+    "unique_block_types": 21
+  },
+  "massing": {
+    "hollow_score": 0.4439,
+    "interior_air_frac": 0.4439,
+    "exterior_solid_frac": 0.1872,
+    "floor_guess": 1,
+    "y_peaks": [
+      4
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 2,
+      "trapdoors": 4,
+      "glass": 21,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 12,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5564,
+      "symmetry_z": 0.5564,
+      "symmetry_y": 0.3793
+    },
+    "solid_ratio": 0.4115
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "slime_block",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "sand",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "honey_block",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "end_portal",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "scaffolding",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_trapdoor",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 8,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 21,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 24,
+      "snow_ice": 0,
+      "leaves": 12,
+      "metal": 6
+    },
+    "remap_targets": [
+      "slime_block",
+      "sand",
+      "white_stained_glass",
+      "observer",
+      "sticky_piston",
+      "oak_leaves",
+      "honey_block",
+      "end_portal",
+      "smooth_stone",
+      "obsidian",
+      "scaffolding",
+      "piston_head"
+    ]
+  },
+  "style": {
+    "mapped_style": "japanese",
+    "mapped_terrain": "flat",
+    "style_id": 7,
+    "terrain_id": 0,
+    "guess_names": [
+      "fantasy",
+      "scifi",
+      "modern",
+      "european",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.456,
+        "raw_score": 0.1056,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.433,
+        "raw_score": 0.1014
+      },
+      {
+        "style": "modern",
+        "confidence": 0.407,
+        "raw_score": 0.0962
+      },
+      {
+        "style": "european",
+        "confidence": 0.378,
+        "raw_score": 0.0905
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.237,
+        "raw_score": 0.061
+      }
+    ]
+  },
+  "redstone": {
+    "total": 110,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "simple_io",
+      "door_line",
+      "observer_clock",
+      "flying_machine",
+      "edge_detector",
+      "note_block_line",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线",
+      "观察者相邻时钟嫌疑",
+      "飞船/飞行器骨架",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_torch": 4,
+      "redstone_block": 4,
+      "repeater": 4,
+      "lever": 1,
+      "sticky_piston": 13,
+      "observer": 18,
+      "dropper": 3,
+      "note_block": 3,
+      "redstone_lamp": 1,
+      "iron_door": 2,
+      "trapdoor": 4,
+      "piston_head": 5,
+      "slime_block": 38,
+      "honey_block": 10
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\zTiRqi9gFC-12gt_20Sand_20Duper_20V4_skeleton.npz",
+    "occupancy_frac": 0.404571533203125,
+    "occupied": 13257
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

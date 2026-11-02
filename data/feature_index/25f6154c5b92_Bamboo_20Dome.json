@@ -1,0 +1,226 @@
+{
+  "id": "25f6154c5b92_Bamboo_20Dome",
+  "source_path": "data\\raw\\hack337\\schematics\\25f6154c5b92_Bamboo%20Dome.litematic",
+  "created_at": "2026-10-18T22:24:57+08:00",
+  "overview": {
+    "schematic_name": "Bamboo Dome",
+    "size": {
+      "x": 19,
+      "y": 14,
+      "z": 17
+    },
+    "non_air": 1475,
+    "density": 0.3262,
+    "unique_block_types": 20
+  },
+  "massing": {
+    "hollow_score": 0.6696,
+    "interior_air_frac": 0.6696,
+    "exterior_solid_frac": 0.1026,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 4,
+      "slabs": 2,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 271,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 120,
+      "terracotta": 0,
+      "concrete": 53,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4532,
+      "symmetry_z": 0.8636,
+      "symmetry_y": 0.1434
+    },
+    "solid_ratio": 0.3262
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "bamboo",
+        "count": 472,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_stained_glass",
+        "count": 271,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 211,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 102,
+        "frac": 0.0
+      },
+      {
+        "name": "end_stone",
+        "count": 93,
+        "frac": 0.0
+      },
+      {
+        "name": "chorus_plant",
+        "count": 91,
+        "frac": 0.0
+      },
+      {
+        "name": "mud",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 47,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "chorus_flower",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_stairs",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_bars",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_slab",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 472,
+      "stone": 140,
+      "deepslate": 120,
+      "terracotta": 0,
+      "concrete": 53,
+      "wool": 0,
+      "glass": 271,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 5
+    },
+    "remap_targets": [
+      "bamboo",
+      "light_gray_stained_glass",
+      "dirt",
+      "deepslate_bricks",
+      "end_stone",
+      "chorus_plant",
+      "mud",
+      "white_concrete",
+      "stone",
+      "polished_deepslate",
+      "chorus_flower",
+      "quartz_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.775,
+        "raw_score": 0.4248,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.475,
+        "raw_score": 0.3071
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.418,
+        "raw_score": 0.2815
+      },
+      {
+        "style": "western",
+        "confidence": 0.372,
+        "raw_score": 0.2595
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.236,
+        "raw_score": 0.1868
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\25f6154c5b92_Bamboo_20Dome_skeleton.npz",
+    "occupancy_frac": 0.34576416015625,
+    "occupied": 11330
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": "930fe69fc77a_Moving_20Germany_20Flag",
+  "source_path": "data\\raw\\hack337\\schematics\\930fe69fc77a_Moving%20Germany%20Flag.litematic",
+  "created_at": "2026-10-18T22:25:33+08:00",
+  "overview": {
+    "schematic_name": "Moving Germany Flag",
+    "size": {
+      "x": 6,
+      "y": 21,
+      "z": 17
+    },
+    "non_air": 179,
+    "density": 0.0836,
+    "unique_block_types": 14
+  },
+  "massing": {
+    "hollow_score": 0.8509,
+    "interior_air_frac": 0.8509,
+    "exterior_solid_frac": 0.0042,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      17
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 73,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 32,
+      "wool": 22,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3561,
+      "symmetry_z": 0.3066,
+      "symmetry_y": 0.3509
+    },
+    "solid_ratio": 0.0836
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_trapdoor",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_wool",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "red_concrete_powder",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete_powder",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "honey_block",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "black_wool",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "target",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 32,
+      "wool": 22,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_trapdoor",
+      "observer",
+      "yellow_wool",
+      "red_concrete_powder",
+      "black_concrete_powder",
+      "repeater",
+      "sticky_piston",
+      "redstone_wire",
+      "honey_block",
+      "slime_block",
+      "black_wool",
+      "lever"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "industrial",
+      "scifi",
+      "fantasy",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.603,
+        "raw_score": 0.2531,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.317,
+        "raw_score": 0.158
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.317,
+        "raw_score": 0.158
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.112,
+        "raw_score": 0.0679
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.05,
+        "raw_score": 0.0291
+      }
+    ]
+  },
+  "redstone": {
+    "total": 125,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "repeater_ring_clock",
+      "observer_clock",
+      "target_block_line",
+      "flying_machine",
+      "pulse_extender",
+      "pulse_limiter",
+      "edge_detector",
+      "instant_wire",
+      "door_line",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "中继器环时钟",
+      "观察者相邻时钟嫌疑",
+      "标靶方块线路",
+      "飞船/飞行器骨架",
+      "脉冲延长/单稳态嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "门/活板/栅栏门控制线",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 4,
+      "repeater": 9,
+      "comparator": 1,
+      "lever": 1,
+      "sticky_piston": 8,
+      "observer": 20,
+      "target": 1,
+      "trapdoor": 73,
+      "slime_block": 4,
+      "honey_block": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\930fe69fc77a_Moving_20Germany_20Flag_skeleton.npz",
+    "occupancy_frac": 0.09320068359375,
+    "occupied": 3054
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

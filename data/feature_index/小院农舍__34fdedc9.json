@@ -1,0 +1,303 @@
+{
+  "id": "小院农舍__34fdedc9",
+  "source_path": "data\\raw\\mcblock\\小院农舍__34fdedc9.litematic",
+  "created_at": "2026-10-19T20:36:03+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 13,
+      "y": 10,
+      "z": 15
+    },
+    "non_air": 753,
+    "density": 0.3862,
+    "unique_block_types": 29
+  },
+  "massing": {
+    "hollow_score": 0.6066,
+    "interior_air_frac": 0.6066,
+    "exterior_solid_frac": 0.1554,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      5
+    ],
+    "families": {
+      "stairs": 85,
+      "slabs": 33,
+      "walls": 0,
+      "fences": 49,
+      "doors": 4,
+      "trapdoors": 8,
+      "glass": 29,
+      "logs": 103,
+      "planks": 119,
+      "stone_bricks": 7,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 1,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4275,
+      "symmetry_z": 0.4693,
+      "symmetry_y": 0.1784
+    },
+    "solid_ratio": 0.3862
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_planks",
+        "count": 119,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 103,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 77,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 71,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "petrified_oak_slab",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "furnace",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 7,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 222,
+      "stone": 176,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 1,
+      "wool": 0,
+      "glass": 29,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 2
+    },
+    "remap_targets": [
+      "oak_planks",
+      "oak_log",
+      "cobblestone",
+      "grass_block",
+      "dirt",
+      "cobblestone_stairs",
+      "oak_fence",
+      "glass",
+      "petrified_oak_slab",
+      "short_grass",
+      "furnace",
+      "oak_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5104,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.595,
+        "raw_score": 0.403
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.521,
+        "raw_score": 0.3694
+      },
+      {
+        "style": "western",
+        "confidence": 0.384,
+        "raw_score": 0.3012
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.343,
+        "raw_score": 0.2783
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 34,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 5,
+      "lever": 1,
+      "door": 2,
+      "iron_door": 2,
+      "trapdoor": 8,
+      "fence_gate": 1,
+      "furnace": 15
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\小院农舍__34fdedc9_skeleton.npz",
+    "occupancy_frac": 0.405609130859375,
+    "occupied": 13291
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 2,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\小院农舍__34fdedc9_block2vec.npy",
+    "vector_preview": [
+      -0.03579,
+      0.23275,
+      0.00323,
+      0.03887,
+      0.0641,
+      0.03886,
+      0.03249,
+      0.09147
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "7HujaJNjpe-Villager_20Trading_20Hall_20_283x_20Vertical_29",
+        "score": 0.891203555675316,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\7HujaJNjpe-Villager%20Trading%20Hall%20%283x%20Vertical%29.litematic"
+      },
+      {
+        "id": "海滨住宅__e7cef132",
+        "score": 0.7960539807639808,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\海滨住宅__e7cef132.litematic"
+      },
+      {
+        "id": "温室小屋__85127e33",
+        "score": 0.782977286666624,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\温室小屋__85127e33.litematic"
+      },
+      {
+        "id": "公馆__20fa6b58",
+        "score": 0.7639853252541661,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\公馆__20fa6b58.litematic"
+      },
+      {
+        "id": "铜顶中世纪房屋_三__c8ed44d4",
+        "score": 0.7603095811005527,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\铜顶中世纪房屋_三__c8ed44d4.litematic"
+      }
+    ]
+  },
+  "mapped_style": "rustic"
+}

@@ -1,0 +1,234 @@
+{
+  "id": "640be3461db2_Trenches",
+  "source_path": "data\\raw\\hack337\\schematics\\640be3461db2_Trenches.litematic",
+  "created_at": "2026-10-18T22:25:18+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 53,
+      "y": 29,
+      "z": 38
+    },
+    "non_air": 23486,
+    "density": 0.4021,
+    "unique_block_types": 36
+  },
+  "massing": {
+    "hollow_score": 0.6082,
+    "interior_air_frac": 0.6082,
+    "exterior_solid_frac": 0.0696,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      3,
+      7,
+      12,
+      17
+    ],
+    "families": {
+      "stairs": 337,
+      "slabs": 101,
+      "walls": 0,
+      "fences": 47,
+      "doors": 8,
+      "trapdoors": 4,
+      "glass": 0,
+      "logs": 517,
+      "planks": 118,
+      "stone_bricks": 456,
+      "deepslate": 340,
+      "terracotta": 0,
+      "concrete": 2,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 2,
+      "copper": 18,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6638,
+      "symmetry_z": 0.8219,
+      "symmetry_y": 0.0737
+    },
+    "solid_ratio": 0.4021
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 10074,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 9565,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 1877,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 473,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_bricks",
+        "count": 234,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 216,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 213,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 140,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 127,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 118,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "vine",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 25,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 635,
+      "stone": 10307,
+      "deepslate": 340,
+      "terracotta": 0,
+      "concrete": 2,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 18,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "dirt",
+      "stone",
+      "grass_block",
+      "spruce_log",
+      "tuff_bricks",
+      "stone_bricks",
+      "deepslate_tiles",
+      "stone_brick_stairs",
+      "deepslate_tile_stairs",
+      "oak_planks",
+      "stone_brick_slab",
+      "oak_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.816,
+        "raw_score": 0.4657,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.734,
+        "raw_score": 0.4354
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.308,
+        "raw_score": 0.242
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.239,
+        "raw_score": 0.2016
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.212,
+        "raw_score": 0.1848
+      }
+    ]
+  },
+  "redstone": {
+    "total": 25,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 8,
+      "trapdoor": 4,
+      "fence_gate": 13
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\640be3461db2_Trenches_skeleton.npz",
+    "occupancy_frac": 0.441802978515625,
+    "occupied": 14477
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

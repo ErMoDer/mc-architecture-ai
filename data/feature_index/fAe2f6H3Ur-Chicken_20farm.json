@@ -1,0 +1,202 @@
+{
+  "id": "fAe2f6H3Ur-Chicken_20farm",
+  "source_path": "data\\raw\\hack337\\schematics\\fAe2f6H3Ur-Chicken%20farm.litematic",
+  "created_at": "2026-10-18T22:26:11+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 6,
+      "y": 4,
+      "z": 6
+    },
+    "non_air": 71,
+    "density": 0.4931,
+    "unique_block_types": 9
+  },
+  "massing": {
+    "hollow_score": 0.25,
+    "interior_air_frac": 0.25,
+    "exterior_solid_frac": 0.3264,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 19,
+      "slabs": 14,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 12,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 52,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8205,
+      "symmetry_z": 0.5778,
+      "symmetry_y": 0.5435
+    },
+    "solid_ratio": 0.4931
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_brick_stairs",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 52,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 12,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 2
+    },
+    "remap_targets": [
+      "stone_brick_stairs",
+      "stone_bricks",
+      "stone_brick_slab",
+      "glass",
+      "hopper",
+      "observer",
+      "chest",
+      "dispenser",
+      "lava"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.5168,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.709,
+        "raw_score": 0.4553
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.254,
+        "raw_score": 0.2273
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.137,
+        "raw_score": 0.1433
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.122,
+        "raw_score": 0.1313
+      }
+    ]
+  },
+  "redstone": {
+    "total": 5,
+    "pattern_ids": [
+      "observer_clock"
+    ],
+    "pattern_labels": [
+      "观察者互看/相邻时钟"
+    ],
+    "inventory_nonzero": {
+      "observer": 2,
+      "hopper": 2,
+      "dispenser": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\fAe2f6H3Ur-Chicken_20farm_skeleton.npz",
+    "occupancy_frac": 0.4873046875,
+    "occupied": 15968
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

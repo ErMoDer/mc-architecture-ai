@@ -1,0 +1,13 @@
+{
+  "id": "atQAqNhP15-Medieval_20Style_20House",
+  "dim": 144,
+  "n_chunks": 15,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "atQAqNhP15-Medieval_20Style_20House_block2vec.npy"
+}

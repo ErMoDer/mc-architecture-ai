@@ -1,0 +1,250 @@
+{
+  "id": "ApxcWPMAww-Crop_20Farm_20Acacia_20Variant",
+  "source_path": "data\\raw\\hack337\\schematics\\ApxcWPMAww-Crop%20Farm%20Acacia%20Variant.litematic",
+  "created_at": "2026-10-18T22:25:41+08:00",
+  "overview": {
+    "schematic_name": "Crop Farm Acacia Variant",
+    "size": {
+      "x": 33,
+      "y": 26,
+      "z": 33
+    },
+    "non_air": 12767,
+    "density": 0.4509,
+    "unique_block_types": 43
+  },
+  "massing": {
+    "hollow_score": 0.5283,
+    "interior_air_frac": 0.5283,
+    "exterior_solid_frac": 0.0667,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      4,
+      11,
+      14,
+      22
+    ],
+    "families": {
+      "stairs": 267,
+      "slabs": 266,
+      "walls": 210,
+      "fences": 2,
+      "doors": 20,
+      "trapdoors": 33,
+      "glass": 24,
+      "logs": 34,
+      "planks": 0,
+      "stone_bricks": 29,
+      "deepslate": 1722,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 73,
+      "copper": 20,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.934,
+      "symmetry_z": 0.899,
+      "symmetry_y": 0.1728
+    },
+    "solid_ratio": 0.4509
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone",
+        "count": 5494,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 1142,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 953,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 865,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 859,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 449,
+        "frac": 0.0
+      },
+      {
+        "name": "carrots",
+        "count": 433,
+        "frac": 0.0
+      },
+      {
+        "name": "potatoes",
+        "count": 432,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate_wall",
+        "count": 210,
+        "frac": 0.0
+      },
+      {
+        "name": "granite",
+        "count": 207,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 180,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 172,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_stairs",
+        "count": 168,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate",
+        "count": 148,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate",
+        "count": 143,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 109,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 34,
+      "stone": 7140,
+      "deepslate": 1722,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 24,
+      "nether": 0,
+      "copper": 20,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 60
+    },
+    "remap_targets": [
+      "stone",
+      "cobblestone",
+      "deepslate_bricks",
+      "farmland",
+      "dirt",
+      "grass_block",
+      "carrots",
+      "potatoes",
+      "cobbled_deepslate_wall",
+      "granite",
+      "cobblestone_slab",
+      "deepslate_tiles"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.694,
+        "raw_score": 0.344,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.663,
+        "raw_score": 0.3336
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.319,
+        "raw_score": 0.1997
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.212,
+        "raw_score": 0.1466
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.189,
+        "raw_score": 0.1344
+      }
+    ]
+  },
+  "redstone": {
+    "total": 111,
+    "pattern_ids": [
+      "hopper_line",
+      "door_line",
+      "simple_io",
+      "item_elevator"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "物品升降机嫌疑"
+    ],
+    "inventory_nonzero": {
+      "button": 20,
+      "hopper": 38,
+      "iron_door": 20,
+      "trapdoor": 33
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\ApxcWPMAww-Crop_20Farm_20Acacia_20Variant_skeleton.npz",
+    "occupancy_frac": 0.468048095703125,
+    "occupied": 15337
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

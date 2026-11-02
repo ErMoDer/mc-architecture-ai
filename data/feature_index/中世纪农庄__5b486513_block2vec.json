@@ -1,0 +1,13 @@
+{
+  "id": "中世纪农庄__5b486513",
+  "dim": 144,
+  "n_chunks": 40,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "中世纪农庄__5b486513_block2vec.npy"
+}

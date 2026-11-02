@@ -1,0 +1,242 @@
+{
+  "id": "hjb77QWbNB-Redstoneless_20witch_20farm_20high_20efficiency_20non-looting_20design_203",
+  "source_path": "data\\raw\\hack337\\schematics\\hjb77QWbNB-Redstoneless%20witch%20farm%20high%20efficiency%20non-looting%20design%203.litematic",
+  "created_at": "2026-10-18T22:26:19+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 35,
+      "y": 12,
+      "z": 37
+    },
+    "non_air": 3020,
+    "density": 0.1943,
+    "unique_block_types": 16
+  },
+  "massing": {
+    "hollow_score": 0.9265,
+    "interior_air_frac": 0.9265,
+    "exterior_solid_frac": 0.1397,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      3,
+      6,
+      11
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 960,
+      "walls": 0,
+      "fences": 24,
+      "doors": 0,
+      "trapdoors": 35,
+      "glass": 170,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.7589,
+      "symmetry_z": 0.9359,
+      "symmetry_y": 0.5954
+    },
+    "solid_ratio": 0.1943
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "water",
+        "count": 1406,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 960,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_ice",
+        "count": 189,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 170,
+        "frac": 0.0
+      },
+      {
+        "name": "tall_seagrass",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "lily_pad",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "seagrass",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "composter",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "scaffolding",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "bubble_column",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "soul_sand",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 995,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 170,
+      "nether": 1,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 189,
+      "leaves": 0,
+      "metal": 20
+    },
+    "remap_targets": [
+      "water",
+      "smooth_stone_slab",
+      "blue_ice",
+      "glass",
+      "tall_seagrass",
+      "chest",
+      "smooth_stone",
+      "spruce_trapdoor",
+      "lily_pad",
+      "spruce_fence_gate",
+      "hopper",
+      "seagrass"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.678,
+        "raw_score": 0.3278,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.542,
+        "raw_score": 0.2814
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.339,
+        "raw_score": 0.2015
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.193,
+        "raw_score": 0.1316
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.173,
+        "raw_score": 0.1206
+      }
+    ]
+  },
+  "redstone": {
+    "total": 79,
+    "pattern_ids": [
+      "water_hopper_stream"
+    ],
+    "pattern_labels": [
+      "水流漏斗收集线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "hopper": 20,
+      "trapdoor": 35,
+      "fence_gate": 24
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\hjb77QWbNB-Redstoneless_20witch_20farm_20high_20efficiency_20non-looting_20design_203_skeleton.npz",
+    "occupancy_frac": 0.190399169921875,
+    "occupied": 6239
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

@@ -1,0 +1,219 @@
+{
+  "id": "QgD1ZgVMd9-Worm_50_50",
+  "source_path": "data\\raw\\hack337\\schematics\\QgD1ZgVMd9-Worm_50_50.litematic",
+  "created_at": "2026-10-18T22:26:38+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 3,
+      "y": 6,
+      "z": 4
+    },
+    "non_air": 25,
+    "density": 0.3472,
+    "unique_block_types": 10
+  },
+  "massing": {
+    "hollow_score": 0.375,
+    "interior_air_frac": 0.375,
+    "exterior_solid_frac": 0.2778,
+    "floor_guess": 2,
+    "y_peaks": [
+      1,
+      4
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 2,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3158,
+      "symmetry_z": 0.25,
+      "symmetry_y": 0.3158
+    },
+    "solid_ratio": 0.3472
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "note_block",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "black_carpet",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 2,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 2
+    },
+    "remap_targets": [
+      "note_block",
+      "observer",
+      "redstone_block",
+      "piston_head",
+      "sticky_piston",
+      "hopper",
+      "barrel",
+      "black_carpet",
+      "chest",
+      "lever"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "scifi",
+      "modern",
+      "fantasy",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.55,
+        "raw_score": 0.2,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.322,
+        "raw_score": 0.1333
+      },
+      {
+        "style": "modern",
+        "confidence": 0.256,
+        "raw_score": 0.1111
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.181,
+        "raw_score": 0.0833
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.069,
+        "raw_score": 0.0357
+      }
+    ]
+  },
+  "redstone": {
+    "total": 20,
+    "pattern_ids": [
+      "simple_io",
+      "observer_clock",
+      "qc_piston_bank",
+      "edge_detector",
+      "note_block_line",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "观察者相邻时钟嫌疑",
+      "QC/BUD 活塞组",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_block": 3,
+      "lever": 1,
+      "sticky_piston": 3,
+      "observer": 4,
+      "hopper": 2,
+      "note_block": 4,
+      "piston_head": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\QgD1ZgVMd9-Worm_50_50_skeleton.npz",
+    "occupancy_frac": 0.339111328125,
+    "occupied": 11112
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

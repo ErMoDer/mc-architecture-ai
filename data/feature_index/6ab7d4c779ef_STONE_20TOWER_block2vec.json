@@ -1,0 +1,13 @@
+{
+  "id": "6ab7d4c779ef_STONE_20TOWER",
+  "dim": 144,
+  "n_chunks": 64,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "6ab7d4c779ef_STONE_20TOWER_block2vec.npy"
+}

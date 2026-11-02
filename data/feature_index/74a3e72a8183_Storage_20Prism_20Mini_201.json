@@ -1,0 +1,223 @@
+{
+  "id": "74a3e72a8183_Storage_20Prism_20Mini_201",
+  "source_path": "data\\raw\\hack337\\schematics\\74a3e72a8183_Storage%20Prism%20Mini%201.litematic",
+  "created_at": "2026-10-18T22:25:26+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 40,
+      "y": 12,
+      "z": 38
+    },
+    "non_air": 4645,
+    "density": 0.2547,
+    "unique_block_types": 15
+  },
+  "massing": {
+    "hollow_score": 0.784,
+    "interior_air_frac": 0.784,
+    "exterior_solid_frac": 0.0927,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      3,
+      7
+    ],
+    "families": {
+      "stairs": 512,
+      "slabs": 310,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 5,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 61,
+      "copper": 13,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8266,
+      "symmetry_z": 0.8266,
+      "symmetry_y": 0.0807
+    },
+    "solid_ratio": 0.2547
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 1513,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 1418,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 480,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_stairs",
+        "count": 384,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_slab",
+        "count": 309,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine",
+        "count": 136,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_bricks",
+        "count": 117,
+        "frac": 0.0
+      },
+      {
+        "name": "verdant_froglight",
+        "count": 92,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_stairs",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_brick_stairs",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_oxidized_copper_lantern",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "beacon",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_brick_slab",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 174,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 5,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 13,
+      "prismarine": 256,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "dirt",
+      "quartz_block",
+      "chest",
+      "quartz_stairs",
+      "quartz_slab",
+      "prismarine",
+      "prismarine_bricks",
+      "verdant_froglight",
+      "prismarine_stairs",
+      "prismarine_brick_stairs",
+      "sea_lantern",
+      "waxed_oxidized_copper_lantern"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.516,
+        "raw_score": 0.1665,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.455,
+        "raw_score": 0.151
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.261,
+        "raw_score": 0.0971
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.178,
+        "raw_score": 0.0706
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.161,
+        "raw_score": 0.0647
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\74a3e72a8183_Storage_20Prism_20Mini_201_skeleton.npz",
+    "occupancy_frac": 0.293365478515625,
+    "occupied": 9613
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

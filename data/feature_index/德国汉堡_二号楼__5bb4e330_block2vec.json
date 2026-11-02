@@ -1,0 +1,13 @@
+{
+  "id": "德国汉堡_二号楼__5bb4e330",
+  "dim": 144,
+  "n_chunks": 16,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "德国汉堡_二号楼__5bb4e330_block2vec.npy"
+}

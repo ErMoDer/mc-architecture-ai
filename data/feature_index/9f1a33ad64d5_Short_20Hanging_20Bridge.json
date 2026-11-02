@@ -1,0 +1,202 @@
+{
+  "id": "9f1a33ad64d5_Short_20Hanging_20Bridge",
+  "source_path": "data\\raw\\hack337\\schematics\\9f1a33ad64d5_Short%20Hanging%20Bridge.litematic",
+  "created_at": "2026-10-18T22:25:36+08:00",
+  "overview": {
+    "schematic_name": "Short Hanging Bridge",
+    "size": {
+      "x": 5,
+      "y": 7,
+      "z": 12
+    },
+    "non_air": 128,
+    "density": 0.3048,
+    "unique_block_types": 11
+  },
+  "massing": {
+    "hollow_score": 0.8,
+    "interior_air_frac": 0.8,
+    "exterior_solid_frac": 0.2333,
+    "floor_guess": 1,
+    "y_peaks": [
+      3
+    ],
+    "families": {
+      "stairs": 6,
+      "slabs": 46,
+      "walls": 0,
+      "fences": 23,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 23,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 11,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9394,
+      "symmetry_z": 0.8824,
+      "symmetry_y": 0.561
+    },
+    "solid_ratio": 0.3048
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_slab",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_chain",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "vine",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "podzol",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 23,
+      "stone": 16,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 7
+    },
+    "remap_targets": [
+      "spruce_slab",
+      "spruce_log",
+      "spruce_fence",
+      "cobblestone_slab",
+      "lantern",
+      "iron_chain",
+      "vine",
+      "spruce_stairs",
+      "dirt",
+      "spruce_fence_gate",
+      "podzol"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.841,
+        "raw_score": 0.4911,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.568,
+        "raw_score": 0.3814
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.498,
+        "raw_score": 0.3496
+      },
+      {
+        "style": "western",
+        "confidence": 0.381,
+        "raw_score": 0.2917
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.299,
+        "raw_score": 0.2464
+      }
+    ]
+  },
+  "redstone": {
+    "total": 4,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "fence_gate": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\9f1a33ad64d5_Short_20Hanging_20Bridge_skeleton.npz",
+    "occupancy_frac": 0.29888916015625,
+    "occupied": 9794
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "k86CbjDM1A-Carpet_20Duper",
+  "source_path": "data\\raw\\hack337\\schematics\\k86CbjDM1A-Carpet%20Duper.litematic",
+  "created_at": "2026-10-18T22:26:24+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 11,
+      "y": 6,
+      "z": 18
+    },
+    "non_air": 290,
+    "density": 0.2441,
+    "unique_block_types": 12
+  },
+  "massing": {
+    "hollow_score": 0.5243,
+    "interior_air_frac": 0.5243,
+    "exterior_solid_frac": 0.0135,
+    "floor_guess": 1,
+    "y_peaks": [
+      2
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 76,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 7,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2975,
+      "symmetry_z": 0.7683,
+      "symmetry_y": 0.6201
+    },
+    "solid_ratio": 0.2441
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "smooth_stone",
+        "count": 95,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "white_carpet",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 95,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 7,
+      "glass": 76,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 16
+    },
+    "remap_targets": [
+      "smooth_stone",
+      "glass",
+      "redstone_wire",
+      "obsidian",
+      "hopper",
+      "slime_block",
+      "sticky_piston",
+      "white_carpet",
+      "repeater",
+      "comparator",
+      "chest",
+      "redstone_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "fantasy",
+      "medieval",
+      "scifi",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.616,
+        "raw_score": 0.2658,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.396,
+        "raw_score": 0.1937
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.387,
+        "raw_score": 0.1904
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.227,
+        "raw_score": 0.1265
+      },
+      {
+        "style": "modern",
+        "confidence": 0.222,
+        "raw_score": 0.1246
+      }
+    ]
+  },
+  "redstone": {
+    "total": 79,
+    "pattern_ids": [
+      "hopper_line",
+      "hopper_clock",
+      "sticky_piston_pair",
+      "etho_hopper_clock",
+      "flying_machine",
+      "portal_frame_cue"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "漏斗钟",
+      "粘性活塞对（换块/门）",
+      "多漏斗环钟嫌疑",
+      "飞船/飞行器骨架",
+      "传送门框/黑曜石阵嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 35,
+      "redstone_block": 1,
+      "repeater": 2,
+      "comparator": 2,
+      "sticky_piston": 9,
+      "hopper": 16,
+      "slime_block": 14
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\k86CbjDM1A-Carpet_20Duper_skeleton.npz",
+    "occupancy_frac": 0.256439208984375,
+    "occupied": 8403
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

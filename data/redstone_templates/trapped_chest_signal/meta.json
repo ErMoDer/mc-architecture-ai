@@ -1,0 +1,15 @@
+{
+  "id": "trapped_chest_signal",
+  "matches": [
+    "trapped_chest",
+    "chest_trap_signal",
+    "secret_chest"
+  ],
+  "label_zh": "陷阱箱信号桩（陷阱箱→粉尘→灯）",
+  "size": [
+    3,
+    1,
+    1
+  ],
+  "notes": "教学桩：打开陷阱箱出信号；非完整陷阱。"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "furnace_output_hopper_stub",
+  "matches": [
+    "furnace_output",
+    "smelter_drain",
+    "hopper_furnace_out"
+  ],
+  "label_zh": "熔炉出料漏斗桩（熔炉→漏斗→箱）",
+  "size": [
+    3,
+    2,
+    1
+  ],
+  "notes": "教学桩：熔炉底部漏斗拉出到箱；可与 furnace_input_hopper_stub 拼接。"
+}

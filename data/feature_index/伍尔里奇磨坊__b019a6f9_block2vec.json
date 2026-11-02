@@ -1,0 +1,13 @@
+{
+  "id": "伍尔里奇磨坊__b019a6f9",
+  "dim": 144,
+  "n_chunks": 47,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "伍尔里奇磨坊__b019a6f9_block2vec.npy"
+}

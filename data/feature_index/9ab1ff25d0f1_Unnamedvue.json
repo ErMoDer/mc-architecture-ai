@@ -1,0 +1,278 @@
+{
+  "id": "9ab1ff25d0f1_Unnamedvue",
+  "source_path": "data\\raw\\hack337\\schematics\\9ab1ff25d0f1_Unnamedvue.litematic",
+  "created_at": "2026-10-18T22:25:34+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 24,
+      "y": 25,
+      "z": 24
+    },
+    "non_air": 2015,
+    "density": 0.1399,
+    "unique_block_types": 31
+  },
+  "massing": {
+    "hollow_score": 0.8812,
+    "interior_air_frac": 0.8812,
+    "exterior_solid_frac": 0.0481,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 13,
+      "doors": 0,
+      "trapdoors": 1,
+      "glass": 742,
+      "logs": 2,
+      "planks": 61,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.689,
+      "symmetry_z": 0.2377,
+      "symmetry_y": 0.261
+    },
+    "solid_ratio": 0.1399
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "glass",
+        "count": 742,
+        "frac": 0.0
+      },
+      {
+        "name": "bedrock",
+        "count": 573,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 164,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 113,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_ice",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 67,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence_gate",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "bubble_column",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 6,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 63,
+      "stone": 16,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 742,
+      "nether": 1,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 77,
+      "leaves": 0,
+      "metal": 53
+    },
+    "remap_targets": [
+      "glass",
+      "bedrock",
+      "dirt",
+      "grass_block",
+      "blue_ice",
+      "water",
+      "spruce_planks",
+      "redstone_wire",
+      "hopper",
+      "chest",
+      "cobblestone",
+      "oak_fence_gate"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.576,
+        "raw_score": 0.2258,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.565,
+        "raw_score": 0.2227
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.334,
+        "raw_score": 0.1506
+      },
+      {
+        "style": "european",
+        "confidence": 0.271,
+        "raw_score": 0.128
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.079,
+        "raw_score": 0.0452
+      }
+    ]
+  },
+  "redstone": {
+    "total": 172,
+    "pattern_ids": [
+      "hopper_line",
+      "hopper_clock",
+      "sticky_piston_pair",
+      "crafter_auto_line",
+      "qc_piston_bank",
+      "item_elevator",
+      "observer_clock",
+      "etho_hopper_clock",
+      "shulker_loader",
+      "pulse_limiter",
+      "edge_detector",
+      "instant_wire",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "dual_edge_repeater",
+      "water_hopper_stream"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "漏斗钟",
+      "粘性活塞对（换块/门）",
+      "合成器自动线（1.21）",
+      "QC/BUD 活塞组",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "多漏斗环钟嫌疑",
+      "潜影盒装卸线嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "双沿/对向中继器线嫌疑",
+      "水流漏斗收集线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 56,
+      "redstone_torch": 5,
+      "redstone_block": 2,
+      "repeater": 11,
+      "comparator": 9,
+      "lever": 1,
+      "sticky_piston": 3,
+      "observer": 3,
+      "hopper": 53,
+      "dropper": 3,
+      "dispenser": 4,
+      "trapdoor": 1,
+      "fence_gate": 13,
+      "powered_rail": 6,
+      "crafter": 1,
+      "shulker_box": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\9ab1ff25d0f1_Unnamedvue_skeleton.npz",
+    "occupancy_frac": 0.161956787109375,
+    "occupied": 5307
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

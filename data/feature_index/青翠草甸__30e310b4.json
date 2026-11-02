@@ -1,0 +1,286 @@
+{
+  "id": "青翠草甸__30e310b4",
+  "source_path": "data\\raw\\mcblock\\青翠草甸__30e310b4.litematic",
+  "created_at": "2026-10-19T16:12:47+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 42,
+      "y": 44,
+      "z": 43
+    },
+    "non_air": 7531,
+    "density": 0.0948,
+    "unique_block_types": 156
+  },
+  "massing": {
+    "hollow_score": 0.8951,
+    "interior_air_frac": 0.8951,
+    "exterior_solid_frac": 0.0038,
+    "floor_guess": 7,
+    "y_peaks": [
+      1,
+      6,
+      9,
+      14,
+      17,
+      21,
+      25
+    ],
+    "families": {
+      "stairs": 610,
+      "slabs": 465,
+      "walls": 42,
+      "fences": 129,
+      "doors": 16,
+      "trapdoors": 730,
+      "glass": 0,
+      "logs": 1232,
+      "planks": 1299,
+      "stone_bricks": 300,
+      "deepslate": 13,
+      "terracotta": 906,
+      "concrete": 315,
+      "wool": 72,
+      "leaves": 76,
+      "lanterns": 36,
+      "copper": 87,
+      "nether": 34
+    },
+    "symmetry": {
+      "symmetry_x": 0.3348,
+      "symmetry_z": 0.3142,
+      "symmetry_y": 0.1732
+    },
+    "solid_ratio": 0.0948
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "pale_oak_planks",
+        "count": 904,
+        "frac": 0.0
+      },
+      {
+        "name": "green_terracotta",
+        "count": 882,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 520,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 512,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_pale_oak_log",
+        "count": 378,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 355,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_planks",
+        "count": 313,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 260,
+        "frac": 0.0
+      },
+      {
+        "name": "green_concrete_powder",
+        "count": 244,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_button",
+        "count": 234,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 228,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_wood",
+        "count": 216,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 177,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 144,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_slab",
+        "count": 130,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 127,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 2531,
+      "stone": 709,
+      "deepslate": 13,
+      "terracotta": 906,
+      "concrete": 315,
+      "wool": 72,
+      "glass": 0,
+      "nether": 34,
+      "copper": 87,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 209,
+      "metal": 30
+    },
+    "remap_targets": [
+      "pale_oak_planks",
+      "green_terracotta",
+      "stripped_spruce_log",
+      "spruce_trapdoor",
+      "stripped_pale_oak_log",
+      "spruce_stairs",
+      "jungle_planks",
+      "stone_bricks",
+      "green_concrete_powder",
+      "spruce_button",
+      "spruce_slab",
+      "jungle_wood"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "rustic",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.712,
+        "raw_score": 0.3623,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.704,
+        "raw_score": 0.3594
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.635,
+        "raw_score": 0.3357
+      },
+      {
+        "style": "western",
+        "confidence": 0.624,
+        "raw_score": 0.3317
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.272,
+        "raw_score": 0.1842
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 1149,
+    "pattern_ids": [
+      "simple_io",
+      "auto_smelt_brew_line",
+      "tripwire_trap",
+      "door_line",
+      "crafter_auto_line",
+      "copper_bulb_latch"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "自动烧炼/酿造线",
+      "绊线陷阱",
+      "门/活板/栅栏门控制线",
+      "合成器自动线（1.21）",
+      "铜灯泡锁存/切换"
+    ],
+    "inventory_nonzero": {
+      "lever": 2,
+      "button": 258,
+      "hopper": 6,
+      "note_block": 1,
+      "door": 16,
+      "trapdoor": 730,
+      "fence_gate": 61,
+      "tripwire": 1,
+      "copper_bulb": 36,
+      "crafter": 6,
+      "brewing_stand": 9,
+      "furnace": 1,
+      "smoker": 1,
+      "blast_furnace": 1,
+      "chiseled_bookshelf": 20
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\青翠草甸__30e310b4_skeleton.npz",
+    "occupancy_frac": 0.123046875,
+    "occupied": 4032
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 36,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\青翠草甸__30e310b4_block2vec.npy",
+    "vector_preview": [
+      -0.04004,
+      0.1932,
+      -0.13793,
+      -0.04984,
+      0.08604,
+      0.01853,
+      -0.06323,
+      0.11265
+    ],
+    "ok": true
+  }
+}

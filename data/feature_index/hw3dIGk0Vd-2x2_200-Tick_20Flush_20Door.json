@@ -1,0 +1,248 @@
+{
+  "id": "hw3dIGk0Vd-2x2_200-Tick_20Flush_20Door",
+  "source_path": "data\\raw\\hack337\\schematics\\hw3dIGk0Vd-2x2%200-Tick%20Flush%20Door.litematic",
+  "created_at": "2026-10-18T22:26:20+08:00",
+  "overview": {
+    "schematic_name": "2x2 0-Tick Flush Door",
+    "size": {
+      "x": 6,
+      "y": 14,
+      "z": 22
+    },
+    "non_air": 403,
+    "density": 0.2181,
+    "unique_block_types": 23
+  },
+  "massing": {
+    "hollow_score": 0.7792,
+    "interior_air_frac": 0.7792,
+    "exterior_solid_frac": 0.1034,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      5,
+      10
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 25,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 40,
+      "logs": 2,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 85,
+      "leaves": 2,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2438,
+      "symmetry_z": 0.8744,
+      "symmetry_y": 0.1715
+    },
+    "solid_ratio": 0.2181
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "redstone_wire",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "red_wool",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_wool",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_wool",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_wool",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_wool",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_wool",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 9,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 2,
+      "stone": 25,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 85,
+      "glass": 40,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 2,
+      "metal": 0
+    },
+    "remap_targets": [
+      "redstone_wire",
+      "quartz_block",
+      "sticky_piston",
+      "smooth_stone_slab",
+      "black_stained_glass",
+      "white_stained_glass",
+      "red_wool",
+      "redstone_block",
+      "yellow_wool",
+      "piston_head",
+      "piston",
+      "light_blue_wool"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "fantasy",
+      "european",
+      "modern",
+      "rustic",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.531,
+        "raw_score": 0.1813,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.275,
+        "raw_score": 0.1085
+      },
+      {
+        "style": "modern",
+        "confidence": 0.257,
+        "raw_score": 0.1028
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.17,
+        "raw_score": 0.0728
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.16,
+        "raw_score": 0.0693
+      }
+    ]
+  },
+  "redstone": {
+    "total": 179,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "sticky_piston_pair",
+      "edge_detector",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "粘性活塞对（换块/门）",
+      "边沿检测（观察者）嫌疑",
+      "BUD 阵列自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 96,
+      "redstone_block": 16,
+      "lever": 1,
+      "piston": 14,
+      "sticky_piston": 36,
+      "observer": 2,
+      "piston_head": 14
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\hw3dIGk0Vd-2x2_200-Tick_20Flush_20Door_skeleton.npz",
+    "occupancy_frac": 0.2301025390625,
+    "occupied": 7540
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

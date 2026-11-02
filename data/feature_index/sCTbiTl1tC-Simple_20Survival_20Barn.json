@@ -1,0 +1,235 @@
+{
+  "id": "sCTbiTl1tC-Simple_20Survival_20Barn",
+  "source_path": "data\\raw\\hack337\\schematics\\sCTbiTl1tC-Simple%20Survival%20Barn.litematic",
+  "created_at": "2026-10-18T22:26:43+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 26,
+      "y": 10,
+      "z": 20
+    },
+    "non_air": 1418,
+    "density": 0.2727,
+    "unique_block_types": 37
+  },
+  "massing": {
+    "hollow_score": 0.7431,
+    "interior_air_frac": 0.7431,
+    "exterior_solid_frac": 0.1019,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      5
+    ],
+    "families": {
+      "stairs": 97,
+      "slabs": 230,
+      "walls": 0,
+      "fences": 121,
+      "doors": 2,
+      "trapdoors": 75,
+      "glass": 0,
+      "logs": 171,
+      "planks": 73,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 50,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4054,
+      "symmetry_z": 0.4755,
+      "symmetry_y": 0.1335
+    },
+    "solid_ratio": 0.2727
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 269,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 146,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 102,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 69,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "wheat",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 35,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 244,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "grass_block",
+      "oak_slab",
+      "spruce_fence",
+      "stripped_oak_log",
+      "dirt_path",
+      "spruce_slab",
+      "oak_planks",
+      "oak_log",
+      "spruce_trapdoor",
+      "spruce_stairs",
+      "dirt",
+      "oak_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7602,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.709,
+        "raw_score": 0.6338
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.65,
+        "raw_score": 0.581
+      },
+      {
+        "style": "western",
+        "confidence": 0.65,
+        "raw_score": 0.581
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.196,
+        "raw_score": 0.249
+      }
+    ]
+  },
+  "redstone": {
+    "total": 112,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 4,
+      "pressure_plate": 15,
+      "door": 2,
+      "trapdoor": 75,
+      "fence_gate": 13,
+      "furnace": 1,
+      "smoker": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\sCTbiTl1tC-Simple_20Survival_20Barn_skeleton.npz",
+    "occupancy_frac": 0.288421630859375,
+    "occupied": 9451
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

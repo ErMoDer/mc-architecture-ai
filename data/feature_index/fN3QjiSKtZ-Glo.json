@@ -1,0 +1,228 @@
+{
+  "id": "fN3QjiSKtZ-Glo",
+  "source_path": "data\\raw\\hack337\\schematics\\fN3QjiSKtZ-Glo.litematic",
+  "created_at": "2026-10-18T22:26:13+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 31,
+      "y": 32,
+      "z": 31
+    },
+    "non_air": 6409,
+    "density": 0.2084,
+    "unique_block_types": 40
+  },
+  "massing": {
+    "hollow_score": 0.7534,
+    "interior_air_frac": 0.7534,
+    "exterior_solid_frac": 0.0061,
+    "floor_guess": 4,
+    "y_peaks": [
+      4,
+      15,
+      18,
+      28
+    ],
+    "families": {
+      "stairs": 44,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 2480,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 189,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 23,
+      "copper": 0,
+      "nether": 3
+    },
+    "symmetry": {
+      "symmetry_x": 0.788,
+      "symmetry_z": 0.9842,
+      "symmetry_y": 0.6006
+    },
+    "solid_ratio": 0.2084
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "ochre_froglight",
+        "count": 2542,
+        "frac": 0.0
+      },
+      {
+        "name": "red_stained_glass",
+        "count": 952,
+        "frac": 0.0
+      },
+      {
+        "name": "sculk",
+        "count": 949,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_stained_glass",
+        "count": 803,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_stained_glass",
+        "count": 725,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate",
+        "count": 157,
+        "frac": 0.0
+      },
+      {
+        "name": "verdant_froglight",
+        "count": 71,
+        "frac": 0.0
+      },
+      {
+        "name": "pearlescent_froglight",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate_stairs",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_wall_sign",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_stairs",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "sculk_catalyst",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "black_wall_banner",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "sculk_shrieker",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 189,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 2480,
+      "nether": 1,
+      "copper": 0,
+      "prismarine": 17,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "ochre_froglight",
+      "red_stained_glass",
+      "sculk",
+      "orange_stained_glass",
+      "yellow_stained_glass",
+      "cobbled_deepslate",
+      "verdant_froglight",
+      "pearlescent_froglight",
+      "barrel",
+      "cobbled_deepslate_stairs",
+      "acacia_wall_sign",
+      "sea_lantern"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.614,
+        "raw_score": 0.2642,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.555,
+        "raw_score": 0.2461
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.293,
+        "raw_score": 0.1538
+      },
+      {
+        "style": "european",
+        "confidence": 0.24,
+        "raw_score": 0.1319
+      }
+    ]
+  },
+  "redstone": {
+    "total": 5,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "redstone_torch": 1,
+      "redstone_lamp": 1,
+      "lectern": 1,
+      "shulker_box": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\fN3QjiSKtZ-Glo_skeleton.npz",
+    "occupancy_frac": 0.197845458984375,
+    "occupied": 6483
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

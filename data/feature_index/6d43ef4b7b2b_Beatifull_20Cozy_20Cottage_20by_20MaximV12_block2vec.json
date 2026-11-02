@@ -1,0 +1,13 @@
+{
+  "id": "6d43ef4b7b2b_Beatifull_20Cozy_20Cottage_20by_20MaximV12",
+  "dim": 144,
+  "n_chunks": 8,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "6d43ef4b7b2b_Beatifull_20Cozy_20Cottage_20by_20MaximV12_block2vec.npy"
+}

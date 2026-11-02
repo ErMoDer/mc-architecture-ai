@@ -1,0 +1,274 @@
+{
+  "id": "vOvcr8CIBZ-Granja_20Simple_20de_20Ca_C3_B1a",
+  "source_path": "data\\raw\\hack337\\schematics\\vOvcr8CIBZ-Granja%20Simple%20de%20Ca%C3%B1a.litematic",
+  "created_at": "2026-10-18T22:37:55+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 32,
+      "y": 20,
+      "z": 8
+    },
+    "non_air": 3472,
+    "density": 0.6781,
+    "unique_block_types": 14
+  },
+  "massing": {
+    "hollow_score": 0.1756,
+    "interior_air_frac": 0.1756,
+    "exterior_solid_frac": 0.1564,
+    "floor_guess": 4,
+    "y_peaks": [
+      1,
+      7,
+      13,
+      18
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 1126,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 37,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.889,
+      "symmetry_z": 0.5452,
+      "symmetry_y": 0.6628
+    },
+    "solid_ratio": 0.6781
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "lime_stained_glass",
+        "count": 1126,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine",
+        "count": 1093,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 261,
+        "frac": 0.0
+      },
+      {
+        "name": "sugar_cane",
+        "count": 237,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 174,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 174,
+        "frac": 0.0
+      },
+      {
+        "name": "rail",
+        "count": 154,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 87,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 47,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 1126,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 1130,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 47
+    },
+    "remap_targets": [
+      "lime_stained_glass",
+      "prismarine",
+      "water",
+      "sugar_cane",
+      "grass_block",
+      "piston",
+      "rail",
+      "redstone_wire",
+      "hopper",
+      "sea_lantern",
+      "observer",
+      "redstone_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.489,
+        "raw_score": 0.1392,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.474,
+        "raw_score": 0.1358
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.253,
+        "raw_score": 0.0815
+      },
+      {
+        "style": "european",
+        "confidence": 0.211,
+        "raw_score": 0.0698
+      }
+    ]
+  },
+  "redstone": {
+    "total": 542,
+    "pattern_ids": [
+      "hopper_line",
+      "piston_door",
+      "qc_piston_bank",
+      "item_elevator",
+      "edge_detector",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "物品升降机嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 87,
+      "redstone_block": 24,
+      "piston": 174,
+      "observer": 36,
+      "hopper": 47,
+      "powered_rail": 20,
+      "rail": 154
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\vOvcr8CIBZ-Granja_20Simple_20de_20Ca_C3_B1a_skeleton.npz",
+    "occupancy_frac": 0.688720703125,
+    "occupied": 22568
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 6,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\vOvcr8CIBZ-Granja_20Simple_20de_20Ca_C3_B1a_block2vec.npy",
+    "vector_preview": [
+      -0.0547,
+      0.14315,
+      -0.10403,
+      0.01192,
+      0.01773,
+      0.04974,
+      0.02038,
+      0.04655
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "樱花别墅投影",
+        "score": 0.5898462150605528,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\user_try\\樱花别墅投影.litematic"
+      },
+      {
+        "id": "17fba0f5acd3_Small_20Town_20Shop",
+        "score": 0.5748081425890856,
+        "mapped_style": "industrial",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\17fba0f5acd3_Small%20Town%20Shop.litematic"
+      }
+    ]
+  }
+}

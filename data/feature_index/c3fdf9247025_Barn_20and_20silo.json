@@ -1,0 +1,233 @@
+{
+  "id": "c3fdf9247025_Barn_20and_20silo",
+  "source_path": "data\\raw\\hack337\\schematics\\c3fdf9247025_Barn%20and%20silo.litematic",
+  "created_at": "2026-10-18T22:25:50+08:00",
+  "overview": {
+    "schematic_name": "Barn with Silo",
+    "size": {
+      "x": 18,
+      "y": 16,
+      "z": 15
+    },
+    "non_air": 939,
+    "density": 0.2174,
+    "unique_block_types": 32
+  },
+  "massing": {
+    "hollow_score": 0.7442,
+    "interior_air_frac": 0.7442,
+    "exterior_solid_frac": 0.0449,
+    "floor_guess": 4,
+    "y_peaks": [
+      2,
+      5,
+      9,
+      14
+    ],
+    "families": {
+      "stairs": 174,
+      "slabs": 154,
+      "walls": 20,
+      "fences": 25,
+      "doors": 0,
+      "trapdoors": 18,
+      "glass": 12,
+      "logs": 135,
+      "planks": 208,
+      "stone_bricks": 0,
+      "deepslate": 246,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 4,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.1708,
+      "symmetry_z": 0.6664,
+      "symmetry_y": 0.1767
+    },
+    "solid_ratio": 0.2174
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "mangrove_planks",
+        "count": 176,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_stairs",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_slab",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_mangrove_log",
+        "count": 67,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_log",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite_stairs",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_wall_sign",
+        "count": 33,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate_slab",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite_slab",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite_wall",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate_stairs",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 18,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 343,
+      "stone": 158,
+      "deepslate": 246,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 12,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 12
+    },
+    "remap_targets": [
+      "mangrove_planks",
+      "deepslate_brick_stairs",
+      "deepslate_brick_slab",
+      "stripped_mangrove_log",
+      "stripped_dark_oak_log",
+      "polished_diorite_stairs",
+      "polished_diorite",
+      "deepslate_bricks",
+      "mangrove_wall_sign",
+      "cobbled_deepslate_slab",
+      "polished_diorite_slab",
+      "polished_andesite"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.785,
+        "raw_score": 0.4353,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.493,
+        "raw_score": 0.3204
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.434,
+        "raw_score": 0.2937
+      },
+      {
+        "style": "western",
+        "confidence": 0.363,
+        "raw_score": 0.2595
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.277,
+        "raw_score": 0.214
+      }
+    ]
+  },
+  "redstone": {
+    "total": 25,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "lever": 4,
+      "trapdoor": 18,
+      "fence_gate": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\c3fdf9247025_Barn_20and_20silo_skeleton.npz",
+    "occupancy_frac": 0.22015380859375,
+    "occupied": 7214
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

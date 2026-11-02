@@ -1,0 +1,237 @@
+{
+  "id": "21ad43ac21e2_Trade_20Lectern",
+  "source_path": "data\\raw\\hack337\\schematics\\21ad43ac21e2_Trade%20Lectern.litematic",
+  "created_at": "2026-10-18T22:24:55+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 32,
+      "y": 33,
+      "z": 32
+    },
+    "non_air": 5994,
+    "density": 0.1774,
+    "unique_block_types": 42
+  },
+  "massing": {
+    "hollow_score": 0.79,
+    "interior_air_frac": 0.79,
+    "exterior_solid_frac": 0.004,
+    "floor_guess": 8,
+    "y_peaks": [
+      3,
+      6,
+      9,
+      12,
+      17,
+      23,
+      26,
+      30
+    ],
+    "families": {
+      "stairs": 280,
+      "slabs": 529,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 167,
+      "glass": 324,
+      "logs": 2597,
+      "planks": 1051,
+      "stone_bricks": 322,
+      "deepslate": 2,
+      "terracotta": 10,
+      "concrete": 220,
+      "wool": 85,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 2,
+      "nether": 9
+    },
+    "symmetry": {
+      "symmetry_x": 0.879,
+      "symmetry_z": 0.4534,
+      "symmetry_y": 0.1707
+    },
+    "solid_ratio": 0.1774
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_oak_wood",
+        "count": 1260,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 529,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 522,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 498,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_planks",
+        "count": 462,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_birch_log",
+        "count": 441,
+        "frac": 0.0
+      },
+      {
+        "name": "bookshelf",
+        "count": 350,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 324,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 280,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_concrete_powder",
+        "count": 162,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_log",
+        "count": 135,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wood",
+        "count": 128,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 125,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 102,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 99,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 90,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 3648,
+      "stone": 322,
+      "deepslate": 2,
+      "terracotta": 10,
+      "concrete": 220,
+      "wool": 85,
+      "glass": 324,
+      "nether": 1,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 4
+    },
+    "remap_targets": [
+      "stripped_oak_wood",
+      "spruce_slab",
+      "oak_planks",
+      "stripped_oak_log",
+      "jungle_planks",
+      "stripped_birch_log",
+      "bookshelf",
+      "white_stained_glass",
+      "stone_brick_stairs",
+      "brown_concrete_powder",
+      "jungle_log",
+      "oak_wood"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6393,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.685,
+        "raw_score": 0.5156
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.608,
+        "raw_score": 0.4726
+      },
+      {
+        "style": "western",
+        "confidence": 0.586,
+        "raw_score": 0.4614
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.208,
+        "raw_score": 0.2298
+      }
+    ]
+  },
+  "redstone": {
+    "total": 223,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "redstone_block": 4,
+      "trapdoor": 167,
+      "lectern": 52
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\21ad43ac21e2_Trade_20Lectern_skeleton.npz",
+    "occupancy_frac": 0.18292236328125,
+    "occupied": 5994
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

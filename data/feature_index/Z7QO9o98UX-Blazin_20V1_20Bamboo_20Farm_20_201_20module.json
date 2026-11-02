@@ -1,0 +1,219 @@
+{
+  "id": "Z7QO9o98UX-Blazin_20V1_20Bamboo_20Farm_20_201_20module",
+  "source_path": "data\\raw\\hack337\\schematics\\Z7QO9o98UX-Blazin%20V1%20Bamboo%20Farm%20%201%20module.litematic",
+  "created_at": "2026-10-18T22:27:23+08:00",
+  "overview": {
+    "schematic_name": "Blazin V1 Bamboo Farms module",
+    "size": {
+      "x": 12,
+      "y": 13,
+      "z": 55
+    },
+    "non_air": 2620,
+    "density": 0.3054,
+    "unique_block_types": 11
+  },
+  "massing": {
+    "hollow_score": 0.6696,
+    "interior_air_frac": 0.6696,
+    "exterior_solid_frac": 0.0809,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      6,
+      9
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 534,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 344,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2441,
+      "symmetry_z": 0.9166,
+      "symmetry_y": 0.2246
+    },
+    "solid_ratio": 0.3054
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 657,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_stained_glass",
+        "count": 534,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 344,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 314,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 212,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo",
+        "count": 134,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 106,
+        "frac": 0.0
+      },
+      {
+        "name": "mud",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 53,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 134,
+      "stone": 0,
+      "deepslate": 344,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 534,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 106
+    },
+    "remap_targets": [
+      "grass_block",
+      "light_gray_stained_glass",
+      "deepslate_tiles",
+      "redstone_wire",
+      "chest",
+      "glowstone",
+      "bamboo",
+      "hopper",
+      "mud",
+      "piston",
+      "observer"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.533,
+        "raw_score": 0.1827,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.42,
+        "raw_score": 0.1527
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.276,
+        "raw_score": 0.1096
+      },
+      {
+        "style": "european",
+        "confidence": 0.203,
+        "raw_score": 0.0854
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.18,
+        "raw_score": 0.0771
+      }
+    ]
+  },
+  "redstone": {
+    "total": 526,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "observer_clock",
+      "edge_detector",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "观察者环路时钟",
+      "边沿检测（观察者）嫌疑",
+      "BUD 阵列自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 314,
+      "piston": 53,
+      "observer": 53,
+      "hopper": 106
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Z7QO9o98UX-Blazin_20V1_20Bamboo_20Farm_20_201_20module_skeleton.npz",
+    "occupancy_frac": 0.333984375,
+    "occupied": 10944
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

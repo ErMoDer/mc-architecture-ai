@@ -1,0 +1,229 @@
+{
+  "id": "O1Nl5G5i41-S1_20Lava_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\O1Nl5G5i41-S1%20Lava%20Farm.litematic",
+  "created_at": "2026-10-18T22:26:35+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 11,
+      "y": 12,
+      "z": 12
+    },
+    "non_air": 379,
+    "density": 0.2393,
+    "unique_block_types": 15
+  },
+  "massing": {
+    "hollow_score": 0.7089,
+    "interior_air_frac": 0.7089,
+    "exterior_solid_frac": 0.0739,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      6
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 27,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 1,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 28,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 70
+    },
+    "symmetry": {
+      "symmetry_x": 0.3985,
+      "symmetry_z": 0.3883,
+      "symmetry_y": 0.1626
+    },
+    "solid_ratio": 0.2393
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dripstone_block",
+        "count": 110,
+        "frac": 0.0
+      },
+      {
+        "name": "pointed_dripstone",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "podzol",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_bricks",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone_slab",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "lava_cauldron",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "coarse_dirt",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_brick_slab",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 255,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 17
+    },
+    "remap_targets": [
+      "dripstone_block",
+      "pointed_dripstone",
+      "podzol",
+      "polished_blackstone_bricks",
+      "blackstone_slab",
+      "blackstone",
+      "lava_cauldron",
+      "lava",
+      "dirt_path",
+      "dirt",
+      "coarse_dirt",
+      "polished_blackstone_brick_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.815,
+        "raw_score": 0.4653,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.711,
+        "raw_score": 0.4263
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.294,
+        "raw_score": 0.2344
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.191,
+        "raw_score": 0.1705
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.17,
+        "raw_score": 0.1562
+      }
+    ]
+  },
+  "redstone": {
+    "total": 1,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\O1Nl5G5i41-S1_20Lava_20Farm_skeleton.npz",
+    "occupancy_frac": 0.256988525390625,
+    "occupied": 8421
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "沙漠小屋__76c0e554",
+  "dim": 144,
+  "n_chunks": 31,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "沙漠小屋__76c0e554_block2vec.npy"
+}

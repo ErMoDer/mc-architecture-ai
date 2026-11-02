@@ -1,0 +1,297 @@
+{
+  "id": "奇趣帽屋__134dcad1",
+  "source_path": "data\\raw\\mcblock\\奇趣帽屋__134dcad1.litematic",
+  "created_at": "2026-10-19T20:34:27+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 47,
+      "y": 28,
+      "z": 52
+    },
+    "non_air": 4151,
+    "density": 0.0607,
+    "unique_block_types": 76
+  },
+  "massing": {
+    "hollow_score": 0.9515,
+    "interior_air_frac": 0.9515,
+    "exterior_solid_frac": 0.0192,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      7,
+      11
+    ],
+    "families": {
+      "stairs": 136,
+      "slabs": 125,
+      "walls": 0,
+      "fences": 18,
+      "doors": 4,
+      "trapdoors": 214,
+      "glass": 17,
+      "logs": 459,
+      "planks": 233,
+      "stone_bricks": 6,
+      "deepslate": 0,
+      "terracotta": 188,
+      "concrete": 0,
+      "wool": 172,
+      "leaves": 90,
+      "lanterns": 15,
+      "copper": 0,
+      "nether": 413
+    },
+    "symmetry": {
+      "symmetry_x": 0.4764,
+      "symmetry_z": 0.5535,
+      "symmetry_y": 0.0432
+    },
+    "solid_ratio": 0.0607
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "moss_block",
+        "count": 796,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 773,
+        "frac": 0.0
+      },
+      {
+        "name": "coarse_dirt",
+        "count": 174,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_wood",
+        "count": 171,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 153,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 151,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_trapdoor",
+        "count": 114,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_glazed_terracotta",
+        "count": 107,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_stairs",
+        "count": 105,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 103,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_wool",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "white_terracotta",
+        "count": 77,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "podzol",
+        "count": 57,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 692,
+      "stone": 352,
+      "deepslate": 0,
+      "terracotta": 188,
+      "concrete": 0,
+      "wool": 172,
+      "glass": 17,
+      "nether": 310,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 888,
+      "metal": 60
+    },
+    "remap_targets": [
+      "moss_block",
+      "short_grass",
+      "coarse_dirt",
+      "acacia_wood",
+      "spruce_planks",
+      "oak_log",
+      "crimson_trapdoor",
+      "pink_glazed_terracotta",
+      "crimson_stairs",
+      "oak_slab",
+      "pink_wool",
+      "oak_trapdoor"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "japanese",
+      "chinese",
+      "rustic",
+      "fantasy",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "japanese",
+        "confidence": 0.605,
+        "raw_score": 0.2554,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.582,
+        "raw_score": 0.2485
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.544,
+        "raw_score": 0.2368
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.331,
+        "raw_score": 0.1644
+      },
+      {
+        "style": "western",
+        "confidence": 0.326,
+        "raw_score": 0.1624
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 243,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 9,
+      "door": 4,
+      "trapdoor": 214,
+      "brewing_stand": 3,
+      "furnace": 5,
+      "smoker": 3,
+      "lectern": 5
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\奇趣帽屋__134dcad1_skeleton.npz",
+    "occupancy_frac": 0.08709716796875,
+    "occupied": 2854
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 19,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\奇趣帽屋__134dcad1_block2vec.npy",
+    "vector_preview": [
+      -0.03699,
+      0.12795,
+      -0.07938,
+      -0.08902,
+      0.09496,
+      -0.01855,
+      -0.11405,
+      0.10686
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "樱花日式小屋__f119db49",
+        "score": 0.8973063373802109,
+        "mapped_style": "japanese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\樱花日式小屋__f119db49.litematic"
+      },
+      {
+        "id": "甲壳小屋__55a89a3b",
+        "score": 0.893571096905042,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\甲壳小屋__55a89a3b.litematic"
+      },
+      {
+        "id": "现代生态住宅__8370e3dd",
+        "score": 0.8918834683279157,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\现代生态住宅__8370e3dd.litematic"
+      },
+      {
+        "id": "奇异丛林屋__63fa0070",
+        "score": 0.8899700661764697,
+        "mapped_style": "industrial",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\奇异丛林屋__63fa0070.litematic"
+      },
+      {
+        "id": "粉顶童话小屋__98b1acba",
+        "score": 0.8877917192431357,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\粉顶童话小屋__98b1acba.litematic"
+      }
+    ]
+  }
+}

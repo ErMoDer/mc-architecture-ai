@@ -1,0 +1,212 @@
+{
+  "id": "pVYS57bnQJ-1-side_20entrance_2C_20quad-exit_204x_20size",
+  "source_path": "data\\raw\\hack337\\schematics\\pVYS57bnQJ-1-side%20entrance%2C%20quad-exit%204x%20size.litematic",
+  "created_at": "2026-10-18T22:26:37+08:00",
+  "overview": {
+    "schematic_name": "1-side entrance, quad-exit 4x size",
+    "size": {
+      "x": 49,
+      "y": 6,
+      "z": 49
+    },
+    "non_air": 3233,
+    "density": 0.2244,
+    "unique_block_types": 10
+  },
+  "massing": {
+    "hollow_score": 0.69,
+    "interior_air_frac": 0.69,
+    "exterior_solid_frac": 0.0343,
+    "floor_guess": 1,
+    "y_peaks": [
+      2
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 16,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 8,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9034,
+      "symmetry_z": 0.9204,
+      "symmetry_y": 0.086
+    },
+    "solid_ratio": 0.2244
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "smooth_stone",
+        "count": 3023,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 114,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_pressure_plate",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "red_carpet",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 3039,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 8,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "smooth_stone",
+      "redstone_wire",
+      "sticky_piston",
+      "smooth_stone_slab",
+      "piston_head",
+      "comparator",
+      "oak_pressure_plate",
+      "redstone_wall_torch",
+      "red_carpet",
+      "repeater"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.777,
+        "raw_score": 0.4274,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.67,
+        "raw_score": 0.3879
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.35,
+        "raw_score": 0.2498
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.225,
+        "raw_score": 0.1813
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.201,
+        "raw_score": 0.1662
+      }
+    ]
+  },
+  "redstone": {
+    "total": 186,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "torch_logic_lattice",
+      "torch_xor_gate"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "火把逻辑阵（AND/OR/NOR/XOR）嫌疑",
+      "火把 XOR/同或门嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 114,
+      "redstone_torch": 8,
+      "repeater": 4,
+      "comparator": 16,
+      "pressure_plate": 12,
+      "sticky_piston": 16,
+      "piston_head": 16
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\pVYS57bnQJ-1-side_20entrance_2C_20quad-exit_204x_20size_skeleton.npz",
+    "occupancy_frac": 0.24114990234375,
+    "occupied": 7902
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

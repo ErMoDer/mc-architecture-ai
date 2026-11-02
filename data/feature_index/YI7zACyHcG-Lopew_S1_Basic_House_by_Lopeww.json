@@ -1,0 +1,261 @@
+{
+  "id": "YI7zACyHcG-Lopew_S1_Basic_House_by_Lopeww",
+  "source_path": "data\\raw\\hack337\\schematics\\YI7zACyHcG-Lopew_S1_Basic_House_by_Lopeww.litematic",
+  "created_at": "2026-10-18T22:27:22+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 32,
+      "y": 25,
+      "z": 30
+    },
+    "non_air": 4907,
+    "density": 0.2045,
+    "unique_block_types": 53
+  },
+  "massing": {
+    "hollow_score": 0.7678,
+    "interior_air_frac": 0.7678,
+    "exterior_solid_frac": 0.0175,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      10,
+      16,
+      21
+    ],
+    "families": {
+      "stairs": 680,
+      "slabs": 321,
+      "walls": 22,
+      "fences": 14,
+      "doors": 4,
+      "trapdoors": 128,
+      "glass": 71,
+      "logs": 286,
+      "planks": 1320,
+      "stone_bricks": 0,
+      "deepslate": 1364,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 31,
+      "lanterns": 50,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3341,
+      "symmetry_z": 0.2975,
+      "symmetry_y": 0.2039
+    },
+    "solid_ratio": 0.2045
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 1317,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 492,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate",
+        "count": 491,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 339,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 314,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 297,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite",
+        "count": 275,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 242,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 220,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_stairs",
+        "count": 200,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 181,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 102,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass_pane",
+        "count": 69,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 39,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1606,
+      "stone": 637,
+      "deepslate": 1364,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 71,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 31,
+      "metal": 10
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "deepslate_tiles",
+      "polished_deepslate",
+      "diorite",
+      "spruce_slab",
+      "spruce_stairs",
+      "polished_diorite",
+      "stripped_spruce_log",
+      "chest",
+      "polished_deepslate_stairs",
+      "deepslate_tile_stairs",
+      "spruce_trapdoor"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.773,
+        "raw_score": 0.4233,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.478,
+        "raw_score": 0.3075
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.422,
+        "raw_score": 0.2825
+      },
+      {
+        "style": "western",
+        "confidence": 0.358,
+        "raw_score": 0.2519
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.266,
+        "raw_score": 0.2033
+      }
+    ]
+  },
+  "redstone": {
+    "total": 173,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 24,
+      "door": 4,
+      "trapdoor": 128,
+      "furnace": 4,
+      "smoker": 2,
+      "blast_furnace": 5,
+      "lectern": 1,
+      "chiseled_bookshelf": 5
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\YI7zACyHcG-Lopew_S1_Basic_House_by_Lopeww_skeleton.npz",
+    "occupancy_frac": 0.2120361328125,
+    "occupied": 6948
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 14,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\YI7zACyHcG-Lopew_S1_Basic_House_by_Lopeww_block2vec.npy",
+    "vector_preview": [
+      -0.03696,
+      0.22184,
+      -0.13661,
+      -0.01704,
+      0.15766,
+      0.03229,
+      -0.01419,
+      0.00257
+    ],
+    "ok": true
+  }
+}

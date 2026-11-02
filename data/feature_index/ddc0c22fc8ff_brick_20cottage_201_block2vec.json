@@ -1,0 +1,13 @@
+{
+  "id": "ddc0c22fc8ff_brick_20cottage_201",
+  "dim": 144,
+  "n_chunks": 12,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "ddc0c22fc8ff_brick_20cottage_201_block2vec.npy"
+}

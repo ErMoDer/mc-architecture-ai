@@ -1,0 +1,13 @@
+{
+  "id": "2049b254c2e8_Twins_20Towers_20Small",
+  "dim": 144,
+  "n_chunks": 30,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "2049b254c2e8_Twins_20Towers_20Small_block2vec.npy"
+}

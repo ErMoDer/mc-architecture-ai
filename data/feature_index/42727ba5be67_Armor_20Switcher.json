@@ -1,0 +1,181 @@
+{
+  "id": "42727ba5be67_Armor_20Switcher",
+  "source_path": "data\\raw\\hack337\\schematics\\42727ba5be67_Armor%20Switcher.litematic",
+  "created_at": "2026-10-18T22:25:06+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 3,
+      "y": 7,
+      "z": 3
+    },
+    "non_air": 11,
+    "density": 0.1746,
+    "unique_block_types": 8
+  },
+  "massing": {
+    "hollow_score": 0.6,
+    "interior_air_frac": 0.6,
+    "exterior_solid_frac": 0.1429,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 1,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2222,
+      "symmetry_z": 0.4667,
+      "symmetry_y": 0.1579
+    },
+    "solid_ratio": 0.1746
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "obsidian",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_trapdoor",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_button",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 1,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "obsidian",
+      "redstone_wall_torch",
+      "redstone_wire",
+      "sticky_piston",
+      "slime_block",
+      "prismarine",
+      "iron_trapdoor",
+      "pale_oak_button"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "scifi",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.55,
+        "raw_score": 0.2,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.322,
+        "raw_score": 0.1333
+      },
+      {
+        "style": "modern",
+        "confidence": 0.181,
+        "raw_score": 0.0833
+      }
+    ]
+  },
+  "redstone": {
+    "total": 8,
+    "pattern_ids": [
+      "flying_machine"
+    ],
+    "pattern_labels": [
+      "飞船/飞行器骨架"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 2,
+      "redstone_torch": 2,
+      "button": 1,
+      "sticky_piston": 1,
+      "trapdoor": 1,
+      "slime_block": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\42727ba5be67_Armor_20Switcher_skeleton.npz",
+    "occupancy_frac": 0.18194580078125,
+    "occupied": 5962
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

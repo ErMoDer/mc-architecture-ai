@@ -1,0 +1,238 @@
+{
+  "id": "砖石菌光体路灯__ca4e19a2",
+  "source_path": "data\\raw\\mcblock\\砖石菌光体路灯__ca4e19a2.litematic",
+  "created_at": "2026-10-18T22:37:57+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 3,
+      "y": 8,
+      "z": 3
+    },
+    "non_air": 16,
+    "density": 0.2222,
+    "unique_block_types": 7
+  },
+  "massing": {
+    "hollow_score": 0.0,
+    "interior_air_frac": 0.0,
+    "exterior_solid_frac": 0.1389,
+    "floor_guess": 1,
+    "y_peaks": [
+      6
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 1,
+      "walls": 4,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 8,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 2,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 1.0,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.3333
+    },
+    "solid_ratio": 0.2222
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "white_stained_glass_pane",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_wall",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_deepslate",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_wall",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "shroomlight",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 4,
+      "deepslate": 2,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 8,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "white_stained_glass_pane",
+      "brick_wall",
+      "chiseled_deepslate",
+      "deepslate_tile_wall",
+      "hopper",
+      "shroomlight",
+      "smooth_stone_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "modern",
+      "scifi",
+      "fantasy",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.54,
+        "raw_score": 0.1905,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "modern",
+        "confidence": 0.479,
+        "raw_score": 0.1741
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.428,
+        "raw_score": 0.16
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.413,
+        "raw_score": 0.1556
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.292,
+        "raw_score": 0.1185
+      }
+    ]
+  },
+  "redstone": {
+    "total": 1,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "hopper": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\砖石菌光体路灯__ca4e19a2_skeleton.npz",
+    "occupancy_frac": 0.2283935546875,
+    "occupied": 7484
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 1,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\砖石菌光体路灯__ca4e19a2_block2vec.npy",
+    "vector_preview": [
+      -0.01755,
+      0.10093,
+      0.02934,
+      0.03615,
+      0.05892,
+      -0.02745,
+      0.02615,
+      0.05618
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "樱花别墅投影",
+        "score": 0.6047318779094941,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\user_try\\樱花别墅投影.litematic"
+      },
+      {
+        "id": "81f0318d48be_Zombie_20Farm",
+        "score": 0.594273118536435,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\81f0318d48be_Zombie%20Farm.litematic"
+      },
+      {
+        "id": "17fba0f5acd3_Small_20Town_20Shop",
+        "score": 0.5766771181139901,
+        "mapped_style": "industrial",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\17fba0f5acd3_Small%20Town%20Shop.litematic"
+      },
+      {
+        "id": "yVSMKrkV54-courthouse",
+        "score": 0.5188546386227796,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\yVSMKrkV54-courthouse.litematic"
+      },
+      {
+        "id": "vOvcr8CIBZ-Granja_20Simple_20de_20Ca_C3_B1a",
+        "score": 0.48673765271467123,
+        "mapped_style": "scifi",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\vOvcr8CIBZ-Granja%20Simple%20de%20Ca%C3%B1a.litematic"
+      }
+    ]
+  }
+}

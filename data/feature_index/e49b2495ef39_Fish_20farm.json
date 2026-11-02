@@ -1,0 +1,210 @@
+{
+  "id": "e49b2495ef39_Fish_20farm",
+  "source_path": "data\\raw\\hack337\\schematics\\e49b2495ef39_Fish%20farm.litematic",
+  "created_at": "2026-10-18T22:26:04+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 5,
+      "y": 4,
+      "z": 5
+    },
+    "non_air": 95,
+    "density": 0.95,
+    "unique_block_types": 11
+  },
+  "massing": {
+    "hollow_score": 0.0556,
+    "interior_air_frac": 0.0556,
+    "exterior_solid_frac": 0.78,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 1,
+      "doors": 0,
+      "trapdoors": 3,
+      "glass": 0,
+      "logs": 0,
+      "planks": 6,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9388,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.9
+    },
+    "solid_ratio": 0.95
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "chest",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "note_block",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_trapdoor",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "heavy_weighted_pressure_plate",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 6,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 2
+    },
+    "remap_targets": [
+      "chest",
+      "dirt",
+      "grass_block",
+      "spruce_planks",
+      "water",
+      "oak_trapdoor",
+      "hopper",
+      "note_block",
+      "oak_fence",
+      "iron_trapdoor",
+      "heavy_weighted_pressure_plate"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6021,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.656,
+        "raw_score": 0.4773
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.572,
+        "raw_score": 0.4375
+      },
+      {
+        "style": "western",
+        "confidence": 0.572,
+        "raw_score": 0.4375
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.167,
+        "raw_score": 0.1875
+      }
+    ]
+  },
+  "redstone": {
+    "total": 6,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "pressure_plate": 1,
+      "hopper": 1,
+      "note_block": 1,
+      "trapdoor": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\e49b2495ef39_Fish_20farm_skeleton.npz",
+    "occupancy_frac": 0.947021484375,
+    "occupied": 31032
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

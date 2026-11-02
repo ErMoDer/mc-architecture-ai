@@ -1,0 +1,236 @@
+{
+  "id": "86c2bb5cb6b4_medivel_20portal",
+  "source_path": "data\\raw\\hack337\\schematics\\86c2bb5cb6b4_medivel%20portal.litematic",
+  "created_at": "2026-10-18T22:25:31+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 28,
+      "y": 30,
+      "z": 17
+    },
+    "non_air": 1448,
+    "density": 0.1014,
+    "unique_block_types": 20
+  },
+  "massing": {
+    "hollow_score": 0.8766,
+    "interior_air_frac": 0.8766,
+    "exterior_solid_frac": 0.007,
+    "floor_guess": 4,
+    "y_peaks": [
+      1,
+      7,
+      11,
+      18
+    ],
+    "families": {
+      "stairs": 89,
+      "slabs": 209,
+      "walls": 20,
+      "fences": 48,
+      "doors": 0,
+      "trapdoors": 87,
+      "glass": 0,
+      "logs": 291,
+      "planks": 120,
+      "stone_bricks": 355,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 63
+    },
+    "symmetry": {
+      "symmetry_x": 0.4322,
+      "symmetry_z": 0.142,
+      "symmetry_y": 0.126
+    },
+    "solid_ratio": 0.1014
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 339,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 210,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 208,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 87,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 81,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "crying_obsidian",
+        "count": 69,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_portal",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 47,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 9,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 411,
+      "stone": 453,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 63,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "spruce_log",
+      "spruce_slab",
+      "spruce_planks",
+      "spruce_trapdoor",
+      "stripped_spruce_log",
+      "spruce_stairs",
+      "crying_obsidian",
+      "nether_portal",
+      "spruce_fence",
+      "stone",
+      "obsidian"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "medieval",
+      "european",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.825,
+        "raw_score": 0.4748,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.563,
+        "raw_score": 0.371
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.551,
+        "raw_score": 0.3655
+      },
+      {
+        "style": "european",
+        "confidence": 0.52,
+        "raw_score": 0.3519
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.494,
+        "raw_score": 0.3401
+      }
+    ]
+  },
+  "redstone": {
+    "total": 150,
+    "pattern_ids": [
+      "nether_portal_cue"
+    ],
+    "pattern_labels": [
+      "下界传送门"
+    ],
+    "inventory_nonzero": {
+      "trapdoor": 87,
+      "nether_portal": 63
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\86c2bb5cb6b4_medivel_20portal_skeleton.npz",
+    "occupancy_frac": 0.11016845703125,
+    "occupied": 3610
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

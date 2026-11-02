@@ -1,0 +1,232 @@
+{
+  "id": "lfYDO2jXXp-Nether_20Sword_20Portal",
+  "source_path": "data\\raw\\hack337\\schematics\\lfYDO2jXXp-Nether%20Sword%20Portal.litematic",
+  "created_at": "2026-10-18T22:26:29+08:00",
+  "overview": {
+    "schematic_name": "123",
+    "size": {
+      "x": 15,
+      "y": 29,
+      "z": 21
+    },
+    "non_air": 427,
+    "density": 0.0467,
+    "unique_block_types": 20
+  },
+  "massing": {
+    "hollow_score": 0.9483,
+    "interior_air_frac": 0.9483,
+    "exterior_solid_frac": 0.009,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      3,
+      8,
+      16,
+      26
+    ],
+    "families": {
+      "stairs": 78,
+      "slabs": 22,
+      "walls": 46,
+      "fences": 8,
+      "doors": 0,
+      "trapdoors": 6,
+      "glass": 24,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 192,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 4,
+      "copper": 0,
+      "nether": 153
+    },
+    "symmetry": {
+      "symmetry_x": 0.9278,
+      "symmetry_z": 0.9278,
+      "symmetry_y": 0.2467
+    },
+    "solid_ratio": 0.0467
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "deepslate_tiles",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 62,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_wall",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_portal",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_nylium",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_stained_glass_pane",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_slab",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_stairs",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "basalt",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "amethyst_cluster",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_roots",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_fence",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_fungus",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "chain",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_trapdoor",
+        "count": 6,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 4,
+      "deepslate": 192,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 24,
+      "nether": 149,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 6
+    },
+    "remap_targets": [
+      "deepslate_tiles",
+      "deepslate_tile_stairs",
+      "deepslate_tile_wall",
+      "nether_portal",
+      "obsidian",
+      "crimson_nylium",
+      "purple_stained_glass_pane",
+      "crimson_slab",
+      "crimson_stairs",
+      "basalt",
+      "amethyst_cluster",
+      "crimson_roots"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "nether",
+    "style_id": 10,
+    "terrain_id": 3,
+    "guess_names": [
+      "fantasy",
+      "modern",
+      "medieval",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.443,
+        "raw_score": 0.0933,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "modern",
+        "confidence": 0.354,
+        "raw_score": 0.0773
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.269,
+        "raw_score": 0.061
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.085,
+        "raw_score": 0.0213
+      }
+    ]
+  },
+  "redstone": {
+    "total": 55,
+    "pattern_ids": [
+      "nether_portal_cue"
+    ],
+    "pattern_labels": [
+      "下界传送门"
+    ],
+    "inventory_nonzero": {
+      "button": 4,
+      "trapdoor": 6,
+      "nether_portal": 45
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\lfYDO2jXXp-Nether_20Sword_20Portal_skeleton.npz",
+    "occupancy_frac": 0.054718017578125,
+    "occupied": 1793
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

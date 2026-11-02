@@ -1,0 +1,185 @@
+{
+  "id": "66fc269832a5_eggy_20statue",
+  "source_path": "data\\raw\\hack337\\schematics\\66fc269832a5_eggy%20statue.litematic",
+  "created_at": "2026-10-18T22:25:20+08:00",
+  "overview": {
+    "schematic_name": "eggy statue",
+    "size": {
+      "x": 12,
+      "y": 31,
+      "z": 18
+    },
+    "non_air": 882,
+    "density": 0.1317,
+    "unique_block_types": 9
+  },
+  "massing": {
+    "hollow_score": 0.8284,
+    "interior_air_frac": 0.8284,
+    "exterior_solid_frac": 0.0128,
+    "floor_guess": 10,
+    "y_peaks": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      22,
+      25,
+      30
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 5,
+      "concrete": 864,
+      "wool": 13,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.282,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.2876
+    },
+    "solid_ratio": 0.1317
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "black_concrete",
+        "count": 417,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete_powder",
+        "count": 193,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 148,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete_powder",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_concrete_powder",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_wool",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_concrete_powder",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_terracotta",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_concrete",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 5,
+      "concrete": 864,
+      "wool": 13,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "black_concrete",
+      "black_concrete_powder",
+      "white_concrete",
+      "white_concrete_powder",
+      "brown_concrete_powder",
+      "blue_wool",
+      "blue_concrete_powder",
+      "pink_terracotta",
+      "pink_concrete"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "industrial",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.732,
+        "raw_score": 0.3818,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.418,
+        "raw_score": 0.2612
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.418,
+        "raw_score": 0.2612
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\66fc269832a5_eggy_20statue_skeleton.npz",
+    "occupancy_frac": 0.135528564453125,
+    "occupied": 4441
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

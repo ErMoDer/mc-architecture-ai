@@ -1,0 +1,233 @@
+{
+  "id": "317e268a56ba_trap_20na_20anarchie_20gej_20gej",
+  "source_path": "data\\raw\\hack337\\schematics\\317e268a56ba_trap%20na%20anarchie%20gej%20gej.litematic",
+  "created_at": "2026-10-18T22:25:00+08:00",
+  "overview": {
+    "schematic_name": "trap na anarchie gej gej",
+    "size": {
+      "x": 19,
+      "y": 14,
+      "z": 13
+    },
+    "non_air": 211,
+    "density": 0.061,
+    "unique_block_types": 18
+  },
+  "massing": {
+    "hollow_score": 0.9073,
+    "interior_air_frac": 0.9073,
+    "exterior_solid_frac": 0.0009,
+    "floor_guess": 2,
+    "y_peaks": [
+      2,
+      10
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 1,
+      "walls": 0,
+      "fences": 1,
+      "doors": 0,
+      "trapdoors": 1,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3482,
+      "symmetry_z": 0.3025,
+      "symmetry_y": 0.256
+    },
+    "solid_ratio": 0.061
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "crafting_table",
+        "count": 152,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "honey_block",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_pressure_plate",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "crafting_table",
+      "redstone_wire",
+      "grass_block",
+      "dirt",
+      "dispenser",
+      "sticky_piston",
+      "piston_head",
+      "redstone_torch",
+      "redstone_wall_torch",
+      "honey_block",
+      "oak_fence",
+      "oak_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "unknown",
+    "mapped_terrain": "flat",
+    "style_id": 0,
+    "terrain_id": 0,
+    "guess_names": [
+      "unknown"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "unknown",
+        "confidence": 0.2,
+        "raw_score": 0.0,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      }
+    ]
+  },
+  "redstone": {
+    "total": 40,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "piston_door",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "edge_detector",
+      "torch_logic_lattice",
+      "falling_edge",
+      "torch_xor_gate"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "活塞门/排活塞",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "火把逻辑阵（AND/OR/NOR/XOR）嫌疑",
+      "下降沿/双火把脉冲嫌疑",
+      "火把 XOR/同或门嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 22,
+      "redstone_torch": 4,
+      "lever": 1,
+      "pressure_plate": 1,
+      "piston": 1,
+      "sticky_piston": 3,
+      "observer": 1,
+      "dispenser": 3,
+      "trapdoor": 1,
+      "piston_head": 2,
+      "honey_block": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\317e268a56ba_trap_20na_20anarchie_20gej_20gej_skeleton.npz",
+    "occupancy_frac": 0.06097412109375,
+    "occupied": 1998
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

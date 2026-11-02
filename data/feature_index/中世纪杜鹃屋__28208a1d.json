@@ -1,0 +1,260 @@
+{
+  "id": "中世纪杜鹃屋__28208a1d",
+  "source_path": "data\\raw\\mcblock\\中世纪杜鹃屋__28208a1d.litematic",
+  "created_at": "2026-10-19T13:01:04+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 30,
+      "y": 36,
+      "z": 27
+    },
+    "non_air": 3107,
+    "density": 0.1066,
+    "unique_block_types": 59
+  },
+  "massing": {
+    "hollow_score": 0.8993,
+    "interior_air_frac": 0.8993,
+    "exterior_solid_frac": 0.0244,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      4,
+      7,
+      10,
+      13,
+      19
+    ],
+    "families": {
+      "stairs": 124,
+      "slabs": 164,
+      "walls": 80,
+      "fences": 146,
+      "doors": 12,
+      "trapdoors": 70,
+      "glass": 0,
+      "logs": 306,
+      "planks": 449,
+      "stone_bricks": 48,
+      "deepslate": 0,
+      "terracotta": 2,
+      "concrete": 2,
+      "wool": 13,
+      "leaves": 141,
+      "lanterns": 20,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.276,
+      "symmetry_z": 0.3933,
+      "symmetry_y": 0.0706
+    },
+    "solid_ratio": 0.1066
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 487,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 449,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 322,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 243,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 185,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 152,
+        "frac": 0.0
+      },
+      {
+        "name": "vine",
+        "count": 137,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 134,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_slab",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence",
+        "count": 71,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_stairs",
+        "count": 69,
+        "frac": 0.0
+      },
+      {
+        "name": "flowering_azalea_leaves",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wood",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 54,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 755,
+      "stone": 883,
+      "deepslate": 0,
+      "terracotta": 2,
+      "concrete": 2,
+      "wool": 13,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 164,
+      "metal": 7
+    },
+    "remap_targets": [
+      "grass_block",
+      "spruce_planks",
+      "andesite",
+      "spruce_log",
+      "bricks",
+      "grass",
+      "vine",
+      "dirt",
+      "brick_slab",
+      "oak_leaves",
+      "dark_oak_fence",
+      "brick_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "rustic",
+      "chinese",
+      "japanese",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.85,
+        "raw_score": 0.5384,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.712,
+        "raw_score": 0.4682
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.489,
+        "raw_score": 0.3674
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.444,
+        "raw_score": 0.3442
+      },
+      {
+        "style": "european",
+        "confidence": 0.319,
+        "raw_score": 0.275
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 92,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 1,
+      "door": 12,
+      "trapdoor": 70,
+      "fence_gate": 9
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\中世纪杜鹃屋__28208a1d_skeleton.npz",
+    "occupancy_frac": 0.1160888671875,
+    "occupied": 3804
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 15,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\中世纪杜鹃屋__28208a1d_block2vec.npy",
+    "vector_preview": [
+      -0.07039,
+      0.3359,
+      -0.08627,
+      -0.02809,
+      0.08346,
+      0.08184,
+      -0.02922,
+      0.09569
+    ],
+    "ok": true
+  }
+}

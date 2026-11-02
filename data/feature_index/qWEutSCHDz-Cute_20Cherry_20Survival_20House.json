@@ -1,0 +1,254 @@
+{
+  "id": "qWEutSCHDz-Cute_20Cherry_20Survival_20House",
+  "source_path": "data\\raw\\hack337\\schematics\\qWEutSCHDz-Cute%20Cherry%20Survival%20House.litematic",
+  "created_at": "2026-10-18T22:26:40+08:00",
+  "overview": {
+    "schematic_name": "Cute Cherry Survival House",
+    "size": {
+      "x": 21,
+      "y": 15,
+      "z": 18
+    },
+    "non_air": 1737,
+    "density": 0.3063,
+    "unique_block_types": 18
+  },
+  "massing": {
+    "hollow_score": 0.6976,
+    "interior_air_frac": 0.6976,
+    "exterior_solid_frac": 0.0956,
+    "floor_guess": 3,
+    "y_peaks": [
+      1,
+      6,
+      10
+    ],
+    "families": {
+      "stairs": 149,
+      "slabs": 43,
+      "walls": 2,
+      "fences": 29,
+      "doors": 6,
+      "trapdoors": 0,
+      "glass": 7,
+      "logs": 156,
+      "planks": 198,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 38,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 19,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7972,
+      "symmetry_z": 0.6897,
+      "symmetry_y": 0.1221
+    },
+    "solid_ratio": 0.3063
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 516,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 297,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_planks",
+        "count": 198,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_cherry_log",
+        "count": 156,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 139,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 136,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_stairs",
+        "count": 113,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_slab",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_stairs",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_fence",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_door",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite_wall",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 354,
+      "stone": 2,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 38,
+      "wool": 0,
+      "glass": 7,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 2
+    },
+    "remap_targets": [
+      "dirt",
+      "water",
+      "cherry_planks",
+      "stripped_cherry_log",
+      "quartz_block",
+      "grass_block",
+      "quartz_stairs",
+      "quartz_slab",
+      "cherry_stairs",
+      "cherry_fence",
+      "black_concrete",
+      "white_concrete"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5654,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.842,
+        "raw_score": 0.5599
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.772,
+        "raw_score": 0.5132
+      },
+      {
+        "style": "western",
+        "confidence": 0.77,
+        "raw_score": 0.5124
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.227,
+        "raw_score": 0.2237
+      }
+    ]
+  },
+  "redstone": {
+    "total": 7,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 6,
+      "fence_gate": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\qWEutSCHDz-Cute_20Cherry_20Survival_20House_skeleton.npz",
+    "occupancy_frac": 0.33111572265625,
+    "occupied": 10850
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 8,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\qWEutSCHDz-Cute_20Cherry_20Survival_20House_block2vec.npy",
+    "vector_preview": [
+      -0.07927,
+      0.19252,
+      -0.05867,
+      0.03991,
+      0.0671,
+      -0.04888,
+      -0.02649,
+      0.08064
+    ],
+    "ok": true
+  }
+}

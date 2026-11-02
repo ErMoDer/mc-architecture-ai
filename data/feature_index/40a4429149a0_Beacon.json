@@ -1,0 +1,213 @@
+{
+  "id": "40a4429149a0_Beacon",
+  "source_path": "data\\raw\\hack337\\schematics\\40a4429149a0_Beacon.litematic",
+  "created_at": "2026-10-18T22:25:06+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 21,
+      "y": 10,
+      "z": 21
+    },
+    "non_air": 1349,
+    "density": 0.3059,
+    "unique_block_types": 13
+  },
+  "massing": {
+    "hollow_score": 0.6894,
+    "interior_air_frac": 0.6894,
+    "exterior_solid_frac": 0.1025,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 288,
+      "slabs": 4,
+      "walls": 0,
+      "fences": 20,
+      "doors": 0,
+      "trapdoors": 1,
+      "glass": 0,
+      "logs": 0,
+      "planks": 432,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 40,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9956,
+      "symmetry_z": 0.9956,
+      "symmetry_y": 0.0251
+    },
+    "solid_ratio": 0.3059
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 432,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 321,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 288,
+        "frac": 0.0
+      },
+      {
+        "name": "emerald_block",
+        "count": 164,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 74,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "beacon",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 432,
+      "stone": 1,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 36,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "dirt",
+      "spruce_stairs",
+      "emerald_block",
+      "grass_block",
+      "sea_lantern",
+      "spruce_fence",
+      "spruce_slab",
+      "lantern",
+      "torch",
+      "oak_trapdoor",
+      "cobblestone"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7124,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.7,
+        "raw_score": 0.5865
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.641,
+        "raw_score": 0.5377
+      },
+      {
+        "style": "western",
+        "confidence": 0.641,
+        "raw_score": 0.5373
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.188,
+        "raw_score": 0.2308
+      }
+    ]
+  },
+  "redstone": {
+    "total": 1,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\40a4429149a0_Beacon_skeleton.npz",
+    "occupancy_frac": 0.31573486328125,
+    "occupied": 10346
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

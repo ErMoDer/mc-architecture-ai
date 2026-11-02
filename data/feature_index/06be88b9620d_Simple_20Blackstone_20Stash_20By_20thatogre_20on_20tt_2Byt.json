@@ -1,0 +1,186 @@
+{
+  "id": "06be88b9620d_Simple_20Blackstone_20Stash_20By_20thatogre_20on_20tt_2Byt",
+  "source_path": "data\\raw\\hack337\\schematics\\06be88b9620d_Simple%20Blackstone%20Stash%20By%20thatogre%20on%20tt%2Byt.litematic",
+  "created_at": "2026-10-18T22:24:45+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 14,
+      "y": 14,
+      "z": 18
+    },
+    "non_air": 800,
+    "density": 0.2268,
+    "unique_block_types": 8
+  },
+  "massing": {
+    "hollow_score": 0.6701,
+    "interior_air_frac": 0.6701,
+    "exterior_solid_frac": 0.0113,
+    "floor_guess": 3,
+    "y_peaks": [
+      2,
+      5,
+      10
+    ],
+    "families": {
+      "stairs": 24,
+      "slabs": 112,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 36,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 558,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 574
+    },
+    "symmetry": {
+      "symmetry_x": 0.4981,
+      "symmetry_z": 0.995,
+      "symmetry_y": 0.3423
+    },
+    "solid_ratio": 0.2268
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "polished_blackstone_bricks",
+        "count": 422,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_brick_slab",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_brick_stairs",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_polished_blackstone",
+        "count": 16,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 574,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 36,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 42
+    },
+    "remap_targets": [
+      "polished_blackstone_bricks",
+      "chest",
+      "polished_blackstone_brick_slab",
+      "hopper",
+      "lava",
+      "black_stained_glass",
+      "polished_blackstone_brick_stairs",
+      "chiseled_polished_blackstone"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.5074,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.737,
+        "raw_score": 0.4612
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.262,
+        "raw_score": 0.2293
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.161,
+        "raw_score": 0.1601
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.144,
+        "raw_score": 0.1467
+      }
+    ]
+  },
+  "redstone": {
+    "total": 42,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "hopper": 42
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\06be88b9620d_Simple_20Blackstone_20Stash_20By_20thatogre_20on_20tt_2Byt_skeleton.npz",
+    "occupancy_frac": 0.23236083984375,
+    "occupied": 7614
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

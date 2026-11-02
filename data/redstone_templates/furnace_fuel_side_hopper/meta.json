@@ -1,0 +1,15 @@
+{
+  "id": "furnace_fuel_side_hopper",
+  "matches": [
+    "furnace_fuel",
+    "smelter_fuel",
+    "hopper_furnace_side"
+  ],
+  "label_zh": "熔炉侧向燃料漏斗桩（箱→漏斗→熔炉侧面）",
+  "size": [
+    3,
+    2,
+    1
+  ],
+  "notes": "教学桩：侧面漏斗喂燃料；与进料顶口/出料底口配套。"
+}

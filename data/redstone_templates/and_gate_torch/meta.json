@@ -1,0 +1,14 @@
+{
+  "id": "and_gate_torch",
+  "matches": [
+    "and_gate",
+    "torch_and"
+  ],
+  "label_zh": "火把 AND 门（双输入示意）",
+  "size": [
+    3,
+    2,
+    2
+  ],
+  "notes": "教学级 AND 桩：两路 NOR 再反相；非精确实装图。"
+}

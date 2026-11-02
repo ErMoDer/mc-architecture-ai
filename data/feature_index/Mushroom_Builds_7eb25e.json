@@ -1,0 +1,229 @@
+{
+  "id": "Mushroom_Builds_7eb25e",
+  "source_path": "data\\raw\\hack337\\schematics\\Mushroom_Builds_7eb25e.litematic",
+  "created_at": "2026-10-18T22:26:33+08:00",
+  "overview": {
+    "schematic_name": "Mushroom Builds",
+    "size": {
+      "x": 10,
+      "y": 7,
+      "z": 30
+    },
+    "non_air": 909,
+    "density": 0.4329,
+    "unique_block_types": 18
+  },
+  "massing": {
+    "hollow_score": 0.5857,
+    "interior_air_frac": 0.5857,
+    "exterior_solid_frac": 0.2119,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      5
+    ],
+    "families": {
+      "stairs": 4,
+      "slabs": 1,
+      "walls": 0,
+      "fences": 6,
+      "doors": 4,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 219,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 11,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.629,
+      "symmetry_z": 0.7685,
+      "symmetry_y": 0.417
+    },
+    "solid_ratio": 0.4329
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "sandstone",
+        "count": 300,
+        "frac": 0.0
+      },
+      {
+        "name": "red_mushroom_block",
+        "count": 230,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_log",
+        "count": 159,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_mushroom_block",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_log",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "shroomlight",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "red_concrete",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_door",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "scaffolding",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "potted_red_mushroom",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 219,
+      "stone": 301,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 11,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "sandstone",
+      "red_mushroom_block",
+      "stripped_dark_oak_log",
+      "brown_mushroom_block",
+      "dark_oak_log",
+      "shroomlight",
+      "dirt",
+      "chest",
+      "red_concrete",
+      "spruce_door",
+      "spruce_fence",
+      "spruce_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "medieval",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.816,
+        "raw_score": 0.4661,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.561,
+        "raw_score": 0.3655
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.492,
+        "raw_score": 0.3351
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.443,
+        "raw_score": 0.3121
+      },
+      {
+        "style": "european",
+        "confidence": 0.422,
+        "raw_score": 0.3019
+      }
+    ]
+  },
+  "redstone": {
+    "total": 4,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Mushroom_Builds_7eb25e_skeleton.npz",
+    "occupancy_frac": 0.439178466796875,
+    "occupied": 14391
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

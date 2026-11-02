@@ -1,0 +1,260 @@
+{
+  "id": "WQvLKcAaMK-Cozy_20survival_20Starter_20cabin",
+  "source_path": "data\\raw\\hack337\\schematics\\WQvLKcAaMK-Cozy%20survival%20Starter%20cabin.litematic",
+  "created_at": "2026-10-18T22:27:18+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 21,
+      "y": 12,
+      "z": 20
+    },
+    "non_air": 1012,
+    "density": 0.2008,
+    "unique_block_types": 54
+  },
+  "massing": {
+    "hollow_score": 0.8327,
+    "interior_air_frac": 0.8327,
+    "exterior_solid_frac": 0.0873,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      5
+    ],
+    "families": {
+      "stairs": 145,
+      "slabs": 43,
+      "walls": 0,
+      "fences": 56,
+      "doors": 4,
+      "trapdoors": 61,
+      "glass": 12,
+      "logs": 178,
+      "planks": 2,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 22,
+      "leaves": 11,
+      "lanterns": 16,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4154,
+      "symmetry_z": 0.4395,
+      "symmetry_y": 0.0597
+    },
+    "solid_ratio": 0.2008
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 254,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 95,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_granite_stairs",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "coarse_dirt",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "granite_stairs",
+        "count": 14,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 180,
+      "stone": 107,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 22,
+      "glass": 12,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 3,
+      "leaves": 11,
+      "metal": 1
+    },
+    "remap_targets": [
+      "grass_block",
+      "stripped_oak_log",
+      "polished_granite_stairs",
+      "spruce_trapdoor",
+      "spruce_fence",
+      "dirt",
+      "stripped_spruce_log",
+      "spruce_stairs",
+      "coarse_dirt",
+      "spruce_slab",
+      "oak_log",
+      "dirt_path"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5192,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.588,
+        "raw_score": 0.4048
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.521,
+        "raw_score": 0.3738
+      },
+      {
+        "style": "western",
+        "confidence": 0.399,
+        "raw_score": 0.3125
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.277,
+        "raw_score": 0.2429
+      }
+    ]
+  },
+  "redstone": {
+    "total": 80,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 4,
+      "trapdoor": 61,
+      "fence_gate": 1,
+      "rail": 5,
+      "brewing_stand": 1,
+      "furnace": 4,
+      "blast_furnace": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\WQvLKcAaMK-Cozy_20survival_20Starter_20cabin_skeleton.npz",
+    "occupancy_frac": 0.209197998046875,
+    "occupied": 6855
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 8,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\WQvLKcAaMK-Cozy_20survival_20Starter_20cabin_block2vec.npy",
+    "vector_preview": [
+      -0.11745,
+      0.17923,
+      -0.11004,
+      -0.03561,
+      0.10792,
+      0.0436,
+      -0.01476,
+      0.10517
+    ],
+    "ok": true
+  },
+  "mapped_style": "rustic",
+  "long_fill2_retag": "long_fill2 hack337 chinese->rustic"
+}

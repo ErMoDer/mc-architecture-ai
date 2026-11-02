@@ -1,0 +1,236 @@
+{
+  "id": "德国汉堡_一号楼__cec3912a",
+  "source_path": "data\\raw\\mcblock\\德国汉堡_一号楼__cec3912a.litematic",
+  "created_at": "2026-10-20T13:59:35+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 39,
+      "y": 38,
+      "z": 39
+    },
+    "non_air": 16439,
+    "density": 0.2844,
+    "unique_block_types": 17
+  },
+  "massing": {
+    "hollow_score": 0.6973,
+    "interior_air_frac": 0.6973,
+    "exterior_solid_frac": 0.0263,
+    "floor_guess": 8,
+    "y_peaks": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      34
+    ],
+    "families": {
+      "stairs": 86,
+      "slabs": 403,
+      "walls": 1224,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 914,
+      "logs": 0,
+      "planks": 4756,
+      "stone_bricks": 3427,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5646,
+      "symmetry_z": 0.6384,
+      "symmetry_y": 0.3146
+    },
+    "solid_ratio": 0.2844
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 4756,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 3427,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 3204,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_wall",
+        "count": 938,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 795,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 724,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 714,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 537,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_slab",
+        "count": 398,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 366,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite_wall",
+        "count": 286,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 200,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite_stairs",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_stairs",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite_stairs",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite_slab",
+        "count": 5,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 4756,
+      "stone": 10400,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 914,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "stone_bricks",
+      "bricks",
+      "brick_wall",
+      "stone",
+      "cobblestone",
+      "glass_pane",
+      "smooth_stone",
+      "brick_slab",
+      "glowstone",
+      "andesite_wall",
+      "glass"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "chinese",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.768,
+        "raw_score": 0.4183,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.732,
+        "raw_score": 0.4055
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.48,
+        "raw_score": 0.306
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.428,
+        "raw_score": 0.2827
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.423,
+        "raw_score": 0.2805
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\德国汉堡_一号楼__cec3912a_skeleton.npz",
+    "occupancy_frac": 0.33673095703125,
+    "occupied": 11034
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "european",
+  "mapped_terrain": "flat",
+  "long_fill2_retag": "long_fill2 mcblock topup retry"
+}

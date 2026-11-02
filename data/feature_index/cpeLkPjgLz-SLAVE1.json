@@ -1,0 +1,233 @@
+{
+  "id": "cpeLkPjgLz-SLAVE1",
+  "source_path": "data\\raw\\hack337\\schematics\\cpeLkPjgLz-SLAVE1.litematic",
+  "created_at": "2026-10-18T22:25:55+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 13,
+      "y": 29,
+      "z": 29
+    },
+    "non_air": 1130,
+    "density": 0.1034,
+    "unique_block_types": 36
+  },
+  "massing": {
+    "hollow_score": 0.8622,
+    "interior_air_frac": 0.8622,
+    "exterior_solid_frac": 0.0023,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      11,
+      18,
+      22
+    ],
+    "families": {
+      "stairs": 120,
+      "slabs": 71,
+      "walls": 53,
+      "fences": 6,
+      "doors": 0,
+      "trapdoors": 14,
+      "glass": 68,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 90,
+      "deepslate": 0,
+      "terracotta": 98,
+      "concrete": 0,
+      "wool": 78,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 57
+    },
+    "symmetry": {
+      "symmetry_x": 0.2316,
+      "symmetry_z": 0.9825,
+      "symmetry_y": 0.3201
+    },
+    "solid_ratio": 0.1034
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone",
+        "count": 326,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_granite",
+        "count": 85,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "black_wool",
+        "count": 74,
+        "frac": 0.0
+      },
+      {
+        "name": "green_terracotta",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_stained_glass",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_granite_stairs",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_terracotta",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_stairs",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz_stairs",
+        "count": 20,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 805,
+      "deepslate": 0,
+      "terracotta": 98,
+      "concrete": 0,
+      "wool": 78,
+      "glass": 68,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 12
+    },
+    "remap_targets": [
+      "stone",
+      "polished_granite",
+      "polished_andesite",
+      "black_wool",
+      "green_terracotta",
+      "gray_stained_glass",
+      "polished_granite_stairs",
+      "stone_brick_slab",
+      "stone_brick_wall",
+      "smooth_stone",
+      "andesite",
+      "lime_terracotta"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.724,
+        "raw_score": 0.3736,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.609,
+        "raw_score": 0.3332
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.32,
+        "raw_score": 0.2126
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.18,
+        "raw_score": 0.1379
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.161,
+        "raw_score": 0.1265
+      }
+    ]
+  },
+  "redstone": {
+    "total": 24,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 14,
+      "fence_gate": 6,
+      "blast_furnace": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\cpeLkPjgLz-SLAVE1_skeleton.npz",
+    "occupancy_frac": 0.107025146484375,
+    "occupied": 3507
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

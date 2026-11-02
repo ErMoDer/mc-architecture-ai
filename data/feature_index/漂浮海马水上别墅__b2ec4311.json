@@ -1,0 +1,265 @@
+{
+  "id": "漂浮海马水上别墅__b2ec4311",
+  "source_path": "data\\raw\\mcblock\\漂浮海马水上别墅__b2ec4311.litematic",
+  "created_at": "2026-10-19T13:01:09+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 15,
+      "y": 16,
+      "z": 25
+    },
+    "non_air": 2855,
+    "density": 0.4758,
+    "unique_block_types": 58
+  },
+  "massing": {
+    "hollow_score": 0.5583,
+    "interior_air_frac": 0.5583,
+    "exterior_solid_frac": 0.1677,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      5,
+      10,
+      15
+    ],
+    "families": {
+      "stairs": 78,
+      "slabs": 96,
+      "walls": 0,
+      "fences": 4,
+      "doors": 14,
+      "trapdoors": 40,
+      "glass": 245,
+      "logs": 0,
+      "planks": 398,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 36,
+      "leaves": 0,
+      "lanterns": 24,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6427,
+      "symmetry_z": 0.5026,
+      "symmetry_y": 0.2971
+    },
+    "solid_ratio": 0.4758
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "smooth_quartz",
+        "count": 948,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 760,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_planks",
+        "count": 360,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 161,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_slab",
+        "count": 92,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz_stairs",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_trapdoor",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_quartz_block",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "white_carpet",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "brain_coral",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "fire_coral",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "tube_coral",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "horn_coral",
+        "count": 15,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 398,
+      "stone": 15,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 36,
+      "glass": 245,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 15,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 34
+    },
+    "remap_targets": [
+      "smooth_quartz",
+      "water",
+      "jungle_planks",
+      "glass_pane",
+      "jungle_slab",
+      "glass",
+      "smooth_quartz_stairs",
+      "spruce_planks",
+      "iron_trapdoor",
+      "chiseled_quartz_block",
+      "white_carpet",
+      "brain_coral"
+    ]
+  },
+  "style": {
+    "mapped_style": "modern",
+    "mapped_terrain": "flat",
+    "style_id": 3,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.821,
+        "raw_score": 0.4707,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.508,
+        "raw_score": 0.3445
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.447,
+        "raw_score": 0.3158
+      },
+      {
+        "style": "western",
+        "confidence": 0.44,
+        "raw_score": 0.3125
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.237,
+        "raw_score": 0.202
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 69,
+    "pattern_ids": [
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "button": 3,
+      "pressure_plate": 2,
+      "hopper": 3,
+      "door": 14,
+      "trapdoor": 40,
+      "tripwire": 6,
+      "blast_furnace": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\漂浮海马水上别墅__b2ec4311_skeleton.npz",
+    "occupancy_frac": 0.47283935546875,
+    "occupied": 15494
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 4,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\漂浮海马水上别墅__b2ec4311_block2vec.npy",
+    "vector_preview": [
+      -0.11338,
+      0.13786,
+      -0.14824,
+      -0.04269,
+      0.03523,
+      -0.05505,
+      -0.02461,
+      0.08865
+    ],
+    "ok": true
+  }
+}

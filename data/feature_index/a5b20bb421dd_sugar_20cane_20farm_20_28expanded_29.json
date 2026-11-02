@@ -1,0 +1,274 @@
+{
+  "id": "a5b20bb421dd_sugar_20cane_20farm_20_28expanded_29",
+  "source_path": "data\\raw\\hack337\\schematics\\a5b20bb421dd_sugar%20cane%20farm%20%28expanded%29.litematic",
+  "created_at": "2026-10-18T22:25:38+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 51,
+      "y": 16,
+      "z": 6
+    },
+    "non_air": 1355,
+    "density": 0.2768,
+    "unique_block_types": 22
+  },
+  "massing": {
+    "hollow_score": 0.6159,
+    "interior_air_frac": 0.6159,
+    "exterior_solid_frac": 0.0615,
+    "floor_guess": 3,
+    "y_peaks": [
+      1,
+      7,
+      13
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 291,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 468,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.3883,
+      "symmetry_z": 0.2109,
+      "symmetry_y": 0.4056
+    },
+    "solid_ratio": 0.2768
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 468,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 291,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "sugar_cane",
+        "count": 74,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "bubble_column",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "ice",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "rail",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 468,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 291,
+      "nether": 1,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 9,
+      "leaves": 0,
+      "metal": 18
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "glass",
+      "redstone_wire",
+      "water",
+      "sugar_cane",
+      "powered_rail",
+      "dirt",
+      "piston",
+      "observer",
+      "chest",
+      "hopper",
+      "bubble_column"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.834,
+        "raw_score": 0.4836,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.626,
+        "raw_score": 0.4023
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.244,
+        "raw_score": 0.2103
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.102,
+        "raw_score": 0.1081
+      },
+      {
+        "style": "modern",
+        "confidence": 0.101,
+        "raw_score": 0.1065
+      }
+    ]
+  },
+  "redstone": {
+    "total": 330,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "item_elevator",
+      "observer_clock",
+      "etho_hopper_clock",
+      "torch_clock",
+      "edge_detector",
+      "instant_wire",
+      "detector_rail_clock",
+      "hopper_clock",
+      "monostable",
+      "zero_tick_bud_freerun",
+      "dual_edge_repeater"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "多漏斗环钟嫌疑",
+      "火把钟骨架",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "探测铁轨矿车钟嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "双沿/对向中继器线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 76,
+      "redstone_torch": 2,
+      "repeater": 8,
+      "comparator": 4,
+      "lever": 4,
+      "piston": 68,
+      "observer": 68,
+      "hopper": 18,
+      "dropper": 2,
+      "powered_rail": 70,
+      "detector_rail": 2,
+      "rail": 8
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\a5b20bb421dd_sugar_20cane_20farm_20_28expanded_29_skeleton.npz",
+    "occupancy_frac": 0.29327392578125,
+    "occupied": 9610
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

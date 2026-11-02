@@ -1,0 +1,265 @@
+{
+  "id": "e1c1eac10fe6_Starter_20House",
+  "source_path": "data\\raw\\hack337\\schematics\\e1c1eac10fe6_Starter%20House.litematic",
+  "created_at": "2026-10-18T22:26:03+08:00",
+  "overview": {
+    "schematic_name": "Starter House",
+    "size": {
+      "x": 22,
+      "y": 20,
+      "z": 29
+    },
+    "non_air": 3816,
+    "density": 0.2991,
+    "unique_block_types": 34
+  },
+  "massing": {
+    "hollow_score": 0.6797,
+    "interior_air_frac": 0.6797,
+    "exterior_solid_frac": 0.0551,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      6,
+      12,
+      16
+    ],
+    "families": {
+      "stairs": 533,
+      "slabs": 198,
+      "walls": 0,
+      "fences": 141,
+      "doors": 0,
+      "trapdoors": 48,
+      "glass": 0,
+      "logs": 336,
+      "planks": 1134,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 308,
+      "leaves": 97,
+      "lanterns": 48,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4165,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.3287
+    },
+    "solid_ratio": 0.2991
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_planks",
+        "count": 1134,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 533,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 341,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 336,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_carpet",
+        "count": 308,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 198,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 139,
+        "frac": 0.0
+      },
+      {
+        "name": "wheat",
+        "count": 139,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 115,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 97,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_shelf",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 34,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1470,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 308,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 97,
+      "metal": 12
+    },
+    "remap_targets": [
+      "oak_planks",
+      "oak_stairs",
+      "grass_block",
+      "oak_log",
+      "brown_carpet",
+      "oak_slab",
+      "farmland",
+      "wheat",
+      "oak_fence",
+      "oak_leaves",
+      "dirt_path",
+      "dirt"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6398,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.671,
+        "raw_score": 0.5051
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.597,
+        "raw_score": 0.4673
+      },
+      {
+        "style": "western",
+        "confidence": 0.571,
+        "raw_score": 0.4544
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.209,
+        "raw_score": 0.2305
+      }
+    ]
+  },
+  "redstone": {
+    "total": 118,
+    "pattern_ids": [
+      "daylight_detector_clock"
+    ],
+    "pattern_labels": [
+      "日光传感器钟/昼夜控制"
+    ],
+    "inventory_nonzero": {
+      "redstone_lamp": 5,
+      "trapdoor": 48,
+      "fence_gate": 26,
+      "daylight_detector": 5,
+      "furnace": 8,
+      "smoker": 4,
+      "blast_furnace": 18,
+      "lectern": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\e1c1eac10fe6_Starter_20House_skeleton.npz",
+    "occupancy_frac": 0.304534912109375,
+    "occupied": 9979
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 12,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\e1c1eac10fe6_Starter_20House_block2vec.npy",
+    "vector_preview": [
+      -0.12179,
+      0.16378,
+      -0.07432,
+      -0.03777,
+      0.14153,
+      -0.00679,
+      -0.05889,
+      -0.04002
+    ],
+    "ok": true
+  }
+}

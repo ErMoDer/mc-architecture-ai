@@ -1,0 +1,256 @@
+{
+  "id": "d1af514225ad_3_20module_20perfect_20timing_20azelea_20farm",
+  "source_path": "data\\raw\\hack337\\schematics\\d1af514225ad_3%20module%20perfect%20timing%20azelea%20farm.litematic",
+  "created_at": "2026-10-18T22:25:56+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 24,
+      "y": 17,
+      "z": 14
+    },
+    "non_air": 1351,
+    "density": 0.2365,
+    "unique_block_types": 16
+  },
+  "massing": {
+    "hollow_score": 0.7682,
+    "interior_air_frac": 0.7682,
+    "exterior_solid_frac": 0.0758,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      5,
+      10,
+      16
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 33,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 321,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 33,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 241
+    },
+    "symmetry": {
+      "symmetry_x": 0.616,
+      "symmetry_z": 0.6909,
+      "symmetry_y": 0.4102
+    },
+    "solid_ratio": 0.2365
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 335,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_stained_glass",
+        "count": 321,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone",
+        "count": 241,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 148,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 117,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 33,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "note_block",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "dropper",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 286,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 321,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 30,
+      "leaves": 117,
+      "metal": 0
+    },
+    "remap_targets": [
+      "grass_block",
+      "gray_stained_glass",
+      "polished_blackstone",
+      "water",
+      "moss_block",
+      "observer",
+      "stone_brick_wall",
+      "packed_ice",
+      "repeater",
+      "redstone_wire",
+      "note_block",
+      "stone"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "fantasy",
+      "medieval",
+      "modern",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.588,
+        "raw_score": 0.2384,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.435,
+        "raw_score": 0.1916
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.348,
+        "raw_score": 0.1621
+      },
+      {
+        "style": "modern",
+        "confidence": 0.232,
+        "raw_score": 0.1183
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.221,
+        "raw_score": 0.1135
+      }
+    ]
+  },
+  "redstone": {
+    "total": 104,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "item_elevator",
+      "observer_clock",
+      "lamp_line",
+      "dropper_vator",
+      "pulse_extender",
+      "pulse_limiter",
+      "edge_detector",
+      "note_block_line"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "红石灯/灯泡线路",
+      "投掷器电梯（dropper-vator）",
+      "脉冲延长/单稳态嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 17,
+      "repeater": 24,
+      "observer": 37,
+      "dropper": 4,
+      "dispenser": 9,
+      "note_block": 13
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\d1af514225ad_3_20module_20perfect_20timing_20azelea_20farm_skeleton.npz",
+    "occupancy_frac": 0.242767333984375,
+    "occupied": 7955
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

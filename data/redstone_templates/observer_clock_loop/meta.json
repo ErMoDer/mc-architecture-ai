@@ -1,0 +1,15 @@
+{
+  "id": "observer_clock_loop",
+  "matches": [
+    "observer_clock",
+    "observer_loop",
+    "fast_clock"
+  ],
+  "label_zh": "观察者对撞钟（双观察者）",
+  "size": [
+    2,
+    1,
+    2
+  ],
+  "notes": "教学桩：两观察者对脸形成快钟；输出接灯。非完整机器。"
+}

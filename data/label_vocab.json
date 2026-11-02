@@ -1,0 +1,72 @@
+{
+  "styles": [
+    "unknown",
+    "medieval",
+    "fantasy",
+    "modern",
+    "european",
+    "chinese",
+    "rustic",
+    "japanese",
+    "industrial",
+    "desert",
+    "scifi",
+    "western"
+  ],
+  "terrains": [
+    "flat",
+    "water",
+    "nature",
+    "nether",
+    "snow",
+    "desert",
+    "mountain",
+    "other"
+  ],
+  "style_to_id": {
+    "unknown": 0,
+    "medieval": 1,
+    "fantasy": 2,
+    "modern": 3,
+    "european": 4,
+    "chinese": 5,
+    "rustic": 6,
+    "japanese": 7,
+    "industrial": 8,
+    "desert": 9,
+    "scifi": 10,
+    "western": 11
+  },
+  "terrain_to_id": {
+    "flat": 0,
+    "water": 1,
+    "nature": 2,
+    "nether": 3,
+    "snow": 4,
+    "desert": 5,
+    "mountain": 6,
+    "other": 7
+  },
+  "style_counts": {
+    "unknown": 4304,
+    "modern": 334,
+    "rustic": 114,
+    "medieval": 1306,
+    "desert": 105,
+    "chinese": 19,
+    "fantasy": 447,
+    "industrial": 25,
+    "japanese": 33
+  },
+  "terrain_counts": {
+    "flat": 6311,
+    "water": 184,
+    "mountain": 15,
+    "desert": 120,
+    "snow": 20,
+    "nether": 37
+  },
+  "num_styles": 12,
+  "num_terrains": 8,
+  "rules_note": "see docs/conditioning.md"
+}

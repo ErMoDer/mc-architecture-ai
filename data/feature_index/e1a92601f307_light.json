@@ -1,0 +1,222 @@
+{
+  "id": "e1a92601f307_light",
+  "source_path": "data\\raw\\hack337\\schematics\\e1a92601f307_light.litematic",
+  "created_at": "2026-10-18T22:26:03+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 13,
+      "y": 17,
+      "z": 16
+    },
+    "non_air": 780,
+    "density": 0.2206,
+    "unique_block_types": 11
+  },
+  "massing": {
+    "hollow_score": 0.7671,
+    "interior_air_frac": 0.7671,
+    "exterior_solid_frac": 0.0684,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      4,
+      7,
+      11,
+      14
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 303,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9747,
+      "symmetry_z": 0.1607,
+      "symmetry_y": 0.3854
+    },
+    "solid_ratio": 0.2206
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_pale_oak_log",
+        "count": 273,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 162,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 111,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 95,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_lamp",
+        "count": 81,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_log",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 303,
+      "stone": 5,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stripped_pale_oak_log",
+      "observer",
+      "grass_block",
+      "dirt",
+      "redstone_lamp",
+      "pale_oak_log",
+      "repeater",
+      "redstone_wire",
+      "redstone_torch",
+      "cobblestone",
+      "redstone_wall_torch"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7547,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.708,
+        "raw_score": 0.629
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.649,
+        "raw_score": 0.5766
+      },
+      {
+        "style": "western",
+        "confidence": 0.646,
+        "raw_score": 0.5739
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.199,
+        "raw_score": 0.25
+      }
+    ]
+  },
+  "redstone": {
+    "total": 266,
+    "pattern_ids": [
+      "observer_clock",
+      "pulse_limiter",
+      "rs_latch",
+      "pulse_extender",
+      "falling_edge"
+    ],
+    "pattern_labels": [
+      "观察者环路时钟",
+      "中继器锁定限幅器嫌疑",
+      "RS 锁存（火把）嫌疑",
+      "中继器链脉冲处理嫌疑",
+      "下降沿/双火把脉冲嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 6,
+      "redstone_torch": 6,
+      "repeater": 11,
+      "observer": 162,
+      "redstone_lamp": 81
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\e1a92601f307_light_skeleton.npz",
+    "occupancy_frac": 0.22601318359375,
+    "occupied": 7406
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

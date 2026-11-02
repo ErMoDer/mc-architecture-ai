@@ -1,0 +1,177 @@
+{
+  "id": "6bcf0d3b34e9_Small_20Mushroom",
+  "source_path": "data\\raw\\hack337\\schematics\\6bcf0d3b34e9_Small%20Mushroom.litematic",
+  "created_at": "2026-10-18T22:25:21+08:00",
+  "overview": {
+    "schematic_name": "Small Mushroom",
+    "size": {
+      "x": 5,
+      "y": 6,
+      "z": 5
+    },
+    "non_air": 73,
+    "density": 0.4867,
+    "unique_block_types": 9
+  },
+  "massing": {
+    "hollow_score": 0.0,
+    "interior_air_frac": 0.0,
+    "exterior_solid_frac": 0.2467,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 63,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8961,
+      "symmetry_z": 0.9211,
+      "symmetry_y": 0.5208
+    },
+    "solid_ratio": 0.4867
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "white_wool",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "red_wool",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "fern",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "tall_grass",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_wool",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "black_wool",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "cornflower",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 63,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "white_wool",
+      "red_wool",
+      "short_grass",
+      "fern",
+      "tall_grass",
+      "pink_wool",
+      "black_wool",
+      "cornflower",
+      "torch"
+    ]
+  },
+  "style": {
+    "mapped_style": "rustic",
+    "mapped_terrain": "flat",
+    "style_id": 6,
+    "terrain_id": 0,
+    "guess_names": [
+      "fantasy",
+      "rustic",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.517,
+        "raw_score": 0.1667,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.181,
+        "raw_score": 0.0714
+      },
+      {
+        "style": "modern",
+        "confidence": 0.135,
+        "raw_score": 0.0556
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\6bcf0d3b34e9_Small_20Mushroom_skeleton.npz",
+    "occupancy_frac": 0.475494384765625,
+    "occupied": 15581
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

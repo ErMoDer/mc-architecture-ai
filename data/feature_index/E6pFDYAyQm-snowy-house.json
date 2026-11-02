@@ -1,0 +1,256 @@
+{
+  "id": "E6pFDYAyQm-snowy-house",
+  "source_path": "data\\raw\\hack337\\schematics\\E6pFDYAyQm-snowy-house.litematic",
+  "created_at": "2026-10-18T22:26:04+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 22,
+      "y": 15,
+      "z": 16
+    },
+    "non_air": 1957,
+    "density": 0.3706,
+    "unique_block_types": 21
+  },
+  "massing": {
+    "hollow_score": 0.6,
+    "interior_air_frac": 0.6,
+    "exterior_solid_frac": 0.0949,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      6,
+      10,
+      14
+    ],
+    "families": {
+      "stairs": 176,
+      "slabs": 211,
+      "walls": 0,
+      "fences": 26,
+      "doors": 4,
+      "trapdoors": 38,
+      "glass": 23,
+      "logs": 173,
+      "planks": 162,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 16,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 6,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5594,
+      "symmetry_z": 0.62,
+      "symmetry_y": 0.2262
+    },
+    "solid_ratio": 0.3706
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "snow",
+        "count": 438,
+        "frac": 0.0
+      },
+      {
+        "name": "snow_block",
+        "count": 342,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 280,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 211,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 176,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 105,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_log",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 47,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "red_terracotta",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 6,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 335,
+      "stone": 1,
+      "deepslate": 0,
+      "terracotta": 16,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 23,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 780,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "snow",
+      "snow_block",
+      "grass_block",
+      "spruce_slab",
+      "spruce_stairs",
+      "dark_oak_planks",
+      "stripped_spruce_log",
+      "dark_oak_log",
+      "spruce_planks",
+      "dirt",
+      "spruce_trapdoor",
+      "spruce_fence"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "snow",
+    "style_id": 5,
+    "terrain_id": 4,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "western",
+      "japanese",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.537,
+        "raw_score": 0.1866,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.529,
+        "raw_score": 0.1847
+      },
+      {
+        "style": "western",
+        "confidence": 0.479,
+        "raw_score": 0.1715
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.471,
+        "raw_score": 0.1693
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.174,
+        "raw_score": 0.076
+      }
+    ]
+  },
+  "redstone": {
+    "total": 45,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 4,
+      "trapdoor": 38,
+      "fence_gate": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\E6pFDYAyQm-snowy-house_skeleton.npz",
+    "occupancy_frac": 0.38983154296875,
+    "occupied": 12774
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 4,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\E6pFDYAyQm-snowy-house_block2vec.npy",
+    "vector_preview": [
+      -0.0644,
+      0.19882,
+      -0.03437,
+      -0.00816,
+      0.13851,
+      0.02659,
+      0.05335,
+      0.01393
+    ],
+    "ok": true
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "id": "竹顶日式房屋__b82afeb8",
+  "source_path": "data\\raw\\mcblock\\竹顶日式房屋__b82afeb8.litematic",
+  "created_at": "2026-10-19T13:01:12+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 25,
+      "y": 18,
+      "z": 25
+    },
+    "non_air": 2333,
+    "density": 0.2074,
+    "unique_block_types": 37
+  },
+  "massing": {
+    "hollow_score": 0.7658,
+    "interior_air_frac": 0.7658,
+    "exterior_solid_frac": 0.0312,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      6,
+      14
+    ],
+    "families": {
+      "stairs": 510,
+      "slabs": 328,
+      "walls": 0,
+      "fences": 90,
+      "doors": 24,
+      "trapdoors": 280,
+      "glass": 0,
+      "logs": 484,
+      "planks": 175,
+      "stone_bricks": 0,
+      "deepslate": 20,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 34,
+      "leaves": 28,
+      "lanterns": 20,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9983,
+      "symmetry_z": 0.9974,
+      "symmetry_y": 0.0989
+    },
+    "solid_ratio": 0.2074
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_log",
+        "count": 412,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 224,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 208,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_mosaic_stairs",
+        "count": 206,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 169,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 132,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_mosaic_slab",
+        "count": 132,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_mosaic",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_wood",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "snow_block",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_fence",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 34,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1089,
+      "stone": 114,
+      "deepslate": 20,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 34,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 66,
+      "leaves": 28,
+      "metal": 8
+    },
+    "remap_targets": [
+      "spruce_log",
+      "spruce_trapdoor",
+      "spruce_stairs",
+      "bamboo_mosaic_stairs",
+      "oak_planks",
+      "dark_oak_slab",
+      "bamboo_mosaic_slab",
+      "dark_oak_stairs",
+      "bamboo_mosaic",
+      "birch_wood",
+      "snow_block",
+      "calcite"
+    ]
+  },
+  "style": {
+    "mapped_style": "japanese",
+    "mapped_terrain": "flat",
+    "style_id": 7,
+    "terrain_id": 0,
+    "guess_names": [
+      "japanese",
+      "rustic",
+      "chinese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "japanese",
+        "confidence": 0.85,
+        "raw_score": 0.7366,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.752,
+        "raw_score": 0.6519
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.61,
+        "raw_score": 0.5289
+      },
+      {
+        "style": "western",
+        "confidence": 0.519,
+        "raw_score": 0.4674
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.18,
+        "raw_score": 0.2289
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 412,
+    "pattern_ids": [
+      "door_line",
+      "simple_io"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门"
+    ],
+    "inventory_nonzero": {
+      "button": 16,
+      "pressure_plate": 4,
+      "redstone_lamp": 4,
+      "door": 24,
+      "trapdoor": 280,
+      "fence_gate": 32,
+      "smoker": 32,
+      "lectern": 20
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\竹顶日式房屋__b82afeb8_skeleton.npz",
+    "occupancy_frac": 0.20050048828125,
+    "occupied": 6570
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 12,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\竹顶日式房屋__b82afeb8_block2vec.npy",
+    "vector_preview": [
+      -0.07527,
+      0.17042,
+      -0.12604,
+      0.04042,
+      -0.0182,
+      -0.04917,
+      -0.14457,
+      -0.01639
+    ],
+    "ok": true
+  }
+}

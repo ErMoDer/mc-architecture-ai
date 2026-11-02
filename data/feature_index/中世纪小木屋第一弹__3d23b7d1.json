@@ -1,0 +1,301 @@
+{
+  "id": "中世纪小木屋第一弹__3d23b7d1",
+  "source_path": "data\\raw\\mcblock\\中世纪小木屋第一弹__3d23b7d1.litematic",
+  "created_at": "2026-10-19T20:36:47+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 17,
+      "y": 10,
+      "z": 20
+    },
+    "non_air": 1003,
+    "density": 0.295,
+    "unique_block_types": 32
+  },
+  "massing": {
+    "hollow_score": 0.7333,
+    "interior_air_frac": 0.7333,
+    "exterior_solid_frac": 0.1256,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      6
+    ],
+    "families": {
+      "stairs": 114,
+      "slabs": 52,
+      "walls": 40,
+      "fences": 15,
+      "doors": 2,
+      "trapdoors": 4,
+      "glass": 8,
+      "logs": 68,
+      "planks": 108,
+      "stone_bricks": 137,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 16,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7784,
+      "symmetry_z": 0.577,
+      "symmetry_y": 0.1622
+    },
+    "solid_ratio": 0.295
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 266,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 146,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 71,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_stone_bricks",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "tall_grass",
+        "count": 8,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 176,
+      "stone": 187,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 16,
+      "wool": 0,
+      "glass": 8,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "grass_block",
+      "grass",
+      "dirt",
+      "spruce_planks",
+      "oak_log",
+      "stone_brick_stairs",
+      "spruce_stairs",
+      "cobblestone_wall",
+      "oak_planks",
+      "stone_brick_slab",
+      "chiseled_stone_bricks",
+      "spruce_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "medieval",
+      "chinese",
+      "japanese",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7314,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.705,
+        "raw_score": 0.6064
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.375,
+        "raw_score": 0.3773
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.329,
+        "raw_score": 0.3458
+      },
+      {
+        "style": "european",
+        "confidence": 0.327,
+        "raw_score": 0.3444
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 18,
+    "pattern_ids": [
+      "daylight_detector_clock"
+    ],
+    "pattern_labels": [
+      "日光传感器钟/昼夜控制"
+    ],
+    "inventory_nonzero": {
+      "redstone_block": 1,
+      "button": 8,
+      "redstone_lamp": 1,
+      "door": 2,
+      "trapdoor": 4,
+      "daylight_detector": 1,
+      "furnace": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\中世纪小木屋第一弹__3d23b7d1_skeleton.npz",
+    "occupancy_frac": 0.308807373046875,
+    "occupied": 10119
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 8,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\中世纪小木屋第一弹__3d23b7d1_block2vec.npy",
+    "vector_preview": [
+      0.01954,
+      0.16096,
+      -0.15219,
+      0.00586,
+      0.17017,
+      0.08814,
+      0.06493,
+      0.00042
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "木制火箭小屋__d8acd8ed",
+        "score": 0.7848264939463834,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\木制火箭小屋__d8acd8ed.litematic"
+      },
+      {
+        "id": "橙色尖顶小屋__82474ae6",
+        "score": 0.7575906915631083,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\橙色尖顶小屋__82474ae6.litematic"
+      },
+      {
+        "id": "魔法塔第一弹__6ee2addd",
+        "score": 0.7364254942860733,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\魔法塔第一弹__6ee2addd.litematic"
+      },
+      {
+        "id": "KBJlENBLM7-Villager_20Inn_20_28Fully_20Furnished_29",
+        "score": 0.7236973189956589,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\KBJlENBLM7-Villager%20Inn%20%28Fully%20Furnished%29.litematic"
+      },
+      {
+        "id": "17fba0f5acd3_Small_20Town_20Shop",
+        "score": 0.694577772994668,
+        "mapped_style": "industrial",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\17fba0f5acd3_Small%20Town%20Shop.litematic"
+      }
+    ]
+  },
+  "mapped_style": "rustic"
+}

@@ -1,0 +1,294 @@
+{
+  "id": "乡村风车__c8f922c0",
+  "source_path": "data\\raw\\mcblock\\乡村风车__c8f922c0.litematic",
+  "created_at": "2026-10-19T20:33:21+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 14,
+      "y": 28,
+      "z": 19
+    },
+    "non_air": 1093,
+    "density": 0.1468,
+    "unique_block_types": 25
+  },
+  "massing": {
+    "hollow_score": 0.8386,
+    "interior_air_frac": 0.8386,
+    "exterior_solid_frac": 0.0318,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      5,
+      9,
+      13,
+      18
+    ],
+    "families": {
+      "stairs": 243,
+      "slabs": 50,
+      "walls": 118,
+      "fences": 56,
+      "doors": 2,
+      "trapdoors": 6,
+      "glass": 0,
+      "logs": 204,
+      "planks": 167,
+      "stone_bricks": 206,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 52,
+      "leaves": 0,
+      "lanterns": 11,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3871,
+      "symmetry_z": 0.8339,
+      "symmetry_y": 0.1791
+    },
+    "solid_ratio": 0.1468
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 153,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 151,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 143,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 101,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_stairs",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 14,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 371,
+      "stone": 337,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 52,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 1,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "spruce_stairs",
+      "spruce_log",
+      "stone_bricks",
+      "cobblestone_wall",
+      "stripped_spruce_log",
+      "stone_brick_stairs",
+      "spruce_fence",
+      "white_wool",
+      "spruce_slab",
+      "stone_brick_wall",
+      "barrel"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "medieval",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5015,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.577,
+        "raw_score": 0.3908
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.506,
+        "raw_score": 0.3582
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.451,
+        "raw_score": 0.3319
+      },
+      {
+        "style": "european",
+        "confidence": 0.412,
+        "raw_score": 0.3122
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 8,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 2,
+      "trapdoor": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\乡村风车__c8f922c0_skeleton.npz",
+    "occupancy_frac": 0.141357421875,
+    "occupied": 4632
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 8,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\乡村风车__c8f922c0_block2vec.npy",
+    "vector_preview": [
+      -0.10095,
+      0.17367,
+      -0.09371,
+      0.07954,
+      0.11004,
+      0.04548,
+      -0.05718,
+      0.04773
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "中世纪小屋_四_面包店__f9370bec",
+        "score": 0.9407676725024265,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\中世纪小屋_四_面包店__f9370bec.litematic"
+      },
+      {
+        "id": "6d479f312025_Cherry_20House_20",
+        "score": 0.9374346628155177,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\6d479f312025_Cherry%20House%20.litematic"
+      },
+      {
+        "id": "dtl0XgZVMQ-pagoda_20house",
+        "score": 0.9296395930034156,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\dtl0XgZVMQ-pagoda%20house.litematic"
+      },
+      {
+        "id": "LsAWdSaw31dfas3S-Big_Duo_House_c42395",
+        "score": 0.901271830244058,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\LsAWdSaw31dfas3S-Big_Duo_House_c42395.litematic"
+      },
+      {
+        "id": "二层白桦度假小屋__c201a2b3",
+        "score": 0.8969304313198053,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\二层白桦度假小屋__c201a2b3.litematic"
+      }
+    ]
+  }
+}

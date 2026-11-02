@@ -1,0 +1,292 @@
+{
+  "id": "DeXB4ZQ9dP-Docm77_20resin_20farm_20and_20collection_20system",
+  "source_path": "data\\raw\\hack337\\schematics\\DeXB4ZQ9dP-Docm77%20resin%20farm%20and%20collection%20system.litematic",
+  "created_at": "2026-10-18T22:26:00+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 21,
+      "y": 60,
+      "z": 21
+    },
+    "non_air": 2180,
+    "density": 0.0824,
+    "unique_block_types": 40
+  },
+  "massing": {
+    "hollow_score": 0.8975,
+    "interior_air_frac": 0.8975,
+    "exterior_solid_frac": 0.0013,
+    "floor_guess": 5,
+    "y_peaks": [
+      5,
+      9,
+      41,
+      45,
+      49
+    ],
+    "families": {
+      "stairs": 4,
+      "slabs": 334,
+      "walls": 1,
+      "fences": 16,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 498,
+      "logs": 345,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 89,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.4342,
+      "symmetry_z": 0.4137,
+      "symmetry_y": 0.0456
+    },
+    "solid_ratio": 0.0824
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "orange_stained_glass",
+        "count": 490,
+        "frac": 0.0
+      },
+      {
+        "name": "resin_brick_slab",
+        "count": 334,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_pale_oak_log",
+        "count": 206,
+        "frac": 0.0
+      },
+      {
+        "name": "resin_clump",
+        "count": 153,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 150,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_log",
+        "count": 139,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 134,
+        "frac": 0.0
+      },
+      {
+        "name": "creaking_heart",
+        "count": 99,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_diamond_ore",
+        "count": 89,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "shroomlight",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_fence_gate",
+        "count": 16,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 345,
+      "stone": 437,
+      "deepslate": 89,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 498,
+      "nether": 1,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 53,
+      "leaves": 0,
+      "metal": 39
+    },
+    "remap_targets": [
+      "orange_stained_glass",
+      "resin_brick_slab",
+      "stripped_pale_oak_log",
+      "resin_clump",
+      "water",
+      "pale_oak_log",
+      "redstone_wire",
+      "creaking_heart",
+      "smooth_stone",
+      "deepslate_diamond_ore",
+      "packed_ice",
+      "hopper"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "chinese",
+      "rustic",
+      "fantasy",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.56,
+        "raw_score": 0.2105,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.539,
+        "raw_score": 0.2045
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.503,
+        "raw_score": 0.1944
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.489,
+        "raw_score": 0.1905
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.479,
+        "raw_score": 0.1875
+      }
+    ]
+  },
+  "redstone": {
+    "total": 270,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "hopper_line",
+      "simple_io",
+      "crafter_auto_line",
+      "item_elevator",
+      "observer_clock",
+      "etho_hopper_clock",
+      "shulker_loader",
+      "torch_clock",
+      "edge_detector",
+      "hopper_clock",
+      "t_flip_flop",
+      "monostable",
+      "zero_tick_bud_freerun",
+      "torch_logic_lattice",
+      "torch_xor_gate",
+      "portal_frame_cue"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "漏斗输送线",
+      "杠杆/按钮 → 灯或门",
+      "合成器自动线（1.21）",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "多漏斗环钟嫌疑",
+      "潜影盒装卸线嫌疑",
+      "火把钟骨架",
+      "边沿检测（观察者）嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "火把逻辑阵（AND/OR/NOR/XOR）嫌疑",
+      "火把 XOR/同或门嫌疑",
+      "传送门框/黑曜石阵嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 134,
+      "redstone_torch": 4,
+      "redstone_block": 1,
+      "repeater": 2,
+      "comparator": 14,
+      "lever": 1,
+      "button": 1,
+      "piston": 20,
+      "sticky_piston": 3,
+      "observer": 12,
+      "hopper": 39,
+      "dropper": 2,
+      "dispenser": 6,
+      "redstone_lamp": 1,
+      "fence_gate": 16,
+      "rail": 1,
+      "crafter": 12,
+      "shulker_box": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\DeXB4ZQ9dP-Docm77_20resin_20farm_20and_20collection_20system_skeleton.npz",
+    "occupancy_frac": 0.1083984375,
+    "occupied": 3552
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

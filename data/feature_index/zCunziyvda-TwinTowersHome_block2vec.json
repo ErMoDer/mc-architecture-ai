@@ -1,0 +1,13 @@
+{
+  "id": "zCunziyvda-TwinTowersHome",
+  "dim": 144,
+  "n_chunks": 24,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "zCunziyvda-TwinTowersHome_block2vec.npy"
+}

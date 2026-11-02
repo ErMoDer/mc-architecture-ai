@@ -1,0 +1,263 @@
+{
+  "id": "猫狗小屋__93bcbd2e",
+  "source_path": "data\\raw\\mcblock\\猫狗小屋__93bcbd2e.litematic",
+  "created_at": "2026-10-19T16:09:50+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 48,
+      "y": 44,
+      "z": 32
+    },
+    "non_air": 3950,
+    "density": 0.0584,
+    "unique_block_types": 92
+  },
+  "massing": {
+    "hollow_score": 0.959,
+    "interior_air_frac": 0.959,
+    "exterior_solid_frac": 0.0233,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 78,
+      "slabs": 222,
+      "walls": 87,
+      "fences": 26,
+      "doors": 0,
+      "trapdoors": 93,
+      "glass": 205,
+      "logs": 136,
+      "planks": 253,
+      "stone_bricks": 31,
+      "deepslate": 94,
+      "terracotta": 13,
+      "concrete": 213,
+      "wool": 0,
+      "leaves": 33,
+      "lanterns": 0,
+      "copper": 18,
+      "nether": 235
+    },
+    "symmetry": {
+      "symmetry_x": 0.4353,
+      "symmetry_z": 0.3322,
+      "symmetry_y": 0.0373
+    },
+    "solid_ratio": 0.0584
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 1342,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 302,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_bricks",
+        "count": 245,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_concrete_powder",
+        "count": 213,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine",
+        "count": 156,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 132,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_warped_hyphae",
+        "count": 132,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_stained_glass_pane",
+        "count": 131,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_planks",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_sandstone",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "netherrack",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass_pane",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "bone_block",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 54,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 389,
+      "stone": 631,
+      "deepslate": 94,
+      "terracotta": 13,
+      "concrete": 213,
+      "wool": 0,
+      "glass": 205,
+      "nether": 64,
+      "copper": 18,
+      "prismarine": 189,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 94,
+      "leaves": 62,
+      "metal": 42
+    },
+    "remap_targets": [
+      "grass_block",
+      "short_grass",
+      "prismarine_bricks",
+      "light_blue_concrete_powder",
+      "prismarine",
+      "birch_planks",
+      "stripped_warped_hyphae",
+      "light_blue_stained_glass_pane",
+      "pale_oak_planks",
+      "sandstone",
+      "packed_ice",
+      "smooth_sandstone"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "european",
+      "medieval",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.535,
+        "raw_score": 0.1855,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.52,
+        "raw_score": 0.1815
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.495,
+        "raw_score": 0.1749
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.489,
+        "raw_score": 0.1733
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.486,
+        "raw_score": 0.1726
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 109,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "lever": 3,
+      "button": 1,
+      "trapdoor": 93,
+      "fence_gate": 10,
+      "brewing_stand": 1,
+      "furnace": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\猫狗小屋__93bcbd2e_skeleton.npz",
+    "occupancy_frac": 0.077972412109375,
+    "occupied": 2555
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 19,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\猫狗小屋__93bcbd2e_block2vec.npy",
+    "vector_preview": [
+      -0.0353,
+      0.19126,
+      -0.14872,
+      0.00234,
+      0.02594,
+      0.06253,
+      -0.03848,
+      0.09453
+    ],
+    "ok": true
+  }
+}

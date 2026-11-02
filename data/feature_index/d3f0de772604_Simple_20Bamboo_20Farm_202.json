@@ -1,0 +1,222 @@
+{
+  "id": "d3f0de772604_Simple_20Bamboo_20Farm_202",
+  "source_path": "data\\raw\\hack337\\schematics\\d3f0de772604_Simple%20Bamboo%20Farm%202.litematic",
+  "created_at": "2026-10-18T22:25:57+08:00",
+  "overview": {
+    "schematic_name": "Simple Bamboo Farm",
+    "size": {
+      "x": 28,
+      "y": 11,
+      "z": 17
+    },
+    "non_air": 2662,
+    "density": 0.5084,
+    "unique_block_types": 13
+  },
+  "massing": {
+    "hollow_score": 0.4758,
+    "interior_air_frac": 0.4758,
+    "exterior_solid_frac": 0.157,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      4,
+      8
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 243,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9488,
+      "symmetry_z": 0.7479,
+      "symmetry_y": 0.1007
+    },
+    "solid_ratio": 0.5084
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "sand",
+        "count": 2240,
+        "frac": 0.0
+      },
+      {
+        "name": "green_stained_glass",
+        "count": 243,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "mud",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "dead_bush",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 21,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 243,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 2240,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 22
+    },
+    "remap_targets": [
+      "sand",
+      "green_stained_glass",
+      "grass_block",
+      "hopper",
+      "powered_rail",
+      "mud",
+      "bamboo",
+      "piston",
+      "redstone_wire",
+      "observer",
+      "redstone_torch",
+      "dead_bush"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "desert",
+    "style_id": 10,
+    "terrain_id": 5,
+    "guess_names": [
+      "desert",
+      "modern",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "desert",
+        "confidence": 0.461,
+        "raw_score": 0.1108,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "modern",
+        "confidence": 0.096,
+        "raw_score": 0.0282
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.095,
+        "raw_score": 0.028
+      }
+    ]
+  },
+  "redstone": {
+    "total": 109,
+    "pattern_ids": [
+      "hopper_line",
+      "piston_door",
+      "qc_piston_bank",
+      "observer_clock",
+      "edge_detector",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "观察者相邻时钟嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 21,
+      "redstone_torch": 3,
+      "piston": 21,
+      "observer": 21,
+      "hopper": 22,
+      "powered_rail": 21
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\d3f0de772604_Simple_20Bamboo_20Farm_202_skeleton.npz",
+    "occupancy_frac": 0.525665283203125,
+    "occupied": 17225
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

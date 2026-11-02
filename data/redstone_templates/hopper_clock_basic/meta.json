@@ -1,0 +1,16 @@
+{
+  "id": "hopper_clock_basic",
+  "matches": [
+    "hopper_clock",
+    "etho_hopper_clock",
+    "hopper_line"
+  ],
+  "label_zh": "漏斗钟（对吐+比较器）",
+  "confidence_prefer": "high",
+  "size": [
+    3,
+    1,
+    2
+  ],
+  "notes": "两漏斗对吐；比较器读满度；粉尘→灯作输出示意。需放入物品才能走钟。"
+}

@@ -1,0 +1,308 @@
+{
+  "id": "中世纪新手小屋__1e59f770",
+  "source_path": "data\\raw\\mcblock\\中世纪新手小屋__1e59f770.litematic",
+  "created_at": "2026-10-19T20:36:53+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 28,
+      "y": 24,
+      "z": 29
+    },
+    "non_air": 3466,
+    "density": 0.1779,
+    "unique_block_types": 70
+  },
+  "massing": {
+    "hollow_score": 0.8098,
+    "interior_air_frac": 0.8098,
+    "exterior_solid_frac": 0.0271,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      6,
+      12,
+      15
+    ],
+    "families": {
+      "stairs": 755,
+      "slabs": 110,
+      "walls": 0,
+      "fences": 97,
+      "doors": 6,
+      "trapdoors": 122,
+      "glass": 0,
+      "logs": 501,
+      "planks": 454,
+      "stone_bricks": 442,
+      "deepslate": 431,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 53,
+      "lanterns": 12,
+      "copper": 8,
+      "nether": 34
+    },
+    "symmetry": {
+      "symmetry_x": 0.5122,
+      "symmetry_z": 0.8319,
+      "symmetry_y": 0.0965
+    },
+    "solid_ratio": 0.1779
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 435,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 371,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 367,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_stairs",
+        "count": 362,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 194,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 178,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 173,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 139,
+        "frac": 0.0
+      },
+      {
+        "name": "vine",
+        "count": 97,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 85,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 77,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_pale_oak_wood",
+        "count": 67,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "cracked_stone_bricks",
+        "count": 53,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 955,
+      "stone": 708,
+      "deepslate": 431,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 34,
+      "copper": 8,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 60,
+      "metal": 12
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "stone_bricks",
+      "spruce_log",
+      "deepslate_brick_stairs",
+      "grass_block",
+      "dark_oak_stairs",
+      "calcite",
+      "spruce_stairs",
+      "vine",
+      "dirt",
+      "spruce_trapdoor",
+      "dark_oak_fence"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "rustic",
+      "chinese",
+      "japanese",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.85,
+        "raw_score": 0.5331,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.67,
+        "raw_score": 0.4477
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.437,
+        "raw_score": 0.3385
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.388,
+        "raw_score": 0.3125
+      },
+      {
+        "style": "western",
+        "confidence": 0.285,
+        "raw_score": 0.2523
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 182,
+    "pattern_ids": [
+      "simple_io",
+      "tripwire_trap",
+      "copper_bulb_latch"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱",
+      "铜灯泡锁存/切换"
+    ],
+    "inventory_nonzero": {
+      "button": 16,
+      "door": 6,
+      "trapdoor": 122,
+      "fence_gate": 2,
+      "tripwire": 12,
+      "rail": 5,
+      "copper_bulb": 8,
+      "brewing_stand": 6,
+      "lectern": 5
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\中世纪新手小屋__1e59f770_skeleton.npz",
+    "occupancy_frac": 0.1981201171875,
+    "occupied": 6492
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 12,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\中世纪新手小屋__1e59f770_block2vec.npy",
+    "vector_preview": [
+      -0.11176,
+      0.22371,
+      -0.06002,
+      0.02209,
+      0.10086,
+      -0.08007,
+      -0.0536,
+      0.02835
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "光辉幽谷__0458f7f7",
+        "score": 0.8132875485488555,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\光辉幽谷__0458f7f7.litematic"
+      },
+      {
+        "id": "KBJlENBLM7-Villager_20Inn_20_28Fully_20Furnished_29",
+        "score": 0.8074969071769471,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\KBJlENBLM7-Villager%20Inn%20%28Fully%20Furnished%29.litematic"
+      },
+      {
+        "id": "紫花小屋__c45ac892",
+        "score": 0.7810446037591727,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\紫花小屋__c45ac892.litematic"
+      },
+      {
+        "id": "乡村自建房__ba1eb672",
+        "score": 0.7784705567664786,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\乡村自建房__ba1eb672.litematic"
+      },
+      {
+        "id": "中世纪小屋18_钟楼__45aef820",
+        "score": 0.7726956738756677,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\中世纪小屋18_钟楼__45aef820.litematic"
+      }
+    ]
+  }
+}

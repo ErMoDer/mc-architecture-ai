@@ -1,0 +1,275 @@
+{
+  "id": "夏日小屋__0ee0807f",
+  "source_path": "data\\raw\\mcblock\\夏日小屋__0ee0807f.litematic",
+  "created_at": "2026-10-19T13:01:02+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 30,
+      "y": 25,
+      "z": 38
+    },
+    "non_air": 5060,
+    "density": 0.1775,
+    "unique_block_types": 131
+  },
+  "massing": {
+    "hollow_score": 0.8177,
+    "interior_air_frac": 0.8177,
+    "exterior_solid_frac": 0.0293,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      6,
+      9,
+      12,
+      17,
+      21
+    ],
+    "families": {
+      "stairs": 608,
+      "slabs": 645,
+      "walls": 47,
+      "fences": 140,
+      "doors": 8,
+      "trapdoors": 328,
+      "glass": 391,
+      "logs": 149,
+      "planks": 468,
+      "stone_bricks": 54,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 85,
+      "leaves": 322,
+      "lanterns": 100,
+      "copper": 0,
+      "nether": 12
+    },
+    "symmetry": {
+      "symmetry_x": 0.212,
+      "symmetry_z": 0.3772,
+      "symmetry_y": 0.1545
+    },
+    "solid_ratio": 0.1775
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "quartz_block",
+        "count": 480,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 425,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 379,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_sandstone",
+        "count": 320,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 313,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 264,
+        "frac": 0.0
+      },
+      {
+        "name": "cut_sandstone",
+        "count": 209,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_stairs",
+        "count": 176,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 154,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass_pane",
+        "count": 152,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_slab",
+        "count": 137,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 129,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_brick_stairs",
+        "count": 115,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_stained_glass_pane",
+        "count": 97,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_prismarine_slab",
+        "count": 81,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 79,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 662,
+      "stone": 938,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 85,
+      "glass": 391,
+      "nether": 8,
+      "copper": 0,
+      "prismarine": 129,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 10,
+      "leaves": 343,
+      "metal": 26
+    },
+    "remap_targets": [
+      "quartz_block",
+      "oak_planks",
+      "water",
+      "smooth_sandstone",
+      "oak_leaves",
+      "spruce_trapdoor",
+      "cut_sandstone",
+      "quartz_stairs",
+      "oak_slab",
+      "black_stained_glass_pane",
+      "quartz_slab",
+      "oak_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "modern",
+    "mapped_terrain": "flat",
+    "style_id": 3,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "japanese",
+      "rustic",
+      "european",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.602,
+        "raw_score": 0.2524,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.569,
+        "raw_score": 0.2424
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.552,
+        "raw_score": 0.2371
+      },
+      {
+        "style": "european",
+        "confidence": 0.49,
+        "raw_score": 0.2177
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.457,
+        "raw_score": 0.207
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 415,
+    "pattern_ids": [
+      "nether_portal_cue",
+      "note_block_line"
+    ],
+    "pattern_labels": [
+      "下界传送门",
+      "音符盒线路/乐器阵"
+    ],
+    "inventory_nonzero": {
+      "redstone_block": 3,
+      "button": 5,
+      "pressure_plate": 3,
+      "note_block": 4,
+      "redstone_lamp": 3,
+      "door": 8,
+      "trapdoor": 328,
+      "fence_gate": 47,
+      "furnace": 2,
+      "smoker": 2,
+      "blast_furnace": 1,
+      "chiseled_bookshelf": 1,
+      "nether_portal": 8
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\夏日小屋__0ee0807f_skeleton.npz",
+    "occupancy_frac": 0.184326171875,
+    "occupied": 6040
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 22,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\夏日小屋__0ee0807f_block2vec.npy",
+    "vector_preview": [
+      -0.09699,
+      0.19242,
+      -0.06041,
+      0.01463,
+      0.05906,
+      -0.02978,
+      -0.06053,
+      0.10396
+    ],
+    "ok": true
+  }
+}

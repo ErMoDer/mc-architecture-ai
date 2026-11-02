@@ -1,0 +1,13 @@
+{
+  "id": "piston_door_2wide",
+  "matches": [
+    "piston_door"
+  ],
+  "label_zh": "双活塞门（并排）",
+  "size": [
+    2,
+    2,
+    3
+  ],
+  "notes": "2×2 活塞排；杠杆供电示意。不含粘活塞收回与门面装修。"
+}

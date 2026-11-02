@@ -1,0 +1,237 @@
+{
+  "id": "e5250ea7b510_cherry_20base_20with_20ghast_20stable",
+  "source_path": "data\\raw\\hack337\\schematics\\e5250ea7b510_cherry%20base%20with%20ghast%20stable.litematic",
+  "created_at": "2026-10-18T22:26:04+08:00",
+  "overview": {
+    "schematic_name": "cherry house with ghast stable",
+    "size": {
+      "x": 23,
+      "y": 18,
+      "z": 29
+    },
+    "non_air": 1319,
+    "density": 0.1099,
+    "unique_block_types": 47
+  },
+  "massing": {
+    "hollow_score": 0.8694,
+    "interior_air_frac": 0.8694,
+    "exterior_solid_frac": 0.0112,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      4,
+      11
+    ],
+    "families": {
+      "stairs": 190,
+      "slabs": 77,
+      "walls": 0,
+      "fences": 146,
+      "doors": 0,
+      "trapdoors": 163,
+      "glass": 0,
+      "logs": 283,
+      "planks": 112,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 16,
+      "leaves": 47,
+      "lanterns": 43,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.1947,
+      "symmetry_z": 0.142,
+      "symmetry_y": 0.1787
+    },
+    "solid_ratio": 0.1099
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_dark_oak_log",
+        "count": 283,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 114,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_planks",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 85,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence_gate",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_trapdoor",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_stairs",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_leaves",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_button",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 21,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 395,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 16,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 151,
+      "metal": 1
+    },
+    "remap_targets": [
+      "stripped_dark_oak_log",
+      "dark_oak_trapdoor",
+      "cherry_planks",
+      "moss_block",
+      "dark_oak_stairs",
+      "spruce_stairs",
+      "dark_oak_fence",
+      "spruce_slab",
+      "dark_oak_fence_gate",
+      "cherry_trapdoor",
+      "cherry_stairs",
+      "lantern"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6114,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.685,
+        "raw_score": 0.4952
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.644,
+        "raw_score": 0.4763
+      },
+      {
+        "style": "western",
+        "confidence": 0.508,
+        "raw_score": 0.4093
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.211,
+        "raw_score": 0.2248
+      }
+    ]
+  },
+  "redstone": {
+    "total": 243,
+    "pattern_ids": [
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "button": 28,
+      "trapdoor": 163,
+      "fence_gate": 50,
+      "tripwire": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\e5250ea7b510_cherry_20base_20with_20ghast_20stable_skeleton.npz",
+    "occupancy_frac": 0.1036376953125,
+    "occupied": 3396
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

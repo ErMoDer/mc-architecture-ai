@@ -1,0 +1,273 @@
+{
+  "id": "85265bb576fe_Votje_20Plays_20Wool_20farm",
+  "source_path": "data\\raw\\hack337\\schematics\\85265bb576fe_Votje%20Plays%20Wool%20farm.litematic",
+  "created_at": "2026-10-18T22:25:30+08:00",
+  "overview": {
+    "schematic_name": "wool farm",
+    "size": {
+      "x": 31,
+      "y": 17,
+      "z": 27
+    },
+    "non_air": 3611,
+    "density": 0.2538,
+    "unique_block_types": 109
+  },
+  "massing": {
+    "hollow_score": 0.7,
+    "interior_air_frac": 0.7,
+    "exterior_solid_frac": 0.0245,
+    "floor_guess": 3,
+    "y_peaks": [
+      1,
+      6,
+      11
+    ],
+    "families": {
+      "stairs": 391,
+      "slabs": 390,
+      "walls": 0,
+      "fences": 72,
+      "doors": 6,
+      "trapdoors": 35,
+      "glass": 193,
+      "logs": 284,
+      "planks": 639,
+      "stone_bricks": 0,
+      "deepslate": 719,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 72,
+      "leaves": 15,
+      "lanterns": 9,
+      "copper": 29,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.3851,
+      "symmetry_z": 0.3382,
+      "symmetry_y": 0.1502
+    },
+    "solid_ratio": 0.2538
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 396,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 310,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_planks",
+        "count": 301,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 193,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 193,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_stairs",
+        "count": 116,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_slab",
+        "count": 113,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_slab",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate_slab",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 91,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 83,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 82,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 81,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate_stairs",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_mangrove_log",
+        "count": 77,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 926,
+      "stone": 226,
+      "deepslate": 719,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 72,
+      "glass": 193,
+      "nether": 1,
+      "copper": 29,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 22,
+      "leaves": 37,
+      "metal": 101
+    },
+    "remap_targets": [
+      "grass_block",
+      "oak_planks",
+      "mangrove_planks",
+      "cobblestone",
+      "glass",
+      "deepslate_brick_stairs",
+      "deepslate_brick_slab",
+      "deepslate_tile_slab",
+      "cobbled_deepslate_slab",
+      "deepslate_tile_stairs",
+      "stripped_oak_log",
+      "hopper"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.744,
+        "raw_score": 0.3943,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.433,
+        "raw_score": 0.2739
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.386,
+        "raw_score": 0.2524
+      },
+      {
+        "style": "western",
+        "confidence": 0.343,
+        "raw_score": 0.2322
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.208,
+        "raw_score": 0.1606
+      }
+    ]
+  },
+  "redstone": {
+    "total": 409,
+    "pattern_ids": [
+      "etho_hopper_clock",
+      "copper_bulb_latch",
+      "pulse_limiter",
+      "edge_detector",
+      "instant_wire",
+      "hopper_clock",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "water_hopper_stream",
+      "note_block_line"
+    ],
+    "pattern_labels": [
+      "多漏斗环钟嫌疑",
+      "铜灯泡锁存/切换",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "水流漏斗收集线嫌疑",
+      "音符盒线路/乐器阵"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 66,
+      "redstone_torch": 16,
+      "repeater": 16,
+      "comparator": 17,
+      "lever": 8,
+      "sticky_piston": 1,
+      "observer": 20,
+      "hopper": 83,
+      "dropper": 1,
+      "dispenser": 18,
+      "note_block": 8,
+      "door": 6,
+      "trapdoor": 35,
+      "fence_gate": 9,
+      "powered_rail": 70,
+      "rail": 11,
+      "copper_bulb": 24
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\85265bb576fe_Votje_20Plays_20Wool_20farm_skeleton.npz",
+    "occupancy_frac": 0.249542236328125,
+    "occupied": 8177
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

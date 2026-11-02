@@ -1,0 +1,173 @@
+{
+  "id": "V8Mx9vHcnF-Sand_20Duper_20End_20Part",
+  "source_path": "data\\raw\\hack337\\schematics\\V8Mx9vHcnF-Sand%20Duper%20End%20Part.litematic",
+  "created_at": "2026-10-18T22:27:14+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 13,
+      "y": 5,
+      "z": 13
+    },
+    "non_air": 121,
+    "density": 0.1432,
+    "unique_block_types": 5
+  },
+  "massing": {
+    "hollow_score": 0.7658,
+    "interior_air_frac": 0.7658,
+    "exterior_solid_frac": 0.0426,
+    "floor_guess": 2,
+    "y_peaks": [
+      1,
+      4
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 1.0,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.3011
+    },
+    "solid_ratio": 0.1432
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "smooth_stone",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_button",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 8,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 72,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 16
+    },
+    "remap_targets": [
+      "smooth_stone",
+      "obsidian",
+      "hopper",
+      "stone_button",
+      "chest"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "industrial",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.701,
+        "raw_score": 0.3506,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.606,
+        "raw_score": 0.3182
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.323,
+        "raw_score": 0.2045
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.276,
+        "raw_score": 0.1818
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.212,
+        "raw_score": 0.1488
+      }
+    ]
+  },
+  "redstone": {
+    "total": 28,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 12,
+      "hopper": 16
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\V8Mx9vHcnF-Sand_20Duper_20End_20Part_skeleton.npz",
+    "occupancy_frac": 0.146728515625,
+    "occupied": 4808
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:duper",
+  "previous_mapped_style": "chinese"
+}

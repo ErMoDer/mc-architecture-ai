@@ -1,0 +1,13 @@
+{
+  "id": "0b4cb72bd7b1_Trading_20Hall_201_20-_20Copy",
+  "dim": 144,
+  "n_chunks": 12,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "0b4cb72bd7b1_Trading_20Hall_201_20-_20Copy_block2vec.npy"
+}

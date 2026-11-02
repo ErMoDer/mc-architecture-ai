@@ -1,0 +1,13 @@
+{
+  "id": "5abb8e714eb6_Residential_20Home_201bd_201ba",
+  "dim": 144,
+  "n_chunks": 8,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "5abb8e714eb6_Residential_20Home_201bd_201ba_block2vec.npy"
+}

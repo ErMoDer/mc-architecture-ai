@@ -1,0 +1,284 @@
+{
+  "id": "Maqz_Kelp_V2_d87726",
+  "source_path": "data\\raw\\hack337\\schematics\\Maqz_Kelp_V2_d87726.litematic",
+  "created_at": "2026-10-18T22:26:30+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 10,
+      "y": 25,
+      "z": 16
+    },
+    "non_air": 1591,
+    "density": 0.3977,
+    "unique_block_types": 26
+  },
+  "massing": {
+    "hollow_score": 0.4728,
+    "interior_air_frac": 0.4728,
+    "exterior_solid_frac": 0.0583,
+    "floor_guess": 6,
+    "y_peaks": [
+      5,
+      8,
+      11,
+      14,
+      17,
+      22
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 12,
+      "glass": 507,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 125,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 1,
+      "nether": 11
+    },
+    "symmetry": {
+      "symmetry_x": 0.3993,
+      "symmetry_z": 0.7777,
+      "symmetry_y": 0.5038
+    },
+    "solid_ratio": 0.3977
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "glass",
+        "count": 507,
+        "frac": 0.0
+      },
+      {
+        "name": "bubble_column",
+        "count": 165,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 139,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 125,
+        "frac": 0.0
+      },
+      {
+        "name": "kelp_plant",
+        "count": 92,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 91,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "activator_rail",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "note_block",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_ice",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "crafter",
+        "count": 22,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 125,
+      "wool": 0,
+      "glass": 507,
+      "nether": 11,
+      "copper": 1,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 23,
+      "leaves": 0,
+      "metal": 78
+    },
+    "remap_targets": [
+      "glass",
+      "bubble_column",
+      "water",
+      "white_concrete",
+      "kelp_plant",
+      "observer",
+      "hopper",
+      "activator_rail",
+      "redstone_wire",
+      "dispenser",
+      "chest",
+      "redstone_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european",
+      "industrial"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.622,
+        "raw_score": 0.2717,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.566,
+        "raw_score": 0.2544
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.193,
+        "raw_score": 0.1134
+      },
+      {
+        "style": "european",
+        "confidence": 0.16,
+        "raw_score": 0.0972
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.14,
+        "raw_score": 0.0869
+      }
+    ]
+  },
+  "redstone": {
+    "total": 459,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "simple_io",
+      "crafter_auto_line",
+      "observer_clock",
+      "target_block_line",
+      "copper_bulb_latch",
+      "etho_hopper_clock",
+      "pulse_extender",
+      "pulse_limiter",
+      "edge_detector",
+      "note_block_line",
+      "hopper_clock",
+      "zero_tick_bud_freerun",
+      "instant_wire"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "杠杆/按钮 → 灯或门",
+      "合成器自动线（1.21）",
+      "观察者相邻时钟嫌疑",
+      "标靶方块线路",
+      "铜灯泡锁存/切换",
+      "Etho 漏斗钟变体嫌疑",
+      "脉冲延长/单稳态嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "漏斗+比较器时钟/测量嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "瞬间线/同向中继器线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 46,
+      "redstone_block": 36,
+      "repeater": 8,
+      "comparator": 24,
+      "lever": 1,
+      "piston": 17,
+      "observer": 91,
+      "hopper": 66,
+      "dispenser": 44,
+      "note_block": 24,
+      "target": 7,
+      "trapdoor": 12,
+      "activator_rail": 60,
+      "copper_bulb": 1,
+      "crafter": 22
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Maqz_Kelp_V2_d87726_skeleton.npz",
+    "occupancy_frac": 0.38970947265625,
+    "occupied": 12770
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "demoted_from_industrial:kelp",
+  "previous_mapped_style": "industrial"
+}

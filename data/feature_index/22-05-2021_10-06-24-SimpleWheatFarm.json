@@ -1,0 +1,245 @@
+{
+  "id": "22-05-2021_10-06-24-SimpleWheatFarm",
+  "source_path": "data\\raw\\hack337\\schematics\\22-05-2021_10-06-24-SimpleWheatFarm.litematic",
+  "created_at": "2026-10-18T22:24:56+08:00",
+  "overview": {
+    "schematic_name": "Abs Wheat Farm",
+    "size": {
+      "x": 14,
+      "y": 7,
+      "z": 20
+    },
+    "non_air": 626,
+    "density": 0.3194,
+    "unique_block_types": 20
+  },
+  "massing": {
+    "hollow_score": 0.5944,
+    "interior_air_frac": 0.5944,
+    "exterior_solid_frac": 0.0959,
+    "floor_guess": 1,
+    "y_peaks": [
+      6
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 166,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 8,
+      "glass": 40,
+      "logs": 8,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 40,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7011,
+      "symmetry_z": 0.2108,
+      "symmetry_y": 0.3028
+    },
+    "solid_ratio": 0.3194
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_slab",
+        "count": 165,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "wheat",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "rail",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_terracotta",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 8,
+      "stone": 94,
+      "deepslate": 0,
+      "terracotta": 40,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 40,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 2
+    },
+    "remap_targets": [
+      "spruce_slab",
+      "sandstone",
+      "farmland",
+      "wheat",
+      "rail",
+      "lime_terracotta",
+      "white_stained_glass",
+      "powered_rail",
+      "redstone_torch",
+      "spruce_log",
+      "spruce_trapdoor",
+      "glowstone"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.606,
+        "raw_score": 0.2562,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.454,
+        "raw_score": 0.2083
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.358,
+        "raw_score": 0.1748
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.221,
+        "raw_score": 0.1206
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.199,
+        "raw_score": 0.1105
+      }
+    ]
+  },
+  "redstone": {
+    "total": 110,
+    "pattern_ids": [
+      "etho_hopper_clock",
+      "hopper_clock"
+    ],
+    "pattern_labels": [
+      "Etho 漏斗钟变体嫌疑",
+      "漏斗+比较器时钟/测量嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_torch": 11,
+      "repeater": 1,
+      "comparator": 1,
+      "hopper": 2,
+      "trapdoor": 8,
+      "powered_rail": 14,
+      "rail": 73
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\22-05-2021_10-06-24-SimpleWheatFarm_skeleton.npz",
+    "occupancy_frac": 0.305633544921875,
+    "occupied": 10015
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

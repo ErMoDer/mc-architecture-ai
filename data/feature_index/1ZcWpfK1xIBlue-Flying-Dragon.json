@@ -1,0 +1,228 @@
+{
+  "id": "1ZcWpfK1xIBlue-Flying-Dragon",
+  "source_path": "data\\raw\\hack337\\schematics\\1ZcWpfK1xIBlue-Flying-Dragon.litematic",
+  "created_at": "2026-10-18T22:24:54+08:00",
+  "overview": {
+    "schematic_name": "Blue-Flying-Dragon",
+    "size": {
+      "x": 9,
+      "y": 16,
+      "z": 17
+    },
+    "non_air": 255,
+    "density": 0.1042,
+    "unique_block_types": 20
+  },
+  "massing": {
+    "hollow_score": 0.8551,
+    "interior_air_frac": 0.8551,
+    "exterior_solid_frac": 0.0172,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      8,
+      12
+    ],
+    "families": {
+      "stairs": 140,
+      "slabs": 4,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 9,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 19,
+      "concrete": 24,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 3,
+      "copper": 0,
+      "nether": 9
+    },
+    "symmetry": {
+      "symmetry_x": 0.1538,
+      "symmetry_z": 0.9392,
+      "symmetry_y": 0.2944
+    },
+    "solid_ratio": 0.1042
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "quartz_stairs",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_stairs",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_prismarine_stairs",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_glazed_terracotta",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_concrete_powder",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_concrete",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_pillar",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_warped_hyphae",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_bricks",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_glazed_terracotta",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_brick_slab",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 9,
+      "stone": 27,
+      "deepslate": 0,
+      "terracotta": 19,
+      "concrete": 24,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 90,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "quartz_stairs",
+      "prismarine_stairs",
+      "dark_prismarine_stairs",
+      "smooth_quartz",
+      "light_blue_glazed_terracotta",
+      "light_blue_concrete_powder",
+      "light_blue_concrete",
+      "diorite",
+      "quartz_block",
+      "quartz_pillar",
+      "stripped_warped_hyphae",
+      "quartz_bricks"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "chinese",
+      "industrial",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.426,
+        "raw_score": 0.0761,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.412,
+        "raw_score": 0.074
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.342,
+        "raw_score": 0.0629
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.318,
+        "raw_score": 0.0592
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.309,
+        "raw_score": 0.0577
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\1ZcWpfK1xIBlue-Flying-Dragon_skeleton.npz",
+    "occupancy_frac": 0.09490966796875,
+    "occupied": 3110
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

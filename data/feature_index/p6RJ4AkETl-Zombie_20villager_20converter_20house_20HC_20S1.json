@@ -1,0 +1,272 @@
+{
+  "id": "p6RJ4AkETl-Zombie_20villager_20converter_20house_20HC_20S1",
+  "source_path": "data\\raw\\hack337\\schematics\\p6RJ4AkETl-Zombie%20villager%20converter%20house%20HC%20S1.litematic",
+  "created_at": "2026-10-18T22:26:37+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 15,
+      "y": 29,
+      "z": 18
+    },
+    "non_air": 1651,
+    "density": 0.2109,
+    "unique_block_types": 71
+  },
+  "massing": {
+    "hollow_score": 0.7626,
+    "interior_air_frac": 0.7626,
+    "exterior_solid_frac": 0.0406,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      3,
+      9,
+      13,
+      17,
+      21
+    ],
+    "families": {
+      "stairs": 94,
+      "slabs": 213,
+      "walls": 17,
+      "fences": 14,
+      "doors": 10,
+      "trapdoors": 97,
+      "glass": 31,
+      "logs": 128,
+      "planks": 72,
+      "stone_bricks": 21,
+      "deepslate": 276,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 6,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3379,
+      "symmetry_z": 0.369,
+      "symmetry_y": 0.1159
+    },
+    "solid_ratio": 0.2109
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "granite",
+        "count": 174,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 171,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 158,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_slab",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate_slab",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 47,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_jungle_log",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_stairs",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate",
+        "count": 37,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 200,
+      "stone": 616,
+      "deepslate": 276,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 31,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 6,
+      "metal": 20
+    },
+    "remap_targets": [
+      "granite",
+      "bricks",
+      "grass_block",
+      "spruce_slab",
+      "deepslate_brick_slab",
+      "cobbled_deepslate_slab",
+      "diorite",
+      "dirt",
+      "calcite",
+      "spruce_trapdoor",
+      "spruce_planks",
+      "oak_trapdoor"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "european",
+      "chinese",
+      "japanese",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.63,
+        "raw_score": 0.2798,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.581,
+        "raw_score": 0.2646
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.418,
+        "raw_score": 0.2092
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.372,
+        "raw_score": 0.1922
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.365,
+        "raw_score": 0.1892
+      }
+    ]
+  },
+  "redstone": {
+    "total": 150,
+    "pattern_ids": [
+      "simple_io",
+      "tripwire_trap",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 3,
+      "note_block": 2,
+      "door": 10,
+      "trapdoor": 97,
+      "fence_gate": 14,
+      "tripwire": 5,
+      "powered_rail": 6,
+      "rail": 10,
+      "brewing_stand": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\p6RJ4AkETl-Zombie_20villager_20converter_20house_20HC_20S1_skeleton.npz",
+    "occupancy_frac": 0.23809814453125,
+    "occupied": 7802
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 8,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\p6RJ4AkETl-Zombie_20villager_20converter_20house_20HC_20S1_block2vec.npy",
+    "vector_preview": [
+      -0.0391,
+      0.26546,
+      -0.13257,
+      -0.05925,
+      0.07074,
+      0.07403,
+      -0.03441,
+      -0.00828
+    ],
+    "ok": true
+  }
+}

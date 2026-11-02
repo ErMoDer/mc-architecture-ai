@@ -1,0 +1,14 @@
+{
+  "id": "dropper_vator_stack",
+  "matches": [
+    "dropper_vator",
+    "item_elevator"
+  ],
+  "label_zh": "投掷器电梯（两格）",
+  "size": [
+    1,
+    3,
+    2
+  ],
+  "notes": "观察者检测投掷更新的粗电梯骨架；高度可复制叠层。"
+}

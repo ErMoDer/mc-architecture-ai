@@ -1,0 +1,14 @@
+{
+  "id": "button_iron_door",
+  "matches": [
+    "button_door",
+    "iron_door_pulse"
+  ],
+  "label_zh": "石钮铁门脉冲（户外）",
+  "size": [
+    2,
+    2,
+    1
+  ],
+  "notes": "石钮短脉冲开铁门；适合贴进房屋入口。"
+}

@@ -1,0 +1,304 @@
+{
+  "id": "妖精女法师小屋__8be0956f",
+  "source_path": "data\\raw\\mcblock\\妖精女法师小屋__8be0956f.litematic",
+  "created_at": "2026-10-19T20:37:40+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 31,
+      "y": 33,
+      "z": 50
+    },
+    "non_air": 3850,
+    "density": 0.0753,
+    "unique_block_types": 134
+  },
+  "massing": {
+    "hollow_score": 0.9334,
+    "interior_air_frac": 0.9334,
+    "exterior_solid_frac": 0.0191,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      9,
+      14
+    ],
+    "families": {
+      "stairs": 267,
+      "slabs": 86,
+      "walls": 28,
+      "fences": 23,
+      "doors": 12,
+      "trapdoors": 89,
+      "glass": 29,
+      "logs": 375,
+      "planks": 284,
+      "stone_bricks": 10,
+      "deepslate": 20,
+      "terracotta": 61,
+      "concrete": 86,
+      "wool": 242,
+      "leaves": 59,
+      "lanterns": 24,
+      "copper": 0,
+      "nether": 23
+    },
+    "symmetry": {
+      "symmetry_x": 0.3009,
+      "symmetry_z": 0.2285,
+      "symmetry_y": 0.0204
+    },
+    "solid_ratio": 0.0753
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "moss_block",
+        "count": 480,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone",
+        "count": 414,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_sandstone",
+        "count": 354,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 187,
+        "frac": 0.0
+      },
+      {
+        "name": "red_wool",
+        "count": 179,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_planks",
+        "count": 143,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 141,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_stairs",
+        "count": 140,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 125,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_wood",
+        "count": 118,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_wood",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "red_concrete",
+        "count": 86,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 77,
+        "frac": 0.0
+      },
+      {
+        "name": "tall_grass",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 68,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 955,
+      "stone": 923,
+      "deepslate": 20,
+      "terracotta": 61,
+      "concrete": 86,
+      "wool": 242,
+      "glass": 29,
+      "nether": 1,
+      "copper": 0,
+      "prismarine": 8,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 543,
+      "metal": 16
+    },
+    "remap_targets": [
+      "moss_block",
+      "sandstone",
+      "smooth_sandstone",
+      "grass_block",
+      "red_wool",
+      "bamboo_planks",
+      "spruce_planks",
+      "bamboo_stairs",
+      "short_grass",
+      "stripped_oak_wood",
+      "stripped_spruce_wood",
+      "red_concrete"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "japanese",
+      "rustic",
+      "fantasy",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.653,
+        "raw_score": 0.3031,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.623,
+        "raw_score": 0.2936
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.617,
+        "raw_score": 0.2915
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.388,
+        "raw_score": 0.2098
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.364,
+        "raw_score": 0.2004
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 114,
+    "pattern_ids": [
+      "door_line",
+      "simple_io"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门"
+    ],
+    "inventory_nonzero": {
+      "button": 2,
+      "pressure_plate": 2,
+      "door": 12,
+      "trapdoor": 89,
+      "brewing_stand": 1,
+      "furnace": 2,
+      "smoker": 1,
+      "lectern": 5
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\妖精女法师小屋__8be0956f_skeleton.npz",
+    "occupancy_frac": 0.087615966796875,
+    "occupied": 2871
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 21,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\妖精女法师小屋__8be0956f_block2vec.npy",
+    "vector_preview": [
+      -0.08433,
+      0.19456,
+      -0.09814,
+      -0.07906,
+      0.088,
+      0.00434,
+      -0.07249,
+      0.12478
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "现代生态住宅__8370e3dd",
+        "score": 0.9867349350966543,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\现代生态住宅__8370e3dd.litematic"
+      },
+      {
+        "id": "经验草甸__d583a45f",
+        "score": 0.9803429894696936,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\经验草甸__d583a45f.litematic"
+      },
+      {
+        "id": "樱桃芽小屋__4eddbe47",
+        "score": 0.9757656229942174,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\樱桃芽小屋__4eddbe47.litematic"
+      },
+      {
+        "id": "化工科技微光小屋__348f34c3",
+        "score": 0.9698964546104558,
+        "mapped_style": "industrial",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\化工科技微光小屋__348f34c3.litematic"
+      },
+      {
+        "id": "JPIfNGBH3e-My_20house",
+        "score": 0.9668744903291224,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\JPIfNGBH3e-My%20house.litematic"
+      }
+    ]
+  }
+}

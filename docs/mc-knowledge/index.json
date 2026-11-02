@@ -1,0 +1,437 @@
+[
+  {
+    "id": "blocks-copper-family",
+    "title": "铜系建筑方块（含 1.21 扩展）",
+    "path": "blocks/copper-family.md",
+    "tags": [
+      "block",
+      "copper"
+    ],
+    "summary": "试炼风/工业/青锈装饰；导出时优先涂蜡 ID，避免世界内继续氧化。"
+  },
+  {
+    "id": "blocks-decorative-color-26.3",
+    "title": "彩色结构件与 26.3 装饰",
+    "path": "blocks/decorative-color-26.3.md",
+    "tags": [
+      "block",
+      "26.3"
+    ],
+    "summary": "现代/营地/节日建筑的色带、屋顶与软装；区分「方块」与「实体」。"
+  },
+  {
+    "id": "blocks-stairs-slabs-walls",
+    "title": "楼梯 / 台阶 / 墙：形状族速查",
+    "path": "blocks/stairs-slabs-walls.md",
+    "tags": [
+      "block"
+    ],
+    "summary": "建筑 AI 用「半砖/斜面/围墙」拼屋顶、檐口、女儿墙与围栏时的统一约定。"
+  },
+  {
+    "id": "blocks-sulfur-cinnabar-26.2",
+    "title": "硫黄 / 朱砂建筑族（Java 26.2）",
+    "path": "blocks/sulfur-cinnabar-26.2.md",
+    "tags": [
+      "block"
+    ],
+    "summary": "硫黄洞穴主题；红黄对比装饰；目标版 ≥26.2 才可原样导出。"
+  },
+  {
+    "id": "blocks-tuff-family",
+    "title": "凝灰岩系（Tuff）建筑族",
+    "path": "blocks/tuff-family.md",
+    "tags": [
+      "block",
+      "tuff"
+    ],
+    "summary": "1.21 试炼密室灰调石材；洞穴/地下建筑中性基底。"
+  },
+  {
+    "id": "blocks-wood-sets",
+    "title": "木系套装：原木 → 全套构件",
+    "path": "blocks/wood-sets.md",
+    "tags": [
+      "block",
+      "wood"
+    ],
+    "summary": "按「一套木头」生成住宅/谷仓时选对 ID 前缀，避免混搭无对应门窗。"
+  },
+  {
+    "id": "builds-anti-box-policy",
+    "title": "Anti-box massing policy (night22)",
+    "path": "builds/anti-box-policy.md",
+    "tags": [
+      "build"
+    ],
+    "summary": "overnight Phase1–4 反方盒体量规则摘要；生成/脚手架改代码时先读本页，再动立面（见 [facade-rhythm.md](facade-rhythm.md)）。"
+  },
+  {
+    "id": "builds-block-roles",
+    "title": "方块角色（给 similar_scaffold / look_harden）",
+    "path": "builds/block-roles.md",
+    "tags": [
+      "build",
+      "block"
+    ],
+    "summary": "把「这是墙还是屋顶」收成机读角色，避免多数票把实心壳涂成同色糊。"
+  },
+  {
+    "id": "builds-clean-materials",
+    "title": "Clean materials (净材)",
+    "path": "builds/clean-materials.md",
+    "tags": [
+      "build"
+    ],
+    "summary": "Clean materials (净材)"
+  },
+  {
+    "id": "builds-facade-rhythm",
+    "title": "Facade rhythm after anti-box massing",
+    "path": "builds/facade-rhythm.md",
+    "tags": [
+      "build"
+    ],
+    "summary": "立面节奏（窗距 / 壁柱 / 门带）在 night22 L/T 体量之后如何取值；给 look_harden _STYLE_FACADE 与后续微调用。"
+  },
+  {
+    "id": "builds-partition-style-policy",
+    "title": "Interior partition style policy (Phase D)",
+    "path": "builds/partition-style-policy.md",
+    "tags": [
+      "build"
+    ],
+    "summary": "Interior partition style policy (Phase D)"
+  },
+  {
+    "id": "builds-poplar-dappled-26.3",
+    "title": "斑驳森林 / 杨木主题建造笔记（26.3）",
+    "path": "builds/poplar-dappled-26.3.md",
+    "tags": [
+      "build",
+      "26.3"
+    ],
+    "summary": "companion 目标版 **Java 26.3** 下「秋色林中小屋/营地」的调色与结构提示。"
+  },
+  {
+    "id": "builds-roof-guidelines",
+    "title": "屋顶建造准则摘要（改写）",
+    "path": "builds/roof-guidelines.md",
+    "tags": [
+      "build"
+    ],
+    "summary": "屋顶比例、坡度、大体量拆分与接缝的**项目向摘要**，供 look_harden 坡顶/平顶启发式使用。"
+  },
+  {
+    "id": "builds-roof-types",
+    "title": "屋顶类型速查摘要（改写）",
+    "path": "builds/roof-types.md",
+    "tags": [
+      "build"
+    ],
+    "summary": "常见屋顶类型的**短定义 + 生成侧选用表**。不复制 Wiki 图文教程。"
+  },
+  {
+    "id": "builds-shape-language",
+    "title": "建筑形状语言（给体素 AI）",
+    "path": "builds/shape-language.md",
+    "tags": [
+      "build"
+    ],
+    "summary": "把「好看的 MC 建筑」拆成可执行的楼梯/台阶/墙规则，约束 32³ 生成。"
+  },
+  {
+    "id": "builds-structure-principles",
+    "title": "建筑结构原则摘要（给 look_harden）",
+    "path": "builds/structure-principles.md",
+    "tags": [
+      "build"
+    ],
+    "summary": "把「地基 → 墙厚 → 层高 → 屋顶体量」收成可执行参数，喂给 `look_harden` / 结构约束。**原文改写摘要**，非 Wiki/官网全文照搬。"
+  },
+  {
+    "id": "builds-trial-chambers-palette",
+    "title": "试炼密室建筑语汇（调色，非攻略）",
+    "path": "builds/trial-chambers-palette.md",
+    "tags": [
+      "build"
+    ],
+    "summary": "生成「试炼风」室内/地牢走廊时的方块组合；不包含刷怪笼机制详解。"
+  },
+  {
+    "id": "builds-window-opening-seal",
+    "title": "Window openings vs shell defects (Phase F)",
+    "path": "builds/window-opening-seal.md",
+    "tags": [
+      "build"
+    ],
+    "summary": "Window openings vs shell defects (Phase F)"
+  },
+  {
+    "id": "farms-ai-layout-notes",
+    "title": "建筑 AI：农场 / 刷怪布局注意事项",
+    "path": "farms/ai-layout-notes.md",
+    "tags": [
+      "farm"
+    ],
+    "summary": "建筑 AI：农场 / 刷怪布局注意事项"
+  },
+  {
+    "id": "farms-crop-animal-farms",
+    "title": "作物、甘蔗/竹子与动物农场（原理要点）",
+    "path": "farms/crop-animal-farms.md",
+    "tags": [
+      "farm"
+    ],
+    "summary": "作物、甘蔗/竹子与动物农场（原理要点）"
+  },
+  {
+    "id": "farms-mob-spawning-basics",
+    "title": "敌对刷怪规则入门（Java）",
+    "path": "farms/mob-spawning-basics.md",
+    "tags": [
+      "farm"
+    ],
+    "summary": "敌对刷怪规则入门（Java）"
+  },
+  {
+    "id": "farms-spawn-proofing",
+    "title": "防刷与建筑共存（照明、半砖、地毯、城市规划）",
+    "path": "farms/spawn-proofing.md",
+    "tags": [
+      "farm"
+    ],
+    "summary": "防刷与建筑共存（照明、半砖、地毯、城市规划）"
+  },
+  {
+    "id": "farms-spawner-farms",
+    "title": "刷怪笼农场与相关摘要（传送门 / 猪人）",
+    "path": "farms/spawner-farms.md",
+    "tags": [
+      "farm"
+    ],
+    "summary": "刷怪笼农场与相关摘要（传送门 / 猪人）"
+  },
+  {
+    "id": "farms-tower-types",
+    "title": "常见敌对刷怪塔类型（原理与布局约束）",
+    "path": "farms/tower-types.md",
+    "tags": [
+      "farm"
+    ],
+    "summary": "常见敌对刷怪塔类型（原理与布局约束）"
+  },
+  {
+    "id": "farms-trading-hall",
+    "title": "村民交易厅（原理与布局量级）",
+    "path": "farms/trading-hall.md",
+    "tags": [
+      "farm"
+    ],
+    "summary": "村民交易厅（原理与布局量级）"
+  },
+  {
+    "id": "farms-version-pitfalls",
+    "title": "农场 / 刷怪版本坑（Java → 26.3）",
+    "path": "farms/version-pitfalls.md",
+    "tags": [
+      "farm",
+      "version"
+    ],
+    "summary": "农场 / 刷怪版本坑（Java → 26.3）"
+  },
+  {
+    "id": "redstone-ai-constraints",
+    "title": "建筑 AI 的红石约束（别瞎放）",
+    "path": "redstone/ai-constraints.md",
+    "tags": [
+      "redstone"
+    ],
+    "summary": "建筑 AI 的红石约束（别瞎放）"
+  },
+  {
+    "id": "redstone-basics",
+    "title": "红石入门：信号、时间与基本组件（Java）",
+    "path": "redstone/basics.md",
+    "tags": [
+      "redstone"
+    ],
+    "summary": "红石入门：信号、时间与基本组件（Java）"
+  },
+  {
+    "id": "redstone-block-updates",
+    "title": "方块更新：NC / PP 与更新顺序（Java）",
+    "path": "redstone/block-updates.md",
+    "tags": [
+      "redstone",
+      "block"
+    ],
+    "summary": "讲清「谁通知谁变了」——理解 QC/BUD、观察者、计划刻的前置概念。给模板匹配与简化 tick 仿真用语对齐，**不是**完整原版引擎说明。"
+  },
+  {
+    "id": "redstone-circuits-common",
+    "title": "常用红石电路（Java / 26.3）",
+    "path": "redstone/circuits-common.md",
+    "tags": [
+      "redstone"
+    ],
+    "summary": "周期性开关，驱动农场、灯、发射器。"
+  },
+  {
+    "id": "redstone-components",
+    "title": "红石组件细表（Java / 26.3）",
+    "path": "redstone/components.md",
+    "tags": [
+      "redstone"
+    ],
+    "summary": "红石组件细表（Java / 26.3）"
+  },
+  {
+    "id": "redstone-copper-bulb-builds",
+    "title": "铜灯泡用于建筑照明（短记）",
+    "path": "redstone/copper-bulb-builds.md",
+    "tags": [
+      "redstone",
+      "build",
+      "copper"
+    ],
+    "summary": "补全「装饰照明」与红石开关灯；非工厂教程。"
+  },
+  {
+    "id": "redstone-powering-charging",
+    "title": "充能与激活：强弱电、供电 vs 激活（Java）",
+    "path": "redstone/powering-charging.md",
+    "tags": [
+      "redstone"
+    ],
+    "summary": "把玩家理论里的「强/弱充能」「给方块供电 vs 激活组件」收成建筑 AI / 模板匹配能用的规则。加深 [basics.md](basics.md) §3，避免只背口诀。"
+  },
+  {
+    "id": "redstone-qc-bud",
+    "title": "准连接（QC）与 BUD（Java）",
+    "path": "redstone/qc-bud.md",
+    "tags": [
+      "redstone"
+    ],
+    "summary": "把「附近方块发生了某种变化」变成红石脉冲/电平，而不是接一根显式输入线。"
+  },
+  {
+    "id": "redstone-signals-timing",
+    "title": "信号时序概念：瞬时线、活塞延伸与模板约束（Java）",
+    "path": "redstone/signals-timing.md",
+    "tags": [
+      "redstone"
+    ],
+    "summary": "把《剖析 MC》里「瞬时导线 / 活塞延伸」收成**高阶概念 + 模板约束**，供匹配与预留空间——**不教 AI 发明**这类电路。"
+  },
+  {
+    "id": "redstone-tile-ticks",
+    "title": "计划刻 / Tile ticks（Java，中级）",
+    "path": "redstone/tile-ticks.md",
+    "tags": [
+      "redstone"
+    ],
+    "summary": "区分「红石 tick」与「方块计划刻」，方便分析报告与简化仿真对齐。不实现原版计划刻队列。"
+  },
+  {
+    "id": "redstone-version-diffs",
+    "title": "红石版本差异摘要（建筑 / 电路向）",
+    "path": "redstone/version-diffs.md",
+    "tags": [
+      "redstone",
+      "version"
+    ],
+    "summary": "面向「换版本后电路坏了」和「生成装置该标最低版本」。"
+  },
+  {
+    "id": "sources-mcje-principles-playlist",
+    "title": "untitled",
+    "path": "sources/mcje-principles-playlist.md",
+    "tags": [
+      "sources"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "versions-1.14-1.15",
+    "title": "1.14–1.15：村庄与蜂巢（建筑向）",
+    "path": "versions/1.14-1.15.md",
+    "tags": [
+      "version"
+    ],
+    "summary": "1.14–1.15：村庄与蜂巢（建筑向）"
+  },
+  {
+    "id": "versions-1.16-nether",
+    "title": "1.16 下界更新（建筑向）",
+    "path": "versions/1.16-nether.md",
+    "tags": [
+      "version"
+    ],
+    "summary": "1.16 下界更新（建筑向）"
+  },
+  {
+    "id": "versions-1.17-1.18-caves",
+    "title": "1.17–1.18：洞穴与悬崖（高度 / 新方块）",
+    "path": "versions/1.17-1.18-caves.md",
+    "tags": [
+      "version"
+    ],
+    "summary": "1.17–1.18：洞穴与悬崖（高度 / 新方块）"
+  },
+  {
+    "id": "versions-1.19-1.20",
+    "title": "1.19–1.20：荒野与旅途传说（建筑向）",
+    "path": "versions/1.19-1.20.md",
+    "tags": [
+      "version"
+    ],
+    "summary": "1.19–1.20：荒野与旅途传说（建筑向）"
+  },
+  {
+    "id": "versions-1.21-26.x",
+    "title": "1.21–26.x：试炼、铜扩族与年号制（至 26.3）",
+    "path": "versions/1.21-26.x.md",
+    "tags": [
+      "version",
+      "1.21"
+    ],
+    "summary": "1.21–26.x：试炼、铜扩族与年号制（至 26.3）"
+  },
+  {
+    "id": "versions-ai-safe-palette",
+    "title": "AI 安全调色板：按版本生成 / 导出注意",
+    "path": "versions/ai-safe-palette.md",
+    "tags": [
+      "version"
+    ],
+    "summary": "AI 安全调色板：按版本生成 / 导出注意"
+  },
+  {
+    "id": "versions-breaking-changes",
+    "title": "建筑相关：破坏性变更与失效项",
+    "path": "versions/breaking-changes.md",
+    "tags": [
+      "version"
+    ],
+    "summary": "建筑相关：破坏性变更与失效项"
+  },
+  {
+    "id": "versions-flattening-1.13",
+    "title": "1.13 Flattening 与建筑相关 ID",
+    "path": "versions/flattening-1.13.md",
+    "tags": [
+      "version"
+    ],
+    "summary": "1.13 Flattening 与建筑相关 ID"
+  },
+  {
+    "id": "versions-overview",
+    "title": "版本时间线速查（Java Edition）",
+    "path": "versions/overview.md",
+    "tags": [
+      "version"
+    ],
+    "summary": "朋友语气速查：每个节点「加了什么」「搞坏了什么」「对建筑 AI 意味着啥」。"
+  }
+]

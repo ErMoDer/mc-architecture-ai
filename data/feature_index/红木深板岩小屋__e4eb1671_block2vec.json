@@ -1,0 +1,13 @@
+{
+  "id": "红木深板岩小屋__e4eb1671",
+  "dim": 144,
+  "n_chunks": 32,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "红木深板岩小屋__e4eb1671_block2vec.npy"
+}

@@ -1,0 +1,232 @@
+{
+  "id": "EouFAfUmYD-SuperSmelter_Mini_by_Silex",
+  "source_path": "data\\raw\\hack337\\schematics\\EouFAfUmYD-SuperSmelter_Mini_by_Silex.litematic",
+  "created_at": "2026-10-18T22:26:09+08:00",
+  "overview": {
+    "schematic_name": "SuperSmelter_Mini_by_Silex",
+    "size": {
+      "x": 9,
+      "y": 9,
+      "z": 10
+    },
+    "non_air": 153,
+    "density": 0.1889,
+    "unique_block_types": 13
+  },
+  "massing": {
+    "hollow_score": 0.6607,
+    "interior_air_frac": 0.6607,
+    "exterior_solid_frac": 0.0247,
+    "floor_guess": 2,
+    "y_peaks": [
+      4,
+      8
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 43,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.275,
+      "symmetry_z": 0.319,
+      "symmetry_y": 0.354
+    },
+    "solid_ratio": 0.1889
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "polished_deepslate",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_bars",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "rail",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "furnace",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_wall_sign",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 43,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 56
+    },
+    "remap_targets": [
+      "polished_deepslate",
+      "hopper",
+      "iron_bars",
+      "rail",
+      "furnace",
+      "barrel",
+      "powered_rail",
+      "redstone_torch",
+      "redstone_wire",
+      "chest",
+      "comparator",
+      "birch_wall_sign"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "scifi",
+      "modern",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.576,
+        "raw_score": 0.2263,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.334,
+        "raw_score": 0.1508
+      },
+      {
+        "style": "modern",
+        "confidence": 0.31,
+        "raw_score": 0.1425
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.085,
+        "raw_score": 0.0483
+      }
+    ]
+  },
+  "redstone": {
+    "total": 78,
+    "pattern_ids": [
+      "hopper_clock",
+      "hopper_line",
+      "auto_smelt_brew_line",
+      "etho_hopper_clock",
+      "rs_latch"
+    ],
+    "pattern_labels": [
+      "漏斗钟",
+      "漏斗输送线",
+      "自动烧炼/酿造线",
+      "多漏斗环钟嫌疑",
+      "RS 锁存（火把）嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 5,
+      "redstone_torch": 5,
+      "comparator": 4,
+      "lever": 1,
+      "hopper": 39,
+      "powered_rail": 6,
+      "rail": 10,
+      "furnace": 8
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\EouFAfUmYD-SuperSmelter_Mini_by_Silex_skeleton.npz",
+    "occupancy_frac": 0.180084228515625,
+    "occupied": 5901
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "demoted_from_industrial:smelter",
+  "previous_mapped_style": "industrial"
+}

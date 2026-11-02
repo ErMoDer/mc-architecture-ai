@@ -1,0 +1,201 @@
+{
+  "id": "c315545d547d_Small_20Bridge",
+  "source_path": "data\\raw\\hack337\\schematics\\c315545d547d_Small%20Bridge.litematic",
+  "created_at": "2026-10-18T22:25:49+08:00",
+  "overview": {
+    "schematic_name": "Small Bridge",
+    "size": {
+      "x": 13,
+      "y": 6,
+      "z": 5
+    },
+    "non_air": 202,
+    "density": 0.5179,
+    "unique_block_types": 11
+  },
+  "massing": {
+    "hollow_score": 0.5,
+    "interior_air_frac": 0.5,
+    "exterior_solid_frac": 0.3487,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 61,
+      "walls": 4,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 2,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 1,
+      "lanterns": 4,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9707,
+      "symmetry_z": 0.9707,
+      "symmetry_y": 0.0688
+    },
+    "solid_ratio": 0.5179
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 33,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "podzol",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_leaves",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 2,
+      "stone": 32,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 1,
+      "metal": 0
+    },
+    "remap_targets": [
+      "dirt",
+      "water",
+      "spruce_slab",
+      "cobblestone_slab",
+      "podzol",
+      "dirt_path",
+      "cobblestone_wall",
+      "lantern",
+      "grass_block",
+      "spruce_log",
+      "spruce_leaves"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.75,
+        "raw_score": 0.4,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.661,
+        "raw_score": 0.3683
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.37,
+        "raw_score": 0.2476
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.29,
+        "raw_score": 0.2078
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.262,
+        "raw_score": 0.1929
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\c315545d547d_Small_20Bridge_skeleton.npz",
+    "occupancy_frac": 0.5355224609375,
+    "occupied": 17548
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

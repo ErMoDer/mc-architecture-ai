@@ -1,0 +1,230 @@
+{
+  "id": "8b568b8641af_Nether_20Theamed_20Stash",
+  "source_path": "data\\raw\\hack337\\schematics\\8b568b8641af_Nether%20Theamed%20Stash.litematic",
+  "created_at": "2026-10-18T22:25:31+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 23,
+      "y": 10,
+      "z": 11
+    },
+    "non_air": 883,
+    "density": 0.349,
+    "unique_block_types": 38
+  },
+  "massing": {
+    "hollow_score": 0.6488,
+    "interior_air_frac": 0.6488,
+    "exterior_solid_frac": 0.1391,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      5,
+      8
+    ],
+    "families": {
+      "stairs": 4,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 61,
+      "logs": 333,
+      "planks": 192,
+      "stone_bricks": 0,
+      "deepslate": 30,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 24,
+      "copper": 10,
+      "nether": 551
+    },
+    "symmetry": {
+      "symmetry_x": 0.8708,
+      "symmetry_z": 0.8807,
+      "symmetry_y": 0.591
+    },
+    "solid_ratio": 0.349
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "crimson_planks",
+        "count": 98,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_planks",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_hyphae",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_crimson_stem",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_warped_stem",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_hyphae",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_crimson_hyphae",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_warped_hyphae",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "weeping_vines_plant",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_chain",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "twisting_vines_plant",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_stained_glass",
+        "count": 17,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 525,
+      "stone": 0,
+      "deepslate": 30,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 61,
+      "nether": 24,
+      "copper": 10,
+      "prismarine": 2,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 66
+    },
+    "remap_targets": [
+      "crimson_planks",
+      "warped_planks",
+      "crimson_hyphae",
+      "barrel",
+      "stripped_crimson_stem",
+      "stripped_warped_stem",
+      "warped_hyphae",
+      "stripped_crimson_hyphae",
+      "stripped_warped_hyphae",
+      "hopper",
+      "deepslate_tiles",
+      "weeping_vines_plant"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "nether",
+    "style_id": 5,
+    "terrain_id": 3,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5901,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.643,
+        "raw_score": 0.4653
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.561,
+        "raw_score": 0.4265
+      },
+      {
+        "style": "western",
+        "confidence": 0.561,
+        "raw_score": 0.4265
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.183,
+        "raw_score": 0.197
+      }
+    ]
+  },
+  "redstone": {
+    "total": 40,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "hopper": 40
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\8b568b8641af_Nether_20Theamed_20Stash_skeleton.npz",
+    "occupancy_frac": 0.35076904296875,
+    "occupied": 11494
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

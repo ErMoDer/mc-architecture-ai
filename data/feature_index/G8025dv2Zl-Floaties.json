@@ -1,0 +1,183 @@
+{
+  "id": "G8025dv2Zl-Floaties",
+  "source_path": "data\\raw\\hack337\\schematics\\G8025dv2Zl-Floaties.litematic",
+  "created_at": "2026-10-18T22:26:15+08:00",
+  "overview": {
+    "schematic_name": "Floaties",
+    "size": {
+      "x": 13,
+      "y": 4,
+      "z": 7
+    },
+    "non_air": 23,
+    "density": 0.0632,
+    "unique_block_types": 7
+  },
+  "massing": {
+    "hollow_score": 0.9273,
+    "interior_air_frac": 0.9273,
+    "exterior_solid_frac": 0.0412,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 1,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 10,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 2,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.0,
+      "symmetry_z": 0.0952,
+      "symmetry_y": 0.0455
+    },
+    "solid_ratio": 0.0632
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "yellow_stained_glass",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_stained_glass_pane",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "red_mushroom_block",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "tripwire",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_button",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_slab",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 2,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 10,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "yellow_stained_glass",
+      "yellow_stained_glass_pane",
+      "red_mushroom_block",
+      "tripwire",
+      "stone_bricks",
+      "dark_oak_button",
+      "acacia_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "modern",
+      "scifi",
+      "fantasy",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.584,
+        "raw_score": 0.2344,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "modern",
+        "confidence": 0.574,
+        "raw_score": 0.2315
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.542,
+        "raw_score": 0.2222
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.409,
+        "raw_score": 0.1806
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.21,
+        "raw_score": 0.1075
+      }
+    ]
+  },
+  "redstone": {
+    "total": 6,
+    "pattern_ids": [
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "button": 2,
+      "tripwire": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\G8025dv2Zl-Floaties_skeleton.npz",
+    "occupancy_frac": 0.061279296875,
+    "occupied": 2008
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

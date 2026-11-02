@@ -1,0 +1,13 @@
+{
+  "id": "tripwire_trap_basic",
+  "matches": [
+    "tripwire_trap"
+  ],
+  "label_zh": "绊线陷阱",
+  "size": [
+    3,
+    1,
+    1
+  ],
+  "notes": "钩+线+钩；输出需接到发射器等（未含）。"
+}

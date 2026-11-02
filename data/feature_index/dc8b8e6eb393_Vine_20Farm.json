@@ -1,0 +1,212 @@
+{
+  "id": "dc8b8e6eb393_Vine_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\dc8b8e6eb393_Vine%20Farm.litematic",
+  "created_at": "2026-10-18T22:25:59+08:00",
+  "overview": {
+    "schematic_name": "Vine Farm",
+    "size": {
+      "x": 18,
+      "y": 7,
+      "z": 42
+    },
+    "non_air": 3277,
+    "density": 0.6192,
+    "unique_block_types": 12
+  },
+  "massing": {
+    "hollow_score": 0.3478,
+    "interior_air_frac": 0.3478,
+    "exterior_solid_frac": 0.2249,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      5
+    ],
+    "families": {
+      "stairs": 21,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 700,
+      "planks": 0,
+      "stone_bricks": 9,
+      "deepslate": 277,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8297,
+      "symmetry_z": 0.7937,
+      "symmetry_y": 0.5196
+    },
+    "solid_ratio": 0.6192
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "vine",
+        "count": 2042,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_wood",
+        "count": 351,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_jungle_wood",
+        "count": 349,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 265,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 102,
+        "frac": 0.0
+      },
+      {
+        "name": "gravel",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 700,
+      "stone": 111,
+      "deepslate": 277,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "vine",
+      "jungle_wood",
+      "stripped_jungle_wood",
+      "deepslate_tiles",
+      "stone",
+      "gravel",
+      "dirt",
+      "torch",
+      "deepslate_tile_stairs",
+      "stone_brick_stairs",
+      "dirt_path",
+      "glowstone"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5482,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.607,
+        "raw_score": 0.428
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.531,
+        "raw_score": 0.3923
+      },
+      {
+        "style": "western",
+        "confidence": 0.497,
+        "raw_score": 0.3753
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.219,
+        "raw_score": 0.2134
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\dc8b8e6eb393_Vine_20Farm_skeleton.npz",
+    "occupancy_frac": 0.667572021484375,
+    "occupied": 21875
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

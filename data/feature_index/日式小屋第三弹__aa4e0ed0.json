@@ -1,0 +1,272 @@
+{
+  "id": "日式小屋第三弹__aa4e0ed0",
+  "source_path": "data\\raw\\mcblock\\日式小屋第三弹__aa4e0ed0.litematic",
+  "created_at": "2026-10-19T13:01:11+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 18,
+      "y": 14,
+      "z": 19
+    },
+    "non_air": 1066,
+    "density": 0.2226,
+    "unique_block_types": 35
+  },
+  "massing": {
+    "hollow_score": 0.735,
+    "interior_air_frac": 0.735,
+    "exterior_solid_frac": 0.042,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      5,
+      8
+    ],
+    "families": {
+      "stairs": 180,
+      "slabs": 568,
+      "walls": 0,
+      "fences": 16,
+      "doors": 0,
+      "trapdoors": 4,
+      "glass": 0,
+      "logs": 181,
+      "planks": 29,
+      "stone_bricks": 12,
+      "deepslate": 0,
+      "terracotta": 25,
+      "concrete": 0,
+      "wool": 25,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4026,
+      "symmetry_z": 0.3755,
+      "symmetry_y": 0.16
+    },
+    "solid_ratio": 0.2226
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dark_oak_slab",
+        "count": 273,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 223,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 181,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_stairs",
+        "count": 130,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_slab",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_terracotta",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_planks",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_carpet",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_carpet",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence_gate",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_block",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 6,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 210,
+      "stone": 13,
+      "deepslate": 0,
+      "terracotta": 25,
+      "concrete": 0,
+      "wool": 25,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 5
+    },
+    "remap_targets": [
+      "dark_oak_slab",
+      "spruce_slab",
+      "spruce_log",
+      "quartz_stairs",
+      "acacia_slab",
+      "spruce_stairs",
+      "yellow_terracotta",
+      "dark_oak_planks",
+      "acacia_planks",
+      "light_blue_carpet",
+      "stone_brick_slab",
+      "dark_oak_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "japanese",
+    "mapped_terrain": "flat",
+    "style_id": 7,
+    "terrain_id": 0,
+    "guess_names": [
+      "japanese",
+      "rustic",
+      "chinese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "japanese",
+        "confidence": 0.85,
+        "raw_score": 0.6984,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.753,
+        "raw_score": 0.6187
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.588,
+        "raw_score": 0.4892
+      },
+      {
+        "style": "western",
+        "confidence": 0.526,
+        "raw_score": 0.4556
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.175,
+        "raw_score": 0.2155
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 26,
+    "pattern_ids": [
+      "simple_io",
+      "tripwire_trap",
+      "trapped_chest_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱",
+      "陷阱箱线路"
+    ],
+    "inventory_nonzero": {
+      "lever": 1,
+      "button": 3,
+      "pressure_plate": 1,
+      "hopper": 1,
+      "dropper": 1,
+      "redstone_lamp": 1,
+      "trapdoor": 4,
+      "fence_gate": 9,
+      "tripwire": 1,
+      "furnace": 1,
+      "trapped_chest": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\日式小屋第三弹__aa4e0ed0_skeleton.npz",
+    "occupancy_frac": 0.23114013671875,
+    "occupied": 7574
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 8,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\日式小屋第三弹__aa4e0ed0_block2vec.npy",
+    "vector_preview": [
+      -0.08459,
+      0.09536,
+      -0.08138,
+      -0.06806,
+      0.14647,
+      0.0259,
+      -0.02427,
+      0.03672
+    ],
+    "ok": true
+  }
+}

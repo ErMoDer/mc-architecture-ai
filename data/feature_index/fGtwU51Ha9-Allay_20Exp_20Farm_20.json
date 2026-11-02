@@ -1,0 +1,194 @@
+{
+  "id": "fGtwU51Ha9-Allay_20Exp_20Farm_20",
+  "source_path": "data\\raw\\hack337\\schematics\\fGtwU51Ha9-Allay%20Exp%20Farm%20.litematic",
+  "created_at": "2026-10-18T22:26:12+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 17,
+      "y": 18,
+      "z": 25
+    },
+    "non_air": 840,
+    "density": 0.1098,
+    "unique_block_types": 9
+  },
+  "massing": {
+    "hollow_score": 0.8482,
+    "interior_air_frac": 0.8482,
+    "exterior_solid_frac": 0.0003,
+    "floor_guess": 2,
+    "y_peaks": [
+      9,
+      12
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 277,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 4,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.697,
+      "symmetry_z": 0.5834,
+      "symmetry_y": 0.1141
+    },
+    "solid_ratio": 0.1098
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 299,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 277,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 152,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_button",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 277,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "dirt",
+      "glass",
+      "water",
+      "grass_block",
+      "redstone_wire",
+      "campfire",
+      "dispenser",
+      "repeater",
+      "oak_button"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.628,
+        "raw_score": 0.2778,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.592,
+        "raw_score": 0.2667
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.31,
+        "raw_score": 0.1667
+      },
+      {
+        "style": "european",
+        "confidence": 0.253,
+        "raw_score": 0.1429
+      }
+    ]
+  },
+  "redstone": {
+    "total": 42,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "instant_wire"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "瞬间线/同向中继器线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 32,
+      "repeater": 4,
+      "button": 2,
+      "dispenser": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\fGtwU51Ha9-Allay_20Exp_20Farm_20_skeleton.npz",
+    "occupancy_frac": 0.11676025390625,
+    "occupied": 3826
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

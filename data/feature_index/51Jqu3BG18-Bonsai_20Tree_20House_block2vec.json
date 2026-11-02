@@ -1,0 +1,13 @@
+{
+  "id": "51Jqu3BG18-Bonsai_20Tree_20House",
+  "dim": 144,
+  "n_chunks": 18,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "51Jqu3BG18-Bonsai_20Tree_20House_block2vec.npy"
+}

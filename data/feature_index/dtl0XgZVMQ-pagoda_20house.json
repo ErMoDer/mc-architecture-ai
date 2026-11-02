@@ -1,0 +1,257 @@
+{
+  "id": "dtl0XgZVMQ-pagoda_20house",
+  "source_path": "data\\raw\\hack337\\schematics\\dtl0XgZVMQ-pagoda%20house.litematic",
+  "created_at": "2026-10-18T22:26:02+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 11,
+      "y": 24,
+      "z": 13
+    },
+    "non_air": 986,
+    "density": 0.2873,
+    "unique_block_types": 34
+  },
+  "massing": {
+    "hollow_score": 0.5937,
+    "interior_air_frac": 0.5937,
+    "exterior_solid_frac": 0.0294,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      3,
+      9,
+      13
+    ],
+    "families": {
+      "stairs": 143,
+      "slabs": 94,
+      "walls": 0,
+      "fences": 93,
+      "doors": 3,
+      "trapdoors": 16,
+      "glass": 120,
+      "logs": 183,
+      "planks": 198,
+      "stone_bricks": 39,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 2,
+      "wool": 16,
+      "leaves": 0,
+      "lanterns": 17,
+      "copper": 0,
+      "nether": 2
+    },
+    "symmetry": {
+      "symmetry_x": 0.9467,
+      "symmetry_z": 0.4259,
+      "symmetry_y": 0.2561
+    },
+    "solid_ratio": 0.2873
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dark_oak_planks",
+        "count": 109,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence",
+        "count": 91,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 89,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_log",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_log",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "red_carpet",
+        "count": 15,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 381,
+      "stone": 41,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 2,
+      "wool": 16,
+      "glass": 120,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "dark_oak_planks",
+      "dark_oak_fence",
+      "spruce_planks",
+      "stripped_spruce_log",
+      "dark_oak_slab",
+      "spruce_stairs",
+      "glass_pane",
+      "dark_oak_stairs",
+      "stripped_dark_oak_log",
+      "glass",
+      "dark_oak_log",
+      "stone_bricks"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5691,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.623,
+        "raw_score": 0.4455
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.544,
+        "raw_score": 0.4083
+      },
+      {
+        "style": "western",
+        "confidence": 0.519,
+        "raw_score": 0.3962
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.232,
+        "raw_score": 0.2285
+      }
+    ]
+  },
+  "redstone": {
+    "total": 27,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 6,
+      "pressure_plate": 2,
+      "door": 3,
+      "trapdoor": 16
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\dtl0XgZVMQ-pagoda_20house_skeleton.npz",
+    "occupancy_frac": 0.307464599609375,
+    "occupied": 10075
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 3,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\dtl0XgZVMQ-pagoda_20house_block2vec.npy",
+    "vector_preview": [
+      -0.06604,
+      0.18983,
+      -0.09775,
+      0.06496,
+      0.10097,
+      -0.00548,
+      -0.06719,
+      0.01858
+    ],
+    "ok": true
+  }
+}

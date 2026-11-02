@@ -1,0 +1,14 @@
+{
+  "id": "rs_latch_torch",
+  "matches": [
+    "rs_latch",
+    "torch_logic_lattice"
+  ],
+  "label_zh": "RS 锁存（双火把）粗骨架",
+  "size": [
+    3,
+    1,
+    2
+  ],
+  "notes": "教学向双火把互锁示意，落地后常需按游戏版微调，非验证真值表。"
+}

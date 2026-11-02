@@ -1,0 +1,13 @@
+{
+  "id": "湖畔小屋第二弹__94251ef3",
+  "dim": 144,
+  "n_chunks": 1,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "湖畔小屋第二弹__94251ef3_block2vec.npy"
+}

@@ -1,0 +1,233 @@
+{
+  "id": "t46AUmNU6h-sex",
+  "source_path": "data\\raw\\hack337\\schematics\\t46AUmNU6h-sex.litematic",
+  "created_at": "2026-10-18T22:27:11+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 31,
+      "y": 19,
+      "z": 46
+    },
+    "non_air": 6565,
+    "density": 0.2423,
+    "unique_block_types": 41
+  },
+  "massing": {
+    "hollow_score": 0.7899,
+    "interior_air_frac": 0.7899,
+    "exterior_solid_frac": 0.0741,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      7,
+      12
+    ],
+    "families": {
+      "stairs": 126,
+      "slabs": 18,
+      "walls": 50,
+      "fences": 0,
+      "doors": 20,
+      "trapdoors": 28,
+      "glass": 325,
+      "logs": 5,
+      "planks": 65,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 18,
+      "concrete": 1636,
+      "wool": 22,
+      "leaves": 56,
+      "lanterns": 25,
+      "copper": 0,
+      "nether": 50
+    },
+    "symmetry": {
+      "symmetry_x": 0.5825,
+      "symmetry_z": 0.6782,
+      "symmetry_y": 0.0673
+    },
+    "solid_ratio": 0.2423
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 2786,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 1600,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 538,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 483,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 165,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass_pane",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite",
+        "count": 139,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz_stairs",
+        "count": 122,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 105,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_wall",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_door",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_concrete",
+        "count": 20,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 70,
+      "stone": 676,
+      "deepslate": 0,
+      "terracotta": 18,
+      "concrete": 1636,
+      "wool": 22,
+      "glass": 325,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 2,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 56,
+      "metal": 0
+    },
+    "remap_targets": [
+      "dirt",
+      "white_concrete",
+      "grass_block",
+      "andesite",
+      "glass",
+      "black_stained_glass_pane",
+      "polished_andesite",
+      "smooth_quartz_stairs",
+      "water",
+      "oak_planks",
+      "oak_leaves",
+      "polished_blackstone_wall"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "industrial",
+      "scifi",
+      "european",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.609,
+        "raw_score": 0.2594,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.389,
+        "raw_score": 0.1877
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.385,
+        "raw_score": 0.1864
+      },
+      {
+        "style": "european",
+        "confidence": 0.225,
+        "raw_score": 0.1234
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.172,
+        "raw_score": 0.0993
+      }
+    ]
+  },
+  "redstone": {
+    "total": 52,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 20,
+      "trapdoor": 28,
+      "smoker": 2,
+      "shulker_box": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\t46AUmNU6h-sex_skeleton.npz",
+    "occupancy_frac": 0.278045654296875,
+    "occupied": 9111
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

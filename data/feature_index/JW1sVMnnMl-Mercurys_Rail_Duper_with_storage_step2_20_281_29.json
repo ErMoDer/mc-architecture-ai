@@ -1,0 +1,237 @@
+{
+  "id": "JW1sVMnnMl-Mercurys_Rail_Duper_with_storage_step2_20_281_29",
+  "source_path": "data\\raw\\hack337\\schematics\\JW1sVMnnMl-Mercurys_Rail_Duper_with_storage_step2%20%281%29.litematic",
+  "created_at": "2026-10-18T22:26:24+08:00",
+  "overview": {
+    "schematic_name": "Mercury_duper_step2",
+    "size": {
+      "x": 6,
+      "y": 9,
+      "z": 5
+    },
+    "non_air": 54,
+    "density": 0.2,
+    "unique_block_types": 15
+  },
+  "massing": {
+    "hollow_score": 0.5952,
+    "interior_air_frac": 0.5952,
+    "exterior_solid_frac": 0.0741,
+    "floor_guess": 2,
+    "y_peaks": [
+      4,
+      7
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 5,
+      "walls": 4,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 15,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2857,
+      "symmetry_z": 0.7419,
+      "symmetry_y": 0.44
+    },
+    "solid_ratio": 0.2
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "piston",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "composter",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 15,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 6
+    },
+    "remap_targets": [
+      "piston",
+      "hopper",
+      "stone_bricks",
+      "stone_brick_slab",
+      "chest",
+      "piston_head",
+      "observer",
+      "stone_brick_wall",
+      "powered_rail",
+      "redstone_torch",
+      "composter",
+      "redstone_wire"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "industrial",
+      "fantasy",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.835,
+        "raw_score": 0.4847,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.746,
+        "raw_score": 0.4514
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.242,
+        "raw_score": 0.2095
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.195,
+        "raw_score": 0.1786
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.129,
+        "raw_score": 0.1299
+      }
+    ]
+  },
+  "redstone": {
+    "total": 33,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "redstone_wire": 1,
+      "redstone_torch": 4,
+      "repeater": 1,
+      "lever": 1,
+      "piston": 8,
+      "observer": 4,
+      "hopper": 6,
+      "powered_rail": 4,
+      "piston_head": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\JW1sVMnnMl-Mercurys_Rail_Duper_with_storage_step2_20_281_29_skeleton.npz",
+    "occupancy_frac": 0.2069091796875,
+    "occupied": 6780
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:duper",
+  "previous_mapped_style": "chinese"
+}

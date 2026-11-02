@@ -1,0 +1,270 @@
+{
+  "id": "9e1cb782e507_Minecraft_20Moss_20Farm_201_21",
+  "source_path": "data\\raw\\hack337\\schematics\\9e1cb782e507_Minecraft%20Moss%20Farm%201.21.litematic",
+  "created_at": "2026-10-18T22:25:36+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 12,
+      "y": 8,
+      "z": 15
+    },
+    "non_air": 484,
+    "density": 0.3361,
+    "unique_block_types": 22
+  },
+  "massing": {
+    "hollow_score": 0.4654,
+    "interior_air_frac": 0.4654,
+    "exterior_solid_frac": 0.0465,
+    "floor_guess": 1,
+    "y_peaks": [
+      4
+    ],
+    "families": {
+      "stairs": 14,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 7,
+      "glass": 118,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 70,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6187,
+      "symmetry_z": 0.8796,
+      "symmetry_y": 0.4448
+    },
+    "solid_ratio": 0.3361
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "glass",
+        "count": 118,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_wool",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_stairs",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 5,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 92,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 70,
+      "glass": 118,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 1,
+      "metal": 22
+    },
+    "remap_targets": [
+      "glass",
+      "stone",
+      "purple_wool",
+      "redstone_wire",
+      "chest",
+      "hopper",
+      "redstone_wall_torch",
+      "sticky_piston",
+      "piston",
+      "stone_stairs",
+      "lava",
+      "piston_head"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "fantasy",
+      "modern",
+      "scifi",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.536,
+        "raw_score": 0.1858,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.513,
+        "raw_score": 0.1799
+      },
+      {
+        "style": "modern",
+        "confidence": 0.346,
+        "raw_score": 0.1331
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.314,
+        "raw_score": 0.1232
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.298,
+        "raw_score": 0.1181
+      }
+    ]
+  },
+  "redstone": {
+    "total": 156,
+    "pattern_ids": [
+      "piston_door",
+      "hopper_line",
+      "qc_piston_bank",
+      "etho_hopper_clock",
+      "edge_detector",
+      "hopper_clock",
+      "t_flip_flop",
+      "monostable",
+      "zero_tick_bud_freerun",
+      "pulse_limiter",
+      "torch_logic_lattice",
+      "water_hopper_stream",
+      "falling_edge",
+      "torch_xor_gate"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "漏斗输送线",
+      "QC/BUD 活塞组",
+      "多漏斗环钟嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "火把逻辑阵（AND/OR/NOR/XOR）嫌疑",
+      "水流漏斗收集线嫌疑",
+      "下降沿/双火把脉冲嫌疑",
+      "火把 XOR/同或门嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 43,
+      "redstone_torch": 18,
+      "repeater": 9,
+      "comparator": 3,
+      "lever": 1,
+      "piston": 15,
+      "sticky_piston": 18,
+      "observer": 5,
+      "hopper": 22,
+      "dropper": 1,
+      "dispenser": 1,
+      "trapdoor": 7,
+      "piston_head": 13
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\9e1cb782e507_Minecraft_20Moss_20Farm_201_21_skeleton.npz",
+    "occupancy_frac": 0.3333740234375,
+    "occupied": 10924
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "id": "绯红瓦拉纳__ae75fb9c",
+  "source_path": "data\\raw\\mcblock\\绯红瓦拉纳__ae75fb9c.litematic",
+  "created_at": "2026-10-19T20:38:13+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 38,
+      "y": 29,
+      "z": 40
+    },
+    "non_air": 4025,
+    "density": 0.0913,
+    "unique_block_types": 100
+  },
+  "massing": {
+    "hollow_score": 0.9174,
+    "interior_air_frac": 0.9174,
+    "exterior_solid_frac": 0.0221,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      7,
+      10,
+      13,
+      18
+    ],
+    "families": {
+      "stairs": 256,
+      "slabs": 219,
+      "walls": 10,
+      "fences": 6,
+      "doors": 2,
+      "trapdoors": 190,
+      "glass": 23,
+      "logs": 304,
+      "planks": 625,
+      "stone_bricks": 5,
+      "deepslate": 0,
+      "terracotta": 362,
+      "concrete": 34,
+      "wool": 38,
+      "leaves": 90,
+      "lanterns": 20,
+      "copper": 0,
+      "nether": 1573
+    },
+    "symmetry": {
+      "symmetry_x": 0.5149,
+      "symmetry_z": 0.5772,
+      "symmetry_y": 0.0814
+    },
+    "solid_ratio": 0.0913
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "crimson_planks",
+        "count": 601,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 352,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 296,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_crimson_stem",
+        "count": 272,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_cobblestone",
+        "count": 269,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_stairs",
+        "count": 225,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_slab",
+        "count": 205,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_trapdoor",
+        "count": 190,
+        "frac": 0.0
+      },
+      {
+        "name": "amethyst_block",
+        "count": 171,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 167,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_terracotta",
+        "count": 158,
+        "frac": 0.0
+      },
+      {
+        "name": "magenta_terracotta",
+        "count": 106,
+        "frac": 0.0
+      },
+      {
+        "name": "flowering_azalea_leaves",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 67,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_terracotta",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "small_amethyst_bud",
+        "count": 44,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 930,
+      "stone": 739,
+      "deepslate": 0,
+      "terracotta": 362,
+      "concrete": 34,
+      "wool": 38,
+      "glass": 23,
+      "nether": 670,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 471,
+      "metal": 7
+    },
+    "remap_targets": [
+      "crimson_planks",
+      "moss_block",
+      "calcite",
+      "stripped_crimson_stem",
+      "mossy_cobblestone",
+      "crimson_stairs",
+      "crimson_slab",
+      "crimson_trapdoor",
+      "amethyst_block",
+      "grass_block",
+      "light_blue_terracotta",
+      "magenta_terracotta"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "japanese",
+      "rustic",
+      "fantasy",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.598,
+        "raw_score": 0.248,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.569,
+        "raw_score": 0.2393
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.559,
+        "raw_score": 0.2362
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.553,
+        "raw_score": 0.2345
+      },
+      {
+        "style": "western",
+        "confidence": 0.397,
+        "raw_score": 0.1841
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 199,
+    "pattern_ids": [
+      "sculk_sensor_line"
+    ],
+    "pattern_labels": [
+      "幽匿感测线"
+    ],
+    "inventory_nonzero": {
+      "door": 2,
+      "trapdoor": 190,
+      "sculk_sensor": 1,
+      "brewing_stand": 2,
+      "smoker": 2,
+      "shulker_box": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\绯红瓦拉纳__ae75fb9c_skeleton.npz",
+    "occupancy_frac": 0.113677978515625,
+    "occupied": 3725
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 25,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\绯红瓦拉纳__ae75fb9c_block2vec.npy",
+    "vector_preview": [
+      -0.04284,
+      0.0945,
+      0.00472,
+      -0.02795,
+      0.08722,
+      -0.05231,
+      -0.10843,
+      0.04987
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "蔓生绯红小屋__9028e3a1",
+        "score": 0.9128457491353151,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\蔓生绯红小屋__9028e3a1.litematic"
+      },
+      {
+        "id": "金合欢品红花园小屋__3c8bcffc",
+        "score": 0.8528210289657518,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\金合欢品红花园小屋__3c8bcffc.litematic"
+      },
+      {
+        "id": "诡秘宅邸__1297eb9f",
+        "score": 0.8467443221187383,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\诡秘宅邸__1297eb9f.litematic"
+      },
+      {
+        "id": "粉顶童话小屋__98b1acba",
+        "score": 0.8418542891382438,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\粉顶童话小屋__98b1acba.litematic"
+      },
+      {
+        "id": "樱花尖塔小屋__b0c933a1",
+        "score": 0.8331465732328074,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\樱花尖塔小屋__b0c933a1.litematic"
+      }
+    ]
+  }
+}

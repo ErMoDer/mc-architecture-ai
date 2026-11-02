@@ -1,0 +1,301 @@
+{
+  "id": "班德尔城居所__b166d522",
+  "source_path": "data\\raw\\mcblock\\班德尔城居所__b166d522.litematic",
+  "created_at": "2026-10-19T20:33:45+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 22,
+      "y": 44,
+      "z": 34
+    },
+    "non_air": 4506,
+    "density": 0.1369,
+    "unique_block_types": 97
+  },
+  "massing": {
+    "hollow_score": 0.8478,
+    "interior_air_frac": 0.8478,
+    "exterior_solid_frac": 0.0126,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      5,
+      9,
+      12,
+      19,
+      23
+    ],
+    "families": {
+      "stairs": 316,
+      "slabs": 347,
+      "walls": 15,
+      "fences": 29,
+      "doors": 2,
+      "trapdoors": 309,
+      "glass": 16,
+      "logs": 366,
+      "planks": 351,
+      "stone_bricks": 195,
+      "deepslate": 0,
+      "terracotta": 274,
+      "concrete": 63,
+      "wool": 182,
+      "leaves": 102,
+      "lanterns": 42,
+      "copper": 190,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2332,
+      "symmetry_z": 0.3379,
+      "symmetry_y": 0.079
+    },
+    "solid_ratio": 0.1369
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "sandstone",
+        "count": 409,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_bricks",
+        "count": 376,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 336,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 252,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_sandstone",
+        "count": 247,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 242,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 231,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 209,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 183,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite",
+        "count": 144,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 126,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_terracotta",
+        "count": 107,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 102,
+        "frac": 0.0
+      },
+      {
+        "name": "copper_block",
+        "count": 85,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_terracotta",
+        "count": 72,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 794,
+      "stone": 1599,
+      "deepslate": 0,
+      "terracotta": 274,
+      "concrete": 63,
+      "wool": 182,
+      "glass": 16,
+      "nether": 0,
+      "copper": 190,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 121,
+      "metal": 15
+    },
+    "remap_targets": [
+      "sandstone",
+      "tuff_bricks",
+      "spruce_planks",
+      "spruce_slab",
+      "smooth_sandstone",
+      "spruce_trapdoor",
+      "oak_log",
+      "spruce_stairs",
+      "stone_bricks",
+      "polished_diorite",
+      "stripped_spruce_log",
+      "diorite"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "chinese",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.616,
+        "raw_score": 0.2661,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.611,
+        "raw_score": 0.2647
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.568,
+        "raw_score": 0.2514
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.521,
+        "raw_score": 0.2364
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.512,
+        "raw_score": 0.2335
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 350,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 2,
+      "trapdoor": 309,
+      "brewing_stand": 1,
+      "furnace": 2,
+      "smoker": 1,
+      "lectern": 1,
+      "chiseled_bookshelf": 5,
+      "honey_block": 29
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\班德尔城居所__b166d522_skeleton.npz",
+    "occupancy_frac": 0.15911865234375,
+    "occupied": 5214
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 34,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\班德尔城居所__b166d522_block2vec.npy",
+    "vector_preview": [
+      -0.04019,
+      0.23404,
+      -0.14832,
+      -0.02273,
+      0.06967,
+      0.01775,
+      -0.09623,
+      0.03682
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "KxjsdNuMN2-House_20Cyan_20Roof",
+        "score": 0.9396240848052465,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\KxjsdNuMN2-House%20Cyan%20Roof.litematic"
+      },
+      {
+        "id": "槲寄生庄园__c8c5964a",
+        "score": 0.9330435962447456,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\槲寄生庄园__c8c5964a.litematic"
+      },
+      {
+        "id": "圣诞屋__4bc183f9",
+        "score": 0.9330435962447456,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\圣诞屋__4bc183f9.litematic"
+      },
+      {
+        "id": "6m3HmFzk0x-Enchant_20Tower",
+        "score": 0.9322772881495291,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\6m3HmFzk0x-Enchant%20Tower.litematic"
+      },
+      {
+        "id": "法师居所__3d1599a3",
+        "score": 0.928596705750701,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\法师居所__3d1599a3.litematic"
+      }
+    ]
+  }
+}

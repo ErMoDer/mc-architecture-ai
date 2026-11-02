@@ -1,0 +1,244 @@
+{
+  "id": "Fol52JWSv4-Cozy_20Chessboard_20House",
+  "source_path": "data\\raw\\hack337\\schematics\\Fol52JWSv4-Cozy%20Chessboard%20House.litematic",
+  "created_at": "2026-10-18T22:26:13+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 39,
+      "y": 16,
+      "z": 31
+    },
+    "non_air": 5820,
+    "density": 0.3009,
+    "unique_block_types": 70
+  },
+  "massing": {
+    "hollow_score": 0.6943,
+    "interior_air_frac": 0.6943,
+    "exterior_solid_frac": 0.0635,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      8,
+      13
+    ],
+    "families": {
+      "stairs": 22,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 76,
+      "doors": 12,
+      "trapdoors": 23,
+      "glass": 563,
+      "logs": 0,
+      "planks": 217,
+      "stone_bricks": 0,
+      "deepslate": 6,
+      "terracotta": 0,
+      "concrete": 1004,
+      "wool": 523,
+      "leaves": 82,
+      "lanterns": 16,
+      "copper": 0,
+      "nether": 8
+    },
+    "symmetry": {
+      "symmetry_x": 0.5328,
+      "symmetry_z": 0.6638,
+      "symmetry_y": 0.3064
+    },
+    "solid_ratio": 0.3009
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 1048,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 909,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 727,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 396,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 386,
+        "frac": 0.0
+      },
+      {
+        "name": "white_carpet",
+        "count": 250,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 225,
+        "frac": 0.0
+      },
+      {
+        "name": "black_carpet",
+        "count": 219,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 212,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass_pane",
+        "count": 124,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_bricks",
+        "count": 117,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 107,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 107,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 97,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 97,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 92,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 217,
+      "stone": 846,
+      "deepslate": 6,
+      "terracotta": 0,
+      "concrete": 1004,
+      "wool": 523,
+      "glass": 563,
+      "nether": 6,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 498,
+      "metal": 16
+    },
+    "remap_targets": [
+      "dirt",
+      "black_concrete",
+      "stone",
+      "smooth_quartz",
+      "moss_block",
+      "white_carpet",
+      "white_stained_glass",
+      "black_carpet",
+      "glass",
+      "black_stained_glass_pane",
+      "quartz_bricks",
+      "grass_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "japanese",
+    "mapped_terrain": "flat",
+    "style_id": 7,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "fantasy",
+      "european",
+      "scifi",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.507,
+        "raw_score": 0.1574,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.452,
+        "raw_score": 0.144
+      },
+      {
+        "style": "european",
+        "confidence": 0.392,
+        "raw_score": 0.1288
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.339,
+        "raw_score": 0.1147
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.309,
+        "raw_score": 0.1066
+      }
+    ]
+  },
+  "redstone": {
+    "total": 61,
+    "pattern_ids": [
+      "nether_portal_cue",
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "下界传送门",
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 6,
+      "door": 12,
+      "trapdoor": 23,
+      "brewing_stand": 2,
+      "furnace": 11,
+      "blast_furnace": 1,
+      "nether_portal": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Fol52JWSv4-Cozy_20Chessboard_20House_skeleton.npz",
+    "occupancy_frac": 0.30120849609375,
+    "occupied": 9870
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

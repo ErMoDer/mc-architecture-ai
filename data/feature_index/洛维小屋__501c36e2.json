@@ -1,0 +1,300 @@
+{
+  "id": "洛维小屋__501c36e2",
+  "source_path": "data\\raw\\mcblock\\洛维小屋__501c36e2.litematic",
+  "created_at": "2026-10-19T20:33:58+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 42,
+      "y": 38,
+      "z": 57
+    },
+    "non_air": 7656,
+    "density": 0.0842,
+    "unique_block_types": 95
+  },
+  "massing": {
+    "hollow_score": 0.9193,
+    "interior_air_frac": 0.9193,
+    "exterior_solid_frac": 0.0139,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      9,
+      14,
+      19
+    ],
+    "families": {
+      "stairs": 598,
+      "slabs": 518,
+      "walls": 38,
+      "fences": 109,
+      "doors": 16,
+      "trapdoors": 273,
+      "glass": 52,
+      "logs": 276,
+      "planks": 754,
+      "stone_bricks": 8,
+      "deepslate": 184,
+      "terracotta": 121,
+      "concrete": 0,
+      "wool": 242,
+      "leaves": 809,
+      "lanterns": 23,
+      "copper": 0,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.2508,
+      "symmetry_z": 0.2778,
+      "symmetry_y": 0.0508
+    },
+    "solid_ratio": 0.0842
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt_path",
+        "count": 1442,
+        "frac": 0.0
+      },
+      {
+        "name": "coarse_dirt",
+        "count": 911,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 682,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 599,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 320,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 239,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 233,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 205,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 203,
+        "frac": 0.0
+      },
+      {
+        "name": "bone_block",
+        "count": 199,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 192,
+        "frac": 0.0
+      },
+      {
+        "name": "mushroom_stem",
+        "count": 188,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 171,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 149,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate",
+        "count": 127,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_leaves",
+        "count": 127,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1030,
+      "stone": 723,
+      "deepslate": 184,
+      "terracotta": 121,
+      "concrete": 0,
+      "wool": 242,
+      "glass": 52,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 2,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 859,
+      "metal": 16
+    },
+    "remap_targets": [
+      "dirt_path",
+      "coarse_dirt",
+      "oak_leaves",
+      "spruce_planks",
+      "spruce_stairs",
+      "white_wool",
+      "spruce_slab",
+      "dark_oak_slab",
+      "dark_oak_stairs",
+      "bone_block",
+      "short_grass",
+      "mushroom_stem"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "japanese",
+      "rustic",
+      "fantasy",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.642,
+        "raw_score": 0.2921,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.635,
+        "raw_score": 0.2899
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.605,
+        "raw_score": 0.2804
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.364,
+        "raw_score": 0.1952
+      },
+      {
+        "style": "western",
+        "confidence": 0.357,
+        "raw_score": 0.1923
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 351,
+    "pattern_ids": [
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "door": 16,
+      "trapdoor": 273,
+      "fence_gate": 57,
+      "tripwire": 2,
+      "lectern": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\洛维小屋__501c36e2_skeleton.npz",
+    "occupancy_frac": 0.116973876953125,
+    "occupied": 3833
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 33,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\洛维小屋__501c36e2_block2vec.npy",
+    "vector_preview": [
+      -0.07961,
+      0.19806,
+      -0.15519,
+      0.02637,
+      0.02196,
+      0.04423,
+      -0.06208,
+      0.08105
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "LsAWdSaw31dfas3S-Big_Duo_House_c42395",
+        "score": 0.9552349534488699,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\LsAWdSaw31dfas3S-Big_Duo_House_c42395.litematic"
+      },
+      {
+        "id": "金克丝风小屋__749283f5",
+        "score": 0.937417100729537,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\金克丝风小屋__749283f5.litematic"
+      },
+      {
+        "id": "精灵小屋_Msvspk__fc4b5444",
+        "score": 0.9198762522818953,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\精灵小屋_Msvspk__fc4b5444.litematic"
+      },
+      {
+        "id": "猫狗小屋__93bcbd2e",
+        "score": 0.9119536976120197,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\猫狗小屋__93bcbd2e.litematic"
+      },
+      {
+        "id": "苔痕土坯屋__86435ac5",
+        "score": 0.9092382496946092,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\苔痕土坯屋__86435ac5.litematic"
+      }
+    ]
+  }
+}

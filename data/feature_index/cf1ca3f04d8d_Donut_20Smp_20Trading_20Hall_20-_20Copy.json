@@ -1,0 +1,270 @@
+{
+  "id": "cf1ca3f04d8d_Donut_20Smp_20Trading_20Hall_20-_20Copy",
+  "source_path": "data\\raw\\hack337\\schematics\\cf1ca3f04d8d_Donut%20Smp%20Trading%20Hall%20-%20Copy.litematic",
+  "created_at": "2026-10-18T22:25:53+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 51,
+      "y": 10,
+      "z": 58
+    },
+    "non_air": 9752,
+    "density": 0.3297,
+    "unique_block_types": 36
+  },
+  "massing": {
+    "hollow_score": 0.6052,
+    "interior_air_frac": 0.6052,
+    "exterior_solid_frac": 0.0367,
+    "floor_guess": 2,
+    "y_peaks": [
+      2,
+      6
+    ],
+    "families": {
+      "stairs": 589,
+      "slabs": 470,
+      "walls": 0,
+      "fences": 15,
+      "doors": 0,
+      "trapdoors": 198,
+      "glass": 884,
+      "logs": 384,
+      "planks": 174,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 64,
+      "copper": 0,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.5326,
+      "symmetry_z": 0.2527,
+      "symmetry_y": 0.2577
+    },
+    "solid_ratio": 0.3297
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "quartz_block",
+        "count": 2640,
+        "frac": 0.0
+      },
+      {
+        "name": "amethyst_block",
+        "count": 2049,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 645,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_stairs",
+        "count": 539,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_stained_glass",
+        "count": 530,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_slab",
+        "count": 436,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_pale_oak_log",
+        "count": 384,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_stained_glass_pane",
+        "count": 354,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 334,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 259,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 180,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 180,
+        "frac": 0.0
+      },
+      {
+        "name": "smoker",
+        "count": 180,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_planks",
+        "count": 174,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 91,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 558,
+      "stone": 334,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 884,
+      "nether": 1,
+      "copper": 0,
+      "prismarine": 64,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 33,
+      "leaves": 0,
+      "metal": 20
+    },
+    "remap_targets": [
+      "quartz_block",
+      "amethyst_block",
+      "redstone_wire",
+      "quartz_stairs",
+      "purple_stained_glass",
+      "quartz_slab",
+      "stripped_pale_oak_log",
+      "purple_stained_glass_pane",
+      "calcite",
+      "water",
+      "sticky_piston",
+      "piston_head"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "rustic",
+      "japanese",
+      "fantasy",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.57,
+        "raw_score": 0.2195,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.552,
+        "raw_score": 0.2146
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.505,
+        "raw_score": 0.2012
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.486,
+        "raw_score": 0.1955
+      },
+      {
+        "style": "european",
+        "confidence": 0.449,
+        "raw_score": 0.1843
+      }
+    ]
+  },
+  "redstone": {
+    "total": 1574,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "instant_wire",
+      "dual_edge_repeater"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "瞬间线/同向中继器线嫌疑",
+      "双沿/对向中继器线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 645,
+      "repeater": 15,
+      "lever": 91,
+      "sticky_piston": 180,
+      "hopper": 20,
+      "dispenser": 30,
+      "trapdoor": 198,
+      "fence_gate": 5,
+      "piston_head": 180,
+      "brewing_stand": 30,
+      "smoker": 180
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\cf1ca3f04d8d_Donut_20Smp_20Trading_20Hall_20-_20Copy_skeleton.npz",
+    "occupancy_frac": 0.49151611328125,
+    "occupied": 16106
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 32,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\cf1ca3f04d8d_Donut_20Smp_20Trading_20Hall_20-_20Copy_block2vec.npy",
+    "vector_preview": [
+      -0.13058,
+      0.08491,
+      -0.00733,
+      -0.00078,
+      -0.00366,
+      -0.11624,
+      -0.08071,
+      0.04701
+    ],
+    "ok": true
+  }
+}

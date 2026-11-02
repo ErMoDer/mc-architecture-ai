@@ -1,0 +1,13 @@
+{
+  "id": "大别墅__67b76e4a",
+  "dim": 144,
+  "n_chunks": 32,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "大别墅__67b76e4a_block2vec.npy"
+}

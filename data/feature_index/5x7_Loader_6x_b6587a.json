@@ -1,0 +1,254 @@
+{
+  "id": "5x7_Loader_6x_b6587a",
+  "source_path": "data\\raw\\hack337\\schematics\\5x7_Loader_6x_b6587a.litematic",
+  "created_at": "2026-10-18T22:25:17+08:00",
+  "overview": {
+    "schematic_name": "5x7_Loader_6x",
+    "size": {
+      "x": 3,
+      "y": 7,
+      "z": 5
+    },
+    "non_air": 84,
+    "density": 0.8,
+    "unique_block_types": 21
+  },
+  "massing": {
+    "hollow_score": 0.2,
+    "interior_air_frac": 0.2,
+    "exterior_solid_frac": 0.6857,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 1,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7684,
+      "symmetry_z": 0.732,
+      "symmetry_y": 0.6471
+    },
+    "solid_ratio": 0.8
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "observer",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_block",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "dropper",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "crying_obsidian",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "scaffolding",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 1,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 21
+    },
+    "remap_targets": [
+      "observer",
+      "hopper",
+      "iron_block",
+      "comparator",
+      "dropper",
+      "chest",
+      "crying_obsidian",
+      "slime_block",
+      "powered_rail",
+      "sticky_piston",
+      "scaffolding",
+      "redstone_wire"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "scifi",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.738,
+        "raw_score": 0.3879,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.397,
+        "raw_score": 0.2545
+      },
+      {
+        "style": "modern",
+        "confidence": 0.209,
+        "raw_score": 0.1591
+      }
+    ]
+  },
+  "redstone": {
+    "total": 60,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "item_elevator",
+      "observer_clock",
+      "lamp_line",
+      "t_flip_flop",
+      "etho_hopper_clock",
+      "edge_detector",
+      "note_block_line",
+      "hopper_clock",
+      "zero_tick_bud_freerun",
+      "flying_machine"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "红石灯/灯泡线路",
+      "投掷器-漏斗 T 触发器嫌疑",
+      "多漏斗环钟嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "漏斗+比较器时钟/测量嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "飞船/飞行器骨架"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 2,
+      "redstone_torch": 1,
+      "redstone_block": 1,
+      "repeater": 1,
+      "comparator": 7,
+      "piston": 1,
+      "sticky_piston": 2,
+      "observer": 17,
+      "hopper": 13,
+      "dropper": 7,
+      "dispenser": 1,
+      "note_block": 1,
+      "powered_rail": 3,
+      "slime_block": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\5x7_Loader_6x_b6587a_skeleton.npz",
+    "occupancy_frac": 0.8021240234375,
+    "occupied": 26284
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

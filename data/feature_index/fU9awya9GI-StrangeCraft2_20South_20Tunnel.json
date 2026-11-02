@@ -1,0 +1,232 @@
+{
+  "id": "fU9awya9GI-StrangeCraft2_20South_20Tunnel",
+  "source_path": "data\\raw\\hack337\\schematics\\fU9awya9GI-StrangeCraft2%20South%20Tunnel.litematic",
+  "created_at": "2026-10-18T22:26:14+08:00",
+  "overview": {
+    "schematic_name": "StrangeCraft2 South Tunnel",
+    "size": {
+      "x": 13,
+      "y": 10,
+      "z": 41
+    },
+    "non_air": 1592,
+    "density": 0.2987,
+    "unique_block_types": 22
+  },
+  "massing": {
+    "hollow_score": 0.6093,
+    "interior_air_frac": 0.6093,
+    "exterior_solid_frac": 0.0471,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      3,
+      7
+    ],
+    "families": {
+      "stairs": 400,
+      "slabs": 322,
+      "walls": 0,
+      "fences": 40,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 82,
+      "logs": 54,
+      "planks": 0,
+      "stone_bricks": 672,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 172
+    },
+    "symmetry": {
+      "symmetry_x": 0.9937,
+      "symmetry_z": 0.8907,
+      "symmetry_y": 0.2685
+    },
+    "solid_ratio": 0.2987
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_brick_stairs",
+        "count": 310,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 231,
+        "frac": 0.0
+      },
+      {
+        "name": "soul_soil",
+        "count": 164,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 146,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 123,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass_pane",
+        "count": 82,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 82,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_button",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_log",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite_slab",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_mushroom_block",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_bars",
+        "count": 16,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 54,
+      "stone": 1086,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 82,
+      "nether": 172,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 42,
+      "leaves": 0,
+      "metal": 16
+    },
+    "remap_targets": [
+      "stone_brick_stairs",
+      "stone_bricks",
+      "soul_soil",
+      "cobblestone_slab",
+      "stone_brick_slab",
+      "black_stained_glass_pane",
+      "cobblestone_stairs",
+      "stone_button",
+      "cobblestone",
+      "dark_oak_log",
+      "andesite_slab",
+      "brown_mushroom_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.794,
+        "raw_score": 0.4441,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.692,
+        "raw_score": 0.4063
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.257,
+        "raw_score": 0.2057
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.183,
+        "raw_score": 0.1597
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.164,
+        "raw_score": 0.1463
+      }
+    ]
+  },
+  "redstone": {
+    "total": 108,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "redstone_torch": 3,
+      "button": 64,
+      "powered_rail": 41
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\fU9awya9GI-StrangeCraft2_20South_20Tunnel_skeleton.npz",
+    "occupancy_frac": 0.3016357421875,
+    "occupied": 9884
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

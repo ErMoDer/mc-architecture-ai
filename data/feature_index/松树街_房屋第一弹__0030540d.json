@@ -1,0 +1,257 @@
+{
+  "id": "松树街_房屋第一弹__0030540d",
+  "source_path": "data\\raw\\mcblock\\松树街_房屋第一弹__0030540d.litematic",
+  "created_at": "2026-10-19T13:01:10+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 14,
+      "y": 20,
+      "z": 12
+    },
+    "non_air": 784,
+    "density": 0.2333,
+    "unique_block_types": 36
+  },
+  "massing": {
+    "hollow_score": 0.7648,
+    "interior_air_frac": 0.7648,
+    "exterior_solid_frac": 0.0821,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      3,
+      9
+    ],
+    "families": {
+      "stairs": 91,
+      "slabs": 44,
+      "walls": 23,
+      "fences": 7,
+      "doors": 0,
+      "trapdoors": 21,
+      "glass": 0,
+      "logs": 53,
+      "planks": 9,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 3,
+      "concrete": 0,
+      "wool": 45,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7778,
+      "symmetry_z": 0.2444,
+      "symmetry_y": 0.0481
+    },
+    "solid_ratio": 0.2333
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "andesite",
+        "count": 166,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_sandstone",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_carpet",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wood",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "granite",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wall_sign",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite_stairs",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "granite_slab",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "sand",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "granite_stairs",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_button",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 13,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 62,
+      "stone": 549,
+      "deepslate": 0,
+      "terracotta": 3,
+      "concrete": 0,
+      "wool": 45,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 21,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "andesite",
+      "cobblestone",
+      "sandstone",
+      "smooth_sandstone",
+      "light_gray_carpet",
+      "oak_wood",
+      "granite",
+      "spruce_wall_sign",
+      "andesite_stairs",
+      "granite_slab",
+      "bricks",
+      "cobblestone_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "european",
+    "mapped_terrain": "flat",
+    "style_id": 4,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.709,
+        "raw_score": 0.359,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.637,
+        "raw_score": 0.3342
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.384,
+        "raw_score": 0.2357
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.316,
+        "raw_score": 0.2048
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.281,
+        "raw_score": 0.1877
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 43,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "lever": 2,
+      "button": 13,
+      "trapdoor": 21,
+      "fence_gate": 7
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\松树街_房屋第一弹__0030540d_skeleton.npz",
+    "occupancy_frac": 0.239959716796875,
+    "occupied": 7863
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 3,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\松树街_房屋第一弹__0030540d_block2vec.npy",
+    "vector_preview": [
+      -0.1171,
+      0.07886,
+      -0.00083,
+      0.0636,
+      0.05966,
+      -0.02981,
+      0.03854,
+      0.07974
+    ],
+    "ok": true
+  }
+}

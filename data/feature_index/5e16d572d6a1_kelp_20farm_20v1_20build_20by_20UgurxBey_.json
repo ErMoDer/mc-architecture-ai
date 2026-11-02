@@ -1,0 +1,291 @@
+{
+  "id": "5e16d572d6a1_kelp_20farm_20v1_20build_20by_20UgurxBey_",
+  "source_path": "data\\raw\\hack337\\schematics\\5e16d572d6a1_kelp%20farm%20v1%20build%20by%20UgurxBey_.litematic",
+  "created_at": "2026-10-18T22:25:16+08:00",
+  "overview": {
+    "schematic_name": "kelp farm v1 build by UgurxBey_",
+    "size": {
+      "x": 48,
+      "y": 21,
+      "z": 21
+    },
+    "non_air": 1311,
+    "density": 0.0619,
+    "unique_block_types": 33
+  },
+  "massing": {
+    "hollow_score": 0.9217,
+    "interior_air_frac": 0.9217,
+    "exterior_solid_frac": 0.0005,
+    "floor_guess": 2,
+    "y_peaks": [
+      3,
+      10
+    ],
+    "families": {
+      "stairs": 12,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 50,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 35,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 572,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.0728,
+      "symmetry_z": 0.2247,
+      "symmetry_y": 0.137
+    },
+    "solid_ratio": 0.0619
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 560,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 164,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence_gate",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "rail",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "smoker",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "kelp",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 12,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 572,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 35,
+      "nether": 1,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 24,
+      "leaves": 0,
+      "metal": 164
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "hopper",
+      "powered_rail",
+      "chest",
+      "redstone_wire",
+      "water",
+      "oak_fence_gate",
+      "observer",
+      "glass",
+      "rail",
+      "smoker",
+      "packed_ice"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "industrial",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.5582,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.787,
+        "raw_score": 0.5166
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.18,
+        "raw_score": 0.187
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.169,
+        "raw_score": 0.1782
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.113,
+        "raw_score": 0.1307
+      }
+    ]
+  },
+  "redstone": {
+    "total": 521,
+    "pattern_ids": [
+      "hopper_line",
+      "observer_clock",
+      "piston_door",
+      "qc_piston_bank",
+      "simple_io",
+      "auto_smelt_brew_line",
+      "crafter_auto_line",
+      "item_elevator",
+      "etho_hopper_clock",
+      "shulker_loader",
+      "pulse_limiter",
+      "edge_detector",
+      "note_block_line",
+      "hopper_clock",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "instant_wire",
+      "water_hopper_stream"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "观察者互看/相邻时钟",
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "杠杆/按钮 → 灯或门",
+      "自动烧炼/酿造线",
+      "合成器自动线（1.21）",
+      "物品升降机嫌疑",
+      "多漏斗环钟嫌疑",
+      "潜影盒装卸线嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "水流漏斗收集线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 65,
+      "redstone_torch": 3,
+      "redstone_block": 5,
+      "repeater": 5,
+      "comparator": 3,
+      "lever": 1,
+      "pressure_plate": 1,
+      "piston": 16,
+      "sticky_piston": 2,
+      "observer": 36,
+      "hopper": 164,
+      "dropper": 2,
+      "dispenser": 18,
+      "note_block": 12,
+      "fence_gate": 50,
+      "powered_rail": 73,
+      "rail": 31,
+      "crafter": 2,
+      "smoker": 30,
+      "shulker_box": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\5e16d572d6a1_kelp_20farm_20v1_20build_20by_20UgurxBey__skeleton.npz",
+    "occupancy_frac": 0.062713623046875,
+    "occupied": 2055
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:kelp",
+  "previous_mapped_style": "chinese"
+}

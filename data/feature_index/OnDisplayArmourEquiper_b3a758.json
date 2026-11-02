@@ -1,0 +1,275 @@
+{
+  "id": "OnDisplayArmourEquiper_b3a758",
+  "source_path": "data\\raw\\hack337\\schematics\\OnDisplayArmourEquiper_b3a758.litematic",
+  "created_at": "2026-10-18T22:26:36+08:00",
+  "overview": {
+    "schematic_name": "On-Display Armor Equipper",
+    "size": {
+      "x": 3,
+      "y": 11,
+      "z": 9
+    },
+    "non_air": 114,
+    "density": 0.3838,
+    "unique_block_types": 25
+  },
+  "massing": {
+    "hollow_score": 0.4762,
+    "interior_air_frac": 0.4762,
+    "exterior_solid_frac": 0.2727,
+    "floor_guess": 3,
+    "y_peaks": [
+      2,
+      6,
+      9
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 3,
+      "walls": 0,
+      "fences": 1,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 11,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 15,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7405,
+      "symmetry_z": 0.3988,
+      "symmetry_y": 0.3653
+    },
+    "solid_ratio": 0.3838
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cyan_wool",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "dropper",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "target",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 11,
+      "stone": 3,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 15,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 8
+    },
+    "remap_targets": [
+      "cyan_wool",
+      "smooth_quartz",
+      "observer",
+      "dark_oak_planks",
+      "redstone_wire",
+      "dropper",
+      "hopper",
+      "sticky_piston",
+      "repeater",
+      "obsidian",
+      "smooth_stone_slab",
+      "dispenser"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.582,
+        "raw_score": 0.2317,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.488,
+        "raw_score": 0.2039
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.433,
+        "raw_score": 0.1869
+      },
+      {
+        "style": "western",
+        "confidence": 0.392,
+        "raw_score": 0.1734
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.359,
+        "raw_score": 0.1622
+      }
+    ]
+  },
+  "redstone": {
+    "total": 65,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "sticky_piston_pair",
+      "simple_io",
+      "item_elevator",
+      "observer_clock",
+      "t_flip_flop",
+      "dropper_vator",
+      "target_block_line",
+      "flying_machine",
+      "etho_hopper_clock",
+      "edge_detector",
+      "note_block_line",
+      "hopper_clock",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "粘性活塞对（换块/门）",
+      "杠杆/按钮 → 灯或门",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "投掷器-漏斗 T 触发器嫌疑",
+      "投掷器电梯（dropper-vator）",
+      "标靶方块线路",
+      "飞船/飞行器骨架",
+      "Etho 漏斗钟变体嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "漏斗+比较器时钟/测量嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 10,
+      "redstone_torch": 2,
+      "redstone_block": 1,
+      "repeater": 4,
+      "comparator": 2,
+      "button": 1,
+      "piston": 1,
+      "sticky_piston": 6,
+      "observer": 11,
+      "hopper": 8,
+      "dropper": 9,
+      "dispenser": 3,
+      "note_block": 2,
+      "target": 2,
+      "piston_head": 2,
+      "slime_block": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\OnDisplayArmourEquiper_b3a758_skeleton.npz",
+    "occupancy_frac": 0.394256591796875,
+    "occupied": 12919
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

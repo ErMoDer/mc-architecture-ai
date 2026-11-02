@@ -1,0 +1,268 @@
+{
+  "id": "三层木制别墅__3a4be4e9",
+  "source_path": "data\\raw\\mcblock\\三层木制别墅__3a4be4e9.litematic",
+  "created_at": "2026-10-19T13:01:10+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 22,
+      "y": 21,
+      "z": 16
+    },
+    "non_air": 1596,
+    "density": 0.2159,
+    "unique_block_types": 63
+  },
+  "massing": {
+    "hollow_score": 0.7509,
+    "interior_air_frac": 0.7509,
+    "exterior_solid_frac": 0.0367,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      5,
+      10,
+      17
+    ],
+    "families": {
+      "stairs": 92,
+      "slabs": 96,
+      "walls": 46,
+      "fences": 69,
+      "doors": 10,
+      "trapdoors": 24,
+      "glass": 34,
+      "logs": 251,
+      "planks": 804,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 16,
+      "leaves": 1,
+      "lanterns": 17,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3571,
+      "symmetry_z": 0.3806,
+      "symmetry_y": 0.2155
+    },
+    "solid_ratio": 0.2159
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "oak_planks",
+        "count": 403,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 352,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 246,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone_wall",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_fence",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_button",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_fence_gate",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_carpet",
+        "count": 13,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1056,
+      "stone": 58,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 16,
+      "glass": 34,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 4,
+      "metal": 6
+    },
+    "remap_targets": [
+      "oak_planks",
+      "birch_planks",
+      "oak_log",
+      "spruce_slab",
+      "spruce_stairs",
+      "spruce_planks",
+      "sandstone_wall",
+      "birch_fence",
+      "glass_pane",
+      "oak_button",
+      "chest",
+      "birch_fence_gate"
+    ]
+  },
+  "style": {
+    "mapped_style": "european",
+    "mapped_terrain": "flat",
+    "style_id": 4,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7068,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.7,
+        "raw_score": 0.582
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.642,
+        "raw_score": 0.5338
+      },
+      {
+        "style": "western",
+        "confidence": 0.631,
+        "raw_score": 0.5247
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.206,
+        "raw_score": 0.2449
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 95,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 30,
+      "pressure_plate": 5,
+      "door": 10,
+      "trapdoor": 24,
+      "fence_gate": 23,
+      "brewing_stand": 1,
+      "smoker": 1,
+      "blast_furnace": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\三层木制别墅__3a4be4e9_skeleton.npz",
+    "occupancy_frac": 0.23223876953125,
+    "occupied": 7610
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 6,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\三层木制别墅__3a4be4e9_block2vec.npy",
+    "vector_preview": [
+      -0.07026,
+      0.18002,
+      -0.10742,
+      0.03539,
+      0.1267,
+      -0.01544,
+      -0.0812,
+      0.01029
+    ],
+    "ok": true
+  }
+}

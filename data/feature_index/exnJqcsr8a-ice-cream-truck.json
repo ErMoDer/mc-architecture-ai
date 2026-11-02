@@ -1,0 +1,244 @@
+{
+  "id": "exnJqcsr8a-ice-cream-truck",
+  "source_path": "data\\raw\\hack337\\schematics\\exnJqcsr8a-ice-cream-truck.litematic",
+  "created_at": "2026-10-18T22:26:09+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 11,
+      "y": 7,
+      "z": 6
+    },
+    "non_air": 247,
+    "density": 0.5346,
+    "unique_block_types": 39
+  },
+  "massing": {
+    "hollow_score": 0.1056,
+    "interior_air_frac": 0.1056,
+    "exterior_solid_frac": 0.1861,
+    "floor_guess": 2,
+    "y_peaks": [
+      1,
+      4
+    ],
+    "families": {
+      "stairs": 20,
+      "slabs": 60,
+      "walls": 0,
+      "fences": 2,
+      "doors": 0,
+      "trapdoors": 8,
+      "glass": 18,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 2,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 8,
+      "wool": 16,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 14
+    },
+    "symmetry": {
+      "symmetry_x": 0.6358,
+      "symmetry_z": 0.9919,
+      "symmetry_y": 0.5247
+    },
+    "solid_ratio": 0.5346
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "prismarine_brick_slab",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "purpur_block",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "purpur_stairs",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_brick_slab",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_trapdoor",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_concrete",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "end_rod",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_pillar",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_button",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_bars",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_slab",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_shulker_box",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "black_wool",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 62,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 8,
+      "wool": 16,
+      "glass": 18,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 18
+    },
+    "remap_targets": [
+      "prismarine_brick_slab",
+      "purpur_block",
+      "purpur_stairs",
+      "lever",
+      "nether_brick_slab",
+      "black_stained_glass",
+      "iron_trapdoor",
+      "gray_concrete",
+      "end_rod",
+      "quartz_pillar",
+      "observer",
+      "dark_oak_button"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "snow",
+    "style_id": 8,
+    "terrain_id": 4,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "industrial",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.593,
+        "raw_score": 0.2427,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.457,
+        "raw_score": 0.2014
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.374,
+        "raw_score": 0.1735
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.294,
+        "raw_score": 0.1443
+      },
+      {
+        "style": "modern",
+        "confidence": 0.182,
+        "raw_score": 0.0984
+      }
+    ]
+  },
+  "redstone": {
+    "total": 45,
+    "pattern_ids": [
+      "observer_clock",
+      "tripwire_trap",
+      "shulker_loader"
+    ],
+    "pattern_labels": [
+      "观察者环路时钟",
+      "绊线陷阱",
+      "潜影盒装卸线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "lever": 11,
+      "button": 8,
+      "observer": 6,
+      "hopper": 4,
+      "trapdoor": 8,
+      "tripwire": 1,
+      "brewing_stand": 1,
+      "shulker_box": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\exnJqcsr8a-ice-cream-truck_skeleton.npz",
+    "occupancy_frac": 0.55426025390625,
+    "occupied": 18162
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

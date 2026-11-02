@@ -1,0 +1,219 @@
+{
+  "id": "e4e7defc268f_Rabbit_20Farm_20Redstone",
+  "source_path": "data\\raw\\hack337\\schematics\\e4e7defc268f_Rabbit%20Farm%20Redstone.litematic",
+  "created_at": "2026-10-18T22:26:04+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 8,
+      "y": 5,
+      "z": 5
+    },
+    "non_air": 92,
+    "density": 0.46,
+    "unique_block_types": 12
+  },
+  "massing": {
+    "hollow_score": 0.5185,
+    "interior_air_frac": 0.5185,
+    "exterior_solid_frac": 0.33,
+    "floor_guess": 1,
+    "y_peaks": [
+      0
+    ],
+    "families": {
+      "stairs": 3,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 3,
+      "terracotta": 0,
+      "concrete": 63,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3333,
+      "symmetry_z": 0.6577,
+      "symmetry_y": 0.4488
+    },
+    "solid_ratio": 0.46
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "light_blue_concrete",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_concrete",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "red_concrete",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "crafter",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "smoker",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "lectern",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 3,
+      "terracotta": 0,
+      "concrete": 63,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 8
+    },
+    "remap_targets": [
+      "light_blue_concrete",
+      "lime_concrete",
+      "chest",
+      "hopper",
+      "red_concrete",
+      "deepslate_tile_stairs",
+      "redstone_wire",
+      "comparator",
+      "crafter",
+      "smoker",
+      "repeater",
+      "lectern"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "industrial",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.704,
+        "raw_score": 0.3536,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.474,
+        "raw_score": 0.2703
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.438,
+        "raw_score": 0.2559
+      }
+    ]
+  },
+  "redstone": {
+    "total": 16,
+    "pattern_ids": [
+      "lectern_signal",
+      "crafter_auto_line",
+      "etho_hopper_clock",
+      "auto_smelt_brew_line",
+      "hopper_clock"
+    ],
+    "pattern_labels": [
+      "讲台翻页红石",
+      "合成器自动线（1.21）",
+      "多漏斗环钟嫌疑",
+      "自动烧炼/酿造线",
+      "漏斗+比较器时钟/测量嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 2,
+      "repeater": 1,
+      "comparator": 2,
+      "hopper": 8,
+      "crafter": 1,
+      "smoker": 1,
+      "lectern": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\e4e7defc268f_Rabbit_20Farm_20Redstone_skeleton.npz",
+    "occupancy_frac": 0.4744873046875,
+    "occupied": 15548
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "demoted_from_industrial:farm",
+  "previous_mapped_style": "industrial"
+}

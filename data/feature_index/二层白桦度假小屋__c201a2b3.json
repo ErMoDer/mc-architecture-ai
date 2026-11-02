@@ -1,0 +1,254 @@
+{
+  "id": "二层白桦度假小屋__c201a2b3",
+  "source_path": "data\\raw\\mcblock\\二层白桦度假小屋__c201a2b3.litematic",
+  "created_at": "2026-10-19T13:01:11+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 12,
+      "y": 10,
+      "z": 7
+    },
+    "non_air": 457,
+    "density": 0.544,
+    "unique_block_types": 17
+  },
+  "massing": {
+    "hollow_score": 0.6925,
+    "interior_air_frac": 0.6925,
+    "exterior_solid_frac": 0.3976,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      4,
+      8
+    ],
+    "families": {
+      "stairs": 32,
+      "slabs": 55,
+      "walls": 0,
+      "fences": 37,
+      "doors": 4,
+      "trapdoors": 0,
+      "glass": 39,
+      "logs": 122,
+      "planks": 77,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 24,
+      "leaves": 40,
+      "lanterns": 8,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6863,
+      "symmetry_z": 0.987,
+      "symmetry_y": 0.3891
+    },
+    "solid_ratio": 0.544
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_birch_wood",
+        "count": 122,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_carpet",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_door",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 199,
+      "stone": 5,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 24,
+      "glass": 39,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 40,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stripped_birch_wood",
+      "spruce_slab",
+      "oak_planks",
+      "oak_leaves",
+      "spruce_fence",
+      "spruce_stairs",
+      "glass",
+      "spruce_planks",
+      "gray_carpet",
+      "glass_pane",
+      "lantern",
+      "dirt"
+    ]
+  },
+  "style": {
+    "mapped_style": "modern",
+    "mapped_terrain": "flat",
+    "style_id": 3,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5632,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.615,
+        "raw_score": 0.4391
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.56,
+        "raw_score": 0.4134
+      },
+      {
+        "style": "western",
+        "confidence": 0.489,
+        "raw_score": 0.3781
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.226,
+        "raw_score": 0.222
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 4,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\二层白桦度假小屋__c201a2b3_skeleton.npz",
+    "occupancy_frac": 0.557769775390625,
+    "occupied": 18277
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 2,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\二层白桦度假小屋__c201a2b3_block2vec.npy",
+    "vector_preview": [
+      -0.11542,
+      0.18861,
+      -0.11971,
+      0.02641,
+      0.21164,
+      0.02685,
+      -0.04851,
+      0.04618
+    ],
+    "ok": true
+  }
+}

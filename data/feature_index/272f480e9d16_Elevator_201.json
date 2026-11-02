@@ -1,0 +1,237 @@
+{
+  "id": "272f480e9d16_Elevator_201",
+  "source_path": "data\\raw\\hack337\\schematics\\272f480e9d16_Elevator%201.litematic",
+  "created_at": "2026-10-18T22:24:57+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 14,
+      "y": 27,
+      "z": 13
+    },
+    "non_air": 342,
+    "density": 0.0696,
+    "unique_block_types": 12
+  },
+  "massing": {
+    "hollow_score": 0.8982,
+    "interior_air_frac": 0.8982,
+    "exterior_solid_frac": 0.0012,
+    "floor_guess": 7,
+    "y_peaks": [
+      2,
+      7,
+      10,
+      14,
+      19,
+      22,
+      25
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 88,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 25,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 103,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.114,
+      "symmetry_z": 0.2236,
+      "symmetry_y": 0.2505
+    },
+    "solid_ratio": 0.0696
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "black_glazed_terracotta",
+        "count": 103,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_button",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_sign",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 25,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 103,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "black_glazed_terracotta",
+      "oak_slab",
+      "redstone_wire",
+      "repeater",
+      "oak_planks",
+      "redstone_torch",
+      "sticky_piston",
+      "slime_block",
+      "redstone_wall_torch",
+      "oak_button",
+      "oak_wall_sign",
+      "oak_sign"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "desert",
+    "style_id": 5,
+    "terrain_id": 5,
+    "guess_names": [
+      "desert",
+      "western",
+      "rustic",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "desert",
+        "confidence": 0.601,
+        "raw_score": 0.2515,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "western",
+        "confidence": 0.59,
+        "raw_score": 0.248
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.237,
+        "raw_score": 0.1256
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.234,
+        "raw_score": 0.1243
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.21,
+        "raw_score": 0.1139
+      }
+    ]
+  },
+  "redstone": {
+    "total": 124,
+    "pattern_ids": [
+      "sticky_piston_pair",
+      "flying_machine",
+      "pulse_extender",
+      "pulse_limiter",
+      "instant_wire",
+      "monostable",
+      "dual_edge_repeater",
+      "torch_burn_clock"
+    ],
+    "pattern_labels": [
+      "粘性活塞对（换块/门）",
+      "飞船/飞行器骨架",
+      "脉冲延长/单稳态嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "双沿/对向中继器线嫌疑",
+      "多火把粉尘烧灭钟嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 70,
+      "redstone_torch": 10,
+      "repeater": 32,
+      "button": 1,
+      "sticky_piston": 7,
+      "slime_block": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\272f480e9d16_Elevator_201_skeleton.npz",
+    "occupancy_frac": 0.066131591796875,
+    "occupied": 2167
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

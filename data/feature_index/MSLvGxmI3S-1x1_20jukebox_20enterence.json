@@ -1,0 +1,214 @@
+{
+  "id": "MSLvGxmI3S-1x1_20jukebox_20enterence",
+  "source_path": "data\\raw\\hack337\\schematics\\MSLvGxmI3S-1x1%20jukebox%20enterence.litematic",
+  "created_at": "2026-10-18T22:26:33+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 15,
+      "y": 6,
+      "z": 10
+    },
+    "non_air": 301,
+    "density": 0.3344,
+    "unique_block_types": 11
+  },
+  "massing": {
+    "hollow_score": 0.5337,
+    "interior_air_frac": 0.5337,
+    "exterior_solid_frac": 0.1189,
+    "floor_guess": 1,
+    "y_peaks": [
+      4
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 185,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 56,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5759,
+      "symmetry_z": 0.5677,
+      "symmetry_y": 0.3319
+    },
+    "solid_ratio": 0.3344
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "glass",
+        "count": 185,
+        "frac": 0.0
+      },
+      {
+        "name": "white_terracotta",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "jukebox",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_button",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 1,
+      "deepslate": 0,
+      "terracotta": 56,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 185,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "glass",
+      "white_terracotta",
+      "redstone_wire",
+      "repeater",
+      "sticky_piston",
+      "piston_head",
+      "redstone_wall_torch",
+      "grass_block",
+      "observer",
+      "jukebox",
+      "stone_button"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "desert",
+    "style_id": 10,
+    "terrain_id": 5,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european",
+      "desert"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.562,
+        "raw_score": 0.2124,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.532,
+        "raw_score": 0.2039
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.289,
+        "raw_score": 0.1284
+      },
+      {
+        "style": "european",
+        "confidence": 0.241,
+        "raw_score": 0.111
+      },
+      {
+        "style": "desert",
+        "confidence": 0.144,
+        "raw_score": 0.0723
+      }
+    ]
+  },
+  "redstone": {
+    "total": 58,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "edge_detector"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "边沿检测（观察者）嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 43,
+      "redstone_torch": 2,
+      "repeater": 5,
+      "button": 1,
+      "sticky_piston": 3,
+      "observer": 1,
+      "piston_head": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\MSLvGxmI3S-1x1_20jukebox_20enterence_skeleton.npz",
+    "occupancy_frac": 0.32232666015625,
+    "occupied": 10562
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

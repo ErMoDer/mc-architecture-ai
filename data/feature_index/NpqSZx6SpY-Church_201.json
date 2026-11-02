@@ -1,0 +1,233 @@
+{
+  "id": "NpqSZx6SpY-Church_201",
+  "source_path": "data\\raw\\hack337\\schematics\\NpqSZx6SpY-Church%201.litematic",
+  "created_at": "2026-10-18T22:26:35+08:00",
+  "overview": {
+    "schematic_name": "Church 1",
+    "size": {
+      "x": 17,
+      "y": 19,
+      "z": 18
+    },
+    "non_air": 1909,
+    "density": 0.3283,
+    "unique_block_types": 51
+  },
+  "massing": {
+    "hollow_score": 0.6466,
+    "interior_air_frac": 0.6466,
+    "exterior_solid_frac": 0.0803,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      7,
+      11
+    ],
+    "families": {
+      "stairs": 256,
+      "slabs": 78,
+      "walls": 14,
+      "fences": 1,
+      "doors": 2,
+      "trapdoors": 14,
+      "glass": 57,
+      "logs": 15,
+      "planks": 30,
+      "stone_bricks": 266,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 38,
+      "lanterns": 5,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4856,
+      "symmetry_z": 0.5596,
+      "symmetry_y": 0.1846
+    },
+    "solid_ratio": 0.3283
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 415,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 409,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 144,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 125,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 122,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 104,
+        "frac": 0.0
+      },
+      {
+        "name": "cracked_stone_bricks",
+        "count": 67,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_stained_glass",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_stairs",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_andesite_slab",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 20,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 45,
+      "stone": 940,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 57,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 38,
+      "metal": 6
+    },
+    "remap_targets": [
+      "dirt",
+      "stone",
+      "spruce_stairs",
+      "andesite",
+      "stone_bricks",
+      "grass_block",
+      "cracked_stone_bricks",
+      "polished_andesite",
+      "brown_stained_glass",
+      "stone_brick_stairs",
+      "stone_stairs",
+      "spruce_slab"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.832,
+        "raw_score": 0.4823,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.723,
+        "raw_score": 0.441
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.296,
+        "raw_score": 0.2413
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.213,
+        "raw_score": 0.1901
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.194,
+        "raw_score": 0.1772
+      }
+    ]
+  },
+  "redstone": {
+    "total": 18,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 2,
+      "trapdoor": 14,
+      "brewing_stand": 1,
+      "lectern": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\NpqSZx6SpY-Church_201_skeleton.npz",
+    "occupancy_frac": 0.345794677734375,
+    "occupied": 11331
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

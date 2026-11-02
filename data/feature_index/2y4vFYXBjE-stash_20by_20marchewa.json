@@ -1,0 +1,214 @@
+{
+  "id": "2y4vFYXBjE-stash_20by_20marchewa",
+  "source_path": "data\\raw\\hack337\\schematics\\2y4vFYXBjE-stash%20by%20marchewa.litematic",
+  "created_at": "2026-10-18T22:25:00+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 11,
+      "y": 9,
+      "z": 18
+    },
+    "non_air": 1278,
+    "density": 0.7172,
+    "unique_block_types": 13
+  },
+  "massing": {
+    "hollow_score": 0.4881,
+    "interior_air_frac": 0.4881,
+    "exterior_solid_frac": 0.4276,
+    "floor_guess": 2,
+    "y_peaks": [
+      1,
+      7
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 202,
+      "logs": 91,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 286,
+      "terracotta": 0,
+      "concrete": 94,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 6,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9907,
+      "symmetry_z": 0.9938,
+      "symmetry_y": 0.8205
+    },
+    "solid_ratio": 0.7172
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "deepslate",
+        "count": 286,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 207,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_prismarine",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_stained_glass",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "blue_concrete",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_log",
+        "count": 91,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 82,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_bricks",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "gravel",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 91,
+      "stone": 68,
+      "deepslate": 286,
+      "terracotta": 0,
+      "concrete": 94,
+      "wool": 0,
+      "glass": 202,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 189,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 56
+    },
+    "remap_targets": [
+      "deepslate",
+      "water",
+      "dark_prismarine",
+      "blue_stained_glass",
+      "blue_concrete",
+      "dark_oak_log",
+      "chest",
+      "glass",
+      "prismarine_bricks",
+      "prismarine",
+      "hopper",
+      "sea_lantern"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "medieval",
+      "fantasy",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.486,
+        "raw_score": 0.1357,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.312,
+        "raw_score": 0.0952
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.252,
+        "raw_score": 0.0796
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.233,
+        "raw_score": 0.0745
+      },
+      {
+        "style": "european",
+        "confidence": 0.224,
+        "raw_score": 0.072
+      }
+    ]
+  },
+  "redstone": {
+    "total": 56,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "hopper": 56
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\2y4vFYXBjE-stash_20by_20marchewa_skeleton.npz",
+    "occupancy_frac": 0.719757080078125,
+    "occupied": 23585
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

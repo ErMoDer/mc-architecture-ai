@@ -1,0 +1,13 @@
+{
+  "id": "经验草甸__d583a45f",
+  "dim": 144,
+  "n_chunks": 16,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "经验草甸__d583a45f_block2vec.npy"
+}

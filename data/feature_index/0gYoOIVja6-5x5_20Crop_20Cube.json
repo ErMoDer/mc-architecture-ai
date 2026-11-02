@@ -1,0 +1,240 @@
+{
+  "id": "0gYoOIVja6-5x5_20Crop_20Cube",
+  "source_path": "data\\raw\\hack337\\schematics\\0gYoOIVja6-5x5%20Crop%20Cube.litematic",
+  "created_at": "2026-10-18T22:24:47+08:00",
+  "overview": {
+    "schematic_name": "5x5 Crop Cube",
+    "size": {
+      "x": 7,
+      "y": 6,
+      "z": 7
+    },
+    "non_air": 84,
+    "density": 0.2857,
+    "unique_block_types": 18
+  },
+  "massing": {
+    "hollow_score": 0.33,
+    "interior_air_frac": 0.33,
+    "exterior_solid_frac": 0.0578,
+    "floor_guess": 1,
+    "y_peaks": [
+      2
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 4,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 16,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 1,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8876,
+      "symmetry_z": 0.8876,
+      "symmetry_y": 0.5273
+    },
+    "solid_ratio": 0.2857
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "bamboo_trapdoor",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "composter",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_button",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "carrots",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "wheat",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 16,
+      "stone": 13,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 1,
+      "metal": 12
+    },
+    "remap_targets": [
+      "bamboo_trapdoor",
+      "hopper",
+      "smooth_stone",
+      "observer",
+      "chest",
+      "farmland",
+      "dispenser",
+      "composter",
+      "glowstone",
+      "smooth_stone_slab",
+      "lever",
+      "oak_button"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.763,
+        "raw_score": 0.4125,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.48,
+        "raw_score": 0.303
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.427,
+        "raw_score": 0.2798
+      },
+      {
+        "style": "western",
+        "confidence": 0.308,
+        "raw_score": 0.2222
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.276,
+        "raw_score": 0.205
+      }
+    ]
+  },
+  "redstone": {
+    "total": 46,
+    "pattern_ids": [
+      "observer_clock",
+      "edge_detector"
+    ],
+    "pattern_labels": [
+      "观察者相邻时钟嫌疑",
+      "边沿检测（观察者）嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 1,
+      "lever": 4,
+      "button": 1,
+      "observer": 8,
+      "hopper": 12,
+      "dispenser": 4,
+      "trapdoor": 16
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\0gYoOIVja6-5x5_20Crop_20Cube_skeleton.npz",
+    "occupancy_frac": 0.28485107421875,
+    "occupied": 9334
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "fbac8fd5a554_OAK_20BASE",
+  "source_path": "data\\raw\\hack337\\schematics\\fbac8fd5a554_OAK%20BASE.litematic",
+  "created_at": "2026-10-18T22:26:11+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 27,
+      "y": 22,
+      "z": 20
+    },
+    "non_air": 1797,
+    "density": 0.1513,
+    "unique_block_types": 55
+  },
+  "massing": {
+    "hollow_score": 0.8429,
+    "interior_air_frac": 0.8429,
+    "exterior_solid_frac": 0.0322,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      3,
+      7,
+      10,
+      13
+    ],
+    "families": {
+      "stairs": 333,
+      "slabs": 40,
+      "walls": 1,
+      "fences": 34,
+      "doors": 12,
+      "trapdoors": 128,
+      "glass": 12,
+      "logs": 337,
+      "planks": 200,
+      "stone_bricks": 25,
+      "deepslate": 118,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 40,
+      "lanterns": 51,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4944,
+      "symmetry_z": 0.2891,
+      "symmetry_y": 0.0621
+    },
+    "solid_ratio": 0.1513
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_log",
+        "count": 200,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 184,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 169,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 116,
+        "frac": 0.0
+      },
+      {
+        "name": "tall_grass",
+        "count": 102,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_wood",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 86,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate_stairs",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 43,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_stairs",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "dandelion",
+        "count": 27,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 537,
+      "stone": 271,
+      "deepslate": 118,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 12,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 40,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_log",
+      "oak_stairs",
+      "short_grass",
+      "oak_planks",
+      "spruce_trapdoor",
+      "tall_grass",
+      "stripped_oak_wood",
+      "calcite",
+      "dark_oak_planks",
+      "cobbled_deepslate_stairs",
+      "stone",
+      "diorite"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5184,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.595,
+        "raw_score": 0.4072
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.528,
+        "raw_score": 0.3767
+      },
+      {
+        "style": "western",
+        "confidence": 0.414,
+        "raw_score": 0.3203
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.287,
+        "raw_score": 0.2484
+      }
+    ]
+  },
+  "redstone": {
+    "total": 172,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 22,
+      "pressure_plate": 1,
+      "door": 12,
+      "trapdoor": 128,
+      "fence_gate": 9
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\fbac8fd5a554_OAK_20BASE_skeleton.npz",
+    "occupancy_frac": 0.15167236328125,
+    "occupied": 4970
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

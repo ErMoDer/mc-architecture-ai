@@ -1,0 +1,227 @@
+{
+  "id": "FlowingStream_c0546c",
+  "source_path": "data\\raw\\hack337\\schematics\\FlowingStream_c0546c.litematic",
+  "created_at": "2026-10-18T22:26:13+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 39,
+      "y": 62,
+      "z": 39
+    },
+    "non_air": 6248,
+    "density": 0.0663,
+    "unique_block_types": 33
+  },
+  "massing": {
+    "hollow_score": 0.9353,
+    "interior_air_frac": 0.9353,
+    "exterior_solid_frac": 0.0099,
+    "floor_guess": 2,
+    "y_peaks": [
+      2,
+      32
+    ],
+    "families": {
+      "stairs": 93,
+      "slabs": 737,
+      "walls": 200,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 452,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 19,
+      "deepslate": 569,
+      "terracotta": 66,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 7,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5037,
+      "symmetry_z": 0.537,
+      "symmetry_y": 0.0823
+    },
+    "solid_ratio": 0.0663
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone",
+        "count": 1632,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 1250,
+        "frac": 0.0
+      },
+      {
+        "name": "mud",
+        "count": 925,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_slab",
+        "count": 680,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate",
+        "count": 397,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_tuff",
+        "count": 198,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_stained_glass_pane",
+        "count": 176,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_stained_glass_pane",
+        "count": 174,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff",
+        "count": 127,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 122,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_stained_glass",
+        "count": 102,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate_wall",
+        "count": 77,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_wall",
+        "count": 67,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_terracotta",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 36,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 2979,
+      "deepslate": 569,
+      "terracotta": 66,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 452,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stone",
+      "water",
+      "mud",
+      "stone_slab",
+      "cobbled_deepslate",
+      "polished_tuff",
+      "gray_stained_glass_pane",
+      "light_gray_stained_glass_pane",
+      "tuff",
+      "smooth_stone",
+      "cyan_stained_glass",
+      "cobbled_deepslate_wall"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.682,
+        "raw_score": 0.3324,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.595,
+        "raw_score": 0.3029
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.335,
+        "raw_score": 0.2017
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.194,
+        "raw_score": 0.1332
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.173,
+        "raw_score": 0.1221
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\FlowingStream_c0546c_skeleton.npz",
+    "occupancy_frac": 0.091552734375,
+    "occupied": 3000
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

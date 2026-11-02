@@ -1,0 +1,228 @@
+{
+  "id": "faceb35e0212_Overgrown_20Bridge",
+  "source_path": "data\\raw\\hack337\\schematics\\faceb35e0212_Overgrown%20Bridge.litematic",
+  "created_at": "2026-10-18T22:26:11+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 15,
+      "y": 4,
+      "z": 3
+    },
+    "non_air": 67,
+    "density": 0.3722,
+    "unique_block_types": 16
+  },
+  "massing": {
+    "hollow_score": 0.5,
+    "interior_air_frac": 0.5,
+    "exterior_solid_frac": 0.3,
+    "floor_guess": 1,
+    "y_peaks": [
+      1
+    ],
+    "families": {
+      "stairs": 6,
+      "slabs": 7,
+      "walls": 0,
+      "fences": 3,
+      "doors": 0,
+      "trapdoors": 16,
+      "glass": 2,
+      "logs": 0,
+      "planks": 1,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 6,
+      "leaves": 0,
+      "lanterns": 7,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.5227,
+      "symmetry_z": 0.8108,
+      "symmetry_y": 0.2407
+    },
+    "solid_ratio": 0.3722
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_trapdoor",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "coarse_dirt",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "chain",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "cave_vines",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_carpet",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "green_carpet",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_stained_glass_pane",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "potted_white_tulip",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "potted_lily_of_the_valley",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 6,
+      "glass": 2,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 2,
+      "metal": 5
+    },
+    "remap_targets": [
+      "spruce_trapdoor",
+      "spruce_slab",
+      "spruce_stairs",
+      "campfire",
+      "coarse_dirt",
+      "chain",
+      "cave_vines",
+      "moss_carpet",
+      "green_carpet",
+      "spruce_fence",
+      "light_gray_stained_glass_pane",
+      "moss_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "fantasy",
+      "scifi",
+      "modern",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.475,
+        "raw_score": 0.125,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.45,
+        "raw_score": 0.1198
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.436,
+        "raw_score": 0.1167
+      },
+      {
+        "style": "modern",
+        "confidence": 0.394,
+        "raw_score": 0.1076
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.295,
+        "raw_score": 0.0848
+      }
+    ]
+  },
+  "redstone": {
+    "total": 16,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 16
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\faceb35e0212_Overgrown_20Bridge_skeleton.npz",
+    "occupancy_frac": 0.3642578125,
+    "occupied": 11936
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

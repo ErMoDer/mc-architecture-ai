@@ -1,0 +1,13 @@
+{
+  "id": "班德尔城居所__b166d522",
+  "dim": 144,
+  "n_chunks": 34,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "班德尔城居所__b166d522_block2vec.npy"
+}

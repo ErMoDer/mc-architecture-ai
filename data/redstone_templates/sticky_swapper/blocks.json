@@ -1,0 +1,42 @@
+[
+  {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "block": "minecraft:sticky_piston",
+    "props": {
+      "facing": "south"
+    }
+  },
+  {
+    "x": 0,
+    "y": 0,
+    "z": 1,
+    "block": "minecraft:redstone_block"
+  },
+  {
+    "x": 0,
+    "y": 0,
+    "z": 2,
+    "block": "minecraft:air"
+  },
+  {
+    "x": 0,
+    "y": 0,
+    "z": 3,
+    "block": "minecraft:sticky_piston",
+    "props": {
+      "facing": "north"
+    }
+  },
+  {
+    "x": 0,
+    "y": 0,
+    "z": 4,
+    "block": "minecraft:lever",
+    "props": {
+      "face": "floor",
+      "facing": "west"
+    }
+  }
+]

@@ -1,0 +1,232 @@
+{
+  "id": "ca6efdf25c80_Viking_20Longship",
+  "source_path": "data\\raw\\hack337\\schematics\\ca6efdf25c80_Viking%20Longship.litematic",
+  "created_at": "2026-10-18T22:25:51+08:00",
+  "overview": {
+    "schematic_name": "Viking Longship",
+    "size": {
+      "x": 17,
+      "y": 19,
+      "z": 23
+    },
+    "non_air": 429,
+    "density": 0.0577,
+    "unique_block_types": 28
+  },
+  "massing": {
+    "hollow_score": 0.9244,
+    "interior_air_frac": 0.9244,
+    "exterior_solid_frac": 0.0032,
+    "floor_guess": 3,
+    "y_peaks": [
+      2,
+      7,
+      12
+    ],
+    "families": {
+      "stairs": 40,
+      "slabs": 129,
+      "walls": 1,
+      "fences": 20,
+      "doors": 0,
+      "trapdoors": 29,
+      "glass": 0,
+      "logs": 37,
+      "planks": 40,
+      "stone_bricks": 0,
+      "deepslate": 1,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 96,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8101,
+      "symmetry_z": 0.5186,
+      "symmetry_y": 0.1028
+    },
+    "solid_ratio": 0.0577
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_slab",
+        "count": 69,
+        "frac": 0.0
+      },
+      {
+        "name": "red_wool",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_wall_sign",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_planks",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_trapdoor",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_log",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_button",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 10,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 77,
+      "stone": 0,
+      "deepslate": 1,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 96,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "spruce_slab",
+      "red_wool",
+      "white_wool",
+      "oak_slab",
+      "spruce_stairs",
+      "dark_oak_slab",
+      "dark_oak_wall_sign",
+      "spruce_planks",
+      "dark_oak_planks",
+      "stripped_spruce_log",
+      "dark_oak_stairs",
+      "spruce_fence_gate"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.792,
+        "raw_score": 0.442,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.399,
+        "raw_score": 0.28
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.352,
+        "raw_score": 0.2567
+      },
+      {
+        "style": "western",
+        "confidence": 0.352,
+        "raw_score": 0.2567
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.251,
+        "raw_score": 0.2014
+      }
+    ]
+  },
+  "redstone": {
+    "total": 60,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 12,
+      "trapdoor": 29,
+      "fence_gate": 19
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\ca6efdf25c80_Viking_20Longship_skeleton.npz",
+    "occupancy_frac": 0.0538330078125,
+    "occupied": 1764
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

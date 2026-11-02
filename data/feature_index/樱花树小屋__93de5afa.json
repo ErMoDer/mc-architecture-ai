@@ -1,0 +1,304 @@
+{
+  "id": "樱花树小屋__93de5afa",
+  "source_path": "data\\raw\\mcblock\\樱花树小屋__93de5afa.litematic",
+  "created_at": "2026-10-19T20:37:00+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 11,
+      "y": 14,
+      "z": 10
+    },
+    "non_air": 708,
+    "density": 0.4597,
+    "unique_block_types": 44
+  },
+  "massing": {
+    "hollow_score": 0.4549,
+    "interior_air_frac": 0.4549,
+    "exterior_solid_frac": 0.1539,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      9
+    ],
+    "families": {
+      "stairs": 26,
+      "slabs": 13,
+      "walls": 3,
+      "fences": 40,
+      "doors": 0,
+      "trapdoors": 35,
+      "glass": 5,
+      "logs": 92,
+      "planks": 21,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 14,
+      "leaves": 168,
+      "lanterns": 8,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6897,
+      "symmetry_z": 0.5595,
+      "symmetry_y": 0.3039
+    },
+    "solid_ratio": 0.4597
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cherry_leaves",
+        "count": 168,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_log",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_fence",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_trapdoor",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_petals",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_stairs",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_cherry_log",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_planks",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_slab",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "seagrass",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "white_carpet",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_button",
+        "count": 7,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 113,
+      "stone": 3,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 14,
+      "glass": 5,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 168,
+      "metal": 3
+    },
+    "remap_targets": [
+      "cherry_leaves",
+      "dirt",
+      "cherry_log",
+      "grass_block",
+      "cherry_fence",
+      "cherry_trapdoor",
+      "pink_petals",
+      "cherry_stairs",
+      "stripped_cherry_log",
+      "cherry_planks",
+      "cherry_slab",
+      "water"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "japanese",
+      "chinese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.79,
+        "raw_score": 0.4405,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.566,
+        "raw_score": 0.3543
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.525,
+        "raw_score": 0.3366
+      },
+      {
+        "style": "western",
+        "confidence": 0.277,
+        "raw_score": 0.2154
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.244,
+        "raw_score": 0.1966
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 50,
+    "pattern_ids": [
+      "simple_io",
+      "tripwire_trap",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 7,
+      "pressure_plate": 2,
+      "trapdoor": 35,
+      "fence_gate": 2,
+      "tripwire": 1,
+      "furnace": 2,
+      "chiseled_bookshelf": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\樱花树小屋__93de5afa_skeleton.npz",
+    "occupancy_frac": 0.4766845703125,
+    "occupied": 15620
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 2,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\樱花树小屋__93de5afa_block2vec.npy",
+    "vector_preview": [
+      -0.1101,
+      0.19205,
+      -0.04353,
+      -0.05218,
+      0.14665,
+      0.02931,
+      -0.06657,
+      -0.00703
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "d7C6On2X4y-Birch_20Cabin",
+        "score": 0.9389826241480784,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\d7C6On2X4y-Birch%20Cabin.litematic"
+      },
+      {
+        "id": "756492a941b9_Starter_20Wooden_20House",
+        "score": 0.918125771703544,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\756492a941b9_Starter%20Wooden%20House.litematic"
+      },
+      {
+        "id": "d41bd4a60cfa_House",
+        "score": 0.8961179503579003,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\d41bd4a60cfa_House.litematic"
+      },
+      {
+        "id": "8efc487a07f3_house_20_28_20edited_20by_20__ironheart____20_29",
+        "score": 0.8951257674695351,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\8efc487a07f3_house%20%28%20edited%20by%20__ironheart___%20%29.litematic"
+      },
+      {
+        "id": "1f69c9a0a66e_Home",
+        "score": 0.8861414309618805,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\1f69c9a0a66e_Home.litematic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "id": "4ce16653ae61_Pizza_20Flatground",
+  "source_path": "data\\raw\\hack337\\schematics\\4ce16653ae61_Pizza%20Flatground.litematic",
+  "created_at": "2026-10-18T22:25:11+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 12,
+      "y": 8,
+      "z": 12
+    },
+    "non_air": 239,
+    "density": 0.2075,
+    "unique_block_types": 11
+  },
+  "massing": {
+    "hollow_score": 0.6017,
+    "interior_air_frac": 0.6017,
+    "exterior_solid_frac": 0.0,
+    "floor_guess": 1,
+    "y_peaks": [
+      6
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4311,
+      "symmetry_z": 0.4311,
+      "symmetry_y": 0.2256
+    },
+    "solid_ratio": 0.2075
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 123,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 33,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "honey_block",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 33,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "grass_block",
+      "stone",
+      "redstone_wire",
+      "sticky_piston",
+      "observer",
+      "piston_head",
+      "dirt",
+      "honey_block",
+      "slime_block",
+      "redstone_wall_torch",
+      "repeater"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.779,
+        "raw_score": 0.4286,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.67,
+        "raw_score": 0.3889
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.35,
+        "raw_score": 0.25
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.226,
+        "raw_score": 0.1818
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.201,
+        "raw_score": 0.1667
+      }
+    ]
+  },
+  "redstone": {
+    "total": 78,
+    "pattern_ids": [
+      "flying_machine",
+      "edge_detector",
+      "t_flip_flop",
+      "monostable",
+      "torch_clock",
+      "zero_tick_bud_freerun",
+      "torch_logic_lattice",
+      "falling_edge",
+      "torch_xor_gate"
+    ],
+    "pattern_labels": [
+      "飞船/飞行器骨架",
+      "边沿检测（观察者）嫌疑",
+      "T 触发器嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "火把钟骨架",
+      "零刻/BUD 自走嫌疑",
+      "火把逻辑阵（AND/OR/NOR/XOR）嫌疑",
+      "下降沿/双火把脉冲嫌疑",
+      "火把 XOR/同或门嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 31,
+      "redstone_torch": 4,
+      "repeater": 4,
+      "sticky_piston": 16,
+      "observer": 7,
+      "piston_head": 6,
+      "slime_block": 5,
+      "honey_block": 5
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\4ce16653ae61_Pizza_20Flatground_skeleton.npz",
+    "occupancy_frac": 0.2137451171875,
+    "occupied": 7004
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "id": "FsakAoynX2-Ab_27s_20Tunnel_20Competition_20Entry",
+  "source_path": "data\\raw\\hack337\\schematics\\FsakAoynX2-Ab%27s%20Tunnel%20Competition%20Entry.litematic",
+  "created_at": "2026-10-18T22:26:13+08:00",
+  "overview": {
+    "schematic_name": "Ab's Tunnel Competition Entry",
+    "size": {
+      "x": 23,
+      "y": 10,
+      "z": 11
+    },
+    "non_air": 891,
+    "density": 0.3522,
+    "unique_block_types": 15
+  },
+  "massing": {
+    "hollow_score": 0.7414,
+    "interior_air_frac": 0.7414,
+    "exterior_solid_frac": 0.1976,
+    "floor_guess": 3,
+    "y_peaks": [
+      1,
+      4,
+      7
+    ],
+    "families": {
+      "stairs": 151,
+      "slabs": 220,
+      "walls": 34,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 8,
+      "glass": 76,
+      "logs": 42,
+      "planks": 0,
+      "stone_bricks": 69,
+      "deepslate": 206,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 513
+    },
+    "symmetry": {
+      "symmetry_x": 0.9955,
+      "symmetry_z": 0.9955,
+      "symmetry_y": 0.35
+    },
+    "solid_ratio": 0.3522
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "deepslate_bricks",
+        "count": 166,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone_slab",
+        "count": 151,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone_stairs",
+        "count": 105,
+        "frac": 0.0
+      },
+      {
+        "name": "soul_soil",
+        "count": 92,
+        "frac": 0.0
+      },
+      {
+        "name": "red_stained_glass_pane",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_brick_slab",
+        "count": 69,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_stairs",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_stem",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate_wall",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_trapdoor",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate",
+        "count": 6,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 42,
+      "stone": 413,
+      "deepslate": 206,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 76,
+      "nether": 100,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 23,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "deepslate_bricks",
+      "blackstone_slab",
+      "blackstone_stairs",
+      "soul_soil",
+      "red_stained_glass_pane",
+      "polished_blackstone_brick_slab",
+      "polished_blackstone_stairs",
+      "cobblestone",
+      "crimson_stem",
+      "cobbled_deepslate_wall",
+      "packed_ice",
+      "powered_rail"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.59,
+        "raw_score": 0.2404,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.585,
+        "raw_score": 0.2388
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.304,
+        "raw_score": 0.147
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.231,
+        "raw_score": 0.1184
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.207,
+        "raw_score": 0.1085
+      }
+    ]
+  },
+  "redstone": {
+    "total": 31,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 8,
+      "powered_rail": 23
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\FsakAoynX2-Ab_27s_20Tunnel_20Competition_20Entry_skeleton.npz",
+    "occupancy_frac": 0.35296630859375,
+    "occupied": 11566
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

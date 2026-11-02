@@ -1,0 +1,13 @@
+{
+  "id": "vOvcr8CIBZ-Granja_20Simple_20de_20Ca_C3_B1a",
+  "dim": 144,
+  "n_chunks": 6,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "vOvcr8CIBZ-Granja_20Simple_20de_20Ca_C3_B1a_block2vec.npy"
+}

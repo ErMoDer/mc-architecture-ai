@@ -1,0 +1,265 @@
+{
+  "id": "ONyifiW2Rl-1_20Hit_20Kill_20Blaze_20Farm_20Mumbo_20Jumbo_2C_20EagleEye_20and_20Logical_20Geek_20Boy_3B_20MikeCroakPhone_",
+  "source_path": "data\\raw\\hack337\\schematics\\ONyifiW2Rl-1%20Hit%20Kill%20Blaze%20Farm%20Mumbo%20Jumbo%2C%20EagleEye%20and%20Logical%20Geek%20Boy%3B%20MikeCroakPhone%20Combination.litematic",
+  "created_at": "2026-10-18T22:26:36+08:00",
+  "overview": {
+    "schematic_name": "1 Hit Kill Blaze Farm Mumbo Jumbo, EagleEye and Logical Geek Boy; MikeCroakPhone Combination",
+    "size": {
+      "x": 23,
+      "y": 20,
+      "z": 24
+    },
+    "non_air": 1414,
+    "density": 0.1281,
+    "unique_block_types": 39
+  },
+  "massing": {
+    "hollow_score": 0.8426,
+    "interior_air_frac": 0.8426,
+    "exterior_solid_frac": 0.0095,
+    "floor_guess": 3,
+    "y_peaks": [
+      4,
+      8,
+      14
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 6,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 2,
+      "glass": 537,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 265,
+      "wool": 1,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 2,
+      "nether": 107
+    },
+    "symmetry": {
+      "symmetry_x": 0.2676,
+      "symmetry_z": 0.1021,
+      "symmetry_y": 0.1715
+    },
+    "solid_ratio": 0.1281
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "tinted_glass",
+        "count": 498,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 187,
+        "frac": 0.0
+      },
+      {
+        "name": "red_concrete",
+        "count": 127,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_wall_sign",
+        "count": 99,
+        "frac": 0.0
+      },
+      {
+        "name": "rail",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_button",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "green_concrete",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_concrete",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "scaffolding",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_concrete",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 9,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 9,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 265,
+      "wool": 1,
+      "glass": 537,
+      "nether": 107,
+      "copper": 2,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 1,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 15
+    },
+    "remap_targets": [
+      "tinted_glass",
+      "lava",
+      "red_concrete",
+      "warped_wall_sign",
+      "rail",
+      "oak_button",
+      "green_concrete",
+      "powered_rail",
+      "light_blue_concrete",
+      "glass",
+      "lever",
+      "scaffolding"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european",
+      "industrial"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.622,
+        "raw_score": 0.2719,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.499,
+        "raw_score": 0.2329
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.162,
+        "raw_score": 0.0981
+      },
+      {
+        "style": "european",
+        "confidence": 0.138,
+        "raw_score": 0.086
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.133,
+        "raw_score": 0.0835
+      }
+    ]
+  },
+  "redstone": {
+    "total": 280,
+    "pattern_ids": [
+      "hopper_line",
+      "etho_hopper_clock",
+      "qc_piston_bank",
+      "hopper_clock",
+      "edge_detector",
+      "detector_rail_clock"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "多漏斗环钟嫌疑",
+      "QC/BUD 活塞组",
+      "漏斗+比较器时钟/测量嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "探测铁轨矿车钟嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 6,
+      "redstone_torch": 2,
+      "repeater": 1,
+      "comparator": 1,
+      "lever": 30,
+      "button": 72,
+      "pressure_plate": 1,
+      "sticky_piston": 1,
+      "observer": 2,
+      "hopper": 13,
+      "dispenser": 2,
+      "trapdoor": 2,
+      "powered_rail": 64,
+      "detector_rail": 1,
+      "activator_rail": 1,
+      "rail": 80,
+      "piston_head": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\ONyifiW2Rl-1_20Hit_20Kill_20Blaze_20Farm_20Mumbo_20Jumbo_2C_20EagleEye_20and_20Logical_20Geek_20Boy_3B_20MikeCroakPhone__skeleton.npz",
+    "occupancy_frac": 0.1297607421875,
+    "occupied": 4252
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "demoted_from_industrial:farm",
+  "previous_mapped_style": "industrial"
+}

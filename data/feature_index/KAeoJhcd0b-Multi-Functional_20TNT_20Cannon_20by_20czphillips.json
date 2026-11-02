@@ -1,0 +1,271 @@
+{
+  "id": "KAeoJhcd0b-Multi-Functional_20TNT_20Cannon_20by_20czphillips",
+  "source_path": "data\\raw\\hack337\\schematics\\KAeoJhcd0b-Multi-Functional%20TNT%20Cannon%20by%20czphillips.litematic",
+  "created_at": "2026-10-18T22:26:25+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 13,
+      "y": 18,
+      "z": 24
+    },
+    "non_air": 1891,
+    "density": 0.3367,
+    "unique_block_types": 27
+  },
+  "massing": {
+    "hollow_score": 0.6544,
+    "interior_air_frac": 0.6544,
+    "exterior_solid_frac": 0.0985,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      3,
+      7,
+      10
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 68,
+      "walls": 1,
+      "fences": 1,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 7,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 1,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 4
+    },
+    "symmetry": {
+      "symmetry_x": 0.7036,
+      "symmetry_z": 0.5944,
+      "symmetry_y": 0.1447
+    },
+    "solid_ratio": 0.3367
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 949,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 256,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 149,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 145,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 114,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 106,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "melon",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_sign",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 184,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 7,
+      "nether": 4,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 2,
+      "leaves": 0,
+      "metal": 8
+    },
+    "remap_targets": [
+      "dirt",
+      "grass_block",
+      "dispenser",
+      "redstone_wire",
+      "smooth_stone",
+      "repeater",
+      "smooth_stone_slab",
+      "slime_block",
+      "observer",
+      "sticky_piston",
+      "hopper",
+      "melon"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.743,
+        "raw_score": 0.393,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.63,
+        "raw_score": 0.3524
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.34,
+        "raw_score": 0.2301
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.213,
+        "raw_score": 0.1632
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.19,
+        "raw_score": 0.1496
+      }
+    ]
+  },
+  "redstone": {
+    "total": 471,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "hopper_clock",
+      "sticky_piston_pair",
+      "observer_clock",
+      "etho_hopper_clock",
+      "flying_machine",
+      "pulse_extender",
+      "edge_detector",
+      "instant_wire",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "dual_edge_repeater"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "漏斗钟",
+      "粘性活塞对（换块/门）",
+      "观察者相邻时钟嫌疑",
+      "多漏斗环钟嫌疑",
+      "飞船/飞行器骨架",
+      "脉冲延长/单稳态嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "双沿/对向中继器线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 145,
+      "redstone_torch": 3,
+      "redstone_block": 2,
+      "repeater": 106,
+      "comparator": 2,
+      "lever": 2,
+      "button": 1,
+      "pressure_plate": 1,
+      "sticky_piston": 9,
+      "observer": 13,
+      "hopper": 8,
+      "dispenser": 149,
+      "powered_rail": 7,
+      "piston_head": 3,
+      "slime_block": 20
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\KAeoJhcd0b-Multi-Functional_20TNT_20Cannon_20by_20czphillips_skeleton.npz",
+    "occupancy_frac": 0.3623046875,
+    "occupied": 11872
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

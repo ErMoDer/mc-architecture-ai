@@ -1,0 +1,299 @@
+{
+  "id": "钓鱼小屋第二弹__56d6b39d",
+  "source_path": "data\\raw\\mcblock\\钓鱼小屋第二弹__56d6b39d.litematic",
+  "created_at": "2026-10-19T20:36:53+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 16,
+      "y": 10,
+      "z": 16
+    },
+    "non_air": 787,
+    "density": 0.3074,
+    "unique_block_types": 30
+  },
+  "massing": {
+    "hollow_score": 0.7015,
+    "interior_air_frac": 0.7015,
+    "exterior_solid_frac": 0.1246,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      5
+    ],
+    "families": {
+      "stairs": 121,
+      "slabs": 32,
+      "walls": 0,
+      "fences": 37,
+      "doors": 0,
+      "trapdoors": 3,
+      "glass": 0,
+      "logs": 113,
+      "planks": 130,
+      "stone_bricks": 19,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4934,
+      "symmetry_z": 0.3954,
+      "symmetry_y": 0.2126
+    },
+    "solid_ratio": 0.3074
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "water",
+        "count": 122,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 108,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 83,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_log",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "sand",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_button",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 12,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 243,
+      "stone": 141,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 22,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "water",
+      "dirt",
+      "cobblestone_stairs",
+      "oak_planks",
+      "spruce_planks",
+      "oak_log",
+      "dark_oak_log",
+      "grass_block",
+      "spruce_fence",
+      "sand",
+      "spruce_slab",
+      "oak_button"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5544,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.636,
+        "raw_score": 0.444
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.556,
+        "raw_score": 0.407
+      },
+      {
+        "style": "western",
+        "confidence": 0.44,
+        "raw_score": 0.3491
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.318,
+        "raw_score": 0.2797
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 35,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 25,
+      "pressure_plate": 3,
+      "trapdoor": 3,
+      "fence_gate": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\钓鱼小屋第二弹__56d6b39d_skeleton.npz",
+    "occupancy_frac": 0.32861328125,
+    "occupied": 10768
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 2,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\钓鱼小屋第二弹__56d6b39d_block2vec.npy",
+    "vector_preview": [
+      -0.02538,
+      0.11554,
+      -0.09823,
+      0.02354,
+      0.00841,
+      0.10726,
+      0.06872,
+      0.032
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "唐屋_小__26c467c7",
+        "score": 0.8720820561005445,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\唐屋_小__26c467c7.litematic"
+      },
+      {
+        "id": "lsd5ouTeGz-EternalDawnBT_Desert_House",
+        "score": 0.8420155117792223,
+        "mapped_style": "chinese",
+        "mapped_terrain": "desert",
+        "source_path": "data\\raw\\hack337\\schematics\\lsd5ouTeGz-EternalDawnBT_Desert_House.litematic"
+      },
+      {
+        "id": "海滨住宅__e7cef132",
+        "score": 0.8313514183769615,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\海滨住宅__e7cef132.litematic"
+      },
+      {
+        "id": "紫珀砂岩小屋_二__440b8ace",
+        "score": 0.8217717587602446,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\紫珀砂岩小屋_二__440b8ace.litematic"
+      },
+      {
+        "id": "带石塔的高屋__8a0967a4",
+        "score": 0.813444194956914,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\带石塔的高屋__8a0967a4.litematic"
+      }
+    ]
+  }
+}

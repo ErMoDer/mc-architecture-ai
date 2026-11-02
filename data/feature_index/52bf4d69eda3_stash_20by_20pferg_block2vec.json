@@ -1,0 +1,13 @@
+{
+  "id": "52bf4d69eda3_stash_20by_20pferg",
+  "dim": 144,
+  "n_chunks": 4,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "52bf4d69eda3_stash_20by_20pferg_block2vec.npy"
+}

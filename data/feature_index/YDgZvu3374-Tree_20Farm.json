@@ -1,0 +1,267 @@
+{
+  "id": "YDgZvu3374-Tree_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\YDgZvu3374-Tree%20Farm.litematic",
+  "created_at": "2026-10-18T22:27:21+08:00",
+  "overview": {
+    "schematic_name": "Tree Farm",
+    "size": {
+      "x": 15,
+      "y": 52,
+      "z": 24
+    },
+    "non_air": 1066,
+    "density": 0.0569,
+    "unique_block_types": 30
+  },
+  "massing": {
+    "hollow_score": 0.9338,
+    "interior_air_frac": 0.9338,
+    "exterior_solid_frac": 0.0064,
+    "floor_guess": 3,
+    "y_peaks": [
+      1,
+      4,
+      49
+    ],
+    "families": {
+      "stairs": 28,
+      "slabs": 50,
+      "walls": 0,
+      "fences": 10,
+      "doors": 0,
+      "trapdoors": 3,
+      "glass": 0,
+      "logs": 4,
+      "planks": 0,
+      "stone_bricks": 35,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 34,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 4,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.6553,
+      "symmetry_z": 0.346,
+      "symmetry_y": 0.042
+    },
+    "solid_ratio": 0.0569
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "smooth_stone",
+        "count": 564,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 189,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "scaffolding",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_carpet",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "green_carpet",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence_gate",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 7,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 4,
+      "stone": 649,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 34,
+      "glass": 0,
+      "nether": 1,
+      "copper": 4,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 7,
+      "metal": 16
+    },
+    "remap_targets": [
+      "smooth_stone",
+      "water",
+      "smooth_stone_slab",
+      "scaffolding",
+      "redstone_wire",
+      "stone_brick_stairs",
+      "chest",
+      "moss_carpet",
+      "green_carpet",
+      "hopper",
+      "repeater",
+      "oak_fence_gate"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.799,
+        "raw_score": 0.449,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.699,
+        "raw_score": 0.4118
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.311,
+        "raw_score": 0.2379
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.197,
+        "raw_score": 0.1704
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.177,
+        "raw_score": 0.157
+      }
+    ]
+  },
+  "redstone": {
+    "total": 98,
+    "pattern_ids": [
+      "copper_bulb_latch",
+      "etho_hopper_clock",
+      "pulse_extender",
+      "pulse_limiter",
+      "edge_detector",
+      "instant_wire",
+      "hopper_clock",
+      "monostable",
+      "water_hopper_stream",
+      "falling_edge"
+    ],
+    "pattern_labels": [
+      "铜灯泡锁存/切换",
+      "Etho 漏斗钟变体嫌疑",
+      "脉冲延长/单稳态嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "水流漏斗收集线嫌疑",
+      "下降沿/双火把脉冲嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 37,
+      "redstone_torch": 8,
+      "repeater": 12,
+      "comparator": 6,
+      "lever": 1,
+      "piston": 2,
+      "observer": 2,
+      "hopper": 13,
+      "trapdoor": 3,
+      "fence_gate": 10,
+      "copper_bulb": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\YDgZvu3374-Tree_20Farm_skeleton.npz",
+    "occupancy_frac": 0.071533203125,
+    "occupied": 2344
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

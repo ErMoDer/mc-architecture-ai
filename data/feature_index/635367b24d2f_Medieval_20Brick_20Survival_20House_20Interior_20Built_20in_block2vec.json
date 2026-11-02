@@ -1,0 +1,13 @@
+{
+  "id": "635367b24d2f_Medieval_20Brick_20Survival_20House_20Interior_20Built_20in",
+  "dim": 144,
+  "n_chunks": 20,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "635367b24d2f_Medieval_20Brick_20Survival_20House_20Interior_20Built_20in_block2vec.npy"
+}

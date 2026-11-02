@@ -1,0 +1,13 @@
+{
+  "id": "海滨小筑__8e86858e",
+  "dim": 144,
+  "n_chunks": 17,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "海滨小筑__8e86858e_block2vec.npy"
+}

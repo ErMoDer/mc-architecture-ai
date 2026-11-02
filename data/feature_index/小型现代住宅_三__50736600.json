@@ -1,0 +1,254 @@
+{
+  "id": "小型现代住宅_三__50736600",
+  "source_path": "data\\raw\\mcblock\\小型现代住宅_三__50736600.litematic",
+  "created_at": "2026-10-19T13:01:06+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 15,
+      "y": 12,
+      "z": 22
+    },
+    "non_air": 1201,
+    "density": 0.3033,
+    "unique_block_types": 16
+  },
+  "massing": {
+    "hollow_score": 0.7238,
+    "interior_air_frac": 0.7238,
+    "exterior_solid_frac": 0.122,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      5,
+      9
+    ],
+    "families": {
+      "stairs": 10,
+      "slabs": 160,
+      "walls": 0,
+      "fences": 0,
+      "doors": 2,
+      "trapdoors": 0,
+      "glass": 190,
+      "logs": 0,
+      "planks": 125,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 174,
+      "concrete": 269,
+      "wool": 0,
+      "leaves": 12,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4611,
+      "symmetry_z": 0.3154,
+      "symmetry_y": 0.3126
+    },
+    "solid_ratio": 0.3033
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "white_concrete",
+        "count": 217,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_terracotta",
+        "count": 174,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 144,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 125,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_concrete",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 33,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_leaves",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_door",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 125,
+      "stone": 151,
+      "deepslate": 0,
+      "terracotta": 174,
+      "concrete": 269,
+      "wool": 0,
+      "glass": 190,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 12,
+      "metal": 0
+    },
+    "remap_targets": [
+      "white_concrete",
+      "light_gray_terracotta",
+      "spruce_slab",
+      "glass_pane",
+      "spruce_planks",
+      "stone",
+      "cobblestone",
+      "grass_block",
+      "orange_concrete",
+      "glass",
+      "dirt",
+      "birch_leaves"
+    ]
+  },
+  "style": {
+    "mapped_style": "modern",
+    "mapped_terrain": "flat",
+    "style_id": 3,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "european",
+      "chinese",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.771,
+        "raw_score": 0.4209,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.152,
+        "raw_score": 0.1329
+      },
+      {
+        "style": "european",
+        "confidence": 0.133,
+        "raw_score": 0.1191
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.132,
+        "raw_score": 0.1185
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.124,
+        "raw_score": 0.1125
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 2,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\小型现代住宅_三__50736600_skeleton.npz",
+    "occupancy_frac": 0.307769775390625,
+    "occupied": 10085
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 4,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\小型现代住宅_三__50736600_block2vec.npy",
+    "vector_preview": [
+      0.0782,
+      0.29794,
+      0.05962,
+      0.05399,
+      0.10652,
+      0.06234,
+      -0.01061,
+      -0.00769
+    ],
+    "ok": true
+  }
+}

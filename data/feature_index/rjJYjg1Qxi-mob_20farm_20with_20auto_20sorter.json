@@ -1,0 +1,257 @@
+{
+  "id": "rjJYjg1Qxi-mob_20farm_20with_20auto_20sorter",
+  "source_path": "data\\raw\\hack337\\schematics\\rjJYjg1Qxi-mob%20farm%20with%20auto%20sorter.litematic",
+  "created_at": "2026-10-18T22:26:41+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 22,
+      "y": 39,
+      "z": 22
+    },
+    "non_air": 2745,
+    "density": 0.1454,
+    "unique_block_types": 25
+  },
+  "massing": {
+    "hollow_score": 0.816,
+    "interior_air_frac": 0.816,
+    "exterior_solid_frac": 0.0012,
+    "floor_guess": 6,
+    "y_peaks": [
+      1,
+      6,
+      10,
+      31,
+      34,
+      37
+    ],
+    "families": {
+      "stairs": 12,
+      "slabs": 208,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 226,
+      "glass": 0,
+      "logs": 0,
+      "planks": 604,
+      "stone_bricks": 897,
+      "deepslate": 620,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 14,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7675,
+      "symmetry_z": 0.7351,
+      "symmetry_y": 0.2018
+    },
+    "solid_ratio": 0.1454
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 873,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 620,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 604,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 226,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 196,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "bookshelf",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 604,
+      "stone": 897,
+      "deepslate": 620,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 28
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "deepslate_bricks",
+      "oak_planks",
+      "oak_trapdoor",
+      "oak_slab",
+      "water",
+      "chest",
+      "hopper",
+      "bookshelf",
+      "lantern",
+      "torch",
+      "stone_brick_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "medieval",
+      "european",
+      "chinese",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "medieval",
+        "confidence": 0.703,
+        "raw_score": 0.3534,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.602,
+        "raw_score": 0.3183
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.436,
+        "raw_score": 0.2547
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.401,
+        "raw_score": 0.2403
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.386,
+        "raw_score": 0.2335
+      }
+    ]
+  },
+  "redstone": {
+    "total": 277,
+    "pattern_ids": [
+      "hopper_line",
+      "item_elevator",
+      "etho_hopper_clock",
+      "pulse_limiter",
+      "instant_wire",
+      "hopper_clock"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "物品升降机嫌疑",
+      "多漏斗环钟嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "漏斗+比较器时钟/测量嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 12,
+      "redstone_torch": 4,
+      "repeater": 4,
+      "comparator": 4,
+      "hopper": 27,
+      "trapdoor": 226
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\rjJYjg1Qxi-mob_20farm_20with_20auto_20sorter_skeleton.npz",
+    "occupancy_frac": 0.1610107421875,
+    "occupied": 5276
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "樱花砂岩小屋__cd9e26b9",
+  "dim": 144,
+  "n_chunks": 12,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "樱花砂岩小屋__cd9e26b9_block2vec.npy"
+}

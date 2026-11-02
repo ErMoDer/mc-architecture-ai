@@ -1,0 +1,264 @@
+{
+  "id": "481579e09e0d_Amethyst_20Pirate_20Ship",
+  "source_path": "data\\raw\\hack337\\schematics\\481579e09e0d_Amethyst%20Pirate%20Ship.litematic",
+  "created_at": "2026-10-18T22:25:10+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 29,
+      "y": 21,
+      "z": 15
+    },
+    "non_air": 3157,
+    "density": 0.3456,
+    "unique_block_types": 32
+  },
+  "massing": {
+    "hollow_score": 0.6694,
+    "interior_air_frac": 0.6694,
+    "exterior_solid_frac": 0.1042,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      3,
+      7,
+      13,
+      16
+    ],
+    "families": {
+      "stairs": 24,
+      "slabs": 3,
+      "walls": 0,
+      "fences": 0,
+      "doors": 2,
+      "trapdoors": 0,
+      "glass": 83,
+      "logs": 58,
+      "planks": 0,
+      "stone_bricks": 836,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 135,
+      "wool": 194,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 836
+    },
+    "symmetry": {
+      "symmetry_x": 0.6646,
+      "symmetry_z": 0.9768,
+      "symmetry_y": 0.1549
+    },
+    "solid_ratio": 0.3456
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "polished_blackstone_bricks",
+        "count": 809,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 738,
+        "frac": 0.0
+      },
+      {
+        "name": "bedrock",
+        "count": 423,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 369,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_wool",
+        "count": 161,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_stained_glass",
+        "count": 83,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_concrete",
+        "count": 62,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_log",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 33,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_brick_stairs",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "amethyst_block",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 17,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 58,
+      "stone": 836,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 135,
+      "wool": 194,
+      "glass": 83,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 28
+    },
+    "remap_targets": [
+      "polished_blackstone_bricks",
+      "dirt",
+      "bedrock",
+      "grass_block",
+      "purple_wool",
+      "water",
+      "purple_stained_glass",
+      "white_concrete",
+      "chest",
+      "purple_concrete",
+      "dark_oak_log",
+      "white_wool"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.744,
+        "raw_score": 0.3937,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.65,
+        "raw_score": 0.3603
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.284,
+        "raw_score": 0.2021
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.177,
+        "raw_score": 0.1416
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.158,
+        "raw_score": 0.1298
+      }
+    ]
+  },
+  "redstone": {
+    "total": 69,
+    "pattern_ids": [
+      "simple_io",
+      "qc_piston_bank",
+      "observer_clock",
+      "flying_machine",
+      "edge_detector",
+      "note_block_line",
+      "hopper_clock",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "portal_frame_cue"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "QC/BUD 活塞组",
+      "观察者相邻时钟嫌疑",
+      "飞船/飞行器骨架",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "传送门框/黑曜石阵嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 10,
+      "repeater": 3,
+      "comparator": 1,
+      "lever": 1,
+      "sticky_piston": 1,
+      "observer": 8,
+      "hopper": 28,
+      "dispenser": 8,
+      "note_block": 6,
+      "door": 2,
+      "slime_block": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\481579e09e0d_Amethyst_20Pirate_20Ship_skeleton.npz",
+    "occupancy_frac": 0.37237548828125,
+    "occupied": 12202
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

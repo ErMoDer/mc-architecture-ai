@@ -1,0 +1,304 @@
+{
+  "id": "寒霜别馆__5ec454ce",
+  "source_path": "data\\raw\\mcblock\\寒霜别馆__5ec454ce.litematic",
+  "created_at": "2026-10-19T20:36:29+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 33,
+      "y": 45,
+      "z": 39
+    },
+    "non_air": 3246,
+    "density": 0.056,
+    "unique_block_types": 81
+  },
+  "massing": {
+    "hollow_score": 0.9369,
+    "interior_air_frac": 0.9369,
+    "exterior_solid_frac": 0.0023,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      4,
+      9,
+      18,
+      23,
+      30
+    ],
+    "families": {
+      "stairs": 162,
+      "slabs": 189,
+      "walls": 123,
+      "fences": 63,
+      "doors": 4,
+      "trapdoors": 158,
+      "glass": 21,
+      "logs": 95,
+      "planks": 92,
+      "stone_bricks": 84,
+      "deepslate": 79,
+      "terracotta": 94,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 51,
+      "lanterns": 21,
+      "copper": 15,
+      "nether": 147
+    },
+    "symmetry": {
+      "symmetry_x": 0.7733,
+      "symmetry_z": 0.0741,
+      "symmetry_y": 0.0174
+    },
+    "solid_ratio": 0.056
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "snow_block",
+        "count": 448,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 296,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 278,
+        "frac": 0.0
+      },
+      {
+        "name": "clay",
+        "count": 194,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 136,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 129,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_prismarine",
+        "count": 105,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_glazed_terracotta",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine",
+        "count": 82,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_warped_hyphae",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_bricks",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_trapdoor",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_planks",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate",
+        "count": 59,
+        "frac": 0.0
+      },
+      {
+        "name": "glow_lichen",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 57,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 187,
+      "stone": 1247,
+      "deepslate": 79,
+      "terracotta": 94,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 21,
+      "nether": 2,
+      "copper": 15,
+      "prismarine": 214,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 525,
+      "leaves": 51,
+      "metal": 14
+    },
+    "remap_targets": [
+      "snow_block",
+      "calcite",
+      "diorite",
+      "clay",
+      "bricks",
+      "smooth_stone",
+      "dark_prismarine",
+      "light_gray_glazed_terracotta",
+      "prismarine",
+      "stripped_warped_hyphae",
+      "quartz_bricks",
+      "jungle_trapdoor"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.598,
+        "raw_score": 0.2475,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.556,
+        "raw_score": 0.2353
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.306,
+        "raw_score": 0.1513
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.29,
+        "raw_score": 0.145
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.264,
+        "raw_score": 0.1346
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 223,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 12,
+      "hopper": 2,
+      "door": 4,
+      "trapdoor": 158,
+      "fence_gate": 47
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\寒霜别馆__5ec454ce_skeleton.npz",
+    "occupancy_frac": 0.073089599609375,
+    "occupied": 2395
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 35,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\寒霜别馆__5ec454ce_block2vec.npy",
+    "vector_preview": [
+      0.0694,
+      0.19559,
+      -0.15218,
+      -0.03235,
+      0.04279,
+      0.02273,
+      -0.05026,
+      0.0031
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "蜘蛛屋__7c95fe83",
+        "score": 0.9032991959156417,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\蜘蛛屋__7c95fe83.litematic"
+      },
+      {
+        "id": "枫园_二__7f032442",
+        "score": 0.885320325369196,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\枫园_二__7f032442.litematic"
+      },
+      {
+        "id": "法师居所__3d1599a3",
+        "score": 0.8732031956007011,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\法师居所__3d1599a3.litematic"
+      },
+      {
+        "id": "绯红菌菇小屋__e0c9b521",
+        "score": 0.8625184054035187,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\绯红菌菇小屋__e0c9b521.litematic"
+      },
+      {
+        "id": "风铃草小屋__c29fe14f",
+        "score": 0.8573692943220247,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\风铃草小屋__c29fe14f.litematic"
+      }
+    ]
+  }
+}

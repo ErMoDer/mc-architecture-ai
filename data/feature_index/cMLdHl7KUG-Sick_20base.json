@@ -1,0 +1,246 @@
+{
+  "id": "cMLdHl7KUG-Sick_20base",
+  "source_path": "data\\raw\\hack337\\schematics\\cMLdHl7KUG-Sick%20base.litematic",
+  "created_at": "2026-10-18T22:25:54+08:00",
+  "overview": {
+    "schematic_name": "Sick base",
+    "size": {
+      "x": 32,
+      "y": 9,
+      "z": 37
+    },
+    "non_air": 2927,
+    "density": 0.2747,
+    "unique_block_types": 19
+  },
+  "massing": {
+    "hollow_score": 0.7733,
+    "interior_air_frac": 0.7733,
+    "exterior_solid_frac": 0.1183,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      5
+    ],
+    "families": {
+      "stairs": 381,
+      "slabs": 6,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 4,
+      "logs": 429,
+      "planks": 88,
+      "stone_bricks": 0,
+      "deepslate": 1686,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 2,
+      "leaves": 0,
+      "lanterns": 36,
+      "copper": 193,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6398,
+      "symmetry_z": 0.9858,
+      "symmetry_y": 0.0749
+    },
+    "solid_ratio": 0.2747
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "deepslate_tiles",
+        "count": 831,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 542,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_log",
+        "count": 423,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 313,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_pillar",
+        "count": 234,
+        "frac": 0.0
+      },
+      {
+        "name": "oxidized_copper",
+        "count": 193,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 124,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_planks",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_stairs",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "sea_lantern",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_wood",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_slab",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 4,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 517,
+      "stone": 1,
+      "deepslate": 1686,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 2,
+      "glass": 4,
+      "nether": 0,
+      "copper": 193,
+      "prismarine": 36,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "deepslate_tiles",
+      "deepslate_bricks",
+      "mangrove_log",
+      "deepslate_tile_stairs",
+      "quartz_pillar",
+      "oxidized_copper",
+      "grass_block",
+      "mangrove_planks",
+      "mangrove_stairs",
+      "dirt",
+      "sea_lantern",
+      "sticky_piston"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "medieval",
+      "japanese",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.486,
+        "raw_score": 0.1364,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.48,
+        "raw_score": 0.135
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.431,
+        "raw_score": 0.1241
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.43,
+        "raw_score": 0.1237
+      },
+      {
+        "style": "western",
+        "confidence": 0.429,
+        "raw_score": 0.1237
+      }
+    ]
+  },
+  "redstone": {
+    "total": 16,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "observer_clock",
+      "edge_detector",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "观察者相邻时钟嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 4,
+      "button": 1,
+      "sticky_piston": 8,
+      "observer": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\cMLdHl7KUG-Sick_20base_skeleton.npz",
+    "occupancy_frac": 0.30181884765625,
+    "occupied": 9890
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

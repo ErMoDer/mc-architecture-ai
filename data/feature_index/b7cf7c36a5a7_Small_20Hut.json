@@ -1,0 +1,223 @@
+{
+  "id": "b7cf7c36a5a7_Small_20Hut",
+  "source_path": "data\\raw\\hack337\\schematics\\b7cf7c36a5a7_Small%20Hut.litematic",
+  "created_at": "2026-10-18T22:25:44+08:00",
+  "overview": {
+    "schematic_name": "Small Hut",
+    "size": {
+      "x": 5,
+      "y": 6,
+      "z": 5
+    },
+    "non_air": 75,
+    "density": 0.5,
+    "unique_block_types": 14
+  },
+  "massing": {
+    "hollow_score": 0.4167,
+    "interior_air_frac": 0.4167,
+    "exterior_solid_frac": 0.36,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 4,
+      "slabs": 25,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 19,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 2,
+      "lanterns": 1,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8072,
+      "symmetry_z": 0.875,
+      "symmetry_y": 0.25
+    },
+    "solid_ratio": 0.5
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_slab",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "tripwire",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_leaves",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "attached_melon_stem",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "bubble_column",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "attached_pumpkin_stem",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "pumpkin",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "melon",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 19,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 2,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_slab",
+      "spruce_log",
+      "dirt_path",
+      "dirt",
+      "tripwire",
+      "spruce_stairs",
+      "farmland",
+      "spruce_leaves",
+      "attached_melon_stem",
+      "bubble_column",
+      "attached_pumpkin_stem",
+      "pumpkin"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.7152,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.705,
+        "raw_score": 0.5931
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.656,
+        "raw_score": 0.5516
+      },
+      {
+        "style": "western",
+        "confidence": 0.627,
+        "raw_score": 0.5278
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.2,
+        "raw_score": 0.2421
+      }
+    ]
+  },
+  "redstone": {
+    "total": 5,
+    "pattern_ids": [
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "tripwire": 5
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\b7cf7c36a5a7_Small_20Hut_skeleton.npz",
+    "occupancy_frac": 0.514739990234375,
+    "occupied": 16867
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

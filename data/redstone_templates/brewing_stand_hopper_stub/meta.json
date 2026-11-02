@@ -1,0 +1,15 @@
+{
+  "id": "brewing_stand_hopper_stub",
+  "matches": [
+    "brewing_hopper",
+    "alchemy_feed",
+    "brewing_stand_in"
+  ],
+  "label_zh": "酿造台进料漏斗桩（箱→漏斗→酿造台）",
+  "size": [
+    2,
+    2,
+    1
+  ],
+  "notes": "教学桩：屋内炼药进料；非完整自动酿造机。"
+}

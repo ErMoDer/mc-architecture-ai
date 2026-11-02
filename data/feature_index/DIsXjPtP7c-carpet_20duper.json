@@ -1,0 +1,233 @@
+{
+  "id": "DIsXjPtP7c-carpet_20duper",
+  "source_path": "data\\raw\\hack337\\schematics\\DIsXjPtP7c-carpet%20duper.litematic",
+  "created_at": "2026-10-18T22:26:00+08:00",
+  "overview": {
+    "schematic_name": "carpet duper",
+    "size": {
+      "x": 7,
+      "y": 4,
+      "z": 3
+    },
+    "non_air": 26,
+    "density": 0.3095,
+    "unique_block_types": 13
+  },
+  "massing": {
+    "hollow_score": 0.4,
+    "interior_air_frac": 0.4,
+    "exterior_solid_frac": 0.2381,
+    "floor_guess": 1,
+    "y_peaks": [
+      1
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 10,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 1,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2381,
+      "symmetry_z": 0.625,
+      "symmetry_y": 0.3
+    },
+    "solid_ratio": 0.3095
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "glass",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "slime_block",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "furnace",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "red_carpet",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 1,
+      "glass": 10,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 2
+    },
+    "remap_targets": [
+      "glass",
+      "chest",
+      "hopper",
+      "slime_block",
+      "dirt",
+      "grass_block",
+      "furnace",
+      "sticky_piston",
+      "piston_head",
+      "lever",
+      "repeater",
+      "observer"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "scifi",
+      "modern",
+      "fantasy",
+      "european",
+      "industrial"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "scifi",
+        "confidence": 0.596,
+        "raw_score": 0.2462,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "modern",
+        "confidence": 0.587,
+        "raw_score": 0.2436
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.281,
+        "raw_score": 0.141
+      },
+      {
+        "style": "european",
+        "confidence": 0.205,
+        "raw_score": 0.1099
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.103,
+        "raw_score": 0.0615
+      }
+    ]
+  },
+  "redstone": {
+    "total": 10,
+    "pattern_ids": [
+      "auto_smelt_brew_line",
+      "t_flip_flop",
+      "flying_machine"
+    ],
+    "pattern_labels": [
+      "自动烧炼/酿造线",
+      "T 触发器嫌疑",
+      "飞船/飞行器骨架"
+    ],
+    "inventory_nonzero": {
+      "repeater": 1,
+      "lever": 1,
+      "sticky_piston": 1,
+      "observer": 1,
+      "hopper": 2,
+      "piston_head": 1,
+      "furnace": 1,
+      "slime_block": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\DIsXjPtP7c-carpet_20duper_skeleton.npz",
+    "occupancy_frac": 0.299072265625,
+    "occupied": 9800
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "demoted_from_industrial:duper",
+  "previous_mapped_style": "industrial"
+}

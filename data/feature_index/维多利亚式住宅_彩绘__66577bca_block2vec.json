@@ -1,0 +1,13 @@
+{
+  "id": "维多利亚式住宅_彩绘__66577bca",
+  "dim": 144,
+  "n_chunks": 43,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "维多利亚式住宅_彩绘__66577bca_block2vec.npy"
+}

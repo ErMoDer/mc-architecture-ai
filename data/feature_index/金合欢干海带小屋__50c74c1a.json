@@ -1,0 +1,308 @@
+{
+  "id": "金合欢干海带小屋__50c74c1a",
+  "source_path": "data\\raw\\mcblock\\金合欢干海带小屋__50c74c1a.litematic",
+  "created_at": "2026-10-19T20:36:01+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 17,
+      "y": 22,
+      "z": 27
+    },
+    "non_air": 2427,
+    "density": 0.2403,
+    "unique_block_types": 54
+  },
+  "massing": {
+    "hollow_score": 0.7468,
+    "interior_air_frac": 0.7468,
+    "exterior_solid_frac": 0.0523,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      5,
+      10,
+      14
+    ],
+    "families": {
+      "stairs": 232,
+      "slabs": 173,
+      "walls": 30,
+      "fences": 63,
+      "doors": 8,
+      "trapdoors": 151,
+      "glass": 49,
+      "logs": 316,
+      "planks": 252,
+      "stone_bricks": 0,
+      "deepslate": 2,
+      "terracotta": 0,
+      "concrete": 24,
+      "wool": 29,
+      "leaves": 31,
+      "lanterns": 70,
+      "copper": 0,
+      "nether": 35
+    },
+    "symmetry": {
+      "symmetry_x": 0.4021,
+      "symmetry_z": 0.4201,
+      "symmetry_y": 0.1708
+    },
+    "solid_ratio": 0.2403
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "bricks",
+        "count": 486,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 252,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 236,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 107,
+        "frac": 0.0
+      },
+      {
+        "name": "dried_kelp_block",
+        "count": 104,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 83,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_slab",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_stairs",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_stairs",
+        "count": 67,
+        "frac": 0.0
+      },
+      {
+        "name": "brick_slab",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "sculk",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "lectern",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "smoker",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence_gate",
+        "count": 41,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 568,
+      "stone": 725,
+      "deepslate": 2,
+      "terracotta": 0,
+      "concrete": 24,
+      "wool": 29,
+      "glass": 49,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 38,
+      "leaves": 41,
+      "metal": 5
+    },
+    "remap_targets": [
+      "bricks",
+      "birch_planks",
+      "stripped_spruce_log",
+      "spruce_trapdoor",
+      "dried_kelp_block",
+      "spruce_stairs",
+      "acacia_slab",
+      "brick_stairs",
+      "acacia_stairs",
+      "brick_slab",
+      "sculk",
+      "barrel"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "medieval",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.792,
+        "raw_score": 0.4418,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.527,
+        "raw_score": 0.3381
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.468,
+        "raw_score": 0.3122
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.391,
+        "raw_score": 0.2758
+      },
+      {
+        "style": "european",
+        "confidence": 0.377,
+        "raw_score": 0.2693
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 341,
+    "pattern_ids": [
+      "door_line",
+      "simple_io",
+      "daylight_detector_clock"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "日光传感器钟/昼夜控制"
+    ],
+    "inventory_nonzero": {
+      "button": 24,
+      "pressure_plate": 2,
+      "redstone_lamp": 9,
+      "door": 8,
+      "trapdoor": 151,
+      "fence_gate": 53,
+      "daylight_detector": 5,
+      "smoker": 41,
+      "lectern": 48
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\金合欢干海带小屋__50c74c1a_skeleton.npz",
+    "occupancy_frac": 0.25628662109375,
+    "occupied": 8398
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 12,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\金合欢干海带小屋__50c74c1a_block2vec.npy",
+    "vector_preview": [
+      -0.09369,
+      0.19299,
+      -0.13143,
+      0.00115,
+      0.02979,
+      -0.03819,
+      -0.0766,
+      0.01148
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "竹顶日式房屋__b82afeb8",
+        "score": 0.935516074224782,
+        "mapped_style": "japanese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\竹顶日式房屋__b82afeb8.litematic"
+      },
+      {
+        "id": "3O21NgXHb5-Big_Starter_House",
+        "score": 0.9349303118053433,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\3O21NgXHb5-Big_Starter_House.litematic"
+      },
+      {
+        "id": "翠竹小筑__ca1015b1",
+        "score": 0.9277932105280341,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\翠竹小筑__ca1015b1.litematic"
+      },
+      {
+        "id": "双人农田木屋__16e216f9",
+        "score": 0.9273450586389383,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\双人农田木屋__16e216f9.litematic"
+      },
+      {
+        "id": "樱花砂岩小屋__cd9e26b9",
+        "score": 0.9207510152885385,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\樱花砂岩小屋__cd9e26b9.litematic"
+      }
+    ]
+  }
+}

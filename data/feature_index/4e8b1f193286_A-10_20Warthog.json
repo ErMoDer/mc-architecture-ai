@@ -1,0 +1,237 @@
+{
+  "id": "4e8b1f193286_A-10_20Warthog",
+  "source_path": "data\\raw\\hack337\\schematics\\4e8b1f193286_A-10%20Warthog.litematic",
+  "created_at": "2026-10-18T22:25:12+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 26,
+      "y": 7,
+      "z": 25
+    },
+    "non_air": 372,
+    "density": 0.0818,
+    "unique_block_types": 17
+  },
+  "massing": {
+    "hollow_score": 0.879,
+    "interior_air_frac": 0.879,
+    "exterior_solid_frac": 0.0084,
+    "floor_guess": 1,
+    "y_peaks": [
+      2
+    ],
+    "families": {
+      "stairs": 97,
+      "slabs": 120,
+      "walls": 8,
+      "fences": 6,
+      "doors": 0,
+      "trapdoors": 7,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 231,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 5,
+      "wool": 5,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 10
+    },
+    "symmetry": {
+      "symmetry_x": 0.2653,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.303
+    },
+    "solid_ratio": 0.0818
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_brick_slab",
+        "count": 118,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 92,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 89,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_brick_stairs",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_trapdoor",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_button",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_fence",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "black_wool",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_fence_gate",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_concrete",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_carpet",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_brick_slab",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "wither_skeleton_wall_skull",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 347,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 5,
+      "wool": 5,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 7
+    },
+    "remap_targets": [
+      "stone_brick_slab",
+      "stone",
+      "stone_brick_stairs",
+      "stone_bricks",
+      "cobblestone_wall",
+      "nether_brick_stairs",
+      "iron_trapdoor",
+      "stone_button",
+      "birch_fence",
+      "black_wool",
+      "black_concrete",
+      "birch_fence_gate"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.5435,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.785,
+        "raw_score": 0.5019
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.261,
+        "raw_score": 0.2406
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.167,
+        "raw_score": 0.1733
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.149,
+        "raw_score": 0.1589
+      }
+    ]
+  },
+  "redstone": {
+    "total": 16,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 6,
+      "dropper": 1,
+      "trapdoor": 7,
+      "fence_gate": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\4e8b1f193286_A-10_20Warthog_skeleton.npz",
+    "occupancy_frac": 0.076873779296875,
+    "occupied": 2519
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

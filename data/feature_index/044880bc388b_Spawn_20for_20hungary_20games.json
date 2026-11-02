@@ -1,0 +1,231 @@
+{
+  "id": "044880bc388b_Spawn_20for_20hungary_20games",
+  "source_path": "data\\raw\\hack337\\schematics\\044880bc388b_Spawn%20for%20hungary%20games.litematic",
+  "created_at": "2026-10-18T22:24:45+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 33,
+      "y": 44,
+      "z": 33
+    },
+    "non_air": 2309,
+    "density": 0.0482,
+    "unique_block_types": 53
+  },
+  "massing": {
+    "hollow_score": 0.9659,
+    "interior_air_frac": 0.9659,
+    "exterior_solid_frac": 0.0195,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      4,
+      24
+    ],
+    "families": {
+      "stairs": 585,
+      "slabs": 217,
+      "walls": 32,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 90,
+      "logs": 292,
+      "planks": 64,
+      "stone_bricks": 325,
+      "deepslate": 1,
+      "terracotta": 28,
+      "concrete": 75,
+      "wool": 40,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 1343
+    },
+    "symmetry": {
+      "symmetry_x": 0.9461,
+      "symmetry_z": 0.9526,
+      "symmetry_y": 0.0434
+    },
+    "solid_ratio": 0.0482
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "blackstone_stairs",
+        "count": 284,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_brick_stairs",
+        "count": 173,
+        "frac": 0.0
+      },
+      {
+        "name": "gilded_blackstone",
+        "count": 124,
+        "frac": 0.0
+      },
+      {
+        "name": "basalt",
+        "count": 115,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_slab",
+        "count": 110,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_basalt",
+        "count": 86,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_pale_oak_log",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_polished_blackstone",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_log",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete_powder",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_stairs",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "blackstone",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone_bricks",
+        "count": 67,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_oak_planks",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_wood",
+        "count": 60,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 356,
+      "stone": 1193,
+      "deepslate": 1,
+      "terracotta": 28,
+      "concrete": 75,
+      "wool": 40,
+      "glass": 90,
+      "nether": 222,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 4,
+      "leaves": 0,
+      "metal": 15
+    },
+    "remap_targets": [
+      "blackstone_stairs",
+      "polished_blackstone_brick_stairs",
+      "gilded_blackstone",
+      "basalt",
+      "polished_blackstone_slab",
+      "polished_basalt",
+      "stripped_pale_oak_log",
+      "chiseled_polished_blackstone",
+      "pale_oak_log",
+      "calcite",
+      "white_concrete_powder",
+      "quartz_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "chinese",
+      "fantasy",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.664,
+        "raw_score": 0.3141,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.613,
+        "raw_score": 0.2976
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.397,
+        "raw_score": 0.2191
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.355,
+        "raw_score": 0.202
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.352,
+        "raw_score": 0.2008
+      }
+    ]
+  },
+  "redstone": {
+    "total": 13,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "redstone_block": 5,
+      "pressure_plate": 8
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\044880bc388b_Spawn_20for_20hungary_20games_skeleton.npz",
+    "occupancy_frac": 0.064117431640625,
+    "occupied": 2101
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

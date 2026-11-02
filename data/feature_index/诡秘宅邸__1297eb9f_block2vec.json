@@ -1,0 +1,13 @@
+{
+  "id": "诡秘宅邸__1297eb9f",
+  "dim": 144,
+  "n_chunks": 41,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "诡秘宅邸__1297eb9f_block2vec.npy"
+}

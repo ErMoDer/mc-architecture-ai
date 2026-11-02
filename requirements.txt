@@ -1,0 +1,15 @@
+torch>=2.1.0
+numpy>=1.24.0
+PyYAML>=6.0
+tqdm>=4.66.0
+nbtlib>=2.0.4
+Pillow>=10.0.0
+
+# 形态学 / 连通分量等几何操作由 src/app/morph.py 纯 numpy 实现，**不依赖 scipy**。
+# 曾尝试可选导入 scipy 但静默降级导致功能失效（门洞漏气 → 无室内），现已彻底移除。
+
+# optional desktop viewer: pip install -r requirements-app.txt
+
+
+# optional dataset download
+huggingface_hub>=0.20.0

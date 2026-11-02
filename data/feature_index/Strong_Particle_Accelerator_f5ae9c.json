@@ -1,0 +1,176 @@
+{
+  "id": "Strong_Particle_Accelerator_f5ae9c",
+  "source_path": "data\\raw\\hack337\\schematics\\Strong_Particle_Accelerator_f5ae9c.litematic",
+  "created_at": "2026-10-18T22:26:44+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 35,
+      "y": 6,
+      "z": 35
+    },
+    "non_air": 2502,
+    "density": 0.3404,
+    "unique_block_types": 8
+  },
+  "massing": {
+    "hollow_score": 0.6295,
+    "interior_air_frac": 0.6295,
+    "exterior_solid_frac": 0.1208,
+    "floor_guess": 1,
+    "y_peaks": [
+      1
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 36,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 1.0,
+      "symmetry_z": 0.9624,
+      "symmetry_y": 0.6111
+    },
+    "solid_ratio": 0.3404
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "hbm:hadron_plating_black",
+        "count": 1294,
+        "frac": 0.0
+      },
+      {
+        "name": "hbm:hadron_coil_mese",
+        "count": 936,
+        "frac": 0.0
+      },
+      {
+        "name": "hbm:hadron_power",
+        "count": 117,
+        "frac": 0.0
+      },
+      {
+        "name": "hbm:red_cable",
+        "count": 116,
+        "frac": 0.0
+      },
+      {
+        "name": "hbm:hadron_analysis_glass",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "hbm:hadron_core",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "hbm:hadron_access",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "hbm:machine_electronium_battery",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 36,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "hbm:hadron_plating_black",
+      "hbm:hadron_coil_mese",
+      "hbm:hadron_power",
+      "hbm:red_cable",
+      "hbm:hadron_analysis_glass",
+      "hbm:hadron_core",
+      "hbm:hadron_access",
+      "hbm:machine_electronium_battery"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "fantasy",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.628,
+        "raw_score": 0.2778,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.592,
+        "raw_score": 0.2667
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.31,
+        "raw_score": 0.1667
+      },
+      {
+        "style": "european",
+        "confidence": 0.253,
+        "raw_score": 0.1429
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\Strong_Particle_Accelerator_f5ae9c_skeleton.npz",
+    "occupancy_frac": 0.353118896484375,
+    "occupied": 11571
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

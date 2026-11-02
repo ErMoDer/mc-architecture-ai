@@ -1,0 +1,243 @@
+{
+  "id": "0i8ljxSoGe-Expiarka_20Nitashiego_2030lvl_20in_208minutes",
+  "source_path": "data\\raw\\hack337\\schematics\\0i8ljxSoGe-Expiarka%20Nitashiego%2030lvl%20in%208minutes.litematic",
+  "created_at": "2026-10-18T22:24:48+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 42,
+      "y": 30,
+      "z": 41
+    },
+    "non_air": 10824,
+    "density": 0.2095,
+    "unique_block_types": 23
+  },
+  "massing": {
+    "hollow_score": 0.7886,
+    "interior_air_frac": 0.7886,
+    "exterior_solid_frac": 0.0308,
+    "floor_guess": 7,
+    "y_peaks": [
+      4,
+      14,
+      17,
+      20,
+      23,
+      26,
+      29
+    ],
+    "families": {
+      "stairs": 13,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 1994,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 30,
+      "wool": 10,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 12
+    },
+    "symmetry": {
+      "symmetry_x": 0.7197,
+      "symmetry_z": 0.781,
+      "symmetry_y": 0.0371
+    },
+    "solid_ratio": 0.2095
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cobblestone",
+        "count": 7163,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 1994,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 1423,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 71,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "bookshelf",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_stairs",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_portal",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "white_carpet",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "bubble_column",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "furnace",
+        "count": 3,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 7177,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 30,
+      "wool": 10,
+      "glass": 0,
+      "nether": 12,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 38
+    },
+    "remap_targets": [
+      "cobblestone",
+      "spruce_trapdoor",
+      "water",
+      "chest",
+      "hopper",
+      "black_concrete",
+      "bookshelf",
+      "obsidian",
+      "torch",
+      "cobblestone_stairs",
+      "nether_portal",
+      "white_carpet"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.773,
+        "raw_score": 0.4233,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.666,
+        "raw_score": 0.3841
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.349,
+        "raw_score": 0.2471
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.225,
+        "raw_score": 0.1796
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.2,
+        "raw_score": 0.1646
+      }
+    ]
+  },
+  "redstone": {
+    "total": 2044,
+    "pattern_ids": [
+      "nether_portal_cue",
+      "hopper_line"
+    ],
+    "pattern_labels": [
+      "下界传送门",
+      "漏斗输送线"
+    ],
+    "inventory_nonzero": {
+      "hopper": 35,
+      "trapdoor": 1994,
+      "furnace": 3,
+      "nether_portal": 12
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\0i8ljxSoGe-Expiarka_20Nitashiego_2030lvl_20in_208minutes_skeleton.npz",
+    "occupancy_frac": 0.22503662109375,
+    "occupied": 7374
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

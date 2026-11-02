@@ -1,0 +1,13 @@
+{
+  "id": "丛林小屋第三弹__1ecaedf1",
+  "dim": 144,
+  "n_chunks": 3,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "丛林小屋第三弹__1ecaedf1_block2vec.npy"
+}

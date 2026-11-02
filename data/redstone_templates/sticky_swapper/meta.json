@@ -1,0 +1,13 @@
+{
+  "id": "sticky_swapper",
+  "matches": [
+    "sticky_piston_pair"
+  ],
+  "label_zh": "粘活塞换块器（红石块）",
+  "size": [
+    1,
+    1,
+    5
+  ],
+  "notes": "对置粘活塞夹红石块；需另接时钟（见漏斗钟模板）。空气格为行程留白。"
+}

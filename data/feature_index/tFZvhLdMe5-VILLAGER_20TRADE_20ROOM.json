@@ -1,0 +1,257 @@
+{
+  "id": "tFZvhLdMe5-VILLAGER_20TRADE_20ROOM",
+  "source_path": "data\\raw\\hack337\\schematics\\tFZvhLdMe5-VILLAGER%20TRADE%20ROOM.litematic",
+  "created_at": "2026-10-18T22:27:11+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 41,
+      "y": 18,
+      "z": 18
+    },
+    "non_air": 3541,
+    "density": 0.2666,
+    "unique_block_types": 27
+  },
+  "massing": {
+    "hollow_score": 0.7213,
+    "interior_air_frac": 0.7213,
+    "exterior_solid_frac": 0.0571,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      6,
+      13
+    ],
+    "families": {
+      "stairs": 799,
+      "slabs": 270,
+      "walls": 0,
+      "fences": 94,
+      "doors": 2,
+      "trapdoors": 486,
+      "glass": 77,
+      "logs": 589,
+      "planks": 601,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 76,
+      "lanterns": 2,
+      "copper": 0,
+      "nether": 2
+    },
+    "symmetry": {
+      "symmetry_x": 0.6632,
+      "symmetry_z": 0.5544,
+      "symmetry_y": 0.1508
+    },
+    "solid_ratio": 0.2666
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_stairs",
+        "count": 741,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 601,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_log",
+        "count": 536,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 486,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 369,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 270,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 76,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 53,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "lectern",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass_pane",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 27,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1190,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 77,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 78,
+      "metal": 8
+    },
+    "remap_targets": [
+      "spruce_stairs",
+      "spruce_planks",
+      "stripped_dark_oak_log",
+      "spruce_trapdoor",
+      "grass_block",
+      "spruce_slab",
+      "dirt",
+      "oak_leaves",
+      "dark_oak_stairs",
+      "spruce_fence_gate",
+      "stripped_spruce_log",
+      "white_stained_glass"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6936,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.699,
+        "raw_score": 0.5702
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.646,
+        "raw_score": 0.5275
+      },
+      {
+        "style": "western",
+        "confidence": 0.629,
+        "raw_score": 0.5131
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.203,
+        "raw_score": 0.239
+      }
+    ]
+  },
+  "redstone": {
+    "total": 575,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "pressure_plate": 2,
+      "door": 2,
+      "trapdoor": 486,
+      "fence_gate": 57,
+      "lectern": 28
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\tFZvhLdMe5-VILLAGER_20TRADE_20ROOM_skeleton.npz",
+    "occupancy_frac": 0.2833251953125,
+    "occupied": 9284
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 18,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\tFZvhLdMe5-VILLAGER_20TRADE_20ROOM_block2vec.npy",
+    "vector_preview": [
+      -0.03678,
+      0.15537,
+      -0.14651,
+      0.03866,
+      -0.02128,
+      0.05596,
+      -0.02795,
+      0.05965
+    ],
+    "ok": true
+  }
+}

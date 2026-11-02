@@ -1,0 +1,237 @@
+{
+  "id": "p4xZqJr3Uh-Granite_20and_20Mangrove_20Office_20Building",
+  "source_path": "data\\raw\\hack337\\schematics\\p4xZqJr3Uh-Granite%20and%20Mangrove%20Office%20Building.litematic",
+  "created_at": "2026-10-18T22:26:37+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 27,
+      "y": 26,
+      "z": 34
+    },
+    "non_air": 5325,
+    "density": 0.2231,
+    "unique_block_types": 27
+  },
+  "massing": {
+    "hollow_score": 0.7753,
+    "interior_air_frac": 0.7753,
+    "exterior_solid_frac": 0.0424,
+    "floor_guess": 9,
+    "y_peaks": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24
+    ],
+    "families": {
+      "stairs": 164,
+      "slabs": 0,
+      "walls": 16,
+      "fences": 0,
+      "doors": 4,
+      "trapdoors": 0,
+      "glass": 1392,
+      "logs": 2161,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 72,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.3824,
+      "symmetry_z": 0.4174,
+      "symmetry_y": 0.3132
+    },
+    "solid_ratio": 0.2231
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_mangrove_log",
+        "count": 2161,
+        "frac": 0.0
+      },
+      {
+        "name": "red_stained_glass_pane",
+        "count": 896,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_granite",
+        "count": 680,
+        "frac": 0.0
+      },
+      {
+        "name": "red_stained_glass",
+        "count": 496,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 448,
+        "frac": 0.0
+      },
+      {
+        "name": "granite",
+        "count": 224,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_stairs",
+        "count": 132,
+        "frac": 0.0
+      },
+      {
+        "name": "pearlescent_froglight",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "honey_block",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "mud_brick_stairs",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "bubble_column",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "mud_bricks",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "mud_brick_wall",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "dripstone_block",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "red_wool",
+        "count": 10,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 2161,
+      "stone": 1429,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 72,
+      "glass": 1392,
+      "nether": 1,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stripped_mangrove_log",
+      "red_stained_glass_pane",
+      "polished_granite",
+      "red_stained_glass",
+      "andesite",
+      "granite",
+      "mangrove_stairs",
+      "pearlescent_froglight",
+      "honey_block",
+      "white_wool",
+      "mud_brick_stairs",
+      "bubble_column"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "snow",
+    "style_id": 5,
+    "terrain_id": 4,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.786,
+        "raw_score": 0.4362,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.499,
+        "raw_score": 0.3234
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.439,
+        "raw_score": 0.2965
+      },
+      {
+        "style": "western",
+        "confidence": 0.343,
+        "raw_score": 0.2494
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.298,
+        "raw_score": 0.2258
+      }
+    ]
+  },
+  "redstone": {
+    "total": 53,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 4,
+      "honey_block": 49
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\p4xZqJr3Uh-Granite_20and_20Mangrove_20Office_20Building_skeleton.npz",
+    "occupancy_frac": 0.23760986328125,
+    "occupied": 7786
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

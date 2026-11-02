@@ -1,0 +1,234 @@
+{
+  "id": "daPE4vLy9c-Ivys_Spruce_Barn",
+  "source_path": "data\\raw\\hack337\\schematics\\daPE4vLy9c-Ivys_Spruce_Barn.litematic",
+  "created_at": "2026-10-18T22:25:59+08:00",
+  "overview": {
+    "schematic_name": "Ivy's Spruce Barn",
+    "size": {
+      "x": 19,
+      "y": 19,
+      "z": 15
+    },
+    "non_air": 1684,
+    "density": 0.311,
+    "unique_block_types": 44
+  },
+  "massing": {
+    "hollow_score": 0.6308,
+    "interior_air_frac": 0.6308,
+    "exterior_solid_frac": 0.0548,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      5,
+      10,
+      14,
+      17
+    ],
+    "families": {
+      "stairs": 250,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 62,
+      "doors": 0,
+      "trapdoors": 103,
+      "glass": 0,
+      "logs": 107,
+      "planks": 534,
+      "stone_bricks": 0,
+      "deepslate": 357,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 9,
+      "lanterns": 32,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9742,
+      "symmetry_z": 0.8374,
+      "symmetry_y": 0.2346
+    },
+    "solid_ratio": 0.311
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 534,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 198,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 187,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 170,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 107,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "hay_block",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_button",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 11,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 641,
+      "stone": 0,
+      "deepslate": 357,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 13,
+      "metal": 2
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "grass_block",
+      "deepslate_tiles",
+      "deepslate_tile_stairs",
+      "spruce_log",
+      "spruce_stairs",
+      "oak_trapdoor",
+      "dirt",
+      "spruce_trapdoor",
+      "spruce_fence",
+      "lantern",
+      "hay_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5286,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.578,
+        "raw_score": 0.405
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.509,
+        "raw_score": 0.3723
+      },
+      {
+        "style": "western",
+        "confidence": 0.502,
+        "raw_score": 0.3691
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.18,
+        "raw_score": 0.1798
+      }
+    ]
+  },
+  "redstone": {
+    "total": 126,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 14,
+      "trapdoor": 103,
+      "fence_gate": 9
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\daPE4vLy9c-Ivys_Spruce_Barn_skeleton.npz",
+    "occupancy_frac": 0.336578369140625,
+    "occupied": 11029
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

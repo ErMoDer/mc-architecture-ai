@@ -1,0 +1,13 @@
+{
+  "id": "wkKnnHhhEM-34x3x21_20Decorative_20Wall",
+  "dim": 144,
+  "n_chunks": 9,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "wkKnnHhhEM-34x3x21_20Decorative_20Wall_block2vec.npy"
+}

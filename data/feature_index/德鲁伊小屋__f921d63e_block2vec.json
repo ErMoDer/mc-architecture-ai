@@ -1,0 +1,13 @@
+{
+  "id": "德鲁伊小屋__f921d63e",
+  "dim": 144,
+  "n_chunks": 33,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "德鲁伊小屋__f921d63e_block2vec.npy"
+}

@@ -1,0 +1,312 @@
+{
+  "id": "浮空别墅__e7717603",
+  "source_path": "data\\raw\\mcblock\\浮空别墅__e7717603.litematic",
+  "created_at": "2026-10-20T13:45:50+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 31,
+      "y": 58,
+      "z": 40
+    },
+    "non_air": 9366,
+    "density": 0.1302,
+    "unique_block_types": 72
+  },
+  "massing": {
+    "hollow_score": 0.849,
+    "interior_air_frac": 0.849,
+    "exterior_solid_frac": 0.0007,
+    "floor_guess": 10,
+    "y_peaks": [
+      14,
+      17,
+      25,
+      33,
+      39,
+      43,
+      46,
+      49,
+      52,
+      55
+    ],
+    "families": {
+      "stairs": 433,
+      "slabs": 2283,
+      "walls": 359,
+      "fences": 162,
+      "doors": 0,
+      "trapdoors": 147,
+      "glass": 96,
+      "logs": 4,
+      "planks": 730,
+      "stone_bricks": 1396,
+      "deepslate": 0,
+      "terracotta": 754,
+      "concrete": 0,
+      "wool": 424,
+      "leaves": 387,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 976
+    },
+    "symmetry": {
+      "symmetry_x": 0.8433,
+      "symmetry_z": 0.355,
+      "symmetry_y": 0.1534
+    },
+    "solid_ratio": 0.1302
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_slab",
+        "count": 1118,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 898,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 698,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 647,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_pillar",
+        "count": 590,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 473,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_terracotta",
+        "count": 412,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_slab",
+        "count": 409,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 387,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_brick_slab",
+        "count": 385,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_bricks",
+        "count": 364,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 359,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_terracotta",
+        "count": 300,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_wool",
+        "count": 272,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 257,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_stairs",
+        "count": 156,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 734,
+      "stone": 4977,
+      "deepslate": 0,
+      "terracotta": 754,
+      "concrete": 0,
+      "wool": 424,
+      "glass": 96,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 1,
+      "snow_ice": 0,
+      "leaves": 387,
+      "metal": 77
+    },
+    "remap_targets": [
+      "stone_slab",
+      "stone_bricks",
+      "spruce_planks",
+      "bricks",
+      "quartz_pillar",
+      "smooth_stone",
+      "lime_terracotta",
+      "quartz_slab",
+      "oak_leaves",
+      "nether_brick_slab",
+      "nether_bricks",
+      "cobblestone_wall"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.701,
+        "raw_score": 0.3512,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.637,
+        "raw_score": 0.3293
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.339,
+        "raw_score": 0.2119
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.3,
+        "raw_score": 0.1936
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.275,
+        "raw_score": 0.1818
+      }
+    ]
+  },
+  "redstone": {
+    "total": 192,
+    "pattern_ids": [
+      "simple_io"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门"
+    ],
+    "inventory_nonzero": {
+      "redstone_block": 13,
+      "lever": 2,
+      "button": 8,
+      "piston": 1,
+      "hopper": 1,
+      "dropper": 2,
+      "redstone_lamp": 16,
+      "trapdoor": 147,
+      "furnace": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\浮空别墅__e7717603_skeleton.npz",
+    "occupancy_frac": 0.165496826171875,
+    "occupied": 5423
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 43,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\浮空别墅__e7717603_block2vec.npy",
+    "vector_preview": [
+      -0.08227,
+      0.20928,
+      -0.05482,
+      -0.04043,
+      0.08731,
+      0.00052,
+      -0.03254,
+      0.10745
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "精灵风建筑_十__e024367f",
+        "score": 0.9097590278774924,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\精灵风建筑_十__e024367f.litematic"
+      },
+      {
+        "id": "辛吉德风小屋__b960dab6",
+        "score": 0.9010868332002334,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\辛吉德风小屋__b960dab6.litematic"
+      },
+      {
+        "id": "海晶石宅邸__a26c9595",
+        "score": 0.8971850977024235,
+        "mapped_style": "industrial",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\海晶石宅邸__a26c9595.litematic"
+      },
+      {
+        "id": "海滨小筑__8e86858e",
+        "score": 0.8945416070436135,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\海滨小筑__8e86858e.litematic"
+      },
+      {
+        "id": "壁炉小屋__d3415f8f",
+        "score": 0.8926140839176183,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\壁炉小屋__d3415f8f.litematic"
+      }
+    ]
+  },
+  "mapped_style": "european",
+  "residential_loft_topup": true,
+  "long_fill_tag": "long_fill_european"
+}

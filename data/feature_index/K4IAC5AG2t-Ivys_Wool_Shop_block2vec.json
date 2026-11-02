@@ -1,0 +1,13 @@
+{
+  "id": "K4IAC5AG2t-Ivys_Wool_Shop",
+  "dim": 144,
+  "n_chunks": 8,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "K4IAC5AG2t-Ivys_Wool_Shop_block2vec.npy"
+}

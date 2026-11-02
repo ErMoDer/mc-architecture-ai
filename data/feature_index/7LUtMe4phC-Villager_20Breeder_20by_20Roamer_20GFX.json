@@ -1,0 +1,239 @@
+{
+  "id": "7LUtMe4phC-Villager_20Breeder_20by_20Roamer_20GFX",
+  "source_path": "data\\raw\\hack337\\schematics\\7LUtMe4phC-Villager%20Breeder%20by%20Roamer%20GFX.litematic",
+  "created_at": "2026-10-18T22:25:29+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 13,
+      "y": 11,
+      "z": 16
+    },
+    "non_air": 693,
+    "density": 0.3029,
+    "unique_block_types": 18
+  },
+  "massing": {
+    "hollow_score": 0.6494,
+    "interior_air_frac": 0.6494,
+    "exterior_solid_frac": 0.0905,
+    "floor_guess": 2,
+    "y_peaks": [
+      1,
+      6
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 56,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 12,
+      "glass": 107,
+      "logs": 22,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 282,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4028,
+      "symmetry_z": 0.325,
+      "symmetry_y": 0.1726
+    },
+    "solid_ratio": 0.3029
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "gray_concrete",
+        "count": 282,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass_pane",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "carrots",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "red_bed",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "rail",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "composter",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_block",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 22,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 282,
+      "wool": 0,
+      "glass": 107,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "gray_concrete",
+      "white_stained_glass_pane",
+      "farmland",
+      "carrots",
+      "spruce_slab",
+      "stripped_spruce_log",
+      "spruce_trapdoor",
+      "wall_torch",
+      "red_bed",
+      "glass",
+      "water",
+      "rail"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "industrial",
+      "fantasy",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.689,
+        "raw_score": 0.3391,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.448,
+        "raw_score": 0.2524
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.288,
+        "raw_score": 0.183
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.068,
+        "raw_score": 0.0568
+      },
+      {
+        "style": "european",
+        "confidence": 0.052,
+        "raw_score": 0.0448
+      }
+    ]
+  },
+  "redstone": {
+    "total": 23,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "redstone_block": 1,
+      "button": 1,
+      "dispenser": 1,
+      "trapdoor": 12,
+      "powered_rail": 2,
+      "rail": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\7LUtMe4phC-Villager_20Breeder_20by_20Roamer_20GFX_skeleton.npz",
+    "occupancy_frac": 0.30712890625,
+    "occupied": 10064
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "demoted_from_industrial:breeder",
+  "previous_mapped_style": "industrial"
+}

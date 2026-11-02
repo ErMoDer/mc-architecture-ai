@@ -1,0 +1,231 @@
+{
+  "id": "498dfb5e6c28_Orange_20Fish",
+  "source_path": "data\\raw\\hack337\\schematics\\498dfb5e6c28_Orange%20Fish.litematic",
+  "created_at": "2026-10-18T22:25:10+08:00",
+  "overview": {
+    "schematic_name": "Orange Fish",
+    "size": {
+      "x": 17,
+      "y": 15,
+      "z": 16
+    },
+    "non_air": 133,
+    "density": 0.0326,
+    "unique_block_types": 17
+  },
+  "massing": {
+    "hollow_score": 0.9593,
+    "interior_air_frac": 0.9593,
+    "exterior_solid_frac": 0.0054,
+    "floor_guess": 3,
+    "y_peaks": [
+      7,
+      10,
+      14
+    ],
+    "families": {
+      "stairs": 6,
+      "slabs": 37,
+      "walls": 0,
+      "fences": 2,
+      "doors": 0,
+      "trapdoors": 8,
+      "glass": 34,
+      "logs": 0,
+      "planks": 3,
+      "stone_bricks": 14,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 2
+    },
+    "symmetry": {
+      "symmetry_x": 0.035,
+      "symmetry_z": 0.031,
+      "symmetry_y": 0.3571
+    },
+    "solid_ratio": 0.0326
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "red_sandstone",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_stained_glass_pane",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "red_sandstone_slab",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_slab",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_trapdoor",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_planks",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_tuff",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_trapdoor",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence_gate",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "red_sandstone_stairs",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_blackstone",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_stained_glass",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 3,
+      "stone": 77,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 34,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "red_sandstone",
+      "orange_stained_glass_pane",
+      "red_sandstone_slab",
+      "acacia_slab",
+      "stone_brick_slab",
+      "dark_oak_trapdoor",
+      "stone_brick_stairs",
+      "acacia_planks",
+      "polished_tuff",
+      "tuff",
+      "mangrove_trapdoor",
+      "dark_oak_fence_gate"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.724,
+        "raw_score": 0.3736,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.535,
+        "raw_score": 0.3052
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.347,
+        "raw_score": 0.2251
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.183,
+        "raw_score": 0.1396
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.164,
+        "raw_score": 0.1279
+      }
+    ]
+  },
+  "redstone": {
+    "total": 10,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 8,
+      "fence_gate": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\498dfb5e6c28_Orange_20Fish_skeleton.npz",
+    "occupancy_frac": 0.034912109375,
+    "occupied": 1144
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

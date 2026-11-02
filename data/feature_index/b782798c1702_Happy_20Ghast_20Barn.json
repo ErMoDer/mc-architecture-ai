@@ -1,0 +1,247 @@
+{
+  "id": "b782798c1702_Happy_20Ghast_20Barn",
+  "source_path": "data\\raw\\hack337\\schematics\\b782798c1702_Happy%20Ghast%20Barn.litematic",
+  "created_at": "2026-10-18T22:25:44+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 29,
+      "y": 17,
+      "z": 22
+    },
+    "non_air": 2268,
+    "density": 0.2091,
+    "unique_block_types": 31
+  },
+  "massing": {
+    "hollow_score": 0.748,
+    "interior_air_frac": 0.748,
+    "exterior_solid_frac": 0.0209,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      6,
+      9,
+      15
+    ],
+    "families": {
+      "stairs": 290,
+      "slabs": 525,
+      "walls": 0,
+      "fences": 10,
+      "doors": 0,
+      "trapdoors": 95,
+      "glass": 62,
+      "logs": 607,
+      "planks": 342,
+      "stone_bricks": 167,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 10,
+      "copper": 3,
+      "nether": 65
+    },
+    "symmetry": {
+      "symmetry_x": 0.4175,
+      "symmetry_z": 0.4853,
+      "symmetry_y": 0.1956
+    },
+    "solid_ratio": 0.2091
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_slab",
+        "count": 431,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 397,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 269,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 212,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 210,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 145,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 85,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_planks",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_basalt",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_hanging_sign",
+        "count": 15,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 949,
+      "stone": 169,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 62,
+      "nether": 65,
+      "copper": 3,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_slab",
+      "stripped_spruce_log",
+      "spruce_planks",
+      "spruce_stairs",
+      "stripped_oak_log",
+      "stone_bricks",
+      "oak_slab",
+      "spruce_trapdoor",
+      "birch_planks",
+      "smooth_basalt",
+      "oak_stairs",
+      "glass_pane"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6282,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.688,
+        "raw_score": 0.5085
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.606,
+        "raw_score": 0.4661
+      },
+      {
+        "style": "western",
+        "confidence": 0.56,
+        "raw_score": 0.4436
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.229,
+        "raw_score": 0.243
+      }
+    ]
+  },
+  "redstone": {
+    "total": 147,
+    "pattern_ids": [
+      "simple_io",
+      "copper_bulb_latch",
+      "door_line",
+      "dual_edge_repeater"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "铜灯泡锁存/切换",
+      "门/活板/栅栏门控制线",
+      "双沿/对向中继器线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 28,
+      "repeater": 4,
+      "comparator": 4,
+      "button": 3,
+      "trapdoor": 95,
+      "fence_gate": 10,
+      "copper_bulb": 3
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\b782798c1702_Happy_20Ghast_20Barn_skeleton.npz",
+    "occupancy_frac": 0.21099853515625,
+    "occupied": 6914
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

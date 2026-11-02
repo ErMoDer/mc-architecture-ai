@@ -1,0 +1,270 @@
+{
+  "id": "qoYnltzZrn-S5_20Iron_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\qoYnltzZrn-S5%20Iron%20Farm.litematic",
+  "created_at": "2026-10-18T22:26:39+08:00",
+  "overview": {
+    "schematic_name": "S5 Iron Farm",
+    "size": {
+      "x": 19,
+      "y": 34,
+      "z": 19
+    },
+    "non_air": 3356,
+    "density": 0.2734,
+    "unique_block_types": 41
+  },
+  "massing": {
+    "hollow_score": 0.6686,
+    "interior_air_frac": 0.6686,
+    "exterior_solid_frac": 0.0237,
+    "floor_guess": 8,
+    "y_peaks": [
+      1,
+      5,
+      13,
+      16,
+      21,
+      26,
+      30,
+      33
+    ],
+    "families": {
+      "stairs": 13,
+      "slabs": 889,
+      "walls": 0,
+      "fences": 20,
+      "doors": 0,
+      "trapdoors": 78,
+      "glass": 552,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 630,
+      "terracotta": 0,
+      "concrete": 888,
+      "wool": 34,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.5767,
+      "symmetry_z": 0.5879,
+      "symmetry_y": 0.1094
+    },
+    "solid_ratio": 0.2734
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "gray_concrete",
+        "count": 798,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate_slab",
+        "count": 570,
+        "frac": 0.0
+      },
+      {
+        "name": "light_blue_stained_glass",
+        "count": 326,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 319,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_block",
+        "count": 315,
+        "frac": 0.0
+      },
+      {
+        "name": "end_rod",
+        "count": 204,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 93,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_trapdoor",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_diorite",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate",
+        "count": 47,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_carpet",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_fence_gate",
+        "count": 20,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 473,
+      "deepslate": 630,
+      "terracotta": 0,
+      "concrete": 888,
+      "wool": 34,
+      "glass": 552,
+      "nether": 4,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 408
+    },
+    "remap_targets": [
+      "gray_concrete",
+      "cobbled_deepslate_slab",
+      "light_blue_stained_glass",
+      "smooth_stone_slab",
+      "iron_block",
+      "end_rod",
+      "white_stained_glass",
+      "smooth_stone",
+      "black_concrete",
+      "water",
+      "iron_trapdoor",
+      "black_stained_glass"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "industrial",
+      "european",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.564,
+        "raw_score": 0.2136,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.397,
+        "raw_score": 0.1649
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.366,
+        "raw_score": 0.1549
+      },
+      {
+        "style": "european",
+        "confidence": 0.196,
+        "raw_score": 0.0942
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.173,
+        "raw_score": 0.085
+      }
+    ]
+  },
+  "redstone": {
+    "total": 143,
+    "pattern_ids": [
+      "hopper_line",
+      "tripwire_trap",
+      "etho_hopper_clock",
+      "target_block_line",
+      "pulse_limiter",
+      "instant_wire",
+      "daylight_detector_clock",
+      "hopper_clock"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "绊线陷阱",
+      "多漏斗环钟嫌疑",
+      "标靶方块线路",
+      "中继器锁定限幅器嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "日光传感器钟/昼夜控制",
+      "漏斗+比较器时钟/测量嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 12,
+      "redstone_torch": 2,
+      "repeater": 4,
+      "comparator": 4,
+      "lever": 1,
+      "sticky_piston": 1,
+      "hopper": 9,
+      "dropper": 2,
+      "target": 2,
+      "trapdoor": 78,
+      "fence_gate": 20,
+      "tripwire": 6,
+      "daylight_detector": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\qoYnltzZrn-S5_20Iron_20Farm_skeleton.npz",
+    "occupancy_frac": 0.289459228515625,
+    "occupied": 9485
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "demoted_from_industrial:farm",
+  "previous_mapped_style": "industrial"
+}

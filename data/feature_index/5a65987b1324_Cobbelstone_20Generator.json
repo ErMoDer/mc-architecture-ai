@@ -1,0 +1,204 @@
+{
+  "id": "5a65987b1324_Cobbelstone_20Generator",
+  "source_path": "data\\raw\\hack337\\schematics\\5a65987b1324_Cobbelstone%20Generator.litematic",
+  "created_at": "2026-10-18T22:25:15+08:00",
+  "overview": {
+    "schematic_name": "Cobbelstone Generator",
+    "size": {
+      "x": 6,
+      "y": 5,
+      "z": 4
+    },
+    "non_air": 102,
+    "density": 0.85,
+    "unique_block_types": 10
+  },
+  "massing": {
+    "hollow_score": 0.0,
+    "interior_air_frac": 0.0,
+    "exterior_solid_frac": 0.65,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 8,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 8,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9615,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.7
+    },
+    "solid_ratio": 0.85
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_slab",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 50,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 10
+    },
+    "remap_targets": [
+      "stone",
+      "dirt",
+      "hopper",
+      "oak_trapdoor",
+      "lava",
+      "stone_slab",
+      "grass_block",
+      "chest",
+      "obsidian",
+      "oak_wall_sign"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "industrial",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.707,
+        "raw_score": 0.3571,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.612,
+        "raw_score": 0.3241
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.326,
+        "raw_score": 0.2083
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.263,
+        "raw_score": 0.1778
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.213,
+        "raw_score": 0.1515
+      }
+    ]
+  },
+  "redstone": {
+    "total": 18,
+    "pattern_ids": [
+      "hopper_line",
+      "item_elevator"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "物品升降机嫌疑"
+    ],
+    "inventory_nonzero": {
+      "hopper": 10,
+      "trapdoor": 8
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\5a65987b1324_Cobbelstone_20Generator_skeleton.npz",
+    "occupancy_frac": 0.859375,
+    "occupied": 28160
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

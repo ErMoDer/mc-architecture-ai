@@ -1,0 +1,13 @@
+{
+  "id": "GCBnRpjQCb-Tower_20Home_202",
+  "dim": 144,
+  "n_chunks": 8,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "GCBnRpjQCb-Tower_20Home_202_block2vec.npy"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "法师居所__3d1599a3",
+  "dim": 144,
+  "n_chunks": 49,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "法师居所__3d1599a3_block2vec.npy"
+}

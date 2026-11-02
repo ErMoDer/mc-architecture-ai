@@ -1,0 +1,237 @@
+{
+  "id": "92174715258d_Stone_20Gate",
+  "source_path": "data\\raw\\hack337\\schematics\\92174715258d_Stone%20Gate.litematic",
+  "created_at": "2026-10-18T22:25:33+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 28,
+      "y": 39,
+      "z": 58
+    },
+    "non_air": 6089,
+    "density": 0.0961,
+    "unique_block_types": 26
+  },
+  "massing": {
+    "hollow_score": 0.9171,
+    "interior_air_frac": 0.9171,
+    "exterior_solid_frac": 0.0256,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      3,
+      7,
+      12,
+      15,
+      21
+    ],
+    "families": {
+      "stairs": 110,
+      "slabs": 26,
+      "walls": 538,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 58,
+      "planks": 0,
+      "stone_bricks": 663,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 176,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2816,
+      "symmetry_z": 0.6461,
+      "symmetry_y": 0.0893
+    },
+    "solid_ratio": 0.0961
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "grass_block",
+        "count": 1464,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 677,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 653,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite_wall",
+        "count": 538,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 429,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff",
+        "count": 275,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 270,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_stone_bricks",
+        "count": 260,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 242,
+        "frac": 0.0
+      },
+      {
+        "name": "pale_moss_block",
+        "count": 172,
+        "frac": 0.0
+      },
+      {
+        "name": "cracked_stone_bricks",
+        "count": 161,
+        "frac": 0.0
+      },
+      {
+        "name": "mud_bricks",
+        "count": 115,
+        "frac": 0.0
+      },
+      {
+        "name": "oxidized_copper",
+        "count": 112,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_stairs",
+        "count": 110,
+        "frac": 0.0
+      },
+      {
+        "name": "bricks",
+        "count": 101,
+        "frac": 0.0
+      },
+      {
+        "name": "granite",
+        "count": 76,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 58,
+      "stone": 3818,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 176,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 172,
+      "metal": 0
+    },
+    "remap_targets": [
+      "grass_block",
+      "andesite",
+      "stone",
+      "andesite_wall",
+      "cobblestone",
+      "tuff",
+      "dirt",
+      "chiseled_stone_bricks",
+      "stone_bricks",
+      "pale_moss_block",
+      "cracked_stone_bricks",
+      "mud_bricks"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.85,
+        "raw_score": 0.5099,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.76,
+        "raw_score": 0.4718
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.272,
+        "raw_score": 0.2362
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.188,
+        "raw_score": 0.1805
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.172,
+        "raw_score": 0.1688
+      }
+    ]
+  },
+  "redstone": {
+    "total": 64,
+    "pattern_ids": [
+      "copper_bulb_latch"
+    ],
+    "pattern_labels": [
+      "铜灯泡锁存/切换"
+    ],
+    "inventory_nonzero": {
+      "copper_bulb": 64
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\92174715258d_Stone_20Gate_skeleton.npz",
+    "occupancy_frac": 0.11822509765625,
+    "occupied": 3874
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

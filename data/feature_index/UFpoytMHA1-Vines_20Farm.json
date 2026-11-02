@@ -1,0 +1,234 @@
+{
+  "id": "UFpoytMHA1-Vines_20Farm",
+  "source_path": "data\\raw\\hack337\\schematics\\UFpoytMHA1-Vines%20Farm.litematic",
+  "created_at": "2026-10-18T22:27:13+08:00",
+  "overview": {
+    "schematic_name": "Vines Farm",
+    "size": {
+      "x": 23,
+      "y": 6,
+      "z": 8
+    },
+    "non_air": 920,
+    "density": 0.8333,
+    "unique_block_types": 17
+  },
+  "massing": {
+    "hollow_score": 0.129,
+    "interior_air_frac": 0.129,
+    "exterior_solid_frac": 0.4357,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      5
+    ],
+    "families": {
+      "stairs": 19,
+      "slabs": 1,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 87,
+      "planks": 0,
+      "stone_bricks": 99,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 5,
+      "leaves": 0,
+      "lanterns": 10,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.97,
+      "symmetry_z": 0.6697,
+      "symmetry_y": 0.7358
+    },
+    "solid_ratio": 0.8333
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 293,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 117,
+        "frac": 0.0
+      },
+      {
+        "name": "vine",
+        "count": 117,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 113,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 63,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "jack_o_lantern",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "coal_ore",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_carpet",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "gravel",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 87,
+      "stone": 216,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 5,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 113,
+      "metal": 1
+    },
+    "remap_targets": [
+      "dirt",
+      "stone",
+      "vine",
+      "moss_block",
+      "stone_bricks",
+      "oak_log",
+      "water",
+      "stripped_oak_log",
+      "stone_brick_stairs",
+      "jack_o_lantern",
+      "coal_ore",
+      "moss_carpet"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "chinese",
+      "japanese",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.727,
+        "raw_score": 0.3768,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.705,
+        "raw_score": 0.3693
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.451,
+        "raw_score": 0.2729
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.45,
+        "raw_score": 0.2725
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.386,
+        "raw_score": 0.2448
+      }
+    ]
+  },
+  "redstone": {
+    "total": 1,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "hopper": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\UFpoytMHA1-Vines_20Farm_skeleton.npz",
+    "occupancy_frac": 0.835205078125,
+    "occupied": 27368
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

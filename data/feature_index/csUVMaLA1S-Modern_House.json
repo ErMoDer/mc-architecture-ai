@@ -1,0 +1,269 @@
+{
+  "id": "csUVMaLA1S-Modern_House",
+  "source_path": "data\\raw\\hack337\\schematics\\csUVMaLA1S-Modern_House.litematic",
+  "created_at": "2026-10-18T22:25:55+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 29,
+      "y": 18,
+      "z": 22
+    },
+    "non_air": 4451,
+    "density": 0.3876,
+    "unique_block_types": 59
+  },
+  "massing": {
+    "hollow_score": 0.5736,
+    "interior_air_frac": 0.5736,
+    "exterior_solid_frac": 0.0668,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      5,
+      9,
+      13,
+      16
+    ],
+    "families": {
+      "stairs": 30,
+      "slabs": 121,
+      "walls": 4,
+      "fences": 2,
+      "doors": 4,
+      "trapdoors": 32,
+      "glass": 354,
+      "logs": 0,
+      "planks": 202,
+      "stone_bricks": 0,
+      "deepslate": 73,
+      "terracotta": 0,
+      "concrete": 2242,
+      "wool": 19,
+      "leaves": 42,
+      "lanterns": 11,
+      "copper": 0,
+      "nether": 2
+    },
+    "symmetry": {
+      "symmetry_x": 0.5568,
+      "symmetry_z": 0.5541,
+      "symmetry_y": 0.4139
+    },
+    "solid_ratio": 0.3876
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "white_concrete",
+        "count": 1118,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_concrete",
+        "count": 1118,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 802,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_stained_glass_pane",
+        "count": 350,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 292,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 202,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz_slab",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate",
+        "count": 69,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz_stairs",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "chain",
+        "count": 25,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_block",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wall_sign",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 18,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 226,
+      "stone": 4,
+      "deepslate": 73,
+      "terracotta": 0,
+      "concrete": 2242,
+      "wool": 19,
+      "glass": 354,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 42,
+      "metal": 68
+    },
+    "remap_targets": [
+      "white_concrete",
+      "gray_concrete",
+      "dirt",
+      "gray_stained_glass_pane",
+      "grass_block",
+      "spruce_planks",
+      "smooth_quartz_slab",
+      "polished_deepslate",
+      "oak_leaves",
+      "smooth_quartz_stairs",
+      "chain",
+      "bamboo"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "scifi",
+      "industrial",
+      "rustic",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.85,
+        "raw_score": 0.5772,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.238,
+        "raw_score": 0.2346
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.199,
+        "raw_score": 0.2066
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.05,
+        "raw_score": 0.0506
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.05,
+        "raw_score": 0.0503
+      }
+    ]
+  },
+  "redstone": {
+    "total": 67,
+    "pattern_ids": [
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "lever": 13,
+      "button": 2,
+      "pressure_plate": 1,
+      "hopper": 5,
+      "note_block": 1,
+      "door": 4,
+      "trapdoor": 32,
+      "tripwire": 8,
+      "blast_furnace": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\csUVMaLA1S-Modern_House_skeleton.npz",
+    "occupancy_frac": 0.397369384765625,
+    "occupied": 13021
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 12,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\csUVMaLA1S-Modern_House_block2vec.npy",
+    "vector_preview": [
+      -0.03945,
+      0.16314,
+      -0.17947,
+      0.02878,
+      0.04591,
+      -0.01389,
+      -0.0927,
+      0.04108
+    ],
+    "ok": true
+  },
+  "mapped_style": "modern",
+  "long_fill2_retag": "long_fill2 hack337 chinese->modern"
+}

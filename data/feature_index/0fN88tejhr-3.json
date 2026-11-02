@@ -1,0 +1,244 @@
+{
+  "id": "0fN88tejhr-3",
+  "source_path": "data\\raw\\hack337\\schematics\\0fN88tejhr-3.litematic",
+  "created_at": "2026-10-18T22:24:47+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 54,
+      "y": 57,
+      "z": 44
+    },
+    "non_air": 2253,
+    "density": 0.0166,
+    "unique_block_types": 52
+  },
+  "massing": {
+    "hollow_score": 0.9828,
+    "interior_air_frac": 0.9828,
+    "exterior_solid_frac": 0.0014,
+    "floor_guess": 7,
+    "y_peaks": [
+      0,
+      3,
+      6,
+      12,
+      20,
+      23,
+      26
+    ],
+    "families": {
+      "stairs": 62,
+      "slabs": 203,
+      "walls": 2,
+      "fences": 136,
+      "doors": 0,
+      "trapdoors": 176,
+      "glass": 0,
+      "logs": 386,
+      "planks": 93,
+      "stone_bricks": 72,
+      "deepslate": 596,
+      "terracotta": 0,
+      "concrete": 123,
+      "wool": 88,
+      "leaves": 0,
+      "lanterns": 36,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3046,
+      "symmetry_z": 0.0306,
+      "symmetry_y": 0.0
+    },
+    "solid_ratio": 0.0166
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_spruce_wood",
+        "count": 285,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 170,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 170,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete_powder",
+        "count": 123,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 122,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 109,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 109,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 93,
+        "frac": 0.0
+      },
+      {
+        "name": "cracked_deepslate_bricks",
+        "count": 89,
+        "frac": 0.0
+      },
+      {
+        "name": "cobbled_deepslate",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 62,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wall_sign",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "composter",
+        "count": 52,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 482,
+      "stone": 183,
+      "deepslate": 596,
+      "terracotta": 0,
+      "concrete": 123,
+      "wool": 88,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 8
+    },
+    "remap_targets": [
+      "stripped_spruce_wood",
+      "spruce_trapdoor",
+      "deepslate_bricks",
+      "white_concrete_powder",
+      "spruce_fence_gate",
+      "calcite",
+      "deepslate_tiles",
+      "spruce_planks",
+      "cracked_deepslate_bricks",
+      "cobbled_deepslate",
+      "white_wool",
+      "stone_bricks"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.581,
+        "raw_score": 0.2313,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.576,
+        "raw_score": 0.2297
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.51,
+        "raw_score": 0.2106
+      },
+      {
+        "style": "western",
+        "confidence": 0.444,
+        "raw_score": 0.19
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.398,
+        "raw_score": 0.1753
+      }
+    ]
+  },
+  "redstone": {
+    "total": 353,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 40,
+      "pressure_plate": 1,
+      "trapdoor": 176,
+      "fence_gate": 122,
+      "rail": 14
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\0fN88tejhr-3_skeleton.npz",
+    "occupancy_frac": 0.02618408203125,
+    "occupied": 858
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

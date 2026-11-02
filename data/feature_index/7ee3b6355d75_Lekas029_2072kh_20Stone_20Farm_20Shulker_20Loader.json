@@ -1,0 +1,278 @@
+{
+  "id": "7ee3b6355d75_Lekas029_2072kh_20Stone_20Farm_20Shulker_20Loader",
+  "source_path": "data\\raw\\hack337\\schematics\\7ee3b6355d75_Lekas029%2072kh%20Stone%20Farm%20Shulker%20Loader.litematic",
+  "created_at": "2026-10-18T22:25:28+08:00",
+  "overview": {
+    "schematic_name": "Lekas029 72k/h Stone Farm",
+    "size": {
+      "x": 14,
+      "y": 17,
+      "z": 18
+    },
+    "non_air": 1097,
+    "density": 0.2561,
+    "unique_block_types": 37
+  },
+  "massing": {
+    "hollow_score": 0.6312,
+    "interior_air_frac": 0.6312,
+    "exterior_solid_frac": 0.0082,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      6
+    ],
+    "families": {
+      "stairs": 24,
+      "slabs": 1,
+      "walls": 0,
+      "fences": 4,
+      "doors": 2,
+      "trapdoors": 22,
+      "glass": 429,
+      "logs": 2,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 3,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4905,
+      "symmetry_z": 0.6851,
+      "symmetry_y": 0.511
+    },
+    "solid_ratio": 0.2561
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "red_stained_glass",
+        "count": 427,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 159,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 114,
+        "frac": 0.0
+      },
+      {
+        "name": "obsidian",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "note_block",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 34,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 30,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz_stairs",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_trapdoor",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "dropper",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 12,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 2,
+      "stone": 160,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 429,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 3,
+      "metal": 22
+    },
+    "remap_targets": [
+      "red_stained_glass",
+      "stone",
+      "observer",
+      "obsidian",
+      "note_block",
+      "piston",
+      "sticky_piston",
+      "lava",
+      "smooth_quartz_stairs",
+      "torch",
+      "acacia_trapdoor",
+      "hopper"
+    ]
+  },
+  "style": {
+    "mapped_style": "scifi",
+    "mapped_terrain": "flat",
+    "style_id": 10,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "modern",
+      "scifi",
+      "fantasy",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.561,
+        "raw_score": 0.2113,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "modern",
+        "confidence": 0.519,
+        "raw_score": 0.1994
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.504,
+        "raw_score": 0.1952
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.46,
+        "raw_score": 0.1826
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.218,
+        "raw_score": 0.1017
+      }
+    ]
+  },
+  "redstone": {
+    "total": 330,
+    "pattern_ids": [
+      "piston_door",
+      "qc_piston_bank",
+      "observer_clock",
+      "simple_io",
+      "item_elevator",
+      "door_line",
+      "etho_hopper_clock",
+      "shulker_loader",
+      "pulse_extender",
+      "edge_detector",
+      "note_block_line",
+      "hopper_clock",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "portal_frame_cue"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "QC/BUD 活塞组",
+      "观察者环路时钟",
+      "杠杆/按钮 → 灯或门",
+      "物品升降机嫌疑",
+      "门/活板/栅栏门控制线",
+      "多漏斗环钟嫌疑",
+      "潜影盒装卸线嫌疑",
+      "脉冲延长/单稳态嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "传送门框/黑曜石阵嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 12,
+      "redstone_block": 2,
+      "repeater": 9,
+      "comparator": 8,
+      "lever": 1,
+      "piston": 42,
+      "sticky_piston": 34,
+      "observer": 114,
+      "hopper": 15,
+      "dropper": 12,
+      "dispenser": 2,
+      "note_block": 44,
+      "redstone_lamp": 1,
+      "door": 2,
+      "trapdoor": 22,
+      "fence_gate": 4,
+      "powered_rail": 4,
+      "shulker_box": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\7ee3b6355d75_Lekas029_2072kh_20Stone_20Farm_20Shulker_20Loader_skeleton.npz",
+    "occupancy_frac": 0.2615966796875,
+    "occupied": 8572
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

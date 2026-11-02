@@ -1,0 +1,306 @@
+{
+  "id": "紫顶花房__2573b3bd",
+  "source_path": "data\\raw\\mcblock\\紫顶花房__2573b3bd.litematic",
+  "created_at": "2026-10-19T20:34:02+08:00",
+  "overview": {
+    "schematic_name": "QL21",
+    "size": {
+      "x": 42,
+      "y": 53,
+      "z": 52
+    },
+    "non_air": 5592,
+    "density": 0.0483,
+    "unique_block_types": 75
+  },
+  "massing": {
+    "hollow_score": 0.9474,
+    "interior_air_frac": 0.9474,
+    "exterior_solid_frac": 0.002,
+    "floor_guess": 6,
+    "y_peaks": [
+      1,
+      7,
+      14,
+      18,
+      21,
+      25
+    ],
+    "families": {
+      "stairs": 236,
+      "slabs": 261,
+      "walls": 23,
+      "fences": 217,
+      "doors": 0,
+      "trapdoors": 295,
+      "glass": 64,
+      "logs": 2377,
+      "planks": 333,
+      "stone_bricks": 10,
+      "deepslate": 0,
+      "terracotta": 383,
+      "concrete": 107,
+      "wool": 88,
+      "leaves": 174,
+      "lanterns": 18,
+      "copper": 0,
+      "nether": 1076
+    },
+    "symmetry": {
+      "symmetry_x": 0.2323,
+      "symmetry_z": 0.3062,
+      "symmetry_y": 0.0362
+    },
+    "solid_ratio": 0.0483
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stripped_cherry_wood",
+        "count": 1157,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_crimson_hyphae",
+        "count": 769,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_cherry_log",
+        "count": 388,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_planks",
+        "count": 319,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_stairs",
+        "count": 218,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_terracotta",
+        "count": 198,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_trapdoor",
+        "count": 179,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 160,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_button",
+        "count": 132,
+        "frac": 0.0
+      },
+      {
+        "name": "decorated_pot",
+        "count": 128,
+        "frac": 0.0
+      },
+      {
+        "name": "magenta_terracotta",
+        "count": 99,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 87,
+        "frac": 0.0
+      },
+      {
+        "name": "mangrove_slab",
+        "count": 83,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_trapdoor",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_slab",
+        "count": 77,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_concrete",
+        "count": 75,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 2760,
+      "stone": 129,
+      "deepslate": 0,
+      "terracotta": 383,
+      "concrete": 107,
+      "wool": 88,
+      "glass": 64,
+      "nether": 217,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 238,
+      "metal": 2
+    },
+    "remap_targets": [
+      "stripped_cherry_wood",
+      "stripped_crimson_hyphae",
+      "stripped_cherry_log",
+      "cherry_planks",
+      "cherry_stairs",
+      "purple_terracotta",
+      "cherry_trapdoor",
+      "oak_leaves",
+      "cherry_button",
+      "decorated_pot",
+      "magenta_terracotta",
+      "grass"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5796,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.637,
+        "raw_score": 0.4571
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.566,
+        "raw_score": 0.424
+      },
+      {
+        "style": "western",
+        "confidence": 0.557,
+        "raw_score": 0.4197
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.186,
+        "raw_score": 0.1974
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 653,
+    "pattern_ids": [
+      "simple_io",
+      "tripwire_trap",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 239,
+      "pressure_plate": 4,
+      "trapdoor": 295,
+      "fence_gate": 53,
+      "tripwire": 62
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\紫顶花房__2573b3bd_skeleton.npz",
+    "occupancy_frac": 0.074554443359375,
+    "occupied": 2443
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 38,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\紫顶花房__2573b3bd_block2vec.npy",
+    "vector_preview": [
+      -0.08409,
+      0.18975,
+      -0.06232,
+      -0.04645,
+      0.10485,
+      0.04586,
+      0.0081,
+      0.09522
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "碧瓦南洋木屋__30cffdec",
+        "score": 0.9288103274383812,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\碧瓦南洋木屋__30cffdec.litematic"
+      },
+      {
+        "id": "质朴的农舍__85e9276a",
+        "score": 0.9269947676784727,
+        "mapped_style": "european",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\质朴的农舍__85e9276a.litematic"
+      },
+      {
+        "id": "叠层小屋__6048350c",
+        "score": 0.9031203235737008,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\叠层小屋__6048350c.litematic"
+      },
+      {
+        "id": "奇异丛林屋__63fa0070",
+        "score": 0.901485888760177,
+        "mapped_style": "industrial",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\奇异丛林屋__63fa0070.litematic"
+      },
+      {
+        "id": "地冠真菌__07815707",
+        "score": 0.8954183710583348,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\地冠真菌__07815707.litematic"
+      }
+    ]
+  }
+}

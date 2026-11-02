@@ -1,0 +1,189 @@
+{
+  "id": "OMwAIQ77KN-BoomProofHouse",
+  "source_path": "data\\raw\\hack337\\schematics\\OMwAIQ77KN-BoomProofHouse.litematic",
+  "created_at": "2026-10-18T22:26:36+08:00",
+  "overview": {
+    "schematic_name": "BoomProofHouse",
+    "size": {
+      "x": 35,
+      "y": 11,
+      "z": 30
+    },
+    "non_air": 6604,
+    "density": 0.5718,
+    "unique_block_types": 9
+  },
+  "massing": {
+    "hollow_score": 0.2516,
+    "interior_air_frac": 0.2516,
+    "exterior_solid_frac": 0.0329,
+    "floor_guess": 2,
+    "y_peaks": [
+      1,
+      8
+    ],
+    "families": {
+      "stairs": 1372,
+      "slabs": 3712,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 5084,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9946,
+      "symmetry_z": 0.9946,
+      "symmetry_y": 0.5765
+    },
+    "solid_ratio": 0.5718
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "waxed_oxidized_cut_copper_slab",
+        "count": 2097,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_cut_copper_slab",
+        "count": 1615,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_cut_copper_stairs",
+        "count": 1142,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 876,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 517,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_oxidized_cut_copper_stairs",
+        "count": 230,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 115,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "gravel",
+        "count": 6,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 876,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 5084,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "waxed_oxidized_cut_copper_slab",
+      "waxed_cut_copper_slab",
+      "waxed_cut_copper_stairs",
+      "stone",
+      "dirt",
+      "waxed_oxidized_cut_copper_stairs",
+      "grass_block",
+      "water",
+      "gravel"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "industrial",
+      "scifi",
+      "european",
+      "medieval",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "industrial",
+        "confidence": 0.54,
+        "raw_score": 0.1902,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.467,
+        "raw_score": 0.1706
+      },
+      {
+        "style": "european",
+        "confidence": 0.137,
+        "raw_score": 0.063
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.122,
+        "raw_score": 0.0572
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.075,
+        "raw_score": 0.0367
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\OMwAIQ77KN-BoomProofHouse_skeleton.npz",
+    "occupancy_frac": 0.589630126953125,
+    "occupied": 19321
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

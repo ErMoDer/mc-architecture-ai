@@ -1,0 +1,202 @@
+{
+  "id": "LkyLUNIVEC-beacon_20house",
+  "source_path": "data\\raw\\hack337\\schematics\\LkyLUNIVEC-beacon%20house.litematic",
+  "created_at": "2026-10-18T22:26:29+08:00",
+  "overview": {
+    "schematic_name": "beacon house",
+    "size": {
+      "x": 15,
+      "y": 17,
+      "z": 15
+    },
+    "non_air": 947,
+    "density": 0.2476,
+    "unique_block_types": 11
+  },
+  "massing": {
+    "hollow_score": 0.697,
+    "interior_air_frac": 0.697,
+    "exterior_solid_frac": 0.0468,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      7,
+      12
+    ],
+    "families": {
+      "stairs": 105,
+      "slabs": 187,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 189,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 2,
+      "copper": 0,
+      "nether": 11
+    },
+    "symmetry": {
+      "symmetry_x": 0.8587,
+      "symmetry_z": 0.9937,
+      "symmetry_y": 0.1897
+    },
+    "solid_ratio": 0.2476
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "white_stained_glass",
+        "count": 189,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_slab",
+        "count": 187,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_block",
+        "count": 164,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_pillar",
+        "count": 159,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz_stairs",
+        "count": 105,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 81,
+        "frac": 0.0
+      },
+      {
+        "name": "quartz_bricks",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "diamond_block",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "netherite_block",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "soul_lantern",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "beacon",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 40,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 189,
+      "nether": 9,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 164
+    },
+    "remap_targets": [
+      "white_stained_glass",
+      "quartz_slab",
+      "iron_block",
+      "quartz_pillar",
+      "smooth_quartz_stairs",
+      "smooth_quartz",
+      "quartz_bricks",
+      "diamond_block",
+      "netherite_block",
+      "soul_lantern",
+      "beacon"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "scifi",
+      "modern",
+      "industrial",
+      "european",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "scifi",
+        "confidence": 0.584,
+        "raw_score": 0.2342,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "modern",
+        "confidence": 0.465,
+        "raw_score": 0.1986
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.397,
+        "raw_score": 0.1765
+      },
+      {
+        "style": "european",
+        "confidence": 0.216,
+        "raw_score": 0.1098
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.2,
+        "raw_score": 0.1032
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\LkyLUNIVEC-beacon_20house_skeleton.npz",
+    "occupancy_frac": 0.24798583984375,
+    "occupied": 8126
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

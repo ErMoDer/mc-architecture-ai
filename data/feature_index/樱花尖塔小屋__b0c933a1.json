@@ -1,0 +1,277 @@
+{
+  "id": "樱花尖塔小屋__b0c933a1",
+  "source_path": "data\\raw\\mcblock\\樱花尖塔小屋__b0c933a1.litematic",
+  "created_at": "2026-10-19T16:12:46+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 30,
+      "y": 66,
+      "z": 37
+    },
+    "non_air": 7769,
+    "density": 0.106,
+    "unique_block_types": 132
+  },
+  "massing": {
+    "hollow_score": 0.8883,
+    "interior_air_frac": 0.8883,
+    "exterior_solid_frac": 0.0104,
+    "floor_guess": 8,
+    "y_peaks": [
+      0,
+      8,
+      15,
+      21,
+      25,
+      29,
+      36,
+      40
+    ],
+    "families": {
+      "stairs": 329,
+      "slabs": 507,
+      "walls": 18,
+      "fences": 158,
+      "doors": 4,
+      "trapdoors": 558,
+      "glass": 9,
+      "logs": 1129,
+      "planks": 1017,
+      "stone_bricks": 21,
+      "deepslate": 0,
+      "terracotta": 208,
+      "concrete": 215,
+      "wool": 422,
+      "leaves": 292,
+      "lanterns": 19,
+      "copper": 0,
+      "nether": 164
+    },
+    "symmetry": {
+      "symmetry_x": 0.5473,
+      "symmetry_z": 0.2924,
+      "symmetry_y": 0.1129
+    },
+    "solid_ratio": 0.106
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "birch_planks",
+        "count": 538,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 521,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_quartz",
+        "count": 461,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_slab",
+        "count": 459,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_birch_wood",
+        "count": 336,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_planks",
+        "count": 308,
+        "frac": 0.0
+      },
+      {
+        "name": "moss_block",
+        "count": 305,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_cherry_wood",
+        "count": 302,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 257,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_trapdoor",
+        "count": 225,
+        "frac": 0.0
+      },
+      {
+        "name": "white_terracotta",
+        "count": 208,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_wool",
+        "count": 197,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_stairs",
+        "count": 190,
+        "frac": 0.0
+      },
+      {
+        "name": "birch_wood",
+        "count": 188,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 172,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_planks",
+        "count": 171,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 2441,
+      "stone": 313,
+      "deepslate": 0,
+      "terracotta": 208,
+      "concrete": 215,
+      "wool": 422,
+      "glass": 9,
+      "nether": 95,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 612,
+      "metal": 28
+    },
+    "remap_targets": [
+      "birch_planks",
+      "grass_block",
+      "smooth_quartz",
+      "birch_slab",
+      "stripped_birch_wood",
+      "cherry_planks",
+      "moss_block",
+      "stripped_cherry_wood",
+      "short_grass",
+      "cherry_trapdoor",
+      "white_terracotta",
+      "pink_wool"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.5187,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.57,
+        "raw_score": 0.3964
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.524,
+        "raw_score": 0.3751
+      },
+      {
+        "style": "western",
+        "confidence": 0.444,
+        "raw_score": 0.3358
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.21,
+        "raw_score": 0.1986
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 744,
+    "pattern_ids": [
+      "simple_io",
+      "door_line",
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线",
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "button": 64,
+      "pressure_plate": 4,
+      "door": 4,
+      "trapdoor": 558,
+      "fence_gate": 21,
+      "tripwire": 1,
+      "brewing_stand": 2,
+      "furnace": 2,
+      "smoker": 5,
+      "lectern": 55,
+      "chiseled_bookshelf": 28
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\樱花尖塔小屋__b0c933a1_skeleton.npz",
+    "occupancy_frac": 0.14349365234375,
+    "occupied": 4702
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 44,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\樱花尖塔小屋__b0c933a1_block2vec.npy",
+    "vector_preview": [
+      -0.00684,
+      0.16475,
+      -0.125,
+      -0.04234,
+      0.07778,
+      0.02069,
+      -0.08563,
+      0.07594
+    ],
+    "ok": true
+  }
+}

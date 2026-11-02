@@ -1,0 +1,209 @@
+{
+  "id": "9J3GNLjFOe-1930s_20Style_20Car",
+  "source_path": "data\\raw\\hack337\\schematics\\9J3GNLjFOe-1930s%20Style%20Car.litematic",
+  "created_at": "2026-10-18T22:25:36+08:00",
+  "overview": {
+    "schematic_name": "1930's Style Car",
+    "size": {
+      "x": 15,
+      "y": 6,
+      "z": 7
+    },
+    "non_air": 265,
+    "density": 0.4206,
+    "unique_block_types": 12
+  },
+  "massing": {
+    "hollow_score": 0.4769,
+    "interior_air_frac": 0.4769,
+    "exterior_solid_frac": 0.2048,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 6,
+      "slabs": 36,
+      "walls": 14,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 8,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 61,
+      "concrete": 0,
+      "wool": 18,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6308,
+      "symmetry_z": 0.985,
+      "symmetry_y": 0.2927
+    },
+    "solid_ratio": 0.4206
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone",
+        "count": 105,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_terracotta",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_slab",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_cobblestone_wall",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_button",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "black_wool",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "brown_carpet",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass_pane",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "wall_torch",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_wall_banner",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 119,
+      "deepslate": 0,
+      "terracotta": 61,
+      "concrete": 0,
+      "wool": 18,
+      "glass": 8,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stone",
+      "gray_terracotta",
+      "dark_oak_slab",
+      "mossy_cobblestone_wall",
+      "oak_button",
+      "black_wool",
+      "brown_carpet",
+      "white_stained_glass_pane",
+      "dark_oak_stairs",
+      "wall_torch",
+      "torch",
+      "light_gray_wall_banner"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.603,
+        "raw_score": 0.2531,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.51,
+        "raw_score": 0.2246
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.337,
+        "raw_score": 0.1655
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.189,
+        "raw_score": 0.105
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.17,
+        "raw_score": 0.0963
+      }
+    ]
+  },
+  "redstone": {
+    "total": 9,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 9
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\9J3GNLjFOe-1930s_20Style_20Car_skeleton.npz",
+    "occupancy_frac": 0.42694091796875,
+    "occupied": 13990
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

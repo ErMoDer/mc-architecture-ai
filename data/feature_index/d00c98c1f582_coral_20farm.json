@@ -1,0 +1,283 @@
+{
+  "id": "d00c98c1f582_coral_20farm",
+  "source_path": "data\\raw\\hack337\\schematics\\d00c98c1f582_coral%20farm.litematic",
+  "created_at": "2026-10-18T22:25:56+08:00",
+  "overview": {
+    "schematic_name": "coral farm",
+    "size": {
+      "x": 14,
+      "y": 21,
+      "z": 29
+    },
+    "non_air": 617,
+    "density": 0.0724,
+    "unique_block_types": 39
+  },
+  "massing": {
+    "hollow_score": 0.9129,
+    "interior_air_frac": 0.9129,
+    "exterior_solid_frac": 0.0095,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      3,
+      6,
+      9,
+      14,
+      18
+    ],
+    "families": {
+      "stairs": 6,
+      "slabs": 7,
+      "walls": 0,
+      "fences": 1,
+      "doors": 0,
+      "trapdoors": 3,
+      "glass": 103,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 129,
+      "deepslate": 19,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 3
+    },
+    "symmetry": {
+      "symmetry_x": 0.4055,
+      "symmetry_z": 0.0693,
+      "symmetry_y": 0.0684
+    },
+    "solid_ratio": 0.0724
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 129,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass",
+        "count": 103,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 98,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 95,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 27,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "dispenser",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "activator_rail",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "dropper",
+        "count": 10,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_slab",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate",
+        "count": 6,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 129,
+      "deepslate": 19,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 103,
+      "nether": 2,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 7,
+      "leaves": 1,
+      "metal": 95
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "black_stained_glass",
+      "chest",
+      "hopper",
+      "redstone_wire",
+      "water",
+      "observer",
+      "comparator",
+      "dispenser",
+      "repeater",
+      "activator_rail",
+      "dropper"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "industrial",
+      "scifi",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.683,
+        "raw_score": 0.3326,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.528,
+        "raw_score": 0.2791
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.235,
+        "raw_score": 0.1551
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.222,
+        "raw_score": 0.1483
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.205,
+        "raw_score": 0.1393
+      }
+    ]
+  },
+  "redstone": {
+    "total": 218,
+    "pattern_ids": [
+      "simple_io",
+      "item_elevator",
+      "observer_clock",
+      "etho_hopper_clock",
+      "qc_piston_bank",
+      "pulse_limiter",
+      "edge_detector",
+      "instant_wire",
+      "note_block_line",
+      "hopper_clock",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "water_hopper_stream"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "多漏斗环钟嫌疑",
+      "QC/BUD 活塞组",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "音符盒线路/乐器阵",
+      "漏斗+比较器时钟/测量嫌疑",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "水流漏斗收集线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 27,
+      "redstone_torch": 10,
+      "repeater": 10,
+      "comparator": 12,
+      "lever": 1,
+      "pressure_plate": 1,
+      "sticky_piston": 5,
+      "observer": 17,
+      "hopper": 95,
+      "dropper": 10,
+      "dispenser": 11,
+      "note_block": 1,
+      "redstone_lamp": 2,
+      "trapdoor": 3,
+      "fence_gate": 1,
+      "activator_rail": 10,
+      "piston_head": 1,
+      "slime_block": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\d00c98c1f582_coral_20farm_skeleton.npz",
+    "occupancy_frac": 0.078155517578125,
+    "occupied": 2561
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "demoted_from_industrial:farm",
+  "previous_mapped_style": "industrial"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "pressure_plate_iron_door",
+  "matches": [
+    "pressure_door",
+    "plate_door",
+    "auto_iron_door"
+  ],
+  "label_zh": "压力板铁门桩（石板→粉尘→铁门）",
+  "size": [
+    3,
+    2,
+    1
+  ],
+  "notes": "教学桩：踏板开铁门；非完整自动门系统。"
+}

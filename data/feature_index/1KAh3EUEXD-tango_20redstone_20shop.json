@@ -1,0 +1,244 @@
+{
+  "id": "1KAh3EUEXD-tango_20redstone_20shop",
+  "source_path": "data\\raw\\hack337\\schematics\\1KAh3EUEXD-tango%20redstone%20shop.litematic",
+  "created_at": "2026-10-18T22:24:54+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 18,
+      "y": 33,
+      "z": 18
+    },
+    "non_air": 2316,
+    "density": 0.2166,
+    "unique_block_types": 47
+  },
+  "massing": {
+    "hollow_score": 0.7757,
+    "interior_air_frac": 0.7757,
+    "exterior_solid_frac": 0.0501,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      4,
+      21,
+      25,
+      29,
+      32
+    ],
+    "families": {
+      "stairs": 4,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 14,
+      "glass": 0,
+      "logs": 458,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 343,
+      "concrete": 608,
+      "wool": 270,
+      "leaves": 0,
+      "lanterns": 20,
+      "copper": 0,
+      "nether": 1
+    },
+    "symmetry": {
+      "symmetry_x": 0.9365,
+      "symmetry_z": 0.8366,
+      "symmetry_y": 0.2892
+    },
+    "solid_ratio": 0.2166
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cyan_terracotta",
+        "count": 336,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_concrete",
+        "count": 243,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_concrete_powder",
+        "count": 233,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 220,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_wool",
+        "count": 197,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 135,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_concrete",
+        "count": 132,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_jungle_log",
+        "count": 99,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_bars",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_birch_log",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_wool",
+        "count": 73,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_dark_oak_log",
+        "count": 65,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_block",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 50,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 48,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 458,
+      "stone": 270,
+      "deepslate": 0,
+      "terracotta": 343,
+      "concrete": 608,
+      "wool": 270,
+      "glass": 0,
+      "nether": 1,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 155
+    },
+    "remap_targets": [
+      "cyan_terracotta",
+      "light_gray_concrete",
+      "gray_concrete_powder",
+      "stone",
+      "gray_wool",
+      "stripped_oak_log",
+      "gray_concrete",
+      "stripped_jungle_log",
+      "iron_bars",
+      "stripped_birch_log",
+      "stripped_spruce_log",
+      "light_gray_wool"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "western",
+      "japanese",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.517,
+        "raw_score": 0.1674,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.495,
+        "raw_score": 0.1618
+      },
+      {
+        "style": "western",
+        "confidence": 0.464,
+        "raw_score": 0.1541
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.442,
+        "raw_score": 0.1483
+      },
+      {
+        "style": "modern",
+        "confidence": 0.379,
+        "raw_score": 0.1317
+      }
+    ]
+  },
+  "redstone": {
+    "total": 46,
+    "pattern_ids": [
+      "auto_smelt_brew_line"
+    ],
+    "pattern_labels": [
+      "自动烧炼/酿造线"
+    ],
+    "inventory_nonzero": {
+      "redstone_block": 1,
+      "pressure_plate": 8,
+      "piston": 3,
+      "hopper": 5,
+      "trapdoor": 14,
+      "rail": 8,
+      "piston_head": 1,
+      "blast_furnace": 6
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\1KAh3EUEXD-tango_20redstone_20shop_skeleton.npz",
+    "occupancy_frac": 0.22967529296875,
+    "occupied": 7526
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "id": "209b0a41913f_Short_Bridge_01",
+  "source_path": "data\\raw\\hack337\\schematics\\209b0a41913f_Short_Bridge_01.litematic",
+  "created_at": "2026-10-18T22:24:55+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 47,
+      "y": 16,
+      "z": 13
+    },
+    "non_air": 5995,
+    "density": 0.6132,
+    "unique_block_types": 24
+  },
+  "massing": {
+    "hollow_score": 0.3623,
+    "interior_air_frac": 0.3623,
+    "exterior_solid_frac": 0.1612,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      3,
+      6
+    ],
+    "families": {
+      "stairs": 20,
+      "slabs": 71,
+      "walls": 20,
+      "fences": 44,
+      "doors": 0,
+      "trapdoors": 78,
+      "glass": 0,
+      "logs": 26,
+      "planks": 11,
+      "stone_bricks": 0,
+      "deepslate": 92,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 10,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9114,
+      "symmetry_z": 0.9301,
+      "symmetry_y": 0.2265
+    },
+    "solid_ratio": 0.6132
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 1541,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 1317,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 1082,
+        "frac": 0.0
+      },
+      {
+        "name": "sand",
+        "count": 549,
+        "frac": 0.0
+      },
+      {
+        "name": "diorite",
+        "count": 469,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 285,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 247,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 78,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tiles",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 71,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt_path",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "coal_ore",
+        "count": 37,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "grindstone",
+        "count": 23,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_button",
+        "count": 20,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 37,
+      "stone": 1865,
+      "deepslate": 92,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 549,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "dirt",
+      "water",
+      "stone",
+      "sand",
+      "diorite",
+      "andesite",
+      "grass_block",
+      "spruce_trapdoor",
+      "deepslate_tiles",
+      "spruce_slab",
+      "dirt_path",
+      "coal_ore"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.666,
+        "raw_score": 0.3164,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.594,
+        "raw_score": 0.2925
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.317,
+        "raw_score": 0.187
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.222,
+        "raw_score": 0.1426
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.199,
+        "raw_score": 0.1307
+      }
+    ]
+  },
+  "redstone": {
+    "total": 118,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "button": 20,
+      "trapdoor": 78,
+      "fence_gate": 20
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\209b0a41913f_Short_Bridge_01_skeleton.npz",
+    "occupancy_frac": 0.61346435546875,
+    "occupied": 20102
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

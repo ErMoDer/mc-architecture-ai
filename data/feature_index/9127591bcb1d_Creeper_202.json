@@ -1,0 +1,171 @@
+{
+  "id": "9127591bcb1d_Creeper_202",
+  "source_path": "data\\raw\\hack337\\schematics\\9127591bcb1d_Creeper%202.litematic",
+  "created_at": "2026-10-18T22:25:32+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 12,
+      "y": 28,
+      "z": 16
+    },
+    "non_air": 884,
+    "density": 0.1644,
+    "unique_block_types": 5
+  },
+  "massing": {
+    "hollow_score": 0.7747,
+    "interior_air_frac": 0.7747,
+    "exterior_solid_frac": 0.0119,
+    "floor_guess": 8,
+    "y_peaks": [
+      0,
+      5,
+      9,
+      12,
+      15,
+      18,
+      21,
+      25
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 474,
+      "wool": 382,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9601,
+      "symmetry_z": 0.9558,
+      "symmetry_y": 0.2812
+    },
+    "solid_ratio": 0.1644
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "lime_concrete",
+        "count": 454,
+        "frac": 0.0
+      },
+      {
+        "name": "green_wool",
+        "count": 362,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_concrete_powder",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "black_wool",
+        "count": 20,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 474,
+      "wool": 382,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "lime_concrete",
+      "green_wool",
+      "glowstone",
+      "lime_concrete_powder",
+      "black_wool"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "industrial",
+      "scifi",
+      "fantasy",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.59,
+        "raw_score": 0.2401,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.306,
+        "raw_score": 0.1477
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.306,
+        "raw_score": 0.1477
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.131,
+        "raw_score": 0.0744
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.051,
+        "raw_score": 0.0319
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\9127591bcb1d_Creeper_202_skeleton.npz",
+    "occupancy_frac": 0.16229248046875,
+    "occupied": 5318
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "9c44b790823e_Minecraft_20Desert_20Temple",
+  "source_path": "data\\raw\\hack337\\schematics\\9c44b790823e_Minecraft%20Desert%20Temple.litematic",
+  "created_at": "2026-10-18T22:25:35+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 33,
+      "y": 35,
+      "z": 34
+    },
+    "non_air": 5293,
+    "density": 0.1348,
+    "unique_block_types": 54
+  },
+  "massing": {
+    "hollow_score": 0.875,
+    "interior_air_frac": 0.875,
+    "exterior_solid_frac": 0.0306,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      5,
+      8,
+      12,
+      17
+    ],
+    "families": {
+      "stairs": 630,
+      "slabs": 56,
+      "walls": 283,
+      "fences": 122,
+      "doors": 8,
+      "trapdoors": 102,
+      "glass": 0,
+      "logs": 184,
+      "planks": 182,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 67,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 28,
+      "lanterns": 17,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4828,
+      "symmetry_z": 0.3962,
+      "symmetry_y": 0.0463
+    },
+    "solid_ratio": 0.1348
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cut_sandstone",
+        "count": 1896,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone",
+        "count": 489,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_sandstone",
+        "count": 369,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_sandstone_stairs",
+        "count": 361,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone_wall",
+        "count": 283,
+        "frac": 0.0
+      },
+      {
+        "name": "sand",
+        "count": 277,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_planks",
+        "count": 182,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 172,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone_stairs",
+        "count": 159,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 120,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 110,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 91,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_sandstone",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 87,
+        "frac": 0.0
+      },
+      {
+        "name": "orange_terracotta",
+        "count": 66,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 64,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 366,
+      "stone": 3727,
+      "deepslate": 0,
+      "terracotta": 67,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 277,
+      "snow_ice": 0,
+      "leaves": 44,
+      "metal": 0
+    },
+    "remap_targets": [
+      "cut_sandstone",
+      "sandstone",
+      "smooth_sandstone",
+      "smooth_sandstone_stairs",
+      "sandstone_wall",
+      "sand",
+      "jungle_planks",
+      "stripped_spruce_log",
+      "sandstone_stairs",
+      "spruce_fence",
+      "spruce_stairs",
+      "dirt"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "desert",
+    "style_id": 5,
+    "terrain_id": 5,
+    "guess_names": [
+      "european",
+      "medieval",
+      "desert",
+      "fantasy",
+      "chinese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.718,
+        "raw_score": 0.3681,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.642,
+        "raw_score": 0.3416
+      },
+      {
+        "style": "desert",
+        "confidence": 0.437,
+        "raw_score": 0.2624
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.362,
+        "raw_score": 0.23
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.309,
+        "raw_score": 0.205
+      }
+    ]
+  },
+  "redstone": {
+    "total": 114,
+    "pattern_ids": [
+      "door_line",
+      "simple_io"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门"
+    ],
+    "inventory_nonzero": {
+      "pressure_plate": 2,
+      "door": 8,
+      "trapdoor": 102,
+      "brewing_stand": 1,
+      "lectern": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\9c44b790823e_Minecraft_20Desert_20Temple_skeleton.npz",
+    "occupancy_frac": 0.152801513671875,
+    "occupied": 5007
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

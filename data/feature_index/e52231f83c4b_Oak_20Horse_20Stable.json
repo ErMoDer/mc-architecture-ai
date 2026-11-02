@@ -1,0 +1,229 @@
+{
+  "id": "e52231f83c4b_Oak_20Horse_20Stable",
+  "source_path": "data\\raw\\hack337\\schematics\\e52231f83c4b_Oak%20Horse%20Stable.litematic",
+  "created_at": "2026-10-18T22:26:04+08:00",
+  "overview": {
+    "schematic_name": "Oak Horse Stable",
+    "size": {
+      "x": 7,
+      "y": 6,
+      "z": 23
+    },
+    "non_air": 601,
+    "density": 0.6222,
+    "unique_block_types": 17
+  },
+  "massing": {
+    "hollow_score": 0.569,
+    "interior_air_frac": 0.569,
+    "exterior_solid_frac": 0.4348,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      5
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 161,
+      "walls": 0,
+      "fences": 44,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 92,
+      "planks": 109,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 2,
+      "lanterns": 4,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.6443,
+      "symmetry_z": 0.9418,
+      "symmetry_y": 0.727
+    },
+    "solid_ratio": 0.6222
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cobblestone_slab",
+        "count": 161,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_oak_log",
+        "count": 92,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 88,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 81,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 55,
+        "frac": 0.0
+      },
+      {
+        "name": "short_grass",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 21,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_fence_gate",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "coarse_dirt",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "fern",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "tall_grass",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "oxeye_daisy",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wall_sign",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 201,
+      "stone": 161,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 2,
+      "metal": 0
+    },
+    "remap_targets": [
+      "cobblestone_slab",
+      "stripped_oak_log",
+      "oak_planks",
+      "grass_block",
+      "dirt",
+      "short_grass",
+      "oak_fence",
+      "spruce_planks",
+      "oak_fence_gate",
+      "coarse_dirt",
+      "fern",
+      "lantern"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.539,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.629,
+        "raw_score": 0.4328
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.551,
+        "raw_score": 0.3972
+      },
+      {
+        "style": "western",
+        "confidence": 0.402,
+        "raw_score": 0.3221
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.353,
+        "raw_score": 0.2947
+      }
+    ]
+  },
+  "redstone": {
+    "total": 8,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "fence_gate": 8
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\e52231f83c4b_Oak_20Horse_20Stable_skeleton.npz",
+    "occupancy_frac": 0.598907470703125,
+    "occupied": 19625
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

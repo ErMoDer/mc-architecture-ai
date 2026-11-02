@@ -1,0 +1,244 @@
+{
+  "id": "qkz8lBQ7KG-Castle",
+  "source_path": "data\\raw\\hack337\\schematics\\qkz8lBQ7KG-Castle.litematic",
+  "created_at": "2026-10-18T22:26:39+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 22,
+      "y": 25,
+      "z": 23
+    },
+    "non_air": 3011,
+    "density": 0.238,
+    "unique_block_types": 53
+  },
+  "massing": {
+    "hollow_score": 0.734,
+    "interior_air_frac": 0.734,
+    "exterior_solid_frac": 0.0349,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      5,
+      10,
+      14,
+      17
+    ],
+    "families": {
+      "stairs": 293,
+      "slabs": 413,
+      "walls": 319,
+      "fences": 17,
+      "doors": 2,
+      "trapdoors": 196,
+      "glass": 48,
+      "logs": 241,
+      "planks": 412,
+      "stone_bricks": 301,
+      "deepslate": 633,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 19,
+      "leaves": 22,
+      "lanterns": 20,
+      "copper": 0,
+      "nether": 8
+    },
+    "symmetry": {
+      "symmetry_x": 0.7536,
+      "symmetry_z": 0.8795,
+      "symmetry_y": 0.1248
+    },
+    "solid_ratio": 0.238
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 412,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 320,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 301,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 241,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 236,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff",
+        "count": 200,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 198,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 196,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_slab",
+        "count": 177,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 122,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_stairs",
+        "count": 118,
+        "frac": 0.0
+      },
+      {
+        "name": "tuff_bricks",
+        "count": 70,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 51,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_stained_glass_pane",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_bars",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite_stairs",
+        "count": 36,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 653,
+      "stone": 892,
+      "deepslate": 633,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 19,
+      "glass": 48,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 22,
+      "metal": 51
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "deepslate_bricks",
+      "stone_brick_wall",
+      "stripped_spruce_log",
+      "spruce_slab",
+      "tuff",
+      "stone",
+      "spruce_trapdoor",
+      "deepslate_brick_slab",
+      "spruce_stairs",
+      "deepslate_brick_stairs",
+      "tuff_bricks"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "chinese",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.837,
+        "raw_score": 0.4873,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.345,
+        "raw_score": 0.271
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.309,
+        "raw_score": 0.251
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.287,
+        "raw_score": 0.238
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.275,
+        "raw_score": 0.2308
+      }
+    ]
+  },
+  "redstone": {
+    "total": 215,
+    "pattern_ids": [
+      "auto_smelt_brew_line"
+    ],
+    "pattern_labels": [
+      "自动烧炼/酿造线"
+    ],
+    "inventory_nonzero": {
+      "hopper": 3,
+      "door": 2,
+      "trapdoor": 196,
+      "fence_gate": 6,
+      "brewing_stand": 3,
+      "furnace": 1,
+      "smoker": 1,
+      "blast_furnace": 1,
+      "lectern": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\qkz8lBQ7KG-Castle_skeleton.npz",
+    "occupancy_frac": 0.259765625,
+    "occupied": 8512
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

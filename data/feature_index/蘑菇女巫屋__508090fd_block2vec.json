@@ -1,0 +1,13 @@
+{
+  "id": "蘑菇女巫屋__508090fd",
+  "dim": 144,
+  "n_chunks": 16,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "蘑菇女巫屋__508090fd_block2vec.npy"
+}

@@ -1,0 +1,247 @@
+{
+  "id": "8a8000f35094_Craftel_20Fireworks",
+  "source_path": "data\\raw\\hack337\\schematics\\8a8000f35094_Craftel%20Fireworks.litematic",
+  "created_at": "2026-10-18T22:25:31+08:00",
+  "overview": {
+    "schematic_name": "Craftel Fireworks",
+    "size": {
+      "x": 9,
+      "y": 10,
+      "z": 14
+    },
+    "non_air": 119,
+    "density": 0.0944,
+    "unique_block_types": 19
+  },
+  "massing": {
+    "hollow_score": 0.8661,
+    "interior_air_frac": 0.8661,
+    "exterior_solid_frac": 0.023,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      7
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 1,
+      "glass": 19,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 39,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 1,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.1841,
+      "symmetry_z": 0.0721,
+      "symmetry_y": 0.0818
+    },
+    "solid_ratio": 0.0944
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone_bricks",
+        "count": 39,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "crafter",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_sign",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wall_sign",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "barrel",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "packed_ice",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 53,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 19,
+      "nether": 0,
+      "copper": 1,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 1,
+      "leaves": 0,
+      "metal": 22
+    },
+    "remap_targets": [
+      "stone_bricks",
+      "hopper",
+      "white_stained_glass",
+      "stone",
+      "redstone_wire",
+      "comparator",
+      "repeater",
+      "crafter",
+      "oak_sign",
+      "chest",
+      "water",
+      "redstone_torch"
+    ]
+  },
+  "style": {
+    "mapped_style": "industrial",
+    "mapped_terrain": "flat",
+    "style_id": 8,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "industrial",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.801,
+        "raw_score": 0.4506,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.654,
+        "raw_score": 0.3953
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.198,
+        "raw_score": 0.171
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.192,
+        "raw_score": 0.1674
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.12,
+        "raw_score": 0.116
+      }
+    ]
+  },
+  "redstone": {
+    "total": 36,
+    "pattern_ids": [
+      "hopper_line",
+      "crafter_auto_line",
+      "etho_hopper_clock",
+      "hopper_clock",
+      "water_hopper_stream"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "合成器自动线（1.21）",
+      "多漏斗环钟嫌疑",
+      "漏斗+比较器时钟/测量嫌疑",
+      "水流漏斗收集线嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 4,
+      "redstone_torch": 2,
+      "repeater": 2,
+      "comparator": 3,
+      "hopper": 22,
+      "trapdoor": 1,
+      "crafter": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\8a8000f35094_Craftel_20Fireworks_skeleton.npz",
+    "occupancy_frac": 0.094482421875,
+    "occupied": 3096
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

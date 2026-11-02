@@ -1,0 +1,266 @@
+{
+  "id": "中世纪小屋_十五_风车__e459e0f9",
+  "source_path": "data\\raw\\mcblock\\中世纪小屋_十五_风车__e459e0f9.litematic",
+  "created_at": "2026-10-19T13:01:08+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 17,
+      "y": 25,
+      "z": 15
+    },
+    "non_air": 1714,
+    "density": 0.2689,
+    "unique_block_types": 33
+  },
+  "massing": {
+    "hollow_score": 0.693,
+    "interior_air_frac": 0.693,
+    "exterior_solid_frac": 0.0529,
+    "floor_guess": 6,
+    "y_peaks": [
+      0,
+      3,
+      6,
+      12,
+      17,
+      20
+    ],
+    "families": {
+      "stairs": 58,
+      "slabs": 144,
+      "walls": 47,
+      "fences": 241,
+      "doors": 4,
+      "trapdoors": 66,
+      "glass": 2,
+      "logs": 482,
+      "planks": 278,
+      "stone_bricks": 1,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 181,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 28,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3507,
+      "symmetry_z": 0.9066,
+      "symmetry_y": 0.2777
+    },
+    "solid_ratio": 0.2689
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_wood",
+        "count": 416,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 278,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 182,
+        "frac": 0.0
+      },
+      {
+        "name": "white_concrete",
+        "count": 180,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 122,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_fence",
+        "count": 59,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_wood",
+        "count": 56,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_oak_stairs",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_wall",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "mossy_cobblestone",
+        "count": 20,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone_slab",
+        "count": 12,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 760,
+      "stone": 123,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 181,
+      "wool": 0,
+      "glass": 2,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "spruce_wood",
+      "spruce_planks",
+      "spruce_fence",
+      "white_concrete",
+      "spruce_slab",
+      "grass_block",
+      "dark_oak_fence",
+      "oak_wood",
+      "dark_oak_stairs",
+      "cobblestone_wall",
+      "oak_trapdoor",
+      "cobblestone"
+    ]
+  },
+  "style": {
+    "mapped_style": "medieval",
+    "mapped_terrain": "flat",
+    "style_id": 1,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "medieval",
+      "japanese",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.825,
+        "raw_score": 0.4748,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.824,
+        "raw_score": 0.4747
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.767,
+        "raw_score": 0.4535
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.719,
+        "raw_score": 0.4351
+      },
+      {
+        "style": "western",
+        "confidence": 0.671,
+        "raw_score": 0.4159
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 77,
+    "pattern_ids": [
+      "note_block_line"
+    ],
+    "pattern_labels": [
+      "音符盒线路/乐器阵"
+    ],
+    "inventory_nonzero": {
+      "button": 1,
+      "dispenser": 1,
+      "note_block": 3,
+      "door": 4,
+      "trapdoor": 66,
+      "furnace": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\中世纪小屋_十五_风车__e459e0f9_skeleton.npz",
+    "occupancy_frac": 0.293731689453125,
+    "occupied": 9625
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 8,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\中世纪小屋_十五_风车__e459e0f9_block2vec.npy",
+    "vector_preview": [
+      -0.05596,
+      0.19118,
+      -0.09,
+      0.04475,
+      0.22505,
+      0.03949,
+      -0.02151,
+      0.01341
+    ],
+    "ok": true
+  }
+}

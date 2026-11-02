@@ -1,0 +1,294 @@
+{
+  "id": "HlTdZ7jxgX-Shulker_20Shop",
+  "source_path": "data\\raw\\hack337\\schematics\\HlTdZ7jxgX-Shulker%20Shop.litematic",
+  "created_at": "2026-10-18T22:26:19+08:00",
+  "overview": {
+    "schematic_name": "Shulker Shop",
+    "size": {
+      "x": 18,
+      "y": 28,
+      "z": 18
+    },
+    "non_air": 3526,
+    "density": 0.3887,
+    "unique_block_types": 60
+  },
+  "massing": {
+    "hollow_score": 0.5841,
+    "interior_air_frac": 0.5841,
+    "exterior_solid_frac": 0.0836,
+    "floor_guess": 7,
+    "y_peaks": [
+      0,
+      6,
+      10,
+      13,
+      17,
+      21,
+      26
+    ],
+    "families": {
+      "stairs": 16,
+      "slabs": 7,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 4,
+      "glass": 28,
+      "logs": 44,
+      "planks": 0,
+      "stone_bricks": 82,
+      "deepslate": 0,
+      "terracotta": 1481,
+      "concrete": 0,
+      "wool": 20,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 74
+    },
+    "symmetry": {
+      "symmetry_x": 0.7551,
+      "symmetry_z": 0.7378,
+      "symmetry_y": 0.2075
+    },
+    "solid_ratio": 0.3887
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "magenta_terracotta",
+        "count": 1118,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 484,
+        "frac": 0.0
+      },
+      {
+        "name": "dirt",
+        "count": 416,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_terracotta",
+        "count": 335,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_sandstone",
+        "count": 238,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 166,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_bricks",
+        "count": 82,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 67,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_stem",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass",
+        "count": 28,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 26,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 24,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 44,
+      "stone": 1042,
+      "deepslate": 0,
+      "terracotta": 1481,
+      "concrete": 0,
+      "wool": 20,
+      "glass": 28,
+      "nether": 30,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 2,
+      "leaves": 0,
+      "metal": 36
+    },
+    "remap_targets": [
+      "magenta_terracotta",
+      "stone",
+      "dirt",
+      "purple_terracotta",
+      "smooth_sandstone",
+      "andesite",
+      "stone_bricks",
+      "redstone_wire",
+      "grass_block",
+      "observer",
+      "crimson_stem",
+      "cobblestone"
+    ]
+  },
+  "style": {
+    "mapped_style": "western",
+    "mapped_terrain": "desert",
+    "style_id": 11,
+    "terrain_id": 5,
+    "guess_names": [
+      "european",
+      "desert",
+      "medieval",
+      "fantasy",
+      "western"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.534,
+        "raw_score": 0.1836,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "desert",
+        "confidence": 0.491,
+        "raw_score": 0.1725
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.473,
+        "raw_score": 0.1676
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.258,
+        "raw_score": 0.1042
+      },
+      {
+        "style": "western",
+        "confidence": 0.25,
+        "raw_score": 0.1016
+      }
+    ]
+  },
+  "redstone": {
+    "total": 258,
+    "pattern_ids": [
+      "hopper_line",
+      "qc_piston_bank",
+      "simple_io",
+      "lectern_signal",
+      "item_elevator",
+      "observer_clock",
+      "t_flip_flop",
+      "etho_hopper_clock",
+      "shulker_loader",
+      "torch_clock",
+      "pulse_extender",
+      "pulse_limiter",
+      "edge_detector",
+      "instant_wire",
+      "note_block_line",
+      "hopper_clock",
+      "dropper_vator",
+      "monostable",
+      "zero_tick_bud_freerun",
+      "dual_edge_repeater",
+      "portal_frame_cue"
+    ],
+    "pattern_labels": [
+      "漏斗输送线",
+      "QC/BUD 活塞组",
+      "杠杆/按钮 → 灯或门",
+      "讲台翻页红石",
+      "物品升降机嫌疑",
+      "观察者相邻时钟嫌疑",
+      "投掷器-漏斗 T 触发器嫌疑",
+      "多漏斗环钟嫌疑",
+      "潜影盒装卸线嫌疑",
+      "火把钟骨架",
+      "脉冲延长/单稳态嫌疑",
+      "中继器锁定限幅器嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "瞬间线/同向中继器线嫌疑",
+      "音符盒线路/乐器阵",
+      "漏斗+比较器时钟/测量嫌疑",
+      "投掷器电梯（dropper-vator）",
+      "火把-中继器单稳态嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "双沿/对向中继器线嫌疑",
+      "传送门框/黑曜石阵嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 67,
+      "redstone_torch": 2,
+      "repeater": 28,
+      "comparator": 16,
+      "lever": 1,
+      "button": 3,
+      "piston": 14,
+      "sticky_piston": 4,
+      "observer": 57,
+      "hopper": 26,
+      "dropper": 2,
+      "note_block": 9,
+      "redstone_lamp": 5,
+      "trapdoor": 4,
+      "piston_head": 1,
+      "lectern": 2,
+      "shulker_box": 17
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\HlTdZ7jxgX-Shulker_20Shop_skeleton.npz",
+    "occupancy_frac": 0.41162109375,
+    "occupied": 13488
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

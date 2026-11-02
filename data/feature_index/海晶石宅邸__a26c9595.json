@@ -1,0 +1,335 @@
+{
+  "id": "海晶石宅邸__a26c9595",
+  "source_path": "data\\raw\\mcblock\\海晶石宅邸__a26c9595.litematic",
+  "created_at": "2026-10-20T13:25:58+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 60,
+      "y": 78,
+      "z": 82
+    },
+    "non_air": 19201,
+    "density": 0.05,
+    "unique_block_types": 192
+  },
+  "massing": {
+    "hollow_score": 0.9464,
+    "interior_air_frac": 0.9464,
+    "exterior_solid_frac": 0.0008,
+    "floor_guess": 9,
+    "y_peaks": [
+      1,
+      4,
+      10,
+      15,
+      25,
+      33,
+      36,
+      40,
+      45
+    ],
+    "families": {
+      "stairs": 929,
+      "slabs": 2668,
+      "walls": 105,
+      "fences": 952,
+      "doors": 12,
+      "trapdoors": 1793,
+      "glass": 0,
+      "logs": 2554,
+      "planks": 1325,
+      "stone_bricks": 233,
+      "deepslate": 544,
+      "terracotta": 167,
+      "concrete": 172,
+      "wool": 106,
+      "leaves": 8,
+      "lanterns": 84,
+      "copper": 819,
+      "nether": 528
+    },
+    "symmetry": {
+      "symmetry_x": 0.27,
+      "symmetry_z": 0.1682,
+      "symmetry_y": 0.0278
+    },
+    "solid_ratio": 0.05
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_slab",
+        "count": 1708,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_bookshelf",
+        "count": 1432,
+        "frac": 0.0
+      },
+      {
+        "name": "prismarine_bricks",
+        "count": 1249,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 1100,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 1093,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 1091,
+        "frac": 0.0
+      },
+      {
+        "name": "stone",
+        "count": 928,
+        "frac": 0.0
+      },
+      {
+        "name": "waxed_oxidized_cut_copper",
+        "count": 680,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 672,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 544,
+        "frac": 0.0
+      },
+      {
+        "name": "andesite",
+        "count": 499,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence_gate",
+        "count": 440,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 424,
+        "frac": 0.0
+      },
+      {
+        "name": "dark_prismarine",
+        "count": 384,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 375,
+        "frac": 0.0
+      },
+      {
+        "name": "warped_planks",
+        "count": 366,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 4128,
+      "stone": 4403,
+      "deepslate": 544,
+      "terracotta": 167,
+      "concrete": 172,
+      "wool": 106,
+      "glass": 0,
+      "nether": 108,
+      "copper": 819,
+      "prismarine": 461,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 6,
+      "leaves": 81,
+      "metal": 88
+    },
+    "remap_targets": [
+      "spruce_slab",
+      "chiseled_bookshelf",
+      "prismarine_bricks",
+      "spruce_trapdoor",
+      "oak_log",
+      "stripped_spruce_log",
+      "stone",
+      "waxed_oxidized_cut_copper",
+      "spruce_stairs",
+      "spruce_planks",
+      "andesite",
+      "spruce_fence_gate"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "medieval",
+      "european"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.768,
+        "raw_score": 0.4179,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.491,
+        "raw_score": 0.3106
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.434,
+        "raw_score": 0.2853
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.354,
+        "raw_score": 0.2477
+      },
+      {
+        "style": "european",
+        "confidence": 0.316,
+        "raw_score": 0.2286
+      }
+    ]
+  },
+  "redstone": {
+    "total": 3955,
+    "pattern_ids": [
+      "simple_io",
+      "crafter_auto_line",
+      "door_line",
+      "tripwire_trap",
+      "t_flip_flop",
+      "zero_tick_bud_freerun",
+      "edge_detector",
+      "note_block_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "合成器自动线（1.21）",
+      "门/活板/栅栏门控制线",
+      "绊线陷阱",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵"
+    ],
+    "inventory_nonzero": {
+      "lever": 1,
+      "button": 65,
+      "pressure_plate": 4,
+      "sticky_piston": 1,
+      "observer": 2,
+      "hopper": 8,
+      "note_block": 18,
+      "door": 12,
+      "trapdoor": 1793,
+      "fence_gate": 567,
+      "tripwire": 2,
+      "detector_rail": 2,
+      "piston_head": 1,
+      "crafter": 2,
+      "brewing_stand": 12,
+      "furnace": 8,
+      "smoker": 2,
+      "blast_furnace": 6,
+      "lectern": 17,
+      "chiseled_bookshelf": 1432
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\海晶石宅邸__a26c9595_skeleton.npz",
+    "occupancy_frac": 0.107635498046875,
+    "occupied": 3527
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 64,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\海晶石宅邸__a26c9595_block2vec.npy",
+    "vector_preview": [
+      -0.0578,
+      0.23898,
+      -0.11669,
+      -0.01731,
+      0.07059,
+      0.03289,
+      -0.06307,
+      0.10023
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "绯红菌菇小屋__e0c9b521",
+        "score": 0.9488756360246905,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\绯红菌菇小屋__e0c9b521.litematic"
+      },
+      {
+        "id": "海滨小筑__8e86858e",
+        "score": 0.9471288683243815,
+        "mapped_style": "modern",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\海滨小筑__8e86858e.litematic"
+      },
+      {
+        "id": "地冠真菌__07815707",
+        "score": 0.9446794553981036,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\地冠真菌__07815707.litematic"
+      },
+      {
+        "id": "苔痕土坯屋__86435ac5",
+        "score": 0.9414549589070526,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\苔痕土坯屋__86435ac5.litematic"
+      },
+      {
+        "id": "绯红小屋__1c17fbaa",
+        "score": 0.93872219873202,
+        "mapped_style": "fantasy",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\绯红小屋__1c17fbaa.litematic"
+      }
+    ]
+  },
+  "mapped_style": "industrial",
+  "residential_loft_topup": true
+}

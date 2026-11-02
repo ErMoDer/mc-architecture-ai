@@ -1,0 +1,239 @@
+{
+  "id": "54685b047ca1_4x4x6_20Railgun",
+  "source_path": "data\\raw\\hack337\\schematics\\54685b047ca1_4x4x6%20Railgun.litematic",
+  "created_at": "2026-10-18T22:25:14+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 4,
+      "y": 6,
+      "z": 4
+    },
+    "non_air": 41,
+    "density": 0.4271,
+    "unique_block_types": 17
+  },
+  "massing": {
+    "hollow_score": 0.25,
+    "interior_air_frac": 0.25,
+    "exterior_solid_frac": 0.3021,
+    "floor_guess": 1,
+    "y_peaks": [
+      2
+    ],
+    "families": {
+      "stairs": 3,
+      "slabs": 4,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 2,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 13,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.4138,
+      "symmetry_z": 0.4643,
+      "symmetry_y": 0.4643
+    },
+    "solid_ratio": 0.4271
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "yellow_wool",
+        "count": 13,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_slab",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_stairs",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_trapdoor",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_button",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "piston_head",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_pressure_plate",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "composter",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "powered_rail",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 13,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "yellow_wool",
+      "oak_slab",
+      "redstone_wire",
+      "oak_stairs",
+      "lever",
+      "sticky_piston",
+      "water",
+      "oak_trapdoor",
+      "observer",
+      "repeater",
+      "oak_button",
+      "redstone_wall_torch"
+    ]
+  },
+  "style": {
+    "mapped_style": "rustic",
+    "mapped_terrain": "flat",
+    "style_id": 6,
+    "terrain_id": 0,
+    "guess_names": [
+      "fantasy",
+      "rustic",
+      "modern"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.517,
+        "raw_score": 0.1667,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.181,
+        "raw_score": 0.0714
+      },
+      {
+        "style": "modern",
+        "confidence": 0.135,
+        "raw_score": 0.0556
+      }
+    ]
+  },
+  "redstone": {
+    "total": 18,
+    "pattern_ids": [
+      "t_flip_flop",
+      "monostable",
+      "torch_clock",
+      "zero_tick_bud_freerun",
+      "edge_detector"
+    ],
+    "pattern_labels": [
+      "T 触发器嫌疑",
+      "火把-中继器单稳态嫌疑",
+      "火把钟骨架",
+      "零刻/BUD 自走嫌疑",
+      "边沿检测（观察者）嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 3,
+      "redstone_torch": 1,
+      "repeater": 1,
+      "lever": 2,
+      "button": 1,
+      "pressure_plate": 1,
+      "sticky_piston": 2,
+      "observer": 2,
+      "dispenser": 1,
+      "trapdoor": 2,
+      "powered_rail": 1,
+      "piston_head": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\54685b047ca1_4x4x6_20Railgun_skeleton.npz",
+    "occupancy_frac": 0.427734375,
+    "occupied": 14016
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

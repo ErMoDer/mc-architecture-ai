@@ -1,0 +1,257 @@
+{
+  "id": "40bb617b2cbb_cobblestone_20farm_2026_1_2_20v2",
+  "source_path": "data\\raw\\hack337\\schematics\\40bb617b2cbb_cobblestone%20farm%2026.1.2%20v2.litematic",
+  "created_at": "2026-10-18T22:25:06+08:00",
+  "overview": {
+    "schematic_name": "cobblestone farm 26.1.2 ",
+    "size": {
+      "x": 15,
+      "y": 16,
+      "z": 14
+    },
+    "non_air": 386,
+    "density": 0.1149,
+    "unique_block_types": 23
+  },
+  "massing": {
+    "hollow_score": 0.8462,
+    "interior_air_frac": 0.8462,
+    "exterior_solid_frac": 0.0149,
+    "floor_guess": 3,
+    "y_peaks": [
+      1,
+      5,
+      12
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 5,
+      "walls": 1,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 1,
+      "glass": 17,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 1,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 41,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.1386,
+      "symmetry_z": 0.3356,
+      "symmetry_y": 0.0782
+    },
+    "solid_ratio": 0.1149
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cobblestone",
+        "count": 104,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone",
+        "count": 100,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "water",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 19,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 9,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_stone_slab",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_torch",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wall_torch",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "lever",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "comparator",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 210,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 17,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 1,
+      "snow_ice": 0,
+      "leaves": 41,
+      "metal": 9
+    },
+    "remap_targets": [
+      "cobblestone",
+      "smooth_stone",
+      "oak_leaves",
+      "water",
+      "lava",
+      "chest",
+      "glass",
+      "redstone_wire",
+      "hopper",
+      "smooth_stone_slab",
+      "redstone_torch",
+      "repeater"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.687,
+        "raw_score": 0.3368,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.573,
+        "raw_score": 0.298
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.381,
+        "raw_score": 0.2236
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.251,
+        "raw_score": 0.1642
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.248,
+        "raw_score": 0.1628
+      }
+    ]
+  },
+  "redstone": {
+    "total": 36,
+    "pattern_ids": [
+      "qc_piston_bank",
+      "hopper_clock",
+      "zero_tick_bud_freerun",
+      "edge_detector",
+      "water_hopper_stream",
+      "falling_edge"
+    ],
+    "pattern_labels": [
+      "QC/BUD 活塞组",
+      "漏斗+比较器时钟/测量嫌疑",
+      "零刻/BUD 自走嫌疑",
+      "边沿检测（观察者）嫌疑",
+      "水流漏斗收集线嫌疑",
+      "下降沿/双火把脉冲嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 9,
+      "redstone_torch": 6,
+      "repeater": 5,
+      "comparator": 1,
+      "lever": 1,
+      "piston": 3,
+      "observer": 1,
+      "hopper": 9,
+      "trapdoor": 1
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\40bb617b2cbb_cobblestone_20farm_2026_1_2_20v2_skeleton.npz",
+    "occupancy_frac": 0.11602783203125,
+    "occupied": 3802
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:farm",
+  "previous_mapped_style": "chinese"
+}

@@ -1,0 +1,207 @@
+{
+  "id": "332789c708ff__D0_93_D0_BE_D1_80_D0_B8_D0_B7_D0_BE_D0_BD_D1_82_203_D1_853",
+  "source_path": "data\\raw\\hack337\\schematics\\332789c708ff_%D0%93%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82%203%D1%853.litematic",
+  "created_at": "2026-10-18T22:25:01+08:00",
+  "overview": {
+    "schematic_name": "Горизонт 3х3",
+    "size": {
+      "x": 7,
+      "y": 3,
+      "z": 8
+    },
+    "non_air": 74,
+    "density": 0.4405,
+    "unique_block_types": 8
+  },
+  "massing": {
+    "hollow_score": 0.3667,
+    "interior_air_frac": 0.3667,
+    "exterior_solid_frac": 0.3274,
+    "floor_guess": 1,
+    "y_peaks": [
+      1
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 1,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.7209,
+      "symmetry_z": 0.5417,
+      "symmetry_y": 0.3704
+    },
+    "solid_ratio": 0.4405
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "stone",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "observer",
+        "count": 14,
+        "frac": 0.0
+      },
+      {
+        "name": "sticky_piston",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "note_block",
+        "count": 5,
+        "frac": 0.0
+      },
+      {
+        "name": "piston",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "redstone_wire",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "repeater",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 35,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 1,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "stone",
+      "observer",
+      "sticky_piston",
+      "note_block",
+      "piston",
+      "redstone_wire",
+      "repeater",
+      "glass"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "european",
+      "medieval",
+      "fantasy",
+      "chinese",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "european",
+        "confidence": 0.771,
+        "raw_score": 0.4206,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.654,
+        "raw_score": 0.3781
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.352,
+        "raw_score": 0.2477
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.221,
+        "raw_score": 0.1768
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.197,
+        "raw_score": 0.162
+      }
+    ]
+  },
+  "redstone": {
+    "total": 38,
+    "pattern_ids": [
+      "piston_door",
+      "observer_clock",
+      "lamp_line",
+      "qc_piston_bank",
+      "edge_detector",
+      "note_block_line",
+      "t_flip_flop",
+      "zero_tick_bud_freerun"
+    ],
+    "pattern_labels": [
+      "活塞门/排活塞",
+      "观察者相邻时钟嫌疑",
+      "红石灯/灯泡线路",
+      "QC/BUD 活塞组",
+      "边沿检测（观察者）嫌疑",
+      "音符盒线路/乐器阵",
+      "T 触发器嫌疑",
+      "零刻/BUD 自走嫌疑"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 3,
+      "repeater": 1,
+      "piston": 3,
+      "sticky_piston": 12,
+      "observer": 14,
+      "note_block": 5
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\332789c708ff__D0_93_D0_BE_D1_80_D0_B8_D0_B7_D0_BE_D0_BD_D1_82_203_D1_853_skeleton.npz",
+    "occupancy_frac": 0.4541015625,
+    "occupied": 14880
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

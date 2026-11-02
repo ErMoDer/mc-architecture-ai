@@ -1,0 +1,291 @@
+{
+  "id": "樱花小屋_四__5509333b",
+  "source_path": "data\\raw\\mcblock\\樱花小屋_四__5509333b.litematic",
+  "created_at": "2026-10-19T20:37:31+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 11,
+      "y": 9,
+      "z": 11
+    },
+    "non_air": 319,
+    "density": 0.2929,
+    "unique_block_types": 16
+  },
+  "massing": {
+    "hollow_score": 0.6014,
+    "interior_air_frac": 0.6014,
+    "exterior_solid_frac": 0.0854,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      3
+    ],
+    "families": {
+      "stairs": 77,
+      "slabs": 41,
+      "walls": 0,
+      "fences": 31,
+      "doors": 2,
+      "trapdoors": 16,
+      "glass": 0,
+      "logs": 22,
+      "planks": 69,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 31,
+      "leaves": 0,
+      "lanterns": 12,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9571,
+      "symmetry_z": 0.9571,
+      "symmetry_y": 0.1115
+    },
+    "solid_ratio": 0.2929
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "cherry_stairs",
+        "count": 46,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 45,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_slab",
+        "count": 41,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_fence",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "white_wool",
+        "count": 31,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_planks",
+        "count": 24,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_log",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_trapdoor",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "lantern",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_wall_sign",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "peony",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "potted_poppy",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "cherry_door",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "torch",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "crafting_table",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 91,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 31,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "cherry_stairs",
+      "spruce_planks",
+      "cherry_slab",
+      "spruce_stairs",
+      "cherry_fence",
+      "white_wool",
+      "cherry_planks",
+      "cherry_log",
+      "cherry_trapdoor",
+      "lantern",
+      "spruce_wall_sign",
+      "peony"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6177,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.634,
+        "raw_score": 0.4747
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.553,
+        "raw_score": 0.4351
+      },
+      {
+        "style": "western",
+        "confidence": 0.553,
+        "raw_score": 0.4351
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.214,
+        "raw_score": 0.2288
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 18,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "door": 2,
+      "trapdoor": 16
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\樱花小屋_四__5509333b_skeleton.npz",
+    "occupancy_frac": 0.32281494140625,
+    "occupied": 10578
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 2,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\樱花小屋_四__5509333b_block2vec.npy",
+    "vector_preview": [
+      -0.10047,
+      0.15037,
+      -0.13078,
+      0.12993,
+      0.02255,
+      -0.00768,
+      -0.09593,
+      0.02946
+    ],
+    "ok": true,
+    "neighbors": [
+      {
+        "id": "乡村风车__c8f922c0",
+        "score": 0.9195773157070096,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\乡村风车__c8f922c0.litematic"
+      },
+      {
+        "id": "湖畔小屋第二弹__94251ef3",
+        "score": 0.9183551682097874,
+        "mapped_style": "rustic",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\湖畔小屋第二弹__94251ef3.litematic"
+      },
+      {
+        "id": "湖畔居所第三弹__73bc28ee",
+        "score": 0.8937026412310612,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\湖畔居所第三弹__73bc28ee.litematic"
+      },
+      {
+        "id": "农场小镇_房屋第二弹__e2426795",
+        "score": 0.8929111285089137,
+        "mapped_style": "medieval",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\mcblock\\农场小镇_房屋第二弹__e2426795.litematic"
+      },
+      {
+        "id": "LsAWdSaw31dfas3S-Big_Duo_House_c42395",
+        "score": 0.8909316254235399,
+        "mapped_style": "chinese",
+        "mapped_terrain": "flat",
+        "source_path": "data\\raw\\hack337\\schematics\\LsAWdSaw31dfas3S-Big_Duo_House_c42395.litematic"
+      }
+    ]
+  }
+}

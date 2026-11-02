@@ -1,0 +1,13 @@
+{
+  "id": "塔楼小屋__6b6ec2ea",
+  "dim": 144,
+  "n_chunks": 64,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "塔楼小屋__6b6ec2ea_block2vec.npy"
+}

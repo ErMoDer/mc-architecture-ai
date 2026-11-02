@@ -1,0 +1,234 @@
+{
+  "id": "8c95b083f494_stash_20fatta_20da_20grinisucchiapisellini",
+  "source_path": "data\\raw\\hack337\\schematics\\8c95b083f494_stash%20fatta%20da%20grinisucchiapisellini.litematic",
+  "created_at": "2026-10-18T22:25:32+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 37,
+      "y": 10,
+      "z": 27
+    },
+    "non_air": 2169,
+    "density": 0.2171,
+    "unique_block_types": 20
+  },
+  "massing": {
+    "hollow_score": 0.7471,
+    "interior_air_frac": 0.7471,
+    "exterior_solid_frac": 0.0399,
+    "floor_guess": 2,
+    "y_peaks": [
+      2,
+      9
+    ],
+    "families": {
+      "stairs": 152,
+      "slabs": 227,
+      "walls": 97,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 72,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 1536,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 2,
+      "copper": 0,
+      "nether": 2
+    },
+    "symmetry": {
+      "symmetry_x": 0.4933,
+      "symmetry_z": 0.3715,
+      "symmetry_y": 0.3035
+    },
+    "solid_ratio": 0.2171
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "deepslate_tiles",
+        "count": 709,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_bricks",
+        "count": 309,
+        "frac": 0.0
+      },
+      {
+        "name": "lava",
+        "count": 246,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_slab",
+        "count": 227,
+        "frac": 0.0
+      },
+      {
+        "name": "sculk",
+        "count": 170,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_tile_stairs",
+        "count": 152,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate_wall",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 72,
+        "frac": 0.0
+      },
+      {
+        "name": "hopper",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "chiseled_deepslate",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "deepslate_brick_wall",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "sculk_catalyst",
+        "count": 7,
+        "frac": 0.0
+      },
+      {
+        "name": "ender_chest",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "lime_wall_banner",
+        "count": 3,
+        "frac": 0.0
+      },
+      {
+        "name": "crafting_table",
+        "count": 2,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 1536,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 72,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 50
+    },
+    "remap_targets": [
+      "deepslate_tiles",
+      "deepslate_bricks",
+      "lava",
+      "deepslate_tile_slab",
+      "sculk",
+      "deepslate_tile_stairs",
+      "polished_deepslate_wall",
+      "black_stained_glass",
+      "chest",
+      "hopper",
+      "chiseled_deepslate",
+      "deepslate_brick_wall"
+    ]
+  },
+  "style": {
+    "mapped_style": "modern",
+    "mapped_terrain": "flat",
+    "style_id": 3,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.47,
+        "raw_score": 0.12,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.388,
+        "raw_score": 0.1029
+      }
+    ]
+  },
+  "redstone": {
+    "total": 48,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "hopper": 48
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\8c95b083f494_stash_20fatta_20da_20grinisucchiapisellini_skeleton.npz",
+    "occupancy_frac": 0.2215576171875,
+    "occupied": 7260
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 12,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\8c95b083f494_stash_20fatta_20da_20grinisucchiapisellini_block2vec.npy",
+    "vector_preview": [
+      -0.07788,
+      0.19212,
+      -0.05351,
+      -0.00303,
+      0.05424,
+      0.03782,
+      -0.06384,
+      0.12755
+    ],
+    "ok": true
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "id": "m4lrig1JIG-Modern_20Villager_20Breeder_20and_20Trainer",
+  "source_path": "data\\raw\\hack337\\schematics\\m4lrig1JIG-Modern%20Villager%20Breeder%20and%20Trainer.litematic",
+  "created_at": "2026-10-18T22:26:30+08:00",
+  "overview": {
+    "schematic_name": "Modern Villager Breeder and Trainer",
+    "size": {
+      "x": 31,
+      "y": 20,
+      "z": 29
+    },
+    "non_air": 4718,
+    "density": 0.2624,
+    "unique_block_types": 149
+  },
+  "massing": {
+    "hollow_score": 0.7499,
+    "interior_air_frac": 0.7499,
+    "exterior_solid_frac": 0.0664,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "families": {
+      "stairs": 19,
+      "slabs": 24,
+      "walls": 5,
+      "fences": 9,
+      "doors": 4,
+      "trapdoors": 38,
+      "glass": 198,
+      "logs": 183,
+      "planks": 261,
+      "stone_bricks": 3,
+      "deepslate": 160,
+      "terracotta": 0,
+      "concrete": 371,
+      "wool": 40,
+      "leaves": 25,
+      "lanterns": 16,
+      "copper": 0,
+      "nether": 15
+    },
+    "symmetry": {
+      "symmetry_x": 0.4147,
+      "symmetry_z": 0.4075,
+      "symmetry_y": 0.0466
+    },
+    "solid_ratio": 0.2624
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "snow_block",
+        "count": 1012,
+        "frac": 0.0
+      },
+      {
+        "name": "sandstone",
+        "count": 901,
+        "frac": 0.0
+      },
+      {
+        "name": "sand",
+        "count": 680,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_concrete",
+        "count": 371,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_planks",
+        "count": 261,
+        "frac": 0.0
+      },
+      {
+        "name": "acacia_log",
+        "count": 171,
+        "frac": 0.0
+      },
+      {
+        "name": "polished_deepslate",
+        "count": 150,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass_pane",
+        "count": 96,
+        "frac": 0.0
+      },
+      {
+        "name": "black_stained_glass",
+        "count": 84,
+        "frac": 0.0
+      },
+      {
+        "name": "farmland",
+        "count": 83,
+        "frac": 0.0
+      },
+      {
+        "name": "carrots",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 49,
+        "frac": 0.0
+      },
+      {
+        "name": "dead_horn_coral_block",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "dead_bubble_coral_block",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "iron_trapdoor",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "dead_tube_coral_block",
+        "count": 34,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 463,
+      "stone": 982,
+      "deepslate": 160,
+      "terracotta": 0,
+      "concrete": 371,
+      "wool": 40,
+      "glass": 198,
+      "nether": 8,
+      "copper": 0,
+      "prismarine": 3,
+      "sandstone": 0,
+      "sand": 680,
+      "snow_ice": 1012,
+      "leaves": 29,
+      "metal": 74
+    },
+    "remap_targets": [
+      "snow_block",
+      "sandstone",
+      "sand",
+      "light_gray_concrete",
+      "jungle_planks",
+      "acacia_log",
+      "polished_deepslate",
+      "black_stained_glass_pane",
+      "black_stained_glass",
+      "farmland",
+      "carrots",
+      "grass_block"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "modern",
+      "european",
+      "medieval",
+      "chinese",
+      "rustic"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "modern",
+        "confidence": 0.658,
+        "raw_score": 0.3076,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.2,
+        "raw_score": 0.1288
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.194,
+        "raw_score": 0.1256
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.181,
+        "raw_score": 0.119
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.166,
+        "raw_score": 0.1107
+      }
+    ]
+  },
+  "redstone": {
+    "total": 120,
+    "pattern_ids": [
+      "door_line",
+      "simple_io",
+      "tripwire_trap",
+      "target_block_line",
+      "note_block_line"
+    ],
+    "pattern_labels": [
+      "门/活板/栅栏门控制线",
+      "杠杆/按钮 → 灯或门",
+      "绊线陷阱",
+      "标靶方块线路",
+      "音符盒线路/乐器阵"
+    ],
+    "inventory_nonzero": {
+      "redstone_wire": 10,
+      "redstone_torch": 3,
+      "lever": 2,
+      "button": 19,
+      "pressure_plate": 9,
+      "sticky_piston": 1,
+      "dispenser": 1,
+      "note_block": 5,
+      "target": 1,
+      "redstone_lamp": 1,
+      "iron_door": 4,
+      "trapdoor": 38,
+      "tripwire": 5,
+      "powered_rail": 6,
+      "rail": 11,
+      "piston_head": 1,
+      "furnace": 1,
+      "chiseled_bookshelf": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\m4lrig1JIG-Modern_20Villager_20Breeder_20and_20Trainer_skeleton.npz",
+    "occupancy_frac": 0.270660400390625,
+    "occupied": 8869
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "mapped_style": "unknown",
+  "exclude_from_residential": true,
+  "exclude_reason": "public_production",
+  "retag_note": "long_fill_demote_from_chinese:breeder",
+  "previous_mapped_style": "chinese"
+}

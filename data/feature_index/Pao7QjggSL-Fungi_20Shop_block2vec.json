@@ -1,0 +1,13 @@
+{
+  "id": "Pao7QjggSL-Fungi_20Shop",
+  "dim": 144,
+  "n_chunks": 1,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "Pao7QjggSL-Fungi_20Shop_block2vec.npy"
+}

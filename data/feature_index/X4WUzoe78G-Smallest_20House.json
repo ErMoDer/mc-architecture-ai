@@ -1,0 +1,256 @@
+{
+  "id": "X4WUzoe78G-Smallest_20House",
+  "source_path": "data\\raw\\hack337\\schematics\\X4WUzoe78G-Smallest%20House.litematic",
+  "created_at": "2026-10-18T22:27:19+08:00",
+  "overview": {
+    "schematic_name": "Smallest House",
+    "size": {
+      "x": 9,
+      "y": 8,
+      "z": 9
+    },
+    "non_air": 441,
+    "density": 0.6806,
+    "unique_block_types": 25
+  },
+  "massing": {
+    "hollow_score": 0.2517,
+    "interior_air_frac": 0.2517,
+    "exterior_solid_frac": 0.341,
+    "floor_guess": 2,
+    "y_peaks": [
+      0,
+      4
+    ],
+    "families": {
+      "stairs": 8,
+      "slabs": 4,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 18,
+      "glass": 11,
+      "logs": 16,
+      "planks": 80,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 1,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.9342,
+      "symmetry_z": 0.9732,
+      "symmetry_y": 0.3868
+    },
+    "solid_ratio": 0.6806
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "dirt",
+        "count": 236,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_planks",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "grass_block",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 17,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_log",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "bookshelf",
+        "count": 15,
+        "frac": 0.0
+      },
+      {
+        "name": "glass",
+        "count": 11,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 8,
+        "frac": 0.0
+      },
+      {
+        "name": "white_bed",
+        "count": 6,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 4,
+        "frac": 0.0
+      },
+      {
+        "name": "lectern",
+        "count": 2,
+        "frac": 0.0
+      },
+      {
+        "name": "lodestone",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "blast_furnace",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "smoker",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "furnace",
+        "count": 1,
+        "frac": 0.0
+      },
+      {
+        "name": "enchanting_table",
+        "count": 1,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 96,
+      "stone": 1,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 11,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 1,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 1
+    },
+    "remap_targets": [
+      "dirt",
+      "spruce_planks",
+      "grass_block",
+      "spruce_trapdoor",
+      "spruce_log",
+      "bookshelf",
+      "glass",
+      "spruce_stairs",
+      "white_bed",
+      "spruce_slab",
+      "lectern",
+      "lodestone"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.85,
+        "raw_score": 0.6823,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.694,
+        "raw_score": 0.557
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.636,
+        "raw_score": 0.5106
+      },
+      {
+        "style": "western",
+        "confidence": 0.634,
+        "raw_score": 0.5091
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.204,
+        "raw_score": 0.2371
+      }
+    ]
+  },
+  "redstone": {
+    "total": 23,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "trapdoor": 18,
+      "furnace": 1,
+      "smoker": 1,
+      "blast_furnace": 1,
+      "lectern": 2
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\X4WUzoe78G-Smallest_20House_skeleton.npz",
+    "occupancy_frac": 0.66845703125,
+    "occupied": 21904
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 1,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\X4WUzoe78G-Smallest_20House_block2vec.npy",
+    "vector_preview": [
+      -0.02605,
+      0.19501,
+      -0.04375,
+      -0.041,
+      0.06651,
+      -0.0045,
+      -0.0781,
+      -0.04463
+    ],
+    "ok": true
+  }
+}

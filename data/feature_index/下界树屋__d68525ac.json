@@ -1,0 +1,255 @@
+{
+  "id": "下界树屋__d68525ac",
+  "source_path": "data\\raw\\mcblock\\下界树屋__d68525ac.litematic",
+  "created_at": "2026-10-19T16:09:44+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 21,
+      "y": 22,
+      "z": 21
+    },
+    "non_air": 1032,
+    "density": 0.1064,
+    "unique_block_types": 17
+  },
+  "massing": {
+    "hollow_score": 0.9212,
+    "interior_air_frac": 0.9212,
+    "exterior_solid_frac": 0.0477,
+    "floor_guess": 3,
+    "y_peaks": [
+      0,
+      16,
+      20
+    ],
+    "families": {
+      "stairs": 32,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 40,
+      "doors": 0,
+      "trapdoors": 9,
+      "glass": 0,
+      "logs": 249,
+      "planks": 47,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 767
+    },
+    "symmetry": {
+      "symmetry_x": 0.7506,
+      "symmetry_z": 0.4118,
+      "symmetry_y": 0.1661
+    },
+    "solid_ratio": 0.1064
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "crimson_stem",
+        "count": 201,
+        "frac": 0.0
+      },
+      {
+        "name": "netherrack",
+        "count": 131,
+        "frac": 0.0
+      },
+      {
+        "name": "weeping_vines_plant",
+        "count": 109,
+        "frac": 0.0
+      },
+      {
+        "name": "magma_block",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "red_nether_bricks",
+        "count": 77,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_nylium",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "nether_wart_block",
+        "count": 75,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_crimson_stem",
+        "count": 48,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_planks",
+        "count": 47,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_fence",
+        "count": 40,
+        "frac": 0.0
+      },
+      {
+        "name": "soul_sand",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_stairs",
+        "count": 32,
+        "frac": 0.0
+      },
+      {
+        "name": "shroomlight",
+        "count": 29,
+        "frac": 0.0
+      },
+      {
+        "name": "weeping_vines",
+        "count": 22,
+        "frac": 0.0
+      },
+      {
+        "name": "ladder",
+        "count": 16,
+        "frac": 0.0
+      },
+      {
+        "name": "crimson_trapdoor",
+        "count": 9,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 296,
+      "stone": 77,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 0,
+      "glass": 0,
+      "nether": 474,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "crimson_stem",
+      "netherrack",
+      "weeping_vines_plant",
+      "magma_block",
+      "red_nether_bricks",
+      "crimson_nylium",
+      "nether_wart_block",
+      "stripped_crimson_stem",
+      "crimson_planks",
+      "crimson_fence",
+      "soul_sand",
+      "crimson_stairs"
+    ]
+  },
+  "style": {
+    "mapped_style": "fantasy",
+    "mapped_terrain": "flat",
+    "style_id": 2,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "rustic",
+      "japanese",
+      "western",
+      "fantasy"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.589,
+        "raw_score": 0.2389,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.585,
+        "raw_score": 0.2376
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.522,
+        "raw_score": 0.219
+      },
+      {
+        "style": "western",
+        "confidence": 0.473,
+        "raw_score": 0.2039
+      },
+      {
+        "style": "fantasy",
+        "confidence": 0.43,
+        "raw_score": 0.1901
+      }
+    ],
+    "style_source": "mcblock_manifest_override"
+  },
+  "redstone": {
+    "total": 18,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "redstone_wire": 9,
+      "trapdoor": 9
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\下界树屋__d68525ac_skeleton.npz",
+    "occupancy_frac": 0.118560791015625,
+    "occupied": 3885
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ],
+  "block2vec": {
+    "dim": 144,
+    "n_chunks": 12,
+    "backend": "transformer_block2vec",
+    "chunk_size": [
+      16,
+      8,
+      16
+    ],
+    "token_map": "palette_then_md5_hash",
+    "npy": "data\\feature_index\\下界树屋__d68525ac_block2vec.npy",
+    "vector_preview": [
+      -0.07309,
+      0.09876,
+      -0.00635,
+      0.05971,
+      0.05413,
+      -0.04081,
+      -0.09619,
+      0.13259
+    ],
+    "ok": true
+  }
+}

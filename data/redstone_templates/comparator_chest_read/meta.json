@@ -1,0 +1,15 @@
+{
+  "id": "comparator_chest_read",
+  "matches": [
+    "comparator_read",
+    "container_signal",
+    "fullness_detector"
+  ],
+  "label_zh": "比较器读箱桩（箱→比较器→灯）",
+  "size": [
+    3,
+    1,
+    1
+  ],
+  "notes": "教学桩：比较器读容器满度；非完整分拣系统。"
+}

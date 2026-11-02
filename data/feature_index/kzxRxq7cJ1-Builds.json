@@ -1,0 +1,236 @@
+{
+  "id": "kzxRxq7cJ1-Builds",
+  "source_path": "data\\raw\\hack337\\schematics\\kzxRxq7cJ1-Builds.litematic",
+  "created_at": "2026-10-18T22:26:28+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 31,
+      "y": 26,
+      "z": 32
+    },
+    "non_air": 4124,
+    "density": 0.1599,
+    "unique_block_types": 44
+  },
+  "massing": {
+    "hollow_score": 0.8316,
+    "interior_air_frac": 0.8316,
+    "exterior_solid_frac": 0.0236,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      3,
+      10,
+      20,
+      24
+    ],
+    "families": {
+      "stairs": 346,
+      "slabs": 442,
+      "walls": 0,
+      "fences": 32,
+      "doors": 4,
+      "trapdoors": 194,
+      "glass": 250,
+      "logs": 341,
+      "planks": 312,
+      "stone_bricks": 31,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 65,
+      "wool": 61,
+      "leaves": 0,
+      "lanterns": 11,
+      "copper": 821,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3069,
+      "symmetry_z": 0.1471,
+      "symmetry_y": 0.2307
+    },
+    "solid_ratio": 0.1599
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "smooth_quartz",
+        "count": 420,
+        "frac": 0.0
+      },
+      {
+        "name": "calcite",
+        "count": 373,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_log",
+        "count": 341,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_planks",
+        "count": 312,
+        "frac": 0.0
+      },
+      {
+        "name": "oxidized_cut_copper_slab",
+        "count": 310,
+        "frac": 0.0
+      },
+      {
+        "name": "oxidized_cut_copper",
+        "count": 305,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 203,
+        "frac": 0.0
+      },
+      {
+        "name": "oxidized_cut_copper_stairs",
+        "count": 199,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 194,
+        "frac": 0.0
+      },
+      {
+        "name": "infested_cobblestone",
+        "count": 124,
+        "frac": 0.0
+      },
+      {
+        "name": "white_stained_glass_pane",
+        "count": 121,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 111,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 106,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 105,
+        "frac": 0.0
+      },
+      {
+        "name": "snow_block",
+        "count": 94,
+        "frac": 0.0
+      },
+      {
+        "name": "vine",
+        "count": 78,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 653,
+      "stone": 877,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 65,
+      "wool": 61,
+      "glass": 250,
+      "nether": 0,
+      "copper": 821,
+      "prismarine": 2,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 107,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "smooth_quartz",
+      "calcite",
+      "oak_log",
+      "oak_planks",
+      "oxidized_cut_copper_slab",
+      "oxidized_cut_copper",
+      "grass",
+      "oxidized_cut_copper_stairs",
+      "spruce_trapdoor",
+      "infested_cobblestone",
+      "white_stained_glass_pane",
+      "cobblestone"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "chinese",
+      "rustic",
+      "japanese",
+      "european",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "chinese",
+        "confidence": 0.553,
+        "raw_score": 0.2028,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.52,
+        "raw_score": 0.1937
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.491,
+        "raw_score": 0.1859
+      },
+      {
+        "style": "european",
+        "confidence": 0.474,
+        "raw_score": 0.1811
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.451,
+        "raw_score": 0.1744
+      }
+    ]
+  },
+  "redstone": {
+    "total": 240,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {
+      "button": 26,
+      "door": 4,
+      "trapdoor": 194,
+      "fence_gate": 6,
+      "lectern": 10
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\kzxRxq7cJ1-Builds_skeleton.npz",
+    "occupancy_frac": 0.15655517578125,
+    "occupied": 5130
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "竹匠小屋__5a89963a",
+  "dim": 144,
+  "n_chunks": 55,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "竹匠小屋__5a89963a_block2vec.npy"
+}

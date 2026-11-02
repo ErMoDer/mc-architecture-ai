@@ -1,0 +1,13 @@
+{
+  "id": "圣诞屋__4bc183f9",
+  "dim": 144,
+  "n_chunks": 47,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "圣诞屋__4bc183f9_block2vec.npy"
+}

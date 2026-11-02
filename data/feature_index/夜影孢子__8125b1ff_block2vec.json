@@ -1,0 +1,13 @@
+{
+  "id": "夜影孢子__8125b1ff",
+  "dim": 144,
+  "n_chunks": 43,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "夜影孢子__8125b1ff_block2vec.npy"
+}

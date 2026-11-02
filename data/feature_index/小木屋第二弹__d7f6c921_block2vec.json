@@ -1,0 +1,13 @@
+{
+  "id": "小木屋第二弹__d7f6c921",
+  "dim": 144,
+  "n_chunks": 2,
+  "chunk_size": [
+    16,
+    8,
+    16
+  ],
+  "backend": "transformer_block2vec",
+  "token_map": "palette_then_md5_hash",
+  "npy": "小木屋第二弹__d7f6c921_block2vec.npy"
+}

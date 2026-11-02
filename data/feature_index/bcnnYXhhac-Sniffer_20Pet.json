@@ -1,0 +1,204 @@
+{
+  "id": "bcnnYXhhac-Sniffer_20Pet",
+  "source_path": "data\\raw\\hack337\\schematics\\bcnnYXhhac-Sniffer%20Pet.litematic",
+  "created_at": "2026-10-18T22:25:47+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 24,
+      "y": 14,
+      "z": 10
+    },
+    "non_air": 1266,
+    "density": 0.3768,
+    "unique_block_types": 11
+  },
+  "massing": {
+    "hollow_score": 0.679,
+    "interior_air_frac": 0.679,
+    "exterior_solid_frac": 0.175,
+    "floor_guess": 5,
+    "y_peaks": [
+      0,
+      3,
+      6,
+      9,
+      13
+    ],
+    "families": {
+      "stairs": 0,
+      "slabs": 0,
+      "walls": 0,
+      "fences": 0,
+      "doors": 0,
+      "trapdoors": 0,
+      "glass": 0,
+      "logs": 0,
+      "planks": 0,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 1030,
+      "concrete": 156,
+      "wool": 0,
+      "leaves": 0,
+      "lanterns": 0,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.3468,
+      "symmetry_z": 1.0,
+      "symmetry_y": 0.2892
+    },
+    "solid_ratio": 0.3768
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "lime_terracotta",
+        "count": 448,
+        "frac": 0.0
+      },
+      {
+        "name": "pink_terracotta",
+        "count": 426,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_concrete",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "glowstone",
+        "count": 80,
+        "frac": 0.0
+      },
+      {
+        "name": "cyan_terracotta",
+        "count": 54,
+        "frac": 0.0
+      },
+      {
+        "name": "red_terracotta",
+        "count": 52,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_concrete",
+        "count": 42,
+        "frac": 0.0
+      },
+      {
+        "name": "green_terracotta",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_concrete",
+        "count": 18,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_terracotta",
+        "count": 12,
+        "frac": 0.0
+      },
+      {
+        "name": "black_concrete",
+        "count": 6,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 0,
+      "stone": 0,
+      "deepslate": 0,
+      "terracotta": 1030,
+      "concrete": 156,
+      "wool": 0,
+      "glass": 0,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 0,
+      "metal": 0
+    },
+    "remap_targets": [
+      "lime_terracotta",
+      "pink_terracotta",
+      "gray_concrete",
+      "glowstone",
+      "cyan_terracotta",
+      "red_terracotta",
+      "yellow_concrete",
+      "green_terracotta",
+      "light_gray_concrete",
+      "yellow_terracotta",
+      "black_concrete"
+    ]
+  },
+  "style": {
+    "mapped_style": "western",
+    "mapped_terrain": "desert",
+    "style_id": 11,
+    "terrain_id": 5,
+    "guess_names": [
+      "desert",
+      "western",
+      "modern",
+      "industrial",
+      "scifi"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "desert",
+        "confidence": 0.621,
+        "raw_score": 0.2714,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "western",
+        "confidence": 0.264,
+        "raw_score": 0.1447
+      },
+      {
+        "style": "modern",
+        "confidence": 0.076,
+        "raw_score": 0.0512
+      },
+      {
+        "style": "industrial",
+        "confidence": 0.05,
+        "raw_score": 0.0351
+      },
+      {
+        "style": "scifi",
+        "confidence": 0.05,
+        "raw_score": 0.0351
+      }
+    ]
+  },
+  "redstone": {
+    "total": 0,
+    "pattern_ids": [],
+    "pattern_labels": [],
+    "inventory_nonzero": {},
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\bcnnYXhhac-Sniffer_20Pet_skeleton.npz",
+    "occupancy_frac": 0.3814697265625,
+    "occupied": 12500
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

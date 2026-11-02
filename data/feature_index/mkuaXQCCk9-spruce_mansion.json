@@ -1,0 +1,242 @@
+{
+  "id": "mkuaXQCCk9-spruce_mansion",
+  "source_path": "data\\raw\\hack337\\schematics\\mkuaXQCCk9-spruce_mansion.litematic",
+  "created_at": "2026-10-18T22:26:31+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 35,
+      "y": 23,
+      "z": 27
+    },
+    "non_air": 4582,
+    "density": 0.2108,
+    "unique_block_types": 55
+  },
+  "massing": {
+    "hollow_score": 0.7639,
+    "interior_air_frac": 0.7639,
+    "exterior_solid_frac": 0.0226,
+    "floor_guess": 3,
+    "y_peaks": [
+      1,
+      6,
+      11
+    ],
+    "families": {
+      "stairs": 236,
+      "slabs": 431,
+      "walls": 63,
+      "fences": 86,
+      "doors": 10,
+      "trapdoors": 160,
+      "glass": 245,
+      "logs": 703,
+      "planks": 1008,
+      "stone_bricks": 531,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 87,
+      "leaves": 324,
+      "lanterns": 109,
+      "copper": 0,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.8204,
+      "symmetry_z": 0.3663,
+      "symmetry_y": 0.0915
+    },
+    "solid_ratio": 0.2108
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "spruce_planks",
+        "count": 1008,
+        "frac": 0.0
+      },
+      {
+        "name": "stripped_spruce_log",
+        "count": 682,
+        "frac": 0.0
+      },
+      {
+        "name": "cobblestone",
+        "count": 660,
+        "frac": 0.0
+      },
+      {
+        "name": "oak_leaves",
+        "count": 324,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_slab",
+        "count": 295,
+        "frac": 0.0
+      },
+      {
+        "name": "glass_pane",
+        "count": 245,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_stairs",
+        "count": 140,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_slab",
+        "count": 136,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_trapdoor",
+        "count": 109,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_stairs",
+        "count": 90,
+        "frac": 0.0
+      },
+      {
+        "name": "spruce_fence",
+        "count": 82,
+        "frac": 0.0
+      },
+      {
+        "name": "chest",
+        "count": 79,
+        "frac": 0.0
+      },
+      {
+        "name": "campfire",
+        "count": 68,
+        "frac": 0.0
+      },
+      {
+        "name": "gray_carpet",
+        "count": 64,
+        "frac": 0.0
+      },
+      {
+        "name": "grass",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "stone_brick_wall",
+        "count": 60,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 1711,
+      "stone": 1223,
+      "deepslate": 0,
+      "terracotta": 0,
+      "concrete": 0,
+      "wool": 87,
+      "glass": 245,
+      "nether": 0,
+      "copper": 0,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 324,
+      "metal": 8
+    },
+    "remap_targets": [
+      "spruce_planks",
+      "stripped_spruce_log",
+      "cobblestone",
+      "oak_leaves",
+      "stone_brick_slab",
+      "glass_pane",
+      "stone_brick_stairs",
+      "spruce_slab",
+      "spruce_trapdoor",
+      "spruce_stairs",
+      "spruce_fence",
+      "chest"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "rustic",
+      "chinese",
+      "japanese",
+      "western",
+      "medieval"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "rustic",
+        "confidence": 0.839,
+        "raw_score": 0.4889,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.569,
+        "raw_score": 0.3808
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.515,
+        "raw_score": 0.3566
+      },
+      {
+        "style": "western",
+        "confidence": 0.356,
+        "raw_score": 0.2774
+      },
+      {
+        "style": "medieval",
+        "confidence": 0.351,
+        "raw_score": 0.2748
+      }
+    ]
+  },
+  "redstone": {
+    "total": 211,
+    "pattern_ids": [
+      "tripwire_trap"
+    ],
+    "pattern_labels": [
+      "绊线陷阱"
+    ],
+    "inventory_nonzero": {
+      "button": 22,
+      "door": 10,
+      "trapdoor": 160,
+      "fence_gate": 4,
+      "tripwire": 2,
+      "brewing_stand": 3,
+      "furnace": 4,
+      "smoker": 2,
+      "blast_furnace": 4
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\mkuaXQCCk9-spruce_mansion_skeleton.npz",
+    "occupancy_frac": 0.2208251953125,
+    "occupied": 7236
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}

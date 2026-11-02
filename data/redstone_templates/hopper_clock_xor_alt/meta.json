@@ -1,0 +1,15 @@
+{
+  "id": "hopper_clock_xor_alt",
+  "matches": [
+    "hopper_clock_alt",
+    "xor_hopper_clock",
+    "etho_alt"
+  ],
+  "label_zh": "漏斗钟交替布局（对吐+侧比较器）",
+  "size": [
+    3,
+    1,
+    2
+  ],
+  "notes": "教学桩：与 hopper_clock_basic 不同的输出侧布局；需放物品走钟。"
+}

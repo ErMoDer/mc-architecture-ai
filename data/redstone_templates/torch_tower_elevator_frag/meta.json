@@ -1,0 +1,15 @@
+{
+  "id": "torch_tower_elevator_frag",
+  "matches": [
+    "torch_tower",
+    "torch_elevator",
+    "vertical_torch_power"
+  ],
+  "label_zh": "火把塔电梯碎片（竖向火把供电示意）",
+  "size": [
+    1,
+    4,
+    2
+  ],
+  "notes": "教学桩：竖向火把塔供电碎片；非完整气泡/投掷电梯。"
+}

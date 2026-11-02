@@ -1,0 +1,243 @@
+{
+  "id": "1d29a70168e9_Chromatic_20Dreamspire",
+  "source_path": "data\\raw\\hack337\\schematics\\1d29a70168e9_Chromatic%20Dreamspire.litematic",
+  "created_at": "2026-10-18T22:24:52+08:00",
+  "overview": {
+    "schematic_name": "Unnamed",
+    "size": {
+      "x": 24,
+      "y": 35,
+      "z": 24
+    },
+    "non_air": 1801,
+    "density": 0.0893,
+    "unique_block_types": 67
+  },
+  "massing": {
+    "hollow_score": 0.9078,
+    "interior_air_frac": 0.9078,
+    "exterior_solid_frac": 0.0163,
+    "floor_guess": 4,
+    "y_peaks": [
+      0,
+      5,
+      10,
+      14
+    ],
+    "families": {
+      "stairs": 78,
+      "slabs": 121,
+      "walls": 1,
+      "fences": 11,
+      "doors": 6,
+      "trapdoors": 38,
+      "glass": 615,
+      "logs": 0,
+      "planks": 216,
+      "stone_bricks": 0,
+      "deepslate": 0,
+      "terracotta": 44,
+      "concrete": 2,
+      "wool": 89,
+      "leaves": 69,
+      "lanterns": 4,
+      "copper": 6,
+      "nether": 0
+    },
+    "symmetry": {
+      "symmetry_x": 0.2472,
+      "symmetry_z": 0.2524,
+      "symmetry_y": 0.0271
+    },
+    "solid_ratio": 0.0893
+  },
+  "materials": {
+    "top_blocks": [
+      {
+        "name": "glass",
+        "count": 228,
+        "frac": 0.0
+      },
+      {
+        "name": "smooth_sandstone",
+        "count": 209,
+        "frac": 0.0
+      },
+      {
+        "name": "jungle_planks",
+        "count": 158,
+        "frac": 0.0
+      },
+      {
+        "name": "light_gray_stained_glass",
+        "count": 150,
+        "frac": 0.0
+      },
+      {
+        "name": "purpur_slab",
+        "count": 97,
+        "frac": 0.0
+      },
+      {
+        "name": "yellow_stained_glass",
+        "count": 92,
+        "frac": 0.0
+      },
+      {
+        "name": "flowering_azalea_leaves",
+        "count": 61,
+        "frac": 0.0
+      },
+      {
+        "name": "magenta_stained_glass",
+        "count": 60,
+        "frac": 0.0
+      },
+      {
+        "name": "bamboo_planks",
+        "count": 58,
+        "frac": 0.0
+      },
+      {
+        "name": "purpur_block",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "amethyst_block",
+        "count": 57,
+        "frac": 0.0
+      },
+      {
+        "name": "green_stained_glass_pane",
+        "count": 44,
+        "frac": 0.0
+      },
+      {
+        "name": "purpur_pillar",
+        "count": 38,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_glazed_terracotta",
+        "count": 36,
+        "frac": 0.0
+      },
+      {
+        "name": "magenta_carpet",
+        "count": 35,
+        "frac": 0.0
+      },
+      {
+        "name": "purple_carpet",
+        "count": 32,
+        "frac": 0.0
+      }
+    ],
+    "palette_buckets": {
+      "wood": 269,
+      "stone": 244,
+      "deepslate": 0,
+      "terracotta": 44,
+      "concrete": 2,
+      "wool": 89,
+      "glass": 615,
+      "nether": 0,
+      "copper": 6,
+      "prismarine": 0,
+      "sandstone": 0,
+      "sand": 0,
+      "snow_ice": 0,
+      "leaves": 69,
+      "metal": 21
+    },
+    "remap_targets": [
+      "glass",
+      "smooth_sandstone",
+      "jungle_planks",
+      "light_gray_stained_glass",
+      "purpur_slab",
+      "yellow_stained_glass",
+      "flowering_azalea_leaves",
+      "magenta_stained_glass",
+      "bamboo_planks",
+      "purpur_block",
+      "amethyst_block",
+      "green_stained_glass_pane"
+    ]
+  },
+  "style": {
+    "mapped_style": "chinese",
+    "mapped_terrain": "flat",
+    "style_id": 5,
+    "terrain_id": 0,
+    "guess_names": [
+      "fantasy",
+      "european",
+      "chinese",
+      "rustic",
+      "japanese"
+    ],
+    "map_reason": "filename+analyze.guesses+design_brief heuristics",
+    "raw_guesses": [
+      {
+        "style": "fantasy",
+        "confidence": 0.539,
+        "raw_score": 0.1892,
+        "note": "材质占比启发式猜测，非标注真值；勿当作确定风格。"
+      },
+      {
+        "style": "european",
+        "confidence": 0.467,
+        "raw_score": 0.1699
+      },
+      {
+        "style": "chinese",
+        "confidence": 0.459,
+        "raw_score": 0.1678
+      },
+      {
+        "style": "rustic",
+        "confidence": 0.449,
+        "raw_score": 0.1648
+      },
+      {
+        "style": "japanese",
+        "confidence": 0.425,
+        "raw_score": 0.1581
+      }
+    ]
+  },
+  "redstone": {
+    "total": 57,
+    "pattern_ids": [
+      "simple_io",
+      "door_line"
+    ],
+    "pattern_labels": [
+      "杠杆/按钮 → 灯或门",
+      "门/活板/栅栏门控制线"
+    ],
+    "inventory_nonzero": {
+      "pressure_plate": 1,
+      "door": 4,
+      "iron_door": 2,
+      "trapdoor": 38,
+      "furnace": 1,
+      "smoker": 1,
+      "chiseled_bookshelf": 10
+    },
+    "summary": "Phase 1：构成/图/强度/QC/结构钟/常用模式 + 简化 tick 仿真（非原版对等）。"
+  },
+  "skeleton": {
+    "size": 32,
+    "npz": "data\\feature_index\\1d29a70168e9_Chromatic_20Dreamspire_skeleton.npz",
+    "occupancy_frac": 0.09368896484375,
+    "occupied": 3070
+  },
+  "limits": [
+    "特征来自 Phase1 启发式分析，非精确 BIM",
+    "骨架为 32³ 占位下采样，不是可编辑蓝图",
+    "相似生成 = 条件VAE风格/地形 + 结构约束 + 可选骨架/材质启发，非复制粘贴"
+  ]
+}
