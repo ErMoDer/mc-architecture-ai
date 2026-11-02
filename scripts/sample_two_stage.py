@@ -13,14 +13,14 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from src.data.labels import resolve_style_id, resolve_terrain_id  # noqa: E402
-from src.models import ConditionalVoxelVAE  # noqa: E402
+from src.models import ConditionalVoxelVAE, ShapeMaterialVAE  # noqa: E402
 from src.utils import resolve_device  # noqa: E402
 
 
-def load_model(path: str, device: torch.device) -> tuple[ConditionalVoxelVAE, dict]:
+def load_model(path: str, device: torch.device) -> tuple[torch.nn.Module, dict]:
     ck = torch.load(path, map_location=device, weights_only=False)
     mcfg = (ck.get("config") or {}).get("model", {})
-    model = ConditionalVoxelVAE(
+    kwargs = dict(
         num_classes=int(ck["num_classes"]),
         num_styles=int(ck["num_styles"]),
         num_terrains=int(ck["num_terrains"]),
@@ -28,7 +28,9 @@ def load_model(path: str, device: torch.device) -> tuple[ConditionalVoxelVAE, di
         base_channels=int(mcfg.get("base_channels", 32)),
         size=int(mcfg.get("size", 32) or 32),
         cond_emb_dim=int(mcfg.get("cond_emb_dim", 32)),
-    ).to(device)
+    )
+    cls = ShapeMaterialVAE if ck.get("shape_cond") else ConditionalVoxelVAE
+    model = cls(**kwargs).to(device)
     model.load_state_dict(ck["model"])
     model.eval()
     return model, ck
@@ -51,6 +53,13 @@ def main() -> None:
         help="按分位数定阈值，使预测实心比例约等于该值（如 0.05 对齐训练数据）。不填则用概率随机采样",
     )
     ap.add_argument("--out-dir", required=True)
+    ap.add_argument(
+        "--snap-ground",
+        action="store_true",
+        default=True,
+        help="输出前把最低实心层滚到 y=0（默认开启）",
+    )
+    ap.add_argument("--no-snap-ground", dest="snap_ground", action="store_false")
     ap.add_argument("--cfg", default="configs/default.yaml")
     args = ap.parse_args()
 
@@ -83,13 +92,22 @@ def main() -> None:
         else:
             solid = torch.rand_like(p_solid) < p_solid
 
-        mz = torch.randn(1, mat.latent_dim, device=device, generator=g) * args.temperature
-        mat_logits = mat.decode(mat.fuse_condition(mz, s, t))[0]
-        mat_logits[0] = -1e9  # 材质模型不产出空气；空气由 occupancy 决定
-        vox = mat_logits.argmax(dim=0)
+        if isinstance(mat, ShapeMaterialVAE):
+            vox = mat.sample(solid.float().unsqueeze(0), s, t, temperature=args.temperature)
+        else:
+            mz = torch.randn(1, mat.latent_dim, device=device, generator=g) * args.temperature
+            mat_logits = mat.decode(mat.fuse_condition(mz, s, t))[0]
+            mat_logits[0] = -1e9  # 材质模型不产出空气；空气由 occupancy 决定
+            vox = mat_logits.argmax(dim=0)
         vox = torch.where(solid, vox, torch.zeros_like(vox))
 
         arr = vox.cpu().numpy().astype(np.int16)
+        y_off = 0
+        if args.snap_ground and (arr > 0).any():
+            ys = np.where((arr > 0).any(axis=(0, 2)))[0]
+            y_off = int(ys[0])
+            if y_off:
+                arr = np.roll(arr, -y_off, axis=1)
         n = int((arr > 0).sum())
         idx = np.where((arr > 0).any(axis=(1, 2)))[0]
         bbox = None
@@ -97,7 +115,17 @@ def main() -> None:
             ys = np.where((arr > 0).any(axis=(0, 2)))[0]
             zs = np.where((arr > 0).any(axis=(0, 1)))[0]
             bbox = (int(idx[-1] - idx[0] + 1), int(ys[-1] - ys[0] + 1), int(zs[-1] - zs[0] + 1))
-        rows.append({"i": i, "non_air": n, "bbox": bbox, "p_solid_mean": round(float(p_solid.mean()), 4)})
+        mats = int(len(np.unique(arr[arr > 0])))
+        rows.append(
+            {
+                "i": i,
+                "non_air": n,
+                "bbox": bbox,
+                "materials": mats,
+                "y_offset": y_off,
+                "p_solid_mean": round(float(p_solid.mean()), 4),
+            }
+        )
         np.savez_compressed(out_dir / f"two_stage_{args.style}_{args.terrain}_{i:03d}.npz", voxels=arr)
     print(json.dumps(rows, ensure_ascii=False, indent=1))
 

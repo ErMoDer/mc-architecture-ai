@@ -16,7 +16,7 @@ sys.path.insert(0, str(ROOT))
 
 from src.data import VoxelBuildDataset
 from src.data.labels import load_vocab
-from src.models import ConditionalVoxelVAE, VoxelVAE
+from src.models import ConditionalVoxelVAE, ShapeMaterialVAE, VoxelVAE
 from src.utils import load_config, load_palette, resolve_device, set_seed
 
 
@@ -119,14 +119,33 @@ def main() -> None:
         default=None,
         help="checkpoint 文件名前缀（如 occ/mat），默认沿用 cond/空",
     )
+    parser.add_argument(
+        "--shape-input",
+        action="store_true",
+        help="两阶段-材质（v2）：材质模型额外吃 occupancy 掩码（输入通道 + 多尺度 skip），必须配合 --solid-only 的损失语义",
+    )
+    parser.add_argument(
+        "--amp",
+        action="store_true",
+        help="CUDA 混合精度（省显存、约 1.5-2x 提速）",
+    )
+    parser.add_argument(
+        "--base-channels",
+        type=int,
+        default=None,
+        help="覆盖 model.base_channels（显存吃紧时调小，如 24/16）",
+    )
     args = parser.parse_args()
 
     cfg = load_config(ROOT / args.config)
     conditional = bool(args.conditional or cfg.get("model", {}).get("conditional", False))
     set_seed(int(cfg["seed"]))
     device = resolve_device(cfg["device"])
+    if device.type == "cuda":
+        torch.backends.cudnn.benchmark = True
 
     size = int(cfg["data"]["size"])
+    base_channels = int(args.base_channels) if args.base_channels else int(cfg["model"]["base_channels"])
     palette = load_palette(ROOT / cfg["data"]["palette_path"])
     data_num_classes = max(palette) + 1
     num_classes = 2 if args.binary else data_num_classes
@@ -212,7 +231,7 @@ def main() -> None:
     balance = (med / solid_freq.clamp_min(1e-12)).clamp(1.0, 10.0).sqrt()
     solid_w = (float(freq[0]) / float(solid_total)) * balance
     weights = torch.cat([torch.tensor([air_w], dtype=torch.float64), solid_w])
-    if args.solid_only:
+    if args.solid_only or args.shape_input:
         # 材质阶段空气不参与损失，权重无意义，显式置 0
         weights[0] = 0.0
     # 归一化到“平均体素权重=1”，便于和旧 loss 量级对照
@@ -228,20 +247,31 @@ def main() -> None:
         vocab = load_vocab(ROOT / args.vocab)
         num_styles = int(vocab.get("num_styles") or len(vocab["styles"]))
         num_terrains = int(vocab.get("num_terrains") or len(vocab["terrains"]))
-        model = ConditionalVoxelVAE(
-            num_classes=num_classes,
-            num_styles=num_styles,
-            num_terrains=num_terrains,
-            latent_dim=int(cfg["model"]["latent_dim"]),
-            base_channels=int(cfg["model"]["base_channels"]),
-            size=size,
-            cond_emb_dim=int(cfg["model"].get("cond_emb_dim", 32)),
-        ).to(device)
+        if args.shape_input:
+            model = ShapeMaterialVAE(
+                num_classes=num_classes,
+                num_styles=num_styles,
+                num_terrains=num_terrains,
+                latent_dim=int(cfg["model"]["latent_dim"]),
+                base_channels=base_channels,
+                size=size,
+                cond_emb_dim=int(cfg["model"].get("cond_emb_dim", 32)),
+            ).to(device)
+        else:
+            model = ConditionalVoxelVAE(
+                num_classes=num_classes,
+                num_styles=num_styles,
+                num_terrains=num_terrains,
+                latent_dim=int(cfg["model"]["latent_dim"]),
+                base_channels=base_channels,
+                size=size,
+                cond_emb_dim=int(cfg["model"].get("cond_emb_dim", 32)),
+            ).to(device)
     else:
         model = VoxelVAE(
             num_classes=num_classes,
             latent_dim=int(cfg["model"]["latent_dim"]),
-            base_channels=int(cfg["model"]["base_channels"]),
+            base_channels=base_channels,
             size=size,
         ).to(device)
 
@@ -252,6 +282,8 @@ def main() -> None:
         lr=lr,
         weight_decay=float(cfg["train"]["weight_decay"]),
     )
+    use_amp = bool(args.amp) and device.type == "cuda"
+    scaler = torch.amp.GradScaler("cuda", enabled=use_amp)
 
     start_epoch = int(args.start_epoch or 0)
     if args.resume:
@@ -319,24 +351,37 @@ def main() -> None:
         n = 0
         for batch in pbar:
             opt.zero_grad(set_to_none=True)
-            if conditional:
-                voxels, style_id, terrain_id = batch
-                voxels = _remap_oov(voxels.to(device))
-                if args.binary:
-                    voxels = (voxels > 0).long()
-                style_id = style_id.to(device)
-                terrain_id = terrain_id.to(device)
-                loss, stats = model.loss(
-                    voxels, style_id, terrain_id, beta=beta,
-                    class_weights=class_weights, ignore_air=bool(args.solid_only),
-                )
+            with torch.amp.autocast("cuda", enabled=use_amp):
+                if conditional:
+                    voxels, style_id, terrain_id = batch
+                    voxels = _remap_oov(voxels.to(device))
+                    if args.binary:
+                        voxels = (voxels > 0).long()
+                    style_id = style_id.to(device)
+                    terrain_id = terrain_id.to(device)
+                    if args.shape_input:
+                        occ = (voxels > 0).float().unsqueeze(1)
+                        loss, stats = model.loss(
+                            voxels, occ, style_id, terrain_id, beta=beta,
+                            class_weights=class_weights, ignore_air=True,
+                        )
+                    else:
+                        loss, stats = model.loss(
+                            voxels, style_id, terrain_id, beta=beta,
+                            class_weights=class_weights, ignore_air=bool(args.solid_only),
+                        )
+                else:
+                    voxels = _remap_oov(batch.to(device))
+                    if args.binary:
+                        voxels = (voxels > 0).long()
+                    loss, stats = model.loss(voxels, beta=beta, class_weights=class_weights)
+            if use_amp:
+                scaler.scale(loss).backward()
+                scaler.step(opt)
+                scaler.update()
             else:
-                voxels = _remap_oov(batch.to(device))
-                if args.binary:
-                    voxels = (voxels > 0).long()
-                loss, stats = model.loss(voxels, beta=beta, class_weights=class_weights)
-            loss.backward()
-            opt.step()
+                loss.backward()
+                opt.step()
             n += 1
             for k in running:
                 running[k] += stats.get(k, 0.0)
@@ -353,7 +398,7 @@ def main() -> None:
         # 塌陷保护：预测实心比例应接近数据的 ~5%；跑偏成“全实心/全空气”立刻停，别白烧算力
         # 前 2 轮是从旧权重过渡的预热期，实心比例天然偏高，不参与判定
         # 材质阶段（--solid-only）空气无监督，pred_solid 无意义，跳过
-        if conditional and not args.solid_only and epoch >= start_epoch + 3:
+        if conditional and not args.solid_only and not args.shape_input and epoch >= start_epoch + 3:
             ps = avg["pred_solid"]
             if ps > 0.60:
                 raise SystemExit(f"检测到实心塌陷 pred_solid={ps:.3f} > 0.60，已停止训练")
@@ -368,6 +413,7 @@ def main() -> None:
             "conditional": conditional,
             "binary": bool(args.binary),
             "solid_only": bool(args.solid_only),
+            "shape_cond": bool(args.shape_input),
             "num_styles": num_styles if conditional else None,
             "num_terrains": num_terrains if conditional else None,
             "vocab": {

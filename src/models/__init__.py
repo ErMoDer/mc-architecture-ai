@@ -1,7 +1,14 @@
 from .vae import VoxelVAE
 from .conditional_vae import ConditionalVoxelVAE
+from .shape_material import ShapeMaterialVAE
 
-__all__ = ["VoxelVAE", "ConditionalVoxelVAE", "TransformerBlock2Vec", "load_block2vec"]
+__all__ = [
+    "VoxelVAE",
+    "ConditionalVoxelVAE",
+    "ShapeMaterialVAE",
+    "TransformerBlock2Vec",
+    "load_block2vec",
+]
 
 
 def __getattr__(name: str):
